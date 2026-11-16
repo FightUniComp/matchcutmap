@@ -1,0 +1,81 @@
+﻿id,name,category,definition
+long-take,Long takes,Camera,"Shots held well beyond conventional length, letting action unfold without a cut."
+static-camera,Static camera,Camera,The camera rarely or never moves; composition does the work.
+tracking-shot,Tracking shots,Camera,"Elaborate travelling camera movement through space, on dolly, crane or Steadicam."
+handheld,Handheld camera,Camera,Visibly unstabilised camera that follows the actors closely.
+deep-focus,Deep focus,Camera,"Foreground and background both sharp, so staging in depth replaces cutting."
+symmetry,Symmetry and frontality,Camera,"Centred, frontal or one-point-perspective compositions."
+wide-angle,Wide-angle lenses,Camera,Short lenses that exaggerate depth and distort space.
+closeup,Expressive close-ups,Camera,"Faces, hands or objects in close-up carry the meaning of the scene."
+zoom,Zooms,Camera,Visible zooming in or out as an expressive device.
+pov,Subjective point of view,Camera,The camera takes a character's optical viewpoint.
+widescreen,Widescreen composition,Camera,Staging built for the full width of a scope frame.
+montage,Montage,Editing,Meaning produced by the collision or association of shots rather than by continuity.
+jump-cut,Jump cuts,Editing,Cuts that break continuity within a scene and draw attention to themselves.
+elliptical,Elliptical editing,Editing,Key events are skipped or left off screen; the viewer fills the gaps.
+cross-cutting,Cross-cutting,Editing,Alternating between parallel lines of action to build tension or contrast.
+slow-pace,Slow pacing,Editing,Duration and stillness are foregrounded; little happens per minute by design.
+fast-cutting,Rapid cutting,Editing,Short average shot length and percussive editing rhythm.
+slow-motion,Slow motion,Editing,Slowed or step-printed motion used for emphasis.
+pop-music,Pop music cues,Sound,"Existing pop, rock or soul songs used as a structural element."
+sparse-sound,Sparse soundtrack,Sound,Little or no score; silence and ambient sound dominate.
+classical-music,Classical music,Sound,Existing classical repertoire used in place of an original score.
+voiceover,Voice-over,Sound,"Narration that comments on, or runs against, the image."
+sound-design,Expressive sound design,Sound,Sound effects and off-screen sound carry narrative or atmosphere.
+overlapping-dialogue,Overlapping dialogue,Sound,"Several characters speak at once, as in real conversation."
+non-actors,Non-professional actors,Performance,Roles cast with people who are not trained actors.
+deadpan,Deadpan performance,Performance,"Flat, withheld delivery; emotion is suppressed rather than displayed."
+improvisation,Improvisation,Performance,Scenes developed with the actors rather than fixed in the script.
+ensemble,Ensemble casts,Performance,Many characters of similar weight instead of a single protagonist.
+stylized-dialogue,Stylised dialogue,Performance,"Speech that is conspicuously written: verbose, laconic or rhythmic."
+theatrical,Theatrical staging,Performance,"Tableau framing, stage-like blocking or open acknowledgement of theatre."
+nonlinear,Non-linear structure,Narrative,Events presented out of chronological order.
+dream-logic,Dream logic,Narrative,Surreal or oneiric sequences not marked off from reality.
+self-reflexive,Self-reflexivity,Narrative,The film points at its own making or addresses the viewer.
+episodic,Episodic structure,Narrative,Loose chains of episodes instead of a tight causal plot.
+genre-revision,Genre revision,Narrative,"Popular genres reworked, mixed or turned against their conventions."
+ambiguity,Ambiguity,Narrative,Central questions are deliberately left unresolved.
+memory-time,Memory and subjective time,Narrative,"Past, present and imagination interpenetrate."
+suspense,Suspense construction,Narrative,"The viewer knows more or less than the characters, by design."
+everyday,Everyday life,Narrative,Ordinary routines and small events are the subject.
+black-comedy,Black comedy,Narrative,"Violence, death or cruelty played for uneasy laughter."
+documentary-hybrid,Documentary hybrid,Narrative,Fiction and documentary methods are mixed.
+color-stylized,Stylised colour,Mise en scene,Saturated or schematic colour used expressively.
+chiaroscuro,High-contrast lighting,Mise en scene,Strong light and shadow shape the image.
+natural-light,Natural light,Mise en scene,Available light and minimal artificial lighting.
+location,Location shooting,Mise en scene,"Shot in real streets, homes and landscapes instead of sets."
+studio-artifice,Studio artifice,Mise en scene,"Visibly designed, constructed worlds."
+landscape,Landscape and weather,Mise en scene,Terrain and weather act as a dramatic force.
+architecture-framing,Frames within frames,Mise en scene,"Doorways, windows, mirrors and buildings structure the composition."
+stylized-violence,Stylised violence,Mise en scene,Violence choreographed and aestheticised.
+planimetric,Planimetric framing,Camera,"Camera set square to a flat background, figures arranged like a frieze."
+telephoto,Telephoto lenses,Camera,Long lenses that flatten space and observe from a distance.
+follow-shot,Following shots,Camera,The camera travels behind or beside a walking character for extended stretches.
+distant-framing,Distant framing,Camera,Action staged in long shot; the camera declines to move in.
+offscreen-space,Off-screen space,Camera,Important action happens outside the frame and is heard or implied.
+direct-address,Direct address,Performance,Characters look into or speak to the camera.
+conversation-driven,Conversation-driven scenes,Performance,Long dialogue scenes are the main event rather than a bridge between actions.
+freeze-frame,Freeze frames,Editing,The image is stopped to punctuate or end a scene.
+dead-time,Dead time,Editing,"The shot continues before or after the action, dwelling on empty space or waiting."
+collage,Collage,Editing,"Stills, text, tinting, animation or found footage are cut into the film."
+chapter-structure,Chapters and intertitles,Narrative,The film is openly divided into titled parts.
+two-part-structure,Two-part structure,Narrative,The film breaks in the middle into two halves that mirror or answer each other.
+multiple-perspectives,Multiple perspectives,Narrative,The same events are told from competing or shifting viewpoints.
+wandering,Journey structure,Narrative,A road trip or aimless wandering replaces a goal-driven plot.
+chamber-drama,Chamber drama,Narrative,A few characters confined to one or two interiors.
+melodrama,Melodrama,Narrative,"Heightened emotion, social constraint and suffering, taken seriously."
+essay-form,Essay form,Narrative,Argument and reflection organise the film more than story does.
+child-perspective,Child's perspective,Narrative,The world is seen at the level of a child protagonist.
+cinephile-quotation,Film quotation,Narrative,"Other films are openly quoted, reworked or paid homage to."
+absurd-humour,Absurd humour,Narrative,Dry or surreal comedy that arises from routine and incongruity.
+provocation,Provocation,Narrative,Taboo material or attacks on the viewer's comfort are a deliberate strategy.
+crowd-choreography,Crowd choreography,Mise en scene,Large groups are staged as a single moving composition.
+mirrors-reflections,Mirrors and reflections,Mise en scene,"Mirrors, glass and reflections double or split the characters."
+period-detail,Period reconstruction,Mise en scene,"Historical settings recreated with dense, deliberate detail."
+musical-numbers,Musical numbers,Performance,Song and dance staged for the camera as part of the film's structure.
+special-effects,Effects-driven spectacle,Mise en scene,"Optical, mechanical or digital effects are central to the film's appeal."
+animation,Animation,Mise en scene,"Images drawn, modelled or manipulated frame by frame."
+action-choreography,Action choreography,Mise en scene,"Fights, chases and stunts designed and filmed so that movement itself tells the story."
+direct-observation,Direct observation,Narrative,"Documentary filmed as events unfold, without narration, interviews or staging."
+interview-testimony,Interview and testimony,Narrative,The film is built from people recounting events to the camera.
+abstraction,Abstraction,Narrative,"Light, texture, rhythm or the film material itself take the place of story."

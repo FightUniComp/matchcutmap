@@ -1,0 +1,2887 @@
+[
+ {
+  "from": "murnau",
+  "to": "hitchcock",
+  "note": "Hitchcock worked in German studios in the 1920s and watched Murnau shoot."
+ },
+ {
+  "from": "lang",
+  "to": "hitchcock",
+  "note": ""
+ },
+ {
+  "from": "murnau",
+  "to": "ford",
+  "note": "Ford absorbed Murnau's style when both worked at Fox."
+ },
+ {
+  "from": "murnau",
+  "to": "herzog",
+  "note": "Herzog remade Nosferatu."
+ },
+ {
+  "from": "lang",
+  "to": "bunuel",
+  "note": "Bunuel credited Lang's Destiny with making him want to make films."
+ },
+ {
+  "from": "lang",
+  "to": "godard",
+  "note": "Godard cast Lang as himself in Contempt."
+ },
+ {
+  "from": "ford",
+  "to": "welles",
+  "note": "Welles said he studied Stagecoach repeatedly before Citizen Kane."
+ },
+ {
+  "from": "ford",
+  "to": "kurosawa",
+  "note": "Kurosawa named Ford as the director he most wanted to resemble."
+ },
+ {
+  "from": "ford",
+  "to": "leone",
+  "note": ""
+ },
+ {
+  "from": "ford",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "ford",
+  "to": "scorsese",
+  "note": "The Searchers recurs through Scorsese's work."
+ },
+ {
+  "from": "eisenstein",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "vertov",
+  "to": "godard",
+  "note": "Godard co-founded the Dziga Vertov Group."
+ },
+ {
+  "from": "dreyer",
+  "to": "bergman",
+  "note": ""
+ },
+ {
+  "from": "dreyer",
+  "to": "vontrier",
+  "note": "Von Trier filmed Dreyer's unproduced Medea script and hired his cinematographer."
+ },
+ {
+  "from": "dreyer",
+  "to": "godard",
+  "note": "Vivre sa vie quotes The Passion of Joan of Arc."
+ },
+ {
+  "from": "renoir",
+  "to": "truffaut",
+  "note": "Truffaut named his production company after Renoir's The Golden Coach."
+ },
+ {
+  "from": "renoir",
+  "to": "altman",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "ray",
+  "note": "Ray assisted on Renoir's The River."
+ },
+ {
+  "from": "rossellini",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "truffaut",
+  "note": "Truffaut worked as Rossellini's assistant."
+ },
+ {
+  "from": "rossellini",
+  "to": "fellini",
+  "note": "Fellini co-wrote Rome, Open City and Paisan."
+ },
+ {
+  "from": "rossellini",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "kiarostami",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "dardenne",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "truffaut",
+  "note": "Truffaut's book-length interview with Hitchcock."
+ },
+ {
+  "from": "hitchcock",
+  "to": "spielberg",
+  "note": "Jaws builds its suspense on Hitchcock's rule of showing less."
+ },
+ {
+  "from": "hitchcock",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "park",
+  "note": "Park has said Vertigo made him want to direct."
+ },
+ {
+  "from": "hitchcock",
+  "to": "bong",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "kubrick",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "truffaut",
+  "note": "Truffaut wrote that Citizen Kane started more directing careers than any other film."
+ },
+ {
+  "from": "ozu",
+  "to": "kaurismaki",
+  "note": "Kaurismäki has spoken of Ozu as the standard he measures himself against."
+ },
+ {
+  "from": "ozu",
+  "to": "jarmusch",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "kiarostami",
+  "note": "Kiarostami dedicated Five to Ozu."
+ },
+ {
+  "from": "ozu",
+  "to": "denis",
+  "note": "35 Shots of Rum reworks Late Spring."
+ },
+ {
+  "from": "mizoguchi",
+  "to": "tarkovsky",
+  "note": ""
+ },
+ {
+  "from": "mizoguchi",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "leone",
+  "note": "A Fistful of Dollars reworks Yojimbo."
+ },
+ {
+  "from": "kurosawa",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "tarkovsky",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "tarkovsky",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "haneke",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "kaurismaki",
+  "note": "Kaurismäki has described his aim as making Bresson look like a director of epic action films."
+ },
+ {
+  "from": "bresson",
+  "to": "dardenne",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "jarmusch",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "tarkovsky",
+  "note": "Each named the other among the greatest living directors."
+ },
+ {
+  "from": "bergman",
+  "to": "vontrier",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "altman",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "tarkovsky",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "almodovar",
+  "note": "Almodóvar has called Buñuel the Spanish director he feels closest to."
+ },
+ {
+  "from": "tarkovsky",
+  "to": "vontrier",
+  "note": "Antichrist is dedicated to Tarkovsky."
+ },
+ {
+  "from": "fellini",
+  "to": "scorsese",
+  "note": "Scorsese has cited I Vitelloni as a model for Mean Streets."
+ },
+ {
+  "from": "fellini",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "almodovar",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "tsai",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "jarmusch",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "tarantino",
+  "note": "Tarantino named his company A Band Apart after Bande a part."
+ },
+ {
+  "from": "godard",
+  "to": "wong",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "fassbinder",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "jarmusch",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "akerman",
+  "note": "Akerman said Pierrot le Fou made her want to make films."
+ },
+ {
+  "from": "truffaut",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "spielberg",
+  "note": "Spielberg cast Truffaut in Close Encounters."
+ },
+ {
+  "from": "truffaut",
+  "to": "tsai",
+  "note": ""
+ },
+ {
+  "from": "sirk",
+  "to": "fassbinder",
+  "note": "Ali: Fear Eats the Soul reworks All That Heaven Allows."
+ },
+ {
+  "from": "sirk",
+  "to": "almodovar",
+  "note": "Almodóvar's melodramas openly borrow Sirk's colour and plotting."
+ },
+ {
+  "from": "melville",
+  "to": "tarantino",
+  "note": "Tarantino has pointed to Melville's gangster films as a model for Reservoir Dogs."
+ },
+ {
+  "from": "melville",
+  "to": "jarmusch",
+  "note": "Ghost Dog reworks Le Samouraï."
+ },
+ {
+  "from": "melville",
+  "to": "kaurismaki",
+  "note": ""
+ },
+ {
+  "from": "melville",
+  "to": "godard",
+  "note": "Melville appears in Breathless."
+ },
+ {
+  "from": "tati",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "tati",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "leone",
+  "to": "tarantino",
+  "note": "Tarantino has repeatedly named The Good, the Bad and the Ugly his favourite film."
+ },
+ {
+  "from": "cassavetes",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "almodovar",
+  "note": "All About My Mother draws on Opening Night."
+ },
+ {
+  "from": "altman",
+  "to": "pta",
+  "note": "Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him."
+ },
+ {
+  "from": "kubrick",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "pta",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "pta",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "bong",
+  "note": "Bong quoted Scorsese in his Oscar speech for Parasite."
+ },
+ {
+  "from": "fassbinder",
+  "to": "almodovar",
+  "note": ""
+ },
+ {
+  "from": "kiarostami",
+  "to": "apichatpong",
+  "note": ""
+ },
+ {
+  "from": "ray",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "ray",
+  "to": "wanderson",
+  "note": "The Darjeeling Limited is dedicated to Ray."
+ },
+ {
+  "from": "desica",
+  "to": "ray",
+  "note": "Ray said seeing Bicycle Thieves decided him to make Pather Panchali."
+ },
+ {
+  "from": "desica",
+  "to": "loach",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "panahi",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "visconti",
+  "note": "Visconti began as Renoir's assistant."
+ },
+ {
+  "from": "visconti",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "visconti",
+  "to": "coppola",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "rohmer",
+  "note": "Rohmer co-wrote the first book-length study of Hitchcock."
+ },
+ {
+  "from": "murnau",
+  "to": "rohmer",
+  "note": "Rohmer wrote his doctoral thesis on Murnau's Faust."
+ },
+ {
+  "from": "ozu",
+  "to": "wenders",
+  "note": "Wenders made Tokyo-Ga about Ozu."
+ },
+ {
+  "from": "antonioni",
+  "to": "wenders",
+  "note": "They co-directed Beyond the Clouds."
+ },
+ {
+  "from": "wenders",
+  "to": "jarmusch",
+  "note": "Wenders gave Jarmusch leftover film stock for Stranger Than Paradise."
+ },
+ {
+  "from": "kurosawa",
+  "to": "coppola",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "hou",
+  "note": "Cafe Lumiere was made as a homage to Ozu."
+ },
+ {
+  "from": "hou",
+  "to": "koreeda",
+  "note": "Kore-eda made a documentary about Hou and Yang."
+ },
+ {
+  "from": "antonioni",
+  "to": "yang",
+  "note": ""
+ },
+ {
+  "from": "kiarostami",
+  "to": "panahi",
+  "note": "Panahi was Kiarostami's assistant; Kiarostami wrote The White Balloon."
+ },
+ {
+  "from": "ozu",
+  "to": "imamura",
+  "note": "Imamura assisted Ozu and defined his own style against him."
+ },
+ {
+  "from": "imamura",
+  "to": "bong",
+  "note": ""
+ },
+ {
+  "from": "loach",
+  "to": "koreeda",
+  "note": ""
+ },
+ {
+  "from": "forman",
+  "to": "loach",
+  "note": "Loach has cited the Czech New Wave as formative."
+ },
+ {
+  "from": "ozu",
+  "to": "leigh",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "leigh",
+  "note": ""
+ },
+ {
+  "from": "keaton",
+  "to": "tati",
+  "note": "Tati's long-shot gags descend from Keaton's."
+ },
+ {
+  "from": "chaplin",
+  "to": "desica",
+  "note": ""
+ },
+ {
+  "from": "chaplin",
+  "to": "fellini",
+  "note": "Gelsomina in La Strada is modelled on the Tramp."
+ },
+ {
+  "from": "chaplin",
+  "to": "kaurismaki",
+  "note": ""
+ },
+ {
+  "from": "chaplin",
+  "to": "tarkovsky",
+  "note": "City Lights was on Tarkovsky's list of ten favourite films."
+ },
+ {
+  "from": "chaplin",
+  "to": "bresson",
+  "note": "Bresson put City Lights and The Gold Rush on his Sight and Sound ballot."
+ },
+ {
+  "from": "hawks",
+  "to": "godard",
+  "note": "The Cahiers critics championed Hawks as an auteur."
+ },
+ {
+  "from": "hawks",
+  "to": "truffaut",
+  "note": ""
+ },
+ {
+  "from": "hawks",
+  "to": "tarantino",
+  "note": "Tarantino has called Rio Bravo one of his favourite films."
+ },
+ {
+  "from": "hawks",
+  "to": "rivette",
+  "note": "Rivette wrote the essay The Genius of Howard Hawks."
+ },
+ {
+  "from": "hawks",
+  "to": "depalma",
+  "note": "De Palma remade Hawks's Scarface."
+ },
+ {
+  "from": "wilder",
+  "to": "almodovar",
+  "note": ""
+ },
+ {
+  "from": "wilder",
+  "to": "lynch",
+  "note": "Lynch counts Sunset Boulevard among his favourite films and took the name Gordon Cole from it."
+ },
+ {
+  "from": "powell",
+  "to": "scorsese",
+  "note": "Scorsese led the revival of Powell's reputation; his editor Thelma Schoonmaker married Powell."
+ },
+ {
+  "from": "powell",
+  "to": "coppola",
+  "note": "Coppola brought Powell to Zoetrope as a senior adviser."
+ },
+ {
+  "from": "powell",
+  "to": "depalma",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "pasolini",
+  "note": ""
+ },
+ {
+  "from": "dreyer",
+  "to": "pasolini",
+  "note": ""
+ },
+ {
+  "from": "pasolini",
+  "to": "bertolucci",
+  "note": "Bertolucci started as Pasolini's assistant on Accattone."
+ },
+ {
+  "from": "pasolini",
+  "to": "fassbinder",
+  "note": ""
+ },
+ {
+  "from": "pasolini",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "bertolucci",
+  "note": "In The Conformist the professor marked for assassination has Godard's Paris address and phone number."
+ },
+ {
+  "from": "rossellini",
+  "to": "bertolucci",
+  "note": "A character in Before the Revolution declares that one cannot live without Rossellini."
+ },
+ {
+  "from": "hitchcock",
+  "to": "chabrol",
+  "note": "Chabrol co-wrote the first book on Hitchcock with Rohmer."
+ },
+ {
+  "from": "lang",
+  "to": "chabrol",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "rivette",
+  "note": "Rivette made a three-part television portrait of Renoir."
+ },
+ {
+  "from": "rossellini",
+  "to": "rivette",
+  "note": "Rivette's Letter on Rossellini is a founding text of New Wave criticism."
+ },
+ {
+  "from": "mizoguchi",
+  "to": "rivette",
+  "note": ""
+ },
+ {
+  "from": "rivette",
+  "to": "denis",
+  "note": "Denis was Rivette's assistant and later made a documentary about him."
+ },
+ {
+  "from": "vertov",
+  "to": "marker",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "marker",
+  "note": "La Jetée and Sans Soleil both return to Vertigo."
+ },
+ {
+  "from": "tarkovsky",
+  "to": "marker",
+  "note": "Marker made One Day in the Life of Andrei Arsenevich about Tarkovsky."
+ },
+ {
+  "from": "bresson",
+  "to": "demy",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "polanski",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "polanski",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "polanski",
+  "note": ""
+ },
+ {
+  "from": "polanski",
+  "to": "coens",
+  "note": "Barton Fink draws on Repulsion and The Tenant."
+ },
+ {
+  "from": "bergman",
+  "to": "kieslowski",
+  "note": ""
+ },
+ {
+  "from": "loach",
+  "to": "kieslowski",
+  "note": "Kieślowski put Kes on his list of favourite films."
+ },
+ {
+  "from": "tarkovsky",
+  "to": "kieslowski",
+  "note": ""
+ },
+ {
+  "from": "mizoguchi",
+  "to": "angelopoulos",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "angelopoulos",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "angelopoulos",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "puiu",
+  "note": ""
+ },
+ {
+  "from": "rohmer",
+  "to": "puiu",
+  "note": "Puiu planned a cycle of six stories in answer to Rohmer's Six Moral Tales."
+ },
+ {
+  "from": "forman",
+  "to": "mungiu",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "depalma",
+  "note": "Obsession, Dressed to Kill and Body Double rework Vertigo, Psycho and Rear Window."
+ },
+ {
+  "from": "godard",
+  "to": "depalma",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "depalma",
+  "note": "Blow Out answers Blow-Up."
+ },
+ {
+  "from": "eisenstein",
+  "to": "depalma",
+  "note": "The station shoot-out in The Untouchables restages the Odessa Steps."
+ },
+ {
+  "from": "depalma",
+  "to": "tarantino",
+  "note": "Tarantino names Blow Out among his favourite films."
+ },
+ {
+  "from": "kurosawa",
+  "to": "peckinpah",
+  "note": "The slow-motion deaths of The Wild Bunch build on Seven Samurai."
+ },
+ {
+  "from": "ford",
+  "to": "peckinpah",
+  "note": ""
+ },
+ {
+  "from": "peckinpah",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "spikelee",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "spikelee",
+  "note": "She's Gotta Have It borrows the competing accounts of Rashomon."
+ },
+ {
+  "from": "rohmer",
+  "to": "linklater",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "linklater",
+  "note": "Slacker's chain of handed-on scenes follows The Phantom of Liberty."
+ },
+ {
+  "from": "altman",
+  "to": "linklater",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "linklater",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "fincher",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "fincher",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "fincher",
+  "note": "Fincher made Mank about the writing of Citizen Kane."
+ },
+ {
+  "from": "kubrick",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "malick",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "zhang",
+  "note": ""
+ },
+ {
+  "from": "chen",
+  "to": "zhang",
+  "note": "Zhang was the cinematographer of Chen's Yellow Earth."
+ },
+ {
+  "from": "hou",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "chen",
+  "to": "jia",
+  "note": "Jia has said seeing Yellow Earth made him want to make films."
+ },
+ {
+  "from": "antonioni",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "sembene",
+  "note": ""
+ },
+ {
+  "from": "eisenstein",
+  "to": "rocha",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "rocha",
+  "note": "Rocha appears at the crossroads in Godard's Wind from the East."
+ },
+ {
+  "from": "rossellini",
+  "to": "rocha",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "rocha",
+  "note": ""
+ },
+ {
+  "from": "rocha",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "bertolucci",
+  "to": "campion",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "campion",
+  "note": ""
+ },
+ {
+  "from": "akerman",
+  "to": "sciamma",
+  "note": ""
+ },
+ {
+  "from": "lynch",
+  "to": "sciamma",
+  "note": ""
+ },
+ {
+  "from": "campion",
+  "to": "sciamma",
+  "note": ""
+ },
+ {
+  "from": "varda",
+  "to": "sciamma",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "lanthimos",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "lanthimos",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "lanthimos",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "lanthimos",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "kitano",
+  "to": "tarantino",
+  "note": "Tarantino's label released Sonatine in the United States."
+ },
+ {
+  "from": "oshima",
+  "to": "kitano",
+  "note": "Oshima gave Kitano his first major dramatic role in Merry Christmas, Mr. Lawrence."
+ },
+ {
+  "from": "renoir",
+  "to": "welles",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "bergman",
+  "note": "Bergman called The Virgin Spring a poor imitation of Kurosawa."
+ },
+ {
+  "from": "bresson",
+  "to": "fassbinder",
+  "note": "Fassbinder fought for The Devil, Probably on the Berlin jury."
+ },
+ {
+  "from": "bresson",
+  "to": "scorsese",
+  "note": "Taxi Driver draws on Pickpocket and Diary of a Country Priest through Paul Schrader's script."
+ },
+ {
+  "from": "antonioni",
+  "to": "coppola",
+  "note": "The Conversation takes its premise from Blow-Up."
+ },
+ {
+  "from": "godard",
+  "to": "kaurismaki",
+  "note": "Kaurismäki named his production company Villealfa after Alphaville."
+ },
+ {
+  "from": "rossellini",
+  "to": "rohmer",
+  "note": ""
+ },
+ {
+  "from": "visconti",
+  "to": "fassbinder",
+  "note": ""
+ },
+ {
+  "from": "akerman",
+  "to": "reichardt",
+  "note": ""
+ },
+ {
+  "from": "sirk",
+  "to": "kaurismaki",
+  "note": ""
+ },
+ {
+  "from": "eisenstein",
+  "to": "coppola",
+  "note": "Coppola has said seeing October made him want to direct."
+ },
+ {
+  "from": "ford",
+  "to": "wenders",
+  "note": ""
+ },
+ {
+  "from": "ernstlubitsch",
+  "to": "wilder",
+  "note": "Wilder co-wrote Ninotchka for Lubitsch and kept a sign asking how Lubitsch would do it."
+ },
+ {
+  "from": "ernstlubitsch",
+  "to": "ozu",
+  "note": "Ozu's early comedies openly borrow from Lubitsch."
+ },
+ {
+  "from": "ernstlubitsch",
+  "to": "truffaut",
+  "note": ""
+ },
+ {
+  "from": "ernstlubitsch",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "ernstlubitsch",
+  "to": "josephlmankiewicz",
+  "note": ""
+ },
+ {
+  "from": "dwgriffith",
+  "to": "eisenstein",
+  "note": "Eisenstein's essay on Dickens and Griffith traces montage back to him."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "ford",
+  "note": "Ford rode as a Klansman extra in The Birth of a Nation."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "abelgance",
+  "note": ""
+ },
+ {
+  "from": "dwgriffith",
+  "to": "dreyer",
+  "note": "Dreyer's Leaves from Satan's Book is modelled on Intolerance."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "erichvonstroheim",
+  "note": "Stroheim began as Griffith's assistant and bit player."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "raoulwalsh",
+  "note": "Walsh was Griffith's assistant and played John Wilkes Booth in The Birth of a Nation."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "charleslaughton",
+  "note": "Laughton studied Griffith's films before making The Night of the Hunter and cast Lillian Gish."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "kingvidor",
+  "note": ""
+ },
+ {
+  "from": "erichvonstroheim",
+  "to": "renoir",
+  "note": "Renoir said seeing Foolish Wives decided his vocation."
+ },
+ {
+  "from": "erichvonstroheim",
+  "to": "wilder",
+  "note": "Wilder cast him as the butler in Sunset Boulevard."
+ },
+ {
+  "from": "louisfeuillade",
+  "to": "georgesfranju",
+  "note": "Franju remade Judex."
+ },
+ {
+  "from": "louisfeuillade",
+  "to": "resnais",
+  "note": ""
+ },
+ {
+  "from": "louisfeuillade",
+  "to": "rivette",
+  "note": ""
+ },
+ {
+  "from": "louisfeuillade",
+  "to": "lang",
+  "note": ""
+ },
+ {
+  "from": "victorsjostrom",
+  "to": "bergman",
+  "note": "Bergman cast him as the lead in Wild Strawberries."
+ },
+ {
+  "from": "victorsjostrom",
+  "to": "dreyer",
+  "note": ""
+ },
+ {
+  "from": "robertwiene",
+  "to": "timburton",
+  "note": ""
+ },
+ {
+  "from": "murnau",
+  "to": "frankborzage",
+  "note": "Both worked at Fox, where Sunrise reshaped the studio's style."
+ },
+ {
+  "from": "murnau",
+  "to": "edgargulmer",
+  "note": "Ulmer worked in Murnau's design team."
+ },
+ {
+  "from": "abelgance",
+  "to": "coppola",
+  "note": "Coppola presented the restored Napoléon with a live orchestra in 1981."
+ },
+ {
+  "from": "jeanvigo",
+  "to": "truffaut",
+  "note": "The 400 Blows echoes Zero for Conduct."
+ },
+ {
+  "from": "jeanvigo",
+  "to": "lindsayanderson",
+  "note": "If.... reworks Zero for Conduct."
+ },
+ {
+  "from": "jeanvigo",
+  "to": "leoscarax",
+  "note": ""
+ },
+ {
+  "from": "jeanvigo",
+  "to": "emirkusturica",
+  "note": "Underground quotes the underwater scene of L'Atalante."
+ },
+ {
+  "from": "reneclair",
+  "to": "chaplin",
+  "note": "The producers of À nous la liberté claimed Modern Times copied it; Clair said he was flattered."
+ },
+ {
+  "from": "maxophuls",
+  "to": "kubrick",
+  "note": "Kubrick named Ophüls as a favourite and adopted his tracking shots."
+ },
+ {
+  "from": "maxophuls",
+  "to": "demy",
+  "note": "Demy dedicated Lola to Ophüls."
+ },
+ {
+  "from": "maxophuls",
+  "to": "pta",
+  "note": ""
+ },
+ {
+  "from": "maxophuls",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "maxophuls",
+  "to": "truffaut",
+  "note": ""
+ },
+ {
+  "from": "josefvonsternberg",
+  "to": "fassbinder",
+  "note": ""
+ },
+ {
+  "from": "jeancocteau",
+  "to": "demy",
+  "note": "Demy cast Cocteau's star Jean Marais in Donkey Skin."
+ },
+ {
+  "from": "jeancocteau",
+  "to": "melville",
+  "note": "Melville filmed Cocteau's Les Enfants terribles."
+ },
+ {
+  "from": "jeancocteau",
+  "to": "leoscarax",
+  "note": ""
+ },
+ {
+  "from": "jeancocteau",
+  "to": "truffaut",
+  "note": "Truffaut helped finance Testament of Orpheus."
+ },
+ {
+  "from": "jeancocteau",
+  "to": "derekjarman",
+  "note": ""
+ },
+ {
+  "from": "jeancocteau",
+  "to": "guillermodeltoro",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "jacquesbecker",
+  "note": "Becker was Renoir's assistant through the 1930s."
+ },
+ {
+  "from": "jacquesbecker",
+  "to": "truffaut",
+  "note": ""
+ },
+ {
+  "from": "jacquesbecker",
+  "to": "kaurismaki",
+  "note": ""
+ },
+ {
+  "from": "henrigeorgesclouzot",
+  "to": "williamfriedkin",
+  "note": "Friedkin's Sorcerer remakes The Wages of Fear."
+ },
+ {
+  "from": "henrigeorgesclouzot",
+  "to": "hitchcock",
+  "note": "Psycho is often read as Hitchcock's answer to Diabolique."
+ },
+ {
+  "from": "henrigeorgesclouzot",
+  "to": "bong",
+  "note": ""
+ },
+ {
+  "from": "georgesfranju",
+  "to": "almodovar",
+  "note": "The Skin I Live In draws on Eyes Without a Face."
+ },
+ {
+  "from": "georgesfranju",
+  "to": "leoscarax",
+  "note": "Holy Motors casts Édith Scob and has her put on her mask from Eyes Without a Face."
+ },
+ {
+  "from": "bresson",
+  "to": "jeaneustache",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "jeaneustache",
+  "note": ""
+ },
+ {
+  "from": "jeaneustache",
+  "to": "jarmusch",
+  "note": "Jarmusch dedicated Broken Flowers to Eustache."
+ },
+ {
+  "from": "renoir",
+  "to": "mauricepialat",
+  "note": ""
+ },
+ {
+  "from": "mauricepialat",
+  "to": "dardenne",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "leoscarax",
+  "note": "Carax appears in Godard's King Lear."
+ },
+ {
+  "from": "jeanrouch",
+  "to": "godard",
+  "note": "Godard hailed Moi, un Noir; its improvised methods fed into Breathless."
+ },
+ {
+  "from": "jeanrouch",
+  "to": "rivette",
+  "note": ""
+ },
+ {
+  "from": "robertjflaherty",
+  "to": "jeanrouch",
+  "note": ""
+ },
+ {
+  "from": "vertov",
+  "to": "jeanrouch",
+  "note": "The term cinéma vérité translates Vertov's Kino-Pravda."
+ },
+ {
+  "from": "bresson",
+  "to": "louismalle",
+  "note": "Malle was Bresson's assistant on A Man Escaped."
+ },
+ {
+  "from": "louismalle",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "straubhuillet",
+  "note": ""
+ },
+ {
+  "from": "dreyer",
+  "to": "straubhuillet",
+  "note": ""
+ },
+ {
+  "from": "straubhuillet",
+  "to": "pedrocosta",
+  "note": "Costa filmed them at work in Where Does Your Hidden Smile Lie?"
+ },
+ {
+  "from": "straubhuillet",
+  "to": "fassbinder",
+  "note": "Fassbinder acted in their short The Bridegroom, the Comedienne and the Pimp."
+ },
+ {
+  "from": "ozu",
+  "to": "pedrocosta",
+  "note": ""
+ },
+ {
+  "from": "jacquestourneur",
+  "to": "pedrocosta",
+  "note": "Casa de Lava reworks I Walked with a Zombie."
+ },
+ {
+  "from": "ford",
+  "to": "pedrocosta",
+  "note": ""
+ },
+ {
+  "from": "jameswhale",
+  "to": "victorerice",
+  "note": "The Spirit of the Beehive turns on a village screening of Frankenstein."
+ },
+ {
+  "from": "desica",
+  "to": "luisgarciaberlanga",
+  "note": ""
+ },
+ {
+  "from": "luisgarciaberlanga",
+  "to": "almodovar",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "raulruiz",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "raulruiz",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "gillopontecorvo",
+  "note": "Pontecorvo said seeing Paisan made him a filmmaker."
+ },
+ {
+  "from": "gillopontecorvo",
+  "to": "saramaldoror",
+  "note": "Maldoror was an assistant on The Battle of Algiers."
+ },
+ {
+  "from": "gillopontecorvo",
+  "to": "alfonsocuaron",
+  "note": ""
+ },
+ {
+  "from": "gillopontecorvo",
+  "to": "spikelee",
+  "note": ""
+ },
+ {
+  "from": "visconti",
+  "to": "francescorosi",
+  "note": "Rosi was Visconti's assistant on La Terra Trema."
+ },
+ {
+  "from": "francescorosi",
+  "to": "coppola",
+  "note": ""
+ },
+ {
+  "from": "francescorosi",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "ermannoolmi",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "ermannoolmi",
+  "note": ""
+ },
+ {
+  "from": "davidlean",
+  "to": "spielberg",
+  "note": "Spielberg has said he rewatches Lawrence of Arabia before starting a film."
+ },
+ {
+  "from": "davidlean",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "ford",
+  "to": "davidlean",
+  "note": ""
+ },
+ {
+  "from": "davidlean",
+  "to": "toddhaynes",
+  "note": "Carol is modelled in part on Brief Encounter."
+ },
+ {
+  "from": "carolreed",
+  "to": "polanski",
+  "note": "Polanski has named Odd Man Out as a formative film."
+ },
+ {
+  "from": "alexandermackendrick",
+  "to": "coens",
+  "note": "The Coens remade The Ladykillers."
+ },
+ {
+  "from": "powell",
+  "to": "georgearomero",
+  "note": "Romero named The Tales of Hoffmann as the film that made him want to direct."
+ },
+ {
+  "from": "powell",
+  "to": "derekjarman",
+  "note": "Named among the filmmakers they influenced in The Oxford History of World Cinema."
+ },
+ {
+  "from": "powell",
+  "to": "sallypotter",
+  "note": "Named among the filmmakers they influenced in The Oxford History of World Cinema."
+ },
+ {
+  "from": "hitchcock",
+  "to": "powell",
+  "note": "Powell worked as a stills photographer on Hitchcock's early films."
+ },
+ {
+  "from": "resnais",
+  "to": "nicolasroeg",
+  "note": ""
+ },
+ {
+  "from": "nicolasroeg",
+  "to": "nolan",
+  "note": "Nolan has cited Roeg's fractured editing as a model for Memento."
+ },
+ {
+  "from": "nicolasroeg",
+  "to": "jonathanglazer",
+  "note": ""
+ },
+ {
+  "from": "nicolasroeg",
+  "to": "lynneramsay",
+  "note": ""
+ },
+ {
+  "from": "nicolasroeg",
+  "to": "peterweir",
+  "note": ""
+ },
+ {
+  "from": "resnais",
+  "to": "johnboorman",
+  "note": ""
+ },
+ {
+  "from": "ford",
+  "to": "lindsayanderson",
+  "note": "Anderson wrote the book About John Ford."
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "terencedavies",
+  "note": ""
+ },
+ {
+  "from": "pasolini",
+  "to": "derekjarman",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "andrzejwajda",
+  "note": ""
+ },
+ {
+  "from": "andrzejwajda",
+  "to": "andrzejzulawski",
+  "note": "Żuławski was Wajda's assistant."
+ },
+ {
+  "from": "andrzejwajda",
+  "to": "polanski",
+  "note": "Polanski acted in Wajda's A Generation."
+ },
+ {
+  "from": "andrzejwajda",
+  "to": "kieslowski",
+  "note": ""
+ },
+ {
+  "from": "andrzejwajda",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "miklosjancso",
+  "to": "tarr",
+  "note": ""
+ },
+ {
+  "from": "miklosjancso",
+  "to": "angelopoulos",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "miklosjancso",
+  "note": ""
+ },
+ {
+  "from": "alexanderdovzhenko",
+  "to": "sergeiparajanov",
+  "note": ""
+ },
+ {
+  "from": "alexanderdovzhenko",
+  "to": "tarkovsky",
+  "note": ""
+ },
+ {
+  "from": "alexanderdovzhenko",
+  "to": "larisashepitko",
+  "note": "Shepitko studied under Dovzhenko at VGIK."
+ },
+ {
+  "from": "tarkovsky",
+  "to": "sergeiparajanov",
+  "note": "Parajanov said Ivan's Childhood freed him to make Shadows of Forgotten Ancestors."
+ },
+ {
+  "from": "pasolini",
+  "to": "sergeiparajanov",
+  "note": ""
+ },
+ {
+  "from": "mikhailkalatozov",
+  "to": "pta",
+  "note": "The pool shot in Boogie Nights is taken from I Am Cuba."
+ },
+ {
+  "from": "mikhailkalatozov",
+  "to": "scorsese",
+  "note": "Scorsese and Coppola presented the re-release of I Am Cuba."
+ },
+ {
+  "from": "larisashepitko",
+  "to": "elemklimov",
+  "note": "They were married; Klimov completed her last project as Farewell."
+ },
+ {
+  "from": "tarkovsky",
+  "to": "aleksandrsokurov",
+  "note": "Tarkovsky championed the young Sokurov against the censors."
+ },
+ {
+  "from": "mikionaruse",
+  "to": "koreeda",
+  "note": "Kore-eda has said he feels closer to Naruse than to Ozu."
+ },
+ {
+  "from": "isaotakahata",
+  "to": "hayaomiyazaki",
+  "note": "Takahata was Miyazaki's senior colleague and mentor from their years at Toei."
+ },
+ {
+  "from": "hayaomiyazaki",
+  "to": "guillermodeltoro",
+  "note": ""
+ },
+ {
+  "from": "hayaomiyazaki",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "isaotakahata",
+  "note": ""
+ },
+ {
+  "from": "feimu",
+  "to": "jia",
+  "note": ""
+ },
+ {
+  "from": "kinghu",
+  "to": "anglee",
+  "note": "The bamboo fight in Crouching Tiger, Hidden Dragon pays homage to A Touch of Zen."
+ },
+ {
+  "from": "kinghu",
+  "to": "tsai",
+  "note": "Goodbye, Dragon Inn takes place during a last screening of Hu's Dragon Inn."
+ },
+ {
+  "from": "kinghu",
+  "to": "zhang",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "anglee",
+  "note": "Lee has said The Virgin Spring made him want to be a filmmaker."
+ },
+ {
+  "from": "eisenstein",
+  "to": "ritwikghatak",
+  "note": ""
+ },
+ {
+  "from": "rohmer",
+  "to": "hongsangsoo",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "hongsangsoo",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "hongsangsoo",
+  "note": ""
+ },
+ {
+  "from": "hawks",
+  "to": "johncarpenter",
+  "note": "Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing."
+ },
+ {
+  "from": "hitchcock",
+  "to": "johncarpenter",
+  "note": ""
+ },
+ {
+  "from": "johncarpenter",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "georgearomero",
+  "to": "jordanpeele",
+  "note": ""
+ },
+ {
+  "from": "jameswhale",
+  "to": "timburton",
+  "note": ""
+ },
+ {
+  "from": "jameswhale",
+  "to": "guillermodeltoro",
+  "note": ""
+ },
+ {
+  "from": "jameswhale",
+  "to": "melbrooks",
+  "note": "Young Frankenstein reuses laboratory props from Whale's Frankenstein."
+ },
+ {
+  "from": "todbrowning",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "jacquestourneur",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "darioargento",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "darioargento",
+  "note": "Deep Red casts David Hemmings, the star of Blow-Up, as another witness who misreads what he saw."
+ },
+ {
+  "from": "leone",
+  "to": "darioargento",
+  "note": "Argento co-wrote the story of Once Upon a Time in the West."
+ },
+ {
+  "from": "darioargento",
+  "to": "georgearomero",
+  "note": "Argento co-produced and helped score Dawn of the Dead."
+ },
+ {
+  "from": "leone",
+  "to": "clinteastwood",
+  "note": "The Dollars trilogy made Eastwood a star; he dedicated Unforgiven to Leone."
+ },
+ {
+  "from": "donsiegel",
+  "to": "clinteastwood",
+  "note": "Siegel directed him in five films and is the other dedicatee of Unforgiven."
+ },
+ {
+  "from": "georgestevens",
+  "to": "clinteastwood",
+  "note": "Pale Rider reworks Shane."
+ },
+ {
+  "from": "johnhuston",
+  "to": "clinteastwood",
+  "note": "White Hunter Black Heart is a portrait of Huston."
+ },
+ {
+  "from": "kurosawa",
+  "to": "georgelucas",
+  "note": "Star Wars borrows its two bickering peasants and princess from The Hidden Fortress."
+ },
+ {
+  "from": "ford",
+  "to": "georgelucas",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "georgelucas",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "georgelucas",
+  "note": ""
+ },
+ {
+  "from": "leniriefenstahl",
+  "to": "georgelucas",
+  "note": "The medal ceremony that ends Star Wars is often compared to Triumph of the Will."
+ },
+ {
+  "from": "irvinkershner",
+  "to": "georgelucas",
+  "note": "Kershner taught Lucas at USC."
+ },
+ {
+  "from": "kubrick",
+  "to": "ridleyscott",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "ridleyscott",
+  "note": "The city of Blade Runner descends from Metropolis."
+ },
+ {
+  "from": "ridleyscott",
+  "to": "fincher",
+  "note": ""
+ },
+ {
+  "from": "ridleyscott",
+  "to": "nolan",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "jamescameron",
+  "note": ""
+ },
+ {
+  "from": "georgelucas",
+  "to": "jamescameron",
+  "note": "Cameron has said Star Wars made him quit his job as a truck driver."
+ },
+ {
+  "from": "cooperschoedsack",
+  "to": "peterjackson",
+  "note": "Jackson has said King Kong made him want to make films, and remade it in 2005."
+ },
+ {
+  "from": "cooperschoedsack",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "spielberg",
+  "to": "robertzemeckis",
+  "note": "Spielberg produced Zemeckis's early films, including Back to the Future."
+ },
+ {
+  "from": "frankcapra",
+  "to": "robertzemeckis",
+  "note": ""
+ },
+ {
+  "from": "frankcapra",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "frankcapra",
+  "to": "coens",
+  "note": ""
+ },
+ {
+  "from": "frankcapra",
+  "to": "kurosawa",
+  "note": ""
+ },
+ {
+  "from": "prestonsturges",
+  "to": "coens",
+  "note": "O Brother, Where Art Thou? takes its title from Sullivan's Travels."
+ },
+ {
+  "from": "hawks",
+  "to": "peterbogdanovich",
+  "note": "What's Up, Doc? is modelled on Bringing Up Baby."
+ },
+ {
+  "from": "ford",
+  "to": "peterbogdanovich",
+  "note": "Bogdanovich made the documentary Directed by John Ford."
+ },
+ {
+  "from": "welles",
+  "to": "peterbogdanovich",
+  "note": "Welles lived in Bogdanovich's house for a time, and Bogdanovich acted in The Other Side of the Wind."
+ },
+ {
+  "from": "leomccarey",
+  "to": "ozu",
+  "note": "Tokyo Story was inspired by Make Way for Tomorrow."
+ },
+ {
+  "from": "leomccarey",
+  "to": "blakeedwards",
+  "note": ""
+ },
+ {
+  "from": "eliakazan",
+  "to": "scorsese",
+  "note": "Scorsese made the documentary A Letter to Elia."
+ },
+ {
+  "from": "eliakazan",
+  "to": "nicholasray",
+  "note": "Ray was Kazan's assistant on A Tree Grows in Brooklyn."
+ },
+ {
+  "from": "nicholasray",
+  "to": "godard",
+  "note": "Godard wrote that the cinema is Nicholas Ray."
+ },
+ {
+  "from": "nicholasray",
+  "to": "truffaut",
+  "note": ""
+ },
+ {
+  "from": "nicholasray",
+  "to": "wenders",
+  "note": "They co-directed Lightning Over Water as Ray was dying."
+ },
+ {
+  "from": "nicholasray",
+  "to": "jarmusch",
+  "note": "Jarmusch was Ray's teaching assistant at NYU."
+ },
+ {
+  "from": "nicholasray",
+  "to": "almodovar",
+  "note": "Women on the Verge of a Nervous Breakdown has its heroine dub Johnny Guitar."
+ },
+ {
+  "from": "nicholasray",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "samuelfuller",
+  "to": "godard",
+  "note": "Fuller appears as himself in Pierrot le Fou."
+ },
+ {
+  "from": "samuelfuller",
+  "to": "wenders",
+  "note": "Wenders cast Fuller in several films."
+ },
+ {
+  "from": "samuelfuller",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "samuelfuller",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "samuelfuller",
+  "to": "jarmusch",
+  "note": ""
+ },
+ {
+  "from": "samuelfuller",
+  "to": "kaurismaki",
+  "note": "Kaurismäki cast Fuller in La Vie de bohème."
+ },
+ {
+  "from": "ottopreminger",
+  "to": "godard",
+  "note": "Godard cast Jean Seberg in Breathless after Preminger's Bonjour Tristesse."
+ },
+ {
+  "from": "ottopreminger",
+  "to": "rivette",
+  "note": ""
+ },
+ {
+  "from": "robertaldrich",
+  "to": "tarantino",
+  "note": "The glowing briefcase in Pulp Fiction is often traced to the box in Kiss Me Deadly."
+ },
+ {
+  "from": "robertaldrich",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "robertaldrich",
+  "note": "Aldrich was an assistant director on Renoir's The Southerner."
+ },
+ {
+  "from": "anthonymann",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "donsiegel",
+  "to": "peckinpah",
+  "note": "Peckinpah was Siegel's assistant on Invasion of the Body Snatchers."
+ },
+ {
+  "from": "johnhuston",
+  "to": "pta",
+  "note": "Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood."
+ },
+ {
+  "from": "josephlmankiewicz",
+  "to": "almodovar",
+  "note": "All About My Mother takes its title from All About Eve."
+ },
+ {
+  "from": "josephlmankiewicz",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "demy",
+  "note": ""
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "godard",
+  "note": "Contempt cites Some Came Running."
+ },
+ {
+  "from": "donenkelly",
+  "to": "demy",
+  "note": "Demy cast Gene Kelly in The Young Girls of Rochefort."
+ },
+ {
+  "from": "donenkelly",
+  "to": "bobfosse",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "bobfosse",
+  "note": "Sweet Charity adapts Nights of Cabiria, and All That Jazz is his answer to 8½."
+ },
+ {
+  "from": "bergman",
+  "to": "woodyallen",
+  "note": "Allen has called Bergman the greatest film artist; Interiors and Love and Death both draw on him."
+ },
+ {
+  "from": "fellini",
+  "to": "woodyallen",
+  "note": "Stardust Memories reworks 8½."
+ },
+ {
+  "from": "leomccarey",
+  "to": "woodyallen",
+  "note": "A screening of Duck Soup restores the hero's will to live in Hannah and Her Sisters."
+ },
+ {
+  "from": "woodyallen",
+  "to": "robreiner",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "mikenichols",
+  "note": ""
+ },
+ {
+  "from": "mikenichols",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "elainemay",
+  "note": "May cast Cassavetes and Peter Falk as the leads of Mikey and Nicky."
+ },
+ {
+  "from": "halashby",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "arthurpenn",
+  "note": "Bonnie and Clyde was offered first to Truffaut, who passed it on."
+ },
+ {
+  "from": "godard",
+  "to": "arthurpenn",
+  "note": ""
+ },
+ {
+  "from": "kurosawa",
+  "to": "arthurpenn",
+  "note": ""
+ },
+ {
+  "from": "sidneylumet",
+  "to": "spikelee",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "williamfriedkin",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "williamfriedkin",
+  "note": ""
+ },
+ {
+  "from": "alanjpakula",
+  "to": "fincher",
+  "note": "Zodiac is modelled on All the President's Men."
+ },
+ {
+  "from": "ford",
+  "to": "michaelcimino",
+  "note": ""
+ },
+ {
+  "from": "visconti",
+  "to": "michaelcimino",
+  "note": ""
+ },
+ {
+  "from": "montehellman",
+  "to": "tarantino",
+  "note": "Hellman was an executive producer of Reservoir Dogs."
+ },
+ {
+  "from": "antonioni",
+  "to": "montehellman",
+  "note": ""
+ },
+ {
+  "from": "stanbrakhage",
+  "to": "fincher",
+  "note": "The title sequence of Seven borrows Brakhage's scratched-film look."
+ },
+ {
+  "from": "mayaderen",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "mayaderen",
+  "to": "stanbrakhage",
+  "note": ""
+ },
+ {
+  "from": "mayaderen",
+  "to": "lynneramsay",
+  "note": ""
+ },
+ {
+  "from": "andywarhol",
+  "to": "akerman",
+  "note": ""
+ },
+ {
+  "from": "michaelsnow",
+  "to": "akerman",
+  "note": "Akerman saw Snow's films in New York in the early 1970s and called them decisive."
+ },
+ {
+  "from": "jonasmekas",
+  "to": "akerman",
+  "note": ""
+ },
+ {
+  "from": "andywarhol",
+  "to": "gusvansant",
+  "note": ""
+ },
+ {
+  "from": "andywarhol",
+  "to": "johnwaters",
+  "note": ""
+ },
+ {
+  "from": "frederickwiseman",
+  "to": "wangbing",
+  "note": ""
+ },
+ {
+  "from": "errolmorris",
+  "to": "joshuaoppenheimer",
+  "note": "Morris was an executive producer of The Act of Killing."
+ },
+ {
+  "from": "herzog",
+  "to": "joshuaoppenheimer",
+  "note": "Herzog was an executive producer of The Act of Killing."
+ },
+ {
+  "from": "marker",
+  "to": "patricioguzman",
+  "note": "Marker sent the film stock that made The Battle of Chile possible."
+ },
+ {
+  "from": "marker",
+  "to": "terrygilliam",
+  "note": "12 Monkeys is based on La Jetée."
+ },
+ {
+  "from": "desica",
+  "to": "charlesburnett",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "charlesburnett",
+  "note": ""
+ },
+ {
+  "from": "charlesburnett",
+  "to": "barryjenkins",
+  "note": ""
+ },
+ {
+  "from": "wong",
+  "to": "barryjenkins",
+  "note": "Jenkins has cited Wong Kar-wai's colour and music as a model for Moonlight."
+ },
+ {
+  "from": "denis",
+  "to": "barryjenkins",
+  "note": ""
+ },
+ {
+  "from": "hou",
+  "to": "barryjenkins",
+  "note": "The three-part structure of Moonlight follows Hou's Three Times."
+ },
+ {
+  "from": "sirk",
+  "to": "toddhaynes",
+  "note": "Far from Heaven is modelled on All That Heaven Allows."
+ },
+ {
+  "from": "fassbinder",
+  "to": "toddhaynes",
+  "note": ""
+ },
+ {
+  "from": "akerman",
+  "to": "toddhaynes",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "toddhaynes",
+  "note": ""
+ },
+ {
+  "from": "tarr",
+  "to": "gusvansant",
+  "note": "Van Sant has said Tarr's long takes inspired Gerry, Elephant and Last Days."
+ },
+ {
+  "from": "akerman",
+  "to": "gusvansant",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "gusvansant",
+  "note": "Van Sant remade Psycho almost shot for shot."
+ },
+ {
+  "from": "welles",
+  "to": "gusvansant",
+  "note": "My Own Private Idaho draws on Chimes at Midnight."
+ },
+ {
+  "from": "antonioni",
+  "to": "sofiacoppola",
+  "note": ""
+ },
+ {
+  "from": "wong",
+  "to": "sofiacoppola",
+  "note": "She thanked Wong Kar-wai in her Oscar speech for Lost in Translation."
+ },
+ {
+  "from": "coppola",
+  "to": "sofiacoppola",
+  "note": "Her father produced her first features."
+ },
+ {
+  "from": "peterweir",
+  "to": "sofiacoppola",
+  "note": "The Virgin Suicides echoes Picnic at Hanging Rock."
+ },
+ {
+  "from": "resnais",
+  "to": "michelgondry",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "jordanpeele",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "jordanpeele",
+  "note": ""
+ },
+ {
+  "from": "spielberg",
+  "to": "jordanpeele",
+  "note": ""
+ },
+ {
+  "from": "polanski",
+  "to": "jordanpeele",
+  "note": ""
+ },
+ {
+  "from": "victorerice",
+  "to": "guillermodeltoro",
+  "note": "Pan's Labyrinth follows The Spirit of the Beehive in seeing Franco's Spain through a girl's fantasies."
+ },
+ {
+  "from": "bunuel",
+  "to": "guillermodeltoro",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "guillermodeltoro",
+  "note": "Del Toro wrote a book-length study of Hitchcock."
+ },
+ {
+  "from": "godard",
+  "to": "alfonsocuaron",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "alfonsocuaron",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "terrygilliam",
+  "note": "Brazil was at one point titled 1984½, after 8½."
+ },
+ {
+  "from": "kubrick",
+  "to": "terrygilliam",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "terrygilliam",
+  "note": ""
+ },
+ {
+  "from": "welles",
+  "to": "terrygilliam",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "paulverhoeven",
+  "note": ""
+ },
+ {
+  "from": "leniriefenstahl",
+  "to": "paulverhoeven",
+  "note": "Starship Troopers quotes Triumph of the Will in its mock recruitment films."
+ },
+ {
+  "from": "scorsese",
+  "to": "oliverstone",
+  "note": "Scorsese taught Stone at NYU."
+ },
+ {
+  "from": "kurosawa",
+  "to": "oliverstone",
+  "note": ""
+ },
+ {
+  "from": "eisenstein",
+  "to": "oliverstone",
+  "note": ""
+ },
+ {
+  "from": "melville",
+  "to": "michaelmann",
+  "note": ""
+ },
+ {
+  "from": "michaelmann",
+  "to": "nolan",
+  "note": "Nolan has cited Heat as a model for The Dark Knight."
+ },
+ {
+  "from": "peckinpah",
+  "to": "kathrynbigelow",
+  "note": "Bigelow has said The Wild Bunch changed her idea of what film could do."
+ },
+ {
+  "from": "truffaut",
+  "to": "jonathandemme",
+  "note": ""
+ },
+ {
+  "from": "jonathandemme",
+  "to": "pta",
+  "note": "Anderson has named Demme as the filmmaker he most tried to imitate."
+ },
+ {
+  "from": "keaton",
+  "to": "georgemiller",
+  "note": "Miller has pointed to silent comedy and The General as models for Mad Max: Fury Road."
+ },
+ {
+  "from": "kubrick",
+  "to": "jonathanglazer",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "lynneramsay",
+  "note": ""
+ },
+ {
+  "from": "lynch",
+  "to": "lynneramsay",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "wachowskis",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "wachowskis",
+  "note": ""
+ },
+ {
+  "from": "jamescameron",
+  "to": "wachowskis",
+  "note": ""
+ },
+ {
+  "from": "wilder",
+  "to": "robreiner",
+  "note": ""
+ },
+ {
+  "from": "frankcapra",
+  "to": "haroldramis",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "melbrooks",
+  "note": "High Anxiety parodies Hitchcock's thrillers."
+ },
+ {
+  "from": "melbrooks",
+  "to": "lynch",
+  "note": "Brooks hired Lynch for The Elephant Man after seeing Eraserhead."
+ },
+ {
+  "from": "tati",
+  "to": "blakeedwards",
+  "note": "The Party is a homage to Tati's gag construction."
+ },
+ {
+  "from": "sirk",
+  "to": "johnwaters",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "johnwaters",
+  "note": ""
+ },
+ {
+  "from": "johnwaters",
+  "to": "almodovar",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "emirkusturica",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "emirkusturica",
+  "note": ""
+ },
+ {
+  "from": "forman",
+  "to": "emirkusturica",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "giuseppetornatore",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "tomasgutierrezalea",
+  "note": "Alea studied at the Centro Sperimentale in Rome during the neorealist years."
+ },
+ {
+  "from": "bunuel",
+  "to": "tomasgutierrezalea",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "tomasgutierrezalea",
+  "note": ""
+ },
+ {
+  "from": "tomasgutierrezalea",
+  "to": "saragomez",
+  "note": "Gómez was Alea's assistant, and he completed her only feature."
+ },
+ {
+  "from": "eisenstein",
+  "to": "fernandoesolanas",
+  "note": ""
+ },
+ {
+  "from": "vertov",
+  "to": "fernandoesolanas",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "djibrildiopmambety",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "medhondo",
+  "note": ""
+ },
+ {
+  "from": "forughfarrokhzad",
+  "to": "kiarostami",
+  "note": "The Wind Will Carry Us takes its title from a Farrokhzad poem."
+ },
+ {
+  "from": "kiarostami",
+  "to": "asgharfarhadi",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "asgharfarhadi",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "wangbing",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "royandersson",
+  "note": "Andersson has often named Bicycle Thieves as his favourite film."
+ },
+ {
+  "from": "tati",
+  "to": "royandersson",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "royandersson",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "royandersson",
+  "note": ""
+ },
+ {
+  "from": "barbaraloden",
+  "to": "reichardt",
+  "note": ""
+ },
+ {
+  "from": "charleslaughton",
+  "to": "malick",
+  "note": ""
+ },
+ {
+  "from": "charleslaughton",
+  "to": "coens",
+  "note": ""
+ },
+ {
+  "from": "charleslaughton",
+  "to": "spikelee",
+  "note": "Radio Raheem's love and hate rings in Do the Right Thing quote the preacher's tattooed knuckles."
+ },
+ {
+  "from": "charleslaughton",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "kingvidor",
+  "to": "desica",
+  "note": ""
+ },
+ {
+  "from": "kingvidor",
+  "to": "wilder",
+  "note": "The vast office of The Apartment is taken from The Crowd."
+ },
+ {
+  "from": "bresson",
+  "to": "pedrocosta",
+  "note": ""
+ },
+ {
+  "from": "dreyer",
+  "to": "manoeldeoliveira",
+  "note": ""
+ },
+ {
+  "from": "powell",
+  "to": "johnboorman",
+  "note": "Named among the filmmakers they influenced in The Oxford History of World Cinema."
+ },
+ {
+  "from": "powell",
+  "to": "kaurismaki",
+  "note": "Named among the filmmakers they influenced in The Oxford History of World Cinema."
+ },
+ {
+  "from": "eisenstein",
+  "to": "emiliofernandez",
+  "note": "Fernández took the imagery of Eisenstein's unfinished Mexican film as a model."
+ },
+ {
+  "from": "alfsjoberg",
+  "to": "bergman",
+  "note": "Bergman wrote Torment for Sjöberg and worked on it as his assistant."
+ },
+ {
+  "from": "louismalle",
+  "to": "volkerschlondorff",
+  "note": "Schlöndorff was Malle's assistant."
+ },
+ {
+  "from": "melville",
+  "to": "volkerschlondorff",
+  "note": "Schlöndorff was Melville's assistant."
+ },
+ {
+  "from": "resnais",
+  "to": "volkerschlondorff",
+  "note": "Schlöndorff was an assistant on Last Year at Marienbad."
+ },
+ {
+  "from": "bergman",
+  "to": "billeaugust",
+  "note": "Bergman chose August to direct The Best Intentions from his script."
+ },
+ {
+  "from": "jacquescousteau",
+  "to": "louismalle",
+  "note": "Malle began his career as Cousteau's cameraman and co-director."
+ },
+ {
+  "from": "resnais",
+  "to": "henricolpi",
+  "note": "Colpi edited Hiroshima mon amour and Last Year at Marienbad."
+ },
+ {
+  "from": "rossellini",
+  "to": "taviani",
+  "note": "The Tavianis said that seeing Paisan as students made them filmmakers."
+ },
+ {
+  "from": "desica",
+  "to": "renatocastellani",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "richardlester",
+  "note": ""
+ },
+ {
+  "from": "richardlester",
+  "to": "stevensoderbergh",
+  "note": "Soderbergh published a book of conversations with Lester."
+ },
+ {
+  "from": "gillopontecorvo",
+  "to": "costagavras",
+  "note": ""
+ },
+ {
+  "from": "costagavras",
+  "to": "oliverstone",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "seanbaker",
+  "note": ""
+ },
+ {
+  "from": "loach",
+  "to": "seanbaker",
+  "note": ""
+ },
+ {
+  "from": "mauricepialat",
+  "to": "abdellatifkechiche",
+  "note": ""
+ },
+ {
+  "from": "cronenberg",
+  "to": "juliaducournau",
+  "note": "Ducournau has named Cronenberg as her main influence."
+ },
+ {
+  "from": "royandersson",
+  "to": "rubenostlund",
+  "note": ""
+ },
+ {
+  "from": "haneke",
+  "to": "rubenostlund",
+  "note": ""
+ },
+ {
+  "from": "cecilbdemille",
+  "to": "spielberg",
+  "note": "Spielberg has said The Greatest Show on Earth was the first film he saw in a cinema."
+ },
+ {
+  "from": "pietrogermi",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "eliopetri",
+  "to": "oliverstone",
+  "note": ""
+ }
+]

@@ -1,0 +1,402 @@
+{
+ "long-take": {
+  "name": "Long takes",
+  "category": "Camera",
+  "definition": "Shots held well beyond conventional length, letting action unfold without a cut."
+ },
+ "static-camera": {
+  "name": "Static camera",
+  "category": "Camera",
+  "definition": "The camera rarely or never moves; composition does the work."
+ },
+ "tracking-shot": {
+  "name": "Tracking shots",
+  "category": "Camera",
+  "definition": "Elaborate travelling camera movement through space, on dolly, crane or Steadicam."
+ },
+ "handheld": {
+  "name": "Handheld camera",
+  "category": "Camera",
+  "definition": "Visibly unstabilised camera that follows the actors closely."
+ },
+ "deep-focus": {
+  "name": "Deep focus",
+  "category": "Camera",
+  "definition": "Foreground and background both sharp, so staging in depth replaces cutting."
+ },
+ "symmetry": {
+  "name": "Symmetry and frontality",
+  "category": "Camera",
+  "definition": "Centred, frontal or one-point-perspective compositions."
+ },
+ "wide-angle": {
+  "name": "Wide-angle lenses",
+  "category": "Camera",
+  "definition": "Short lenses that exaggerate depth and distort space."
+ },
+ "closeup": {
+  "name": "Expressive close-ups",
+  "category": "Camera",
+  "definition": "Faces, hands or objects in close-up carry the meaning of the scene."
+ },
+ "zoom": {
+  "name": "Zooms",
+  "category": "Camera",
+  "definition": "Visible zooming in or out as an expressive device."
+ },
+ "pov": {
+  "name": "Subjective point of view",
+  "category": "Camera",
+  "definition": "The camera takes a character's optical viewpoint."
+ },
+ "widescreen": {
+  "name": "Widescreen composition",
+  "category": "Camera",
+  "definition": "Staging built for the full width of a scope frame."
+ },
+ "montage": {
+  "name": "Montage",
+  "category": "Editing",
+  "definition": "Meaning produced by the collision or association of shots rather than by continuity."
+ },
+ "jump-cut": {
+  "name": "Jump cuts",
+  "category": "Editing",
+  "definition": "Cuts that break continuity within a scene and draw attention to themselves."
+ },
+ "elliptical": {
+  "name": "Elliptical editing",
+  "category": "Editing",
+  "definition": "Key events are skipped or left off screen; the viewer fills the gaps."
+ },
+ "cross-cutting": {
+  "name": "Cross-cutting",
+  "category": "Editing",
+  "definition": "Alternating between parallel lines of action to build tension or contrast."
+ },
+ "slow-pace": {
+  "name": "Slow pacing",
+  "category": "Editing",
+  "definition": "Duration and stillness are foregrounded; little happens per minute by design."
+ },
+ "fast-cutting": {
+  "name": "Rapid cutting",
+  "category": "Editing",
+  "definition": "Short average shot length and percussive editing rhythm."
+ },
+ "slow-motion": {
+  "name": "Slow motion",
+  "category": "Editing",
+  "definition": "Slowed or step-printed motion used for emphasis."
+ },
+ "pop-music": {
+  "name": "Pop music cues",
+  "category": "Sound",
+  "definition": "Existing pop, rock or soul songs used as a structural element."
+ },
+ "sparse-sound": {
+  "name": "Sparse soundtrack",
+  "category": "Sound",
+  "definition": "Little or no score; silence and ambient sound dominate."
+ },
+ "classical-music": {
+  "name": "Classical music",
+  "category": "Sound",
+  "definition": "Existing classical repertoire used in place of an original score."
+ },
+ "voiceover": {
+  "name": "Voice-over",
+  "category": "Sound",
+  "definition": "Narration that comments on, or runs against, the image."
+ },
+ "sound-design": {
+  "name": "Expressive sound design",
+  "category": "Sound",
+  "definition": "Sound effects and off-screen sound carry narrative or atmosphere."
+ },
+ "overlapping-dialogue": {
+  "name": "Overlapping dialogue",
+  "category": "Sound",
+  "definition": "Several characters speak at once, as in real conversation."
+ },
+ "non-actors": {
+  "name": "Non-professional actors",
+  "category": "Performance",
+  "definition": "Roles cast with people who are not trained actors."
+ },
+ "deadpan": {
+  "name": "Deadpan performance",
+  "category": "Performance",
+  "definition": "Flat, withheld delivery; emotion is suppressed rather than displayed."
+ },
+ "improvisation": {
+  "name": "Improvisation",
+  "category": "Performance",
+  "definition": "Scenes developed with the actors rather than fixed in the script."
+ },
+ "ensemble": {
+  "name": "Ensemble casts",
+  "category": "Performance",
+  "definition": "Many characters of similar weight instead of a single protagonist."
+ },
+ "stylized-dialogue": {
+  "name": "Stylised dialogue",
+  "category": "Performance",
+  "definition": "Speech that is conspicuously written: verbose, laconic or rhythmic."
+ },
+ "theatrical": {
+  "name": "Theatrical staging",
+  "category": "Performance",
+  "definition": "Tableau framing, stage-like blocking or open acknowledgement of theatre."
+ },
+ "nonlinear": {
+  "name": "Non-linear structure",
+  "category": "Narrative",
+  "definition": "Events presented out of chronological order."
+ },
+ "dream-logic": {
+  "name": "Dream logic",
+  "category": "Narrative",
+  "definition": "Surreal or oneiric sequences not marked off from reality."
+ },
+ "self-reflexive": {
+  "name": "Self-reflexivity",
+  "category": "Narrative",
+  "definition": "The film points at its own making or addresses the viewer."
+ },
+ "episodic": {
+  "name": "Episodic structure",
+  "category": "Narrative",
+  "definition": "Loose chains of episodes instead of a tight causal plot."
+ },
+ "genre-revision": {
+  "name": "Genre revision",
+  "category": "Narrative",
+  "definition": "Popular genres reworked, mixed or turned against their conventions."
+ },
+ "ambiguity": {
+  "name": "Ambiguity",
+  "category": "Narrative",
+  "definition": "Central questions are deliberately left unresolved."
+ },
+ "memory-time": {
+  "name": "Memory and subjective time",
+  "category": "Narrative",
+  "definition": "Past, present and imagination interpenetrate."
+ },
+ "suspense": {
+  "name": "Suspense construction",
+  "category": "Narrative",
+  "definition": "The viewer knows more or less than the characters, by design."
+ },
+ "everyday": {
+  "name": "Everyday life",
+  "category": "Narrative",
+  "definition": "Ordinary routines and small events are the subject."
+ },
+ "black-comedy": {
+  "name": "Black comedy",
+  "category": "Narrative",
+  "definition": "Violence, death or cruelty played for uneasy laughter."
+ },
+ "documentary-hybrid": {
+  "name": "Documentary hybrid",
+  "category": "Narrative",
+  "definition": "Fiction and documentary methods are mixed."
+ },
+ "color-stylized": {
+  "name": "Stylised colour",
+  "category": "Mise en scene",
+  "definition": "Saturated or schematic colour used expressively."
+ },
+ "chiaroscuro": {
+  "name": "High-contrast lighting",
+  "category": "Mise en scene",
+  "definition": "Strong light and shadow shape the image."
+ },
+ "natural-light": {
+  "name": "Natural light",
+  "category": "Mise en scene",
+  "definition": "Available light and minimal artificial lighting."
+ },
+ "location": {
+  "name": "Location shooting",
+  "category": "Mise en scene",
+  "definition": "Shot in real streets, homes and landscapes instead of sets."
+ },
+ "studio-artifice": {
+  "name": "Studio artifice",
+  "category": "Mise en scene",
+  "definition": "Visibly designed, constructed worlds."
+ },
+ "landscape": {
+  "name": "Landscape and weather",
+  "category": "Mise en scene",
+  "definition": "Terrain and weather act as a dramatic force."
+ },
+ "architecture-framing": {
+  "name": "Frames within frames",
+  "category": "Mise en scene",
+  "definition": "Doorways, windows, mirrors and buildings structure the composition."
+ },
+ "stylized-violence": {
+  "name": "Stylised violence",
+  "category": "Mise en scene",
+  "definition": "Violence choreographed and aestheticised."
+ },
+ "planimetric": {
+  "name": "Planimetric framing",
+  "category": "Camera",
+  "definition": "Camera set square to a flat background, figures arranged like a frieze."
+ },
+ "telephoto": {
+  "name": "Telephoto lenses",
+  "category": "Camera",
+  "definition": "Long lenses that flatten space and observe from a distance."
+ },
+ "follow-shot": {
+  "name": "Following shots",
+  "category": "Camera",
+  "definition": "The camera travels behind or beside a walking character for extended stretches."
+ },
+ "distant-framing": {
+  "name": "Distant framing",
+  "category": "Camera",
+  "definition": "Action staged in long shot; the camera declines to move in."
+ },
+ "offscreen-space": {
+  "name": "Off-screen space",
+  "category": "Camera",
+  "definition": "Important action happens outside the frame and is heard or implied."
+ },
+ "direct-address": {
+  "name": "Direct address",
+  "category": "Performance",
+  "definition": "Characters look into or speak to the camera."
+ },
+ "conversation-driven": {
+  "name": "Conversation-driven scenes",
+  "category": "Performance",
+  "definition": "Long dialogue scenes are the main event rather than a bridge between actions."
+ },
+ "freeze-frame": {
+  "name": "Freeze frames",
+  "category": "Editing",
+  "definition": "The image is stopped to punctuate or end a scene."
+ },
+ "dead-time": {
+  "name": "Dead time",
+  "category": "Editing",
+  "definition": "The shot continues before or after the action, dwelling on empty space or waiting."
+ },
+ "collage": {
+  "name": "Collage",
+  "category": "Editing",
+  "definition": "Stills, text, tinting, animation or found footage are cut into the film."
+ },
+ "chapter-structure": {
+  "name": "Chapters and intertitles",
+  "category": "Narrative",
+  "definition": "The film is openly divided into titled parts."
+ },
+ "two-part-structure": {
+  "name": "Two-part structure",
+  "category": "Narrative",
+  "definition": "The film breaks in the middle into two halves that mirror or answer each other."
+ },
+ "multiple-perspectives": {
+  "name": "Multiple perspectives",
+  "category": "Narrative",
+  "definition": "The same events are told from competing or shifting viewpoints."
+ },
+ "wandering": {
+  "name": "Journey structure",
+  "category": "Narrative",
+  "definition": "A road trip or aimless wandering replaces a goal-driven plot."
+ },
+ "chamber-drama": {
+  "name": "Chamber drama",
+  "category": "Narrative",
+  "definition": "A few characters confined to one or two interiors."
+ },
+ "melodrama": {
+  "name": "Melodrama",
+  "category": "Narrative",
+  "definition": "Heightened emotion, social constraint and suffering, taken seriously."
+ },
+ "essay-form": {
+  "name": "Essay form",
+  "category": "Narrative",
+  "definition": "Argument and reflection organise the film more than story does."
+ },
+ "child-perspective": {
+  "name": "Child's perspective",
+  "category": "Narrative",
+  "definition": "The world is seen at the level of a child protagonist."
+ },
+ "cinephile-quotation": {
+  "name": "Film quotation",
+  "category": "Narrative",
+  "definition": "Other films are openly quoted, reworked or paid homage to."
+ },
+ "absurd-humour": {
+  "name": "Absurd humour",
+  "category": "Narrative",
+  "definition": "Dry or surreal comedy that arises from routine and incongruity."
+ },
+ "provocation": {
+  "name": "Provocation",
+  "category": "Narrative",
+  "definition": "Taboo material or attacks on the viewer's comfort are a deliberate strategy."
+ },
+ "crowd-choreography": {
+  "name": "Crowd choreography",
+  "category": "Mise en scene",
+  "definition": "Large groups are staged as a single moving composition."
+ },
+ "mirrors-reflections": {
+  "name": "Mirrors and reflections",
+  "category": "Mise en scene",
+  "definition": "Mirrors, glass and reflections double or split the characters."
+ },
+ "period-detail": {
+  "name": "Period reconstruction",
+  "category": "Mise en scene",
+  "definition": "Historical settings recreated with dense, deliberate detail."
+ },
+ "musical-numbers": {
+  "name": "Musical numbers",
+  "category": "Performance",
+  "definition": "Song and dance staged for the camera as part of the film's structure."
+ },
+ "special-effects": {
+  "name": "Effects-driven spectacle",
+  "category": "Mise en scene",
+  "definition": "Optical, mechanical or digital effects are central to the film's appeal."
+ },
+ "animation": {
+  "name": "Animation",
+  "category": "Mise en scene",
+  "definition": "Images drawn, modelled or manipulated frame by frame."
+ },
+ "action-choreography": {
+  "name": "Action choreography",
+  "category": "Mise en scene",
+  "definition": "Fights, chases and stunts designed and filmed so that movement itself tells the story."
+ },
+ "direct-observation": {
+  "name": "Direct observation",
+  "category": "Narrative",
+  "definition": "Documentary filmed as events unfold, without narration, interviews or staging."
+ },
+ "interview-testimony": {
+  "name": "Interview and testimony",
+  "category": "Narrative",
+  "definition": "The film is built from people recounting events to the camera."
+ },
+ "abstraction": {
+  "name": "Abstraction",
+  "category": "Narrative",
+  "definition": "Light, texture, rhythm or the film material itself take the place of story."
+ }
+}

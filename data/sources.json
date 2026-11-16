@@ -1,0 +1,50 @@
+{
+ "tspdt": {
+  "name": "They Shoot Pictures, Don't They?",
+  "detail": "The 1,000 Greatest Films and Top 250 Directors, 2026 edition",
+  "url": "https://www.theyshootpictures.com",
+  "used_for": "director ranks, film ranks, year, country, runtime, genre"
+ },
+ "sight_and_sound": {
+  "name": "Sight and Sound",
+  "detail": "Greatest Films of All Time critics' poll, 2022",
+  "url": "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time",
+  "used_for": "film ranks and vote counts"
+ },
+ "house_of_tabula": {
+  "name": "The House of Tabula",
+  "detail": "The Ultimate Film Studies Watchlist, an IMDb list of 148 films for the YouTube series Foundations of Film",
+  "url": "",
+  "used_for": "marks films on the watchlist"
+ },
+ "ohwc": {
+  "name": "The Oxford History of World Cinema",
+  "detail": "edited by Geoffrey Nowell-Smith, Oxford University Press, 1996",
+  "url": "",
+  "used_for": "page references for directors and for connections between them"
+ },
+ "senses_of_cinema": {
+  "name": "Senses of Cinema",
+  "detail": "Great Directors profiles",
+  "url": "https://www.sensesofcinema.com/category/great-directors/",
+  "used_for": "further reading"
+ },
+ "tmdb": {
+  "name": "TMDB",
+  "detail": "film descriptions, ratings, posters and portraits, once scripts/fetch_tmdb.py has been run",
+  "url": "https://www.themoviedb.org",
+  "used_for": "film widget"
+ },
+ "draft": {
+  "name": "Draft",
+  "detail": "written from general film knowledge and not yet checked against a source",
+  "url": "",
+  "used_for": "techniques, style scores, descriptions, facts, most influence links"
+ },
+ "cannes": {
+  "name": "Festival de Cannes",
+  "detail": "winners of the Grand Prix du Festival and the Palme d'Or, 1939 to 2026, from Wikipedia's Palme d'Or list and 2025 and 2026 news reports",
+  "url": "https://www.festival-cannes.com",
+  "used_for": "award records; checks every fact that mentions the Palme d'Or"
+ }
+}

@@ -1,0 +1,56 @@
+﻿id,name,kind,period,description,has_map_area
+classical-hollywood,Classical Hollywood,movement,1920s to 1950s,"Studio-era filmmaking built on continuity editing, stars and genre, within which a few directors developed strong personal styles.",1
+german-expressionism,German Expressionism,movement,1919 to early 1930s,"Distorted sets, heavy shadow and subjective camera used to externalise inner states.",1
+soviet-montage,Soviet Montage,movement,1924 to mid 1930s,Editing treated as the essence of cinema: meaning comes from the collision of shots.,1
+poetic-realism,Poetic Realism,movement,1930s,"Fatalistic French stories of ordinary lives, shot with studio lyricism.",1
+italian-neorealism,Italian Neorealism,movement,1943 to early 1950s,"Location shooting, non-professional actors and stories of ordinary people in postwar Italy.",1
+art-cinema,Postwar modernist art cinema,category,1950s to 1970s,"Auteur-driven films that loosen plot and foreground ambiguity, subjectivity and form.",1
+french-new-wave,French New Wave,movement,1958 to late 1960s,Critics turned directors who shot cheaply on location and broke the rules of continuity and tone.,1
+left-bank,Left Bank group,movement,1950s to 1960s,"The literary, politically engaged wing of the French New Wave, preoccupied with memory and documentary.",1
+japanese-golden-age,Japanese studio golden age,category,1930s to 1950s,The studio-era masters whose films reached the West in the 1950s.,0
+japanese-new-wave,Japanese New Wave,movement,late 1950s to 1970s,"A generation that attacked the humanism of the studio masters with sex, politics and formal rupture.",1
+czechoslovak-new-wave,Czechoslovak New Wave,movement,1963 to 1968,"Satire, non-actors and formal play under, and against, state socialism.",1
+new-hollywood,New Hollywood,movement,1967 to 1980,A film-literate generation that brought European art-cinema methods into American genre film.,1
+new-german-cinema,New German Cinema,movement,1962 to 1982,Young West German directors confronting the national past with low budgets and personal styles.,1
+american-independent,American independent cinema,category,1959 onward,Directors working outside or at the edge of the studio system. A production context more than a shared style.,0
+taiwan-new-wave,Taiwan New Wave,movement,1982 onward,"Long takes, distant framing and everyday life used to examine Taiwan's history and modernisation.",1
+hong-kong-second-wave,Hong Kong Second Wave,movement,late 1980s to 1990s,"Auteur filmmaking that grew out of Hong Kong's commercial industry, restless in style and preoccupied with time and identity.",1
+korean-new-wave,Korean New Wave,movement,late 1990s onward,High-craft genre films that fold in social critique and abrupt shifts of tone.,1
+iranian-new-wave,Iranian New Wave,movement,1960s onward,"Poetic realism that blurs fiction and documentary, often through children and non-actors.",1
+dogme-95,Dogme 95,movement,1995 to 2005,"A manifesto of handheld cameras, natural light and location sound, against technical polish.",1
+surrealism,Surrealism,movement,1920s onward,Dream imagery and irrational juxtaposition aimed against bourgeois logic.,1
+spaghetti-western,Spaghetti Western,movement,1960s to 1970s,"Italian-made westerns that turned the genre operatic, cynical and violent.",1
+parallel-cinema,Parallel Cinema,movement,1950s to 1970s,"A realist alternative to mainstream Indian cinema, rooted in Bengali literature and neorealism.",1
+slow-cinema,Slow cinema,category,"1990s onward, with precursors","Very long takes, minimal narrative and attention to duration and stillness.",1
+transcendental-style,Transcendental style,category,"Paul Schrader's term, 1972",An austere style that withholds expression and drama to point beyond the everyday.,1
+social-realism,Social realism,category,1960s onward,Working-class lives filmed with documentary methods and little stylisation.,1
+postmodern,Postmodern cinema,category,1980s onward,"Pastiche, quotation and genre mixing, with irony about the film's own artifice.",0
+silent-comedy,Silent comedy,category,1910s to 1920s,"Physical comedy built from long, wide takes that prove the gag was really performed.",1
+romanian-new-wave,Romanian New Wave,movement,2001 onward,"Long handheld takes, real-time pacing and dark humour about life during and after Ceausescu.",1
+fifth-generation,Chinese Fifth Generation,movement,1980s to 1990s,"The first class to graduate after the Cultural Revolution, turning to landscape, colour and history in place of socialist realism.",1
+sixth-generation,Chinese Sixth Generation,movement,1990s onward,"Low-budget, often unofficial films about contemporary urban and provincial China, shot in a documentary manner.",1
+cinema-novo,Cinema Novo,movement,1960s to early 1970s,"Brazilian political cinema made cheaply and roughly by design, mixing neorealism, folklore and agitation.",1
+greek-weird-wave,Greek Weird Wave,movement,2009 onward,"Deadpan, absurd allegories of family and power, delivered in stilted speech.",1
+film-noir,Film noir,category,1941 to late 1950s,"Shadowy American crime films about fate, corruption and desire, shaped by German émigrés and hard-boiled fiction.",1
+hollywood-musical,Hollywood musical,category,1930s to 1960s,"Studio films organised around song and dance numbers, at their height in MGM's Freed unit.",1
+screwball-comedy,Screwball and sophisticated comedy,category,1930s to 1940s,"Fast, verbal Hollywood comedies of class, courtship and remarriage.",1
+silent-pioneers,Silent-era pioneers,category,1908 to 1929,"The directors who established feature-length storytelling, the epic and the star system before sound.",1
+soviet-thaw,Soviet cinema after the Thaw,category,1956 to 1991,"Soviet filmmakers who used the loosening after Stalin to pursue personal, poetic and often censored work.",1
+french-classical,French classical cinema,category,1930s to 1950s,"French studio-era craftsmanship outside the New Wave: polished scripts, genre films and poetic fantasy.",1
+post-new-wave,French post-New Wave,category,1970s to 1990s,"The generation after the New Wave, harsher or more extravagant than its predecessors.",1
+documentary,Documentary traditions,category,1920s onward,"Non-fiction filmmaking, from staged ethnography to direct cinema, testimony and the essay.",1
+experimental,Avant-garde and experimental film,category,1940s onward,"Artists' films made outside the industry that explore perception, duration and the medium itself.",1
+british-studio-era,British studio era,category,1940s to 1950s,"The peak of British studio filmmaking, from Ealing comedy to the Archers and David Lean.",1
+british-new-wave,British New Wave,movement,1959 to mid 1960s,"Working-class stories and location shooting, growing out of the Free Cinema documentaries.",1
+british-art-cinema,British art cinema,category,1960s onward,"British directors working in a personal, formally adventurous mode outside the realist mainstream.",1
+contemporary-hollywood,Contemporary Hollywood,category,1977 onward,"The era of the blockbuster and the franchise, in which a few directors keep a recognisable signature at very large scale.",1
+horror,Horror,category,1920s onward,"The genre of fear, from Universal's monsters to independent American horror and the Italian giallo.",1
+animation,Animation,category,1930s onward,"Feature animation, from Disney's studio system to Studio Ghibli.",1
+third-cinema,Third Cinema and African cinema,movement,1960s to 1980s,"Militant, anti-colonial filmmaking from Latin America and Africa, defined against both Hollywood and European art cinema.",1
+italian-political-cinema,Italian political cinema,movement,1960s to 1970s,"Investigative films about power, crime and colonial war, growing out of neorealism.",1
+spanish-cinema,Spanish cinema under Franco,category,1950s to 1970s,"Films that spoke about Spain through satire, allegory and childhood because they could not speak directly.",1
+polish-film-school,Polish Film School,movement,1955 to mid 1960s,"The first postwar generation of Polish directors, reckoning with the war and its myths.",1
+la-rebellion,L.A. Rebellion,movement,late 1960s to 1980s,"Black filmmakers trained at UCLA who rejected Hollywood models for independent, community-rooted work.",1
+new-queer-cinema,New Queer Cinema,movement,early 1990s,Independent films that treated queer lives with formal daring and without apology.,1
+hollywood-comedy,Hollywood comedy since 1960,category,1960s to 1990s,"Studio comedy after the classical era: parody, improvisation and the teen film.",1
+australian-new-wave,Australian New Wave,movement,1970s to 1980s,A state-supported revival that produced both atmospheric art films and genre hits.,1

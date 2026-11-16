@@ -1,0 +1,578 @@
+﻿from_id,to_id,note,status,source_id,book_scan_pages
+murnau,hitchcock,Hitchcock worked in German studios in the 1920s and watched Murnau shoot.,draft,ohwc,"13,164,330,808"
+lang,hitchcock,,draft,ohwc,"13,797"
+murnau,ford,Ford absorbed Murnau's style when both worked at Fox.,draft,,
+murnau,herzog,Herzog remade Nosferatu.,draft,ohwc,13
+lang,bunuel,Bunuel credited Lang's Destiny with making him want to make films.,draft,,
+lang,godard,Godard cast Lang as himself in Contempt.,draft,ohwc,"13,780"
+ford,welles,Welles said he studied Stagecoach repeatedly before Citizen Kane.,draft,ohwc,"285,299,469,541,797"
+ford,kurosawa,Kurosawa named Ford as the director he most wanted to resemble.,draft,ohwc,"13,15,744"
+ford,leone,,draft,ohwc,"305,487,744"
+ford,spielberg,,draft,ohwc,809
+ford,scorsese,The Searchers recurs through Scorsese's work.,draft,,
+eisenstein,godard,,draft,ohwc,13
+vertov,godard,Godard co-founded the Dziga Vertov Group.,draft,ohwc,"560,781"
+dreyer,bergman,,draft,ohwc,13
+dreyer,vontrier,Von Trier filmed Dreyer's unproduced Medea script and hired his cinematographer.,draft,,
+dreyer,godard,Vivre sa vie quotes The Passion of Joan of Arc.,draft,ohwc,13
+renoir,truffaut,Truffaut named his production company after Renoir's The Golden Coach.,draft,ohwc,"370,796"
+renoir,altman,,draft,,
+renoir,ray,Ray assisted on Renoir's The River.,draft,ohwc,"13,710,711"
+rossellini,godard,,draft,ohwc,"466,808"
+rossellini,truffaut,Truffaut worked as Rossellini's assistant.,draft,ohwc,469
+rossellini,fellini,"Fellini co-wrote Rome, Open City and Paisan.",draft,ohwc,"381,466"
+rossellini,scorsese,,draft,ohwc,"13,466"
+rossellini,kiarostami,,draft,,
+rossellini,dardenne,,draft,,
+hitchcock,truffaut,Truffaut's book-length interview with Hitchcock.,draft,ohwc,"331,469"
+hitchcock,spielberg,Jaws builds its suspense on Hitchcock's rule of showing less.,draft,ohwc,478
+hitchcock,scorsese,,draft,,
+hitchcock,lynch,,draft,,
+hitchcock,park,Park has said Vertigo made him want to direct.,draft,,
+hitchcock,bong,,draft,,
+welles,kubrick,,draft,ohwc,"798,806"
+welles,scorsese,,draft,ohwc,"13,811"
+welles,truffaut,Truffaut wrote that Citizen Kane started more directing careers than any other film.,draft,ohwc,"469,796"
+ozu,kaurismaki,Kaurismäki has spoken of Ozu as the standard he measures himself against.,draft,,
+ozu,jarmusch,,draft,,
+ozu,kiarostami,Kiarostami dedicated Five to Ozu.,draft,,
+ozu,denis,35 Shots of Rum reworks Late Spring.,draft,,
+mizoguchi,tarkovsky,,draft,ohwc,13
+mizoguchi,godard,,draft,ohwc,"13,491"
+kurosawa,leone,A Fistful of Dollars reworks Yojimbo.,draft,ohwc,744
+kurosawa,spielberg,,draft,,
+kurosawa,scorsese,,draft,,
+kurosawa,tarkovsky,,draft,,
+bresson,tarkovsky,,draft,ohwc,674
+bresson,haneke,,draft,,
+bresson,kaurismaki,Kaurismäki has described his aim as making Bresson look like a director of epic action films.,draft,,
+bresson,dardenne,,draft,,
+bresson,jarmusch,,draft,,
+bresson,godard,,draft,ohwc,599
+bergman,tarkovsky,Each named the other among the greatest living directors.,draft,ohwc,674
+bergman,vontrier,,draft,,
+bergman,altman,,draft,ohwc,13
+bunuel,tarkovsky,,draft,,
+bunuel,lynch,,draft,,
+bunuel,almodovar,Almodóvar has called Buñuel the Spanish director he feels closest to.,draft,,
+tarkovsky,vontrier,Antichrist is dedicated to Tarkovsky.,draft,,
+fellini,scorsese,Scorsese has cited I Vitelloni as a model for Mean Streets.,draft,ohwc,466
+fellini,lynch,,draft,,
+fellini,almodovar,,draft,,
+antonioni,tsai,,draft,,
+antonioni,jarmusch,,draft,,
+godard,tarantino,Tarantino named his company A Band Apart after Bande a part.,draft,ohwc,793
+godard,wong,,draft,,
+godard,scorsese,,draft,ohwc,"322,466"
+godard,fassbinder,,draft,ohwc,"13,223"
+godard,jarmusch,,draft,,
+godard,akerman,Akerman said Pierrot le Fou made her want to make films.,draft,ohwc,798
+truffaut,wanderson,,draft,,
+truffaut,spielberg,Spielberg cast Truffaut in Close Encounters.,draft,,
+truffaut,tsai,,draft,,
+sirk,fassbinder,Ali: Fear Eats the Soul reworks All That Heaven Allows.,draft,ohwc,647
+sirk,almodovar,Almodóvar's melodramas openly borrow Sirk's colour and plotting.,draft,,
+melville,tarantino,Tarantino has pointed to Melville's gangster films as a model for Reservoir Dogs.,draft,,
+melville,jarmusch,Ghost Dog reworks Le Samouraï.,draft,,
+melville,kaurismaki,,draft,,
+melville,godard,Melville appears in Breathless.,draft,,
+tati,wanderson,,draft,,
+tati,lynch,,draft,,
+leone,tarantino,"Tarantino has repeatedly named The Good, the Bad and the Ugly his favourite film.",draft,,
+cassavetes,scorsese,,draft,ohwc,792
+cassavetes,almodovar,All About My Mother draws on Opening Night.,draft,,
+altman,pta,Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him.,draft,,
+kubrick,lynch,,draft,,
+kubrick,spielberg,,draft,,
+kubrick,pta,,draft,,
+scorsese,tarantino,,draft,ohwc,"491,543"
+scorsese,pta,,draft,,
+scorsese,wanderson,,draft,,
+scorsese,bong,Bong quoted Scorsese in his Oscar speech for Parasite.,draft,,
+fassbinder,almodovar,,draft,ohwc,786
+kiarostami,apichatpong,,draft,,
+ray,scorsese,,draft,ohwc,13
+ray,wanderson,The Darjeeling Limited is dedicated to Ray.,draft,,
+desica,ray,Ray said seeing Bicycle Thieves decided him to make Pather Panchali.,draft,,
+desica,loach,,draft,,
+desica,panahi,,draft,,
+renoir,visconti,Visconti began as Renoir's assistant.,draft,ohwc,"13,465,468"
+visconti,scorsese,,draft,ohwc,13
+visconti,coppola,,draft,,
+hitchcock,rohmer,Rohmer co-wrote the first book-length study of Hitchcock.,draft,ohwc,331
+murnau,rohmer,Rohmer wrote his doctoral thesis on Murnau's Faust.,draft,ohwc,166
+ozu,wenders,Wenders made Tokyo-Ga about Ozu.,draft,,
+antonioni,wenders,They co-directed Beyond the Clouds.,draft,ohwc,597
+wenders,jarmusch,Wenders gave Jarmusch leftover film stock for Stranger Than Paradise.,draft,ohwc,"603,684"
+kurosawa,coppola,,draft,,
+ozu,hou,Cafe Lumiere was made as a homage to Ozu.,draft,,
+hou,koreeda,Kore-eda made a documentary about Hou and Yang.,draft,,
+antonioni,yang,,draft,,
+kiarostami,panahi,Panahi was Kiarostami's assistant; Kiarostami wrote The White Balloon.,draft,,
+ozu,imamura,Imamura assisted Ozu and defined his own style against him.,draft,ohwc,"742,745"
+imamura,bong,,draft,,
+loach,koreeda,,draft,,
+forman,loach,Loach has cited the Czech New Wave as formative.,draft,,
+ozu,leigh,,draft,,
+cassavetes,leigh,,draft,,
+keaton,tati,Tati's long-shot gags descend from Keaton's.,draft,ohwc,"371,608"
+chaplin,desica,,draft,ohwc,13
+chaplin,fellini,Gelsomina in La Strada is modelled on the Tramp.,draft,ohwc,13
+chaplin,kaurismaki,,draft,,
+chaplin,tarkovsky,City Lights was on Tarkovsky's list of ten favourite films.,draft,,
+chaplin,bresson,Bresson put City Lights and The Gold Rush on his Sight and Sound ballot.,draft,ohwc,372
+hawks,godard,The Cahiers critics championed Hawks as an auteur.,draft,ohwc,"13,469,796,805"
+hawks,truffaut,,draft,ohwc,"469,796"
+hawks,tarantino,Tarantino has called Rio Bravo one of his favourite films.,draft,,
+hawks,rivette,Rivette wrote the essay The Genius of Howard Hawks.,draft,ohwc,469
+hawks,depalma,De Palma remade Hawks's Scarface.,draft,,
+wilder,almodovar,,draft,,
+wilder,lynch,Lynch counts Sunset Boulevard among his favourite films and took the name Gordon Cole from it.,draft,,
+powell,scorsese,Scorsese led the revival of Powell's reputation; his editor Thelma Schoonmaker married Powell.,draft,ohwc,"13,793"
+powell,coppola,Coppola brought Powell to Zoetrope as a senior adviser.,draft,ohwc,588
+powell,depalma,,draft,,
+rossellini,pasolini,,draft,ohwc,"13,376,618"
+dreyer,pasolini,,draft,,
+pasolini,bertolucci,Bertolucci started as Pasolini's assistant on Accattone.,draft,ohwc,"616,621"
+pasolini,fassbinder,,draft,ohwc,786
+pasolini,scorsese,,draft,ohwc,13
+godard,bertolucci,In The Conformist the professor marked for assassination has Godard's Paris address and phone number.,draft,,
+rossellini,bertolucci,A character in Before the Revolution declares that one cannot live without Rossellini.,draft,,
+hitchcock,chabrol,Chabrol co-wrote the first book on Hitchcock with Rohmer.,draft,ohwc,331
+lang,chabrol,,draft,,
+renoir,rivette,Rivette made a three-part television portrait of Renoir.,draft,,
+rossellini,rivette,Rivette's Letter on Rossellini is a founding text of New Wave criticism.,draft,,
+mizoguchi,rivette,,draft,,
+rivette,denis,Denis was Rivette's assistant and later made a documentary about him.,draft,,
+vertov,marker,,draft,ohwc,560
+hitchcock,marker,La Jetée and Sans Soleil both return to Vertigo.,draft,ohwc,13
+tarkovsky,marker,Marker made One Day in the Life of Andrei Arsenevich about Tarkovsky.,draft,,
+bresson,demy,,draft,,
+hitchcock,polanski,,draft,,
+welles,polanski,,draft,,
+bunuel,polanski,,draft,,
+polanski,coens,Barton Fink draws on Repulsion and The Tenant.,draft,,
+bergman,kieslowski,,draft,,
+loach,kieslowski,Kieślowski put Kes on his list of favourite films.,draft,,
+tarkovsky,kieslowski,,draft,,
+mizoguchi,angelopoulos,,draft,,
+antonioni,angelopoulos,,draft,ohwc,597
+welles,angelopoulos,,draft,,
+cassavetes,puiu,,draft,,
+rohmer,puiu,Puiu planned a cycle of six stories in answer to Rohmer's Six Moral Tales.,draft,,
+forman,mungiu,,draft,,
+hitchcock,depalma,"Obsession, Dressed to Kill and Body Double rework Vertigo, Psycho and Rear Window.",draft,,
+godard,depalma,,draft,ohwc,541
+antonioni,depalma,Blow Out answers Blow-Up.,draft,,
+eisenstein,depalma,The station shoot-out in The Untouchables restages the Odessa Steps.,draft,,
+depalma,tarantino,Tarantino names Blow Out among his favourite films.,draft,,
+kurosawa,peckinpah,The slow-motion deaths of The Wild Bunch build on Seven Samurai.,draft,,
+ford,peckinpah,,draft,ohwc,"305,312,487,541"
+peckinpah,tarantino,,draft,,
+scorsese,spikelee,,draft,,
+kurosawa,spikelee,She's Gotta Have It borrows the competing accounts of Rashomon.,draft,ohwc,13
+rohmer,linklater,,draft,,
+bunuel,linklater,Slacker's chain of handed-on scenes follows The Phantom of Liberty.,draft,,
+altman,linklater,,draft,,
+truffaut,linklater,,draft,,
+hitchcock,fincher,,draft,,
+kubrick,fincher,,draft,,
+welles,fincher,Fincher made Mank about the writing of Citizen Kane.,draft,,
+kubrick,nolan,,draft,,
+malick,nolan,,draft,,
+lang,nolan,,draft,,
+hitchcock,nolan,,draft,,
+tarkovsky,nolan,,draft,,
+kurosawa,zhang,,draft,,
+chen,zhang,Zhang was the cinematographer of Chen's Yellow Earth.,draft,ohwc,"603,727,730"
+hou,jia,,draft,,
+ozu,jia,,draft,,
+bresson,jia,,draft,,
+desica,jia,,draft,,
+chen,jia,Jia has said seeing Yellow Earth made him want to make films.,draft,,
+antonioni,jia,,draft,,
+desica,sembene,,draft,,
+eisenstein,rocha,,draft,,
+godard,rocha,Rocha appears at the crossroads in Godard's Wind from the East.,draft,ohwc,"597,770,771"
+rossellini,rocha,,draft,ohwc,13
+bunuel,rocha,,draft,,
+rocha,scorsese,,draft,ohwc,13
+bertolucci,campion,,draft,,
+bunuel,campion,,draft,,
+akerman,sciamma,,draft,,
+lynch,sciamma,,draft,,
+campion,sciamma,,draft,,
+varda,sciamma,,draft,,
+bresson,lanthimos,,draft,,
+kubrick,lanthimos,,draft,,
+bunuel,lanthimos,,draft,,
+cassavetes,lanthimos,,draft,,
+tarkovsky,ceylan,,draft,,
+antonioni,ceylan,,draft,,
+ozu,ceylan,,draft,,
+bergman,ceylan,,draft,,
+bresson,ceylan,,draft,,
+kitano,tarantino,Tarantino's label released Sonatine in the United States.,draft,,
+oshima,kitano,"Oshima gave Kitano his first major dramatic role in Merry Christmas, Mr. Lawrence.",draft,,
+renoir,welles,,draft,ohwc,"13,469,796"
+hitchcock,godard,,draft,ohwc,"13,469,797,808"
+kurosawa,bergman,Bergman called The Virgin Spring a poor imitation of Kurosawa.,draft,ohwc,15
+bresson,fassbinder,"Fassbinder fought for The Devil, Probably on the Berlin jury.",draft,ohwc,809
+bresson,scorsese,Taxi Driver draws on Pickpocket and Diary of a Country Priest through Paul Schrader's script.,draft,,
+antonioni,coppola,The Conversation takes its premise from Blow-Up.,draft,,
+godard,kaurismaki,Kaurismäki named his production company Villealfa after Alphaville.,draft,,
+rossellini,rohmer,,draft,,
+visconti,fassbinder,,draft,ohwc,"786,809"
+akerman,reichardt,,draft,,
+sirk,kaurismaki,,draft,,
+eisenstein,coppola,Coppola has said seeing October made him want to direct.,draft,,
+ford,wenders,,draft,ohwc,801
+ernstlubitsch,wilder,Wilder co-wrote Ninotchka for Lubitsch and kept a sign asking how Lubitsch would do it.,draft,ohwc,355
+ernstlubitsch,ozu,Ozu's early comedies openly borrow from Lubitsch.,draft,ohwc,"13,448"
+ernstlubitsch,truffaut,,draft,,
+ernstlubitsch,wanderson,,draft,,
+ernstlubitsch,josephlmankiewicz,,draft,,
+dwgriffith,eisenstein,Eisenstein's essay on Dickens and Griffith traces montage back to him.,draft,ohwc,"13,117,156"
+dwgriffith,ford,Ford rode as a Klansman extra in The Birth of a Nation.,draft,ohwc,"13,15,795"
+dwgriffith,abelgance,,draft,ohwc,222
+dwgriffith,dreyer,Dreyer's Leaves from Satan's Book is modelled on Intolerance.,draft,ohwc,"13,809"
+dwgriffith,erichvonstroheim,Stroheim began as Griffith's assistant and bit player.,draft,ohwc,300
+dwgriffith,raoulwalsh,Walsh was Griffith's assistant and played John Wilkes Booth in The Birth of a Nation.,draft,ohwc,252
+dwgriffith,charleslaughton,Laughton studied Griffith's films before making The Night of the Hunter and cast Lillian Gish.,draft,,
+dwgriffith,kingvidor,,draft,ohwc,106
+erichvonstroheim,renoir,Renoir said seeing Foolish Wives decided his vocation.,draft,ohwc,"13,358"
+erichvonstroheim,wilder,Wilder cast him as the butler in Sunset Boulevard.,draft,,
+louisfeuillade,georgesfranju,Franju remade Judex.,draft,ohwc,606
+louisfeuillade,resnais,,draft,ohwc,606
+louisfeuillade,rivette,,draft,,
+louisfeuillade,lang,,draft,ohwc,13
+victorsjostrom,bergman,Bergman cast him as the lead in Wild Strawberries.,draft,ohwc,177
+victorsjostrom,dreyer,,draft,,
+robertwiene,timburton,,draft,,
+murnau,frankborzage,"Both worked at Fox, where Sunrise reshaped the studio's style.",draft,,
+murnau,edgargulmer,Ulmer worked in Murnau's design team.,draft,ohwc,196
+abelgance,coppola,Coppola presented the restored Napoléon with a live orchestra in 1981.,draft,,
+jeanvigo,truffaut,The 400 Blows echoes Zero for Conduct.,draft,ohwc,515
+jeanvigo,lindsayanderson,If.... reworks Zero for Conduct.,draft,,
+jeanvigo,leoscarax,,draft,,
+jeanvigo,emirkusturica,Underground quotes the underwater scene of L'Atalante.,draft,,
+reneclair,chaplin,The producers of À nous la liberté claimed Modern Times copied it; Clair said he was flattered.,draft,ohwc,102
+maxophuls,kubrick,Kubrick named Ophüls as a favourite and adopted his tracking shots.,draft,ohwc,13
+maxophuls,demy,Demy dedicated Lola to Ophüls.,draft,ohwc,608
+maxophuls,pta,,draft,,
+maxophuls,scorsese,,draft,ohwc,13
+maxophuls,truffaut,,draft,,
+josefvonsternberg,fassbinder,,draft,,
+jeancocteau,demy,Demy cast Cocteau's star Jean Marais in Donkey Skin.,draft,,
+jeancocteau,melville,Melville filmed Cocteau's Les Enfants terribles.,draft,,
+jeancocteau,leoscarax,,draft,,
+jeancocteau,truffaut,Truffaut helped finance Testament of Orpheus.,draft,ohwc,796
+jeancocteau,derekjarman,,draft,ohwc,578
+jeancocteau,guillermodeltoro,,draft,,
+renoir,jacquesbecker,Becker was Renoir's assistant through the 1930s.,draft,ohwc,"327,347,370,372,469"
+jacquesbecker,truffaut,,draft,ohwc,370
+jacquesbecker,kaurismaki,,draft,,
+henrigeorgesclouzot,williamfriedkin,Friedkin's Sorcerer remakes The Wages of Fear.,draft,,
+henrigeorgesclouzot,hitchcock,Psycho is often read as Hitchcock's answer to Diabolique.,draft,,
+henrigeorgesclouzot,bong,,draft,,
+georgesfranju,almodovar,The Skin I Live In draws on Eyes Without a Face.,draft,,
+georgesfranju,leoscarax,Holy Motors casts Édith Scob and has her put on her mask from Eyes Without a Face.,draft,,
+bresson,jeaneustache,,draft,,
+godard,jeaneustache,,draft,,
+jeaneustache,jarmusch,Jarmusch dedicated Broken Flowers to Eustache.,draft,,
+renoir,mauricepialat,,draft,,
+mauricepialat,dardenne,,draft,,
+godard,leoscarax,Carax appears in Godard's King Lear.,draft,ohwc,"610,611"
+jeanrouch,godard,"Godard hailed Moi, un Noir; its improvised methods fed into Breathless.",draft,ohwc,"352,515"
+jeanrouch,rivette,,draft,,
+robertjflaherty,jeanrouch,,draft,ohwc,557
+vertov,jeanrouch,The term cinéma vérité translates Vertov's Kino-Pravda.,draft,ohwc,"13,557"
+bresson,louismalle,Malle was Bresson's assistant on A Man Escaped.,draft,ohwc,372
+louismalle,wanderson,,draft,,
+bresson,straubhuillet,,draft,,
+dreyer,straubhuillet,,draft,,
+straubhuillet,pedrocosta,Costa filmed them at work in Where Does Your Hidden Smile Lie?,draft,,
+straubhuillet,fassbinder,"Fassbinder acted in their short The Bridegroom, the Comedienne and the Pimp.",draft,ohwc,"223,647"
+ozu,pedrocosta,,draft,,
+jacquestourneur,pedrocosta,Casa de Lava reworks I Walked with a Zombie.,draft,,
+ford,pedrocosta,,draft,,
+jameswhale,victorerice,The Spirit of the Beehive turns on a village screening of Frankenstein.,draft,,
+desica,luisgarciaberlanga,,draft,,
+luisgarciaberlanga,almodovar,,draft,,
+bunuel,raulruiz,,draft,,
+welles,raulruiz,,draft,,
+rossellini,gillopontecorvo,Pontecorvo said seeing Paisan made him a filmmaker.,draft,,
+gillopontecorvo,saramaldoror,Maldoror was an assistant on The Battle of Algiers.,draft,,
+gillopontecorvo,alfonsocuaron,,draft,,
+gillopontecorvo,spikelee,,draft,,
+visconti,francescorosi,Rosi was Visconti's assistant on La Terra Trema.,draft,ohwc,623
+francescorosi,coppola,,draft,,
+francescorosi,scorsese,,draft,,
+rossellini,ermannoolmi,,draft,ohwc,618
+desica,ermannoolmi,,draft,,
+davidlean,spielberg,Spielberg has said he rewatches Lawrence of Arabia before starting a film.,draft,,
+davidlean,nolan,,draft,,
+ford,davidlean,,draft,,
+davidlean,toddhaynes,Carol is modelled in part on Brief Encounter.,draft,,
+carolreed,polanski,Polanski has named Odd Man Out as a formative film.,draft,,
+alexandermackendrick,coens,The Coens remade The Ladykillers.,draft,,
+powell,georgearomero,Romero named The Tales of Hoffmann as the film that made him want to direct.,draft,,
+powell,derekjarman,Named among the filmmakers they influenced in The Oxford History of World Cinema.,verified,ohwc,
+powell,sallypotter,Named among the filmmakers they influenced in The Oxford History of World Cinema.,verified,ohwc,
+hitchcock,powell,Powell worked as a stills photographer on Hitchcock's early films.,draft,,
+resnais,nicolasroeg,,draft,,
+nicolasroeg,nolan,Nolan has cited Roeg's fractured editing as a model for Memento.,draft,,
+nicolasroeg,jonathanglazer,,draft,,
+nicolasroeg,lynneramsay,,draft,,
+nicolasroeg,peterweir,,draft,,
+resnais,johnboorman,,draft,,
+ford,lindsayanderson,Anderson wrote the book About John Ford.,draft,,
+vincenteminnelli,terencedavies,,draft,,
+pasolini,derekjarman,,draft,,
+welles,andrzejwajda,,draft,ohwc,"13,278"
+andrzejwajda,andrzejzulawski,Żuławski was Wajda's assistant.,draft,,
+andrzejwajda,polanski,Polanski acted in Wajda's A Generation.,draft,ohwc,614
+andrzejwajda,kieslowski,,draft,,
+andrzejwajda,scorsese,,draft,ohwc,13
+miklosjancso,tarr,,draft,,
+miklosjancso,angelopoulos,,draft,,
+antonioni,miklosjancso,,draft,,
+alexanderdovzhenko,sergeiparajanov,,draft,,
+alexanderdovzhenko,tarkovsky,,draft,ohwc,341
+alexanderdovzhenko,larisashepitko,Shepitko studied under Dovzhenko at VGIK.,draft,,
+tarkovsky,sergeiparajanov,Parajanov said Ivan's Childhood freed him to make Shadows of Forgotten Ancestors.,draft,,
+pasolini,sergeiparajanov,,draft,,
+mikhailkalatozov,pta,The pool shot in Boogie Nights is taken from I Am Cuba.,draft,,
+mikhailkalatozov,scorsese,Scorsese and Coppola presented the re-release of I Am Cuba.,draft,,
+larisashepitko,elemklimov,They were married; Klimov completed her last project as Farewell.,draft,,
+tarkovsky,aleksandrsokurov,Tarkovsky championed the young Sokurov against the censors.,draft,ohwc,678
+mikionaruse,koreeda,Kore-eda has said he feels closer to Naruse than to Ozu.,draft,,
+isaotakahata,hayaomiyazaki,Takahata was Miyazaki's senior colleague and mentor from their years at Toei.,draft,,
+hayaomiyazaki,guillermodeltoro,,draft,,
+hayaomiyazaki,wanderson,,draft,,
+desica,isaotakahata,,draft,,
+feimu,jia,,draft,,
+kinghu,anglee,"The bamboo fight in Crouching Tiger, Hidden Dragon pays homage to A Touch of Zen.",draft,,
+kinghu,tsai,"Goodbye, Dragon Inn takes place during a last screening of Hu's Dragon Inn.",draft,,
+kinghu,zhang,,draft,,
+bergman,anglee,Lee has said The Virgin Spring made him want to be a filmmaker.,draft,,
+eisenstein,ritwikghatak,,draft,ohwc,13
+rohmer,hongsangsoo,,draft,,
+bresson,hongsangsoo,,draft,,
+ozu,hongsangsoo,,draft,,
+hawks,johncarpenter,Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing.,draft,,
+hitchcock,johncarpenter,,draft,,
+johncarpenter,tarantino,,draft,,
+georgearomero,jordanpeele,,draft,,
+jameswhale,timburton,,draft,,
+jameswhale,guillermodeltoro,,draft,,
+jameswhale,melbrooks,Young Frankenstein reuses laboratory props from Whale's Frankenstein.,draft,,
+todbrowning,lynch,,draft,,
+jacquestourneur,scorsese,,draft,,
+hitchcock,darioargento,,draft,,
+antonioni,darioargento,"Deep Red casts David Hemmings, the star of Blow-Up, as another witness who misreads what he saw.",draft,,
+leone,darioargento,Argento co-wrote the story of Once Upon a Time in the West.,draft,ohwc,622
+darioargento,georgearomero,Argento co-produced and helped score Dawn of the Dead.,draft,,
+leone,clinteastwood,The Dollars trilogy made Eastwood a star; he dedicated Unforgiven to Leone.,draft,ohwc,"313,487,500,501,542,800"
+donsiegel,clinteastwood,Siegel directed him in five films and is the other dedicatee of Unforgiven.,draft,ohwc,"313,487,500,542,591"
+georgestevens,clinteastwood,Pale Rider reworks Shane.,draft,,
+johnhuston,clinteastwood,White Hunter Black Heart is a portrait of Huston.,draft,ohwc,"13,478,501"
+kurosawa,georgelucas,Star Wars borrows its two bickering peasants and princess from The Hidden Fortress.,draft,,
+ford,georgelucas,,draft,,
+lang,georgelucas,,draft,,
+kubrick,georgelucas,,draft,,
+leniriefenstahl,georgelucas,The medal ceremony that ends Star Wars is often compared to Triumph of the Will.,draft,,
+irvinkershner,georgelucas,Kershner taught Lucas at USC.,draft,,
+kubrick,ridleyscott,,draft,,
+lang,ridleyscott,The city of Blade Runner descends from Metropolis.,draft,,
+ridleyscott,fincher,,draft,,
+ridleyscott,nolan,,draft,,
+kubrick,jamescameron,,draft,,
+georgelucas,jamescameron,Cameron has said Star Wars made him quit his job as a truck driver.,draft,,
+cooperschoedsack,peterjackson,"Jackson has said King Kong made him want to make films, and remade it in 2005.",draft,,
+cooperschoedsack,spielberg,,draft,,
+spielberg,robertzemeckis,"Spielberg produced Zemeckis's early films, including Back to the Future.",draft,ohwc,548
+frankcapra,robertzemeckis,,draft,,
+frankcapra,spielberg,,draft,,
+frankcapra,coens,,draft,,
+frankcapra,kurosawa,,draft,,
+prestonsturges,coens,"O Brother, Where Art Thou? takes its title from Sullivan's Travels.",draft,,
+hawks,peterbogdanovich,"What's Up, Doc? is modelled on Bringing Up Baby.",draft,,
+ford,peterbogdanovich,Bogdanovich made the documentary Directed by John Ford.,draft,ohwc,309
+welles,peterbogdanovich,"Welles lived in Bogdanovich's house for a time, and Bogdanovich acted in The Other Side of the Wind.",draft,ohwc,483
+leomccarey,ozu,Tokyo Story was inspired by Make Way for Tomorrow.,draft,,
+leomccarey,blakeedwards,,draft,,
+eliakazan,scorsese,Scorsese made the documentary A Letter to Elia.,draft,,
+eliakazan,nicholasray,Ray was Kazan's assistant on A Tree Grows in Brooklyn.,draft,,
+nicholasray,godard,Godard wrote that the cinema is Nicholas Ray.,draft,ohwc,469
+nicholasray,truffaut,,draft,ohwc,469
+nicholasray,wenders,They co-directed Lightning Over Water as Ray was dying.,draft,ohwc,"484,799"
+nicholasray,jarmusch,Jarmusch was Ray's teaching assistant at NYU.,draft,,
+nicholasray,almodovar,Women on the Verge of a Nervous Breakdown has its heroine dub Johnny Guitar.,draft,,
+nicholasray,scorsese,,draft,,
+samuelfuller,godard,Fuller appears as himself in Pierrot le Fou.,draft,,
+samuelfuller,wenders,Wenders cast Fuller in several films.,draft,,
+samuelfuller,scorsese,,draft,,
+samuelfuller,tarantino,,draft,,
+samuelfuller,jarmusch,,draft,,
+samuelfuller,kaurismaki,Kaurismäki cast Fuller in La Vie de bohème.,draft,,
+ottopreminger,godard,Godard cast Jean Seberg in Breathless after Preminger's Bonjour Tristesse.,draft,ohwc,469
+ottopreminger,rivette,,draft,ohwc,469
+robertaldrich,tarantino,The glowing briefcase in Pulp Fiction is often traced to the box in Kiss Me Deadly.,draft,,
+robertaldrich,godard,,draft,,
+renoir,robertaldrich,Aldrich was an assistant director on Renoir's The Southerner.,draft,,
+anthonymann,godard,,draft,ohwc,469
+donsiegel,peckinpah,Peckinpah was Siegel's assistant on Invasion of the Body Snatchers.,draft,ohwc,"487,541,542"
+johnhuston,pta,Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood.,draft,,
+josephlmankiewicz,almodovar,All About My Mother takes its title from All About Eve.,draft,,
+josephlmankiewicz,godard,,draft,,
+vincenteminnelli,demy,,draft,,
+vincenteminnelli,scorsese,,draft,ohwc,"13,322"
+vincenteminnelli,godard,Contempt cites Some Came Running.,draft,ohwc,"13,322"
+donenkelly,demy,Demy cast Gene Kelly in The Young Girls of Rochefort.,draft,,
+donenkelly,bobfosse,,draft,ohwc,320
+fellini,bobfosse,"Sweet Charity adapts Nights of Cabiria, and All That Jazz is his answer to 8½.",draft,,
+bergman,woodyallen,Allen has called Bergman the greatest film artist; Interiors and Love and Death both draw on him.,draft,ohwc,15
+fellini,woodyallen,Stardust Memories reworks 8½.,draft,,
+leomccarey,woodyallen,A screening of Duck Soup restores the hero's will to live in Hannah and Her Sisters.,draft,,
+woodyallen,robreiner,,draft,,
+fellini,mikenichols,,draft,,
+mikenichols,wanderson,,draft,,
+cassavetes,elainemay,May cast Cassavetes and Peter Falk as the leads of Mikey and Nicky.,draft,,
+halashby,wanderson,,draft,,
+truffaut,arthurpenn,"Bonnie and Clyde was offered first to Truffaut, who passed it on.",draft,,
+godard,arthurpenn,,draft,ohwc,541
+kurosawa,arthurpenn,,draft,,
+sidneylumet,spikelee,,draft,,
+godard,williamfriedkin,,draft,,
+welles,williamfriedkin,,draft,,
+alanjpakula,fincher,Zodiac is modelled on All the President's Men.,draft,,
+ford,michaelcimino,,draft,,
+visconti,michaelcimino,,draft,,
+montehellman,tarantino,Hellman was an executive producer of Reservoir Dogs.,draft,ohwc,793
+antonioni,montehellman,,draft,,
+stanbrakhage,fincher,The title sequence of Seven borrows Brakhage's scratched-film look.,draft,,
+mayaderen,lynch,,draft,ohwc,124
+mayaderen,stanbrakhage,,draft,ohwc,"567,575"
+mayaderen,lynneramsay,,draft,,
+andywarhol,akerman,,draft,,
+michaelsnow,akerman,Akerman saw Snow's films in New York in the early 1970s and called them decisive.,draft,,
+jonasmekas,akerman,,draft,,
+andywarhol,gusvansant,,draft,,
+andywarhol,johnwaters,,draft,,
+frederickwiseman,wangbing,,draft,,
+errolmorris,joshuaoppenheimer,Morris was an executive producer of The Act of Killing.,draft,,
+herzog,joshuaoppenheimer,Herzog was an executive producer of The Act of Killing.,draft,,
+marker,patricioguzman,Marker sent the film stock that made The Battle of Chile possible.,draft,,
+marker,terrygilliam,12 Monkeys is based on La Jetée.,draft,,
+desica,charlesburnett,,draft,,
+renoir,charlesburnett,,draft,,
+charlesburnett,barryjenkins,,draft,,
+wong,barryjenkins,Jenkins has cited Wong Kar-wai's colour and music as a model for Moonlight.,draft,,
+denis,barryjenkins,,draft,,
+hou,barryjenkins,The three-part structure of Moonlight follows Hou's Three Times.,draft,,
+sirk,toddhaynes,Far from Heaven is modelled on All That Heaven Allows.,draft,,
+fassbinder,toddhaynes,,draft,,
+akerman,toddhaynes,,draft,,
+kubrick,toddhaynes,,draft,,
+tarr,gusvansant,"Van Sant has said Tarr's long takes inspired Gerry, Elephant and Last Days.",draft,,
+akerman,gusvansant,,draft,,
+hitchcock,gusvansant,Van Sant remade Psycho almost shot for shot.,draft,,
+welles,gusvansant,My Own Private Idaho draws on Chimes at Midnight.,draft,,
+antonioni,sofiacoppola,,draft,,
+wong,sofiacoppola,She thanked Wong Kar-wai in her Oscar speech for Lost in Translation.,draft,,
+coppola,sofiacoppola,Her father produced her first features.,draft,,
+peterweir,sofiacoppola,The Virgin Suicides echoes Picnic at Hanging Rock.,draft,,
+resnais,michelgondry,,draft,,
+kubrick,jordanpeele,,draft,,
+hitchcock,jordanpeele,,draft,,
+spielberg,jordanpeele,,draft,,
+polanski,jordanpeele,,draft,,
+victorerice,guillermodeltoro,Pan's Labyrinth follows The Spirit of the Beehive in seeing Franco's Spain through a girl's fantasies.,draft,,
+bunuel,guillermodeltoro,,draft,,
+hitchcock,guillermodeltoro,Del Toro wrote a book-length study of Hitchcock.,draft,,
+godard,alfonsocuaron,,draft,,
+fellini,alfonsocuaron,,draft,,
+fellini,terrygilliam,"Brazil was at one point titled 1984½, after 8½.",draft,,
+kubrick,terrygilliam,,draft,,
+bunuel,terrygilliam,,draft,,
+welles,terrygilliam,,draft,,
+hitchcock,paulverhoeven,,draft,,
+leniriefenstahl,paulverhoeven,Starship Troopers quotes Triumph of the Will in its mock recruitment films.,draft,,
+scorsese,oliverstone,Scorsese taught Stone at NYU.,draft,,
+kurosawa,oliverstone,,draft,,
+eisenstein,oliverstone,,draft,,
+melville,michaelmann,,draft,,
+michaelmann,nolan,Nolan has cited Heat as a model for The Dark Knight.,draft,,
+peckinpah,kathrynbigelow,Bigelow has said The Wild Bunch changed her idea of what film could do.,draft,,
+truffaut,jonathandemme,,draft,,
+jonathandemme,pta,Anderson has named Demme as the filmmaker he most tried to imitate.,draft,,
+keaton,georgemiller,Miller has pointed to silent comedy and The General as models for Mad Max: Fury Road.,draft,,
+kubrick,jonathanglazer,,draft,,
+bresson,lynneramsay,,draft,,
+lynch,lynneramsay,,draft,,
+kubrick,wachowskis,,draft,,
+lang,wachowskis,,draft,,
+jamescameron,wachowskis,,draft,,
+wilder,robreiner,,draft,,
+frankcapra,haroldramis,,draft,,
+hitchcock,melbrooks,High Anxiety parodies Hitchcock's thrillers.,draft,,
+melbrooks,lynch,Brooks hired Lynch for The Elephant Man after seeing Eraserhead.,draft,,
+tati,blakeedwards,The Party is a homage to Tati's gag construction.,draft,,
+sirk,johnwaters,,draft,,
+bergman,johnwaters,,draft,,
+johnwaters,almodovar,,draft,,
+fellini,emirkusturica,,draft,,
+tarkovsky,emirkusturica,,draft,,
+forman,emirkusturica,,draft,,
+fellini,giuseppetornatore,,draft,ohwc,623
+desica,tomasgutierrezalea,Alea studied at the Centro Sperimentale in Rome during the neorealist years.,draft,ohwc,13
+bunuel,tomasgutierrezalea,,draft,,
+godard,tomasgutierrezalea,,draft,,
+tomasgutierrezalea,saragomez,"Gómez was Alea's assistant, and he completed her only feature.",draft,ohwc,773
+eisenstein,fernandoesolanas,,draft,ohwc,560
+vertov,fernandoesolanas,,draft,,
+godard,djibrildiopmambety,,draft,,
+godard,medhondo,,draft,,
+forughfarrokhzad,kiarostami,The Wind Will Carry Us takes its title from a Farrokhzad poem.,draft,,
+kiarostami,asgharfarhadi,,draft,,
+bergman,asgharfarhadi,,draft,,
+tarkovsky,wangbing,,draft,,
+desica,royandersson,Andersson has often named Bicycle Thieves as his favourite film.,draft,,
+tati,royandersson,,draft,,
+bunuel,royandersson,,draft,,
+fellini,royandersson,,draft,,
+barbaraloden,reichardt,,draft,,
+charleslaughton,malick,,draft,,
+charleslaughton,coens,,draft,,
+charleslaughton,spikelee,Radio Raheem's love and hate rings in Do the Right Thing quote the preacher's tattooed knuckles.,draft,,
+charleslaughton,scorsese,,draft,,
+kingvidor,desica,,draft,,
+kingvidor,wilder,The vast office of The Apartment is taken from The Crowd.,draft,ohwc,304
+bresson,pedrocosta,,draft,,
+dreyer,manoeldeoliveira,,draft,ohwc,631
+powell,johnboorman,Named among the filmmakers they influenced in The Oxford History of World Cinema.,verified,ohwc,
+powell,kaurismaki,Named among the filmmakers they influenced in The Oxford History of World Cinema.,verified,ohwc,
+eisenstein,emiliofernandez,Fernández took the imagery of Eisenstein's unfinished Mexican film as a model.,draft,,
+alfsjoberg,bergman,Bergman wrote Torment for Sjöberg and worked on it as his assistant.,draft,,
+louismalle,volkerschlondorff,Schlöndorff was Malle's assistant.,draft,,
+melville,volkerschlondorff,Schlöndorff was Melville's assistant.,draft,,
+resnais,volkerschlondorff,Schlöndorff was an assistant on Last Year at Marienbad.,draft,,
+bergman,billeaugust,Bergman chose August to direct The Best Intentions from his script.,draft,,
+jacquescousteau,louismalle,Malle began his career as Cousteau's cameraman and co-director.,draft,,
+resnais,henricolpi,Colpi edited Hiroshima mon amour and Last Year at Marienbad.,draft,,
+rossellini,taviani,The Tavianis said that seeing Paisan as students made them filmmakers.,draft,,
+desica,renatocastellani,,draft,,
+godard,richardlester,,draft,,
+richardlester,stevensoderbergh,Soderbergh published a book of conversations with Lester.,draft,,
+gillopontecorvo,costagavras,,draft,,
+costagavras,oliverstone,,draft,,
+cassavetes,seanbaker,,draft,,
+loach,seanbaker,,draft,,
+mauricepialat,abdellatifkechiche,,draft,,
+cronenberg,juliaducournau,Ducournau has named Cronenberg as her main influence.,draft,,
+royandersson,rubenostlund,,draft,,
+haneke,rubenostlund,,draft,,
+cecilbdemille,spielberg,Spielberg has said The Greatest Show on Earth was the first film he saw in a cinema.,draft,,
+pietrogermi,scorsese,,draft,,
+eliopetri,oliverstone,,draft,,

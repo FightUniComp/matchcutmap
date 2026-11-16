@@ -1,0 +1,387 @@
+{
+ "classical-hollywood": {
+  "name": "Classical Hollywood",
+  "kind": "movement",
+  "period": "1920s to 1950s",
+  "description": "Studio-era filmmaking built on continuity editing, stars and genre, within which a few directors developed strong personal styles.",
+  "cluster": true
+ },
+ "german-expressionism": {
+  "name": "German Expressionism",
+  "kind": "movement",
+  "period": "1919 to early 1930s",
+  "description": "Distorted sets, heavy shadow and subjective camera used to externalise inner states.",
+  "cluster": true
+ },
+ "soviet-montage": {
+  "name": "Soviet Montage",
+  "kind": "movement",
+  "period": "1924 to mid 1930s",
+  "description": "Editing treated as the essence of cinema: meaning comes from the collision of shots.",
+  "cluster": true
+ },
+ "poetic-realism": {
+  "name": "Poetic Realism",
+  "kind": "movement",
+  "period": "1930s",
+  "description": "Fatalistic French stories of ordinary lives, shot with studio lyricism.",
+  "cluster": true
+ },
+ "italian-neorealism": {
+  "name": "Italian Neorealism",
+  "kind": "movement",
+  "period": "1943 to early 1950s",
+  "description": "Location shooting, non-professional actors and stories of ordinary people in postwar Italy.",
+  "cluster": true
+ },
+ "art-cinema": {
+  "name": "Postwar modernist art cinema",
+  "kind": "category",
+  "period": "1950s to 1970s",
+  "description": "Auteur-driven films that loosen plot and foreground ambiguity, subjectivity and form.",
+  "cluster": true
+ },
+ "french-new-wave": {
+  "name": "French New Wave",
+  "kind": "movement",
+  "period": "1958 to late 1960s",
+  "description": "Critics turned directors who shot cheaply on location and broke the rules of continuity and tone.",
+  "cluster": true
+ },
+ "left-bank": {
+  "name": "Left Bank group",
+  "kind": "movement",
+  "period": "1950s to 1960s",
+  "description": "The literary, politically engaged wing of the French New Wave, preoccupied with memory and documentary.",
+  "cluster": true
+ },
+ "japanese-golden-age": {
+  "name": "Japanese studio golden age",
+  "kind": "category",
+  "period": "1930s to 1950s",
+  "description": "The studio-era masters whose films reached the West in the 1950s.",
+  "cluster": false
+ },
+ "japanese-new-wave": {
+  "name": "Japanese New Wave",
+  "kind": "movement",
+  "period": "late 1950s to 1970s",
+  "description": "A generation that attacked the humanism of the studio masters with sex, politics and formal rupture.",
+  "cluster": true
+ },
+ "czechoslovak-new-wave": {
+  "name": "Czechoslovak New Wave",
+  "kind": "movement",
+  "period": "1963 to 1968",
+  "description": "Satire, non-actors and formal play under, and against, state socialism.",
+  "cluster": true
+ },
+ "new-hollywood": {
+  "name": "New Hollywood",
+  "kind": "movement",
+  "period": "1967 to 1980",
+  "description": "A film-literate generation that brought European art-cinema methods into American genre film.",
+  "cluster": true
+ },
+ "new-german-cinema": {
+  "name": "New German Cinema",
+  "kind": "movement",
+  "period": "1962 to 1982",
+  "description": "Young West German directors confronting the national past with low budgets and personal styles.",
+  "cluster": true
+ },
+ "american-independent": {
+  "name": "American independent cinema",
+  "kind": "category",
+  "period": "1959 onward",
+  "description": "Directors working outside or at the edge of the studio system. A production context more than a shared style.",
+  "cluster": false
+ },
+ "taiwan-new-wave": {
+  "name": "Taiwan New Wave",
+  "kind": "movement",
+  "period": "1982 onward",
+  "description": "Long takes, distant framing and everyday life used to examine Taiwan's history and modernisation.",
+  "cluster": true
+ },
+ "hong-kong-second-wave": {
+  "name": "Hong Kong Second Wave",
+  "kind": "movement",
+  "period": "late 1980s to 1990s",
+  "description": "Auteur filmmaking that grew out of Hong Kong's commercial industry, restless in style and preoccupied with time and identity.",
+  "cluster": true
+ },
+ "korean-new-wave": {
+  "name": "Korean New Wave",
+  "kind": "movement",
+  "period": "late 1990s onward",
+  "description": "High-craft genre films that fold in social critique and abrupt shifts of tone.",
+  "cluster": true
+ },
+ "iranian-new-wave": {
+  "name": "Iranian New Wave",
+  "kind": "movement",
+  "period": "1960s onward",
+  "description": "Poetic realism that blurs fiction and documentary, often through children and non-actors.",
+  "cluster": true
+ },
+ "dogme-95": {
+  "name": "Dogme 95",
+  "kind": "movement",
+  "period": "1995 to 2005",
+  "description": "A manifesto of handheld cameras, natural light and location sound, against technical polish.",
+  "cluster": true
+ },
+ "surrealism": {
+  "name": "Surrealism",
+  "kind": "movement",
+  "period": "1920s onward",
+  "description": "Dream imagery and irrational juxtaposition aimed against bourgeois logic.",
+  "cluster": true
+ },
+ "spaghetti-western": {
+  "name": "Spaghetti Western",
+  "kind": "movement",
+  "period": "1960s to 1970s",
+  "description": "Italian-made westerns that turned the genre operatic, cynical and violent.",
+  "cluster": true
+ },
+ "parallel-cinema": {
+  "name": "Parallel Cinema",
+  "kind": "movement",
+  "period": "1950s to 1970s",
+  "description": "A realist alternative to mainstream Indian cinema, rooted in Bengali literature and neorealism.",
+  "cluster": true
+ },
+ "slow-cinema": {
+  "name": "Slow cinema",
+  "kind": "category",
+  "period": "1990s onward, with precursors",
+  "description": "Very long takes, minimal narrative and attention to duration and stillness.",
+  "cluster": true
+ },
+ "transcendental-style": {
+  "name": "Transcendental style",
+  "kind": "category",
+  "period": "Paul Schrader's term, 1972",
+  "description": "An austere style that withholds expression and drama to point beyond the everyday.",
+  "cluster": true
+ },
+ "social-realism": {
+  "name": "Social realism",
+  "kind": "category",
+  "period": "1960s onward",
+  "description": "Working-class lives filmed with documentary methods and little stylisation.",
+  "cluster": true
+ },
+ "postmodern": {
+  "name": "Postmodern cinema",
+  "kind": "category",
+  "period": "1980s onward",
+  "description": "Pastiche, quotation and genre mixing, with irony about the film's own artifice.",
+  "cluster": false
+ },
+ "silent-comedy": {
+  "name": "Silent comedy",
+  "kind": "category",
+  "period": "1910s to 1920s",
+  "description": "Physical comedy built from long, wide takes that prove the gag was really performed.",
+  "cluster": true
+ },
+ "romanian-new-wave": {
+  "name": "Romanian New Wave",
+  "kind": "movement",
+  "period": "2001 onward",
+  "description": "Long handheld takes, real-time pacing and dark humour about life during and after Ceausescu.",
+  "cluster": true
+ },
+ "fifth-generation": {
+  "name": "Chinese Fifth Generation",
+  "kind": "movement",
+  "period": "1980s to 1990s",
+  "description": "The first class to graduate after the Cultural Revolution, turning to landscape, colour and history in place of socialist realism.",
+  "cluster": true
+ },
+ "sixth-generation": {
+  "name": "Chinese Sixth Generation",
+  "kind": "movement",
+  "period": "1990s onward",
+  "description": "Low-budget, often unofficial films about contemporary urban and provincial China, shot in a documentary manner.",
+  "cluster": true
+ },
+ "cinema-novo": {
+  "name": "Cinema Novo",
+  "kind": "movement",
+  "period": "1960s to early 1970s",
+  "description": "Brazilian political cinema made cheaply and roughly by design, mixing neorealism, folklore and agitation.",
+  "cluster": true
+ },
+ "greek-weird-wave": {
+  "name": "Greek Weird Wave",
+  "kind": "movement",
+  "period": "2009 onward",
+  "description": "Deadpan, absurd allegories of family and power, delivered in stilted speech.",
+  "cluster": true
+ },
+ "film-noir": {
+  "name": "Film noir",
+  "kind": "category",
+  "period": "1941 to late 1950s",
+  "description": "Shadowy American crime films about fate, corruption and desire, shaped by German émigrés and hard-boiled fiction.",
+  "cluster": true
+ },
+ "hollywood-musical": {
+  "name": "Hollywood musical",
+  "kind": "category",
+  "period": "1930s to 1960s",
+  "description": "Studio films organised around song and dance numbers, at their height in MGM's Freed unit.",
+  "cluster": true
+ },
+ "screwball-comedy": {
+  "name": "Screwball and sophisticated comedy",
+  "kind": "category",
+  "period": "1930s to 1940s",
+  "description": "Fast, verbal Hollywood comedies of class, courtship and remarriage.",
+  "cluster": true
+ },
+ "silent-pioneers": {
+  "name": "Silent-era pioneers",
+  "kind": "category",
+  "period": "1908 to 1929",
+  "description": "The directors who established feature-length storytelling, the epic and the star system before sound.",
+  "cluster": true
+ },
+ "soviet-thaw": {
+  "name": "Soviet cinema after the Thaw",
+  "kind": "category",
+  "period": "1956 to 1991",
+  "description": "Soviet filmmakers who used the loosening after Stalin to pursue personal, poetic and often censored work.",
+  "cluster": true
+ },
+ "french-classical": {
+  "name": "French classical cinema",
+  "kind": "category",
+  "period": "1930s to 1950s",
+  "description": "French studio-era craftsmanship outside the New Wave: polished scripts, genre films and poetic fantasy.",
+  "cluster": true
+ },
+ "post-new-wave": {
+  "name": "French post-New Wave",
+  "kind": "category",
+  "period": "1970s to 1990s",
+  "description": "The generation after the New Wave, harsher or more extravagant than its predecessors.",
+  "cluster": true
+ },
+ "documentary": {
+  "name": "Documentary traditions",
+  "kind": "category",
+  "period": "1920s onward",
+  "description": "Non-fiction filmmaking, from staged ethnography to direct cinema, testimony and the essay.",
+  "cluster": true
+ },
+ "experimental": {
+  "name": "Avant-garde and experimental film",
+  "kind": "category",
+  "period": "1940s onward",
+  "description": "Artists' films made outside the industry that explore perception, duration and the medium itself.",
+  "cluster": true
+ },
+ "british-studio-era": {
+  "name": "British studio era",
+  "kind": "category",
+  "period": "1940s to 1950s",
+  "description": "The peak of British studio filmmaking, from Ealing comedy to the Archers and David Lean.",
+  "cluster": true
+ },
+ "british-new-wave": {
+  "name": "British New Wave",
+  "kind": "movement",
+  "period": "1959 to mid 1960s",
+  "description": "Working-class stories and location shooting, growing out of the Free Cinema documentaries.",
+  "cluster": true
+ },
+ "british-art-cinema": {
+  "name": "British art cinema",
+  "kind": "category",
+  "period": "1960s onward",
+  "description": "British directors working in a personal, formally adventurous mode outside the realist mainstream.",
+  "cluster": true
+ },
+ "contemporary-hollywood": {
+  "name": "Contemporary Hollywood",
+  "kind": "category",
+  "period": "1977 onward",
+  "description": "The era of the blockbuster and the franchise, in which a few directors keep a recognisable signature at very large scale.",
+  "cluster": true
+ },
+ "horror": {
+  "name": "Horror",
+  "kind": "category",
+  "period": "1920s onward",
+  "description": "The genre of fear, from Universal's monsters to independent American horror and the Italian giallo.",
+  "cluster": true
+ },
+ "animation": {
+  "name": "Animation",
+  "kind": "category",
+  "period": "1930s onward",
+  "description": "Feature animation, from Disney's studio system to Studio Ghibli.",
+  "cluster": true
+ },
+ "third-cinema": {
+  "name": "Third Cinema and African cinema",
+  "kind": "movement",
+  "period": "1960s to 1980s",
+  "description": "Militant, anti-colonial filmmaking from Latin America and Africa, defined against both Hollywood and European art cinema.",
+  "cluster": true
+ },
+ "italian-political-cinema": {
+  "name": "Italian political cinema",
+  "kind": "movement",
+  "period": "1960s to 1970s",
+  "description": "Investigative films about power, crime and colonial war, growing out of neorealism.",
+  "cluster": true
+ },
+ "spanish-cinema": {
+  "name": "Spanish cinema under Franco",
+  "kind": "category",
+  "period": "1950s to 1970s",
+  "description": "Films that spoke about Spain through satire, allegory and childhood because they could not speak directly.",
+  "cluster": true
+ },
+ "polish-film-school": {
+  "name": "Polish Film School",
+  "kind": "movement",
+  "period": "1955 to mid 1960s",
+  "description": "The first postwar generation of Polish directors, reckoning with the war and its myths.",
+  "cluster": true
+ },
+ "la-rebellion": {
+  "name": "L.A. Rebellion",
+  "kind": "movement",
+  "period": "late 1960s to 1980s",
+  "description": "Black filmmakers trained at UCLA who rejected Hollywood models for independent, community-rooted work.",
+  "cluster": true
+ },
+ "new-queer-cinema": {
+  "name": "New Queer Cinema",
+  "kind": "movement",
+  "period": "early 1990s",
+  "description": "Independent films that treated queer lives with formal daring and without apology.",
+  "cluster": true
+ },
+ "hollywood-comedy": {
+  "name": "Hollywood comedy since 1960",
+  "kind": "category",
+  "period": "1960s to 1990s",
+  "description": "Studio comedy after the classical era: parody, improvisation and the teen film.",
+  "cluster": true
+ },
+ "australian-new-wave": {
+  "name": "Australian New Wave",
+  "kind": "movement",
+  "period": "1970s to 1980s",
+  "description": "A state-supported revival that produced both atmospheric art films and genre hits.",
+  "cluster": true
+ }
+}

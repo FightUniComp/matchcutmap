@@ -1,0 +1,333 @@
+﻿id,name,country,tspdt_rank,films_listed,cannes_wins,influenced,influenced_by
+hitchcock,Alfred Hitchcock,UK / USA,1,13,0,22,3
+welles,Orson Welles,USA,2,8,1,12,2
+ford,John Ford,USA,10,15,0,13,2
+sirk,Douglas Sirk,Germany / USA,74,5,0,5,0
+kubrick,Stanley Kubrick,USA / UK,3,11,0,14,2
+kurosawa,Akira Kurosawa,Japan,8,12,1,12,2
+ozu,Yasujirō Ozu,Japan,11,10,0,12,2
+mizoguchi,Kenji Mizoguchi,Japan,26,9,0,4,0
+bergman,Ingmar Bergman,Sweden,7,13,0,10,4
+dreyer,Carl Theodor Dreyer,Denmark,18,5,0,6,2
+bresson,Robert Bresson,France,16,10,0,18,1
+tarkovsky,Andrei Tarkovsky,Soviet Union,13,7,0,9,7
+eisenstein,Sergei Eisenstein,Soviet Union,29,7,0,8,1
+vertov,Dziga Vertov,Soviet Union,56,6,0,4,0
+lang,Fritz Lang,Germany / USA,24,9,0,8,1
+murnau,F. W. Murnau,Germany / USA,19,8,0,6,0
+renoir,Jean Renoir,France,9,12,0,10,1
+rossellini,Roberto Rossellini,Italy,27,8,1,14,0
+fellini,Federico Fellini,Italy,4,9,1,11,2
+antonioni,Michelangelo Antonioni,Italy,21,8,1,13,0
+godard,Jean-Luc Godard,France,6,16,0,19,18
+truffaut,François Truffaut,France,25,8,0,6,11
+varda,Agnès Varda,France,47,9,0,1,0
+resnais,Alain Resnais,France,40,6,0,5,1
+bunuel,Luis Buñuel,Spain / Mexico,14,17,1,13,1
+melville,Jean-Pierre Melville,France,95,6,0,6,1
+tati,Jacques Tati,France,53,5,0,4,1
+ray,Satyajit Ray,India,36,6,0,2,2
+leone,Sergio Leone,Italy,41,5,0,3,2
+cassavetes,John Cassavetes,USA,33,8,0,7,0
+altman,Robert Altman,USA,49,6,1,2,2
+scorsese,Martin Scorsese,USA,12,10,1,6,25
+malick,Terrence Malick,USA,51,5,1,1,1
+spielberg,Steven Spielberg,USA,23,10,0,2,9
+lynch,David Lynch,USA,22,10,1,2,9
+herzog,Werner Herzog,Germany,55,6,0,1,1
+fassbinder,Rainer Werner Fassbinder,Germany,48,7,0,2,7
+akerman,Chantal Akerman,Belgium,28,7,0,4,4
+kiarostami,Abbas Kiarostami,Iran,31,7,1,3,3
+almodovar,Pedro Almodóvar,Spain,99,5,0,0,11
+haneke,Michael Haneke,Austria,84,6,2,1,1
+tarr,Béla Tarr,Hungary,79,5,0,1,1
+kaurismaki,Aki Kaurismäki,Finland,217,5,0,0,9
+jarmusch,Jim Jarmusch,USA,121,5,0,0,9
+coens,Joel and Ethan Coen,USA,61,9,1,0,5
+vontrier,Lars von Trier,Denmark,77,5,1,0,3
+dardenne,Jean-Pierre and Luc Dardenne,Belgium,204,5,2,0,3
+denis,Claire Denis,France,60,7,0,1,2
+wong,Wong Kar-wai,Hong Kong,30,5,0,2,1
+tsai,Tsai Ming-liang,Taiwan,113,7,0,0,3
+koreeda,Hirokazu Kore-eda,Japan,182,5,1,0,3
+apichatpong,Apichatpong Weerasethakul,Thailand,78,6,1,0,1
+reichardt,Kelly Reichardt,USA,208,5,0,0,2
+tarantino,Quentin Tarantino,USA,64,6,1,0,12
+wanderson,Wes Anderson,USA,160,5,0,0,9
+pta,Paul Thomas Anderson,USA,58,6,0,0,7
+bong,Bong Joon-ho,South Korea,120,5,1,0,4
+park,Park Chan-wook,South Korea,,5,0,0,1
+desica,Vittorio De Sica,Italy,32,5,1,12,2
+visconti,Luchino Visconti,Italy,34,7,1,5,1
+rohmer,Éric Rohmer,France,82,6,0,3,3
+wenders,Wim Wenders,Germany,73,5,1,1,5
+coppola,Francis Ford Coppola,USA,5,6,2,1,7
+hou,Hou Hsiao-hsien,Taiwan,57,7,0,3,1
+yang,Edward Yang,Taiwan,66,5,0,0,1
+vinterberg,Thomas Vinterberg,Denmark,,6,0,0,0
+panahi,Jafar Panahi,Iran,,6,1,0,2
+chytilova,Věra Chytilová,Czechoslovakia,141,5,0,0,0
+forman,Miloš Forman,Czechoslovakia / USA,85,5,0,3,0
+oshima,Nagisa Oshima,Japan,145,5,0,1,0
+imamura,Shohei Imamura,Japan,188,5,2,1,1
+leechangdong,Lee Chang-dong,South Korea,,5,0,0,0
+loach,Ken Loach,UK,122,5,2,3,2
+leigh,Mike Leigh,UK,118,5,1,0,2
+chaplin,Charlie Chaplin,UK / USA,15,9,0,5,1
+keaton,Buster Keaton,USA,50,8,0,2,0
+hawks,Howard Hawks,USA,20,10,0,7,0
+wilder,Billy Wilder,Austria / USA,17,7,1,3,3
+powell,Michael Powell and Emeric Pressburger,UK,35,9,0,8,1
+pasolini,Pier Paolo Pasolini,Italy,52,8,0,5,2
+bertolucci,Bernardo Bertolucci,Italy,62,5,0,1,3
+chabrol,Claude Chabrol,France,222,5,0,0,2
+rivette,Jacques Rivette,France,83,5,0,1,7
+marker,Chris Marker,France,54,5,0,2,3
+demy,Jacques Demy,France,92,5,1,0,5
+polanski,Roman Polanski,Poland / France,44,6,1,2,5
+kieslowski,Krzysztof Kieślowski,Poland,59,6,0,0,4
+angelopoulos,Theo Angelopoulos,Greece,112,5,1,0,4
+mungiu,Cristian Mungiu,Romania,,6,2,0,1
+puiu,Cristi Puiu,Romania,,5,0,0,2
+depalma,Brian De Palma,USA,101,7,0,1,6
+peckinpah,Sam Peckinpah,USA,71,5,0,2,3
+spikelee,Spike Lee,USA,75,5,0,0,5
+linklater,Richard Linklater,USA,132,6,0,0,4
+fincher,David Fincher,USA,117,5,0,0,6
+nolan,Christopher Nolan,UK / USA,164,6,0,0,9
+cronenberg,David Cronenberg,Canada,93,5,0,1,0
+zhang,Zhang Yimou,China,158,5,0,0,3
+chen,Chen Kaige,China,,5,1,2,0
+jia,Jia Zhangke,China,166,5,0,0,7
+sembene,Ousmane Sembène,Senegal,123,5,0,0,1
+rocha,Glauber Rocha,Brazil,107,6,0,1,4
+campion,Jane Campion,New Zealand,86,6,1,1,2
+sciamma,Céline Sciamma,France,124,5,0,0,4
+martel,Lucrecia Martel,Argentina,116,4,0,0,0
+lanthimos,Yorgos Lanthimos,Greece,,5,0,0,4
+ceylan,Nuri Bilge Ceylan,Turkey,205,5,1,0,5
+kitano,Takeshi Kitano,Japan,,5,0,1,1
+ernstlubitsch,Ernst Lubitsch,USA,37,8,0,5,0
+woodyallen,Woody Allen,USA,38,6,0,1,3
+davidlean,David Lean,UK,39,5,1,3,1
+donenkelly,Stanley Donen & Gene Kelly,USA,42,2,0,2,0
+ridleyscott,Ridley Scott,USA,43,3,0,2,2
+jeanvigo,Jean Vigo,France,45,2,0,4,0
+maxophuls,Max Ophüls,France,46,5,0,5,0
+michaelcurtiz,Michael Curtiz,USA,63,3,0,0,0
+johnhuston,John Huston,USA,65,8,0,2,0
+dwgriffith,D.W. Griffith,USA,67,4,0,8,0
+frankcapra,Frank Capra,USA,68,3,0,5,0
+hayaomiyazaki,Hayao Miyazaki,Japan,69,3,0,2,1
+nicholasray,Nicholas Ray,USA,70,5,0,6,1
+vincenteminnelli,Vincente Minnelli,USA,72,6,1,4,0
+carolreed,Carol Reed,UK,76,2,1,1,0
+leomccarey,Leo McCarey,USA,80,4,0,3,0
+victorfleming,Victor Fleming,USA,81,2,0,0,0
+prestonsturges,Preston Sturges,USA,87,5,0,1,0
+eliakazan,Elia Kazan,USA,88,4,0,2,0
+marcelcarne,Marcel Carné,France,89,2,0,0,0
+nicolasroeg,Nicolas Roeg,UK,90,3,0,4,1
+gillopontecorvo,Gillo Pontecorvo,Italy,91,1,0,4,1
+erichvonstroheim,Erich von Stroheim,USA,94,3,0,2,1
+victorerice,Víctor Erice,Spain,96,3,0,1,1
+claudelanzmann,Claude Lanzmann,France,97,1,0,0,0
+josefvonsternberg,Josef von Sternberg,USA,98,5,0,1,0
+jacquestourneur,Jacques Tourneur,USA,100,5,0,2,0
+josephlmankiewicz,Joseph L. Mankiewicz,USA,102,2,0,2,1
+sidneylumet,Sidney Lumet,USA,103,3,0,1,0
+jeaneustache,Jean Eustache,France,104,2,0,1,2
+johncarpenter,John Carpenter,USA,105,4,0,1,2
+jamescameron,James Cameron,USA,106,5,0,1,2
+clinteastwood,Clint Eastwood,USA,108,2,0,0,4
+georgecukor,George Cukor,USA,109,2,0,0,0
+williamwyler,William Wyler,USA,110,4,1,0,0
+kingvidor,King Vidor,USA,111,3,0,2,1
+michaelcimino,Michael Cimino,USA,114,2,0,0,2
+straubhuillet,Jean-Marie Straub & Danièle Huillet,Italy,115,5,0,2,2
+elemklimov,Elem Klimov,USSR,119,1,0,0,1
+robertzemeckis,Robert Zemeckis,USA,125,2,0,0,2
+williamfriedkin,William Friedkin,USA,126,2,0,0,3
+georgelucas,George Lucas,USA,127,3,0,1,6
+stanbrakhage,Stan Brakhage,USA,128,4,0,1,1
+mikionaruse,Mikio Naruse,Japan,129,3,0,1,0
+sergeiparajanov,Sergei Parajanov,USSR,130,3,0,0,3
+michaelmann,Michael Mann,USA,131,2,0,1,1
+mauricepialat,Maurice Pialat,France,133,5,1,2,1
+michaelsnow,Michael Snow,Canada,134,2,0,1,0
+bobfosse,Bob Fosse,USA,135,2,1,0,2
+charlesburnett,Charles Burnett,USA,136,2,0,1,2
+halashby,Hal Ashby,USA,137,3,0,1,0
+peterweir,Peter Weir,Australia,138,2,0,1,1
+robreiner,Rob Reiner,USA,139,4,0,0,2
+djibrildiopmambety,Djibril Diop Mambéty,Senegal,140,3,0,0,1
+terrygilliam,Terry Gilliam,UK,142,2,0,0,5
+andrzejwajda,Andrzej Wajda,Poland,143,2,1,4,1
+toddhaynes,Todd Haynes,USA,144,4,0,0,5
+raoulwalsh,Raoul Walsh,USA,146,1,0,0,1
+jeancocteau,Jean Cocteau,France,147,2,0,6,0
+alexanderdovzhenko,Alexander Dovzhenko,USSR,148,1,0,3,0
+mikenichols,Mike Nichols,USA,149,2,0,1,1
+georgearomero,George A. Romero,USA,150,2,0,1,2
+abelgance,Abel Gance,France,151,2,0,1,1
+anglee,Ang Lee,USA,152,3,0,0,2
+ottopreminger,Otto Preminger,USA,153,2,0,2,0
+robertaldrich,Robert Aldrich,USA,154,1,0,2,1
+tobehooper,Tobe Hooper,USA,155,1,0,0,0
+robertjflaherty,Robert J. Flaherty,USA,156,2,0,1,0
+alfonsocuaron,Alfonso Cuarón,Mexico,157,4,0,0,3
+luisgarciaberlanga,Luis García Berlanga,Spain,159,3,0,1,1
+mikhailkalatozov,Mikhail Kalatozov,Cuba,161,2,1,2,0
+gusvansant,Gus Van Sant,USA,162,2,1,0,5
+frederickwiseman,Frederick Wiseman,USA,163,3,0,1,0
+andywarhol,Andy Warhol,USA,165,2,0,3,0
+manoeldeoliveira,Manoel de Oliveira,Portugal,167,3,0,0,1
+terencedavies,Terence Davies,UK,168,2,0,0,1
+peterbogdanovich,Peter Bogdanovich,USA,169,2,0,0,3
+mayaderen,Maya Deren,USA,170,2,0,3,0
+georgemiller,George Miller,Australia,171,2,0,0,1
+pedrocosta,Pedro Costa,Portugal,172,3,0,0,5
+henrigeorgesclouzot,Henri-Georges Clouzot,France,173,2,1,3,0
+aleksandrsokurov,Aleksandr Sokurov,Russia,174,2,0,0,1
+ritwikghatak,Ritwik Ghatak,India,175,3,0,0,1
+samuelfuller,Samuel Fuller,USA,176,2,0,6,0
+paulverhoeven,Paul Verhoeven,USA,177,3,0,0,2
+emirkusturica,Emir Kusturica,Yugoslavia,178,3,2,0,4
+louismalle,Louis Malle,France,179,2,1,2,2
+johnboorman,John Boorman,USA,180,3,0,0,2
+robertwise,Robert Wise,USA,181,2,0,0,0
+arthurpenn,Arthur Penn,USA,183,1,0,0,3
+alexandermackendrick,Alexander Mackendrick,USA,184,1,0,1,0
+victorsjostrom,Victor Sjöström,Sweden,185,3,0,2,0
+leoscarax,Leos Carax,France,186,2,0,0,4
+georgestevens,George Stevens,USA,187,2,0,1,0
+margueriteduras,Marguerite Duras,France,189,2,0,0,0
+cooperschoedsack,Merian C. Cooper & Ernest B. Schoedsack,USA,190,1,0,2,0
+ermannoolmi,Ermanno Olmi,Italy,191,2,1,0,2
+wachowskis,Lana Wachowski & Lilly Wachowski,USA,192,2,0,0,3
+gwpabst,G.W. Pabst,Germany,193,1,0,0,0
+feimu,Fei Mu,China,194,1,0,1,0
+josephlosey,Joseph Losey,UK,195,3,1,0,0
+lynneramsay,Lynne Ramsay,UK,196,3,0,0,4
+jonathandemme,Jonathan Demme,USA,197,2,0,1,1
+jameswhale,James Whale,USA,198,2,0,4,0
+barryjenkins,Barry Jenkins,USA,199,1,0,0,4
+todbrowning,Tod Browning,USA,200,2,0,1,0
+peterjackson,Peter Jackson,New Zealand,201,2,0,0,1
+timburton,Tim Burton,USA,202,2,0,0,2
+jonasmekas,Jonas Mekas,USA,203,2,0,1,0
+larisashepitko,Larisa Shepitko,USSR,206,2,0,1,1
+darioargento,Dario Argento,Italy,207,2,0,1,3
+sofiacoppola,Sofia Coppola,USA,209,3,0,0,4
+johnschlesinger,John Schlesinger,USA,211,1,0,0,0
+gurudutt,Guru Dutt,India,212,3,0,0,0
+michelgondry,Michel Gondry,USA,213,1,0,0,1
+frankborzage,Frank Borzage,USA,214,1,0,0,1
+alanjpakula,Alan J. Pakula,USA,215,1,0,1,0
+tomasgutierrezalea,Tomás Gutiérrez Alea,Cuba,216,1,0,1,3
+kinghu,King Hu,Taiwan,218,2,0,3,0
+anthonymann,Anthony Mann,USA,219,5,0,1,0
+royandersson,Roy Andersson,Sweden,220,2,0,1,4
+kathrynbigelow,Kathryn Bigelow,USA,221,3,0,0,1
+georgesfranju,Georges Franju,France,223,1,0,2,1
+jacquesbecker,Jacques Becker,France,224,3,1,2,1
+louisfeuillade,Louis Feuillade,France,225,2,0,4,0
+hongsangsoo,Hong Sang-soo,South Korea,226,2,0,0,3
+lindsayanderson,Lindsay Anderson,UK,227,2,1,0,2
+errolmorris,Errol Morris,USA,228,1,0,1,0
+juliedash,Julie Dash,USA,229,1,0,0,0
+francescorosi,Francesco Rosi,Italy,230,2,1,2,1
+fredzinnemann,Fred Zinnemann,USA,231,1,0,0,0
+reneclair,René Clair,France,232,5,0,1,0
+raulruiz,Raúl Ruiz,Portugal,233,1,0,0,2
+giuseppetornatore,Giuseppe Tornatore,Italy,234,1,0,0,1
+jeanrouch,Jean Rouch,France,235,2,0,2,2
+sydneypollack,Sydney Pollack,USA,236,1,0,0,0
+borisbarnet,Boris Barnet,USSR,237,2,0,0,0
+johnwaters,John Waters,USA,238,2,0,1,3
+roberthamer,Robert Hamer,UK,239,1,0,0,0
+donsiegel,Don Siegel,USA,240,2,0,2,0
+robertwiene,Robert Wiene,Germany,241,1,0,1,0
+alekseigerman,Aleksei German,USSR,242,4,0,0,0
+davidhand,David Hand,USA,243,3,0,0,0
+haroldramis,Harold Ramis,USA,244,1,0,0,1
+melbrooks,Mel Brooks,USA,245,2,0,1,2
+derekjarman,Derek Jarman,UK,246,1,0,0,3
+guillermodeltoro,Guillermo del Toro,Spain,247,1,0,0,6
+jordanpeele,Jordan Peele,USA,248,2,0,0,5
+peterwatkins,Peter Watkins,Sweden,249,2,0,0,0
+oliverstone,Oliver Stone,USA,250,1,0,0,5
+charleslaughton,Charles Laughton,USA,,1,0,4,1
+barbaraloden,Barbara Loden,USA,,1,0,1,0
+forughfarrokhzad,Forugh Farrokhzad,Iran,,1,0,1,0
+fernandomeirelles,Fernando Meirelles,Brazil,,1,0,0,0
+asgharfarhadi,Asghar Farhadi,Iran,,1,0,0,2
+saramaldoror,Sara Maldoror,Angola,,1,0,0,1
+wangbing,Wang Bing,China,,1,0,0,2
+medhondo,Med Hondo,France,,3,0,0,1
+cheryldunye,Cheryl Dunye,USA,,1,0,0,0
+jennielivingston,Jennie Livingston,USA,,1,0,0,0
+montehellman,Monte Hellman,USA,,1,0,1,1
+jonathanglazer,Jonathan Glazer,UK,,1,0,0,2
+fernandoesolanas,Fernando E. Solanas,Argentina,,1,0,0,2
+hiroshiteshigahara,Hiroshi Teshigahara,Japan,,1,0,0,0
+williamgreaves,William Greaves,USA,,1,0,0,0
+sallypotter,Sally Potter,UK,,1,0,0,1
+isaotakahata,Isao Takahata,Japan,,1,0,1,1
+joshuaoppenheimer,Joshua Oppenheimer,Denmark,,1,0,0,2
+andrzejzulawski,Andrzej Żuławski,France,,2,0,0,1
+saragomez,Sara Gómez,Cuba,,1,0,0,1
+patricioguzman,Patricio Guzmán,France,,2,0,0,1
+elainemay,Elaine May,USA,,3,0,0,1
+miklosjancso,Miklós Jancsó,Hungary,,2,0,2,1
+masakikobayashi,Masaki Kobayashi,Japan,,2,0,0,0
+johnhughes,John Hughes,USA,,2,0,0,0
+johnlandis,John Landis,UK,,2,0,0,0
+maysles,Albert Maysles & David Maysles,USA,,3,0,0,0
+blakeedwards,Blake Edwards,USA,,2,0,0,2
+leniriefenstahl,Leni Riefenstahl,Germany,,2,0,2,0
+edgargulmer,Edgar G. Ulmer,USA,,2,0,0,1
+kiramuratova,Kira Muratova,USSR,,4,0,0,0
+irvinkershner,Irvin Kershner,USA,,1,0,1,0
+cecilbdemille,Cecil B. DeMille,USA,,1,1,1,0
+leopoldlindtberg,Leopold Lindtberg,Switzerland,,1,1,0,0
+emiliofernandez,Emilio Fernández,Mexico,,1,1,0,1
+frantisekcap,František Čáp,Czechoslovakia,,1,1,0,0
+chetananand,Chetan Anand,India,,1,1,0,0
+jeandelannoy,Jean Delannoy,France,,1,1,0,0
+ipsenlauritzen,Bodil Ipsen & Lau Lauritzen Jr.,Denmark,,1,1,0,0
+alfsjoberg,Alf Sjöberg,Sweden,,2,2,1,0
+fridrikhermler,Fridrikh Ermler,Soviet Union,,2,1,0,0
+edwarddmytryk,Edward Dmytryk,USA,,1,1,0,0
+reneclement,René Clément,France,,2,1,0,0
+bensharpsteen,Ben Sharpsteen,USA,,2,1,0,0
+renatocastellani,Renato Castellani,Italy,,1,1,0,1
+teinosukekinugasa,Teinosuke Kinugasa,Japan,,2,1,0,0
+delbertmann,Delbert Mann,USA,,1,1,0,0
+jacquescousteau,Jacques-Yves Cousteau,France,,1,1,1,0
+marcelcamus,Marcel Camus,France,,1,1,0,0
+henricolpi,Henri Colpi,France,,1,1,0,1
+anselmoduarte,Anselmo Duarte,Brazil,,1,1,0,0
+richardlester,Richard Lester,UK,,2,1,1,1
+pietrogermi,Pietro Germi,Italy,,1,1,1,0
+claudelelouch,Claude Lelouch,France,,1,1,0,0
+eliopetri,Elio Petri,Italy,,1,1,1,0
+alanbridges,Alan Bridges,UK,,1,1,0,0
+jerryschatzberg,Jerry Schatzberg,USA,,1,1,0,0
+lakhdarhamina,Mohammed Lakhdar-Hamina,Algeria,,1,1,0,0
+taviani,Paolo & Vittorio Taviani,Italy,,1,1,0,1
+volkerschlondorff,Volker Schlöndorff,Germany,,1,1,0,3
+costagavras,Costa-Gavras,France,,2,1,1,1
+yilmazguney,Yılmaz Güney,Turkey,,1,1,0,0
+rolandjoffe,Roland Joffé,UK,,1,1,0,0
+billeaugust,Bille August,Denmark,,2,2,0,1
+stevensoderbergh,Steven Soderbergh,USA,,1,1,0,1
+nannimoretti,Nanni Moretti,Italy,,3,1,0,0
+michaelmoore,Michael Moore,USA,,1,1,0,0
+laurentcantet,Laurent Cantet,France,,1,1,0,0
+abdellatifkechiche,Abdellatif Kechiche,France,,1,1,0,1
+jacquesaudiard,Jacques Audiard,France,,2,1,0,0
+rubenostlund,Ruben Östlund,Sweden,,3,2,0,2
+juliaducournau,Julia Ducournau,France,,1,1,0,1
+justinetriet,Justine Triet,France,,1,1,0,0
+seanbaker,Sean Baker,USA,,1,1,0,2

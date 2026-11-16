@@ -1,0 +1,101 @@
+"""Build the Auteur Atlas database from the JSON files in data/.
+
+    python scripts/build_db.py
+
+Writes database/auteur-atlas.sqlite (one file, opens in DB Browser for SQLite,
+https://sqlitebrowser.org) and one CSV per table in database/csv/.
+The JSON files stay the source of truth: edit those, then rebuild.
+
+Every claim that could be wrong carries a status:
+  verified  checked against the source named in source_id
+  draft     written from general film knowledge, not yet checked
+"""
+import csv, json, os, sqlite3
+
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+def load(name, optional=False):
+    p = os.path.join(HERE, "data", name + ".json")
+    if optional and not os.path.exists(p): return None
+    return json.load(open(p, encoding="utf-8"))
+
+D, F, FILMS, DIRECTORY = load("directors"), load("facts"), load("films"), load("directory")
+T, MV, DIMS, I, SRC = load("techniques"), load("movements"), load("dimensions"), load("influence"), load("sources")
+TSPDT, CANNES = load("tspdt")["ranks"], load("cannes")
+BOOK = load("book", optional=True) or {"pages": {}, "pairs": {}}
+TMDB = (load("tmdb", optional=True) or {"films": {}})["films"]
+keys = [m["key"] for m in DIMS]
+
+out_dir = os.path.join(HERE, "database")
+os.makedirs(os.path.join(out_dir, "csv"), exist_ok=True)
+db_path = os.path.join(out_dir, "auteur-atlas.sqlite")
+if os.path.exists(db_path): os.remove(db_path)
+db = sqlite3.connect(db_path)
+db.executescript(f"""
+CREATE TABLE sources (id TEXT PRIMARY KEY, name TEXT, detail TEXT, url TEXT, used_for TEXT);
+CREATE TABLE directors (id TEXT PRIMARY KEY, name TEXT NOT NULL, country TEXT, born INTEGER, profiled INTEGER NOT NULL, tspdt_rank INTEGER,
+  signature TEXT, description TEXT, text_status TEXT, {", ".join("score_" + k + " INTEGER" for k in keys)}, scores_status TEXT, book_pages INTEGER);
+CREATE TABLE films (id TEXT PRIMARY KEY, title TEXT NOT NULL, year INTEGER, country TEXT, runtime INTEGER, colour TEXT, genre TEXT,
+  tspdt_rank INTEGER, sight_and_sound_rank INTEGER, sight_and_sound_votes INTEGER, house_of_tabula_position INTEGER,
+  tmdb_id INTEGER, imdb_id TEXT, tmdb_rating REAL, tmdb_votes INTEGER, overview TEXT);
+CREATE TABLE film_directors (film_id TEXT REFERENCES films(id), director_id TEXT REFERENCES directors(id), PRIMARY KEY (film_id, director_id));
+CREATE TABLE awards (film_id TEXT REFERENCES films(id), festival TEXT, award TEXT, year INTEGER, source_id TEXT REFERENCES sources(id), status TEXT);
+CREATE TABLE movements (id TEXT PRIMARY KEY, name TEXT, kind TEXT, period TEXT, description TEXT, has_map_area INTEGER);
+CREATE TABLE director_movements (director_id TEXT REFERENCES directors(id), movement_id TEXT REFERENCES movements(id), position INTEGER, status TEXT);
+CREATE TABLE techniques (id TEXT PRIMARY KEY, name TEXT, category TEXT, definition TEXT);
+CREATE TABLE director_techniques (director_id TEXT REFERENCES directors(id), technique_id TEXT REFERENCES techniques(id), status TEXT);
+CREATE TABLE style_scales (key TEXT PRIMARY KEY, low_label TEXT, high_label TEXT);
+CREATE TABLE influences (from_id TEXT REFERENCES directors(id), to_id TEXT REFERENCES directors(id), note TEXT, status TEXT, source_id TEXT, book_scan_pages TEXT,
+  PRIMARY KEY (from_id, to_id));
+CREATE TABLE facts (id INTEGER PRIMARY KEY, director_id TEXT REFERENCES directors(id), text TEXT, status TEXT, source_id TEXT);
+CREATE TABLE book_mentions (director_id TEXT REFERENCES directors(id), scan_page INTEGER);
+CREATE VIEW to_verify AS
+  SELECT 'fact' AS kind, d.name AS subject, f.text AS claim FROM facts f JOIN directors d ON d.id = f.director_id WHERE f.status = 'draft'
+  UNION ALL SELECT 'influence', a.name || ' -> ' || b.name, i.note FROM influences i JOIN directors a ON a.id = i.from_id JOIN directors b ON b.id = i.to_id WHERE i.status = 'draft';
+CREATE VIEW director_overview AS
+  SELECT d.id, d.name, d.country, d.tspdt_rank,
+    (SELECT COUNT(*) FROM film_directors fd WHERE fd.director_id = d.id) AS films_listed,
+    (SELECT COUNT(*) FROM film_directors fd JOIN awards a ON a.film_id = fd.film_id WHERE fd.director_id = d.id) AS cannes_wins,
+    (SELECT COUNT(*) FROM influences i WHERE i.from_id = d.id) AS influenced,
+    (SELECT COUNT(*) FROM influences i WHERE i.to_id = d.id) AS influenced_by
+  FROM directors d WHERE d.profiled = 1;
+""")
+db.executemany("INSERT INTO sources VALUES (?,?,?,?,?)", [(k, v["name"], v["detail"], v["url"], v["used_for"]) for k, v in SRC.items()])
+for d in D:
+    fx = F.get(d["id"], {})
+    db.execute("INSERT INTO directors VALUES (" + ",".join("?" * (11 + len(keys))) + ")",
+               [d["id"], d["name"], d["country"], d.get("born"), 1, TSPDT.get(d["id"]), fx.get("signature"), fx.get("description"), "draft"]
+               + [d["scores"][k] for k in keys] + ["draft", len(BOOK["pages"].get(d["id"], []))])
+    for n, m in enumerate(d["movements"]): db.execute("INSERT INTO director_movements VALUES (?,?,?,?)", (d["id"], m, n + 1, "draft"))
+    for t in d["techniques"]: db.execute("INSERT INTO director_techniques VALUES (?,?,?)", (d["id"], t, "draft"))
+    for f in fx.get("facts", []): db.execute("INSERT INTO facts (director_id, text, status, source_id) VALUES (?,?,?,?)", (d["id"], f["text"], f["status"], f["source"]))
+    for p in BOOK["pages"].get(d["id"], []): db.execute("INSERT INTO book_mentions VALUES (?,?)", (d["id"], p))
+for e in DIRECTORY:
+    db.execute("INSERT INTO directors (id, name, profiled) VALUES (?,?,0)", (e["id"], e["name"]))
+db.execute("INSERT INTO directors (id, name, profiled) VALUES ('x:directorsvarious', 'Various directors', 0)")   # anthology films such as Fantasia
+known = {r[0] for r in db.execute("SELECT id FROM directors")}
+for f in FILMS:
+    tm = TMDB.get(f["id"], {})
+    db.execute("INSERT INTO films VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (f["id"], f["title"], f["year"], f["country"], f["runtime"], f["colour"], f["genre"], f["tspdt"],
+               f["sight_and_sound"], f["sight_and_sound_votes"], f["house_of_tabula"], tm.get("tmdb_id"), tm.get("imdb_id"), tm.get("vote_average"), tm.get("vote_count"), tm.get("overview")))
+    for i in f["directors"]:
+        assert i in known, (f["id"], i)
+        db.execute("INSERT OR IGNORE INTO film_directors VALUES (?,?)", (f["id"], i))
+for c in CANNES: db.execute("INSERT INTO awards VALUES (?,?,?,?,?,?)", (c["film"], "Cannes Film Festival", c["award"], c["year"], "cannes", "verified"))
+db.executemany("INSERT INTO movements VALUES (?,?,?,?,?,?)", [(k, v["name"], v["kind"], v["period"], v["description"], int(v["cluster"])) for k, v in MV.items()])
+db.executemany("INSERT INTO techniques VALUES (?,?,?,?)", [(k, v["name"], v["category"], v["definition"]) for k, v in T.items()])
+db.executemany("INSERT INTO style_scales VALUES (?,?,?)", [(m["key"], m["low"], m["high"]) for m in DIMS])
+for e in I:
+    pages = BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
+    stated = "Oxford History of World Cinema" in e["note"]
+    db.execute("INSERT INTO influences VALUES (?,?,?,?,?,?)", (e["from"], e["to"], e["note"], "verified" if stated else "draft", "ohwc" if (stated or pages) else None, ",".join(map(str, pages))))
+db.commit()
+
+counts = {}
+for (name,) in db.execute("SELECT name FROM sqlite_master WHERE type IN ('table','view') ORDER BY name").fetchall():
+    cur = db.execute(f"SELECT * FROM {name}")
+    rows = cur.fetchall(); counts[name] = len(rows)
+    with open(os.path.join(out_dir, "csv", name + ".csv"), "w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.writer(fh); w.writerow([c[0] for c in cur.description]); w.writerows(rows)
+db.close()
+print("wrote", db_path, os.path.getsize(db_path) // 1024, "KB")
+for k, v in counts.items(): print(f"  {k:22s}{v:6d} rows")

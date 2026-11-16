@@ -1,0 +1,104 @@
+﻿film_id,festival,award,year,source_id,status
+union-pacific-1939,Cannes Film Festival,Grand Prix du Festival,1939,cannes,verified
+brief-encounter-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+the-last-chance-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+the-lost-weekend-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+maria-candelaria-1944,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+men-without-wings-1946,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+neecha-nagar-1946,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+pastoral-symphony-1946,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+the-red-meadows-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+rome-open-city-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+torment-1944,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+the-turning-point-1945,Cannes Film Festival,Grand Prix du Festival,1946,cannes,verified
+antoine-and-antoinette-1947,Cannes Film Festival,Grand Prix du Festival,1947,cannes,verified
+crossfire-1947,Cannes Film Festival,Grand Prix du Festival,1947,cannes,verified
+the-damned-1947,Cannes Film Festival,Grand Prix du Festival,1947,cannes,verified
+dumbo-1941,Cannes Film Festival,Grand Prix du Festival,1947,cannes,verified
+ziegfeld-follies-1945,Cannes Film Festival,Grand Prix du Festival,1947,cannes,verified
+the-third-man-1949,Cannes Film Festival,Grand Prix du Festival,1949,cannes,verified
+miracle-in-milan-1951,Cannes Film Festival,Grand Prix du Festival,1951,cannes,verified
+miss-julie-1951,Cannes Film Festival,Grand Prix du Festival,1951,cannes,verified
+othello-1951,Cannes Film Festival,Grand Prix du Festival,1952,cannes,verified
+two-cents-worth-of-hope-1952,Cannes Film Festival,Grand Prix du Festival,1952,cannes,verified
+the-wages-of-fear-1953,Cannes Film Festival,Grand Prix du Festival,1953,cannes,verified
+gate-of-hell-1953,Cannes Film Festival,Grand Prix du Festival,1954,cannes,verified
+marty-1955,Cannes Film Festival,Palme d'Or,1955,cannes,verified
+the-silent-world-1956,Cannes Film Festival,Palme d'Or,1956,cannes,verified
+friendly-persuasion-1956,Cannes Film Festival,Palme d'Or,1957,cannes,verified
+the-cranes-are-flying-1957,Cannes Film Festival,Palme d'Or,1958,cannes,verified
+black-orpheus-1959,Cannes Film Festival,Palme d'Or,1959,cannes,verified
+la-dolce-vita-1960,Cannes Film Festival,Palme d'Or,1960,cannes,verified
+the-long-absence-1961,Cannes Film Festival,Palme d'Or,1961,cannes,verified
+viridiana-1961,Cannes Film Festival,Palme d'Or,1961,cannes,verified
+o-pagador-de-promessas-1962,Cannes Film Festival,Palme d'Or,1962,cannes,verified
+the-leopard-1963,Cannes Film Festival,Palme d'Or,1963,cannes,verified
+the-umbrellas-of-cherbourg-1964,Cannes Film Festival,Grand Prix du Festival,1964,cannes,verified
+the-knack-and-how-to-get-it-1965,Cannes Film Festival,Grand Prix du Festival,1965,cannes,verified
+the-birds-the-bees-and-the-italians-1966,Cannes Film Festival,Grand Prix du Festival,1966,cannes,verified
+a-man-and-a-woman-1966,Cannes Film Festival,Grand Prix du Festival,1966,cannes,verified
+blow-up-1966,Cannes Film Festival,Grand Prix du Festival,1967,cannes,verified
+if-1968,Cannes Film Festival,Grand Prix du Festival,1969,cannes,verified
+m-a-s-h-1970,Cannes Film Festival,Grand Prix du Festival,1970,cannes,verified
+the-go-between-1971,Cannes Film Festival,Grand Prix du Festival,1971,cannes,verified
+the-mattei-affair-1972,Cannes Film Festival,Grand Prix du Festival,1972,cannes,verified
+the-working-class-goes-to-heaven-1971,Cannes Film Festival,Grand Prix du Festival,1972,cannes,verified
+the-hireling-1973,Cannes Film Festival,Grand Prix du Festival,1973,cannes,verified
+scarecrow-1973,Cannes Film Festival,Grand Prix du Festival,1973,cannes,verified
+the-conversation-1974,Cannes Film Festival,Grand Prix du Festival,1974,cannes,verified
+chronicle-of-the-years-of-fire-1975,Cannes Film Festival,Palme d'Or,1975,cannes,verified
+taxi-driver-1976,Cannes Film Festival,Palme d'Or,1976,cannes,verified
+padre-padrone-1977,Cannes Film Festival,Palme d'Or,1977,cannes,verified
+the-tree-of-wooden-clogs-1978,Cannes Film Festival,Palme d'Or,1978,cannes,verified
+apocalypse-now-1979,Cannes Film Festival,Palme d'Or,1979,cannes,verified
+the-tin-drum-1979,Cannes Film Festival,Palme d'Or,1979,cannes,verified
+all-that-jazz-1979,Cannes Film Festival,Palme d'Or,1980,cannes,verified
+kagemusha-1980,Cannes Film Festival,Palme d'Or,1980,cannes,verified
+man-of-iron-1981,Cannes Film Festival,Palme d'Or,1981,cannes,verified
+missing-1982,Cannes Film Festival,Palme d'Or,1982,cannes,verified
+yol-1982,Cannes Film Festival,Palme d'Or,1982,cannes,verified
+the-ballad-of-narayama-1983,Cannes Film Festival,Palme d'Or,1983,cannes,verified
+paris-texas-1984,Cannes Film Festival,Palme d'Or,1984,cannes,verified
+when-father-was-away-on-business-1985,Cannes Film Festival,Palme d'Or,1985,cannes,verified
+the-mission-1986,Cannes Film Festival,Palme d'Or,1986,cannes,verified
+under-the-sun-of-satan-1987,Cannes Film Festival,Palme d'Or,1987,cannes,verified
+pelle-the-conqueror-1987,Cannes Film Festival,Palme d'Or,1988,cannes,verified
+sex-lies-and-videotape-1989,Cannes Film Festival,Palme d'Or,1989,cannes,verified
+wild-at-heart-1990,Cannes Film Festival,Palme d'Or,1990,cannes,verified
+barton-fink-1991,Cannes Film Festival,Palme d'Or,1991,cannes,verified
+the-best-intentions-1992,Cannes Film Festival,Palme d'Or,1992,cannes,verified
+farewell-my-concubine-1993,Cannes Film Festival,Palme d'Or,1993,cannes,verified
+the-piano-1993,Cannes Film Festival,Palme d'Or,1993,cannes,verified
+pulp-fiction-1994,Cannes Film Festival,Palme d'Or,1994,cannes,verified
+underground-1995,Cannes Film Festival,Palme d'Or,1995,cannes,verified
+secrets-lies-1996,Cannes Film Festival,Palme d'Or,1996,cannes,verified
+the-eel-1997,Cannes Film Festival,Palme d'Or,1997,cannes,verified
+taste-of-cherry-1997,Cannes Film Festival,Palme d'Or,1997,cannes,verified
+eternity-and-a-day-1998,Cannes Film Festival,Palme d'Or,1998,cannes,verified
+rosetta-1999,Cannes Film Festival,Palme d'Or,1999,cannes,verified
+dancer-in-the-dark-2000,Cannes Film Festival,Palme d'Or,2000,cannes,verified
+the-son-s-room-2001,Cannes Film Festival,Palme d'Or,2001,cannes,verified
+the-pianist-2002,Cannes Film Festival,Palme d'Or,2002,cannes,verified
+elephant-2003,Cannes Film Festival,Palme d'Or,2003,cannes,verified
+fahrenheit-9-11-2004,Cannes Film Festival,Palme d'Or,2004,cannes,verified
+l-enfant-2005,Cannes Film Festival,Palme d'Or,2005,cannes,verified
+the-wind-that-shakes-the-barley-2006,Cannes Film Festival,Palme d'Or,2006,cannes,verified
+4-months-3-weeks-and-2-days-2007,Cannes Film Festival,Palme d'Or,2007,cannes,verified
+the-class-2008,Cannes Film Festival,Palme d'Or,2008,cannes,verified
+the-white-ribbon-2009,Cannes Film Festival,Palme d'Or,2009,cannes,verified
+uncle-boonmee-who-can-recall-his-past-lives-2010,Cannes Film Festival,Palme d'Or,2010,cannes,verified
+the-tree-of-life-2011,Cannes Film Festival,Palme d'Or,2011,cannes,verified
+amour-2012,Cannes Film Festival,Palme d'Or,2012,cannes,verified
+blue-is-the-warmest-colour-2013,Cannes Film Festival,Palme d'Or,2013,cannes,verified
+winter-sleep-2014,Cannes Film Festival,Palme d'Or,2014,cannes,verified
+dheepan-2015,Cannes Film Festival,Palme d'Or,2015,cannes,verified
+i-daniel-blake-2016,Cannes Film Festival,Palme d'Or,2016,cannes,verified
+the-square-2017,Cannes Film Festival,Palme d'Or,2017,cannes,verified
+shoplifters-2018,Cannes Film Festival,Palme d'Or,2018,cannes,verified
+parasite-2019,Cannes Film Festival,Palme d'Or,2019,cannes,verified
+titane-2021,Cannes Film Festival,Palme d'Or,2021,cannes,verified
+triangle-of-sadness-2022,Cannes Film Festival,Palme d'Or,2022,cannes,verified
+anatomy-of-a-fall-2023,Cannes Film Festival,Palme d'Or,2023,cannes,verified
+anora-2024,Cannes Film Festival,Palme d'Or,2024,cannes,verified
+it-was-just-an-accident-2025,Cannes Film Festival,Palme d'Or,2025,cannes,verified
+fjord-2026,Cannes Film Festival,Palme d'Or,2026,cannes,verified

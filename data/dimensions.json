@@ -1,0 +1,42 @@
+[
+ {
+  "key": "formalism",
+  "low": "Realist",
+  "high": "Formalist"
+ },
+ {
+  "key": "pace",
+  "low": "Slow",
+  "high": "Fast"
+ },
+ {
+  "key": "camera",
+  "low": "Static camera",
+  "high": "Mobile camera"
+ },
+ {
+  "key": "narrative",
+  "low": "Linear",
+  "high": "Fragmented"
+ },
+ {
+  "key": "performance",
+  "low": "Naturalistic",
+  "high": "Stylised"
+ },
+ {
+  "key": "tone",
+  "low": "Grave",
+  "high": "Comic"
+ },
+ {
+  "key": "dialogue",
+  "low": "Sparse dialogue",
+  "high": "Talk-driven"
+ },
+ {
+  "key": "scale",
+  "low": "Intimate",
+  "high": "Epic"
+ }
+]
