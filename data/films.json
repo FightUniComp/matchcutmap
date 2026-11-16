@@ -4356,7 +4356,7 @@
   "year": 1970,
   "directors": [
    "nicolasroeg",
-   "x:cammelldonald"
+   "donaldcammell"
   ],
   "tspdt": 254,
   "sight_and_sound": 295,
@@ -6880,7 +6880,7 @@
   "title": "Limite",
   "year": 1931,
   "directors": [
-   "x:mariopeixoto"
+   "mariopeixoto"
   ],
   "tspdt": 401,
   "sight_and_sound": 273,
@@ -7240,7 +7240,7 @@
   "title": "Twenty Years Later",
   "year": 1984,
   "directors": [
-   "x:coutinhoeduardo"
+   "eduardocoutinho"
   ],
   "tspdt": 422,
   "sight_and_sound": 253,
@@ -7257,7 +7257,7 @@
   "title": "The Innocents",
   "year": 1961,
   "directors": [
-   "x:claytonjack"
+   "jackclayton"
   ],
   "tspdt": 423,
   "sight_and_sound": 414,
@@ -7702,7 +7702,7 @@
   "title": "The Shawshank Redemption",
   "year": 1994,
   "directors": [
-   "x:darabontfrank"
+   "frankdarabont"
   ],
   "tspdt": 449,
   "sight_and_sound": 461,
@@ -7719,7 +7719,7 @@
   "title": "Listen to Britain",
   "year": 1942,
   "directors": [
-   "x:humphreyjennings",
+   "humphreyjennings",
    "x:mcallisterstewart"
   ],
   "tspdt": 450,
@@ -7926,7 +7926,7 @@
   "year": 1928,
   "directors": [
    "eisenstein",
-   "x:aleksandrovgrigori"
+   "grigorialeksandrov"
   ],
   "tspdt": 462,
   "sight_and_sound": null,
@@ -8028,7 +8028,7 @@
   "title": "Koyaanisqatsi",
   "year": 1982,
   "directors": [
-   "x:godfreyreggio"
+   "godfreyreggio"
   ],
   "tspdt": 468,
   "sight_and_sound": 341,
@@ -8114,7 +8114,7 @@
   "title": "Barren Lives",
   "year": 1963,
   "directors": [
-   "x:dosnelsonpereirasantos"
+   "nelsonpereiradossantos"
   ],
   "tspdt": 473,
   "sight_and_sound": null,
@@ -8287,7 +8287,7 @@
   "title": "To Kill a Mockingbird",
   "year": 1962,
   "directors": [
-   "x:mulliganrobert"
+   "robertmulligan"
   ],
   "tspdt": 483,
   "sight_and_sound": null,
@@ -8321,7 +8321,7 @@
   "title": "Withnail & I",
   "year": 1987,
   "directors": [
-   "x:brucerobinson"
+   "brucerobinson"
   ],
   "tspdt": 485,
   "sight_and_sound": 461,
@@ -8338,7 +8338,7 @@
   "title": "Harlan County, U.S.A.",
   "year": 1976,
   "directors": [
-   "x:barbarakopple"
+   "barbarakopple"
   ],
   "tspdt": 486,
   "sight_and_sound": 273,
@@ -8390,7 +8390,7 @@
   "title": "Five Easy Pieces",
   "year": 1970,
   "directors": [
-   "x:bobrafelson"
+   "bobrafelson"
   ],
   "tspdt": 489,
   "sight_and_sound": null,
@@ -8597,7 +8597,7 @@
   "title": "The Hustler",
   "year": 1961,
   "directors": [
-   "x:robertrossen"
+   "robertrossen"
   ],
   "tspdt": 501,
   "sight_and_sound": null,
@@ -8614,7 +8614,7 @@
   "title": "The Lives of Others",
   "year": 2006,
   "directors": [
-   "x:donnersmarckflorianhenckelvon"
+   "florianhenckelvondonnersmarck"
   ],
   "tspdt": 502,
   "sight_and_sound": 461,
@@ -8682,7 +8682,7 @@
   "title": "Die Hard",
   "year": 1988,
   "directors": [
-   "x:johnmctiernan"
+   "johnmctiernan"
   ],
   "tspdt": 506,
   "sight_and_sound": 522,
@@ -8921,7 +8921,7 @@
   "title": "Monty Python's Life of Brian",
   "year": 1979,
   "directors": [
-   "x:jonesterry"
+   "terryjones"
   ],
   "tspdt": 520,
   "sight_and_sound": 608,
@@ -9006,7 +9006,7 @@
   "title": "Marketa Lazarová",
   "year": 1967,
   "directors": [
-   "x:frantisekvlacil"
+   "frantisekvlacil"
   ],
   "tspdt": 525,
   "sight_and_sound": 414,
@@ -9159,7 +9159,7 @@
   "title": "Butch Cassidy and the Sundance Kid",
   "year": 1969,
   "directors": [
-   "x:georgehillroy"
+   "georgeroyhill"
   ],
   "tspdt": 534,
   "sight_and_sound": null,
@@ -9261,7 +9261,7 @@
   "title": "A Night at the Opera",
   "year": 1935,
   "directors": [
-   "x:samwood"
+   "samwood"
   ],
   "tspdt": 540,
   "sight_and_sound": null,
@@ -9448,7 +9448,7 @@
   "title": "La Haine",
   "year": 1995,
   "directors": [
-   "x:kassovitzmathieu"
+   "mathieukassovitz"
   ],
   "tspdt": 551,
   "sight_and_sound": 461,
@@ -9876,7 +9876,7 @@
   "title": "WALL-E",
   "year": 2008,
   "directors": [
-   "x:andrewstanton"
+   "andrewstanton"
   ],
   "tspdt": 576,
   "sight_and_sound": 850,
@@ -10117,7 +10117,7 @@
   "title": "Rocky",
   "year": 1976,
   "directors": [
-   "x:avildsengjohn"
+   "johngavildsen"
   ],
   "tspdt": 590,
   "sight_and_sound": 702,
@@ -10270,7 +10270,7 @@
   "title": "Easy Rider",
   "year": 1969,
   "directors": [
-   "x:dennishopper"
+   "dennishopper"
   ],
   "tspdt": 599,
   "sight_and_sound": null,
@@ -10652,7 +10652,7 @@
   "title": "Tale of Tales",
   "year": 1979,
   "directors": [
-   "x:norsteinyuri"
+   "yurinorstein"
   ],
   "tspdt": 621,
   "sight_and_sound": 608,
@@ -10737,7 +10737,7 @@
   "title": "The Wicker Man",
   "year": 1973,
   "directors": [
-   "x:hardyrobin"
+   "robinhardy"
   ],
   "tspdt": 626,
   "sight_and_sound": 375,
@@ -10822,7 +10822,7 @@
   "title": "Don't Look Back",
   "year": 1967,
   "directors": [
-   "x:adpennebaker"
+   "dapennebaker"
   ],
   "tspdt": 631,
   "sight_and_sound": 702,
@@ -10839,7 +10839,7 @@
   "title": "The Ladies Man",
   "year": 1961,
   "directors": [
-   "x:jerrylewis"
+   "jerrylewis"
   ],
   "tspdt": 632,
   "sight_and_sound": 414,
@@ -11213,7 +11213,7 @@
   "title": "Portrait of Jason",
   "year": 1967,
   "directors": [
-   "x:clarkeshirley"
+   "shirleyclarke"
   ],
   "tspdt": 654,
   "sight_and_sound": 295,
@@ -11417,7 +11417,7 @@
   "title": "Hoop Dreams",
   "year": 1994,
   "directors": [
-   "x:jamessteve"
+   "stevejames"
   ],
   "tspdt": 666,
   "sight_and_sound": 522,
@@ -11485,7 +11485,7 @@
   "title": "Top Hat",
   "year": 1935,
   "directors": [
-   "x:marksandrich"
+   "marksandrich"
   ],
   "tspdt": 670,
   "sight_and_sound": null,
@@ -11519,7 +11519,7 @@
   "title": "Arrebato",
   "year": 1979,
   "directors": [
-   "x:ivanzulueta"
+   "ivanzulueta"
   ],
   "tspdt": 672,
   "sight_and_sound": 522,
@@ -11638,7 +11638,7 @@
   "title": "Akira",
   "year": 1988,
   "directors": [
-   "x:katsuhirootomo"
+   "katsuhirootomo"
   ],
   "tspdt": 679,
   "sight_and_sound": 414,
@@ -11690,7 +11690,7 @@
   "title": "Wake in Fright",
   "year": 1971,
   "directors": [
-   "x:kotcheffted"
+   "tedkotcheff"
   ],
   "tspdt": 682,
   "sight_and_sound": 341,
@@ -11847,7 +11847,7 @@
   "year": 1961,
   "directors": [
    "jeanrouch",
-   "x:edgarmorin"
+   "edgarmorin"
   ],
   "tspdt": 691,
   "sight_and_sound": 850,
@@ -12003,7 +12003,7 @@
   "title": "Toy Story",
   "year": 1995,
   "directors": [
-   "x:johnlasseter"
+   "johnlasseter"
   ],
   "tspdt": 700,
   "sight_and_sound": 608,
@@ -12057,7 +12057,7 @@
   "title": "The Sorrow and the Pity",
   "year": 1969,
   "directors": [
-   "x:marcelophuls"
+   "marcelophuls"
   ],
   "tspdt": 703,
   "sight_and_sound": 850,
@@ -12249,7 +12249,7 @@
   "title": "Local Hero",
   "year": 1983,
   "directors": [
-   "x:billforsyth"
+   "billforsyth"
   ],
   "tspdt": 714,
   "sight_and_sound": null,
@@ -12538,7 +12538,7 @@
   "title": "The Adventures of Prince Achmed",
   "year": 1926,
   "directors": [
-   "x:lottereiniger"
+   "lottereiniger"
   ],
   "tspdt": 731,
   "sight_and_sound": 341,
@@ -12555,7 +12555,7 @@
   "title": "Big Deal on Madonna Street",
   "year": 1958,
   "directors": [
-   "x:mariomonicelli"
+   "mariomonicelli"
   ],
   "tspdt": 732,
   "sight_and_sound": null,
@@ -12742,7 +12742,7 @@
   "title": "The Emperor's Naked Army Marches On",
   "year": 1987,
   "directors": [
-   "x:harakazuo"
+   "kazuohara"
   ],
   "tspdt": 743,
   "sight_and_sound": 522,
@@ -12776,7 +12776,7 @@
   "title": "Moulin Rouge!",
   "year": 2001,
   "directors": [
-   "x:bazluhrmann"
+   "bazluhrmann"
   ],
   "tspdt": 745,
   "sight_and_sound": 850,
@@ -13133,7 +13133,7 @@
   "title": "Born in Flames",
   "year": 1983,
   "directors": [
-   "x:bordenlizzie"
+   "lizzieborden"
   ],
   "tspdt": 766,
   "sight_and_sound": 295,
@@ -13252,7 +13252,7 @@
   "title": "Clueless",
   "year": 1995,
   "directors": [
-   "x:amyheckerling"
+   "amyheckerling"
   ],
   "tspdt": 773,
   "sight_and_sound": 522,
@@ -13320,7 +13320,7 @@
   "title": "Mädchen in Uniform",
   "year": 1931,
   "directors": [
-   "x:leontinesagan"
+   "leontinesagan"
   ],
   "tspdt": 777,
   "sight_and_sound": 414,
@@ -13388,7 +13388,7 @@
   "title": "Flaming Creatures",
   "year": 1963,
   "directors": [
-   "x:jacksmith"
+   "jacksmith"
   ],
   "tspdt": 781,
   "sight_and_sound": 608,
@@ -13439,7 +13439,7 @@
   "title": "Hellzapoppin'",
   "year": 1941,
   "directors": [
-   "x:chpotter"
+   "hcpotter"
   ],
   "tspdt": 784,
   "sight_and_sound": 850,
@@ -13575,7 +13575,7 @@
   "title": "My Life as a Dog",
   "year": 1985,
   "directors": [
-   "x:hallstromlasse"
+   "lassehallstrom"
   ],
   "tspdt": 792,
   "sight_and_sound": null,
@@ -13609,9 +13609,7 @@
   "title": "Airplane!",
   "year": 1980,
   "directors": [
-   "x:abrahamsjim",
-   "x:davidzucker",
-   "x:jerryzucker"
+   "zuckerabrahamszucker"
   ],
   "tspdt": 794,
   "sight_and_sound": null,
@@ -13832,7 +13830,7 @@
   "title": "Un Chant d'amour",
   "year": 1950,
   "directors": [
-   "x:genetjean"
+   "jeangenet"
   ],
   "tspdt": 807,
   "sight_and_sound": null,
@@ -13849,7 +13847,7 @@
   "title": "Evil Dead II",
   "year": 1987,
   "directors": [
-   "x:raimisam"
+   "samraimi"
   ],
   "tspdt": 808,
   "sight_and_sound": null,
@@ -13902,7 +13900,7 @@
   "title": "Let the Right One In",
   "year": 2008,
   "directors": [
-   "x:alfredsontomas"
+   "tomasalfredson"
   ],
   "tspdt": 811,
   "sight_and_sound": null,
@@ -13936,7 +13934,7 @@
   "title": "Broadcast News",
   "year": 1987,
   "directors": [
-   "x:brooksjamesl"
+   "jameslbrooks"
   ],
   "tspdt": 813,
   "sight_and_sound": 461,
@@ -13953,7 +13951,7 @@
   "title": "Margaret",
   "year": 2011,
   "directors": [
-   "x:kennethlonergan"
+   "kennethlonergan"
   ],
   "tspdt": 814,
   "sight_and_sound": 522,
@@ -13970,7 +13968,7 @@
   "title": "All Quiet on the Western Front",
   "year": 1930,
   "directors": [
-   "x:lewismilestone"
+   "lewismilestone"
   ],
   "tspdt": 815,
   "sight_and_sound": 850,
@@ -13987,7 +13985,7 @@
   "title": "Faster, Pussycat! Kill! Kill!",
   "year": 1965,
   "directors": [
-   "x:meyerruss"
+   "russmeyer"
   ],
   "tspdt": 816,
   "sight_and_sound": 850,
@@ -14004,7 +14002,7 @@
   "title": "The Great Escape",
   "year": 1963,
   "directors": [
-   "x:johnsturges"
+   "johnsturges"
   ],
   "tspdt": 817,
   "sight_and_sound": null,
@@ -14398,7 +14396,7 @@
   "title": "Rose Hobart",
   "year": 1936,
   "directors": [
-   "x:cornelljoseph"
+   "josephcornell"
   ],
   "tspdt": 840,
   "sight_and_sound": 522,
@@ -14435,7 +14433,7 @@
   "title": "Funeral Parade of Roses",
   "year": 1969,
   "directors": [
-   "x:matsumototoshio"
+   "toshiomatsumoto"
   ],
   "tspdt": 842,
   "sight_and_sound": 295,
@@ -14622,7 +14620,7 @@
   "title": "Losing Ground",
   "year": 1982,
   "directors": [
-   "x:collinskathleen"
+   "kathleencollins"
   ],
   "tspdt": 853,
   "sight_and_sound": 273,
@@ -14673,7 +14671,7 @@
   "title": "The Naked Island",
   "year": 1960,
   "directors": [
-   "x:kanetoshindo"
+   "kanetoshindo"
   ],
   "tspdt": 856,
   "sight_and_sound": null,
@@ -14775,8 +14773,7 @@
   "title": "Persepolis",
   "year": 2007,
   "directors": [
-   "x:paronnaudvincent",
-   "x:marjanesatrapi"
+   "satrapiparonnaud"
   ],
   "tspdt": 862,
   "sight_and_sound": 414,
@@ -14862,7 +14859,7 @@
   "title": "The Right Stuff",
   "year": 1983,
   "directors": [
-   "x:kaufmanphilip"
+   "philipkaufman"
   ],
   "tspdt": 867,
   "sight_and_sound": null,
@@ -14947,7 +14944,7 @@
   "title": "Hitler: A Film from Germany",
   "year": 1977,
   "directors": [
-   "x:hansjurgensyberberg"
+   "hansjurgensyberberg"
   ],
   "tspdt": 872,
   "sight_and_sound": null,
@@ -15256,7 +15253,7 @@
   "title": "Elephant",
   "year": 1989,
   "directors": [
-   "x:alanclarke"
+   "alanclarke"
   ],
   "tspdt": 890,
   "sight_and_sound": 850,
@@ -15274,7 +15271,7 @@
   "year": 1975,
   "directors": [
    "terrygilliam",
-   "x:jonesterry"
+   "terryjones"
   ],
   "tspdt": 891,
   "sight_and_sound": null,
@@ -15495,7 +15492,7 @@
   "title": "The Night of Counting the Years",
   "year": 1969,
   "directors": [
-   "x:abdelsalamshadi"
+   "shadiabdelsalam"
   ],
   "tspdt": 904,
   "sight_and_sound": 341,
@@ -15546,7 +15543,7 @@
   "title": "Shaun of the Dead",
   "year": 2004,
   "directors": [
-   "x:edgarwright"
+   "edgarwright"
   ],
   "tspdt": 907,
   "sight_and_sound": null,
@@ -15631,7 +15628,7 @@
   "title": "The Seasons",
   "year": 1975,
   "directors": [
-   "x:artavazdpeleshian"
+   "artavazdpeleshian"
   ],
   "tspdt": 912,
   "sight_and_sound": null,
@@ -15733,7 +15730,7 @@
   "title": "Tongues Untied",
   "year": 1989,
   "directors": [
-   "x:marlonriggs"
+   "marlonriggs"
   ],
   "tspdt": 918,
   "sight_and_sound": 375,
@@ -15836,7 +15833,7 @@
   "title": "It's a Gift",
   "year": 1934,
   "directors": [
-   "x:mcleodnormanz"
+   "normanzmcleod"
   ],
   "tspdt": 924,
   "sight_and_sound": null,
@@ -15853,7 +15850,7 @@
   "title": "Heimat",
   "year": 1984,
   "directors": [
-   "x:edgarreitz"
+   "edgarreitz"
   ],
   "tspdt": 925,
   "sight_and_sound": 702,
@@ -15887,7 +15884,7 @@
   "title": "Reds",
   "year": 1981,
   "directors": [
-   "x:beattywarren"
+   "warrenbeatty"
   ],
   "tspdt": 927,
   "sight_and_sound": null,
@@ -15921,7 +15918,7 @@
   "title": "Sholay",
   "year": 1975,
   "directors": [
-   "x:rameshsippy"
+   "rameshsippy"
   ],
   "tspdt": 929,
   "sight_and_sound": 702,
@@ -16057,7 +16054,7 @@
   "title": "La Flor",
   "year": 2018,
   "directors": [
-   "x:llinasmariano"
+   "marianollinas"
   ],
   "tspdt": 937,
   "sight_and_sound": 461,
@@ -16227,7 +16224,7 @@
   "title": "Zorns Lemma",
   "year": 1970,
   "directors": [
-   "x:framptonhollis"
+   "hollisframpton"
   ],
   "tspdt": 947,
   "sight_and_sound": 608,
@@ -16261,7 +16258,7 @@
   "title": "Cool Hand Luke",
   "year": 1967,
   "directors": [
-   "x:rosenbergstuart"
+   "stuartrosenberg"
   ],
   "tspdt": 949,
   "sight_and_sound": null,
@@ -16278,7 +16275,7 @@
   "title": "Portrait of Jennie",
   "year": 1948,
   "directors": [
-   "x:dieterlewilliam"
+   "williamdieterle"
   ],
   "tspdt": 950,
   "sight_and_sound": 608,
@@ -16499,7 +16496,7 @@
   "title": "Il Sorpasso",
   "year": 1962,
   "directors": [
-   "x:dinorisi"
+   "dinorisi"
   ],
   "tspdt": 963,
   "sight_and_sound": 850,
@@ -16516,7 +16513,7 @@
   "title": "Enter the Dragon",
   "year": 1973,
   "directors": [
-   "x:clouserobert"
+   "robertclouse"
   ],
   "tspdt": 964,
   "sight_and_sound": null,
@@ -16638,7 +16635,7 @@
   "title": "Ghostbusters",
   "year": 1984,
   "directors": [
-   "x:ivanreitman"
+   "ivanreitman"
   ],
   "tspdt": 971,
   "sight_and_sound": null,
@@ -16655,7 +16652,7 @@
   "title": "American Beauty",
   "year": 1999,
   "directors": [
-   "x:mendessam"
+   "sammendes"
   ],
   "tspdt": 972,
   "sight_and_sound": null,
@@ -16740,7 +16737,7 @@
   "title": "Diary",
   "year": 1983,
   "directors": [
-   "x:davidperlov"
+   "davidperlov"
   ],
   "tspdt": 977,
   "sight_and_sound": null,
@@ -16757,7 +16754,7 @@
   "title": "Berlin: Symphony of a Great City",
   "year": 1927,
   "directors": [
-   "x:ruttmannwalter"
+   "walterruttmann"
   ],
   "tspdt": 978,
   "sight_and_sound": null,
@@ -16842,7 +16839,7 @@
   "title": "Gun Crazy",
   "year": 1950,
   "directors": [
-   "x:hjosephlewis"
+   "josephhlewis"
   ],
   "tspdt": 983,
   "sight_and_sound": null,
@@ -16893,7 +16890,7 @@
   "title": "Perfumed Nightmare",
   "year": 1977,
   "directors": [
-   "x:kidlattahimik"
+   "kidlattahimik"
   ],
   "tspdt": 986,
   "sight_and_sound": 461,
@@ -16981,7 +16978,7 @@
   "title": "Léon",
   "year": 1994,
   "directors": [
-   "x:bessonluc"
+   "lucbesson"
   ],
   "tspdt": 991,
   "sight_and_sound": null,
@@ -16998,7 +16995,7 @@
   "title": "Saturday Night and Sunday Morning",
   "year": 1960,
   "directors": [
-   "x:karelreisz"
+   "karelreisz"
   ],
   "tspdt": 992,
   "sight_and_sound": null,
@@ -17134,7 +17131,7 @@
   "title": "L.A. Confidential",
   "year": 1997,
   "directors": [
-   "x:curtishanson"
+   "curtishanson"
   ],
   "tspdt": 1000,
   "sight_and_sound": null,
@@ -17219,7 +17216,7 @@
   "title": "Handsworth Songs",
   "year": 1986,
   "directors": [
-   "x:akomfrahjohn"
+   "johnakomfrah"
   ],
   "tspdt": null,
   "sight_and_sound": 375,
@@ -17270,8 +17267,7 @@
   "title": "Trás-os-Montes",
   "year": 1976,
   "directors": [
-   "x:cordeiromargarida",
-   "x:antonioreis"
+   "reiscordeiro"
   ],
   "tspdt": null,
   "sight_and_sound": 375,
@@ -17288,7 +17284,7 @@
   "title": "All My Life",
   "year": 1966,
   "directors": [
-   "x:bailliebruce"
+   "brucebaillie"
   ],
   "tspdt": null,
   "sight_and_sound": 414,
@@ -17424,7 +17420,7 @@
   "title": "Duck Amuck",
   "year": 1953,
   "directors": [
-   "x:chuckjones"
+   "chuckjones"
   ],
   "tspdt": null,
   "sight_and_sound": 461,
@@ -17441,7 +17437,7 @@
   "title": "Fuses",
   "year": 1967,
   "directors": [
-   "x:caroleeschneemann"
+   "caroleeschneemann"
   ],
   "tspdt": null,
   "sight_and_sound": 461,
@@ -17458,7 +17454,7 @@
   "title": "It's Such a Beautiful Day",
   "year": 2012,
   "directors": [
-   "x:donhertzfeldt"
+   "donhertzfeldt"
   ],
   "tspdt": null,
   "sight_and_sound": 461,
@@ -17509,7 +17505,7 @@
   "title": "Suspense",
   "year": 1913,
   "directors": [
-   "x:loisweber"
+   "loisweber"
   ],
   "tspdt": null,
   "sight_and_sound": 461,
@@ -17526,7 +17522,7 @@
   "title": "The Forever a Woman aka Eternal Breasts",
   "year": 1955,
   "directors": [
-   "x:kinuyotanaka"
+   "kinuyotanaka"
   ],
   "tspdt": null,
   "sight_and_sound": 461,
@@ -17560,7 +17556,7 @@
   "title": "A Portrait of Ga",
   "year": 1952,
   "directors": [
-   "x:margarettait"
+   "margarettait"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17577,7 +17573,7 @@
   "title": "Adoption",
   "year": 1975,
   "directors": [
-   "x:martameszaros"
+   "martameszaros"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17594,7 +17590,7 @@
   "title": "An Elephant Sitting Still",
   "year": 2016,
   "directors": [
-   "x:bohu"
+   "bohu"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17696,7 +17692,7 @@
   "title": "Girlfriends",
   "year": 1978,
   "directors": [
-   "x:claudiaweill"
+   "claudiaweill"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17747,7 +17743,7 @@
   "title": "Kanehsatake: 270 Years of Resistance",
   "year": 1993,
   "directors": [
-   "x:alanisobomsawin"
+   "alanisobomsawin"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17781,7 +17777,7 @@
   "title": "Monsoon Wedding",
   "year": 2001,
   "directors": [
-   "x:miranair"
+   "miranair"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17798,7 +17794,7 @@
   "title": "Shoes",
   "year": 1916,
   "directors": [
-   "x:loisweber"
+   "loisweber"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17835,7 +17831,7 @@
   "title": "The Apple",
   "year": 1998,
   "directors": [
-   "x:makhmalbafsamira"
+   "samiramakhmalbaf"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17906,7 +17902,7 @@
   "title": "Variety",
   "year": 1983,
   "directors": [
-   "x:bettegordon"
+   "bettegordon"
   ],
   "tspdt": null,
   "sight_and_sound": 522,
@@ -17974,7 +17970,7 @@
   "title": "A Colour Box",
   "year": 1935,
   "directors": [
-   "x:lenlye"
+   "lenlye"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18008,7 +18004,7 @@
   "title": "Cameraperson",
   "year": 2016,
   "directors": [
-   "x:johnsonkirsten"
+   "kirstenjohnson"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18025,7 +18021,7 @@
   "title": "Chess of the Wind",
   "year": 1976,
   "directors": [
-   "x:aslanimohammadreza"
+   "mohammadrezaaslani"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18093,7 +18089,7 @@
   "title": "Duvidha",
   "year": 1973,
   "directors": [
-   "x:kaulmani"
+   "manikaul"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18110,7 +18106,7 @@
   "title": "Ganja & Hess",
   "year": 1973,
   "directors": [
-   "x:billgunn"
+   "billgunn"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18161,7 +18157,7 @@
   "title": "Invasión",
   "year": 1969,
   "directors": [
-   "x:hugosantiago"
+   "hugosantiago"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18229,7 +18225,7 @@
   "title": "My Twentieth Century",
   "year": 1989,
   "directors": [
-   "x:enyediildiko"
+   "ildikoenyedi"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18246,7 +18242,7 @@
   "title": "Nitrate Kisses",
   "year": 1992,
   "directors": [
-   "x:barbarahammer"
+   "barbarahammer"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18263,7 +18259,7 @@
   "title": "Nothing But a Man",
   "year": 1964,
   "directors": [
-   "x:michaelroemer"
+   "michaelroemer"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18365,7 +18361,7 @@
   "title": "Sugar Cane Alley",
   "year": 1983,
   "directors": [
-   "x:euzhanpalcy"
+   "euzhanpalcy"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18382,7 +18378,7 @@
   "title": "The Arbor",
   "year": 2010,
   "directors": [
-   "x:barnardclio"
+   "cliobarnard"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18419,7 +18415,7 @@
   "title": "The Clock",
   "year": 2010,
   "directors": [
-   "x:christianmarclay"
+   "christianmarclay"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18436,8 +18432,7 @@
   "title": "The Vampires of Poverty",
   "year": 1978,
   "directors": [
-   "x:carlosmayolo",
-   "x:luisospina"
+   "mayoloospina"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18471,7 +18466,7 @@
   "title": "Vivir en Sevilla",
   "year": 1978,
   "directors": [
-   "x:garciagonzalopelayo"
+   "gonzalogarciapelayo"
   ],
   "tspdt": null,
   "sight_and_sound": 608,
@@ -18488,7 +18483,7 @@
   "title": "A Ghost Story",
   "year": 2017,
   "directors": [
-   "x:davidlowery"
+   "davidlowery"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18539,7 +18534,7 @@
   "title": "Black Panther",
   "year": 2018,
   "directors": [
-   "x:cooglerryan"
+   "ryancoogler"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18556,7 +18551,7 @@
   "title": "Bless Their Little Hearts",
   "year": 1983,
   "directors": [
-   "x:billywoodberry"
+   "billywoodberry"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18607,7 +18602,7 @@
   "title": "Dawson City: Frozen Time",
   "year": 2016,
   "directors": [
-   "x:billmorrison"
+   "billmorrison"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18675,7 +18670,7 @@
   "title": "Eve's Bayou",
   "year": 1997,
   "directors": [
-   "x:kasilemmons"
+   "kasilemmons"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18692,8 +18687,7 @@
   "title": "Everything Everywhere All At Once",
   "year": 2022,
   "directors": [
-   "x:danielkwan",
-   "x:danielscheinert"
+   "daniels"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18710,7 +18704,7 @@
   "title": "Fantasma, O",
   "year": 2000,
   "directors": [
-   "x:joaopedrorodrigues"
+   "joaopedrorodrigues"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18727,7 +18721,7 @@
   "title": "Gangs of Wasseypur",
   "year": 2012,
   "directors": [
-   "x:anuragkashyap"
+   "anuragkashyap"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18812,7 +18806,7 @@
   "title": "I Am Not Your Negro",
   "year": 2016,
   "directors": [
-   "x:peckraoul"
+   "raoulpeck"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18829,7 +18823,7 @@
   "title": "I Am Somebody",
   "year": 1970,
   "directors": [
-   "x:andersonmadeline"
+   "madelineanderson"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18846,7 +18840,7 @@
   "title": "I Am Twenty",
   "year": 1963,
   "directors": [
-   "x:khutsievmarlen"
+   "marlenkhutsiev"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18880,7 +18874,7 @@
   "title": "Images of the World and the Inscription of War",
   "year": 1988,
   "directors": [
-   "x:farockiharun"
+   "harunfarocki"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18965,7 +18959,7 @@
   "title": "Line Describing a Cone",
   "year": 1973,
   "directors": [
-   "x:anthonymccall"
+   "anthonymccall"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -18982,7 +18976,7 @@
   "title": "Lone Star",
   "year": 1996,
   "directors": [
-   "x:johnsayles"
+   "johnsayles"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19016,7 +19010,7 @@
   "title": "Love Is the Message, the Message Is Death",
   "year": 2016,
   "directors": [
-   "x:arthurjafa"
+   "arthurjafa"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19033,7 +19027,7 @@
   "title": "Manila in the Claws of Light",
   "year": 1975,
   "directors": [
-   "x:brockalino"
+   "linobrocka"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19050,7 +19044,7 @@
   "title": "Mediterranean",
   "year": 1963,
   "directors": [
-   "x:danieljeanpollet"
+   "jeandanielpollet"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19135,7 +19129,7 @@
   "title": "Onibaba",
   "year": 1964,
   "directors": [
-   "x:kanetoshindo"
+   "kanetoshindo"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19152,7 +19146,7 @@
   "title": "Peggy and Fred in Hell",
   "year": 2002,
   "directors": [
-   "x:lesliethornton"
+   "lesliethornton"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19169,7 +19163,7 @@
   "title": "Personal Problems",
   "year": 1980,
   "directors": [
-   "x:billgunn"
+   "billgunn"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19186,7 +19180,7 @@
   "title": "Rain (aka Regen)",
   "year": 1929,
   "directors": [
-   "x:ivensjoris"
+   "jorisivens"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19203,7 +19197,7 @@
   "title": "Reassemblage: From the Firelight to the Screen",
   "year": 1983,
   "directors": [
-   "x:haminhttrinh"
+   "tminhhatrinh"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19220,7 +19214,7 @@
   "title": "Remorques",
   "year": 1939,
   "directors": [
-   "x:gremillonjean"
+   "jeangremillon"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19271,7 +19265,7 @@
   "title": "Simone Barbes or Virtue",
   "year": 1980,
   "directors": [
-   "x:claudemarietreilhou"
+   "marieclaudetreilhou"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19373,7 +19367,7 @@
   "title": "The End of Evangelion",
   "year": 1997,
   "directors": [
-   "x:annohideaki"
+   "hideakianno"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19390,7 +19384,7 @@
   "title": "The English Patient",
   "year": 1996,
   "directors": [
-   "x:anthonyminghella"
+   "anthonyminghella"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19407,7 +19401,7 @@
   "title": "The Girl Chewing Gum",
   "year": 1976,
   "directors": [
-   "x:johnsmith"
+   "johnsmith"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19492,7 +19486,7 @@
   "title": "The Talented Mr. Ripley",
   "year": 1999,
   "directors": [
-   "x:anthonyminghella"
+   "anthonyminghella"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19611,7 +19605,7 @@
   "title": "Within Our Gates",
   "year": 1920,
   "directors": [
-   "x:micheauxoscar"
+   "oscarmicheaux"
   ],
   "tspdt": null,
   "sight_and_sound": 702,
@@ -19628,7 +19622,7 @@
   "title": "(nostalgia)",
   "year": 1971,
   "directors": [
-   "x:framptonhollis"
+   "hollisframpton"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19645,7 +19639,7 @@
   "title": "Asparagus",
   "year": 1979,
   "directors": [
-   "x:pittsuzan"
+   "suzanpitt"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19662,7 +19656,7 @@
   "title": "Begone Dull Care",
   "year": 1949,
   "directors": [
-   "x:mclarennorman"
+   "normanmclaren"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19696,7 +19690,7 @@
   "title": "Beyond the Valley of the Dolls",
   "year": 1970,
   "directors": [
-   "x:meyerruss"
+   "russmeyer"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19747,7 +19741,7 @@
   "title": "Compensation",
   "year": 1999,
   "directors": [
-   "x:davisirenezeinabu"
+   "zeinabuirenedavis"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19764,7 +19758,7 @@
   "title": "Crime Wave",
   "year": 1985,
   "directors": [
-   "x:johnpaizs"
+   "johnpaizs"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19781,7 +19775,7 @@
   "title": "Crossroads",
   "year": 1976,
   "directors": [
-   "x:bruceconner"
+   "bruceconner"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19798,7 +19792,7 @@
   "title": "The 36th Chamber of Shaolin",
   "year": 1978,
   "directors": [
-   "x:chialiangliu"
+   "liuchialiang"
   ],
   "tspdt": null,
   "sight_and_sound": 833,
@@ -19866,7 +19860,7 @@
   "title": "A Diary for Timothy",
   "year": 1945,
   "directors": [
-   "x:humphreyjennings"
+   "humphreyjennings"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20019,7 +20013,7 @@
   "title": "Desperately Seeking Susan",
   "year": 1985,
   "directors": [
-   "x:seidelmansusan"
+   "susanseidelman"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20087,7 +20081,7 @@
   "title": "El Romance del Aniceto y la Francisca",
   "year": 1967,
   "directors": [
-   "x:favioleonardo"
+   "leonardofavio"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20206,7 +20200,7 @@
   "title": "Femmes, Femmes",
   "year": 1974,
   "directors": [
-   "x:paulvecchiali"
+   "paulvecchiali"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20359,7 +20353,7 @@
   "title": "Hotel Terminus",
   "year": 1988,
   "directors": [
-   "x:marcelophuls"
+   "marcelophuls"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20427,7 +20421,7 @@
   "title": "Invisible Adversaries",
   "year": 1977,
   "directors": [
-   "x:exportvalie"
+   "valieexport"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20444,7 +20438,7 @@
   "title": "Joan of Arc of Mongolia",
   "year": 1989,
   "directors": [
-   "x:ottingerulrike"
+   "ulrikeottinger"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20461,7 +20455,7 @@
   "title": "July Rain",
   "year": 1966,
   "directors": [
-   "x:khutsievmarlen"
+   "marlenkhutsiev"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20495,8 +20489,7 @@
   "title": "Leviathan",
   "year": 2012,
   "directors": [
-   "x:castainglucientaylor",
-   "x:paravelverena"
+   "castaingtaylorparavel"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20513,7 +20506,7 @@
   "title": "Marble Ass",
   "year": 1995,
   "directors": [
-   "x:zelimirzilnik"
+   "zelimirzilnik"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20581,7 +20574,7 @@
   "title": "My Childhood",
   "year": 1972,
   "directors": [
-   "x:billdouglas"
+   "billdouglas"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20598,7 +20591,7 @@
   "title": "Nazareno Cruz and the Wolf",
   "year": 1975,
   "directors": [
-   "x:favioleonardo"
+   "leonardofavio"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20650,7 +20643,7 @@
   "title": "Om Shanti Om",
   "year": 2007,
   "directors": [
-   "x:farahkhan"
+   "farahkhan"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20701,7 +20694,7 @@
   "title": "Oxhide II",
   "year": 2009,
   "directors": [
-   "x:jiayinliu"
+   "jiayinliu"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20718,7 +20711,7 @@
   "title": "Paddington 2",
   "year": 2017,
   "directors": [
-   "x:kingpaul"
+   "paulking"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20735,7 +20728,7 @@
   "title": "Pakeezah",
   "year": 1971,
   "directors": [
-   "x:amrohikamal"
+   "kamalamrohi"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20803,8 +20796,7 @@
   "title": "Riddles of the Sphinx",
   "year": 1977,
   "directors": [
-   "x:lauramulvey",
-   "x:peterwollen"
+   "mulveywollen"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20821,7 +20813,7 @@
   "title": "Route One USA",
   "year": 1989,
   "directors": [
-   "x:kramerrobert"
+   "robertkramer"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20855,7 +20847,7 @@
   "title": "Run Lola Run",
   "year": 1998,
   "directors": [
-   "x:tomtykwer"
+   "tomtykwer"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20872,7 +20864,7 @@
   "title": "Soft Fiction",
   "year": 1979,
   "directors": [
-   "x:chickstrand"
+   "chickstrand"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -20976,7 +20968,7 @@
   "title": "Street of Crocodiles",
   "year": 1986,
   "directors": [
-   "x:brothersquay"
+   "quaybrothers"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21010,7 +21002,7 @@
   "title": "The Cremator",
   "year": 1968,
   "directors": [
-   "x:herzjuraj"
+   "jurajherz"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21044,7 +21036,7 @@
   "title": "The Dreamed Path",
   "year": 2016,
   "directors": [
-   "x:angelaschanelec"
+   "angelaschanelec"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21061,7 +21053,7 @@
   "title": "The Emperor of the Mughals",
   "year": 1960,
   "directors": [
-   "x:asifk"
+   "kasif"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21078,7 +21070,7 @@
   "title": "The Fall of the House of Usher",
   "year": 1928,
   "directors": [
-   "x:epsteinjean"
+   "jeanepstein"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21112,7 +21104,7 @@
   "title": "The Great Silence",
   "year": 1968,
   "directors": [
-   "x:corbuccisergio"
+   "sergiocorbucci"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21197,7 +21189,7 @@
   "title": "The Seventh Victim",
   "year": 1943,
   "directors": [
-   "x:markrobson"
+   "markrobson"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21265,7 +21257,7 @@
   "title": "The Wrong Trousers",
   "year": 1993,
   "directors": [
-   "x:nickpark"
+   "nickpark"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21299,7 +21291,7 @@
   "title": "Time",
   "year": 2020,
   "directors": [
-   "x:bradleygarrett"
+   "garrettbradley"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21384,7 +21376,7 @@
   "title": "Waltz with Bashir",
   "year": 2008,
   "directors": [
-   "x:arifolman"
+   "arifolman"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21401,7 +21393,7 @@
   "title": "Went the Day Well?",
   "year": 1942,
   "directors": [
-   "x:albertocavalcanti"
+   "albertocavalcanti"
   ],
   "tspdt": null,
   "sight_and_sound": 850,
@@ -21418,7 +21410,7 @@
   "title": "Working Girls",
   "year": 1986,
   "directors": [
-   "x:bordenlizzie"
+   "lizzieborden"
   ],
   "tspdt": null,
   "sight_and_sound": 850,

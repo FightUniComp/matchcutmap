@@ -3193,5 +3193,580 @@
   "from": "desica",
   "to": "ettorescola",
   "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "angelaschanelec",
+  "note": ""
+ },
+ {
+  "from": "tarr",
+  "to": "bohu",
+  "note": "Hu attended a workshop led by Tarr."
+ },
+ {
+  "from": "malick",
+  "to": "davidlowery",
+  "note": ""
+ },
+ {
+  "from": "alanclarke",
+  "to": "gusvansant",
+  "note": "Van Sant's Elephant borrows its title and walking shots from Clarke's."
+ },
+ {
+  "from": "reiscordeiro",
+  "to": "pedrocosta",
+  "note": "Costa was Reis's student at the Lisbon film school."
+ },
+ {
+  "from": "charlesburnett",
+  "to": "billywoodberry",
+  "note": "Burnett wrote and shot Bless Their Little Hearts."
+ },
+ {
+  "from": "bruceconner",
+  "to": "arthurjafa",
+  "note": ""
+ },
+ {
+  "from": "josephcornell",
+  "to": "bruceconner",
+  "note": ""
+ },
+ {
+  "from": "josephcornell",
+  "to": "stanbrakhage",
+  "note": "Brakhage worked for Cornell as a young man."
+ },
+ {
+  "from": "stanbrakhage",
+  "to": "caroleeschneemann",
+  "note": ""
+ },
+ {
+  "from": "mayaderen",
+  "to": "barbarahammer",
+  "note": "Hammer said seeing Meshes of the Afternoon made her a filmmaker."
+ },
+ {
+  "from": "jacksmith",
+  "to": "andywarhol",
+  "note": ""
+ },
+ {
+  "from": "jacksmith",
+  "to": "johnwaters",
+  "note": ""
+ },
+ {
+  "from": "jeanrouch",
+  "to": "edgarmorin",
+  "note": "They co-directed Chronicle of a Summer."
+ },
+ {
+  "from": "eisenstein",
+  "to": "grigorialeksandrov",
+  "note": "Aleksandrov was Eisenstein's assistant and co-director."
+ },
+ {
+  "from": "eisenstein",
+  "to": "artavazdpeleshian",
+  "note": ""
+ },
+ {
+  "from": "vertov",
+  "to": "artavazdpeleshian",
+  "note": ""
+ },
+ {
+  "from": "artavazdpeleshian",
+  "to": "godfreyreggio",
+  "note": ""
+ },
+ {
+  "from": "jeanepstein",
+  "to": "bunuel",
+  "note": "Buñuel was Epstein's assistant."
+ },
+ {
+  "from": "humphreyjennings",
+  "to": "lindsayanderson",
+  "note": ""
+ },
+ {
+  "from": "humphreyjennings",
+  "to": "terencedavies",
+  "note": ""
+ },
+ {
+  "from": "billdouglas",
+  "to": "terencedavies",
+  "note": ""
+ },
+ {
+  "from": "billdouglas",
+  "to": "lynneramsay",
+  "note": ""
+ },
+ {
+  "from": "lindsayanderson",
+  "to": "karelreisz",
+  "note": ""
+ },
+ {
+  "from": "tati",
+  "to": "billforsyth",
+  "note": ""
+ },
+ {
+  "from": "chuckjones",
+  "to": "spielberg",
+  "note": ""
+ },
+ {
+  "from": "jerrylewis",
+  "to": "godard",
+  "note": "Godard repeatedly praised Lewis as a director."
+ },
+ {
+  "from": "tati",
+  "to": "jerrylewis",
+  "note": ""
+ },
+ {
+  "from": "josephhlewis",
+  "to": "godard",
+  "note": ""
+ },
+ {
+  "from": "josephhlewis",
+  "to": "arthurpenn",
+  "note": "Gun Crazy is a model for Bonnie and Clyde."
+ },
+ {
+  "from": "kurosawa",
+  "to": "johnsturges",
+  "note": "The Magnificent Seven remakes Seven Samurai."
+ },
+ {
+  "from": "leone",
+  "to": "sergiocorbucci",
+  "note": ""
+ },
+ {
+  "from": "sergiocorbucci",
+  "to": "tarantino",
+  "note": "Tarantino has called Corbucci a favourite and reworked Django."
+ },
+ {
+  "from": "liuchialiang",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "russmeyer",
+  "to": "johnwaters",
+  "note": ""
+ },
+ {
+  "from": "russmeyer",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "katsuhirootomo",
+  "to": "wachowskis",
+  "note": ""
+ },
+ {
+  "from": "hayaomiyazaki",
+  "to": "hideakianno",
+  "note": "Anno animated for Miyazaki on Nausicaä."
+ },
+ {
+  "from": "yurinorstein",
+  "to": "hayaomiyazaki",
+  "note": ""
+ },
+ {
+  "from": "lenlye",
+  "to": "normanmclaren",
+  "note": ""
+ },
+ {
+  "from": "dennishopper",
+  "to": "wenders",
+  "note": ""
+ },
+ {
+  "from": "mizoguchi",
+  "to": "kanetoshindo",
+  "note": "Shindo wrote scripts for Mizoguchi and made a documentary about him."
+ },
+ {
+  "from": "mizoguchi",
+  "to": "kinuyotanaka",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "nelsonpereiradossantos",
+  "note": ""
+ },
+ {
+  "from": "nelsonpereiradossantos",
+  "to": "rocha",
+  "note": ""
+ },
+ {
+  "from": "ritwikghatak",
+  "to": "manikaul",
+  "note": "Kaul studied under Ghatak."
+ },
+ {
+  "from": "bresson",
+  "to": "manikaul",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "hugosantiago",
+  "note": "Santiago was Bresson's assistant."
+ },
+ {
+  "from": "bresson",
+  "to": "leonardofavio",
+  "note": ""
+ },
+ {
+  "from": "maxophuls",
+  "to": "marcelophuls",
+  "note": ""
+ },
+ {
+  "from": "marcelophuls",
+  "to": "claudelanzmann",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "mulveywollen",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "harunfarocki",
+  "note": ""
+ },
+ {
+  "from": "marker",
+  "to": "harunfarocki",
+  "note": ""
+ },
+ {
+  "from": "marker",
+  "to": "johnakomfrah",
+  "note": ""
+ },
+ {
+  "from": "marker",
+  "to": "kidlattahimik",
+  "note": ""
+ },
+ {
+  "from": "herzog",
+  "to": "kidlattahimik",
+  "note": ""
+ },
+ {
+  "from": "jacquestourneur",
+  "to": "markrobson",
+  "note": ""
+ },
+ {
+  "from": "frederickwiseman",
+  "to": "stevejames",
+  "note": ""
+ },
+ {
+  "from": "shirleyclarke",
+  "to": "cassavetes",
+  "note": ""
+ },
+ {
+  "from": "sembene",
+  "to": "euzhanpalcy",
+  "note": ""
+ },
+ {
+  "from": "linobrocka",
+  "to": "lavdiaz",
+  "note": ""
+ },
+ {
+  "from": "mohsenmakhmalbaf",
+  "to": "samiramakhmalbaf",
+  "note": "She trained in her father's film school."
+ },
+ {
+  "from": "scorsese",
+  "to": "mathieukassovitz",
+  "note": ""
+ },
+ {
+  "from": "spikelee",
+  "to": "mathieukassovitz",
+  "note": ""
+ },
+ {
+  "from": "spikelee",
+  "to": "ryancoogler",
+  "note": ""
+ },
+ {
+  "from": "georgearomero",
+  "to": "samraimi",
+  "note": ""
+ },
+ {
+  "from": "samraimi",
+  "to": "coens",
+  "note": "Joel Coen was an assistant editor on The Evil Dead."
+ },
+ {
+  "from": "georgearomero",
+  "to": "edgarwright",
+  "note": ""
+ },
+ {
+  "from": "samraimi",
+  "to": "edgarwright",
+  "note": ""
+ },
+ {
+  "from": "wanderson",
+  "to": "paulking",
+  "note": ""
+ },
+ {
+  "from": "murnau",
+  "to": "williamdieterle",
+  "note": "Dieterle acted in Murnau's Faust."
+ },
+ {
+  "from": "kieslowski",
+  "to": "tomtykwer",
+  "note": "Tykwer filmed Kieślowski's script Heaven."
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "bazluhrmann",
+  "note": ""
+ },
+ {
+  "from": "kenrussell",
+  "to": "bazluhrmann",
+  "note": ""
+ },
+ {
+  "from": "davidlean",
+  "to": "anthonyminghella",
+  "note": ""
+ },
+ {
+  "from": "spielberg",
+  "to": "andrewstanton",
+  "note": ""
+ },
+ {
+  "from": "chaplin",
+  "to": "andrewstanton",
+  "note": "WALL-E draws on silent comedy."
+ },
+ {
+  "from": "chuckjones",
+  "to": "johnlasseter",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "nickpark",
+  "note": ""
+ },
+ {
+  "from": "toshiomatsumoto",
+  "to": "kubrick",
+  "note": "Often cited as a source for A Clockwork Orange."
+ },
+ {
+  "from": "jacksmith",
+  "to": "ulrikeottinger",
+  "note": ""
+ },
+ {
+  "from": "dwgriffith",
+  "to": "oscarmicheaux",
+  "note": "Within Our Gates is a reply to The Birth of a Nation."
+ },
+ {
+  "from": "oscarmicheaux",
+  "to": "spikelee",
+  "note": ""
+ },
+ {
+  "from": "leone",
+  "to": "rameshsippy",
+  "note": "Sholay is a 'curry western' modelled on Leone."
+ },
+ {
+  "from": "rameshsippy",
+  "to": "anuragkashyap",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "anuragkashyap",
+  "note": ""
+ },
+ {
+  "from": "marlenkhutsiev",
+  "to": "tarkovsky",
+  "note": "Tarkovsky appears in I Am Twenty."
+ },
+ {
+  "from": "bergman",
+  "to": "frantisekvlacil",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "jurajherz",
+  "note": ""
+ },
+ {
+  "from": "visconti",
+  "to": "mohammadrezaaslani",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "jiayinliu",
+  "note": ""
+ },
+ {
+  "from": "akerman",
+  "to": "jiayinliu",
+  "note": ""
+ },
+ {
+  "from": "akerman",
+  "to": "bettegordon",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "lizzieborden",
+  "note": ""
+ },
+ {
+  "from": "dinorisi",
+  "to": "alexanderpayne",
+  "note": "Payne has called Il Sorpasso a model for Sideways."
+ },
+ {
+  "from": "demy",
+  "to": "paulvecchiali",
+  "note": ""
+ },
+ {
+  "from": "paulvecchiali",
+  "to": "marieclaudetreilhou",
+  "note": "Vecchiali produced her film."
+ },
+ {
+  "from": "jeanrouch",
+  "to": "castaingtaylorparavel",
+  "note": ""
+ },
+ {
+  "from": "stanbrakhage",
+  "to": "castaingtaylorparavel",
+  "note": ""
+ },
+ {
+  "from": "jeanrouch",
+  "to": "tminhhatrinh",
+  "note": ""
+ },
+ {
+  "from": "brucebaillie",
+  "to": "apichatpong",
+  "note": "Apichatpong has named Baillie as an influence."
+ },
+ {
+  "from": "hollisframpton",
+  "to": "petergreenaway",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "quaybrothers",
+  "note": ""
+ },
+ {
+  "from": "quaybrothers",
+  "to": "nolan",
+  "note": "Nolan made a short documentary about the Quays."
+ },
+ {
+  "from": "vertov",
+  "to": "godfreyreggio",
+  "note": ""
+ },
+ {
+  "from": "bruceconner",
+  "to": "billmorrison",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "lassehallstrom",
+  "note": ""
+ },
+ {
+  "from": "jeanepstein",
+  "to": "jeangremillon",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "curtishanson",
+  "note": ""
+ },
+ {
+  "from": "frankcapra",
+  "to": "frankdarabont",
+  "note": ""
+ },
+ {
+  "from": "wachowskis",
+  "to": "daniels",
+  "note": ""
+ },
+ {
+  "from": "wong",
+  "to": "daniels",
+  "note": "The film quotes In the Mood for Love."
+ },
+ {
+  "from": "zuckerabrahamszucker",
+  "to": "edgarwright",
+  "note": ""
+ },
+ {
+  "from": "melbrooks",
+  "to": "zuckerabrahamszucker",
+  "note": ""
  }
 ]
