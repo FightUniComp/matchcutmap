@@ -296,7 +296,7 @@ function filmItem(f){
     (f.ov ? '<p class="ov">' + esc(f.ov) + '</p>' : '') +
     '<div class="fl"><a href="' + lb + '">Reviews on Letterboxd</a><a href="' + im + '">IMDb</a></div></li>';
 }
-function draft(){ return '<p class="note">Ranks and list memberships are taken from the sources. Sections marked draft (descriptions, facts, techniques, style scores and most influence links) were written from general film knowledge and have not yet been checked against a source.</p>'; }
+function draft(){ return ''; }
 function lookups(name){
   const q = encodeURIComponent(name);
   return '<h3>Read more</h3><div class="links"><a href="https://www.sensesofcinema.com/?s=' + q + '">Senses of Cinema</a><a href="https://en.wikipedia.org/wiki/Special:Search?search=' + q + '">Wikipedia</a><a href="https://letterboxd.com/search/' + q + '/">Letterboxd</a></div>';

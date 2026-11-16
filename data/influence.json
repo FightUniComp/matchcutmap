@@ -2883,5 +2883,315 @@
   "from": "eliopetri",
   "to": "oliverstone",
   "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "andreyzvyagintsev",
+  "note": ""
+ },
+ {
+  "from": "bergman",
+  "to": "andreyzvyagintsev",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "andreyzvyagintsev",
+  "note": ""
+ },
+ {
+  "from": "resnais",
+  "to": "joachimtrier",
+  "note": ""
+ },
+ {
+  "from": "woodyallen",
+  "to": "joachimtrier",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "joachimtrier",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "carlosreygadas",
+  "note": ""
+ },
+ {
+  "from": "dreyer",
+  "to": "carlosreygadas",
+  "note": "Silent Light echoes Dreyer's Ordet."
+ },
+ {
+  "from": "bresson",
+  "to": "carlosreygadas",
+  "note": ""
+ },
+ {
+  "from": "tarkovsky",
+  "to": "bigan",
+  "note": ""
+ },
+ {
+  "from": "wong",
+  "to": "bigan",
+  "note": ""
+ },
+ {
+  "from": "hou",
+  "to": "bigan",
+  "note": ""
+ },
+ {
+  "from": "tarr",
+  "to": "laszlonemes",
+  "note": "Nemes was Tarr's assistant."
+ },
+ {
+  "from": "tarr",
+  "to": "lavdiaz",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "paolosorrentino",
+  "note": ""
+ },
+ {
+  "from": "scorsese",
+  "to": "paolosorrentino",
+  "note": ""
+ },
+ {
+  "from": "fellini",
+  "to": "linawertmuller",
+  "note": "Wertmüller was an assistant on 8½."
+ },
+ {
+  "from": "malick",
+  "to": "chloezhao",
+  "note": ""
+ },
+ {
+  "from": "loach",
+  "to": "andreaarnold",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "alicerohrwacher",
+  "note": ""
+ },
+ {
+  "from": "pasolini",
+  "to": "alicerohrwacher",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "alejandrojodorowsky",
+  "note": ""
+ },
+ {
+  "from": "demy",
+  "to": "damienchazelle",
+  "note": "La La Land draws openly on The Umbrellas of Cherbourg."
+ },
+ {
+  "from": "vincenteminnelli",
+  "to": "damienchazelle",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "gasparnoe",
+  "note": ""
+ },
+ {
+  "from": "kennethanger",
+  "to": "scorsese",
+  "note": ""
+ },
+ {
+  "from": "kennethanger",
+  "to": "lynch",
+  "note": ""
+ },
+ {
+  "from": "kennethanger",
+  "to": "derekjarman",
+  "note": ""
+ },
+ {
+  "from": "melville",
+  "to": "johnwoo",
+  "note": ""
+ },
+ {
+  "from": "peckinpah",
+  "to": "johnwoo",
+  "note": ""
+ },
+ {
+  "from": "johnwoo",
+  "to": "tarantino",
+  "note": ""
+ },
+ {
+  "from": "kinghu",
+  "to": "tsuihark",
+  "note": ""
+ },
+ {
+  "from": "rohmer",
+  "to": "ryusukehamaguchi",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "ryusukehamaguchi",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "ryusukehamaguchi",
+  "note": ""
+ },
+ {
+  "from": "tati",
+  "to": "eliasuleiman",
+  "note": ""
+ },
+ {
+  "from": "keaton",
+  "to": "eliasuleiman",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "jerzyskolimowski",
+  "note": "EO reworks Au hasard Balthazar."
+ },
+ {
+  "from": "polanski",
+  "to": "jerzyskolimowski",
+  "note": ""
+ },
+ {
+  "from": "ozu",
+  "to": "joannahogg",
+  "note": ""
+ },
+ {
+  "from": "rohmer",
+  "to": "joannahogg",
+  "note": ""
+ },
+ {
+  "from": "cassavetes",
+  "to": "marenade",
+  "note": ""
+ },
+ {
+  "from": "murnau",
+  "to": "miguelgomes",
+  "note": "Tabu takes its title and two-part form from Murnau's Tabu."
+ },
+ {
+  "from": "georgesmelies",
+  "to": "jeancocteau",
+  "note": ""
+ },
+ {
+  "from": "georgesmelies",
+  "to": "terrygilliam",
+  "note": ""
+ },
+ {
+  "from": "fassbinder",
+  "to": "fatihakin",
+  "note": ""
+ },
+ {
+  "from": "djibrildiopmambety",
+  "to": "matidiop",
+  "note": "Diop is Mambéty's niece and made a film about his Touki Bouki."
+ },
+ {
+  "from": "denis",
+  "to": "matidiop",
+  "note": "Diop acted in Denis's 35 Shots of Rum."
+ },
+ {
+  "from": "sembene",
+  "to": "souleymanecisse",
+  "note": ""
+ },
+ {
+  "from": "woodyallen",
+  "to": "gretagerwig",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "gretagerwig",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "kiyoshikurosawa",
+  "note": ""
+ },
+ {
+  "from": "tobehooper",
+  "to": "kiyoshikurosawa",
+  "note": ""
+ },
+ {
+  "from": "kubrick",
+  "to": "denisvilleneuve",
+  "note": ""
+ },
+ {
+  "from": "ridleyscott",
+  "to": "denisvilleneuve",
+  "note": ""
+ },
+ {
+  "from": "bresson",
+  "to": "pawelpawlikowski",
+  "note": ""
+ },
+ {
+  "from": "godard",
+  "to": "dusanmakavejev",
+  "note": ""
+ },
+ {
+  "from": "resnais",
+  "to": "petergreenaway",
+  "note": "Greenaway has named Last Year at Marienbad as a key influence."
+ },
+ {
+  "from": "welles",
+  "to": "johnfrankenheimer",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "robertsiodmak",
+  "note": ""
+ },
+ {
+  "from": "halashby",
+  "to": "alexanderpayne",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "ettorescola",
+  "note": ""
  }
 ]

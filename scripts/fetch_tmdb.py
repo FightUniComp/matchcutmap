@@ -9,26 +9,28 @@ Then run `python build.py`. The key is read from the environment and never writt
 The script can be stopped and restarted; it skips films it already has.
 Posters and portraits are deliberately not fetched.
 """
-import json, os, sys, time, difflib, unicodedata, urllib.parse, urllib.request, urllib.error
+import json, os, sys, time, difflib, unicodedata, urllib.parse, urllib.request, urllib.error, http.cookiejar
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-API = "https://api.themoviedb.org/3"
+HOSTS = ["https://api.themoviedb.org/3", "https://api.tmdb.org/3"]   # the second is TMDB's own alternative address
+API = HOSTS[0]
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 KEY, TOKEN = os.environ.get("TMDB_API_KEY"), os.environ.get("TMDB_TOKEN")
 if not (KEY or TOKEN):
     sys.exit("Set TMDB_API_KEY (v3 key) or TMDB_TOKEN (v4 read access token) first.")
 
 class Failed(Exception): pass
 LAST = {"error": ""}
-def get(path, **params):
+def get(path, tries=6, **params):
     if KEY: params["api_key"] = KEY
     req = urllib.request.Request(API + path + "?" + urllib.parse.urlencode(params), headers={"Accept": "application/json", "User-Agent": "AuteurAtlas/1.0 (auteuratlas.org)"})
     if TOKEN and not KEY: req.add_header("Authorization", "Bearer " + TOKEN)
-    for attempt in range(6):
+    for attempt in range(tries):
         try:
-            with urllib.request.urlopen(req, timeout=25) as r:
+            with OPENER.open(req, timeout=25) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            LAST["error"] = "HTTP %d %s" % (e.code, e.reason)
+            LAST["error"] = "HTTP %d %s | redirect to: %s" % (e.code, str(e.reason).splitlines()[0], e.headers.get("Location"))
             if e.code == 404: return None
             if e.code == 401: sys.exit("TMDB rejected the key (401). Check TMDB_API_KEY.")
             time.sleep(3 + 3 * attempt if e.code == 429 else 1 + attempt)
@@ -54,11 +56,18 @@ out.setdefault("films", {}); out.setdefault("not_found", [])
 out["not_found"] = []
 todo = [f for f in films if f["id"] not in out["films"]]
 print(len(films), "films,", len(todo), "to fetch")
-try:
-    test = get("/search/movie", query="Citizen Kane", year=1941)
-    assert test and test.get("results"), "empty answer"
-except Exception as e:
-    sys.exit("Cannot get a normal answer from TMDB, so nothing was changed.\nThe error was: %s\nSend this line to Claude." % e)
+test, errors = None, []
+for host in HOSTS:
+    API = host
+    try:
+        test = get("/search/movie", tries=2, query="Citizen Kane", year=1941)
+        if test and test.get("results"): break
+        errors.append(host + ": empty answer"); test = None
+    except Exception as e:
+        errors.append(host + ": " + str(e)); test = None
+if not test:
+    sys.exit("Cannot get a normal answer from TMDB, so nothing was changed.\n" + "\n".join(errors) + "\nSend these lines to Claude.")
+print("Using", API)
 print("Connection test passed: found", test["results"][0]["title"])
 failed = []
 for n, f in enumerate(todo, 1):

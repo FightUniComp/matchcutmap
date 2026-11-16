@@ -1,13 +1,5 @@
 [
  {
-  "id": "x:abderrahmanesissako",
-  "name": "Abderrahmane Sissako",
-  "films": [
-   "bamako-court-the-2006",
-   "timbuktu-2014"
-  ]
- },
- {
   "id": "x:alanclarke",
   "name": "Alan Clarke",
   "films": [
@@ -29,39 +21,10 @@
   ]
  },
  {
-  "id": "x:alejandrogonzalezinarritu",
-  "name": "Alejandro González Iñárritu",
-  "films": [
-   "amores-perros-2000"
-  ]
- },
- {
-  "id": "x:alejandrojodorowsky",
-  "name": "Alejandro Jodorowsky",
-  "films": [
-   "the-holy-mountain-1973"
-  ]
- },
- {
   "id": "x:alexanderhammid",
   "name": "Alexander Hammid",
   "films": [
    "meshes-of-the-afternoon-1943"
-  ]
- },
- {
-  "id": "x:alexanderpayne",
-  "name": "Alexander Payne",
-  "films": [
-   "sideways-2004"
-  ]
- },
- {
-  "id": "x:alicerohrwacher",
-  "name": "Alice Rohrwacher",
-  "films": [
-   "happy-as-lazzaro-2018",
-   "the-wonders-2014"
   ]
  },
  {
@@ -72,25 +35,10 @@
   ]
  },
  {
-  "id": "x:andreaarnold",
-  "name": "Andrea Arnold",
-  "films": [
-   "fish-tank-2009",
-   "american-honey-2016"
-  ]
- },
- {
   "id": "x:andrewstanton",
   "name": "Andrew Stanton",
   "films": [
    "wall-e-2008"
-  ]
- },
- {
-  "id": "x:andreyzvyagintsev",
-  "name": "Andrey Zvyagintsev",
-  "films": [
-   "the-return-2003"
   ]
  },
  {
@@ -151,14 +99,6 @@
   ]
  },
  {
-  "id": "x:atomegoyan",
-  "name": "Atom Egoyan",
-  "films": [
-   "exotica-1994",
-   "calendar-1993"
-  ]
- },
- {
   "id": "x:barbarahammer",
   "name": "Barbara Hammer",
   "films": [
@@ -191,13 +131,6 @@
   "name": "Bette Gordon",
   "films": [
    "variety-1983"
-  ]
- },
- {
-  "id": "x:bigan",
-  "name": "Bi Gan",
-  "films": [
-   "long-day-s-journey-into-night-2018"
   ]
  },
  {
@@ -286,20 +219,6 @@
   ]
  },
  {
-  "id": "x:carlosreygadas",
-  "name": "Carlos Reygadas",
-  "films": [
-   "silent-light-2007"
-  ]
- },
- {
-  "id": "x:carlossaura",
-  "name": "Carlos Saura",
-  "films": [
-   "cria-cuervos-1976"
-  ]
- },
- {
   "id": "x:caroleeschneemann",
   "name": "Carolee Schneemann",
   "films": [
@@ -311,13 +230,6 @@
   "name": "Charles Reisner",
   "films": [
    "steamboat-bill-jr-1928"
-  ]
- },
- {
-  "id": "x:charliekaufman",
-  "name": "Charlie Kaufman",
-  "films": [
-   "synecdoche-new-york-2008"
   ]
  },
  {
@@ -333,14 +245,6 @@
   "name": "Chick Strand",
   "films": [
    "soft-fiction-1979"
-  ]
- },
- {
-  "id": "x:chloezhao",
-  "name": "Chloé Zhao",
-  "films": [
-   "nomadland-2020",
-   "the-rider-2017"
   ]
  },
  {
@@ -393,13 +297,6 @@
   ]
  },
  {
-  "id": "x:chazelledamien",
-  "name": "Damien Chazelle",
-  "films": [
-   "whiplash-2014"
-  ]
- },
- {
   "id": "x:danielkwan",
   "name": "Daniel Kwan",
   "films": [
@@ -411,20 +308,6 @@
   "name": "Daniel Scheinert",
   "films": [
    "everything-everywhere-all-at-once-2022"
-  ]
- },
- {
-  "id": "x:boyledanny",
-  "name": "Danny Boyle",
-  "films": [
-   "trainspotting-1996"
-  ]
- },
- {
-  "id": "x:aronofskydarren",
-  "name": "Darren Aronofsky",
-  "films": [
-   "requiem-for-a-dream-2000"
   ]
  },
  {
@@ -446,13 +329,6 @@
   "name": "David Zucker",
   "films": [
    "airplane-1980"
-  ]
- },
- {
-  "id": "x:denisvilleneuve",
-  "name": "Denis Villeneuve",
-  "films": [
-   "arrival-2016"
   ]
  },
  {
@@ -491,20 +367,6 @@
   ]
  },
  {
-  "id": "x:arznerdorothy",
-  "name": "Dorothy Arzner",
-  "films": [
-   "dance-girl-dance-1940"
-  ]
- },
- {
-  "id": "x:dusanmakavejev",
-  "name": "Dušan Makavejev",
-  "films": [
-   "wr-mysteries-of-the-organism-1971"
-  ]
- },
- {
   "id": "x:edgarmorin",
   "name": "Edgar Morin",
   "films": [
@@ -540,25 +402,10 @@
   ]
  },
  {
-  "id": "x:eliasuleiman",
-  "name": "Elia Suleiman",
-  "films": [
-   "divine-intervention-2002"
-  ]
- },
- {
   "id": "x:ellenhovde",
   "name": "Ellen Hovde",
   "films": [
    "grey-gardens-1975"
-  ]
- },
- {
-  "id": "x:ettorescola",
-  "name": "Ettore Scola",
-  "films": [
-   "we-all-loved-each-other-so-much-1974",
-   "a-special-day-1977"
   ]
  },
  {
@@ -573,13 +420,6 @@
   "name": "Farah Khan",
   "films": [
    "om-shanti-om-2007"
-  ]
- },
- {
-  "id": "x:akinfatih",
-  "name": "Fatih Akin",
-  "films": [
-   "head-on-2004"
   ]
  },
  {
@@ -611,25 +451,10 @@
   ]
  },
  {
-  "id": "x:gasparnoe",
-  "name": "Gaspar Noé",
-  "films": [
-   "irreversible-2002",
-   "enter-the-void-2010"
-  ]
- },
- {
   "id": "x:georgehillroy",
   "name": "George Roy Hill",
   "films": [
    "butch-cassidy-and-the-sundance-kid-1969"
-  ]
- },
- {
-  "id": "x:georgesmelies",
-  "name": "Georges Méliès",
-  "films": [
-   "a-trip-to-the-moon-1902"
   ]
  },
  {
@@ -644,13 +469,6 @@
   "name": "Gonzalo García Pelayo",
   "films": [
    "vivir-en-sevilla-1978"
-  ]
- },
- {
-  "id": "x:gerwiggreta",
-  "name": "Greta Gerwig",
-  "films": [
-   "lady-bird-2017"
   ]
  },
  {
@@ -679,13 +497,6 @@
   "name": "Hans-Jürgen Syberberg",
   "films": [
    "hitler-a-film-from-germany-1977"
-  ]
- },
- {
-  "id": "x:harmonykorine",
-  "name": "Harmony Korine",
-  "films": [
-   "gummo-1997"
   ]
  },
  {
@@ -733,13 +544,6 @@
   ]
  },
  {
-  "id": "x:idalupino",
-  "name": "Ida Lupino",
-  "films": [
-   "the-hitch-hiker-1953"
-  ]
- },
- {
   "id": "x:enyediildiko",
   "name": "Ildikó Enyedi",
   "films": [
@@ -782,13 +586,6 @@
   ]
  },
  {
-  "id": "x:jannemec",
-  "name": "Jan Němec",
-  "films": [
-   "diamonds-of-the-night-1964"
-  ]
- },
- {
   "id": "x:epsteinjean",
   "name": "Jean Epstein",
   "films": [
@@ -817,13 +614,6 @@
   ]
  },
  {
-  "id": "x:jeanjeunetpierre",
-  "name": "Jean-Pierre Jeunet",
-  "films": [
-   "amelie-2001"
-  ]
- },
- {
   "id": "x:jeromerobbins",
   "name": "Jerome Robbins",
   "films": [
@@ -845,13 +635,6 @@
   ]
  },
  {
-  "id": "x:jerzyskolimowski",
-  "name": "Jerzy Skolimowski",
-  "films": [
-   "deep-end-1970"
-  ]
- },
- {
   "id": "x:jiayinliu",
   "name": "Jiayin Liu",
   "films": [
@@ -866,20 +649,6 @@
   ]
  },
  {
-  "id": "x:jirimenzel",
-  "name": "Jirí Menzel",
-  "films": [
-   "closely-watched-trains-1966"
-  ]
- },
- {
-  "id": "x:hoggjoanna",
-  "name": "Joanna Hogg",
-  "films": [
-   "the-souvenir-2019"
-  ]
- },
- {
   "id": "x:joaopedrorodrigues",
   "name": "João Pedro Rodrigues",
   "films": [
@@ -891,13 +660,6 @@
   "name": "John Akomfrah",
   "films": [
    "handsworth-songs-1986"
-  ]
- },
- {
-  "id": "x:frankenheimerjohn",
-  "name": "John Frankenheimer",
-  "films": [
-   "the-manchurian-candidate-1962"
   ]
  },
  {
@@ -954,13 +716,6 @@
   "name": "John Sturges",
   "films": [
    "the-great-escape-1963"
-  ]
- },
- {
-  "id": "x:johnwoo",
-  "name": "John Woo",
-  "films": [
-   "the-killer-1989"
   ]
  },
  {
@@ -1049,20 +804,6 @@
   ]
  },
  {
-  "id": "x:kenrussell",
-  "name": "Ken Russell",
-  "films": [
-   "the-devils-1971"
-  ]
- },
- {
-  "id": "x:angerkenneth",
-  "name": "Kenneth Anger",
-  "films": [
-   "scorpio-rising-1963"
-  ]
- },
- {
   "id": "x:kennethlonergan",
   "name": "Kenneth Lonergan",
   "films": [
@@ -1074,13 +815,6 @@
   "name": "Kidlat Tahimik",
   "films": [
    "perfumed-nightmare-1977"
-  ]
- },
- {
-  "id": "x:dukkikim",
-  "name": "Kim Ki-duk",
-  "films": [
-   "spring-summer-autumn-winter-and-spring-2003"
   ]
  },
  {
@@ -1098,13 +832,6 @@
   ]
  },
  {
-  "id": "x:kiyoshikurosawa",
-  "name": "Kiyoshi Kurosawa",
-  "films": [
-   "cure-1997"
-  ]
- },
- {
   "id": "x:hallstromlasse",
   "name": "Lasse Hallström",
   "films": [
@@ -1112,24 +839,10 @@
   ]
  },
  {
-  "id": "x:laszlonemes",
-  "name": "László Nemes",
-  "films": [
-   "son-of-saul-2015"
-  ]
- },
- {
   "id": "x:lauramulvey",
   "name": "Laura Mulvey",
   "films": [
    "riddles-of-the-sphinx-1977"
-  ]
- },
- {
-  "id": "x:diazlav",
-  "name": "Lav Diaz",
-  "films": [
-   "evolution-of-a-filipino-family-2004"
   ]
  },
  {
@@ -1166,13 +879,6 @@
   "name": "Lewis Milestone",
   "films": [
    "all-quiet-on-the-western-front-1930"
-  ]
- },
- {
-  "id": "x:linawertmuller",
-  "name": "Lina Wertmüller",
-  "films": [
-   "seven-beauties-1975"
   ]
  },
  {
@@ -1220,13 +926,6 @@
   ]
  },
  {
-  "id": "x:guadagninoluca",
-  "name": "Luca Guadagnino",
-  "films": [
-   "call-me-by-your-name-2017"
-  ]
- },
- {
   "id": "x:castainglucientaylor",
   "name": "Lucien Castaing-Taylor",
   "films": [
@@ -1267,13 +966,6 @@
   "films": [
    "the-sorrow-and-the-pity-1969",
    "hotel-terminus-1988"
-  ]
- },
- {
-  "id": "x:ademaren",
-  "name": "Maren Ade",
-  "films": [
-   "toni-erdmann-2016"
   ]
  },
  {
@@ -1369,24 +1061,10 @@
   ]
  },
  {
-  "id": "x:diopmati",
-  "name": "Mati Diop",
-  "films": [
-   "atlantics-2019"
-  ]
- },
- {
   "id": "x:michaelroemer",
   "name": "Michael Roemer",
   "films": [
    "nothing-but-a-man-1964"
-  ]
- },
- {
-  "id": "x:gomesmiguel",
-  "name": "Miguel Gomes",
-  "films": [
-   "tabu-2012"
   ]
  },
  {
@@ -1401,14 +1079,6 @@
   "name": "Mohammad-Reza Aslani",
   "films": [
    "chess-of-the-wind-1976"
-  ]
- },
- {
-  "id": "x:makhmalbafmohsen",
-  "name": "Mohsen Makhmalbaf",
-  "films": [
-   "a-moment-of-innocence-1996",
-   "salaam-cinema-1995"
   ]
  },
  {
@@ -1454,13 +1124,6 @@
   ]
  },
  {
-  "id": "x:paolosorrentino",
-  "name": "Paolo Sorrentino",
-  "films": [
-   "the-great-beauty-2013"
-  ]
- },
- {
   "id": "x:kingpaul",
   "name": "Paul King",
   "films": [
@@ -1472,21 +1135,6 @@
   "name": "Paul Vecchiali",
   "films": [
    "femmes-femmes-1974"
-  ]
- },
- {
-  "id": "x:pawelpawlikowski",
-  "name": "Pawel Pawlikowski",
-  "films": [
-   "ida-2013",
-   "cold-war-2018"
-  ]
- },
- {
-  "id": "x:greenawaypeter",
-  "name": "Peter Greenaway",
-  "films": [
-   "the-cook-the-thief-his-wife-her-lover-1989"
   ]
  },
  {
@@ -1560,13 +1208,6 @@
   ]
  },
  {
-  "id": "x:robertsiodmak",
-  "name": "Robert Siodmak",
-  "films": [
-   "people-on-sunday-1930"
-  ]
- },
- {
   "id": "x:hardyrobin",
   "name": "Robin Hardy",
   "films": [
@@ -1578,13 +1219,6 @@
   "name": "Rodney Rothman",
   "films": [
    "spider-man-into-the-spider-verse-2018"
-  ]
- },
- {
-  "id": "x:mamoulianrouben",
-  "name": "Rouben Mamoulian",
-  "films": [
-   "love-me-tonight-1932"
   ]
  },
  {
@@ -1600,14 +1234,6 @@
   "name": "Ryan Coogler",
   "films": [
    "black-panther-2018"
-  ]
- },
- {
-  "id": "x:hamaguchiryusuke",
-  "name": "Ryûsuke Hamaguchi",
-  "films": [
-   "happy-hour-2015",
-   "drive-my-car-2021"
   ]
  },
  {
@@ -1639,15 +1265,6 @@
   ]
  },
  {
-  "id": "x:konsatoshi",
-  "name": "Satoshi Kon",
-  "films": [
-   "millennium-actress-2001",
-   "paprika-2006",
-   "perfect-blue-1997"
-  ]
- },
- {
   "id": "x:corbuccisergio",
   "name": "Sergio Corbucci",
   "films": [
@@ -1676,26 +1293,10 @@
   ]
  },
  {
-  "id": "x:cissesouleymane",
-  "name": "Souleymane Cissé",
-  "films": [
-   "yeelen-1987"
-  ]
- },
- {
   "id": "x:jamessteve",
   "name": "Steve James",
   "films": [
    "hoop-dreams-1994"
-  ]
- },
- {
-  "id": "x:mcqueensteve",
-  "name": "Steve McQueen",
-  "films": [
-   "hunger-2008",
-   "lovers-rock-episode-of-small-axe-2020",
-   "12-years-a-slave-2013"
   ]
  },
  {
@@ -1777,13 +1378,6 @@
   ]
  },
  {
-  "id": "x:harktsui",
-  "name": "Tsui Hark",
-  "films": [
-   "peking-opera-blues-1986"
-  ]
- },
- {
   "id": "x:ottingerulrike",
   "name": "Ulrike Ottinger",
   "films": [
@@ -1837,13 +1431,6 @@
   "name": "William Keighley",
   "films": [
    "the-adventures-of-robin-hood-1938"
-  ]
- },
- {
-  "id": "x:chahineyoussef",
-  "name": "Youssef Chahine",
-  "films": [
-   "cairo-station-1958"
   ]
  },
  {
