@@ -185,7 +185,7 @@ const byId = {}; DATA.directors.forEach(d => byId[d.id] = d);
 const dirById = {}; DATA.directory.forEach(d => dirById[d.id] = d);
 const T = DATA.techniques, MV = DATA.movements;
 const ERA = ["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
-const state = {sel: byId.ozu ? "ozu" : DATA.directors[0].id, dir: "", tech: "", mov: "", k: 1, x: 0, y: 0};
+const state = {sel: null, dir: "", tech: "", mov: "", k: 1, x: 0, y: 0};
 const $ = id => document.getElementById(id);
 const svg = $("map"), world = $("world");
 const CX = DATA.w/2, CY = DATA.h/2;
@@ -408,7 +408,7 @@ function find(){ const q = norm($("search").value.trim()); if (!q) return;
 $("search").addEventListener("change", find);
 $("search").addEventListener("keydown", ev => { if (ev.key === "Enter") find(); });
 
-state.k = 2.6; if (state.sel) centreOn(byId[state.sel]); else apply();
+state.k = 1; apply();
 paint();
 </script>
 </body>
