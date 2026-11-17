@@ -616,9 +616,12 @@ if "--report" in sys.argv:
 import base64
 def data_uri(path):
     return "data:image/png;base64," + base64.b64encode(open(os.path.join(HERE, path), "rb").read()).decode()
-# ---------- split: everything shown only in a director's panel goes to small files loaded on demand ----------
+# ---------- split: the heavy part of each director's panel goes to small files loaded on demand ----------
+# The page keeps what the top of a panel shows (life, signature, description), so a panel opens at
+# once; list honours, films, filmography, crew, neighbours, facts and awards follow from docs/d/. Directors that sit close on the
+# map share a file (Morton order over x and y), so the next click is often already loaded.
 import hashlib, shutil
-CHUNKS = 64
+CHUNK_KB = 26                                                # about 8 KB each after compression
 details = {}
 for d in data["directors"]:
     films, fg = d.get("films") or [], d.get("fg") or []
@@ -634,12 +637,25 @@ for d in data["directors"]:
     d["ys"] = sorted({x[0] for x in fg if x[0]} | {f["y"] for f in films if f.get("y")})   # years, for decades and career lines
     d["ky"] = sorted({f["y"] for f in films if f.get("y")})
     if films: d["ft"] = [films[0]["t"], films[0].get("y")]
-    d["ck"] = int(hashlib.md5(d["id"].encode()).hexdigest(), 16) % CHUNKS
-    d["nr"] = [n["id"] for n in d.get("near", [])]           # neighbour ids, for the map highlight; the details load with the panel
+    d["nr"] = [n["id"] for n in d.get("near", [])]           # neighbour ids, for the map highlight and the first draw of a panel
     det = {"films": d.pop("films", [])}
-    for k in ("fg", "collab", "shared", "near", "desc", "sig", "facts", "awards", "life", "lists"):   # shown only in a director's panel
+    for k in ("fg", "collab", "shared", "near", "facts", "awards", "lists"):
         if k in d: det[k] = d.pop(k)
-    details.setdefault(d["ck"], {})[d["id"]] = det
+    details[d["id"]] = det
+def morton(x, y):
+    def spread(v):
+        v &= 0xFFFF; v = (v | v << 8) & 0x00FF00FF; v = (v | v << 4) & 0x0F0F0F0F; v = (v | v << 2) & 0x33333333; return (v | v << 1) & 0x55555555
+    return spread(x) | spread(y) << 1
+X0, X1 = min(d["x"] for d in data["directors"]), max(d["x"] for d in data["directors"])
+Y0, Y1 = min(d["y"] for d in data["directors"]), max(d["y"] for d in data["directors"])
+walk = sorted(data["directors"], key=lambda d: morton(int((d["x"] - X0) / (X1 - X0) * 65535), int((d["y"] - Y0) / (Y1 - Y0) * 65535)))
+chunks, size = [{}], 0
+for d in walk:
+    n = len(json.dumps(details[d["id"]], ensure_ascii=False, separators=(",", ":")).encode())
+    if size and size + n > CHUNK_KB * 1024: chunks.append({}); size = 0
+    chunks[-1][d["id"]] = details[d["id"]]; d["ck"] = len(chunks) - 1; size += n
+details = dict(enumerate(chunks))
+data["nck"] = len(chunks)
 data["ver"] = hashlib.md5(json.dumps(details, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8]
 tpl = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
 assert "__DATA__" in tpl and "__EMBED__" in tpl
@@ -657,4 +673,4 @@ for k, v in details.items():
     open(os.path.join(docs, "d", "%d.json" % k), "w", encoding="utf-8").write(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
 open(os.path.join(docs, "index.html"), "w", encoding="utf-8").write(page.replace("__EMBED__", "null"))
 sz = sum(os.path.getsize(os.path.join(docs, "d", f)) for f in os.listdir(os.path.join(docs, "d")))
-print("wrote docs/index.html", os.path.getsize(os.path.join(docs, "index.html")) // 1024, "KB and", len(details), "film files in docs/d,", sz // 1024, "KB together")
+print("wrote docs/index.html", os.path.getsize(os.path.join(docs, "index.html")) // 1024, "KB and", len(details), "director files in docs/d,", sz // 1024, "KB together")

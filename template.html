@@ -307,11 +307,38 @@ const byId = {}; DATA.directors.forEach(d => { byId[d.id] = d; d.cx = d.x; d.cy 
 /* loading each director's films, filmography and crew when a panel needs them */
 const chunkReq = {}, mergeChunk = obj => { for (const id in obj) if (byId[id]) Object.assign(byId[id], obj[id]); return obj; };
 if (EMBED) for (const c in EMBED) chunkReq[c] = Promise.resolve(mergeChunk(EMBED[c]));   /* one-file page: everything is there from the start */
-function loadChunk(c){
-  if (!chunkReq[c]) chunkReq[c] = (EMBED ? Promise.resolve({}) : fetch("d/" + c + ".json?v=" + DATA.ver).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }))
+function loadChunk(c, low){
+  if (!chunkReq[c]) chunkReq[c] = (EMBED ? Promise.resolve({}) : fetch("d/" + c + ".json?v=" + DATA.ver, {priority: low ? "low" : "high"}).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }))
     .then(obj => { mergeChunk(obj); FINFO = null; FIX = null; return obj; })
     .catch(e => { delete chunkReq[c]; throw e; });
   return chunkReq[c];
+}
+/* after the map is up, fetch the rest a few files at a time, nearest to what is open first, so later panels open complete.
+   Skipped when the browser asks to save data or the connection is slow; then files load per panel. */
+const warmQ = []; let warmOn = false, warmBusy = 0;
+function pump(){
+  while (warmOn && warmBusy < 4 && warmQ.length) { const c = warmQ.shift(); if (chunkReq[c]) continue;
+    warmBusy++; loadChunk(c, true).catch(() => {}).then(() => { warmBusy--; pump(); }); }
+}
+function warmFirst(ids){ [...new Set(ids.map(i => byId[i].ck))].reverse().forEach(c => { if (!chunkReq[c]) { const i = warmQ.indexOf(c); if (i >= 0) warmQ.splice(i, 1); warmQ.unshift(c); } }); pump(); }
+if (!EMBED) window.addEventListener("load", () => setTimeout(() => {
+  const net = navigator.connection; if (net && (net.saveData || /(^|-)2g|3g/.test(net.effectiveType || ""))) return;
+  for (let c = 0; c < DATA.nck; c++) if (!warmQ.includes(c)) warmQ.push(c);
+  warmOn = true; pump(); }, 1200));
+/* draw a panel now from what the page has; when the directors' files arrive, draw it again in place */
+const viewKey = () => [state.sel, state.cmp, state.mine, state.lin, state.dec, state.hon, state.mov, state.tech, state.geo, state.dir].join("|");
+const waiting = new Set();
+function later(p, ids){
+  const key = viewKey(); if (waiting.has(key) || ids.every(i => loaded(byId[i]))) return;
+  waiting.add(key);
+  need(ids).then(() => { waiting.delete(key); if (viewKey() === key) redraw(p); }, () => { waiting.delete(key); const m = p.querySelector(".loadline"); if (viewKey() !== key || !m) return;
+    m.innerHTML = 'Could not load the films. Check the connection and <button class="lnk" type="button">try again</button>.';
+    m.querySelector("button").addEventListener("click", () => redraw(p)); });
+}
+function redraw(p){   /* keeps the scroll position and anything typed into the panel */
+  const st = p.scrollTop, inp = $("traceTo"), v = inp ? inp.value : "", f = inp && document.activeElement === inp;
+  panelBody(); p.scrollTop = st;
+  const i2 = $("traceTo"); if (i2 && v) i2.value = v; if (i2 && f) i2.focus();
 }
 const loaded = d => Array.isArray(d.films);
 const need = ids => Promise.all([...new Set(ids.map(i => byId[i].ck))].map(loadChunk));
@@ -465,7 +492,10 @@ const IP = {}; [" dim", "", " in", " out"].forEach(c => IP[c] = [el("path", {cla
 const nodeEls = DATA.directors.map(d => {
   const g = el("g", {class:"node", tabindex:"0", role:"button", "aria-label":d.name}, $("gNodes"));
   d.g = g; d.circle = el("circle", {cx:d.x, cy:d.y, r:d.r, fill:ERA[d.era]}, g);
-  if (!EMBED) ["pointerenter", "focus"].forEach(t => g.addEventListener(t, () => { loadChunk(d.ck).catch(() => {}); }));   /* fetch before the click lands */
+  if (!EMBED) { let rest = 0;   /* fetch before the click lands, once the pointer rests on a dot rather than passing over it */
+    g.addEventListener("pointerenter", () => { clearTimeout(rest); rest = setTimeout(() => loadChunk(d.ck).catch(() => {}), 80); });
+    g.addEventListener("pointerleave", () => clearTimeout(rest));
+    g.addEventListener("focus", () => loadChunk(d.ck).catch(() => {})); }
   const t = el("text", {x:d.x, y:d.y + d.r, dy:"1.15em"}, g); t.textContent = d.name; d.label = t;
   g.addEventListener("click", () => { if (!moved) select(d.id); });
   g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.id); } });
@@ -609,8 +639,7 @@ function similarity(a, b){
   return Math.round(100 * (0.42 * sh / un + 0.23 * dim + 0.35 * mov));
 }
 function compareBody(p){
-  const a0 = state.sel, b0 = state.cmp;
-  if (!loaded(byId[a0]) || !loaded(byId[b0])) { pending(p, "", [a0, b0], () => state.sel === a0 && state.cmp === b0); return; }
+  later(p, [state.sel, state.cmp]);
   const a = byId[state.sel], b = byId[state.cmp], P = state.path, pos = v => ((v - 1) / 9 * 100).toFixed(0);
   const chip = t => '<button class="chip" type="button" data-tech="' + t + '">' + esc(T[t].name) + '</button>';
   const both = a.tags.filter(t => b.tags.includes(t)), onlyA = a.tags.filter(t => !b.tags.includes(t)), onlyB = b.tags.filter(t => !a.tags.includes(t));
@@ -897,10 +926,10 @@ function panelBody(){
     bind(p); return;
   }
   const d = byId[state.sel];
-  if (!loaded(d)) { pending(p, d.name, [d.id], () => state.sel === d.id); return; }
+  const full = loaded(d); later(p, [d.id]); warmFirst([d.id].concat(d.nr));
   const bars = DATA.dims.map((m, i) => '<div class="bar"><div class="ends"><span>' + esc(m.lo) + '</span><span>' + esc(m.hi) + '</span></div><div class="track"><span class="pin" style="left:' + ((d.dims[i]-1)/9*100).toFixed(0) + '%"></span></div></div>').join("");
   const chips = d.tags.map(t => '<button class="chip' + (t === state.tech ? " on" : "") + '" type="button" data-tech="' + t + '" title="' + esc(T[t].def) + '">' + esc(T[t].name) + '</button>').join("");
-  const near = d.near.map(n => person(n.id, (n.mov.length ? "Same movement: " + n.mov.map(m => MV[m].name).join(", ") + ". " : "") + (n.shared.length ? "Shares: " + n.shared.map(t => T[t].name.toLowerCase()).join(", ") : (n.mov.length ? "" : "Similar overall profile, no shared technique tags")))).join("");
+  const near = !full ? d.nr.map(id => person(id)).join("") : d.near.map(n => person(n.id, (n.mov.length ? "Same movement: " + n.mov.map(m => MV[m].name).join(", ") + ". " : "") + (n.shared.length ? "Shares: " + n.shared.map(t => T[t].name.toLowerCase()).join(", ") : (n.mov.length ? "" : "Similar overall profile, no shared technique tags")))).join("");
   const inn = DATA.influence.filter(l => l.t === d.id), out = DATA.influence.filter(l => l.s === d.id);
   const lifeTxt = !d.life ? (d.born ? "born " + d.born : "") : d.life.length === 1
     ? (d.life[0][1] ? (d.life[0][2] ? d.life[0][1] + " to " + d.life[0][2] : "born " + d.life[0][1]) + (d.life[0][3] ? ", " + d.life[0][3] : "") : "")
@@ -915,9 +944,9 @@ function panelBody(){
     '<p class="rank">' + (d.rank ? '<b>#' + d.rank + '</b> of 250 most acclaimed directors' : 'Outside the top 250 most acclaimed directors') + ' <a href="' + esc(DATA.rankSource.url) + '">TSPDT ' + esc(DATA.rankSource.edition) + '</a></p>' +
     (d.sig ? '<p class="sig">' + esc(d.sig) + '</p>' : '') + (d.desc ? '<p class="desc">' + esc(d.desc) + '</p>' : '') +
     (d.movements.length ? '<h3>Movements</h3><div class="chips">' + d.movements.map(m => '<button class="chip" type="button" data-mov="' + m + '" title="' + esc(MV[m].desc) + '">' + esc(MV[m].name) + '</button>').join("") + '</div>' : '') +
-    (d.lists.length ? '<h3>On the lists <small class="ok">from the sources</small></h3><ul class="facts ok">' + d.lists.map(f => '<li>' + esc(f) + '</li>').join("") + '</ul>' : '') +
-    (d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + ' <small id="seenSum" class="ok"' + (seenStats(d)[0] ? '' : ' hidden') + '>seen ' + seenStats(d).join(" of ") + '</small></h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
-    careerChart(d) +
+    (d.lists && d.lists.length ? '<h3>On the lists <small class="ok">from the sources</small></h3><ul class="facts ok">' + d.lists.map(f => '<li>' + esc(f) + '</li>').join("") + '</ul>' : '') +
+    (!full ? '<h3>Key films</h3><p class="meta loadline" role="status">Loading films&hellip;</p>' : d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + ' <small id="seenSum" class="ok"' + (seenStats(d)[0] ? '' : ' hidden') + '>seen ' + seenStats(d).join(" of ") + '</small></h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
+    (full ? careerChart(d) : '') +
     (d.fg ? '<details class="fg"><summary>Filmography <small>' + d.fg.length + ' films directed, from TMDB</small></summary>' +
       (d.fg.some(x => x[3] || IMR[gkey(x)]) ? '<div class="fgsort">Sort by <button type="button" data-fgsort="y" aria-pressed="true">Year</button>' +
         (d.fg.some(x => x[3]) ? '<button type="button" data-fgsort="r" aria-pressed="false">TMDB rating</button>' : '') + (d.fg.some(x => IMR[gkey(x)]) ? '<button type="button" data-fgsort="i" aria-pressed="false">IMDb rating</button>' : '') + '</div>' : '') +
@@ -925,7 +954,7 @@ function panelBody(){
       return '<li data-n="' + n + '" data-r="' + (x[3] || 0) + '" data-i="' + (IMR[k] ? IMR[k][0] : 0) + '"><button class="sm" type="button" data-seen="' + esc(k) + '" aria-pressed="' + (SEEN[k] ? "true" : "false") + '" aria-label="Mark ' + esc(x[1]) + ' as seen"></button><button class="wm" type="button" data-want="' + esc(k) + '" aria-pressed="' + (WANT[k] ? "true" : "false") + '" aria-label="Want to see ' + esc(x[1]) + '" title="Want to see">' + BOOKMARK + '</button><span class="fy">' + x[0] + '</span><span class="fn">' +
         (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</span>' + (x[4] ? '<span class="fh" title="' + esc(x[4]) + '">&#9670;</span>' : '') + (x[3] ? '<span class="fr" title="TMDB user rating, out of 10">' + x[3].toFixed(1) + '</span>' : '') +
         (IMR[k] ? '<span class="fr im" title="IMDb rating, from your own file">IMDb ' + Number(IMR[k][0]).toFixed(1) + '</span>' : '') + '</li>'; }).join("") + '</ol></details>' : '') +
-    awardsHtml + (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
+    awardsHtml + (d.facts && d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
     '<h3>Techniques <small>draft</small></h3><div class="chips">' + chips + '</div>' +
     '<h3>Style profile <small>draft</small></h3>' + bars +
     '<h3>Closest in style</h3><ul>' + near + '</ul>' +
