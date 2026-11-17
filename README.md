@@ -14,6 +14,7 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | House of Tabula film studies watchlist membership | From the source |
 | Cannes top prize (Grand Prix du Festival, Palme d'Or), all 103 winners 1939 to 2026 | From the source; every fact that mentions the Palme d'Or was checked against it |
 | Film descriptions, ratings, filmographies, birth and death dates (TMDB) | From the source; a film match is kept only when TMDB credits our director for it |
+| Birth and death, birthplace, awards, 'influenced by', teachers, students, family (Wikidata) | From the source; Wikidata is public domain (CC0). Influence links it records are marked "Recorded in Wikidata" and count as checked |
 | Page references to The Oxford History of World Cinema | Found by text search in an OCR of the book; page numbers are scan pages, not printed page numbers |
 | Descriptions, facts, techniques, style scores, movements, most influence links | Draft, written from general film knowledge, not yet checked |
 
@@ -34,6 +35,9 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `data/tmdb.json` | Created by `scripts/fetch_tmdb.py`: per film the TMDB match, description, rating, ids. `rejected` lists TMDB ids that proved to be the wrong film. Not committed |
 | `data/people.json` | Created by `scripts/fetch_tmdb.py`: per director the TMDB person record (birth, death, place of birth) and everything they directed. Not committed |
 | `scripts/fetch_tmdb.py` | Fetches TMDB data. Needs your API key in the environment |
+| `data/wikidata.json` | Created by `scripts/fetch_wikidata.py`: Wikidata facts per director. CC0, committed |
+| `scripts/fetch_wikidata.py` | Fetches Wikidata facts (no key needed) |
+| `scripts/merge_wikidata.py` | Turns Wikidata influence and teacher links into influence links and checks award facts |
 | `scripts/check_imdb.py` | Checks our films against your own copy of the IMDb datasets and writes a local report. IMDb data itself is never stored in this repo |
 | `template.html` | The page: markup, styles and script |
 | `build.py` | Reads `data/`, computes similarity and layout, writes `site/index.html` |
@@ -68,8 +72,25 @@ truth: edit those and rebuild.
 
 Step 1 matches every film and keeps a match only if TMDB credits one of our directors.
 Step 2 finds each director's TMDB person record through those films and stores their
-birth and death dates and filmography. The page then shows full filmographies, ranks the
+birth and death dates and filmography. Step 3 reads the credits of each director's
+best-known films and stores their regular collaborators (cinematography, editing, music,
+writing, production design, leading actors). The page then shows full filmographies, ranks the
 key films by list rank and then by TMDB audience, and links straight to Letterboxd and IMDb.
+
+## Add Wikidata (run on your own machine, after TMDB)
+
+    python scripts/fetch_wikidata.py
+    python scripts/merge_wikidata.py
+    python build.py
+
+## Features of the page
+
+- Shareable links: `#ozu` (a director), `#m/french-new-wave` (a movement), `#t/long-take`
+  (a technique), `#g/r:East Asia` or `#g/c:Japan` (a region or country), `#path/ozu/bigan`
+  (a traced connection). The browser's back button steps through what you looked at.
+- Trace a connection: the shortest chain of influence between two directors, falling back
+  to style similarity where no influence chain exists.
+- Highlight a region or country, "Surprise me", Escape to clear.
 
 ## Check against IMDb (optional, local only)
 

@@ -12,7 +12,11 @@ films, then stores birth and death dates and everything they directed. Writes
 data/people.json. A film match whose TMDB credits do not name our director is thrown
 out and searched again.
 
-Options: --films (step 1 only), --people (step 2 only), --refresh (redo every director),
+Step 3, collaborators: reads the credits of each director's best-known films (up to 10)
+and stores who worked with them on at least two: cinematographers, composers, editors,
+writers, production designers and leading actors.
+
+Options: --films, --people or --collab (run one step only), --refresh (redo every director),
 --only=id1,id2 (redo just these directors).
 The key is read from the environment and never written to disk. The script can be
 stopped and restarted; it skips what it already has. No posters or portraits are fetched.
@@ -191,9 +195,44 @@ def fetch_people():
     save(pp_path, PP); save(tm_path, TM)
     return rejected
 
+ROLES = {"Director of Photography": "Cinematography", "Original Music Composer": "Music", "Music": "Music", "Editor": "Editing",
+         "Screenplay": "Writing", "Writer": "Writing", "Production Design": "Production design"}
+def fetch_collab():
+    by_dir = {}
+    for f in films:
+        for d in f["directors"]: by_dir.setdefault(d, []).append(f)
+    only = next((a.split("=", 1)[1].split(",") for a in ARGS if a.startswith("--only=")), None)
+    todo = [d for d in directors if PP["directors"].get(d["id"], {}).get("persons")
+            and ((d["id"] in only) if only else ("--refresh" in ARGS or "collab" not in PP["directors"][d["id"]]))]
+    print("Collaborators:", len(todo), "directors to look up")
+    for n, d in enumerate(todo, 1):
+        rec = PP["directors"][d["id"]]; me = {p["tmdb_id"] for p in rec["persons"]}
+        picks = [TM["films"][f["id"]]["tmdb_id"] for f in by_dir.get(d["id"], []) if f["id"] in TM["films"]]
+        picks += [x["tmdb_id"] for x in sorted(rec.get("films", []), key=lambda x: -(x.get("vote_count") or 0)) if (x.get("vote_count") or 0) >= 20]
+        picks = list(dict.fromkeys(picks))[:10]
+        tally = {}
+        try:
+            for tid in picks:
+                cr = get("/movie/%d/credits" % tid) or {}
+                people = [(c["id"], c["name"], ROLES.get(c.get("job"))) for c in cr.get("crew", [])]
+                people += [(c["id"], c["name"], "Acting") for c in sorted(cr.get("cast", []), key=lambda c: c.get("order", 99))[:4]]
+                for pid, nm, role in people:
+                    if role and pid not in me: tally.setdefault((pid, role), {"name": nm, "films": set()})["films"].add(tid)
+            rec["collab"] = sorted([{"tmdb_id": pid, "name": v["name"], "role": role, "films": sorted(v["films"])} for (pid, role), v in tally.items() if len(v["films"]) >= 2],
+                                   key=lambda c: (c["role"], -len(c["films"])))
+            rec["collab_films"] = picks
+        except Failed as e:
+            print("  request failed for", d["name"], "-", e)
+        if n % 20 == 0 or n == len(todo):
+            save(pp_path, PP); print(f"  {n}/{len(todo)} directors done")
+        time.sleep(0.02)
+    save(pp_path, PP)
+
 if not (KEY or TOKEN): sys.exit("Set TMDB_API_KEY (v3 key) or TMDB_TOKEN (v4 read access token) first.")
 connect()
-if "--people" not in ARGS: fetch_films()
-if "--films" not in ARGS:
+steps = [a for a in ("--films", "--people", "--collab") if a in ARGS] or ["--films", "--people", "--collab"]
+if "--films" in steps: fetch_films()
+if "--people" in steps:
     if fetch_people(): print("Searching again for the films whose match was wrong:"); fetch_films()
+if "--collab" in steps: fetch_collab()
 print("Done. Saved data/tmdb.json and data/people.json. Now run: python build.py")

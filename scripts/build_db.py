@@ -29,6 +29,7 @@ TSPDT, CANNES = load("tspdt")["ranks"], load("cannes")
 BOOK = load("book", optional=True) or {"pages": {}, "pairs": {}}
 TMDB = (load("tmdb", optional=True) or {"films": {}})["films"]
 PEOPLE = (load("people", optional=True) or {"directors": {}})["directors"] if FULL else {}   # TMDB person records and filmographies
+WDATA = load("wikidata", optional=True) or {"directors": {}, "people": {}}   # Wikidata is CC0, so it goes into the public build too
 keys = [m["key"] for m in DIMS]
 
 out_dir = os.path.join(HERE, "database")
@@ -46,6 +47,12 @@ CREATE TABLE films (id TEXT PRIMARY KEY, title TEXT NOT NULL, year INTEGER, coun
   tmdb_id INTEGER, imdb_id TEXT, tmdb_rating REAL, tmdb_votes INTEGER, overview TEXT, added_by_hand INTEGER);
 CREATE TABLE director_people (director_id TEXT REFERENCES directors(id), name TEXT, tmdb_person_id INTEGER, imdb_person_id TEXT,
   birth_date TEXT, death_date TEXT, place_of_birth TEXT, found_by TEXT, source_id TEXT);
+CREATE TABLE wikidata_people (director_id TEXT REFERENCES directors(id), qid TEXT, label TEXT, enwiki TEXT, birth_date TEXT, death_date TEXT,
+  birthplace TEXT, citizenship TEXT, found_by TEXT);
+CREATE TABLE wikidata_awards (director_id TEXT REFERENCES directors(id), qid TEXT, award TEXT, award_qid TEXT, year INTEGER, work TEXT, work_qid TEXT);
+CREATE TABLE wikidata_relations (director_id TEXT REFERENCES directors(id), qid TEXT, property TEXT, relation TEXT, target_qid TEXT, target_label TEXT,
+  target_director_id TEXT);
+CREATE TABLE collaborators (director_id TEXT REFERENCES directors(id), tmdb_person_id INTEGER, name TEXT, role TEXT, films INTEGER, source_id TEXT);
 CREATE TABLE filmography (director_id TEXT REFERENCES directors(id), tmdb_film_id INTEGER, title TEXT, original_title TEXT, release_date TEXT,
   tmdb_rating REAL, tmdb_votes INTEGER, source_id TEXT);
 CREATE TABLE film_directors (film_id TEXT REFERENCES films(id), director_id TEXT REFERENCES directors(id), PRIMARY KEY (film_id, director_id));
@@ -102,14 +109,31 @@ for did, v in PEOPLE.items():
     ps = v.get("persons", [])
     if len(ps) == 1 and (ps[0].get("birthday") or "")[:4].isdigit():
         db.execute("UPDATE directors SET born = ? WHERE id = ?", (int(ps[0]["birthday"][:4]), did))
+q2d = {p["qid"]: did for did, ps in WDATA["directors"].items() for p in ps}
+props = WDATA.get("properties", {})
+for did, ps in WDATA["directors"].items():
+    if did not in known: continue
+    for p in ps:
+        w = WDATA["people"].get(p["qid"])
+        if not w: continue
+        db.execute("INSERT INTO wikidata_people VALUES (?,?,?,?,?,?,?,?,?)", (did, p["qid"], w.get("label"), w.get("enwiki"), (w.get("birth") or "")[:10] or None,
+                   (w.get("death") or "")[:10] or None, w.get("birthplace"), ", ".join(w.get("citizenship", [])), p.get("found_by")))
+        for a in w.get("awards", []):
+            db.execute("INSERT INTO wikidata_awards VALUES (?,?,?,?,?,?,?)", (did, p["qid"], a.get("award"), a.get("award_qid"), int(a["year"]) if a.get("year") else None, a.get("work"), a.get("work_qid")))
+        for r in w.get("rel", []):
+            db.execute("INSERT INTO wikidata_relations VALUES (?,?,?,?,?,?,?)", (did, p["qid"], r["p"], props.get(r["p"]), r["qid"], r.get("label"), q2d.get(r["qid"])))
+for did, v in PEOPLE.items():
+    for c in v.get("collab") or []:
+        if did in known: db.execute("INSERT INTO collaborators VALUES (?,?,?,?,?,?)", (did, c["tmdb_id"], c["name"], c["role"], len(c["films"]), "tmdb"))
 for c in CANNES: db.execute("INSERT INTO awards VALUES (?,?,?,?,?,?)", (c["film"], "Cannes Film Festival", c["award"], c["year"], "cannes", "verified"))
 db.executemany("INSERT INTO movements VALUES (?,?,?,?,?,?)", [(k, v["name"], v["kind"], v["period"], v["description"], int(v["cluster"])) for k, v in MV.items()])
 db.executemany("INSERT INTO techniques VALUES (?,?,?,?)", [(k, v["name"], v["category"], v["definition"]) for k, v in T.items()])
 db.executemany("INSERT INTO style_scales VALUES (?,?,?)", [(m["key"], m["low"], m["high"]) for m in DIMS])
 for e in I:
     pages = BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
-    stated = "Oxford History of World Cinema" in e["note"]
-    db.execute("INSERT INTO influences VALUES (?,?,?,?,?,?)", (e["from"], e["to"], e["note"], "verified" if stated else "draft", "ohwc" if (stated or pages) else None, ",".join(map(str, pages))))
+    stated = "Oxford History of World Cinema" in e["note"]; wd = "wikidata" in e.get("sources", [])
+    db.execute("INSERT INTO influences VALUES (?,?,?,?,?,?)", (e["from"], e["to"], e["note"], "verified" if (stated or wd) else "draft",
+               "wikidata" if wd else ("ohwc" if (stated or pages) else None), ",".join(map(str, pages))))
 db.commit()
 
 counts = {}

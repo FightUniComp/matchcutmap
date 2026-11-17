@@ -46,5 +46,11 @@
   "detail": "winners of the Grand Prix du Festival and the Palme d'Or, 1939 to 2026, from Wikipedia's Palme d'Or list and 2025 and 2026 news reports",
   "url": "https://www.festival-cannes.com",
   "used_for": "award records; checks every fact that mentions the Palme d'Or"
+ },
+ "wikidata": {
+  "name": "Wikidata",
+  "detail": "birth and death, birthplace, awards, influences, teachers, students and family, public domain (CC0)",
+  "url": "https://www.wikidata.org",
+  "used_for": "life dates, awards, sourced influence links, family ties, Wikipedia links"
  }
 }

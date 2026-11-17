@@ -145,6 +145,26 @@ aside ul.films{gap:8px}
   aside{border-left:0;border-top:1px solid var(--line)}
   .brand p{display:none}
 }
+.trace{fill:none;stroke:var(--accent);stroke-width:4.5;stroke-linecap:round;stroke-opacity:.95}
+.trace.sty{stroke-dasharray:10 9}
+.trace-h{fill:var(--accent)}
+.node.end circle{stroke:var(--accent);stroke-width:4}
+.trace-box{border:1px solid var(--accent);border-radius:10px;padding:10px 12px;margin:14px 0 6px;background:rgba(233,180,76,.06)}
+.trace-box h3{margin-top:0}
+.chain{list-style:none;padding:0;margin:0 0 10px}
+.chain li{margin:0}
+.chain .how{display:block;color:var(--muted);font-size:12.5px;margin:2px 0 2px 14px;padding-left:10px;border-left:2px solid var(--accent)}
+.person.mini{padding:4px 8px}
+.tracer{display:flex;gap:6px;flex-wrap:wrap}
+.tracer input{flex:1 1 140px;min-width:0}
+.awards{list-style:none;padding:0;margin:0}
+.awards li{padding:5px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline}
+.awards small{color:var(--muted);flex-basis:100%}
+.crole{margin:6px 0;line-height:1.5}
+.crole>span{display:inline-block;min-width:118px;color:var(--muted);font-size:12.5px}
+.crole a{color:var(--ink)}
+small.wd{color:var(--ok)}
+a.chip{text-decoration:none;color:var(--ink)}
 @keyframes panelIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
 #panel.enter>*{animation:panelIn .22s ease-out both}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
@@ -161,15 +181,17 @@ aside ul.films{gap:8px}
     <datalist id="names"></datalist>
     <select id="mov" aria-label="Highlight a movement"><option value="">Highlight a movement</option></select>
     <select id="tech" aria-label="Highlight a technique"><option value="">Highlight a technique</option></select>
+    <select id="geo" aria-label="Highlight a region or country"><option value="">Highlight a region</option></select>
     <label class="toggle"><input type="checkbox" id="showStyle" checked> Style links</label>
     <label class="toggle"><input type="checkbox" id="showInf" checked> Influence</label>
     <button class="btn" id="reset" type="button">Whole map</button>
+    <button class="btn" id="surprise" type="button" title="Jump to a random director">Surprise me</button>
   </div>
 </header>
 <main>
   <div class="stage">
     <svg id="map" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of film directors positioned by stylistic similarity">
-      <g id="world"><g id="gHull"></g><g id="gStyle"></g><g id="gInf"></g><g id="gNodes"></g></g>
+      <g id="world"><g id="gHull"></g><g id="gStyle"></g><g id="gInf"></g><g id="gTrace"></g><g id="gNodes"></g></g>
     </svg>
     <div class="techbar" id="techbar" hidden><p id="techtext"></p><button class="btn" id="techclear" type="button">Clear</button></div>
     <div class="legend">
@@ -191,7 +213,10 @@ const byId = {}; DATA.directors.forEach(d => byId[d.id] = d);
 const dirById = {}; DATA.directory.forEach(d => dirById[d.id] = d);
 const T = DATA.techniques, MV = DATA.movements;
 const ERA = ["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
-const state = {sel: null, dir: "", tech: "", mov: "", k: 1, x: 0, y: 0};
+const state = {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, k: 1, x: 0, y: 0};
+const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: "", geo: "", path: null});
+const firstCountry = d => d.country.split("/")[0].trim();
+const geoOk = d => !state.geo || (state.geo.startsWith("c:") ? firstCountry(d) === state.geo.slice(2) : d.region === state.geo.slice(2));
 const $ = id => document.getElementById(id);
 const svg = $("map"), world = $("world");
 const CX = DATA.w/2, CY = DATA.h/2;
@@ -231,7 +256,7 @@ function roundedHull(h, r){
     d += "L" + f(q[0] + r*n[i][0]) + "," + f(q[1] + r*n[i][1]) + "A" + r + "," + r + " 0 0," + sweep + " " + f(q[0] + r*n[j][0]) + "," + f(q[1] + r*n[j][1]); });
   return d + "Z";
 }
-function setMov(k){ state.mov = state.mov === k ? "" : k; if (state.mov) { state.sel = null; state.dir = ""; state.tech = ""; } paint(); }
+function setMov(k){ const m = state.mov === k ? "" : k; clearAll(); state.mov = m; paint(); }
 
 /* ---------- draw once ---------- */
 /* links are drawn as a handful of combined paths, one per look, instead of one element per link: far cheaper to redraw while moving */
@@ -245,6 +270,7 @@ const iGeo = DATA.influence.map(l => { const s = byId[l.s], t = byId[l.t];
   const mx = (x1+x2)/2 - uy*d*0.08, my = (y1+y2)/2 + ux*d*0.08, ex = x2 - mx, ey = y2 - my, e = Math.hypot(ex, ey) || 1;
   return {c: "M" + f1(x1) + "," + f1(y1) + "Q" + f1(mx) + "," + f1(my) + " " + f1(x2) + "," + f1(y2), h9: arrowHead(x2, y2, ex/e, ey/e, 9), h13: arrowHead(x2, y2, ex/e, ey/e, 13)}; });
 const SP = {}; [" dim", "", " hot"].forEach(c => SP[c] = el("path", {class: "slink" + c}, $("gStyle")));
+const TR = {line: el("path", {class: "trace"}, $("gTrace")), dash: el("path", {class: "trace sty"}, $("gTrace")), head: el("path", {class: "trace-h"}, $("gTrace"))};
 const IP = {}; [" dim", "", " in", " out"].forEach(c => IP[c] = [el("path", {class: "ilink" + c}, $("gInf")), el("path", {class: "iarr" + c}, $("gInf"))]);
 const nodeEls = DATA.directors.map(d => {
   const g = el("g", {class:"node", tabindex:"0", role:"button", "aria-label":d.name}, $("gNodes"));
@@ -265,19 +291,24 @@ function related(id){
 }
 function paint(){
   const showS = $("showStyle").checked, showI = $("showInf").checked;
-  const rel = state.sel ? related(state.sel) : null;
-  const active = state.tech || state.mov || rel;
+  const onPath = state.path && !state.path.none ? new Set([state.path.a].concat(state.path.steps.map(s => s.to))) : null;
+  const rel = state.sel && !onPath ? related(state.sel) : null;
+  const active = state.tech || state.mov || state.geo || onPath || rel;
   nodeEls.forEach(({d, e}) => {
     let dim = false;
     if (state.tech) dim = !d.tags.includes(state.tech);
     else if (state.mov) dim = !d.movements.includes(state.mov);
+    else if (state.geo) dim = !geoOk(d);
+    else if (onPath) dim = !onPath.has(d.id);
     else if (rel) dim = !rel.has(d.id);
-    e.setAttribute("class", "node t" + d.tier + (d.id === state.sel ? " sel" : "") + (dim ? " dim" : active ? " rel" : ""));
+    e.setAttribute("class", "node t" + d.tier + (d.id === state.sel ? " sel" : "") + (state.path && d.id === state.path.b ? " end" : "") + (dim ? " dim" : active ? " rel" : ""));
   });
   const sb = {" dim": [], "": [], " hot": []};
   if (showS) DATA.style.forEach((l, i) => { let c = "";
     if (state.tech) c = (byId[l.a].tags.includes(state.tech) && byId[l.b].tags.includes(state.tech)) ? "" : " dim";
     else if (state.mov) c = (byId[l.a].movements.includes(state.mov) && byId[l.b].movements.includes(state.mov)) ? "" : " dim";
+    else if (state.geo) c = geoOk(byId[l.a]) && geoOk(byId[l.b]) ? "" : " dim";
+    else if (onPath) c = " dim";
     else if (state.sel) c = (l.a === state.sel || l.b === state.sel) ? " hot" : " dim";
     sb[c].push(sGeo[i]); });
   for (const c in SP) SP[c].setAttribute("d", sb[c].join(""));
@@ -285,27 +316,50 @@ function paint(){
   if (showI) DATA.influence.forEach((l, i) => { let c = "";
     if (state.tech) c = " dim";
     else if (state.mov) c = (byId[l.s].movements.includes(state.mov) && byId[l.t].movements.includes(state.mov)) ? "" : " dim";
+    else if (state.geo) c = geoOk(byId[l.s]) && geoOk(byId[l.t]) ? "" : " dim";
+    else if (onPath) c = " dim";
     else if (state.sel) c = l.t === state.sel ? " in" : l.s === state.sel ? " out" : " dim";
     ib[c].push(i); });
   for (const c in IP) { const big = c === " in" || c === " out";
     IP[c][0].setAttribute("d", ib[c].map(i => iGeo[i].c).join(""));
     IP[c][1].setAttribute("d", ib[c].map(i => big ? iGeo[i].h13 : iGeo[i].h9).join("")); }
+  const tl = [], ts = [], th = [];
+  if (onPath) state.path.steps.forEach(s => { if (s.e.k === "i") { tl.push(iGeo[s.e.i].c); th.push(iGeo[s.e.i].h13); }
+    else { const a = byId[s.from], b = byId[s.to]; ts.push("M" + f1(a.x) + "," + f1(a.y) + "L" + f1(b.x) + "," + f1(b.y)); } });
+  TR.line.setAttribute("d", tl.join("")); TR.dash.setAttribute("d", ts.join("")); TR.head.setAttribute("d", th.join(""));
   if (state.sel) { const n = nodeEls.find(n => n.d.id === state.sel); n.e.parentNode.appendChild(n.e); }
   const tb = $("techbar");
   if (state.tech) { const t = T[state.tech]; const c = DATA.directors.filter(d => d.tags.includes(state.tech)).length;
     $("techtext").innerHTML = "<strong>" + esc(t.name) + "</strong> (" + esc(t.cat) + ", " + c + " directors). " + esc(t.def); tb.hidden = false; }
   else tb.hidden = true;
-  $("tech").value = state.tech; $("mov").value = state.mov;
-  hullEls.forEach(({k, e, small}) => e.setAttribute("class", "hull" + (small ? " small" : "") + (MV[k].kind === "category" ? " cat" : "") + (state.mov === k ? " on" : (state.mov || state.tech) ? " dim" : "")));
+  $("tech").value = state.tech; $("mov").value = state.mov; $("geo").value = state.geo;
+  hullEls.forEach(({k, e, small}) => e.setAttribute("class", "hull" + (small ? " small" : "") + (MV[k].kind === "category" ? " cat" : "") + (state.mov === k ? " on" : (state.mov || state.tech || state.geo || onPath) ? " dim" : "")));
   panel();
+  syncRoute();
 }
 
 /* ---------- side panel ---------- */
-function person(id, sub, cls, ev){
+function person(id, sub, cls, ev, wd){
   const d = byId[id];
   return '<li><button class="person" type="button" data-go="' + id + '"><b>' + esc(d.name) + '</b>' + (cls ? ' <span class="' + cls + '">&#9679;</span>' : '') +
-    (sub ? '<small>' + esc(sub) + '</small>' : '') + (ev ? '<small class="ev">Named together in the Oxford History of World Cinema, scan p. ' + ev.join(", ") + '</small>' : '') + '</button></li>';
+    (sub ? '<small>' + esc(sub) + '</small>' : '') + (wd ? '<small class="wd">Recorded in Wikidata</small>' : '') +
+    (ev ? '<small class="ev">Named together in the Oxford History of World Cinema, scan p. ' + ev.join(", ") + '</small>' : '') + '</button></li>';
 }
+function stepText(s){
+  if (s.e.k === "s") return "similar in style to";
+  const l = DATA.influence[s.e.i], fwd = l.s === s.from;
+  return (fwd ? "influenced" : "was influenced by") + (l.note ? ". " + l.note : "") + (l.wd ? " (Wikidata)" : "");
+}
+function traceBox(d){
+  const P = state.path;
+  if (!P || P.a !== d.id) return "";
+  if (P.none) return '<div class="trace-box"><p>No chain of influence or style links connects ' + esc(d.name) + ' and ' + esc(byId[P.b].name) + ' on this map.</p><button class="btn" type="button" id="clearpath">Clear</button></div>';
+  const mini = id => '<button class="person mini" type="button" data-go="' + id + '"><b>' + esc(byId[id].name) + '</b></button>';
+  return '<div class="trace-box"><h3>From ' + esc(d.name) + ' to ' + esc(byId[P.b].name) + ' <small>' + P.steps.length + (P.steps.length === 1 ? ' step' : ' steps') + (P.style ? ', partly through style' : '') + '</small></h3><ol class="chain"><li>' + mini(d.id) + '</li>' +
+    P.steps.map(s => '<li><span class="how">' + esc(stepText(s)) + '</span>' + mini(s.to) + '</li>').join("") + '</ol><button class="btn" type="button" id="clearpath">Clear</button></div>';
+}
+function tracer(id, label){ return '<h3>' + label + '</h3><div class="tracer">' + (id ? '' : '<input type="search" list="names" id="traceFrom" placeholder="From a director" aria-label="From a director">') +
+  '<input type="search" list="names" id="traceTo" placeholder="' + (id ? 'To another director' : 'To another director') + '" aria-label="To another director"><button class="btn" type="button" id="traceGo">Trace</button></div>'; }
 function filmItem(f){
   const q = encodeURIComponent(f.t + (f.y ? " " + f.y : ""));
   const lb = f.tid ? "https://letterboxd.com/tmdb/" + f.tid : "https://letterboxd.com/search/films/" + q + "/";
@@ -319,14 +373,14 @@ function filmItem(f){
     '<div class="fl"><a href="' + lb + '">Reviews on Letterboxd</a><a href="' + im + '">IMDb</a></div></li>';
 }
 function draft(){ return ''; }
-function lookups(name){
+function lookups(name, wiki){
   const q = encodeURIComponent(name);
-  return '<h3>Read more</h3><div class="links"><a href="https://www.sensesofcinema.com/?s=' + q + '">Senses of Cinema</a><a href="https://en.wikipedia.org/wiki/Special:Search?search=' + q + '">Wikipedia</a><a href="https://letterboxd.com/search/' + q + '/">Letterboxd</a></div>';
+  return '<h3>Read more</h3><div class="links"><a href="https://www.sensesofcinema.com/?s=' + q + '">Senses of Cinema</a><a href="' + (wiki ? 'https://en.wikipedia.org/wiki/' + encodeURIComponent(wiki.replace(/ /g, "_")) : 'https://en.wikipedia.org/wiki/Special:Search?search=' + q) + '">Wikipedia</a><a href="https://letterboxd.com/search/' + q + '/">Letterboxd</a></div>';
 }
 let panelKey = "";
 function panel(){
   panelBody();
-  const key = state.mov || state.dir || state.sel || "start", p = $("panel");
+  const key = state.path ? "p" + state.path.a + state.path.b : state.mov || state.geo || state.dir || state.sel || "start", p = $("panel");
   if (key !== panelKey) { panelKey = key; p.classList.remove("enter"); void p.offsetWidth; p.classList.add("enter"); }
 }
 function panelBody(){
@@ -335,6 +389,16 @@ function panelBody(){
     const m = MV[state.mov];
     p.innerHTML = '<h2>' + esc(m.name) + '</h2><p class="meta">' + (m.kind === "category" ? "Critical category" : "Movement") + ' &middot; ' + esc(m.period) + '</p><p class="desc">' + esc(m.desc) + '</p>' +
       '<h3>Directors on this map (' + m.members.length + ')</h3><ul>' + m.members.map(id => person(id, (byId[id].films[0] ? byId[id].films[0].t : "") + (byId[id].movements[0] === state.mov ? "" : " · also linked to " + MV[byId[id].movements[0]].name))).join("") + '</ul>' + draft();
+    bind(p); p.scrollTop = 0; return;
+  }
+  if (state.geo) {
+    const lab = state.geo.slice(2), isC = state.geo.startsWith("c:");
+    const ms = DATA.directors.filter(geoOk).sort((a, b) => (a.rank || 999) - (b.rank || 999) || b.out - a.out);
+    const per = c => DATA.directors.filter(x => firstCountry(x) === c).length;
+    p.innerHTML = '<h2>' + esc(lab) + '</h2><p class="meta">' + (isC ? 'Country' : 'Region') + ' &middot; ' + ms.length + ' directors on this map</p>' +
+      (!isC && DATA.regions[lab] ? '<div class="chips">' + DATA.regions[lab].map(c => '<button class="chip" type="button" data-geo="c:' + esc(c) + '">' + esc(c) + ' (' + per(c) + ')</button>').join("") + '</div>' : '') +
+      (isC ? '<div class="chips"><button class="chip" type="button" data-geo="r:' + esc(ms[0] ? ms[0].region : "") + '">All of ' + esc(ms[0] ? ms[0].region : "") + '</button></div>' : '') +
+      '<h3>Directors, most acclaimed first</h3><ul>' + ms.map(m => person(m.id, (m.rank ? '#' + m.rank + ' TSPDT. ' : '') + (m.films[0] ? m.films[0].t : ''))).join("") + '</ul>';
     bind(p); p.scrollTop = 0; return;
   }
   if (state.dir) {
@@ -348,6 +412,7 @@ function panelBody(){
     const acclaimed = DATA.directors.filter(d => d.rank).sort((a, b) => a.rank - b.rank).slice(0, 10);
     const c = DATA.counts, S = DATA.sources;
     p.innerHTML = '<h2>How to read this map</h2><p class="desc">' + DATA.directors.length + ' directors are placed so that similar styles sit close together. Pick one to see their films, techniques, nearest neighbours and lines of influence.' + (DATA.directory.length ? ' Another ' + DATA.directory.length + ' directors from the film lists can be found through search.' : '') + '</p>' +
+      tracer(null, 'Trace the influences between two directors') +
       '<h3>What the data rests on</h3><ul class="src">' +
       '<li><b><a href="' + S.tspdt.url + '">' + esc(S.tspdt.name) + '</a></b> <span>' + esc(S.tspdt.detail) + '. ' + c.tspdt + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.sight_and_sound.url + '">' + esc(S.sight_and_sound.name) + '</a></b> <span>' + esc(S.sight_and_sound.detail) + '. ' + c.ss + ' films ranked.</span></li>' +
@@ -355,7 +420,8 @@ function panelBody(){
       '<li><b>' + esc(S.house_of_tabula.name) + '</b> <span>' + esc(S.house_of_tabula.detail) + '. ' + c.hot + ' of its films are matched here.</span></li>' +
       '<li><b>' + esc(S.ohwc.name) + '</b> <span>' + esc(S.ohwc.detail) + '. ' + c.evidence + ' of the ' + DATA.influence.length + ' influence links point to a page where it names both directors together.</span></li>' +
       '<li><b><a href="' + S.senses_of_cinema.url + '">' + esc(S.senses_of_cinema.name) + '</a></b> <span>' + esc(S.senses_of_cinema.detail) + ', linked from each director for further reading.</span></li>' +
-      (DATA.hasTmdb ? '<li><b><a href="' + S.tmdb.url + '">TMDB</a></b> <span>Film descriptions, ratings' + (DATA.hasPeople ? ', filmographies and birth dates' : '') + '. This product uses the TMDB API but is not endorsed or certified by TMDB.</span></li>' : '') + '</ul>' +
+      (DATA.hasTmdb ? '<li><b><a href="' + S.tmdb.url + '">TMDB</a></b> <span>Film descriptions, ratings' + (DATA.hasPeople ? ', filmographies and birth dates' : '') + '. This product uses the TMDB API but is not endorsed or certified by TMDB.</span></li>' : '') +
+      (DATA.hasWikidata ? '<li><b><a href="https://www.wikidata.org">Wikidata</a></b> <span>Birth and death, awards, sourced influence links, teachers and family ties. Public domain (CC0).</span></li>' : '') + '</ul>' +
       '<h3>Most influential on this map</h3><ul>' + top.map(d => person(d.id, "Influenced " + d.out + " directors here")).join("") + '</ul>' +
       '<h3>Most acclaimed (TSPDT ' + esc(DATA.rankSource.edition) + ')</h3><ul>' + acclaimed.map(d => person(d.id, "#" + d.rank + " of 250")).join("") + '</ul>' + draft();
     bind(p); return;
@@ -369,28 +435,92 @@ function panelBody(){
     ? (d.life[0][1] ? (d.life[0][2] ? d.life[0][1] + " to " + d.life[0][2] : "born " + d.life[0][1]) + (d.life[0][3] ? ", " + d.life[0][3] : "") : "")
     : d.life.filter(p => p[1]).map(p => p[0] + " (" + p[1] + (p[2] ? " to " + p[2] : "") + ")").join(", ");
   const meta = [d.country, lifeTxt, d.span ? (d.span[0] === d.span[1] ? "films " + d.span[0] : "films " + d.span[0] + " to " + d.span[1]) : ""].filter(Boolean).map(esc).join(" &middot; ");
-  p.innerHTML = '<h2>' + esc(d.name) + '</h2><p class="meta">' + meta + '</p>' +
+  const awardsHtml = d.awards ? '<h3>Awards <small class="ok">from Wikidata</small></h3><ul class="awards">' + d.awards.slice(0, 14).map(a => '<li><b>' + esc(a[0]) + '</b>' + (a[1] ? '<span class="fy">' + a[1] + '</span>' : '') + (a[2] ? '<small>' + esc(a[2]) + '</small>' : '') + '</li>').join("") + '</ul>' + (d.awards.length > 14 ? '<p class="meta">' + (d.awards.length - 14) + ' more in the database.</p>' : '') : '';
+  const collabHtml = (d.collab ? '<h3>Regular collaborators <small>from TMDB</small></h3>' + d.collab.map(([role, xs]) => '<div class="crole"><span>' + esc(role) + '</span>' + xs.map(x => '<a href="https://www.themoviedb.org/person/' + x[2] + '">' + esc(x[0]) + '</a> <small>' + x[1] + ' films</small>').join(", ") + '</div>').join("") : '') +
+    (d.shared ? '<h3>Shares collaborators with</h3><ul>' + d.shared.map(([o, xs]) => person(o, xs.map(x => x[0].toLowerCase() + ": " + x[1]).join(", "))).join("") + '</ul>' : '');
+  const familyHtml = d.family ? '<h3>Family on this map <small class="ok">from Wikidata</small></h3><ul>' + d.family.map(f => person(f[1], f[0])).join("") + '</ul>' : '';
+  const beyondHtml = d.beyond ? '<h3>Influenced by, beyond this map <small class="ok">from Wikidata</small></h3><div class="chips">' + d.beyond.map(b => '<a class="chip" href="https://www.wikidata.org/wiki/' + b[1] + '">' + esc(b[0]) + '</a>').join("") + '</div>' : '';
+  p.innerHTML = '<h2>' + esc(d.name) + '</h2><p class="meta">' + meta + '</p>' + traceBox(d) +
     '<p class="rank">' + (d.rank ? '<b>#' + d.rank + '</b> of 250 most acclaimed directors' : 'Outside the top 250 most acclaimed directors') + ' <a href="' + esc(DATA.rankSource.url) + '">TSPDT ' + esc(DATA.rankSource.edition) + '</a></p>' +
     (d.sig ? '<p class="sig">' + esc(d.sig) + '</p>' : '') + (d.desc ? '<p class="desc">' + esc(d.desc) + '</p>' : '') +
     (d.movements.length ? '<h3>Movements</h3><div class="chips">' + d.movements.map(m => '<button class="chip" type="button" data-mov="' + m + '" title="' + esc(MV[m].desc) + '">' + esc(MV[m].name) + '</button>').join("") + '</div>' : '') +
     (d.lists.length ? '<h3>On the lists <small class="ok">from the sources</small></h3><ul class="facts ok">' + d.lists.map(f => '<li>' + esc(f) + '</li>').join("") + '</ul>' : '') +
     (d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + '</h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
     (d.fg ? '<details class="fg"><summary>Filmography <small>' + d.fg.length + ' films directed, from TMDB</small></summary><ol>' + d.fg.map(x => '<li><span class="fy">' + x[0] + '</span>' + (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</li>').join("") + '</ol></details>' : '') +
-    (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
+    awardsHtml + (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
     '<h3>Techniques <small>draft</small></h3><div class="chips">' + chips + '</div>' +
     '<h3>Style profile <small>draft</small></h3>' + bars +
     '<h3>Closest in style</h3><ul>' + near + '</ul>' +
-    (inn.length ? '<h3>Influenced by (' + inn.length + ')</h3><ul>' + inn.map(l => person(l.s, l.note, "tagin", l.ev)).join("") + '</ul>' : '') +
-    (out.length ? '<h3>Influenced (' + out.length + ')</h3><ul>' + out.map(l => person(l.t, l.note, "tagout", l.ev)).join("") + '</ul>' : '') +
-    lookups(d.name) + draft();
+    (inn.length ? '<h3>Influenced by (' + inn.length + ')</h3><ul>' + inn.map(l => person(l.s, l.note, "tagin", l.ev, l.wd)).join("") + '</ul>' : '') +
+    (out.length ? '<h3>Influenced (' + out.length + ')</h3><ul>' + out.map(l => person(l.t, l.note, "tagout", l.ev, l.wd)).join("") + '</ul>' : '') +
+    beyondHtml + familyHtml + collabHtml + tracer(d.id, 'Trace a connection from ' + esc(d.name)) +
+    lookups(d.name, d.wiki) + draft();
   bind(p); p.scrollTop = 0;
 }
+function byName(v){ const q = norm((v || "").trim()); if (!q) return null; return DATA.directors.find(d => norm(d.name) === q) || DATA.directors.find(d => norm(d.name).includes(q)) || null; }
 function bind(p){
+  p.querySelectorAll("[data-geo]").forEach(b => b.addEventListener("click", () => { const g = b.dataset.geo; clearAll(); state.geo = g; paint(); }));
+  const go = () => { const a = $("traceFrom") ? byName($("traceFrom").value) : byId[state.sel], b = byName($("traceTo") && $("traceTo").value);
+    if (a && b && a.id !== b.id) setPath(a.id, b.id); };
+  if ($("traceGo")) { $("traceGo").addEventListener("click", go); $("traceTo").addEventListener("keydown", ev => { if (ev.key === "Enter") go(); }); }
+  if ($("clearpath")) $("clearpath").addEventListener("click", () => { state.path = null; paint(); });
   p.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => select(b.dataset.go, true)));
   p.querySelectorAll("[data-mov]").forEach(b => b.addEventListener("click", () => setMov(b.dataset.mov)));
-  p.querySelectorAll("[data-tech]").forEach(b => b.addEventListener("click", () => { state.tech = state.tech === b.dataset.tech ? "" : b.dataset.tech; state.mov = ""; paint(); }));
+  p.querySelectorAll("[data-tech]").forEach(b => b.addEventListener("click", () => { state.tech = state.tech === b.dataset.tech ? "" : b.dataset.tech; state.mov = ""; state.geo = ""; state.path = null; paint(); }));
 }
-function select(id, centre){ state.sel = id; state.dir = ""; state.tech = ""; state.mov = ""; if (centre) centreOn(byId[id], Math.max(state.k, 2)); paint(); }
+function select(id, centre){ clearAll(); state.sel = id; if (centre) centreOn(byId[id], Math.max(state.k, 2)); paint(); }
+
+/* ---------- tracing a chain between two directors ---------- */
+function bfs(adj, a, b){
+  const prev = {[a]: null}, q = [a];
+  while (q.length) { const x = q.shift(); if (x === b) break; for (const [y, e] of adj[x] || []) if (!(y in prev)) { prev[y] = [x, e]; q.push(y); } }
+  if (!(b in prev)) return null;
+  const out = []; let x = b; while (x !== a) { const [px, e] = prev[x]; out.unshift({from: px, to: x, e}); x = px; } return out;
+}
+function trace(a, b){
+  const adj = {}, add = (x, y, e) => (adj[x] = adj[x] || []).push([y, e]);
+  DATA.influence.forEach((l, i) => { add(l.s, l.t, {k: "i", i}); add(l.t, l.s, {k: "i", i}); });
+  const p = bfs(adj, a, b); if (p) return {steps: p};
+  DATA.style.forEach((l, i) => { add(l.a, l.b, {k: "s", i}); add(l.b, l.a, {k: "s", i}); });
+  const q = bfs(adj, a, b); return q ? {steps: q, style: true} : null;
+}
+function setPath(a, b, fly){
+  const t = trace(a, b); clearAll(); state.sel = a;
+  state.path = t ? {a, b, steps: t.steps, style: !!t.style} : {a, b, steps: [], none: true};
+  if (fly !== false) { paint(); fitPath(); }
+}
+function fitPath(){
+  const ids = [state.path.a].concat(state.path.steps.map(s => s.to)).concat([state.path.b]);
+  const xs = ids.map(i => byId[i].x), ys = ids.map(i => byId[i].y), pad = 300;
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  flyTo((x0 + x1) / 2, (y0 + y1) / 2, Math.min(3.2, DATA.w / (x1 - x0 + 2*pad), DATA.h / (y1 - y0 + 2*pad)));
+}
+
+/* ---------- links that can be shared: #ozu, #m/french-new-wave, #t/long-take, #g/..., #path/a/b ---------- */
+let routing = false;
+function route(){ const P = state.path; return P ? "path/" + P.a + "/" + P.b : state.sel ? state.sel : state.mov ? "m/" + state.mov : state.tech ? "t/" + state.tech : state.geo ? "g/" + state.geo : state.dir ? "x/" + state.dir : ""; }
+function syncRoute(){
+  if (routing) return;
+  const h = route(); if (h === decodeURIComponent(location.hash.replace(/^#/, ""))) return;
+  try { history.pushState(null, "", h ? "#" + encodeURI(h) : location.pathname + location.search); } catch (e) {}
+}
+function applyRoute(){
+  const r = decodeURIComponent(location.hash.replace(/^#/, "")); let m;
+  clearAll();
+  if ((m = r.match(/^path\/([^/]+)\/([^/]+)$/)) && byId[m[1]] && byId[m[2]]) { setPath(m[1], m[2], false); return "path"; }
+  if ((m = r.match(/^m\/(.+)$/)) && MV[m[1]]) state.mov = m[1];
+  else if ((m = r.match(/^t\/(.+)$/)) && T[m[1]]) state.tech = m[1];
+  else if ((m = r.match(/^g\/([rc]:.+)$/))) state.geo = m[1];
+  else if ((m = r.match(/^x\/(.+)$/)) && dirById[m[1]]) state.dir = m[1];
+  else if (byId[r]) { state.sel = r; return r; }
+  return null;
+}
+function followRoute(first){
+  routing = true; const id = applyRoute(); paint(); routing = false;
+  const go = () => { if (id === "path") fitPath(); else if (id) centreOn(byId[id], Math.max(state.k, 2.4)); };
+  if (first) setTimeout(go, 300); else go();
+}
+window.addEventListener("popstate", () => followRoute(false));
 
 /* ---------- pan and zoom ----------
    One animation loop drives every movement. Wheel and trackpad zoom ease towards a target
@@ -509,7 +639,7 @@ function endPointer(ev){
   }
   drag = null; svg.classList.remove("dragging"); setTimeout(() => { moved = false; }, 0); kick();
 }
-svg.addEventListener("pointerup", ev => { if (!moved && !pinch && ev.target === svg) { state.sel = null; state.dir = ""; state.tech = ""; state.mov = ""; paint(); } endPointer(ev); });
+svg.addEventListener("pointerup", ev => { if (!moved && !pinch && ev.target === svg) { clearAll(); paint(); } endPointer(ev); });
 svg.addEventListener("pointercancel", endPointer);
 function zoomBy(f){ const [cx, cy] = centre(); flyTo(cx, cy, state.k * f, 360); }
 $("zin").addEventListener("click", () => zoomBy(1.6));
@@ -521,7 +651,14 @@ DATA.directors.concat(DATA.directory).map(d => d.name).sort((a, b) => a.localeCo
 const cats = {}; Object.keys(T).forEach(k => { (cats[T[k].cat] = cats[T[k].cat] || []).push(k); });
 Object.keys(cats).forEach(c => { const g = document.createElement("optgroup"); g.label = c;
   cats[c].sort((a, b) => T[a].name.localeCompare(T[b].name)).forEach(k => { const o = document.createElement("option"); o.value = k; o.textContent = T[k].name; g.appendChild(o); }); $("tech").appendChild(g); });
-$("tech").addEventListener("change", ev => { state.tech = ev.target.value; state.mov = ""; paint(); });
+$("tech").addEventListener("change", ev => { const t = ev.target.value; clearAll(); state.tech = t; paint(); });
+Object.keys(DATA.regions).forEach(r => { const g = document.createElement("optgroup"); g.label = r;
+  const all = document.createElement("option"); all.value = "r:" + r; all.textContent = "All of " + r + " (" + DATA.directors.filter(d => d.region === r).length + ")"; g.appendChild(all);
+  DATA.regions[r].forEach(c => { const o = document.createElement("option"); o.value = "c:" + c; o.textContent = c + " (" + DATA.directors.filter(d => firstCountry(d) === c).length + ")"; g.appendChild(o); });
+  $("geo").appendChild(g); });
+$("geo").addEventListener("change", ev => { const g = ev.target.value; clearAll(); state.geo = g; paint(); });
+$("surprise").addEventListener("click", () => { const pool = DATA.directors.filter(d => d.id !== state.sel), d = pool[Math.floor(Math.random() * pool.length)]; select(d.id); centreOn(d, Math.max(state.k, 2.4)); });
+document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) { clearAll(); paint(); } });
 [["movement", "Movements"], ["category", "Critical categories"]].forEach(([kind, label]) => { const g = document.createElement("optgroup"); g.label = label;
   Object.keys(MV).filter(k => MV[k].kind === kind).sort((a, b) => MV[a].name.localeCompare(MV[b].name)).forEach(k => { const o = document.createElement("option"); o.value = k; o.textContent = MV[k].name + " (" + MV[k].members.length + ")"; g.appendChild(o); }); $("mov").appendChild(g); });
 $("mov").addEventListener("change", ev => { state.mov = ""; if (ev.target.value) setMov(ev.target.value); else paint(); });
@@ -534,12 +671,12 @@ function find(){ const q = norm($("search").value.trim()); if (!q) return;
   if (!hit) return;
   $("search").value = "";
   if (byId[hit.id]) { select(hit.id); centreOn(byId[hit.id], Math.max(state.k, 2.6)); }
-  else { state.dir = hit.id; state.sel = null; state.tech = ""; state.mov = ""; paint(); } }
+  else { clearAll(); state.dir = hit.id; paint(); } }
 $("search").addEventListener("change", find);
 $("search").addEventListener("keydown", ev => { if (ev.key === "Enter") find(); });
 
 render(); relabel(true);
-paint();
+followRoute(true);
 </script>
 </body>
 </html>

@@ -7,7 +7,7 @@ a single self-contained page to site/index.html.
 Usage:  python build.py            (add --report to print a sanity check)
 Needs:  numpy, scikit-learn
 """
-import json, math, sys, os, statistics, unicodedata
+import json, math, sys, os, re, statistics, unicodedata
 import numpy as np
 from sklearn.manifold import smacof
 
@@ -33,6 +33,22 @@ TMDB = load("tmdb", optional=True) or {"films": {}}    # written by scripts/fetc
 PEOPLE = load("people", optional=True) or {"directors": {}}   # filmographies and birth dates, also from scripts/fetch_tmdb.py
 TID = {fid: m["tmdb_id"] for fid, m in TMDB["films"].items()}
 def pyear(s): return int(s[:4]) if s and s[:4].isdigit() else None
+WD = load("wikidata", optional=True) or {"directors": {}, "people": {}}     # written by scripts/fetch_wikidata.py (CC0)
+def wd_people(i): return [WD["people"][p["qid"]] | {"qid": p["qid"]} for p in WD["directors"].get(i, []) if p["qid"] in WD["people"]]
+REGIONS = {"North America": ["USA", "Canada"], "Latin America and the Caribbean": ["Mexico", "Brazil", "Argentina", "Chile", "Colombia", "Cuba", "Haiti"],
+           "Western Europe": ["France", "UK", "Italy", "Germany", "Spain", "Portugal", "Belgium", "Netherlands", "Austria", "Switzerland", "Greece", "Sweden",
+                              "Denmark", "Finland", "Norway", "Iceland", "Ireland"],
+           "Central and Eastern Europe": ["Poland", "Czechoslovakia", "Hungary", "Romania", "Yugoslavia", "Soviet Union", "Russia", "Ukraine", "Georgia", "Armenia"],
+           "East Asia": ["Japan", "China", "Hong Kong", "Taiwan", "South Korea"], "South and Southeast Asia": ["India", "Philippines", "Thailand", "Cambodia"],
+           "Middle East and Africa": ["Iran", "Turkey", "Israel", "Egypt", "Lebanon", "Palestine", "Tunisia", "Algeria", "Senegal", "Mali", "Mauritania", "Chad", "Ethiopia", "Angola"],
+           "Oceania": ["Australia", "New Zealand"]}
+REGION_OF = {c: r for r, cs in REGIONS.items() for c in cs}
+def first_country(d): return d["country"].split("/")[0].strip()
+MAJOR = re.compile(r"palme d.or|golden lion|silver lion|golden bear|silver bear|cam[ée]ra d.or|grand prix|jury prize|golden leopard|golden shell|praemium imperiale"
+                   r"|academy award for best (director|picture|original screenplay|adapted screenplay|animated feature|documentary feature|international feature|foreign language)"
+                   r"|academy honorary award|honorary academy award|honorary award", re.I)
+MAJOR_DIRECTING = re.compile(r"best direct", re.I)
+MAJOR_BODY = re.compile(r"academy|cannes|berlin|venice|bafta|c[ée]sar|european film", re.I)
 def tkey(t): return "".join(c for c in unicodedata.normalize("NFD", (t or "").lower()) if c.isalnum() and ord(c) < 128)
 def pfilms(i):
     """TMDB filmography minus the films we already hold (same TMDB id, or same title within a year)."""
@@ -46,6 +62,7 @@ def pfilms(i):
 
 # ---------- validate ----------
 ids = [d["id"] for d in D]
+IDSET = set(ids)
 assert len(set(ids)) == len(ids), "duplicate director id"
 keys = [m["key"] for m in DIMS]
 for d in D:
@@ -259,7 +276,53 @@ def filmography(i):
     return sorted(out, key=lambda x: (x[0], x[1]))
 def life(i):
     ps = PEOPLE["directors"].get(i, {}).get("persons", [])
-    return [[p["name"], pyear(p.get("birthday")), pyear(p.get("deathday")), (p.get("place_of_birth") or "").split(",")[0].strip()] for p in ps] or None
+    out = [[p["name"], pyear(p.get("birthday")), pyear(p.get("deathday")), (p.get("place_of_birth") or "").split(",")[0].strip()] for p in ps]
+    w = wd_people(i)
+    if len(w) == 1 and len(out) <= 1 and pyear(w[0].get("birth")):      # one person: Wikidata dates and birthplace win
+        nm = out[0][0] if out else w[0]["label"]
+        out = [[nm, pyear(w[0].get("birth")), pyear(w[0].get("death")), w[0].get("birthplace") or (out[0][3] if out else "")]]
+    return out or None
+def awards(i):
+    seen, out = set(), []
+    for p in wd_people(i):
+        for a in p.get("awards", []):
+            lab = a.get("award") or ""
+            if not (MAJOR.search(lab) or (MAJOR_DIRECTING.search(lab) and MAJOR_BODY.search(lab))): continue
+            key = (lab, a.get("year"), a.get("work"))
+            if key in seen: continue
+            seen.add(key); out.append([lab, int(a["year"]) if a.get("year") else None, a.get("work")])
+    return sorted(out, key=lambda x: (x[1] or 9999, x[0]))
+Q2D = {p["qid"]: did for did, ps in WD["directors"].items() for p in ps}
+REL_NAME = {"P22": "Father", "P25": "Mother", "P40": "Child", "P26": "Spouse", "P3373": "Sibling"}
+def family(i):
+    out = []
+    for p in wd_people(i):
+        for r in p.get("rel", []):
+            o = Q2D.get(r["qid"])
+            if r["p"] in REL_NAME and o and o != i and [REL_NAME[r["p"]], o] not in out: out.append([REL_NAME[r["p"]], o])
+    return out
+def beyond(i):
+    """influences that Wikidata records from outside this map: writers, painters, other filmmakers"""
+    out, seen = [], set()
+    for p in wd_people(i):
+        for r in p.get("rel", []):
+            if r["p"] == "P737" and r["qid"] not in Q2D and r.get("label") and not re.fullmatch(r"Q\d+", r["label"]) and r["qid"] not in seen:
+                seen.add(r["qid"]); out.append([r["label"], r["qid"]])
+    return out
+ROLE_ORDER = ["Cinematography", "Editing", "Music", "Writing", "Production design", "Acting"]
+def collab(i):
+    c = PEOPLE["directors"].get(i, {}).get("collab") or []
+    return [[role, [[x["name"], len(x["films"]), x["tmdb_id"]] for x in sorted([x for x in c if x["role"] == role], key=lambda x: -len(x["films"]))[:4]]]
+            for role in ROLE_ORDER if any(x["role"] == role for x in c)]
+SHARED = {}
+for _did, _v in PEOPLE["directors"].items():
+    for _c in _v.get("collab") or []: SHARED.setdefault((_c["role"], _c["tmdb_id"]), set()).add(_did)
+def shared(i):
+    out = {}
+    for c in PEOPLE["directors"].get(i, {}).get("collab") or []:
+        for o in SHARED.get((c["role"], c["tmdb_id"]), ()):
+            if o != i and o in IDSET: out.setdefault(o, []).append([c["role"], c["name"]])
+    return sorted([[o, v] for o, v in out.items()], key=lambda x: -len(x[1]))[:8]
 def director_out(i, d):
     fl = by_dir.get(d["id"], [])
     fx = F.get(d["id"], {})
@@ -273,13 +336,20 @@ def director_out(i, d):
     fg, lf = filmography(d["id"]), life(d["id"])
     if fg: o["fg"] = fg
     if lf: o["life"] = lf
+    o["region"] = REGION_OF.get(first_country(d), "Other")
+    w = wd_people(d["id"])
+    if len(w) == 1 and w[0].get("enwiki"): o["wiki"] = w[0]["enwiki"]
+    for k, fn in (("awards", awards), ("family", family), ("beyond", beyond), ("collab", collab), ("shared", shared)):
+        v = fn(d["id"])
+        if v: o[k] = v
     return o
 
 def evidence(e):
     return BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
 
 data = {
- "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]),
+ "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]), "hasWikidata": bool(WD["people"]),
+ "regions": {r: sorted({first_country(d) for d in D if REGION_OF.get(first_country(d)) == r}) for r in list(REGIONS) + ["Other"] if any(REGION_OF.get(first_country(d), "Other") == r for d in D)},
  "counts": {"films": len(FILMS), "tspdt": sum(1 for f in FILMS if f["tspdt"]), "ss": sum(1 for f in FILMS if f["sight_and_sound"]), "hot": sum(1 for f in FILMS if f["house_of_tabula"]), "cannes": len(CANNES), "factsChecked": sum(1 for v in F.values() for f in v.get("facts", []) if f["status"] == "verified"), "facts": sum(len(v.get("facts", [])) for v in F.values()),
             "notes": sum(1 for e in I if e["note"]), "evidence": sum(1 for e in I if evidence(e))},
  "rankSource": {"name": TSPDT["source"], "edition": TSPDT["edition"], "url": TSPDT["url"]},
@@ -290,7 +360,7 @@ data = {
  "dims": [{"key": m["key"], "lo": m["low"], "hi": m["high"]} for m in DIMS],
  "directors": [director_out(i, d) for i, d in enumerate(D)],
  "directory": [{"id": e["id"], "name": e["name"], "films": [film_out(f) for f in by_dir.get(e["id"], [])[:KEY_FILMS]]} for e in DIRECTORY],
- "influence": [dict({"s": e["from"], "t": e["to"], "note": e["note"]}, **({"ev": evidence(e)[:3]} if evidence(e) else {})) for e in I],
+ "influence": [dict({"s": e["from"], "t": e["to"], "note": e["note"]}, **({"ev": evidence(e)[:3]} if evidence(e) else {}), **({"wd": 1} if "wikidata" in e.get("sources", []) else {})) for e in I],
  "style": [{"a": a, "b": b, "sim": v} for (a, b), v in style.items()],
 }
 

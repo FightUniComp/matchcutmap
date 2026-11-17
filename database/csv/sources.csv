@@ -7,3 +7,4 @@ senses_of_cinema,Senses of Cinema,Great Directors profiles,https://www.sensesofc
 tmdb,TMDB,"film descriptions, ratings, filmographies and birth dates, fetched with scripts/fetch_tmdb.py",https://www.themoviedb.org,"film widget, filmographies, birth and death years"
 draft,Draft,written from general film knowledge and not yet checked against a source,,"techniques, style scores, descriptions, facts, most influence links"
 cannes,Festival de Cannes,"winners of the Grand Prix du Festival and the Palme d'Or, 1939 to 2026, from Wikipedia's Palme d'Or list and 2025 and 2026 news reports",https://www.festival-cannes.com,award records; checks every fact that mentions the Palme d'Or
+wikidata,Wikidata,"birth and death, birthplace, awards, influences, teachers, students and family, public domain (CC0)",https://www.wikidata.org,"life dates, awards, sourced influence links, family ties, Wikipedia links"
