@@ -7,7 +7,7 @@ a single self-contained page to site/index.html.
 Usage:  python build.py            (add --report to print a sanity check)
 Needs:  numpy, scikit-learn
 """
-import json, math, sys, os, re, statistics, unicodedata
+import json, math, sys, os, re, statistics, unicodedata, difflib
 import numpy as np
 from sklearn.manifold import smacof
 
@@ -63,6 +63,7 @@ def pfilms(i):
 
 # ---------- validate ----------
 ids = [d["id"] for d in D]
+IDSET0 = set(ids)
 IDSET = set(ids)
 assert len(set(ids)) == len(ids), "duplicate director id"
 keys = [m["key"] for m in DIMS]
@@ -95,6 +96,8 @@ def film_out(f):
     if f["house_of_tabula"]: o["ht"] = 1
     if f.get("cannes"): o["ca"] = [f["cannes"]["year"], f["cannes"]["award"]]
     tm = TMDB["films"].get(f["id"])
+    hk = ("m", tm["tmdb_id"]) if tm and tm.get("tmdb_id") else ("f", f["id"])
+    if HON_FILM.get(hk): o["hn"] = HON_FILM[hk]
     if tm:
         for a, b in (("overview", "ov"), ("tmdb_id", "tid"), ("imdb_id", "im")):
             if tm.get(a): o[b] = tm[a]
@@ -133,6 +136,7 @@ def list_facts(i):
     ht = [f["title"] for f in fl if f["house_of_tabula"]]
     if ht:
         out.append("On the House of Tabula film studies watchlist: " + ", ".join(ht[:4]) + (f" and {len(ht) - 4} more" if len(ht) > 4 else "") + ".")
+    out += honour_lines(i)
     pg = BOOK["pages"].get(i, [])
     if pg:
         out.append(f"Named on {plural(len(pg), 'page')} of The Oxford History of World Cinema.")
@@ -278,20 +282,182 @@ def pfilm_out(p):
     if pyear(p.get("release_date")): o["y"] = pyear(p["release_date"])
     if rate(p): o["r"], o["rv"] = rate(p), p["vote_count"]
     if p.get("overview"): o["ov"] = p["overview"]
+    if HON_FILM.get(("m", p["tmdb_id"])): o["hn"] = HON_FILM[("m", p["tmdb_id"])]
     return o
 def key_films(i):
     """Films on the lists first, by rank; then the rest of the career by TMDB audience size."""
     fl = by_dir.get(i, [])
     ranked = [f for f in fl if film_order(f) < 5000]
-    pool = [((TMDB["films"].get(f["id"]) or {}).get("vote_count") or 0, film_out(f)) for f in fl if film_order(f) >= 5000]
-    pool += [(p.get("vote_count") or 0, pfilm_out(p)) for p in pfilms(i) if pyear(p.get("release_date"))]
-    pool.sort(key=lambda x: -x[0])
+    hk = lambda f: ("m", (TMDB["films"].get(f["id"]) or {}).get("tmdb_id")) if (TMDB["films"].get(f["id"]) or {}).get("tmdb_id") else ("f", f["id"])
+    pool = [(1 if honoured(hk(f)) else 0, (TMDB["films"].get(f["id"]) or {}).get("vote_count") or 0, film_out(f)) for f in fl if film_order(f) >= 5000]
+    pool += [(1 if honoured(("m", p["tmdb_id"])) else 0, p.get("vote_count") or 0, pfilm_out(p)) for p in pfilms(i) if pyear(p.get("release_date"))]
+    pool.sort(key=lambda x: (-x[0], -x[1]))
+    pool = [(v, o) for _, v, o in pool]
     return ([film_out(f) for f in ranked] + [o for _, o in pool])[:KEY_FILMS]
 def filmography(i):
     if not PEOPLE["directors"].get(i, {}).get("films"): return None
     out = [[pyear(p.get("release_date")), p["title"], p["tmdb_id"], rate(p)] for p in pfilms(i) if pyear(p.get("release_date"))]
     out += [[f["year"], f["title"], TID.get(f["id"]), rate(TMDB["films"].get(f["id"]) or {})] for f in by_dir.get(i, []) if f["year"]]
-    return [x if x[3] else x[:3] for x in sorted(out, key=lambda x: (x[0], x[1]))]
+    for x in out:
+        h = HON_FILM.get(("m", x[2])) if x[2] else None
+        x.append("; ".join(b for _, b in h) if h else None)
+    def trim(x):
+        while x and x[-1] is None and len(x) > 3: x = x[:-1]
+        return x
+    return [trim(x) for x in sorted(out, key=lambda x: (x[0], x[1]))]
+
+# ---------- lists and awards: Oscars and Cahiers du cinéma, plus the lists above, resolved to directors and films ----------
+OSC, CAH = load("oscars"), load("cahiers")
+SPECIAL = str.maketrans({"ł": "l", "ø": "o", "æ": "ae", "œ": "oe", "ß": "ss", "đ": "d", "ð": "d", "þ": "th", "ı": "i"})
+def nfold(s): return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower().translate(SPECIAL)) if c.isalnum() and ord(c) < 128)
+NAME_ALIAS = {"howard hawkes": "Howard Hawks", "joseph mankiewitz": "Joseph L. Mankiewicz", "abel ganc": "Abel Gance", "joseph von sternberg": "Josef von Sternberg",
+    "coen brothers": "Joel and Ethan Coen", "joel coen": "Joel and Ethan Coen", "ethan coen": "Joel and Ethan Coen", "straub–huillet": "Jean-Marie Straub & Danièle Huillet",
+    "jean-marie straub": "Jean-Marie Straub & Danièle Huillet", "danièle huillet": "Jean-Marie Straub & Danièle Huillet", "sam fuller": "Samuel Fuller",
+    "michaelangelo antonioni": "Michelangelo Antonioni", "ben safdie": "Josh & Benny Safdie", "josh safdie": "Josh & Benny Safdie", "benny safdie": "Josh & Benny Safdie",
+    "joshua safdie": "Josh & Benny Safdie", "ernst shoedsack": "Merian C. Cooper & Ernest B. Schoedsack", "merian j. cooper": "Merian C. Cooper & Ernest B. Schoedsack",
+    "daniel kwan": "Daniels", "daniel scheinert": "Daniels", "stanley donen": "Stanley Donen & Gene Kelly", "gene kelly": "Stanley Donen & Gene Kelly", "yuliya solntseva": "Alexander Dovzhenko"}
+NAME_BY = {}
+for d in D:
+    for nm in [d["name"]] + d.get("members", []) + d.get("aka", []): NAME_BY.setdefault(nfold(nm), d["id"])
+NAME_FULL = [(d["id"], nm) for d in D for nm in [d["name"]] + d.get("members", []) + d.get("aka", [])]
+def nparts(n): return [x for x in re.split(r"[\s.]+", unicodedata.normalize("NFC", n)) if x]
+def find_director(name):
+    """A name as a list spells it -> the id of a director on the map, or None."""
+    name = NAME_ALIAS.get(name.lower(), name)
+    if nfold(name) in NAME_BY: return NAME_BY[nfold(name)]
+    w = nparts(name)
+    if len(w) < 2: return None
+    last, first = nfold(w[-1]), [nfold(x) for x in w[:-1]]
+    for i, other in NAME_FULL:
+        v = nparts(other)
+        if len(v) < 2: continue
+        l2, f2 = nfold(v[-1]), [nfold(x) for x in v[:-1]]
+        if not first[0] or not f2[0]: continue
+        if l2 != last and difflib.SequenceMatcher(None, l2, last).ratio() < 0.86: continue
+        same = first[0] == f2[0] or (len(first[0]) > 3 and difflib.SequenceMatcher(None, first[0], f2[0]).ratio() >= 0.7)
+        initials = first[0][0] == f2[0][0] and (len(first[0]) == 1 or len(f2[0]) == 1)
+        if same or initials: return i
+    return None
+def split_names(names):
+    ps = [x.strip() for x in re.split(r"\s*&\s*|\s+and\s+(?=[A-Z])|,\s+(?=[A-Z])", " & ".join(names)) if x.strip()]
+    if len(ps) > 1 and len(ps[-1].split()) >= 2: ps = [x if len(x.split()) > 1 else x + " " + ps[-1].split()[-1] for x in ps]
+    return ps
+def dirs_of(names): return list(dict.fromkeys(i for i in (find_director(n) for n in split_names(names)) if i))
+def title_keys(*titles):
+    out = []
+    for t in titles:
+        if not t: continue
+        out.append(t)
+        m = re.match(r"^(.*?)\s*\((.+)\)$", t)
+        if m: out += [m.group(1), m.group(2)]
+    return [k for k in (nfold(t) for t in out) if k]
+CANDS = {}
+def film_cands(i):
+    if i not in CANDS:
+        out = []
+        for f in by_dir.get(i, []):
+            tm = TMDB["films"].get(f["id"]) or {}
+            out.append((("m", tm["tmdb_id"]) if tm.get("tmdb_id") else ("f", f["id"]), {nfold(f["title"]), nfold(tm.get("matched_title"))} - {""}, f["year"], tm.get("vote_count") or 0))
+        for p in PEOPLE["directors"].get(i, {}).get("films", []):
+            out.append((("m", p["tmdb_id"]), {nfold(p.get("title")), nfold(p.get("original_title"))} - {""}, pyear(p.get("release_date")), p.get("vote_count") or 0))
+        CANDS[i] = out
+    return CANDS[i]
+def match_film(dids, titles, year=None):
+    """The film a list entry means, among the films of its directors: ('m', TMDB id) or ('f', our id)."""
+    want, best = title_keys(*titles), None
+    for i in dids:
+        for key, ts, y, votes in film_cands(i):
+            if any(w in ts for w in want): sc = 2
+            elif any(len(w) >= 5 and any(len(t) >= 5 and (t.startswith(w) or w.startswith(t)) for t in ts) for w in want): sc = 1
+            else: continue
+            dy = abs(y - year) if year and y else 0
+            if sc == 1 and year and dy > 3: continue
+            c = (sc, -dy, votes)
+            if best is None or c > best[0]: best = (c, key)
+    return best[1] if best else None
+def fkey_js(k): return "m%d" % k[1] if k and k[0] == "m" else ""
+LISTS, HON_FILM, HON_DIR = {}, {}, {}
+def new_list(key, group, name, short, kind, src, url, note=""):
+    LISTS[key] = {"group": group, "name": name, "short": short, "kind": kind, "src": src, "url": url, "note": note, "e": []}
+def entry(key, label, title, year, dids, names, fk, badge=None, line=None):
+    LISTS[key]["e"].append([label, title, year, dids, names, fkey_js(fk)])
+    if badge and fk: HON_FILM.setdefault(fk, []).append([key, badge])
+    if line:
+        for i in dids: HON_DIR.setdefault(i, {}).setdefault(key, []).append(line)
+NICE = {"picture": ("oscar-picture", "Oscar: Best Picture", "Oscar for Best Picture"), "director": ("oscar-director", "Oscar: Best Director", "Oscar for Best Director"),
+        "international": ("oscar-international", "Oscar: International Feature", "Oscar for Best International Feature Film")}
+for cat in ("picture", "director", "international"):
+    key, badge, name = NICE[cat]
+    new_list(key, "Awards", name, badge.replace("Oscar: ", "Oscar, "), "award", "Academy Awards", "https://awardsdatabase.oscars.org",
+             "Best Foreign Language Film until 2019; an honorary award until 1955." if cat == "international" else ("Two awards in the first year, for dramatic and comedy direction." if cat == "director" else ""))
+    for e in OSC[cat]:
+        dids = dirs_of(e["directors"]); fk = match_film(dids, [e["film"], e.get("original")], e["year"])
+        b = ("Honorary Oscar, foreign-language film" if e.get("honorary") else badge)
+        entry(key, e["label"], e["film"], e["year"], dids, " and ".join(split_names(e["directors"])), fk, b, [e["film"], e["label"]])
+new_list("cannes", "Awards", "Top prize at Cannes", "Cannes top prize", "award", "Festival de Cannes", SOURCES["cannes"]["url"] if "cannes" in SOURCES else "")
+FBY = {f["id"]: f for f in FILMS}
+for c in CANNES:
+    f = FBY.get(c["film"]); tm = TMDB["films"].get(c["film"]) or {}
+    entry("cannes", str(c["year"]), f["title"] if f else c["film"], c["year"], [i for i in c["directors"] if i in IDSET0], " and ".join(next((d["name"] for d in D if d["id"] == i), i) for i in c["directors"]),
+          ("m", tm["tmdb_id"]) if tm.get("tmdb_id") else None)
+C100 = CAH["top100"]
+new_list("cahiers-100", "Critics' lists", "Cahiers du cinéma: 100 films for an ideal cinémathèque", "Cahiers 100", "ranked", "Cahiers du cinéma, 2008",
+         "https://blog.matthewhunt.com/2008/11/100-films-pour-une-cinematheque-ideale.html", f"Voted by {C100['voters']} French critics and historians in {C100['year']}; films with the same number of votes share a rank.")
+for e in C100["films"]:
+    dids = dirs_of(e["directors"]); fk = match_film(dids, [e["film"], e.get("original")])
+    r = "%d%s" % (e["rank"], "=" if e["tied"] else "")
+    entry("cahiers-100", r, e["film"], None, dids, " and ".join(split_names(e["directors"])), fk, "Cahiers 100: #" + r, [e["film"], "#" + r])
+new_list("cahiers-annual", "Critics' lists", "Cahiers du cinéma: top 10 of the year", "Cahiers top 10", "yearly", "Cahiers du cinéma, 1951 to 2025",
+         "https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists", "The magazine's critics' list of the year's best films, as published in France; no lists for 1952, 1953, 1969 to 1980 and 2003.")
+for e in CAH["annual"]:
+    dids = dirs_of(e["directors"]); fk = match_film(dids, [e["film"], e.get("original")], e["year"])
+    r = e["rank"] or 0
+    entry("cahiers-annual", str(e["year"]), e["film"], e["year"], dids, " and ".join(split_names(e["directors"])), fk, "Cahiers top 10, %d: #%d" % (e["year"], r), [e["film"], e["year"], r])
+    LISTS["cahiers-annual"]["e"][-1].append(r)
+new_list("cahiers-decades", "Critics' lists", "Cahiers du cinéma: best of the decade", "Cahiers decade", "yearly", "Cahiers du cinéma", "https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists",
+         "Ten films each for the 1990s, 2000s and 2010s.")
+for e in CAH["decades"]:
+    dids = dirs_of(e["directors"]); fk = match_film(dids, [e["film"], e.get("original")])
+    entry("cahiers-decades", "%ds" % e["year"], e["film"], None, dids, " and ".join(split_names(e["directors"])), fk, "Cahiers best of the %ds: #%d" % (e["year"], e["rank"] or 0), [e["film"], e["year"], e["rank"] or 0])
+    LISTS["cahiers-decades"]["e"][-1].append(e["rank"] or 0)
+def fk_of(f):
+    tm = TMDB["films"].get(f["id"]) or {}
+    return ("m", tm["tmdb_id"]) if tm.get("tmdb_id") else None
+def names_of(f): return " and ".join(next((d["name"] for d in D if d["id"] == i), i) for i in f["directors"])
+new_list("tspdt-films", "Critics' lists", "They Shoot Pictures: the 1,000 greatest films", "TSPDT 1,000", "ranked", "They Shoot Pictures, Don't They?, 2026", TSPDT["url"])
+for f in sorted([f for f in FILMS if f["tspdt"]], key=lambda f: f["tspdt"]): entry("tspdt-films", str(f["tspdt"]), f["title"], f["year"], [i for i in f["directors"] if i in IDSET0], names_of(f), fk_of(f))
+new_list("tspdt-directors", "Critics' lists", "They Shoot Pictures: the 250 greatest directors", "TSPDT 250", "people", "They Shoot Pictures, Don't They?, 2026", TSPDT["url"])
+for i, r in sorted(TSPDT["ranks"].items(), key=lambda x: x[1]):
+    if i in IDSET0: entry("tspdt-directors", str(r), next(d["name"] for d in D if d["id"] == i), None, [i], "", None)
+new_list("sight-and-sound", "Critics' lists", "Sight and Sound: greatest films of all time", "Sight and Sound", "ranked", "Sight and Sound critics' poll, 2022", SOURCES["sight_and_sound"]["url"])
+for f in sorted([f for f in FILMS if f["sight_and_sound"] and f["sight_and_sound"] <= 250], key=lambda f: f["sight_and_sound"]):
+    entry("sight-and-sound", str(f["sight_and_sound"]), f["title"], f["year"], [i for i in f["directors"] if i in IDSET0], names_of(f), fk_of(f))
+new_list("house-of-tabula", "Critics' lists", "The House of Tabula: film studies watchlist", "House of Tabula", "ranked", "The House of Tabula", "")
+for f in sorted([f for f in FILMS if f["house_of_tabula"]], key=lambda f: f["house_of_tabula"]):
+    entry("house-of-tabula", str(f["house_of_tabula"]), f["title"], f["year"], [i for i in f["directors"] if i in IDSET0], names_of(f), fk_of(f))
+for L in LISTS.values():
+    L["n"] = len(L["e"]); L["onmap"] = sum(1 for x in L["e"] if x[3])
+def honour_lines(i):
+    """Lines for 'On the lists' from the Oscars and Cahiers lists."""
+    H, out = HON_DIR.get(i, {}), []
+    def films(xs): return ", ".join(f"{t} ({y})" for t, y in xs)
+    for key, word in (("oscar-director", "the Oscar for Best Director"), ("oscar-picture", "Best Picture with"), ("oscar-international", "the Oscar for international feature with")):
+        xs = H.get(key)
+        if not xs: continue
+        if key == "oscar-director": out.append(f"Won {word}" + (f" {len(xs)} times: " if len(xs) > 1 else " for ") + films(xs) + ".")
+        elif key == "oscar-picture": out.append(f"Won {word} " + films(xs) + ".")
+        else: out.append(f"Won {word} " + films(xs) + ".")
+    xs = H.get("cahiers-100")
+    if xs: out.append(f"{plural(len(xs), 'film')} in Cahiers du cinéma's 100 films for an ideal cinémathèque (2008): " + ", ".join(f"{t} ({r})" for t, r in xs) + ".")
+    xs = H.get("cahiers-annual")
+    if xs:
+        ones = [x for x in xs if x[2] == 1]
+        out.append(f"{plural(len(xs), 'film')} in Cahiers du cinéma's top 10 of the year, {min(x[1] for x in xs)} to {max(x[1] for x in xs)}" + (f"; {len(ones)} of them the year's #1" if len(ones) > 1 else f"; {ones[0][0]} was #1 in {ones[0][1]}" if ones else "") + ".")
+    xs = H.get("cahiers-decades")
+    if xs: out.append("In Cahiers du cinéma's best of the decade: " + ", ".join(f"{t} (#{r} of the {y}s)" for t, y, r in xs) + ".")
+    return out
+TOP_HON = {"oscar-picture", "oscar-director", "oscar-international", "cahiers-100", "cahiers-decades"}
+def honoured(fk): return any(k in TOP_HON or (k == "cahiers-annual" and b.endswith(": #1")) for k, b in HON_FILM.get(fk, []))
 def life(i):
     ps = PEOPLE["directors"].get(i, {}).get("persons", [])
     out = [[p["name"], pyear(p.get("birthday")), pyear(p.get("deathday")), (p.get("place_of_birth") or "").split(",")[0].strip()] for p in ps]
@@ -414,6 +580,7 @@ data = {
                    "members": [d["id"] for d in D if k in d["movements"]],
                    "primary": [ids[i] for i in groups.get(k, [])]} for k, v in MV.items()},
  "dims": [{"key": m["key"], "lo": m["low"], "hi": m["high"]} for m in DIMS],
+ "lists": LISTS,
  "directors": [director_out(i, d) for i, d in enumerate(D)],
  "directory": [{"id": e["id"], "name": e["name"], "films": [film_out(f) for f in by_dir.get(e["id"], [])[:KEY_FILMS]]} for e in DIRECTORY],
  "influence": [dict({"s": e["from"], "t": e["to"], "note": e["note"]}, **({"ev": evidence(e)[:3]} if evidence(e) else {}), **({"wd": 1} if "wikidata" in e.get("sources", []) else {})) for e in I],

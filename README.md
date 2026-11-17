@@ -15,6 +15,9 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | Cannes top prize (Grand Prix du Festival, Palme d'Or), all 103 winners 1939 to 2026 | From the source; every fact that mentions the Palme d'Or was checked against it |
 | Film descriptions, ratings, filmographies, birth and death dates (TMDB) | From the source; a film match is kept only when TMDB credits our director for it |
 | Birth and death, birthplace, awards, 'influenced by', teachers, students, family (Wikidata) | From the source; Wikidata is public domain (CC0). Influence links it records are marked "Recorded in Wikidata" and count as checked |
+| Oscar winners: Best Picture, Best Director, Best International Feature Film, 1927/28 to 2025 | Compiled by hand; the 2025 winners were checked against press reports and the international list against a partial copy of Wikipedia's list. Corrections welcome |
+| Cahiers du cinéma: 100 films for an ideal cinémathèque (2008) | From the published list; tied ranks from the vote counts (Moonfleet is missing from the vote-count page and was placed by the published order) |
+| Cahiers du cinéma: top 10 of the year, 1951 to 2025, and best of the 1990s, 2000s and 2010s | From Wikipedia's collection of the lists |
 | Page references to The Oxford History of World Cinema | Found by text search in an OCR of the book; page numbers are scan pages, not printed page numbers |
 | Descriptions, facts, techniques, style scores, movements, most influence links | Draft, written from general film knowledge, not yet checked |
 
@@ -25,6 +28,8 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `data/directors.json` | Profiled directors: country, movements (first clustered one decides the map area), techniques, eight style scores from 1 to 10 |
 | `data/facts.json` | Per director: one-line signature, longer description, facts. Each fact has a `status` (`verified` or `draft`) and a `source` |
 | `data/cannes.json` | Winners of the top prize at Cannes |
+| `data/oscars.json` | Oscar winners for Best Picture, Best Director and Best International Feature Film |
+| `data/cahiers.json` | Cahiers du cinéma's 100 films for an ideal cinémathèque (2008, with vote counts) and its annual and decade top 10 lists |
 | `data/films.json` | Every film from the lists, with director ids, year and ranks, plus a few films per director added by hand (`"added": "hand"`) for directors who are on no list |
 | `data/directory.json` | Directors without a profile yet (searchable, not on the map); currently empty |
 | `data/influence.json` | Directed influence links with an optional note |
@@ -116,6 +121,11 @@ already have.
   directors you have watched light up on the map (`#mine`), and "Next for you" suggests
   directors close in style or linked by influence to the ones you have seen. All of this is
   kept in your browser only; Export and Import move it to another browser.
+- Lists and awards: Cannes, the Oscars (Best Picture, Director, International Feature), TSPDT,
+  Sight and Sound, Cahiers du cinéma (the 100 and the annual top 10s) and House of Tabula, each
+  browsable in order (`#h/oscar-director`, `#h/cahiers-100`), highlighted on the map and the
+  timeline, with your seen count. Film cards carry a badge for every list a film is on; a
+  diamond marks such films in a filmography.
 - Ratings: every film card shows the TMDB audience rating with its number of votes, and a
   filmography can be sorted by rating.
 - Shared crew: once `fetch_tmdb.py` has stored collaborators, a toggle draws links between

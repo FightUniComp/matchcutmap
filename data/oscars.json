@@ -1,0 +1,2657 @@
+{
+ "note": "Winners of the Academy Awards for Best Picture, Best Director and Best International Feature Film (Best Foreign Language Film until 2019, an honorary award until 1955). Years are the award years, i.e. the year of the films honoured.",
+ "picture": [
+  {
+   "label": "1927/28",
+   "year": 1928,
+   "ceremony": 1,
+   "film": "Wings",
+   "directors": [
+    "William A. Wellman"
+   ]
+  },
+  {
+   "label": "1928/29",
+   "year": 1929,
+   "ceremony": 2,
+   "film": "The Broadway Melody",
+   "directors": [
+    "Harry Beaumont"
+   ]
+  },
+  {
+   "label": "1929/30",
+   "year": 1930,
+   "ceremony": 3,
+   "film": "All Quiet on the Western Front",
+   "directors": [
+    "Lewis Milestone"
+   ]
+  },
+  {
+   "label": "1930/31",
+   "year": 1931,
+   "ceremony": 4,
+   "film": "Cimarron",
+   "directors": [
+    "Wesley Ruggles"
+   ]
+  },
+  {
+   "label": "1931/32",
+   "year": 1932,
+   "ceremony": 5,
+   "film": "Grand Hotel",
+   "directors": [
+    "Edmund Goulding"
+   ]
+  },
+  {
+   "label": "1932/33",
+   "year": 1933,
+   "ceremony": 6,
+   "film": "Cavalcade",
+   "directors": [
+    "Frank Lloyd"
+   ]
+  },
+  {
+   "label": "1934",
+   "year": 1934,
+   "ceremony": 7,
+   "film": "It Happened One Night",
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "label": "1935",
+   "year": 1935,
+   "ceremony": 8,
+   "film": "Mutiny on the Bounty",
+   "directors": [
+    "Frank Lloyd"
+   ]
+  },
+  {
+   "label": "1936",
+   "year": 1936,
+   "ceremony": 9,
+   "film": "The Great Ziegfeld",
+   "directors": [
+    "Robert Z. Leonard"
+   ]
+  },
+  {
+   "label": "1937",
+   "year": 1937,
+   "ceremony": 10,
+   "film": "The Life of Emile Zola",
+   "directors": [
+    "William Dieterle"
+   ]
+  },
+  {
+   "label": "1938",
+   "year": 1938,
+   "ceremony": 11,
+   "film": "You Can't Take It with You",
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "label": "1939",
+   "year": 1939,
+   "ceremony": 12,
+   "film": "Gone with the Wind",
+   "directors": [
+    "Victor Fleming"
+   ]
+  },
+  {
+   "label": "1940",
+   "year": 1940,
+   "ceremony": 13,
+   "film": "Rebecca",
+   "directors": [
+    "Alfred Hitchcock"
+   ]
+  },
+  {
+   "label": "1941",
+   "year": 1941,
+   "ceremony": 14,
+   "film": "How Green Was My Valley",
+   "directors": [
+    "John Ford"
+   ]
+  },
+  {
+   "label": "1942",
+   "year": 1942,
+   "ceremony": 15,
+   "film": "Mrs. Miniver",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1943",
+   "year": 1943,
+   "ceremony": 16,
+   "film": "Casablanca",
+   "directors": [
+    "Michael Curtiz"
+   ]
+  },
+  {
+   "label": "1944",
+   "year": 1944,
+   "ceremony": 17,
+   "film": "Going My Way",
+   "directors": [
+    "Leo McCarey"
+   ]
+  },
+  {
+   "label": "1945",
+   "year": 1945,
+   "ceremony": 18,
+   "film": "The Lost Weekend",
+   "directors": [
+    "Billy Wilder"
+   ]
+  },
+  {
+   "label": "1946",
+   "year": 1946,
+   "ceremony": 19,
+   "film": "The Best Years of Our Lives",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1947",
+   "year": 1947,
+   "ceremony": 20,
+   "film": "Gentleman's Agreement",
+   "directors": [
+    "Elia Kazan"
+   ]
+  },
+  {
+   "label": "1948",
+   "year": 1948,
+   "ceremony": 21,
+   "film": "Hamlet",
+   "directors": [
+    "Laurence Olivier"
+   ]
+  },
+  {
+   "label": "1949",
+   "year": 1949,
+   "ceremony": 22,
+   "film": "All the King's Men",
+   "directors": [
+    "Robert Rossen"
+   ]
+  },
+  {
+   "label": "1950",
+   "year": 1950,
+   "ceremony": 23,
+   "film": "All About Eve",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ]
+  },
+  {
+   "label": "1951",
+   "year": 1951,
+   "ceremony": 24,
+   "film": "An American in Paris",
+   "directors": [
+    "Vincente Minnelli"
+   ]
+  },
+  {
+   "label": "1952",
+   "year": 1952,
+   "ceremony": 25,
+   "film": "The Greatest Show on Earth",
+   "directors": [
+    "Cecil B. DeMille"
+   ]
+  },
+  {
+   "label": "1953",
+   "year": 1953,
+   "ceremony": 26,
+   "film": "From Here to Eternity",
+   "directors": [
+    "Fred Zinnemann"
+   ]
+  },
+  {
+   "label": "1954",
+   "year": 1954,
+   "ceremony": 27,
+   "film": "On the Waterfront",
+   "directors": [
+    "Elia Kazan"
+   ]
+  },
+  {
+   "label": "1955",
+   "year": 1955,
+   "ceremony": 28,
+   "film": "Marty",
+   "directors": [
+    "Delbert Mann"
+   ]
+  },
+  {
+   "label": "1956",
+   "year": 1956,
+   "ceremony": 29,
+   "film": "Around the World in 80 Days",
+   "directors": [
+    "Michael Anderson"
+   ]
+  },
+  {
+   "label": "1957",
+   "year": 1957,
+   "ceremony": 30,
+   "film": "The Bridge on the River Kwai",
+   "directors": [
+    "David Lean"
+   ]
+  },
+  {
+   "label": "1958",
+   "year": 1958,
+   "ceremony": 31,
+   "film": "Gigi",
+   "directors": [
+    "Vincente Minnelli"
+   ]
+  },
+  {
+   "label": "1959",
+   "year": 1959,
+   "ceremony": 32,
+   "film": "Ben-Hur",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1960",
+   "year": 1960,
+   "ceremony": 33,
+   "film": "The Apartment",
+   "directors": [
+    "Billy Wilder"
+   ]
+  },
+  {
+   "label": "1961",
+   "year": 1961,
+   "ceremony": 34,
+   "film": "West Side Story",
+   "directors": [
+    "Robert Wise",
+    "Jerome Robbins"
+   ]
+  },
+  {
+   "label": "1962",
+   "year": 1962,
+   "ceremony": 35,
+   "film": "Lawrence of Arabia",
+   "directors": [
+    "David Lean"
+   ]
+  },
+  {
+   "label": "1963",
+   "year": 1963,
+   "ceremony": 36,
+   "film": "Tom Jones",
+   "directors": [
+    "Tony Richardson"
+   ]
+  },
+  {
+   "label": "1964",
+   "year": 1964,
+   "ceremony": 37,
+   "film": "My Fair Lady",
+   "directors": [
+    "George Cukor"
+   ]
+  },
+  {
+   "label": "1965",
+   "year": 1965,
+   "ceremony": 38,
+   "film": "The Sound of Music",
+   "directors": [
+    "Robert Wise"
+   ]
+  },
+  {
+   "label": "1966",
+   "year": 1966,
+   "ceremony": 39,
+   "film": "A Man for All Seasons",
+   "directors": [
+    "Fred Zinnemann"
+   ]
+  },
+  {
+   "label": "1967",
+   "year": 1967,
+   "ceremony": 40,
+   "film": "In the Heat of the Night",
+   "directors": [
+    "Norman Jewison"
+   ]
+  },
+  {
+   "label": "1968",
+   "year": 1968,
+   "ceremony": 41,
+   "film": "Oliver!",
+   "directors": [
+    "Carol Reed"
+   ]
+  },
+  {
+   "label": "1969",
+   "year": 1969,
+   "ceremony": 42,
+   "film": "Midnight Cowboy",
+   "directors": [
+    "John Schlesinger"
+   ]
+  },
+  {
+   "label": "1970",
+   "year": 1970,
+   "ceremony": 43,
+   "film": "Patton",
+   "directors": [
+    "Franklin J. Schaffner"
+   ]
+  },
+  {
+   "label": "1971",
+   "year": 1971,
+   "ceremony": 44,
+   "film": "The French Connection",
+   "directors": [
+    "William Friedkin"
+   ]
+  },
+  {
+   "label": "1972",
+   "year": 1972,
+   "ceremony": 45,
+   "film": "The Godfather",
+   "directors": [
+    "Francis Ford Coppola"
+   ]
+  },
+  {
+   "label": "1973",
+   "year": 1973,
+   "ceremony": 46,
+   "film": "The Sting",
+   "directors": [
+    "George Roy Hill"
+   ]
+  },
+  {
+   "label": "1974",
+   "year": 1974,
+   "ceremony": 47,
+   "film": "The Godfather Part II",
+   "directors": [
+    "Francis Ford Coppola"
+   ]
+  },
+  {
+   "label": "1975",
+   "year": 1975,
+   "ceremony": 48,
+   "film": "One Flew Over the Cuckoo's Nest",
+   "directors": [
+    "Miloš Forman"
+   ]
+  },
+  {
+   "label": "1976",
+   "year": 1976,
+   "ceremony": 49,
+   "film": "Rocky",
+   "directors": [
+    "John G. Avildsen"
+   ]
+  },
+  {
+   "label": "1977",
+   "year": 1977,
+   "ceremony": 50,
+   "film": "Annie Hall",
+   "directors": [
+    "Woody Allen"
+   ]
+  },
+  {
+   "label": "1978",
+   "year": 1978,
+   "ceremony": 51,
+   "film": "The Deer Hunter",
+   "directors": [
+    "Michael Cimino"
+   ]
+  },
+  {
+   "label": "1979",
+   "year": 1979,
+   "ceremony": 52,
+   "film": "Kramer vs. Kramer",
+   "directors": [
+    "Robert Benton"
+   ]
+  },
+  {
+   "label": "1980",
+   "year": 1980,
+   "ceremony": 53,
+   "film": "Ordinary People",
+   "directors": [
+    "Robert Redford"
+   ]
+  },
+  {
+   "label": "1981",
+   "year": 1981,
+   "ceremony": 54,
+   "film": "Chariots of Fire",
+   "directors": [
+    "Hugh Hudson"
+   ]
+  },
+  {
+   "label": "1982",
+   "year": 1982,
+   "ceremony": 55,
+   "film": "Gandhi",
+   "directors": [
+    "Richard Attenborough"
+   ]
+  },
+  {
+   "label": "1983",
+   "year": 1983,
+   "ceremony": 56,
+   "film": "Terms of Endearment",
+   "directors": [
+    "James L. Brooks"
+   ]
+  },
+  {
+   "label": "1984",
+   "year": 1984,
+   "ceremony": 57,
+   "film": "Amadeus",
+   "directors": [
+    "Miloš Forman"
+   ]
+  },
+  {
+   "label": "1985",
+   "year": 1985,
+   "ceremony": 58,
+   "film": "Out of Africa",
+   "directors": [
+    "Sydney Pollack"
+   ]
+  },
+  {
+   "label": "1986",
+   "year": 1986,
+   "ceremony": 59,
+   "film": "Platoon",
+   "directors": [
+    "Oliver Stone"
+   ]
+  },
+  {
+   "label": "1987",
+   "year": 1987,
+   "ceremony": 60,
+   "film": "The Last Emperor",
+   "directors": [
+    "Bernardo Bertolucci"
+   ]
+  },
+  {
+   "label": "1988",
+   "year": 1988,
+   "ceremony": 61,
+   "film": "Rain Man",
+   "directors": [
+    "Barry Levinson"
+   ]
+  },
+  {
+   "label": "1989",
+   "year": 1989,
+   "ceremony": 62,
+   "film": "Driving Miss Daisy",
+   "directors": [
+    "Bruce Beresford"
+   ]
+  },
+  {
+   "label": "1990",
+   "year": 1990,
+   "ceremony": 63,
+   "film": "Dances with Wolves",
+   "directors": [
+    "Kevin Costner"
+   ]
+  },
+  {
+   "label": "1991",
+   "year": 1991,
+   "ceremony": 64,
+   "film": "The Silence of the Lambs",
+   "directors": [
+    "Jonathan Demme"
+   ]
+  },
+  {
+   "label": "1992",
+   "year": 1992,
+   "ceremony": 65,
+   "film": "Unforgiven",
+   "directors": [
+    "Clint Eastwood"
+   ]
+  },
+  {
+   "label": "1993",
+   "year": 1993,
+   "ceremony": 66,
+   "film": "Schindler's List",
+   "directors": [
+    "Steven Spielberg"
+   ]
+  },
+  {
+   "label": "1994",
+   "year": 1994,
+   "ceremony": 67,
+   "film": "Forrest Gump",
+   "directors": [
+    "Robert Zemeckis"
+   ]
+  },
+  {
+   "label": "1995",
+   "year": 1995,
+   "ceremony": 68,
+   "film": "Braveheart",
+   "directors": [
+    "Mel Gibson"
+   ]
+  },
+  {
+   "label": "1996",
+   "year": 1996,
+   "ceremony": 69,
+   "film": "The English Patient",
+   "directors": [
+    "Anthony Minghella"
+   ]
+  },
+  {
+   "label": "1997",
+   "year": 1997,
+   "ceremony": 70,
+   "film": "Titanic",
+   "directors": [
+    "James Cameron"
+   ]
+  },
+  {
+   "label": "1998",
+   "year": 1998,
+   "ceremony": 71,
+   "film": "Shakespeare in Love",
+   "directors": [
+    "John Madden"
+   ]
+  },
+  {
+   "label": "1999",
+   "year": 1999,
+   "ceremony": 72,
+   "film": "American Beauty",
+   "directors": [
+    "Sam Mendes"
+   ]
+  },
+  {
+   "label": "2000",
+   "year": 2000,
+   "ceremony": 73,
+   "film": "Gladiator",
+   "directors": [
+    "Ridley Scott"
+   ]
+  },
+  {
+   "label": "2001",
+   "year": 2001,
+   "ceremony": 74,
+   "film": "A Beautiful Mind",
+   "directors": [
+    "Ron Howard"
+   ]
+  },
+  {
+   "label": "2002",
+   "year": 2002,
+   "ceremony": 75,
+   "film": "Chicago",
+   "directors": [
+    "Rob Marshall"
+   ]
+  },
+  {
+   "label": "2003",
+   "year": 2003,
+   "ceremony": 76,
+   "film": "The Lord of the Rings: The Return of the King",
+   "directors": [
+    "Peter Jackson"
+   ]
+  },
+  {
+   "label": "2004",
+   "year": 2004,
+   "ceremony": 77,
+   "film": "Million Dollar Baby",
+   "directors": [
+    "Clint Eastwood"
+   ]
+  },
+  {
+   "label": "2005",
+   "year": 2005,
+   "ceremony": 78,
+   "film": "Crash",
+   "directors": [
+    "Paul Haggis"
+   ]
+  },
+  {
+   "label": "2006",
+   "year": 2006,
+   "ceremony": 79,
+   "film": "The Departed",
+   "directors": [
+    "Martin Scorsese"
+   ]
+  },
+  {
+   "label": "2007",
+   "year": 2007,
+   "ceremony": 80,
+   "film": "No Country for Old Men",
+   "directors": [
+    "Joel Coen",
+    "Ethan Coen"
+   ]
+  },
+  {
+   "label": "2008",
+   "year": 2008,
+   "ceremony": 81,
+   "film": "Slumdog Millionaire",
+   "directors": [
+    "Danny Boyle"
+   ]
+  },
+  {
+   "label": "2009",
+   "year": 2009,
+   "ceremony": 82,
+   "film": "The Hurt Locker",
+   "directors": [
+    "Kathryn Bigelow"
+   ]
+  },
+  {
+   "label": "2010",
+   "year": 2010,
+   "ceremony": 83,
+   "film": "The King's Speech",
+   "directors": [
+    "Tom Hooper"
+   ]
+  },
+  {
+   "label": "2011",
+   "year": 2011,
+   "ceremony": 84,
+   "film": "The Artist",
+   "directors": [
+    "Michel Hazanavicius"
+   ]
+  },
+  {
+   "label": "2012",
+   "year": 2012,
+   "ceremony": 85,
+   "film": "Argo",
+   "directors": [
+    "Ben Affleck"
+   ]
+  },
+  {
+   "label": "2013",
+   "year": 2013,
+   "ceremony": 86,
+   "film": "12 Years a Slave",
+   "directors": [
+    "Steve McQueen"
+   ]
+  },
+  {
+   "label": "2014",
+   "year": 2014,
+   "ceremony": 87,
+   "film": "Birdman",
+   "directors": [
+    "Alejandro G. Iñárritu"
+   ]
+  },
+  {
+   "label": "2015",
+   "year": 2015,
+   "ceremony": 88,
+   "film": "Spotlight",
+   "directors": [
+    "Tom McCarthy"
+   ]
+  },
+  {
+   "label": "2016",
+   "year": 2016,
+   "ceremony": 89,
+   "film": "Moonlight",
+   "directors": [
+    "Barry Jenkins"
+   ]
+  },
+  {
+   "label": "2017",
+   "year": 2017,
+   "ceremony": 90,
+   "film": "The Shape of Water",
+   "directors": [
+    "Guillermo del Toro"
+   ]
+  },
+  {
+   "label": "2018",
+   "year": 2018,
+   "ceremony": 91,
+   "film": "Green Book",
+   "directors": [
+    "Peter Farrelly"
+   ]
+  },
+  {
+   "label": "2019",
+   "year": 2019,
+   "ceremony": 92,
+   "film": "Parasite",
+   "directors": [
+    "Bong Joon-ho"
+   ]
+  },
+  {
+   "label": "2020",
+   "year": 2020,
+   "ceremony": 93,
+   "film": "Nomadland",
+   "directors": [
+    "Chloé Zhao"
+   ]
+  },
+  {
+   "label": "2021",
+   "year": 2021,
+   "ceremony": 94,
+   "film": "CODA",
+   "directors": [
+    "Sian Heder"
+   ]
+  },
+  {
+   "label": "2022",
+   "year": 2022,
+   "ceremony": 95,
+   "film": "Everything Everywhere All at Once",
+   "directors": [
+    "Daniel Kwan",
+    "Daniel Scheinert"
+   ]
+  },
+  {
+   "label": "2023",
+   "year": 2023,
+   "ceremony": 96,
+   "film": "Oppenheimer",
+   "directors": [
+    "Christopher Nolan"
+   ]
+  },
+  {
+   "label": "2024",
+   "year": 2024,
+   "ceremony": 97,
+   "film": "Anora",
+   "directors": [
+    "Sean Baker"
+   ]
+  },
+  {
+   "label": "2025",
+   "year": 2025,
+   "ceremony": 98,
+   "film": "One Battle After Another",
+   "directors": [
+    "Paul Thomas Anderson"
+   ]
+  }
+ ],
+ "director": [
+  {
+   "label": "1927/28",
+   "year": 1928,
+   "ceremony": 1,
+   "film": "7th Heaven",
+   "directors": [
+    "Frank Borzage"
+   ],
+   "note": "Dramatic Picture"
+  },
+  {
+   "label": "1927/28",
+   "year": 1928,
+   "ceremony": 1,
+   "film": "Two Arabian Knights",
+   "directors": [
+    "Lewis Milestone"
+   ],
+   "note": "Comedy Picture"
+  },
+  {
+   "label": "1928/29",
+   "year": 1929,
+   "ceremony": 2,
+   "film": "The Divine Lady",
+   "directors": [
+    "Frank Lloyd"
+   ]
+  },
+  {
+   "label": "1929/30",
+   "year": 1930,
+   "ceremony": 3,
+   "film": "All Quiet on the Western Front",
+   "directors": [
+    "Lewis Milestone"
+   ]
+  },
+  {
+   "label": "1930/31",
+   "year": 1931,
+   "ceremony": 4,
+   "film": "Skippy",
+   "directors": [
+    "Norman Taurog"
+   ]
+  },
+  {
+   "label": "1931/32",
+   "year": 1932,
+   "ceremony": 5,
+   "film": "Bad Girl",
+   "directors": [
+    "Frank Borzage"
+   ]
+  },
+  {
+   "label": "1932/33",
+   "year": 1933,
+   "ceremony": 6,
+   "film": "Cavalcade",
+   "directors": [
+    "Frank Lloyd"
+   ]
+  },
+  {
+   "label": "1934",
+   "year": 1934,
+   "ceremony": 7,
+   "film": "It Happened One Night",
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "label": "1935",
+   "year": 1935,
+   "ceremony": 8,
+   "film": "The Informer",
+   "directors": [
+    "John Ford"
+   ]
+  },
+  {
+   "label": "1936",
+   "year": 1936,
+   "ceremony": 9,
+   "film": "Mr. Deeds Goes to Town",
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "label": "1937",
+   "year": 1937,
+   "ceremony": 10,
+   "film": "The Awful Truth",
+   "directors": [
+    "Leo McCarey"
+   ]
+  },
+  {
+   "label": "1938",
+   "year": 1938,
+   "ceremony": 11,
+   "film": "You Can't Take It with You",
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "label": "1939",
+   "year": 1939,
+   "ceremony": 12,
+   "film": "Gone with the Wind",
+   "directors": [
+    "Victor Fleming"
+   ]
+  },
+  {
+   "label": "1940",
+   "year": 1940,
+   "ceremony": 13,
+   "film": "The Grapes of Wrath",
+   "directors": [
+    "John Ford"
+   ]
+  },
+  {
+   "label": "1941",
+   "year": 1941,
+   "ceremony": 14,
+   "film": "How Green Was My Valley",
+   "directors": [
+    "John Ford"
+   ]
+  },
+  {
+   "label": "1942",
+   "year": 1942,
+   "ceremony": 15,
+   "film": "Mrs. Miniver",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1943",
+   "year": 1943,
+   "ceremony": 16,
+   "film": "Casablanca",
+   "directors": [
+    "Michael Curtiz"
+   ]
+  },
+  {
+   "label": "1944",
+   "year": 1944,
+   "ceremony": 17,
+   "film": "Going My Way",
+   "directors": [
+    "Leo McCarey"
+   ]
+  },
+  {
+   "label": "1945",
+   "year": 1945,
+   "ceremony": 18,
+   "film": "The Lost Weekend",
+   "directors": [
+    "Billy Wilder"
+   ]
+  },
+  {
+   "label": "1946",
+   "year": 1946,
+   "ceremony": 19,
+   "film": "The Best Years of Our Lives",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1947",
+   "year": 1947,
+   "ceremony": 20,
+   "film": "Gentleman's Agreement",
+   "directors": [
+    "Elia Kazan"
+   ]
+  },
+  {
+   "label": "1948",
+   "year": 1948,
+   "ceremony": 21,
+   "film": "The Treasure of the Sierra Madre",
+   "directors": [
+    "John Huston"
+   ]
+  },
+  {
+   "label": "1949",
+   "year": 1949,
+   "ceremony": 22,
+   "film": "A Letter to Three Wives",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ]
+  },
+  {
+   "label": "1950",
+   "year": 1950,
+   "ceremony": 23,
+   "film": "All About Eve",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ]
+  },
+  {
+   "label": "1951",
+   "year": 1951,
+   "ceremony": 24,
+   "film": "A Place in the Sun",
+   "directors": [
+    "George Stevens"
+   ]
+  },
+  {
+   "label": "1952",
+   "year": 1952,
+   "ceremony": 25,
+   "film": "The Quiet Man",
+   "directors": [
+    "John Ford"
+   ]
+  },
+  {
+   "label": "1953",
+   "year": 1953,
+   "ceremony": 26,
+   "film": "From Here to Eternity",
+   "directors": [
+    "Fred Zinnemann"
+   ]
+  },
+  {
+   "label": "1954",
+   "year": 1954,
+   "ceremony": 27,
+   "film": "On the Waterfront",
+   "directors": [
+    "Elia Kazan"
+   ]
+  },
+  {
+   "label": "1955",
+   "year": 1955,
+   "ceremony": 28,
+   "film": "Marty",
+   "directors": [
+    "Delbert Mann"
+   ]
+  },
+  {
+   "label": "1956",
+   "year": 1956,
+   "ceremony": 29,
+   "film": "Giant",
+   "directors": [
+    "George Stevens"
+   ]
+  },
+  {
+   "label": "1957",
+   "year": 1957,
+   "ceremony": 30,
+   "film": "The Bridge on the River Kwai",
+   "directors": [
+    "David Lean"
+   ]
+  },
+  {
+   "label": "1958",
+   "year": 1958,
+   "ceremony": 31,
+   "film": "Gigi",
+   "directors": [
+    "Vincente Minnelli"
+   ]
+  },
+  {
+   "label": "1959",
+   "year": 1959,
+   "ceremony": 32,
+   "film": "Ben-Hur",
+   "directors": [
+    "William Wyler"
+   ]
+  },
+  {
+   "label": "1960",
+   "year": 1960,
+   "ceremony": 33,
+   "film": "The Apartment",
+   "directors": [
+    "Billy Wilder"
+   ]
+  },
+  {
+   "label": "1961",
+   "year": 1961,
+   "ceremony": 34,
+   "film": "West Side Story",
+   "directors": [
+    "Robert Wise",
+    "Jerome Robbins"
+   ]
+  },
+  {
+   "label": "1962",
+   "year": 1962,
+   "ceremony": 35,
+   "film": "Lawrence of Arabia",
+   "directors": [
+    "David Lean"
+   ]
+  },
+  {
+   "label": "1963",
+   "year": 1963,
+   "ceremony": 36,
+   "film": "Tom Jones",
+   "directors": [
+    "Tony Richardson"
+   ]
+  },
+  {
+   "label": "1964",
+   "year": 1964,
+   "ceremony": 37,
+   "film": "My Fair Lady",
+   "directors": [
+    "George Cukor"
+   ]
+  },
+  {
+   "label": "1965",
+   "year": 1965,
+   "ceremony": 38,
+   "film": "The Sound of Music",
+   "directors": [
+    "Robert Wise"
+   ]
+  },
+  {
+   "label": "1966",
+   "year": 1966,
+   "ceremony": 39,
+   "film": "A Man for All Seasons",
+   "directors": [
+    "Fred Zinnemann"
+   ]
+  },
+  {
+   "label": "1967",
+   "year": 1967,
+   "ceremony": 40,
+   "film": "The Graduate",
+   "directors": [
+    "Mike Nichols"
+   ]
+  },
+  {
+   "label": "1968",
+   "year": 1968,
+   "ceremony": 41,
+   "film": "Oliver!",
+   "directors": [
+    "Carol Reed"
+   ]
+  },
+  {
+   "label": "1969",
+   "year": 1969,
+   "ceremony": 42,
+   "film": "Midnight Cowboy",
+   "directors": [
+    "John Schlesinger"
+   ]
+  },
+  {
+   "label": "1970",
+   "year": 1970,
+   "ceremony": 43,
+   "film": "Patton",
+   "directors": [
+    "Franklin J. Schaffner"
+   ]
+  },
+  {
+   "label": "1971",
+   "year": 1971,
+   "ceremony": 44,
+   "film": "The French Connection",
+   "directors": [
+    "William Friedkin"
+   ]
+  },
+  {
+   "label": "1972",
+   "year": 1972,
+   "ceremony": 45,
+   "film": "Cabaret",
+   "directors": [
+    "Bob Fosse"
+   ]
+  },
+  {
+   "label": "1973",
+   "year": 1973,
+   "ceremony": 46,
+   "film": "The Sting",
+   "directors": [
+    "George Roy Hill"
+   ]
+  },
+  {
+   "label": "1974",
+   "year": 1974,
+   "ceremony": 47,
+   "film": "The Godfather Part II",
+   "directors": [
+    "Francis Ford Coppola"
+   ]
+  },
+  {
+   "label": "1975",
+   "year": 1975,
+   "ceremony": 48,
+   "film": "One Flew Over the Cuckoo's Nest",
+   "directors": [
+    "Miloš Forman"
+   ]
+  },
+  {
+   "label": "1976",
+   "year": 1976,
+   "ceremony": 49,
+   "film": "Rocky",
+   "directors": [
+    "John G. Avildsen"
+   ]
+  },
+  {
+   "label": "1977",
+   "year": 1977,
+   "ceremony": 50,
+   "film": "Annie Hall",
+   "directors": [
+    "Woody Allen"
+   ]
+  },
+  {
+   "label": "1978",
+   "year": 1978,
+   "ceremony": 51,
+   "film": "The Deer Hunter",
+   "directors": [
+    "Michael Cimino"
+   ]
+  },
+  {
+   "label": "1979",
+   "year": 1979,
+   "ceremony": 52,
+   "film": "Kramer vs. Kramer",
+   "directors": [
+    "Robert Benton"
+   ]
+  },
+  {
+   "label": "1980",
+   "year": 1980,
+   "ceremony": 53,
+   "film": "Ordinary People",
+   "directors": [
+    "Robert Redford"
+   ]
+  },
+  {
+   "label": "1981",
+   "year": 1981,
+   "ceremony": 54,
+   "film": "Reds",
+   "directors": [
+    "Warren Beatty"
+   ]
+  },
+  {
+   "label": "1982",
+   "year": 1982,
+   "ceremony": 55,
+   "film": "Gandhi",
+   "directors": [
+    "Richard Attenborough"
+   ]
+  },
+  {
+   "label": "1983",
+   "year": 1983,
+   "ceremony": 56,
+   "film": "Terms of Endearment",
+   "directors": [
+    "James L. Brooks"
+   ]
+  },
+  {
+   "label": "1984",
+   "year": 1984,
+   "ceremony": 57,
+   "film": "Amadeus",
+   "directors": [
+    "Miloš Forman"
+   ]
+  },
+  {
+   "label": "1985",
+   "year": 1985,
+   "ceremony": 58,
+   "film": "Out of Africa",
+   "directors": [
+    "Sydney Pollack"
+   ]
+  },
+  {
+   "label": "1986",
+   "year": 1986,
+   "ceremony": 59,
+   "film": "Platoon",
+   "directors": [
+    "Oliver Stone"
+   ]
+  },
+  {
+   "label": "1987",
+   "year": 1987,
+   "ceremony": 60,
+   "film": "The Last Emperor",
+   "directors": [
+    "Bernardo Bertolucci"
+   ]
+  },
+  {
+   "label": "1988",
+   "year": 1988,
+   "ceremony": 61,
+   "film": "Rain Man",
+   "directors": [
+    "Barry Levinson"
+   ]
+  },
+  {
+   "label": "1989",
+   "year": 1989,
+   "ceremony": 62,
+   "film": "Born on the Fourth of July",
+   "directors": [
+    "Oliver Stone"
+   ]
+  },
+  {
+   "label": "1990",
+   "year": 1990,
+   "ceremony": 63,
+   "film": "Dances with Wolves",
+   "directors": [
+    "Kevin Costner"
+   ]
+  },
+  {
+   "label": "1991",
+   "year": 1991,
+   "ceremony": 64,
+   "film": "The Silence of the Lambs",
+   "directors": [
+    "Jonathan Demme"
+   ]
+  },
+  {
+   "label": "1992",
+   "year": 1992,
+   "ceremony": 65,
+   "film": "Unforgiven",
+   "directors": [
+    "Clint Eastwood"
+   ]
+  },
+  {
+   "label": "1993",
+   "year": 1993,
+   "ceremony": 66,
+   "film": "Schindler's List",
+   "directors": [
+    "Steven Spielberg"
+   ]
+  },
+  {
+   "label": "1994",
+   "year": 1994,
+   "ceremony": 67,
+   "film": "Forrest Gump",
+   "directors": [
+    "Robert Zemeckis"
+   ]
+  },
+  {
+   "label": "1995",
+   "year": 1995,
+   "ceremony": 68,
+   "film": "Braveheart",
+   "directors": [
+    "Mel Gibson"
+   ]
+  },
+  {
+   "label": "1996",
+   "year": 1996,
+   "ceremony": 69,
+   "film": "The English Patient",
+   "directors": [
+    "Anthony Minghella"
+   ]
+  },
+  {
+   "label": "1997",
+   "year": 1997,
+   "ceremony": 70,
+   "film": "Titanic",
+   "directors": [
+    "James Cameron"
+   ]
+  },
+  {
+   "label": "1998",
+   "year": 1998,
+   "ceremony": 71,
+   "film": "Saving Private Ryan",
+   "directors": [
+    "Steven Spielberg"
+   ]
+  },
+  {
+   "label": "1999",
+   "year": 1999,
+   "ceremony": 72,
+   "film": "American Beauty",
+   "directors": [
+    "Sam Mendes"
+   ]
+  },
+  {
+   "label": "2000",
+   "year": 2000,
+   "ceremony": 73,
+   "film": "Traffic",
+   "directors": [
+    "Steven Soderbergh"
+   ]
+  },
+  {
+   "label": "2001",
+   "year": 2001,
+   "ceremony": 74,
+   "film": "A Beautiful Mind",
+   "directors": [
+    "Ron Howard"
+   ]
+  },
+  {
+   "label": "2002",
+   "year": 2002,
+   "ceremony": 75,
+   "film": "The Pianist",
+   "directors": [
+    "Roman Polanski"
+   ]
+  },
+  {
+   "label": "2003",
+   "year": 2003,
+   "ceremony": 76,
+   "film": "The Lord of the Rings: The Return of the King",
+   "directors": [
+    "Peter Jackson"
+   ]
+  },
+  {
+   "label": "2004",
+   "year": 2004,
+   "ceremony": 77,
+   "film": "Million Dollar Baby",
+   "directors": [
+    "Clint Eastwood"
+   ]
+  },
+  {
+   "label": "2005",
+   "year": 2005,
+   "ceremony": 78,
+   "film": "Brokeback Mountain",
+   "directors": [
+    "Ang Lee"
+   ]
+  },
+  {
+   "label": "2006",
+   "year": 2006,
+   "ceremony": 79,
+   "film": "The Departed",
+   "directors": [
+    "Martin Scorsese"
+   ]
+  },
+  {
+   "label": "2007",
+   "year": 2007,
+   "ceremony": 80,
+   "film": "No Country for Old Men",
+   "directors": [
+    "Joel Coen",
+    "Ethan Coen"
+   ]
+  },
+  {
+   "label": "2008",
+   "year": 2008,
+   "ceremony": 81,
+   "film": "Slumdog Millionaire",
+   "directors": [
+    "Danny Boyle"
+   ]
+  },
+  {
+   "label": "2009",
+   "year": 2009,
+   "ceremony": 82,
+   "film": "The Hurt Locker",
+   "directors": [
+    "Kathryn Bigelow"
+   ]
+  },
+  {
+   "label": "2010",
+   "year": 2010,
+   "ceremony": 83,
+   "film": "The King's Speech",
+   "directors": [
+    "Tom Hooper"
+   ]
+  },
+  {
+   "label": "2011",
+   "year": 2011,
+   "ceremony": 84,
+   "film": "The Artist",
+   "directors": [
+    "Michel Hazanavicius"
+   ]
+  },
+  {
+   "label": "2012",
+   "year": 2012,
+   "ceremony": 85,
+   "film": "Life of Pi",
+   "directors": [
+    "Ang Lee"
+   ]
+  },
+  {
+   "label": "2013",
+   "year": 2013,
+   "ceremony": 86,
+   "film": "Gravity",
+   "directors": [
+    "Alfonso Cuarón"
+   ]
+  },
+  {
+   "label": "2014",
+   "year": 2014,
+   "ceremony": 87,
+   "film": "Birdman",
+   "directors": [
+    "Alejandro G. Iñárritu"
+   ]
+  },
+  {
+   "label": "2015",
+   "year": 2015,
+   "ceremony": 88,
+   "film": "The Revenant",
+   "directors": [
+    "Alejandro G. Iñárritu"
+   ]
+  },
+  {
+   "label": "2016",
+   "year": 2016,
+   "ceremony": 89,
+   "film": "La La Land",
+   "directors": [
+    "Damien Chazelle"
+   ]
+  },
+  {
+   "label": "2017",
+   "year": 2017,
+   "ceremony": 90,
+   "film": "The Shape of Water",
+   "directors": [
+    "Guillermo del Toro"
+   ]
+  },
+  {
+   "label": "2018",
+   "year": 2018,
+   "ceremony": 91,
+   "film": "Roma",
+   "directors": [
+    "Alfonso Cuarón"
+   ]
+  },
+  {
+   "label": "2019",
+   "year": 2019,
+   "ceremony": 92,
+   "film": "Parasite",
+   "directors": [
+    "Bong Joon-ho"
+   ]
+  },
+  {
+   "label": "2020",
+   "year": 2020,
+   "ceremony": 93,
+   "film": "Nomadland",
+   "directors": [
+    "Chloé Zhao"
+   ]
+  },
+  {
+   "label": "2021",
+   "year": 2021,
+   "ceremony": 94,
+   "film": "The Power of the Dog",
+   "directors": [
+    "Jane Campion"
+   ]
+  },
+  {
+   "label": "2022",
+   "year": 2022,
+   "ceremony": 95,
+   "film": "Everything Everywhere All at Once",
+   "directors": [
+    "Daniel Kwan",
+    "Daniel Scheinert"
+   ]
+  },
+  {
+   "label": "2023",
+   "year": 2023,
+   "ceremony": 96,
+   "film": "Oppenheimer",
+   "directors": [
+    "Christopher Nolan"
+   ]
+  },
+  {
+   "label": "2024",
+   "year": 2024,
+   "ceremony": 97,
+   "film": "Anora",
+   "directors": [
+    "Sean Baker"
+   ]
+  },
+  {
+   "label": "2025",
+   "year": 2025,
+   "ceremony": 98,
+   "film": "One Battle After Another",
+   "directors": [
+    "Paul Thomas Anderson"
+   ]
+  }
+ ],
+ "international": [
+  {
+   "label": "1947",
+   "year": 1947,
+   "ceremony": 20,
+   "film": "Shoeshine",
+   "original": "Sciuscià",
+   "country": "Italy",
+   "directors": [
+    "Vittorio De Sica"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1948",
+   "year": 1948,
+   "ceremony": 21,
+   "film": "Monsieur Vincent",
+   "original": "",
+   "country": "France",
+   "directors": [
+    "Maurice Cloche"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1949",
+   "year": 1949,
+   "ceremony": 22,
+   "film": "Bicycle Thieves",
+   "original": "Ladri di biciclette",
+   "country": "Italy",
+   "directors": [
+    "Vittorio De Sica"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1950",
+   "year": 1950,
+   "ceremony": 23,
+   "film": "The Walls of Malapaga",
+   "original": "Au-delà des grilles",
+   "country": "France and Italy",
+   "directors": [
+    "René Clément"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1951",
+   "year": 1951,
+   "ceremony": 24,
+   "film": "Rashomon",
+   "original": "",
+   "country": "Japan",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1952",
+   "year": 1952,
+   "ceremony": 25,
+   "film": "Forbidden Games",
+   "original": "Jeux interdits",
+   "country": "France",
+   "directors": [
+    "René Clément"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1954",
+   "year": 1954,
+   "ceremony": 27,
+   "film": "Gate of Hell",
+   "original": "Jigokumon",
+   "country": "Japan",
+   "directors": [
+    "Teinosuke Kinugasa"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1955",
+   "year": 1955,
+   "ceremony": 28,
+   "film": "Samurai, The Legend of Musashi",
+   "original": "Miyamoto Musashi",
+   "country": "Japan",
+   "directors": [
+    "Hiroshi Inagaki"
+   ],
+   "honorary": true
+  },
+  {
+   "label": "1956",
+   "year": 1956,
+   "ceremony": 29,
+   "film": "La Strada",
+   "original": "",
+   "country": "Italy",
+   "directors": [
+    "Federico Fellini"
+   ]
+  },
+  {
+   "label": "1957",
+   "year": 1957,
+   "ceremony": 30,
+   "film": "Nights of Cabiria",
+   "original": "Le notti di Cabiria",
+   "country": "Italy",
+   "directors": [
+    "Federico Fellini"
+   ]
+  },
+  {
+   "label": "1958",
+   "year": 1958,
+   "ceremony": 31,
+   "film": "Mon Oncle",
+   "original": "",
+   "country": "France",
+   "directors": [
+    "Jacques Tati"
+   ]
+  },
+  {
+   "label": "1959",
+   "year": 1959,
+   "ceremony": 32,
+   "film": "Black Orpheus",
+   "original": "Orfeu Negro",
+   "country": "France",
+   "directors": [
+    "Marcel Camus"
+   ]
+  },
+  {
+   "label": "1960",
+   "year": 1960,
+   "ceremony": 33,
+   "film": "The Virgin Spring",
+   "original": "Jungfrukällan",
+   "country": "Sweden",
+   "directors": [
+    "Ingmar Bergman"
+   ]
+  },
+  {
+   "label": "1961",
+   "year": 1961,
+   "ceremony": 34,
+   "film": "Through a Glass Darkly",
+   "original": "Såsom i en spegel",
+   "country": "Sweden",
+   "directors": [
+    "Ingmar Bergman"
+   ]
+  },
+  {
+   "label": "1962",
+   "year": 1962,
+   "ceremony": 35,
+   "film": "Sundays and Cybèle",
+   "original": "Les Dimanches de Ville d'Avray",
+   "country": "France",
+   "directors": [
+    "Serge Bourguignon"
+   ]
+  },
+  {
+   "label": "1963",
+   "year": 1963,
+   "ceremony": 36,
+   "film": "8½",
+   "original": "Otto e mezzo",
+   "country": "Italy",
+   "directors": [
+    "Federico Fellini"
+   ]
+  },
+  {
+   "label": "1964",
+   "year": 1964,
+   "ceremony": 37,
+   "film": "Yesterday, Today and Tomorrow",
+   "original": "Ieri, oggi, domani",
+   "country": "Italy",
+   "directors": [
+    "Vittorio De Sica"
+   ]
+  },
+  {
+   "label": "1965",
+   "year": 1965,
+   "ceremony": 38,
+   "film": "The Shop on Main Street",
+   "original": "Obchod na korze",
+   "country": "Czechoslovakia",
+   "directors": [
+    "Ján Kadár",
+    "Elmar Klos"
+   ]
+  },
+  {
+   "label": "1966",
+   "year": 1966,
+   "ceremony": 39,
+   "film": "A Man and a Woman",
+   "original": "Un homme et une femme",
+   "country": "France",
+   "directors": [
+    "Claude Lelouch"
+   ]
+  },
+  {
+   "label": "1967",
+   "year": 1967,
+   "ceremony": 40,
+   "film": "Closely Watched Trains",
+   "original": "Ostře sledované vlaky",
+   "country": "Czechoslovakia",
+   "directors": [
+    "Jiří Menzel"
+   ]
+  },
+  {
+   "label": "1968",
+   "year": 1968,
+   "ceremony": 41,
+   "film": "War and Peace",
+   "original": "Voyna i mir",
+   "country": "Soviet Union",
+   "directors": [
+    "Sergei Bondarchuk"
+   ]
+  },
+  {
+   "label": "1969",
+   "year": 1969,
+   "ceremony": 42,
+   "film": "Z",
+   "original": "",
+   "country": "Algeria",
+   "directors": [
+    "Costa-Gavras"
+   ]
+  },
+  {
+   "label": "1970",
+   "year": 1970,
+   "ceremony": 43,
+   "film": "Investigation of a Citizen Above Suspicion",
+   "original": "Indagine su un cittadino al di sopra di ogni sospetto",
+   "country": "Italy",
+   "directors": [
+    "Elio Petri"
+   ]
+  },
+  {
+   "label": "1971",
+   "year": 1971,
+   "ceremony": 44,
+   "film": "The Garden of the Finzi-Continis",
+   "original": "Il giardino dei Finzi-Contini",
+   "country": "Italy",
+   "directors": [
+    "Vittorio De Sica"
+   ]
+  },
+  {
+   "label": "1972",
+   "year": 1972,
+   "ceremony": 45,
+   "film": "The Discreet Charm of the Bourgeoisie",
+   "original": "Le Charme discret de la bourgeoisie",
+   "country": "France",
+   "directors": [
+    "Luis Buñuel"
+   ]
+  },
+  {
+   "label": "1973",
+   "year": 1973,
+   "ceremony": 46,
+   "film": "Day for Night",
+   "original": "La Nuit américaine",
+   "country": "France",
+   "directors": [
+    "François Truffaut"
+   ]
+  },
+  {
+   "label": "1974",
+   "year": 1974,
+   "ceremony": 47,
+   "film": "Amarcord",
+   "original": "",
+   "country": "Italy",
+   "directors": [
+    "Federico Fellini"
+   ]
+  },
+  {
+   "label": "1975",
+   "year": 1975,
+   "ceremony": 48,
+   "film": "Dersu Uzala",
+   "original": "",
+   "country": "Soviet Union",
+   "directors": [
+    "Akira Kurosawa"
+   ]
+  },
+  {
+   "label": "1976",
+   "year": 1976,
+   "ceremony": 49,
+   "film": "Black and White in Color",
+   "original": "La Victoire en chantant",
+   "country": "Ivory Coast",
+   "directors": [
+    "Jean-Jacques Annaud"
+   ]
+  },
+  {
+   "label": "1977",
+   "year": 1977,
+   "ceremony": 50,
+   "film": "Madame Rosa",
+   "original": "La Vie devant soi",
+   "country": "France",
+   "directors": [
+    "Moshé Mizrahi"
+   ]
+  },
+  {
+   "label": "1978",
+   "year": 1978,
+   "ceremony": 51,
+   "film": "Get Out Your Handkerchiefs",
+   "original": "Préparez vos mouchoirs",
+   "country": "France",
+   "directors": [
+    "Bertrand Blier"
+   ]
+  },
+  {
+   "label": "1979",
+   "year": 1979,
+   "ceremony": 52,
+   "film": "The Tin Drum",
+   "original": "Die Blechtrommel",
+   "country": "West Germany",
+   "directors": [
+    "Volker Schlöndorff"
+   ]
+  },
+  {
+   "label": "1980",
+   "year": 1980,
+   "ceremony": 53,
+   "film": "Moscow Does Not Believe in Tears",
+   "original": "Moskva slezam ne verit",
+   "country": "Soviet Union",
+   "directors": [
+    "Vladimir Menshov"
+   ]
+  },
+  {
+   "label": "1981",
+   "year": 1981,
+   "ceremony": 54,
+   "film": "Mephisto",
+   "original": "",
+   "country": "Hungary",
+   "directors": [
+    "István Szabó"
+   ]
+  },
+  {
+   "label": "1982",
+   "year": 1982,
+   "ceremony": 55,
+   "film": "To Begin Again",
+   "original": "Volver a empezar",
+   "country": "Spain",
+   "directors": [
+    "José Luis Garci"
+   ]
+  },
+  {
+   "label": "1983",
+   "year": 1983,
+   "ceremony": 56,
+   "film": "Fanny and Alexander",
+   "original": "Fanny och Alexander",
+   "country": "Sweden",
+   "directors": [
+    "Ingmar Bergman"
+   ]
+  },
+  {
+   "label": "1984",
+   "year": 1984,
+   "ceremony": 57,
+   "film": "Dangerous Moves",
+   "original": "La Diagonale du fou",
+   "country": "Switzerland",
+   "directors": [
+    "Richard Dembo"
+   ]
+  },
+  {
+   "label": "1985",
+   "year": 1985,
+   "ceremony": 58,
+   "film": "The Official Story",
+   "original": "La historia oficial",
+   "country": "Argentina",
+   "directors": [
+    "Luis Puenzo"
+   ]
+  },
+  {
+   "label": "1986",
+   "year": 1986,
+   "ceremony": 59,
+   "film": "The Assault",
+   "original": "De aanslag",
+   "country": "Netherlands",
+   "directors": [
+    "Fons Rademakers"
+   ]
+  },
+  {
+   "label": "1987",
+   "year": 1987,
+   "ceremony": 60,
+   "film": "Babette's Feast",
+   "original": "Babettes gæstebud",
+   "country": "Denmark",
+   "directors": [
+    "Gabriel Axel"
+   ]
+  },
+  {
+   "label": "1988",
+   "year": 1988,
+   "ceremony": 61,
+   "film": "Pelle the Conqueror",
+   "original": "Pelle erobreren",
+   "country": "Denmark",
+   "directors": [
+    "Bille August"
+   ]
+  },
+  {
+   "label": "1989",
+   "year": 1989,
+   "ceremony": 62,
+   "film": "Cinema Paradiso",
+   "original": "Nuovo Cinema Paradiso",
+   "country": "Italy",
+   "directors": [
+    "Giuseppe Tornatore"
+   ]
+  },
+  {
+   "label": "1990",
+   "year": 1990,
+   "ceremony": 63,
+   "film": "Journey of Hope",
+   "original": "Reise der Hoffnung",
+   "country": "Switzerland",
+   "directors": [
+    "Xavier Koller"
+   ]
+  },
+  {
+   "label": "1991",
+   "year": 1991,
+   "ceremony": 64,
+   "film": "Mediterraneo",
+   "original": "",
+   "country": "Italy",
+   "directors": [
+    "Gabriele Salvatores"
+   ]
+  },
+  {
+   "label": "1992",
+   "year": 1992,
+   "ceremony": 65,
+   "film": "Indochine",
+   "original": "",
+   "country": "France",
+   "directors": [
+    "Régis Wargnier"
+   ]
+  },
+  {
+   "label": "1993",
+   "year": 1993,
+   "ceremony": 66,
+   "film": "Belle Époque",
+   "original": "",
+   "country": "Spain",
+   "directors": [
+    "Fernando Trueba"
+   ]
+  },
+  {
+   "label": "1994",
+   "year": 1994,
+   "ceremony": 67,
+   "film": "Burnt by the Sun",
+   "original": "Utomlyonnye solntsem",
+   "country": "Russia",
+   "directors": [
+    "Nikita Mikhalkov"
+   ]
+  },
+  {
+   "label": "1995",
+   "year": 1995,
+   "ceremony": 68,
+   "film": "Antonia's Line",
+   "original": "Antonia",
+   "country": "Netherlands",
+   "directors": [
+    "Marleen Gorris"
+   ]
+  },
+  {
+   "label": "1996",
+   "year": 1996,
+   "ceremony": 69,
+   "film": "Kolya",
+   "original": "Kolja",
+   "country": "Czech Republic",
+   "directors": [
+    "Jan Svěrák"
+   ]
+  },
+  {
+   "label": "1997",
+   "year": 1997,
+   "ceremony": 70,
+   "film": "Character",
+   "original": "Karakter",
+   "country": "Netherlands",
+   "directors": [
+    "Mike van Diem"
+   ]
+  },
+  {
+   "label": "1998",
+   "year": 1998,
+   "ceremony": 71,
+   "film": "Life Is Beautiful",
+   "original": "La vita è bella",
+   "country": "Italy",
+   "directors": [
+    "Roberto Benigni"
+   ]
+  },
+  {
+   "label": "1999",
+   "year": 1999,
+   "ceremony": 72,
+   "film": "All About My Mother",
+   "original": "Todo sobre mi madre",
+   "country": "Spain",
+   "directors": [
+    "Pedro Almodóvar"
+   ]
+  },
+  {
+   "label": "2000",
+   "year": 2000,
+   "ceremony": 73,
+   "film": "Crouching Tiger, Hidden Dragon",
+   "original": "Wo hu cang long",
+   "country": "Taiwan",
+   "directors": [
+    "Ang Lee"
+   ]
+  },
+  {
+   "label": "2001",
+   "year": 2001,
+   "ceremony": 74,
+   "film": "No Man's Land",
+   "original": "Ničija zemlja",
+   "country": "Bosnia and Herzegovina",
+   "directors": [
+    "Danis Tanović"
+   ]
+  },
+  {
+   "label": "2002",
+   "year": 2002,
+   "ceremony": 75,
+   "film": "Nowhere in Africa",
+   "original": "Nirgendwo in Afrika",
+   "country": "Germany",
+   "directors": [
+    "Caroline Link"
+   ]
+  },
+  {
+   "label": "2003",
+   "year": 2003,
+   "ceremony": 76,
+   "film": "The Barbarian Invasions",
+   "original": "Les Invasions barbares",
+   "country": "Canada",
+   "directors": [
+    "Denys Arcand"
+   ]
+  },
+  {
+   "label": "2004",
+   "year": 2004,
+   "ceremony": 77,
+   "film": "The Sea Inside",
+   "original": "Mar adentro",
+   "country": "Spain",
+   "directors": [
+    "Alejandro Amenábar"
+   ]
+  },
+  {
+   "label": "2005",
+   "year": 2005,
+   "ceremony": 78,
+   "film": "Tsotsi",
+   "original": "",
+   "country": "South Africa",
+   "directors": [
+    "Gavin Hood"
+   ]
+  },
+  {
+   "label": "2006",
+   "year": 2006,
+   "ceremony": 79,
+   "film": "The Lives of Others",
+   "original": "Das Leben der Anderen",
+   "country": "Germany",
+   "directors": [
+    "Florian Henckel von Donnersmarck"
+   ]
+  },
+  {
+   "label": "2007",
+   "year": 2007,
+   "ceremony": 80,
+   "film": "The Counterfeiters",
+   "original": "Die Fälscher",
+   "country": "Austria",
+   "directors": [
+    "Stefan Ruzowitzky"
+   ]
+  },
+  {
+   "label": "2008",
+   "year": 2008,
+   "ceremony": 81,
+   "film": "Departures",
+   "original": "Okuribito",
+   "country": "Japan",
+   "directors": [
+    "Yōjirō Takita"
+   ]
+  },
+  {
+   "label": "2009",
+   "year": 2009,
+   "ceremony": 82,
+   "film": "The Secret in Their Eyes",
+   "original": "El secreto de sus ojos",
+   "country": "Argentina",
+   "directors": [
+    "Juan José Campanella"
+   ]
+  },
+  {
+   "label": "2010",
+   "year": 2010,
+   "ceremony": 83,
+   "film": "In a Better World",
+   "original": "Hævnen",
+   "country": "Denmark",
+   "directors": [
+    "Susanne Bier"
+   ]
+  },
+  {
+   "label": "2011",
+   "year": 2011,
+   "ceremony": 84,
+   "film": "A Separation",
+   "original": "Jodaeiye Nader az Simin",
+   "country": "Iran",
+   "directors": [
+    "Asghar Farhadi"
+   ]
+  },
+  {
+   "label": "2012",
+   "year": 2012,
+   "ceremony": 85,
+   "film": "Amour",
+   "original": "",
+   "country": "Austria",
+   "directors": [
+    "Michael Haneke"
+   ]
+  },
+  {
+   "label": "2013",
+   "year": 2013,
+   "ceremony": 86,
+   "film": "The Great Beauty",
+   "original": "La grande bellezza",
+   "country": "Italy",
+   "directors": [
+    "Paolo Sorrentino"
+   ]
+  },
+  {
+   "label": "2014",
+   "year": 2014,
+   "ceremony": 87,
+   "film": "Ida",
+   "original": "",
+   "country": "Poland",
+   "directors": [
+    "Paweł Pawlikowski"
+   ]
+  },
+  {
+   "label": "2015",
+   "year": 2015,
+   "ceremony": 88,
+   "film": "Son of Saul",
+   "original": "Saul fia",
+   "country": "Hungary",
+   "directors": [
+    "László Nemes"
+   ]
+  },
+  {
+   "label": "2016",
+   "year": 2016,
+   "ceremony": 89,
+   "film": "The Salesman",
+   "original": "Forushande",
+   "country": "Iran",
+   "directors": [
+    "Asghar Farhadi"
+   ]
+  },
+  {
+   "label": "2017",
+   "year": 2017,
+   "ceremony": 90,
+   "film": "A Fantastic Woman",
+   "original": "Una mujer fantástica",
+   "country": "Chile",
+   "directors": [
+    "Sebastián Lelio"
+   ]
+  },
+  {
+   "label": "2018",
+   "year": 2018,
+   "ceremony": 91,
+   "film": "Roma",
+   "original": "",
+   "country": "Mexico",
+   "directors": [
+    "Alfonso Cuarón"
+   ]
+  },
+  {
+   "label": "2019",
+   "year": 2019,
+   "ceremony": 92,
+   "film": "Parasite",
+   "original": "Gisaengchung",
+   "country": "South Korea",
+   "directors": [
+    "Bong Joon-ho"
+   ]
+  },
+  {
+   "label": "2020",
+   "year": 2020,
+   "ceremony": 93,
+   "film": "Another Round",
+   "original": "Druk",
+   "country": "Denmark",
+   "directors": [
+    "Thomas Vinterberg"
+   ]
+  },
+  {
+   "label": "2021",
+   "year": 2021,
+   "ceremony": 94,
+   "film": "Drive My Car",
+   "original": "Doraibu mai kā",
+   "country": "Japan",
+   "directors": [
+    "Ryusuke Hamaguchi"
+   ]
+  },
+  {
+   "label": "2022",
+   "year": 2022,
+   "ceremony": 95,
+   "film": "All Quiet on the Western Front",
+   "original": "Im Westen nichts Neues",
+   "country": "Germany",
+   "directors": [
+    "Edward Berger"
+   ]
+  },
+  {
+   "label": "2023",
+   "year": 2023,
+   "ceremony": 96,
+   "film": "The Zone of Interest",
+   "original": "",
+   "country": "United Kingdom",
+   "directors": [
+    "Jonathan Glazer"
+   ]
+  },
+  {
+   "label": "2024",
+   "year": 2024,
+   "ceremony": 97,
+   "film": "I'm Still Here",
+   "original": "Ainda Estou Aqui",
+   "country": "Brazil",
+   "directors": [
+    "Walter Salles"
+   ]
+  },
+  {
+   "label": "2025",
+   "year": 2025,
+   "ceremony": 98,
+   "film": "Sentimental Value",
+   "original": "Affeksjonsverdi",
+   "country": "Norway",
+   "directors": [
+    "Joachim Trier"
+   ]
+  }
+ ]
+}

@@ -198,9 +198,9 @@ svg.morphing #gStyle,svg.morphing #gInf,svg.morphing #gTrace,svg.morphing #gHull
 .seenbtn[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:var(--bg);font-weight:600}
 .wantbtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:600}
 .film .fa{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.fg .wm,.wl .wm{width:13px;height:15px;padding:0;margin:0 7px -2px 0;background:none;border:0;cursor:pointer;vertical-align:baseline;flex:none}
-.fg .wm svg,.wl .wm svg{width:11px;height:13px;fill:none;stroke:var(--muted);stroke-width:1.3}
-.fg .wm[aria-pressed="true"] svg,.wl .wm[aria-pressed="true"] svg{fill:var(--accent);stroke:var(--accent)}
+.fg .wm,.wl .wm,ol.hl .wm{width:13px;height:15px;padding:0;margin:0 7px -2px 0;background:none;border:0;cursor:pointer;vertical-align:baseline;flex:none}
+.fg .wm svg,.wl .wm svg,ol.hl .wm svg{width:11px;height:13px;fill:none;stroke:var(--muted);stroke-width:1.3}
+.fg .wm[aria-pressed="true"] svg,.wl .wm[aria-pressed="true"] svg,ol.hl .wm[aria-pressed="true"] svg{fill:var(--accent);stroke:var(--accent)}
 .wl{list-style:none;padding:0;margin:8px 0 0;font-size:13px;line-height:1.5;display:flex;flex-direction:column;gap:3px}
 .wl li{display:flex;align-items:baseline}.wl .fy{display:inline-block;width:38px;color:var(--muted);flex:none}.wl .fn{flex:1;min-width:0}
 .wl .fr{margin-left:8px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}.wl .sm{flex:none}
@@ -237,8 +237,19 @@ ol.decfilms{list-style:none;padding:0;margin:0;display:flex;flex-direction:colum
 ol.decfilms li{display:flex;align-items:baseline;gap:6px}ol.decfilms .fy{color:var(--muted);width:34px;flex:none;font-variant-numeric:tabular-nums}
 ol.decfilms .fn{flex:1;min-width:0}ol.decfilms .fr{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
 .more{color:var(--muted);font-size:12.5px;padding-left:4px}
-.fg .sm{width:13px;height:13px;border-radius:50%;border:1.5px solid var(--muted);background:transparent;padding:0;margin:0 7px -2px 0;cursor:pointer;vertical-align:baseline}
-.fg .sm[aria-pressed="true"]{background:var(--ok);border-color:var(--ok)}
+button.b{font:inherit;font-size:11.5px;background:transparent;cursor:pointer}
+button.b:hover{color:var(--ink);border-color:var(--ink)}
+.film .b.hn{color:var(--ink);border-color:var(--accent)}
+.fg .fh{color:var(--accent);margin-left:5px;font-size:9px;cursor:help}
+ol.hl{list-style:none;padding:0;margin:6px 0 0;display:flex;flex-direction:column;gap:3px;font-size:13px;line-height:1.45}
+ol.hl li{display:flex;align-items:baseline}ol.hl .fy{display:inline-block;min-width:58px;padding-right:6px;color:var(--muted);flex:none;font-variant-numeric:tabular-nums}
+ol.hl .fn{flex:1;min-width:0}ol.hl .sm,ol.hl .wm{flex:none}ol.hl .sp{display:inline-block;width:40px;flex:none}ol.hl .sm,ol.hl .wm{margin-right:7px}
+ol.hl .yr{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}ol.hl .off{color:var(--muted);font-size:12px}
+ol.hl .lnk{font-size:12.5px}
+.hgroup{margin:4px 0 2px;font-size:12px;color:var(--muted)}
+.progress li button{font:inherit;color:var(--ink);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--line)}
+.fg .sm,.wl .sm,ol.hl .sm{width:13px;height:13px;border-radius:50%;border:1.5px solid var(--muted);background:transparent;padding:0;margin:0 7px -2px 0;cursor:pointer;vertical-align:baseline}
+.fg .sm[aria-pressed="true"],.wl .sm[aria-pressed="true"],ol.hl .sm[aria-pressed="true"]{background:var(--ok);border-color:var(--ok)}
 .track .pin.b{background:var(--in)}
 .vs{color:var(--muted);font-weight:400}
 .keyrow{display:flex;gap:14px;margin:4px 0 10px;font-size:12.5px;color:var(--muted)}
@@ -295,8 +306,12 @@ const byId = {}; DATA.directors.forEach(d => { byId[d.id] = d; d.cx = d.x; d.cy 
 const dirById = {}; DATA.directory.forEach(d => dirById[d.id] = d);
 const T = DATA.techniques, MV = DATA.movements;
 const ERA = ["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
-const state = {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false, lin: null, lg: 2, dec: 0, view: "map", k: 1, x: 0, y: 0};
-const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false, lin: null, dec: 0});
+const state = {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false, lin: null, lg: 2, dec: 0, hon: "", view: "map", k: 1, x: 0, y: 0};
+const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false, lin: null, dec: 0, hon: ""});
+/* lists and awards: which directors are on a list */
+const honCache = {};
+const honDirs = k => honCache[k] || (honCache[k] = new Set(DATA.lists[k].e.flatMap(x => x[3])));
+const LIST_ORDER = ["cannes", "oscar-picture", "oscar-director", "oscar-international", "tspdt-films", "tspdt-directors", "sight-and-sound", "cahiers-100", "cahiers-annual", "cahiers-decades", "house-of-tabula"].filter(k => DATA.lists[k]);
 /* films marked as seen: kept in this browser only */
 const stored = k => { try { return JSON.parse(localStorage.getItem("auteurAtlas." + k) || "{}") || {}; } catch (e) { return {}; } };
 const SEEN = stored("seen"), MYR = stored("mine"), IMR = stored("imdb"), WANT = stored("want");
@@ -445,7 +460,7 @@ function paint(){
   const showS = $("showStyle").checked, showI = $("showInf").checked;
   const onPath = state.path ? new Set([state.path.a, state.path.b].concat(state.path.steps.map(s => s.to))) : null;
   const mine = state.mine ? (state.mine === "want" ? wantDirs() : seenDirs()) : null;
-  const lin = state.lin ? lineage(state.lin, state.lg) : null, decSet = state.dec ? decActive(state.dec) : null;
+  const lin = state.lin ? lineage(state.lin, state.lg) : null, decSet = state.dec ? decActive(state.dec) : state.hon ? honDirs(state.hon) : null;
   const rel = state.sel && !onPath ? related(state.sel) : null;
   const active = state.tech || state.mov || state.geo || mine || onPath || rel || lin || decSet, quiet = mine || onPath || lin || decSet;
   let lit = 0;
@@ -537,9 +552,12 @@ function filmItem(f){
   const im = f.im ? "https://www.imdb.com/title/" + f.im + "/" : "https://www.imdb.com/find/?s=tt&q=" + q;
   const k = fkey(f), ir = IMR[k], my = MYR[k];
   return '<li class="film"><div><span class="ft">' + esc(f.t) + '</span>' + (f.y ? '<span class="fy">' + f.y + '</span>' : '') + '</div>' +
-    ((f.ts || f.ss || f.ht || f.r || f.ca || ir || my) ? '<div class="bd">' + (f.ca ? '<span class="b ca" title="Top prize at the Cannes Film Festival">' + esc(f.ca[1] === "Palme d'Or" ? "Palme d'Or" : "Cannes Grand Prix") + ' ' + f.ca[0] + '</span>' : '') + (f.ts ? '<span class="b ts" title="Rank in the TSPDT 1,000 Greatest Films, 2026">TSPDT #' + f.ts + '</span>' : '') +
-      (f.ss ? '<span class="b ss" title="Rank in the Sight and Sound critics\' poll, 2022">Sight and Sound #' + f.ss + '</span>' : '') +
-      (f.ht ? '<span class="b" title="On The House of Tabula\'s Ultimate Film Studies Watchlist">House of Tabula watchlist</span>' : '') +
+    ((f.ts || f.ss || f.ht || f.r || f.ca || f.hn || ir || my) ? '<div class="bd">' + (f.ca ? '<button class="b ca" type="button" data-hon="cannes" title="Top prize at the Cannes Film Festival">' + esc(f.ca[1] === "Palme d'Or" ? "Palme d'Or" : "Cannes Grand Prix") + ' ' + f.ca[0] + '</button>' : '') +
+      (f.hn ? f.hn.filter(h => h[0].startsWith("oscar")).map(h => '<button class="b hn" type="button" data-hon="' + h[0] + '">' + esc(h[1]) + '</button>').join("") : '') +
+      (f.ts ? '<button class="b ts" type="button" data-hon="tspdt-films" title="Rank in the TSPDT 1,000 Greatest Films, 2026">TSPDT #' + f.ts + '</button>' : '') +
+      (f.ss ? '<button class="b ss" type="button" data-hon="sight-and-sound" title="Rank in the Sight and Sound critics\' poll, 2022">Sight and Sound #' + f.ss + '</button>' : '') +
+      (f.hn ? f.hn.filter(h => !h[0].startsWith("oscar")).map(h => '<button class="b hn" type="button" data-hon="' + h[0] + '">' + esc(h[1]) + '</button>').join("") : '') +
+      (f.ht ? '<button class="b" type="button" data-hon="house-of-tabula" title="On The House of Tabula\'s Ultimate Film Studies Watchlist">House of Tabula watchlist</button>' : '') +
       (f.r ? '<span class="b rt" title="Average of ' + (f.rv || 0).toLocaleString("en") + ' user ratings on TMDB, out of 10">TMDB ' + Number(f.r).toFixed(1) + (f.rv ? ' <small>(' + fmtK(f.rv) + ' votes)</small>' : '') + '</span>' : '') +
       (ir ? '<span class="b im" title="IMDb rating from a file you imported. Only you see it.">IMDb ' + Number(ir[0]).toFixed(1) + (ir[1] ? ' <small>(' + fmtK(ir[1]) + ' votes)</small>' : '') + '</span>' : '') +
       (my ? '<span class="b me" title="Your rating, from your import">You: ' + myText(my) + '</span>' : '') + '</div>' : '') +
@@ -556,7 +574,7 @@ function lookups(name, wiki){
 let panelKey = "";
 function panel(){
   panelBody();
-  const key = state.cmp ? "c" + state.sel + state.cmp : state.path ? "p" + state.path.a + state.path.b : state.lin ? "l" + state.lin + state.lg : state.dec ? "d" + state.dec
+  const key = state.cmp ? "c" + state.sel + state.cmp : state.path ? "p" + state.path.a + state.path.b : state.lin ? "l" + state.lin + state.lg : state.dec ? "d" + state.dec : state.hon ? "h" + state.hon
     : state.mine ? "mine" + state.mine : state.mov || state.geo || state.dir || state.sel || "start", p = $("panel");
   if (key !== panelKey) { panelKey = key; p.classList.remove("enter"); void p.offsetWidth; p.classList.add("enter"); }
 }
@@ -684,6 +702,8 @@ function mineBody(p){
   const recs = suggestions();
   p.innerHTML = '<h2>Your films</h2>' + tabs + mineBox(true) +
     (recs.length ? '<h3>Next for you</h3><p class="meta">Directors you have not watched yet, close in style or linked by influence to the ones you have.</p><ul>' + recs.map(r => person(r.d.id, r.why)).join("") + '</ul>' : '') +
+    '<h3>Your progress on the lists</h3><ul class="facts progress">' + LIST_ORDER.filter(k => DATA.lists[k].kind !== "people").map(k => { const fe = DATA.lists[k].e.filter(x => x[5]);
+      return '<li><button type="button" data-hon="' + k + '">' + esc(DATA.lists[k].short) + '</button>: ' + fe.filter(x => SEEN[x[5]]).length + ' of ' + fe.length + '</li>'; }).join("") + '</ul>' +
     '<h3>Directors you have watched (' + rows.length + ')</h3><ul>' + rows.map(([d, s]) => person(d.id, s[0] + ' of ' + s[1] + ' films seen')).join("") + '</ul>';
   bind(p); p.scrollTop = 0;
 }
@@ -725,6 +745,28 @@ function decBody(p){
     (first.length ? '<h3>First films in the ' + dec + 's (' + first.length + ')</h3><ul>' + first.slice(0, 50).map(d => person(d.id, "First film " + filmYears(d)[0])).join("") +
       (first.length > 50 ? '<li class="more">and ' + (first.length - 50) + ' more</li>' : '') + '</ul>' : '');
   bind(p); p.scrollTop = 0;
+}
+function honBody(p){
+  const L = DATA.lists[state.hon], kind = L.kind, fe = L.e.filter(x => x[5]), seen = fe.filter(x => SEEN[x[5]]).length;
+  const who = x => x[3].length ? x[3].map(i => '<button class="lnk" type="button" data-go="' + i + '">' + esc(byId[i].name) + '</button>').join(" and ") : (x[4] ? '<span class="off" title="Not on the map yet">' + esc(x[4]) + '</span>' : '');
+  const marks = x => x[5] ? '<button class="sm" type="button" data-seen="' + esc(x[5]) + '" aria-pressed="' + (SEEN[x[5]] ? "true" : "false") + '" aria-label="Mark ' + esc(x[1]) + ' as seen"></button>' +
+    '<button class="wm" type="button" data-want="' + esc(x[5]) + '" aria-pressed="' + (WANT[x[5]] ? "true" : "false") + '" aria-label="Want to see ' + esc(x[1]) + '" title="Want to see">' + BOOKMARK + '</button>' : '<span class="sp"></span>';
+  const row = (x, lab) => '<li>' + (kind === "people" ? '' : marks(x)) + '<span class="fy">' + esc(lab) + '</span><span class="fn">' +
+    (kind === "people" ? who(x) : esc(x[1]) + (x[2] && kind === "ranked" ? ' <span class="yr">' + x[2] + '</span>' : '') + ' ' + who(x)) + '</span></li>';
+  let body = '';
+  if (kind === "yearly") { const by = {}; L.e.forEach(x => (by[x[0]] = by[x[0]] || []).push(x));
+    body = Object.keys(by).map(y => '<h3>' + esc(y) + '</h3><ol class="hl">' + by[y].map(x => row(x, x[6] ? "#" + x[6] : "")).join("") + '</ol>').join(""); }
+  else body = '<ol class="hl">' + L.e.map(x => row(x, kind === "ranked" || kind === "people" ? "#" + x[0] : x[0])).join("") + '</ol>';
+  const off = L.n - L.onmap;
+  p.innerHTML = '<h2>' + esc(L.name) + '</h2><p class="meta">' + (L.url ? '<a href="' + esc(L.url) + '">' + esc(L.src) + '</a>' : esc(L.src)) + ' &middot; ' + L.n + (kind === "people" ? ' directors' : ' films') +
+    (off ? ', ' + off + ' by directors not on this map yet' : '') + '.</p>' + (L.note ? '<p class="desc">' + esc(L.note) + '</p>' : '') +
+    (fe.length && kind !== "people" ? '<p class="desc" id="honSeen">You have seen <b>' + seen + '</b> of the ' + fe.length + ' films that can be marked here.</p>' : '') +
+    '<div class="btnrow">' + (state.view === "time" ? '' : '<button class="btn" type="button" id="linTime">See them on the timeline</button>') + '</div>' + body;
+  bind(p); p.scrollTop = 0;
+}
+function honChips(){
+  const g = {}; LIST_ORDER.forEach(k => (g[DATA.lists[k].group] = g[DATA.lists[k].group] || []).push(k));
+  return Object.keys(g).map(n => '<p class="hgroup">' + esc(n) + '</p><div class="chips">' + g[n].map(k => '<button class="chip" type="button" data-hon="' + k + '">' + esc(DATA.lists[k].short) + '</button>').join("") + '</div>').join("");
 }
 /* ratings across a career: one dot per film with a TMDB rating, key films in gold */
 let CHART_PTS = [];
@@ -776,6 +818,7 @@ function panelBody(){
   if (state.mine) { mineBody(p); return; }
   if (state.lin) { linBody(p); return; }
   if (state.dec) { decBody(p); return; }
+  if (state.hon) { honBody(p); return; }
   if (state.mov) {
     const m = MV[state.mov];
     p.innerHTML = '<h2>' + esc(m.name) + '</h2><p class="meta">' + (m.kind === "category" ? "Critical category" : "Movement") + ' &middot; ' + esc(m.period) + '</p><p class="desc">' + esc(m.desc) + '</p>' +
@@ -804,11 +847,14 @@ function panelBody(){
     const c = DATA.counts, S = DATA.sources;
     p.innerHTML = '<h2>How to read this map</h2><p class="desc">' + DATA.directors.length + ' directors are placed so that similar styles sit close together. Pick one to see their films, techniques, nearest neighbours and lines of influence.' + (DATA.directory.length ? ' Another ' + DATA.directory.length + ' directors from the film lists can be found through search.' : '') + '</p>' +
       tracer(null, 'Trace the influences between two directors') + mineBox(false) +
+      '<h3>Lists and awards</h3>' + honChips() +
       '<h3>Browse by decade</h3><div class="chips">' + DATA.timeline.years.filter(([y]) => y >= 1900 && y <= 2020).map(([y]) => '<button class="chip" type="button" data-dec="' + y + '">' + y + 's</button>').join("") + '</div>' +
       '<h3>What the data rests on</h3><ul class="src">' +
       '<li><b><a href="' + S.tspdt.url + '">' + esc(S.tspdt.name) + '</a></b> <span>' + esc(S.tspdt.detail) + '. ' + c.tspdt + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.sight_and_sound.url + '">' + esc(S.sight_and_sound.name) + '</a></b> <span>' + esc(S.sight_and_sound.detail) + '. ' + c.ss + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.cannes.url + '">' + esc(S.cannes.name) + '</a></b> <span>All ' + c.cannes + ' winners of the top prize, 1939 to 2026.</span></li>' +
+      (S.oscars ? '<li><b><a href="' + S.oscars.url + '">' + esc(S.oscars.name) + '</a></b> <span>' + esc(S.oscars.detail) + '. Compiled by hand; the latest ceremony was checked against press reports.</span></li>' : '') +
+      (S.cahiers_100 ? '<li><b><a href="' + S.cahiers_100.url + '">' + esc(S.cahiers_100.name) + '</a></b> <span>' + esc(S.cahiers_100.detail) + '; and the ' + '<a href="' + S.cahiers_annual.url + '">top 10 of the year</a>, 1951 to 2025.</span></li>' : '') +
       '<li><b>' + esc(S.house_of_tabula.name) + '</b> <span>' + esc(S.house_of_tabula.detail) + '. ' + c.hot + ' of its films are matched here.</span></li>' +
       '<li><b>' + esc(S.ohwc.name) + '</b> <span>' + esc(S.ohwc.detail) + '. ' + c.evidence + ' of the ' + DATA.influence.length + ' influence links point to a page where it names both directors together.</span></li>' +
       '<li><b><a href="' + S.senses_of_cinema.url + '">' + esc(S.senses_of_cinema.name) + '</a></b> <span>' + esc(S.senses_of_cinema.detail) + ', linked from each director for further reading.</span></li>' +
@@ -844,7 +890,7 @@ function panelBody(){
         (d.fg.some(x => x[3]) ? '<button type="button" data-fgsort="r" aria-pressed="false">TMDB rating</button>' : '') + (d.fg.some(x => IMR[gkey(x)]) ? '<button type="button" data-fgsort="i" aria-pressed="false">IMDb rating</button>' : '') + '</div>' : '') +
       '<ol' + (d.fg.some(x => IMR[gkey(x)]) ? ' class="one"' : '') + '>' + d.fg.map((x, n) => { const k = gkey(x);
       return '<li data-n="' + n + '" data-r="' + (x[3] || 0) + '" data-i="' + (IMR[k] ? IMR[k][0] : 0) + '"><button class="sm" type="button" data-seen="' + esc(k) + '" aria-pressed="' + (SEEN[k] ? "true" : "false") + '" aria-label="Mark ' + esc(x[1]) + ' as seen"></button><button class="wm" type="button" data-want="' + esc(k) + '" aria-pressed="' + (WANT[k] ? "true" : "false") + '" aria-label="Want to see ' + esc(x[1]) + '" title="Want to see">' + BOOKMARK + '</button><span class="fy">' + x[0] + '</span><span class="fn">' +
-        (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</span>' + (x[3] ? '<span class="fr" title="TMDB user rating, out of 10">' + x[3].toFixed(1) + '</span>' : '') +
+        (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</span>' + (x[4] ? '<span class="fh" title="' + esc(x[4]) + '">&#9670;</span>' : '') + (x[3] ? '<span class="fr" title="TMDB user rating, out of 10">' + x[3].toFixed(1) + '</span>' : '') +
         (IMR[k] ? '<span class="fr im" title="IMDb rating, from your own file">IMDb ' + Number(IMR[k][0]).toFixed(1) + '</span>' : '') + '</li>'; }).join("") + '</ol></details>' : '') +
     awardsHtml + (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
     '<h3>Techniques <small>draft</small></h3><div class="chips">' + chips + '</div>' +
@@ -862,6 +908,7 @@ function syncMarks(p, k){
   p.querySelectorAll('[data-seen="' + CSS.escape(k) + '"]').forEach(x => { x.setAttribute("aria-pressed", SEEN[k] ? "true" : "false"); if (x.classList.contains("seenbtn")) x.innerHTML = SEEN[k] ? "Seen &#10003;" : "Mark as seen"; });
   p.querySelectorAll('[data-want="' + CSS.escape(k) + '"]').forEach(x => { x.setAttribute("aria-pressed", WANT[k] ? "true" : "false"); if (x.classList.contains("wantbtn")) x.innerHTML = WANT[k] ? "Want to see &#10003;" : "Want to see"; });
   const d = byId[state.sel], s = $("seenSum"); if (d && s) { const st = seenStats(d); s.textContent = "seen " + st.join(" of "); s.hidden = !st[0]; }
+  const hs = $("honSeen"); if (hs && state.hon) { const fe = DATA.lists[state.hon].e.filter(x => x[5]); hs.innerHTML = 'You have seen <b>' + fe.filter(x => SEEN[x[5]]).length + '</b> of the ' + fe.length + ' films that can be marked here.'; }
   markSeenNodes();
 }
 function byName(v){ const q = norm((v || "").trim()); if (!q) return null; return DATA.directors.find(d => norm(d.name) === q) || DATA.directors.find(d => norm(d.name).includes(q)) || null; }
@@ -878,6 +925,7 @@ function bind(p){
   p.querySelectorAll("[data-lin]").forEach(b => b.addEventListener("click", () => { const id = b.dataset.lin; clearAll(); state.lin = id; paint(); }));
   p.querySelectorAll("[data-lg]").forEach(b => b.addEventListener("click", () => { state.lg = +b.dataset.lg; paint(); }));
   p.querySelectorAll("[data-dec]").forEach(b => b.addEventListener("click", () => { clearAll(); state.dec = +b.dataset.dec; paint(); }));
+  p.querySelectorAll("[data-hon]").forEach(b => b.addEventListener("click", () => { const k = b.dataset.hon; clearAll(); state.hon = k; paint(); }));
   if ($("linTime")) $("linTime").addEventListener("click", () => { setView("time"); syncRoute(); });
   p.querySelectorAll("[data-wsort]").forEach(b => b.addEventListener("click", () => { const ol = p.querySelector("ol.wl"), by = b.dataset.wsort;
     [...ol.children].sort((x, y) => (by === "y" ? 0 : +y.dataset[by] - +x.dataset[by]) || (+x.dataset.n - +y.dataset.n)).forEach(li => ol.appendChild(li));
@@ -981,7 +1029,7 @@ function fitPath(){
 let routing = false;
 function route(){ const P = state.path;
   const r = state.cmp ? "cmp/" + state.sel + "/" + state.cmp : P ? "path/" + P.a + "/" + P.b : state.lin ? "lin/" + state.lin + (state.lg !== 2 ? "/" + state.lg : "") : state.sel ? state.sel : state.mov ? "m/" + state.mov : state.tech ? "t/" + state.tech
-    : state.geo ? "g/" + state.geo : state.lin ? "lin/" + state.lin + (state.lg !== 2 ? "/" + state.lg : "") : state.dec ? "d/" + state.dec
+    : state.geo ? "g/" + state.geo : state.lin ? "lin/" + state.lin + (state.lg !== 2 ? "/" + state.lg : "") : state.dec ? "d/" + state.dec : state.hon ? "h/" + state.hon
     : state.mine ? (state.mine === "want" ? "want" : "mine") : state.dir ? "x/" + state.dir : "";
   return state.view === "time" ? "timeline" + (r ? "/" + r : "") : r; }
 function syncRoute(){
@@ -998,6 +1046,7 @@ function applyRoute(){
   if (r === "mine" || r === "want") { state.mine = r === "want" ? "want" : "seen"; return null; }
   if ((m = r.match(/^lin\/([^/]+?)(?:\/([123]))?$/)) && byId[m[1]]) { state.lin = m[1]; state.lg = +(m[2] || 2); return m[1]; }
   if ((m = r.match(/^d\/(\d{4})$/)) && +m[1] >= 1890 && +m[1] <= 2020) { state.dec = +m[1]; return null; }
+  if ((m = r.match(/^h\/(.+)$/)) && DATA.lists[m[1]]) { state.hon = m[1]; return null; }
   if ((m = r.match(/^path\/([^/]+)\/([^/]+)$/)) && byId[m[1]] && byId[m[2]]) { setPath(m[1], m[2], false); return "path"; }
   if ((m = r.match(/^m\/(.+)$/)) && MV[m[1]]) state.mov = m[1];
   else if ((m = r.match(/^t\/(.+)$/)) && T[m[1]]) state.tech = m[1];

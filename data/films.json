@@ -128,7 +128,7 @@
   "tspdt": 8,
   "sight_and_sound": 11,
   "sight_and_sound_votes": 116,
-  "house_of_tabula": null,
+  "house_of_tabula": 33,
   "country": "USA",
   "runtime": 110,
   "colour": "BW",
@@ -698,7 +698,7 @@
   "tspdt": 41,
   "sight_and_sound": 70,
   "sight_and_sound_votes": 46,
-  "house_of_tabula": null,
+  "house_of_tabula": 62,
   "country": "USA",
   "runtime": 110,
   "colour": "BW",
@@ -991,7 +991,7 @@
   "tspdt": 58,
   "sight_and_sound": 88,
   "sight_and_sound_votes": 42,
-  "house_of_tabula": null,
+  "house_of_tabula": 67,
   "country": "Japan",
   "runtime": 96,
   "colour": "BW",
@@ -2197,7 +2197,7 @@
   "tspdt": 128,
   "sight_and_sound": 153,
   "sight_and_sound_votes": 24,
-  "house_of_tabula": null,
+  "house_of_tabula": 83,
   "country": "France",
   "runtime": 85,
   "colour": "BW",
@@ -2316,7 +2316,7 @@
   "tspdt": 135,
   "sight_and_sound": 167,
   "sight_and_sound_votes": 22,
-  "house_of_tabula": null,
+  "house_of_tabula": 63,
   "country": "Mexico",
   "runtime": 88,
   "colour": "BW",
@@ -2350,7 +2350,7 @@
   "tspdt": 137,
   "sight_and_sound": 273,
   "sight_and_sound_votes": 14,
-  "house_of_tabula": null,
+  "house_of_tabula": 115,
   "country": "USA",
   "runtime": 121,
   "colour": "Col",
@@ -2648,7 +2648,7 @@
   "tspdt": 154,
   "sight_and_sound": 153,
   "sight_and_sound_votes": 24,
-  "house_of_tabula": null,
+  "house_of_tabula": 35,
   "country": "France",
   "runtime": 16,
   "colour": "BW",
@@ -3178,7 +3178,7 @@
   "tspdt": 185,
   "sight_and_sound": 114,
   "sight_and_sound_votes": 34,
-  "house_of_tabula": null,
+  "house_of_tabula": 95,
   "country": "USSR",
   "runtime": 80,
   "colour": "Col",
@@ -4529,8 +4529,8 @@
    "luisgarciaberlanga"
   ],
   "tspdt": 264,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 522,
+  "sight_and_sound_votes": 7,
   "house_of_tabula": null,
   "country": "Spain-Italy",
   "runtime": 90,
@@ -4668,8 +4668,8 @@
    "murnau"
   ],
   "tspdt": 272,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 295,
+  "sight_and_sound_votes": 13,
   "house_of_tabula": null,
   "country": "USA",
   "runtime": 82,
@@ -6931,11 +6931,11 @@
   "title": "Fantasia",
   "year": 1940,
   "directors": [
-   "x:directorsvarious"
+   "davidhand"
   ],
   "tspdt": 404,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 414,
+  "sight_and_sound_votes": 9,
   "house_of_tabula": 48,
   "country": "USA",
   "runtime": 120,
@@ -7913,7 +7913,7 @@
   "tspdt": 461,
   "sight_and_sound": 461,
   "sight_and_sound_votes": 8,
-  "house_of_tabula": null,
+  "house_of_tabula": 144,
   "country": "Denmark",
   "runtime": 105,
   "colour": "Col",
@@ -12353,8 +12353,8 @@
    "ford"
   ],
   "tspdt": 720,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 608,
+  "sight_and_sound_votes": 6,
   "house_of_tabula": null,
   "country": "USA",
   "runtime": 87,
@@ -12506,8 +12506,8 @@
    "gurudutt"
   ],
   "tspdt": 729,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 461,
+  "sight_and_sound_votes": 8,
   "house_of_tabula": null,
   "country": "India",
   "runtime": 148,
@@ -13203,8 +13203,8 @@
    "ritwikghatak"
   ],
   "tspdt": 770,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 414,
+  "sight_and_sound_votes": 9,
   "house_of_tabula": null,
   "country": "India",
   "runtime": 126,
@@ -13747,8 +13747,8 @@
    "mizoguchi"
   ],
   "tspdt": 802,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 850,
+  "sight_and_sound_votes": 4,
   "house_of_tabula": null,
   "country": "Japan",
   "runtime": 100,
@@ -16586,8 +16586,8 @@
    "manoeldeoliveira"
   ],
   "tspdt": 968,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 702,
+  "sight_and_sound_votes": 5,
   "house_of_tabula": null,
   "country": "Portugal",
   "runtime": 262,
@@ -17177,23 +17177,6 @@
   "cannes": null
  },
  {
-  "id": "tabu-a-story-of-the-south-seas-1931",
-  "title": "Tabu: A Story of the South Seas",
-  "year": 1931,
-  "directors": [
-   "murnau"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 295,
-  "sight_and_sound_votes": 13,
-  "house_of_tabula": null,
-  "country": "USA",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "handsworth-songs-1986",
   "title": "Handsworth Songs",
   "year": 1986,
@@ -17279,23 +17262,6 @@
   "cannes": null
  },
  {
-  "id": "fantasia-1940-2",
-  "title": "Fantasia",
-  "year": 1940,
-  "directors": [
-   "davidhand"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 414,
-  "sight_and_sound_votes": 9,
-  "house_of_tabula": null,
-  "country": "USA",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "nomadland-2020",
   "title": "Nomadland",
   "year": 2020,
@@ -17324,23 +17290,6 @@
   "sight_and_sound_votes": 9,
   "house_of_tabula": null,
   "country": "Chile, Cuba",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "the-golden-thread-1965",
-  "title": "The Golden Thread",
-  "year": 1965,
-  "directors": [
-   "ritwikghatak"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 414,
-  "sight_and_sound_votes": 9,
-  "house_of_tabula": null,
-  "country": "India",
   "runtime": null,
   "colour": "",
   "genre": "",
@@ -17460,23 +17409,6 @@
   "sight_and_sound_votes": 8,
   "house_of_tabula": null,
   "country": "UK",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "paper-flowers-1959",
-  "title": "Paper Flowers",
-  "year": 1959,
-  "directors": [
-   "gurudutt"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 461,
-  "sight_and_sound_votes": 8,
-  "house_of_tabula": null,
-  "country": "India",
   "runtime": null,
   "colour": "",
   "genre": "",
@@ -17820,23 +17752,6 @@
   "sight_and_sound_votes": 7,
   "house_of_tabula": null,
   "country": "Iran",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "the-executioner-1963",
-  "title": "The Executioner",
-  "year": 1963,
-  "directors": [
-   "luisgarciaberlanga"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 522,
-  "sight_and_sound_votes": 7,
-  "house_of_tabula": null,
-  "country": "Spain, Italy",
   "runtime": null,
   "colour": "",
   "genre": "",
@@ -18305,23 +18220,6 @@
   "cannes": null
  },
  {
-  "id": "seven-women-1966",
-  "title": "Seven Women",
-  "year": 1966,
-  "directors": [
-   "ford"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 608,
-  "sight_and_sound_votes": 6,
-  "house_of_tabula": null,
-  "country": "USA",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "speed-racer-2008",
   "title": "Speed Racer",
   "year": 2008,
@@ -18489,23 +18387,6 @@
   "sight_and_sound_votes": 5,
   "house_of_tabula": null,
   "country": "Fr, UK, USA",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "amor-de-perdicao-1978",
-  "title": "Amor de Perdição",
-  "year": 1978,
-  "directors": [
-   "manoeldeoliveira"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 702,
-  "sight_and_sound_votes": 5,
-  "house_of_tabula": null,
-  "country": "Portugal",
   "runtime": null,
   "colour": "",
   "genre": "",
@@ -20927,23 +20808,6 @@
   "cannes": null
  },
  {
-  "id": "story-from-chikamatsu-a-crucified-lovers-the-1954",
-  "title": "Story from Chikamatsu, A (Crucified Lovers, The)",
-  "year": 1954,
-  "directors": [
-   "mizoguchi"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 850,
-  "sight_and_sound_votes": 4,
-  "house_of_tabula": null,
-  "country": "Japan",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "street-of-crocodiles-1986",
   "title": "Street of Crocodiles",
   "year": 1986,
@@ -21577,23 +21441,6 @@
   "cannes": null
  },
  {
-  "id": "an-andalusian-dog-1929",
-  "title": "An Andalusian Dog",
-  "year": 1929,
-  "directors": [
-   "bunuel"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 35,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "another-round-vinterberg",
   "title": "Another Round",
   "year": 2020,
@@ -22036,45 +21883,11 @@
   "cannes": null
  },
  {
-  "id": "enthusiasm-vertov",
-  "title": "Enthusiasm",
-  "year": 1931,
-  "directors": [
-   "vertov"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "entr-acte-reneclair",
   "title": "Entr'acte",
   "year": 1924,
   "directors": [
    "reneclair"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "entranced-earth-rocha",
-  "title": "Entranced Earth",
-  "year": 1967,
-  "directors": [
-   "rocha"
   ],
   "tspdt": null,
   "sight_and_sound": null,
@@ -22589,23 +22402,6 @@
   "cannes": null
  },
  {
-  "id": "le-cercle-rouge-melville",
-  "title": "Le Cercle Rouge",
-  "year": 1970,
-  "directors": [
-   "melville"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "le-doulos-melville",
   "title": "Le Doulos",
   "year": 1962,
@@ -22888,23 +22684,6 @@
   "sight_and_sound": null,
   "sight_and_sound_votes": null,
   "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "my-life-to-live-1962",
-  "title": "My Life to Live",
-  "year": 1962,
-  "directors": [
-   "godard"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 83,
   "country": "",
   "runtime": null,
   "colour": "",
@@ -23303,23 +23082,6 @@
   "cannes": null
  },
  {
-  "id": "star-wars-episode-iv-a-new-hope-1977",
-  "title": "Star Wars: Episode IV - A New Hope",
-  "year": 1977,
-  "directors": [
-   "georgelucas"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 115,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "stolen-kisses-truffaut",
   "title": "Stolen Kisses",
   "year": 1968,
@@ -23381,40 +23143,6 @@
   "sight_and_sound": null,
   "sight_and_sound_votes": null,
   "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "sunrise-1927",
-  "title": "Sunrise",
-  "year": 1927,
-  "directors": [
-   "murnau"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 33,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "sunset-boulevard-1950",
-  "title": "Sunset Boulevard",
-  "year": 1950,
-  "directors": [
-   "wilder"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 62,
   "country": "",
   "runtime": null,
   "colour": "",
@@ -23551,40 +23279,6 @@
   "sight_and_sound": null,
   "sight_and_sound_votes": null,
   "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "the-celebration-1998",
-  "title": "The Celebration",
-  "year": 1998,
-  "directors": [
-   "vinterberg"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 144,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "the-color-of-pomegranates-1969",
-  "title": "The Color of Pomegranates",
-  "year": 1969,
-  "directors": [
-   "sergeiparajanov"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 95,
   "country": "",
   "runtime": null,
   "colour": "",
@@ -23853,23 +23547,6 @@
   }
  },
  {
-  "id": "the-young-and-the-damned-1950",
-  "title": "The Young and the Damned",
-  "year": 1950,
-  "directors": [
-   "bunuel"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 63,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "three-songs-about-lenin-vertov",
   "title": "Three Songs About Lenin",
   "year": 1934,
@@ -23948,23 +23625,6 @@
   "sight_and_sound": null,
   "sight_and_sound_votes": null,
   "house_of_tabula": null,
-  "country": "",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "ugetsu-1953",
-  "title": "Ugetsu",
-  "year": 1953,
-  "directors": [
-   "mizoguchi"
-  ],
-  "tspdt": null,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
-  "house_of_tabula": 67,
   "country": "",
   "runtime": null,
   "colour": "",
@@ -35945,6 +35605,2940 @@
   "year": 1937,
   "directors": [
    "yuanmuzhi"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-divine-lady-1929",
+  "title": "The Divine Lady",
+  "year": 1929,
+  "directors": [
+   "franklloyd"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "cavalcade-1933",
+  "title": "Cavalcade",
+  "year": 1933,
+  "directors": [
+   "franklloyd"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "mutiny-on-the-bounty-1935",
+  "title": "Mutiny on the Bounty",
+  "year": 1935,
+  "directors": [
+   "franklloyd"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "skippy-1931",
+  "title": "Skippy",
+  "year": 1931,
+  "directors": [
+   "normantaurog"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "boys-town-1938",
+  "title": "Boys Town",
+  "year": 1938,
+  "directors": [
+   "normantaurog"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "blue-hawaii-1961",
+  "title": "Blue Hawaii",
+  "year": 1961,
+  "directors": [
+   "normantaurog"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "planet-of-the-apes-1968",
+  "title": "Planet of the Apes",
+  "year": 1968,
+  "directors": [
+   "franklinjschaffner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "patton-1970",
+  "title": "Patton",
+  "year": 1970,
+  "directors": [
+   "franklinjschaffner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "papillon-1973",
+  "title": "Papillon",
+  "year": 1973,
+  "directors": [
+   "franklinjschaffner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "kramer-vs-kramer-1979",
+  "title": "Kramer vs. Kramer",
+  "year": 1979,
+  "directors": [
+   "robertbenton"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "places-in-the-heart-1984",
+  "title": "Places in the Heart",
+  "year": 1984,
+  "directors": [
+   "robertbenton"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "nobody-s-fool-1994",
+  "title": "Nobody's Fool",
+  "year": 1994,
+  "directors": [
+   "robertbenton"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "ordinary-people-1980",
+  "title": "Ordinary People",
+  "year": 1980,
+  "directors": [
+   "robertredford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "a-river-runs-through-it-1992",
+  "title": "A River Runs Through It",
+  "year": 1992,
+  "directors": [
+   "robertredford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "quiz-show-1994",
+  "title": "Quiz Show",
+  "year": 1994,
+  "directors": [
+   "robertredford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "oh-what-a-lovely-war-1969",
+  "title": "Oh! What a Lovely War",
+  "year": 1969,
+  "directors": [
+   "richardattenborough"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "gandhi-1982",
+  "title": "Gandhi",
+  "year": 1982,
+  "directors": [
+   "richardattenborough"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "cry-freedom-1987",
+  "title": "Cry Freedom",
+  "year": 1987,
+  "directors": [
+   "richardattenborough"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "chaplin-1992",
+  "title": "Chaplin",
+  "year": 1992,
+  "directors": [
+   "richardattenborough"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "diner-1982",
+  "title": "Diner",
+  "year": 1982,
+  "directors": [
+   "barrylevinson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "rain-man-1988",
+  "title": "Rain Man",
+  "year": 1988,
+  "directors": [
+   "barrylevinson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "wag-the-dog-1997",
+  "title": "Wag the Dog",
+  "year": 1997,
+  "directors": [
+   "barrylevinson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dances-with-wolves-1990",
+  "title": "Dances with Wolves",
+  "year": 1990,
+  "directors": [
+   "kevincostner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "open-range-2003",
+  "title": "Open Range",
+  "year": 2003,
+  "directors": [
+   "kevincostner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "horizon-an-american-saga-chapter-1-2024",
+  "title": "Horizon: An American Saga – Chapter 1",
+  "year": 2024,
+  "directors": [
+   "kevincostner"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "braveheart-1995",
+  "title": "Braveheart",
+  "year": 1995,
+  "directors": [
+   "melgibson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-passion-of-the-christ-2004",
+  "title": "The Passion of the Christ",
+  "year": 2004,
+  "directors": [
+   "melgibson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "apocalypto-2006",
+  "title": "Apocalypto",
+  "year": 2006,
+  "directors": [
+   "melgibson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "hacksaw-ridge-2016",
+  "title": "Hacksaw Ridge",
+  "year": 2016,
+  "directors": [
+   "melgibson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "splash-1984",
+  "title": "Splash",
+  "year": 1984,
+  "directors": [
+   "ronhoward"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "apollo-13-1995",
+  "title": "Apollo 13",
+  "year": 1995,
+  "directors": [
+   "ronhoward"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "a-beautiful-mind-2001",
+  "title": "A Beautiful Mind",
+  "year": 2001,
+  "directors": [
+   "ronhoward"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "rush-2013",
+  "title": "Rush",
+  "year": 2013,
+  "directors": [
+   "ronhoward"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-damned-united-2009",
+  "title": "The Damned United",
+  "year": 2009,
+  "directors": [
+   "tomhooper"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-king-s-speech-2010",
+  "title": "The King's Speech",
+  "year": 2010,
+  "directors": [
+   "tomhooper"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "les-miserables-2012",
+  "title": "Les Misérables",
+  "year": 2012,
+  "directors": [
+   "tomhooper"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "oss-117-cairo-nest-of-spies-2006",
+  "title": "OSS 117: Cairo, Nest of Spies",
+  "year": 2006,
+  "directors": [
+   "michelhazanavicius"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-artist-2011",
+  "title": "The Artist",
+  "year": 2011,
+  "directors": [
+   "michelhazanavicius"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "redoubtable-2017",
+  "title": "Redoubtable",
+  "year": 2017,
+  "directors": [
+   "michelhazanavicius"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "wings-1927",
+  "title": "Wings",
+  "year": 1927,
+  "directors": [
+   "williamawellman"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-public-enemy-1931",
+  "title": "The Public Enemy",
+  "year": 1931,
+  "directors": [
+   "williamawellman"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-ox-bow-incident-1943",
+  "title": "The Ox-Bow Incident",
+  "year": 1943,
+  "directors": [
+   "williamawellman"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "our-dancing-daughters-1928",
+  "title": "Our Dancing Daughters",
+  "year": 1928,
+  "directors": [
+   "harrybeaumont"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-broadway-melody-1929",
+  "title": "The Broadway Melody",
+  "year": 1929,
+  "directors": [
+   "harrybeaumont"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "cimarron-1931",
+  "title": "Cimarron",
+  "year": 1931,
+  "directors": [
+   "wesleyruggles"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "i-m-no-angel-1933",
+  "title": "I'm No Angel",
+  "year": 1933,
+  "directors": [
+   "wesleyruggles"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "grand-hotel-1932",
+  "title": "Grand Hotel",
+  "year": 1932,
+  "directors": [
+   "edmundgoulding"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dark-victory-1939",
+  "title": "Dark Victory",
+  "year": 1939,
+  "directors": [
+   "edmundgoulding"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "nightmare-alley-1947",
+  "title": "Nightmare Alley",
+  "year": 1947,
+  "directors": [
+   "edmundgoulding"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-great-ziegfeld-1936",
+  "title": "The Great Ziegfeld",
+  "year": 1936,
+  "directors": [
+   "robertzleonard"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "maytime-1937",
+  "title": "Maytime",
+  "year": 1937,
+  "directors": [
+   "robertzleonard"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "pride-and-prejudice-1940",
+  "title": "Pride and Prejudice",
+  "year": 1940,
+  "directors": [
+   "robertzleonard"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "henry-v-1944",
+  "title": "Henry V",
+  "year": 1944,
+  "directors": [
+   "laurenceolivier"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "hamlet-1948",
+  "title": "Hamlet",
+  "year": 1948,
+  "directors": [
+   "laurenceolivier"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "richard-iii-1955",
+  "title": "Richard III",
+  "year": 1955,
+  "directors": [
+   "laurenceolivier"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-dam-busters-1955",
+  "title": "The Dam Busters",
+  "year": 1955,
+  "directors": [
+   "michaelanderson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "around-the-world-in-80-days-1956",
+  "title": "Around the World in 80 Days",
+  "year": 1956,
+  "directors": [
+   "michaelanderson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "logan-s-run-1976",
+  "title": "Logan's Run",
+  "year": 1976,
+  "directors": [
+   "michaelanderson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "in-the-heat-of-the-night-1967",
+  "title": "In the Heat of the Night",
+  "year": 1967,
+  "directors": [
+   "normanjewison"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "fiddler-on-the-roof-1971",
+  "title": "Fiddler on the Roof",
+  "year": 1971,
+  "directors": [
+   "normanjewison"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "moonstruck-1987",
+  "title": "Moonstruck",
+  "year": 1987,
+  "directors": [
+   "normanjewison"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "chariots-of-fire-1981",
+  "title": "Chariots of Fire",
+  "year": 1981,
+  "directors": [
+   "hughhudson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "greystoke-the-legend-of-tarzan-lord-of-the-apes-1984",
+  "title": "Greystoke: The Legend of Tarzan, Lord of the Apes",
+  "year": 1984,
+  "directors": [
+   "hughhudson"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "breaker-morant-1980",
+  "title": "Breaker Morant",
+  "year": 1980,
+  "directors": [
+   "bruceberesford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "tender-mercies-1983",
+  "title": "Tender Mercies",
+  "year": 1983,
+  "directors": [
+   "bruceberesford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "driving-miss-daisy-1989",
+  "title": "Driving Miss Daisy",
+  "year": 1989,
+  "directors": [
+   "bruceberesford"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "mrs-brown-1997",
+  "title": "Mrs Brown",
+  "year": 1997,
+  "directors": [
+   "johnmadden"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "shakespeare-in-love-1998",
+  "title": "Shakespeare in Love",
+  "year": 1998,
+  "directors": [
+   "johnmadden"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-best-exotic-marigold-hotel-2011",
+  "title": "The Best Exotic Marigold Hotel",
+  "year": 2011,
+  "directors": [
+   "johnmadden"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "chicago-2002",
+  "title": "Chicago",
+  "year": 2002,
+  "directors": [
+   "robmarshall"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "memoirs-of-a-geisha-2005",
+  "title": "Memoirs of a Geisha",
+  "year": 2005,
+  "directors": [
+   "robmarshall"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "into-the-woods-2014",
+  "title": "Into the Woods",
+  "year": 2014,
+  "directors": [
+   "robmarshall"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "crash-2004",
+  "title": "Crash",
+  "year": 2004,
+  "directors": [
+   "paulhaggis"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "in-the-valley-of-elah-2007",
+  "title": "In the Valley of Elah",
+  "year": 2007,
+  "directors": [
+   "paulhaggis"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "gone-baby-gone-2007",
+  "title": "Gone Baby Gone",
+  "year": 2007,
+  "directors": [
+   "benaffleck"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-town-2010",
+  "title": "The Town",
+  "year": 2010,
+  "directors": [
+   "benaffleck"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "argo-2012",
+  "title": "Argo",
+  "year": 2012,
+  "directors": [
+   "benaffleck"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-station-agent-2003",
+  "title": "The Station Agent",
+  "year": 2003,
+  "directors": [
+   "tommccarthy"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-visitor-2007",
+  "title": "The Visitor",
+  "year": 2007,
+  "directors": [
+   "tommccarthy"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "spotlight-2015",
+  "title": "Spotlight",
+  "year": 2015,
+  "directors": [
+   "tommccarthy"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dumb-and-dumber-1994",
+  "title": "Dumb and Dumber",
+  "year": 1994,
+  "directors": [
+   "peterfarrelly"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "there-s-something-about-mary-1998",
+  "title": "There's Something About Mary",
+  "year": 1998,
+  "directors": [
+   "peterfarrelly"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "green-book-2018",
+  "title": "Green Book",
+  "year": 2018,
+  "directors": [
+   "peterfarrelly"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "tallulah-2016",
+  "title": "Tallulah",
+  "year": 2016,
+  "directors": [
+   "sianheder"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "coda-2021",
+  "title": "CODA",
+  "year": 2021,
+  "directors": [
+   "sianheder"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "monsieur-vincent-1947",
+  "title": "Monsieur Vincent",
+  "year": 1947,
+  "directors": [
+   "mauricecloche"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "samurai-i-musashi-miyamoto-1954",
+  "title": "Samurai I: Musashi Miyamoto",
+  "year": 1954,
+  "directors": [
+   "hiroshiinagaki"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "rickshaw-man-1958",
+  "title": "Rickshaw Man",
+  "year": 1958,
+  "directors": [
+   "hiroshiinagaki"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "chushingura-1962",
+  "title": "Chushingura",
+  "year": 1962,
+  "directors": [
+   "hiroshiinagaki"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "sundays-and-cybele-1962",
+  "title": "Sundays and Cybèle",
+  "year": 1962,
+  "directors": [
+   "sergebourguignon"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "death-is-called-engelchen-1963",
+  "title": "Death Is Called Engelchen",
+  "year": 1963,
+  "directors": [
+   "jankadarelmarklos"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-shop-on-main-street-1965",
+  "title": "The Shop on Main Street",
+  "year": 1965,
+  "directors": [
+   "jankadarelmarklos"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "fate-of-a-man-1959",
+  "title": "Fate of a Man",
+  "year": 1959,
+  "directors": [
+   "sergeibondarchuk"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "war-and-peace-1966",
+  "title": "War and Peace",
+  "year": 1966,
+  "directors": [
+   "sergeibondarchuk"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "waterloo-1970",
+  "title": "Waterloo",
+  "year": 1970,
+  "directors": [
+   "sergeibondarchuk"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "black-and-white-in-color-1976",
+  "title": "Black and White in Color",
+  "year": 1976,
+  "directors": [
+   "jeanjacquesannaud"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "quest-for-fire-1981",
+  "title": "Quest for Fire",
+  "year": 1981,
+  "directors": [
+   "jeanjacquesannaud"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-name-of-the-rose-1986",
+  "title": "The Name of the Rose",
+  "year": 1986,
+  "directors": [
+   "jeanjacquesannaud"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-bear-1988",
+  "title": "The Bear",
+  "year": 1988,
+  "directors": [
+   "jeanjacquesannaud"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "madame-rosa-1977",
+  "title": "Madame Rosa",
+  "year": 1977,
+  "directors": [
+   "moshemizrahi"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "moscow-does-not-believe-in-tears-1980",
+  "title": "Moscow Does Not Believe in Tears",
+  "year": 1980,
+  "directors": [
+   "vladimirmenshov"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "father-1966",
+  "title": "Father",
+  "year": 1966,
+  "directors": [
+   "istvanszabo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "mephisto-1981",
+  "title": "Mephisto",
+  "year": 1981,
+  "directors": [
+   "istvanszabo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "colonel-redl-1985",
+  "title": "Colonel Redl",
+  "year": 1985,
+  "directors": [
+   "istvanszabo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "sunshine-1999",
+  "title": "Sunshine",
+  "year": 1999,
+  "directors": [
+   "istvanszabo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "to-begin-again-1982",
+  "title": "To Begin Again",
+  "year": 1982,
+  "directors": [
+   "joseluisgarci"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-grandfather-1998",
+  "title": "The Grandfather",
+  "year": 1998,
+  "directors": [
+   "joseluisgarci"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dangerous-moves-1984",
+  "title": "Dangerous Moves",
+  "year": 1984,
+  "directors": [
+   "richarddembo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-official-story-1985",
+  "title": "The Official Story",
+  "year": 1985,
+  "directors": [
+   "luispuenzo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "old-gringo-1989",
+  "title": "Old Gringo",
+  "year": 1989,
+  "directors": [
+   "luispuenzo"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "village-on-the-river-1958",
+  "title": "Village on the River",
+  "year": 1958,
+  "directors": [
+   "fonsrademakers"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "max-havelaar-1976",
+  "title": "Max Havelaar",
+  "year": 1976,
+  "directors": [
+   "fonsrademakers"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-assault-1986",
+  "title": "The Assault",
+  "year": 1986,
+  "directors": [
+   "fonsrademakers"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "babette-s-feast-1987",
+  "title": "Babette's Feast",
+  "year": 1987,
+  "directors": [
+   "gabrielaxel"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "journey-of-hope-1990",
+  "title": "Journey of Hope",
+  "year": 1990,
+  "directors": [
+   "xavierkoller"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "mediterraneo-1991",
+  "title": "Mediterraneo",
+  "year": 1991,
+  "directors": [
+   "gabrielesalvatores"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "i-m-not-scared-2003",
+  "title": "I'm Not Scared",
+  "year": 2003,
+  "directors": [
+   "gabrielesalvatores"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "indochine-1992",
+  "title": "Indochine",
+  "year": 1992,
+  "directors": [
+   "regiswargnier"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "east-west-1999",
+  "title": "East/West",
+  "year": 1999,
+  "directors": [
+   "regiswargnier"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "belle-epoque-1992",
+  "title": "Belle Époque",
+  "year": 1992,
+  "directors": [
+   "fernandotrueba"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "calle-54-2000",
+  "title": "Calle 54",
+  "year": 2000,
+  "directors": [
+   "fernandotrueba"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "chico-rita-2010",
+  "title": "Chico & Rita",
+  "year": 2010,
+  "directors": [
+   "fernandotrueba"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "an-unfinished-piece-for-mechanical-piano-1977",
+  "title": "An Unfinished Piece for Mechanical Piano",
+  "year": 1977,
+  "directors": [
+   "nikitamikhalkov"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "oblomov-1980",
+  "title": "Oblomov",
+  "year": 1980,
+  "directors": [
+   "nikitamikhalkov"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dark-eyes-1987",
+  "title": "Dark Eyes",
+  "year": 1987,
+  "directors": [
+   "nikitamikhalkov"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "burnt-by-the-sun-1994",
+  "title": "Burnt by the Sun",
+  "year": 1994,
+  "directors": [
+   "nikitamikhalkov"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "a-question-of-silence-1982",
+  "title": "A Question of Silence",
+  "year": 1982,
+  "directors": [
+   "marleengorris"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "antonia-s-line-1995",
+  "title": "Antonia's Line",
+  "year": 1995,
+  "directors": [
+   "marleengorris"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "mrs-dalloway-1997",
+  "title": "Mrs Dalloway",
+  "year": 1997,
+  "directors": [
+   "marleengorris"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "elementary-school-1991",
+  "title": "Elementary School",
+  "year": 1991,
+  "directors": [
+   "jansverak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "kolya-1996",
+  "title": "Kolya",
+  "year": 1996,
+  "directors": [
+   "jansverak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dark-blue-world-2001",
+  "title": "Dark Blue World",
+  "year": 2001,
+  "directors": [
+   "jansverak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "character-1997",
+  "title": "Character",
+  "year": 1997,
+  "directors": [
+   "mikevandiem"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "johnny-stecchino-1991",
+  "title": "Johnny Stecchino",
+  "year": 1991,
+  "directors": [
+   "robertobenigni"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "life-is-beautiful-1997",
+  "title": "Life Is Beautiful",
+  "year": 1997,
+  "directors": [
+   "robertobenigni"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "no-man-s-land-2001",
+  "title": "No Man's Land",
+  "year": 2001,
+  "directors": [
+   "danistanovic"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "hell-2005",
+  "title": "Hell",
+  "year": 2005,
+  "directors": [
+   "danistanovic"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "an-episode-in-the-life-of-an-iron-picker-2013",
+  "title": "An Episode in the Life of an Iron Picker",
+  "year": 2013,
+  "directors": [
+   "danistanovic"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "beyond-silence-1996",
+  "title": "Beyond Silence",
+  "year": 1996,
+  "directors": [
+   "carolinelink"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "nowhere-in-africa-2001",
+  "title": "Nowhere in Africa",
+  "year": 2001,
+  "directors": [
+   "carolinelink"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-decline-of-the-american-empire-1986",
+  "title": "The Decline of the American Empire",
+  "year": 1986,
+  "directors": [
+   "denysarcand"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "jesus-of-montreal-1989",
+  "title": "Jesus of Montreal",
+  "year": 1989,
+  "directors": [
+   "denysarcand"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-barbarian-invasions-2003",
+  "title": "The Barbarian Invasions",
+  "year": 2003,
+  "directors": [
+   "denysarcand"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "thesis-1996",
+  "title": "Thesis",
+  "year": 1996,
+  "directors": [
+   "alejandroamenabar"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "open-your-eyes-1997",
+  "title": "Open Your Eyes",
+  "year": 1997,
+  "directors": [
+   "alejandroamenabar"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-others-2001",
+  "title": "The Others",
+  "year": 2001,
+  "directors": [
+   "alejandroamenabar"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-sea-inside-2004",
+  "title": "The Sea Inside",
+  "year": 2004,
+  "directors": [
+   "alejandroamenabar"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "tsotsi-2005",
+  "title": "Tsotsi",
+  "year": 2005,
+  "directors": [
+   "gavinhood"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "eye-in-the-sky-2015",
+  "title": "Eye in the Sky",
+  "year": 2015,
+  "directors": [
+   "gavinhood"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "anatomy-2000",
+  "title": "Anatomy",
+  "year": 2000,
+  "directors": [
+   "stefanruzowitzky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-counterfeiters-2007",
+  "title": "The Counterfeiters",
+  "year": 2007,
+  "directors": [
+   "stefanruzowitzky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "when-the-last-sword-is-drawn-2003",
+  "title": "When the Last Sword Is Drawn",
+  "year": 2003,
+  "directors": [
+   "yojirotakita"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "departures-2008",
+  "title": "Departures",
+  "year": 2008,
+  "directors": [
+   "yojirotakita"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "son-of-the-bride-2001",
+  "title": "Son of the Bride",
+  "year": 2001,
+  "directors": [
+   "juanjosecampanella"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-secret-in-their-eyes-2009",
+  "title": "The Secret in Their Eyes",
+  "year": 2009,
+  "directors": [
+   "juanjosecampanella"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "gloria-2013",
+  "title": "Gloria",
+  "year": 2013,
+  "directors": [
+   "sebastianlelio"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "a-fantastic-woman-2017",
+  "title": "A Fantastic Woman",
+  "year": 2017,
+  "directors": [
+   "sebastianlelio"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "disobedience-2017",
+  "title": "Disobedience",
+  "year": 2017,
+  "directors": [
+   "sebastianlelio"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "all-quiet-on-the-western-front-2022",
+  "title": "All Quiet on the Western Front",
+  "year": 2022,
+  "directors": [
+   "edwardberger"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "conclave-2024",
+  "title": "Conclave",
+  "year": 2024,
+  "directors": [
+   "edwardberger"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "central-station-1998",
+  "title": "Central Station",
+  "year": 1998,
+  "directors": [
+   "waltersalles"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-motorcycle-diaries-2004",
+  "title": "The Motorcycle Diaries",
+  "year": 2004,
+  "directors": [
+   "waltersalles"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "i-m-still-here-2024",
+  "title": "I'm Still Here",
+  "year": 2024,
+  "directors": [
+   "waltersalles"
   ],
   "tspdt": null,
   "sight_and_sound": null,

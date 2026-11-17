@@ -1,0 +1,8288 @@
+{
+ "top100": {
+  "name": "100 films pour une cinémathèque idéale",
+  "year": 2008,
+  "voters": 78,
+  "films": [
+   {
+    "rank": 1,
+    "tied": false,
+    "votes": 48,
+    "film": "Citizen Kane",
+    "original": "",
+    "directors": [
+     "Orson Welles"
+    ]
+   },
+   {
+    "rank": 2,
+    "tied": true,
+    "votes": 47,
+    "film": "The Night of the Hunter",
+    "original": "",
+    "directors": [
+     "Charles Laughton"
+    ]
+   },
+   {
+    "rank": 2,
+    "tied": true,
+    "votes": 47,
+    "film": "The Rules of the Game",
+    "original": "La Règle du jeu",
+    "directors": [
+     "Jean Renoir"
+    ]
+   },
+   {
+    "rank": 4,
+    "tied": false,
+    "votes": 46,
+    "film": "Sunrise",
+    "original": "",
+    "directors": [
+     "Friedrich Wilhelm Murnau"
+    ]
+   },
+   {
+    "rank": 5,
+    "tied": false,
+    "votes": 43,
+    "film": "L’Atalante",
+    "original": "",
+    "directors": [
+     "Jean Vigo"
+    ]
+   },
+   {
+    "rank": 6,
+    "tied": false,
+    "votes": 40,
+    "film": "M",
+    "original": "",
+    "directors": [
+     "Fritz Lang"
+    ]
+   },
+   {
+    "rank": 7,
+    "tied": false,
+    "votes": 39,
+    "film": "Singin’ in the Rain",
+    "original": "",
+    "directors": [
+     "Stanley Donen",
+     "Gene Kelly"
+    ]
+   },
+   {
+    "rank": 8,
+    "tied": false,
+    "votes": 35,
+    "film": "Vertigo",
+    "original": "",
+    "directors": [
+     "Alfred Hitchcock"
+    ]
+   },
+   {
+    "rank": 9,
+    "tied": true,
+    "votes": 34,
+    "film": "Children of Paradise",
+    "original": "Les Enfants du Paradis",
+    "directors": [
+     "Marcel Carné"
+    ]
+   },
+   {
+    "rank": 9,
+    "tied": true,
+    "votes": 34,
+    "film": "The Searchers",
+    "original": "",
+    "directors": [
+     "John Ford"
+    ]
+   },
+   {
+    "rank": 9,
+    "tied": true,
+    "votes": 34,
+    "film": "Greed",
+    "original": "",
+    "directors": [
+     "Erich von Stroheim"
+    ]
+   },
+   {
+    "rank": 12,
+    "tied": true,
+    "votes": 33,
+    "film": "Rio Bravo",
+    "original": "",
+    "directors": [
+     "Howard Hawkes"
+    ]
+   },
+   {
+    "rank": 12,
+    "tied": true,
+    "votes": 33,
+    "film": "To Be or Not to Be",
+    "original": "",
+    "directors": [
+     "Ernst Lubitsch"
+    ]
+   },
+   {
+    "rank": 14,
+    "tied": false,
+    "votes": 29,
+    "film": "Tokyo Story",
+    "original": "",
+    "directors": [
+     "Yasujiro Ozu"
+    ]
+   },
+   {
+    "rank": 15,
+    "tied": false,
+    "votes": 28,
+    "film": "Contempt",
+    "original": "Le Mépris",
+    "directors": [
+     "Jean-Luc Godard"
+    ]
+   },
+   {
+    "rank": 16,
+    "tied": true,
+    "votes": 27,
+    "film": "Tales of Ugetsu",
+    "original": "Ugetsu monogatari",
+    "directors": [
+     "Kenji Mizoguchi"
+    ]
+   },
+   {
+    "rank": 16,
+    "tied": true,
+    "votes": 27,
+    "film": "City Lights",
+    "original": "",
+    "directors": [
+     "Charlie Chaplin"
+    ]
+   },
+   {
+    "rank": 16,
+    "tied": true,
+    "votes": 27,
+    "film": "The General",
+    "original": "",
+    "directors": [
+     "Buster Keaton"
+    ]
+   },
+   {
+    "rank": 16,
+    "tied": true,
+    "votes": 27,
+    "film": "Nosferatu the Vampire",
+    "original": "",
+    "directors": [
+     "Friedrich Wilhelm Murnau"
+    ]
+   },
+   {
+    "rank": 16,
+    "tied": true,
+    "votes": 27,
+    "film": "The Music Room",
+    "original": "",
+    "directors": [
+     "Satyajit Ray"
+    ]
+   },
+   {
+    "rank": 21,
+    "tied": true,
+    "votes": 26,
+    "film": "Freaks",
+    "original": "",
+    "directors": [
+     "Tod Browning"
+    ]
+   },
+   {
+    "rank": 21,
+    "tied": true,
+    "votes": 26,
+    "film": "Johnny Guitar",
+    "original": "",
+    "directors": [
+     "Nicholas Ray"
+    ]
+   },
+   {
+    "rank": 21,
+    "tied": true,
+    "votes": 26,
+    "film": "The Mother and the Whore",
+    "original": "La Maman et la Putain",
+    "directors": [
+     "Jean Eustache"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "The Great Dictator",
+    "original": "",
+    "directors": [
+     "Charlie Chaplin"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "The Leopard",
+    "original": "Le Guépard",
+    "directors": [
+     "Luchino Visconti"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "Hiroshima, My Love",
+    "original": "",
+    "directors": [
+     "Alain Resnais"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "The Box of Pandora",
+    "original": "Loulou",
+    "directors": [
+     "Georg Wilhelm Pabst"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "North by Northwest",
+    "original": "",
+    "directors": [
+     "Alfred Hitchcock"
+    ]
+   },
+   {
+    "rank": 24,
+    "tied": true,
+    "votes": 25,
+    "film": "Pickpocket",
+    "original": "",
+    "directors": [
+     "Robert Bresson"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "Golden Helmet",
+    "original": "Casque d’or",
+    "directors": [
+     "Jacques Becker"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "The Barefoot Contessa",
+    "original": "",
+    "directors": [
+     "Joseph Mankiewitz"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "Moonfleet",
+    "original": "",
+    "directors": [
+     "Fritz Lang"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "Diamond Earrings",
+    "original": "Madame de…",
+    "directors": [
+     "Max Ophüls"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "Pleasure",
+    "original": "",
+    "directors": [
+     "Max Ophüls"
+    ]
+   },
+   {
+    "rank": 30,
+    "tied": true,
+    "votes": 24,
+    "film": "The Deer Hunter",
+    "original": "",
+    "directors": [
+     "Michael Cimino"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "The Adventure",
+    "original": "",
+    "directors": [
+     "Michelangelo Antonioni"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "Battleship Potemkin",
+    "original": "",
+    "directors": [
+     "Sergei M. Eisenstein"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "Notorious",
+    "original": "",
+    "directors": [
+     "Alfred Hitchcock"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "Ivan the Terrible",
+    "original": "",
+    "directors": [
+     "Sergei M. Eisenstein"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "The Godfather",
+    "original": "",
+    "directors": [
+     "Francis Ford Coppola"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "Touch of Evil",
+    "original": "",
+    "directors": [
+     "Orson Welles"
+    ]
+   },
+   {
+    "rank": 36,
+    "tied": true,
+    "votes": 23,
+    "film": "The Wind",
+    "original": "",
+    "directors": [
+     "Victor Sjöström"
+    ]
+   },
+   {
+    "rank": 43,
+    "tied": true,
+    "votes": 22,
+    "film": "2001: A Space Odyssey",
+    "original": "",
+    "directors": [
+     "Stanley Kubrick"
+    ]
+   },
+   {
+    "rank": 43,
+    "tied": true,
+    "votes": 22,
+    "film": "Fanny and Alexander",
+    "original": "",
+    "directors": [
+     "Ingmar Bergman"
+    ]
+   },
+   {
+    "rank": 45,
+    "tied": true,
+    "votes": 21,
+    "film": "The Crowd",
+    "original": "",
+    "directors": [
+     "King Vidor"
+    ]
+   },
+   {
+    "rank": 45,
+    "tied": true,
+    "votes": 21,
+    "film": "8 1/2",
+    "original": "",
+    "directors": [
+     "Federico Fellini"
+    ]
+   },
+   {
+    "rank": 45,
+    "tied": true,
+    "votes": 21,
+    "film": "La Jetée",
+    "original": "",
+    "directors": [
+     "Chris Marker"
+    ]
+   },
+   {
+    "rank": 45,
+    "tied": true,
+    "votes": 21,
+    "film": "Pierrot le Fou",
+    "original": "",
+    "directors": [
+     "Jean-Luc Godard"
+    ]
+   },
+   {
+    "rank": 45,
+    "tied": true,
+    "votes": 21,
+    "film": "Confessions of a Cheat",
+    "original": "Le Roman d’un tricheur",
+    "directors": [
+     "Sacha Guitry"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Amarcord",
+    "original": "",
+    "directors": [
+     "Federico Fellini"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Beauty and the Beast",
+    "original": "La Belle et la Bête",
+    "directors": [
+     "Jean Cocteau"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Some Like It Hot",
+    "original": "",
+    "directors": [
+     "Billy Wilder"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Some Came Running",
+    "original": "",
+    "directors": [
+     "Vincente Minnelli"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Gertrud",
+    "original": "",
+    "directors": [
+     "Carl Theodor Dreyer"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "King Kong",
+    "original": "",
+    "directors": [
+     "Ernst Shoedsack",
+     "Merian J. Cooper"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "Laura",
+    "original": "",
+    "directors": [
+     "Otto Preminger"
+    ]
+   },
+   {
+    "rank": 50,
+    "tied": true,
+    "votes": 20,
+    "film": "The Seven Samurai",
+    "original": "",
+    "directors": [
+     "Akira Kurosawa"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "The 400 Blows",
+    "original": "",
+    "directors": [
+     "François Truffaut"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "La Dolce Vita",
+    "original": "",
+    "directors": [
+     "Federico Fellini"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "The Dead",
+    "original": "",
+    "directors": [
+     "John Huston"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "Trouble in Paradise",
+    "original": "",
+    "directors": [
+     "Ernst Lubitsch"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "It’s a Wonderful Life",
+    "original": "",
+    "directors": [
+     "Frank Capra"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "Monsieur Verdoux",
+    "original": "",
+    "directors": [
+     "Charlie Chaplin"
+    ]
+   },
+   {
+    "rank": 58,
+    "tied": true,
+    "votes": 19,
+    "film": "The Passion of Joan of Arc",
+    "original": "",
+    "directors": [
+     "Carl Theodor Dreyer"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "À bout de souffle",
+    "original": "",
+    "directors": [
+     "Jean-Luc Godard"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Apocalypse Now",
+    "original": "",
+    "directors": [
+     "Francis Ford Coppola"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Barry Lyndon",
+    "original": "",
+    "directors": [
+     "Stanley Kubrick"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "La Grande Illusion",
+    "original": "",
+    "directors": [
+     "Jean Renoir"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Intolerance",
+    "original": "",
+    "directors": [
+     "David Wark Griffith"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "A Day in the Country",
+    "original": "Partie de campagne",
+    "directors": [
+     "Jean Renoir"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Playtime",
+    "original": "",
+    "directors": [
+     "Jacques Tati"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Rome, Open City",
+    "original": "",
+    "directors": [
+     "Roberto Rossellini"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Livia",
+    "original": "Senso",
+    "directors": [
+     "Luchino Visconti"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Modern Times",
+    "original": "",
+    "directors": [
+     "Charlie Chaplin"
+    ]
+   },
+   {
+    "rank": 65,
+    "tied": true,
+    "votes": 18,
+    "film": "Van Gogh",
+    "original": "",
+    "directors": [
+     "Maurice Pialat"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "An Affair to Remember",
+    "original": "",
+    "directors": [
+     "Leo McCarey"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "Andrei Rublev",
+    "original": "",
+    "directors": [
+     "Andrei Tarkovsky"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "The Scarlet Empress",
+    "original": "",
+    "directors": [
+     "Joseph von Sternberg"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "Sansho the Bailiff",
+    "original": "",
+    "directors": [
+     "Kenji Mizoguchi"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "Talk to Her",
+    "original": "",
+    "directors": [
+     "Pedro Almodóvar"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "The Party",
+    "original": "",
+    "directors": [
+     "Blake Edwards"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "Tabu",
+    "original": "",
+    "directors": [
+     "Friedrich Wilhelm Murnau"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "The Bandwagon",
+    "original": "",
+    "directors": [
+     "Vincente Minnelli"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "A Star Is Born",
+    "original": "",
+    "directors": [
+     "George Cukor"
+    ]
+   },
+   {
+    "rank": 76,
+    "tied": true,
+    "votes": 17,
+    "film": "Mr. Hulot’s Holiday",
+    "original": "",
+    "directors": [
+     "Jacques Tati"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "America, America",
+    "original": "",
+    "directors": [
+     "Elia Kazan"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "El",
+    "original": "",
+    "directors": [
+     "Luis Buñuel"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Kiss Me Deadly",
+    "original": "",
+    "directors": [
+     "Robert Aldrich"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Once Upon a Time in America",
+    "original": "",
+    "directors": [
+     "Sergio Leone"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Daybreak",
+    "original": "Le Jour se lève",
+    "directors": [
+     "Marcel Carné"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Letter from an Unknown Woman",
+    "original": "",
+    "directors": [
+     "Max Ophüls"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Lola",
+    "original": "",
+    "directors": [
+     "Jacques Demy"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Manhattan",
+    "original": "",
+    "directors": [
+     "Woody Allen"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Mulholland Dr.",
+    "original": "",
+    "directors": [
+     "David Lynch"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "My Night at Maud’s",
+    "original": "Ma nuit chez Maud",
+    "directors": [
+     "Eric Rohmer"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Night and Fog",
+    "original": "Nuit et Brouillard",
+    "directors": [
+     "Alain Resnais"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "The Gold Rush",
+    "original": "",
+    "directors": [
+     "Charlie Chaplin"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Scarface",
+    "original": "",
+    "directors": [
+     "Howard Hawks"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Bicycle Thieves",
+    "original": "",
+    "directors": [
+     "Vittorio de Sica"
+    ]
+   },
+   {
+    "rank": 86,
+    "tied": true,
+    "votes": 16,
+    "film": "Napoléon",
+    "original": "",
+    "directors": [
+     "Abel Ganc"
+    ]
+   }
+  ]
+ },
+ "annual": [
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 1,
+   "film": "The River",
+   "original": "Le Fleuve",
+   "directors": [
+    "Jean Renoir"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 2,
+   "film": "Diary of a Country Priest",
+   "original": "Journal d'un curé de campagne",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 3,
+   "film": "Miracle in Milan",
+   "original": "Miracolo a Milano",
+   "directors": [
+    "Vittorio de Sica"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 4,
+   "film": "The Forgotten Ones",
+   "original": "Los Olvidados",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 5,
+   "film": "All About Eve",
+   "original": "",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 6,
+   "film": "Miss Julie",
+   "original": "Fröken Julie",
+   "directors": [
+    "Alf Sjöberg"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 7,
+   "film": "Story of a Love Affair",
+   "original": "Cronaca di un amore",
+   "directors": [
+    "Michelangelo Antonioni"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 8,
+   "film": "Sunset Boulevard",
+   "original": "",
+   "directors": [
+    "Billy Wilder"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 9,
+   "film": "Edward and Caroline",
+   "original": "Édouard et Caroline",
+   "directors": [
+    "Jacques Becker"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1951,
+   "rank": 10,
+   "film": "The Flowers of St. Francis",
+   "original": "Francesco, giullare di Dio",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 1,
+   "film": "This Strange Passion",
+   "original": "Él",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 2,
+   "film": "Honour Among Thieves",
+   "original": "Touchez pas au grisbi",
+   "directors": [
+    "Jacques Becker"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 3,
+   "film": "Knave of Hearts",
+   "original": "",
+   "directors": [
+    "René Clément"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 4,
+   "film": "The Wild One",
+   "original": "",
+   "directors": [
+    "László Benedek"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 5,
+   "film": "Gentlemen Prefer Blondes",
+   "original": "",
+   "directors": [
+    "Howard Hawks"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 6,
+   "film": "I Vitelloni",
+   "original": "",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 7,
+   "film": "It Should Happen to You",
+   "original": "",
+   "directors": [
+    "George Cukor"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 8,
+   "film": "The Blue Gardenia",
+   "original": "",
+   "directors": [
+    "Fritz Lang"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 9,
+   "film": "Robinson Crusoe",
+   "original": "Aventuras de Robinson Crusoe",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1954,
+   "rank": 10,
+   "film": "Mother",
+   "original": "おかあさん",
+   "directors": [
+    "Mikio Naruse"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 1,
+   "film": "Journey to Italy",
+   "original": "Viaggio in Italia",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 2,
+   "film": "Ordet",
+   "original": "",
+   "directors": [
+    "Carl Theodor Dreyer"
+   ],
+   "country": "Denmark"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 3,
+   "film": "The Big Knife",
+   "original": "",
+   "directors": [
+    "Robert Aldrich"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 4,
+   "film": "Lola Montès",
+   "original": "",
+   "directors": [
+    "Max Ophüls"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 5,
+   "film": "Rear Window",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 6,
+   "film": "Bad Liaisons",
+   "original": "Les mauvaises rencontres",
+   "directors": [
+    "Alexandre Astruc"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 7,
+   "film": "La Strada",
+   "original": "",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 8,
+   "film": "The Barefoot Contessa",
+   "original": "",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 9,
+   "film": "Johnny Guitar",
+   "original": "",
+   "directors": [
+    "Nicholas Ray"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1955,
+   "rank": 10,
+   "film": "Kiss Me Deadly",
+   "original": "",
+   "directors": [
+    "Robert Aldrich"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 1,
+   "film": "A Man Escaped",
+   "original": "Un condamné à mort s'est échappé ou Le vent souffle où il veut",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 2,
+   "film": "Elena and Her Men",
+   "original": "Elena et les Hommes",
+   "directors": [
+    "Jean Renoir"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 3,
+   "film": "Rebel Without a Cause",
+   "original": "",
+   "directors": [
+    "Nicholas Ray"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 4,
+   "film": "Confidential Report",
+   "original": "",
+   "directors": [
+    "Orson Welles"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 5,
+   "film": "Senso",
+   "original": "",
+   "directors": [
+    "Luchino Visconti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 6,
+   "film": "Smiles of a Summer Night",
+   "original": "Sommarnattens leende",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 7,
+   "film": "The Swindle",
+   "original": "Il bidone",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 8,
+   "film": "L'Amore",
+   "original": "",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 9,
+   "film": "Picnic",
+   "original": "",
+   "directors": [
+    "Joshua Logan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1956,
+   "rank": 10,
+   "film": "Fear",
+   "original": "La Paura",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 1,
+   "film": "A King in New York",
+   "original": "",
+   "directors": [
+    "Charlie Chaplin"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 2,
+   "film": "Will Success Spoil Rock Hunter?",
+   "original": "",
+   "directors": [
+    "Frank Tashlin"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 3,
+   "film": "Nights of Cabiria",
+   "original": "Le notti di Cabiria",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 4,
+   "film": "The Wrong Man",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 5,
+   "film": "The Criminal Life of Archibaldo de la Cruz",
+   "original": "Ensayo de un crimen",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 6,
+   "film": "Sawdust and Tinsel",
+   "original": "Gycklarnas afton",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 7,
+   "film": "Bigger Than Life",
+   "original": "",
+   "directors": [
+    "Nicholas Ray"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 8,
+   "film": "The Girl Can't Help It",
+   "original": "",
+   "directors": [
+    "Frank Tashlin"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 9,
+   "film": "Beyond a Reasonable Doubt",
+   "original": "",
+   "directors": [
+    "Fritz Lang"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1957,
+   "rank": 10,
+   "film": "12 Angry Men",
+   "original": "",
+   "directors": [
+    "Sidney Lumet"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 1,
+   "film": "Touch of Evil",
+   "original": "",
+   "directors": [
+    "Orson Welles"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 2,
+   "film": "The Seventh Seal",
+   "original": "Det sjunde inseglet",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 3,
+   "film": "White Nights",
+   "original": "Le notti bianche",
+   "directors": [
+    "Luchino Visconti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 4,
+   "film": "Il Grido",
+   "original": "",
+   "directors": [
+    "Michelangelo Antonioni"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 5,
+   "film": "Bonjour Tristesse",
+   "original": "",
+   "directors": [
+    "Otto Preminger"
+   ],
+   "country": "United Kingdom,"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 6,
+   "film": "Dreams",
+   "original": "Kvinnodröm",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 7,
+   "film": "One Life",
+   "original": "Une vie",
+   "directors": [
+    "Alexandre Astruc"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 8,
+   "film": "Mon Oncle",
+   "original": "",
+   "directors": [
+    "Jacques Tati"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 9,
+   "film": "The Quiet American",
+   "original": "",
+   "directors": [
+    "Joseph L. Mankiewicz"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1958,
+   "rank": 10,
+   "film": "Summer Interlude",
+   "original": "Sommarlek",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 1,
+   "film": "Ugetsu",
+   "original": "雨月物語",
+   "directors": [
+    "Kenji Mizoguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 2,
+   "film": "Hiroshima mon Amour",
+   "original": "",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 3,
+   "film": "Ivan the Terrible (Part II)",
+   "original": "Иван Грозный",
+   "directors": [
+    "Sergei Eisenstein"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 4,
+   "film": "Pickpocket",
+   "original": "",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 5,
+   "film": "The 400 Blows",
+   "original": "Les quatre cents coups",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 6,
+   "film": "Rio Bravo",
+   "original": "",
+   "directors": [
+    "Howard Hawks"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 7,
+   "film": "Wild Strawberries",
+   "original": "Smultronstället",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 8,
+   "film": "Vertigo",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 9,
+   "film": "Princess Yang Kwei Fei",
+   "original": "楊貴妃",
+   "directors": [
+    "Kenji Mizoguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1959,
+   "rank": 10,
+   "film": "The Tiger of Eschnapur",
+   "original": "Der Tiger von Eschnapur",
+   "directors": [
+    "Fritz Lang"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 1,
+   "film": "Sansho the Bailiff",
+   "original": "山椒大夫",
+   "directors": [
+    "Kenji Mizoguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 2,
+   "film": "L'Avventura",
+   "original": "",
+   "directors": [
+    "Michelangelo Antonioni"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 3,
+   "film": "Breathless",
+   "original": "À bout de souffle",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 4,
+   "film": "Shoot the Piano Player",
+   "original": "Tirez sur le pianiste",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 5,
+   "film": "Poem of the Sea",
+   "original": "Поэма о море",
+   "directors": [
+    "Alexander Dovzhenko",
+    "Yuliya Solntseva"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 6,
+   "film": "Les Bonnes Femmes",
+   "original": "",
+   "directors": [
+    "Claude Chabrol"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 6,
+   "film": "Nazarín",
+   "original": "",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Spain, Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 8,
+   "film": "Moonfleet",
+   "original": "",
+   "directors": [
+    "Fritz Lang"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 9,
+   "film": "Psycho",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1960,
+   "rank": 10,
+   "film": "The Hole",
+   "original": "Le Trou",
+   "directors": [
+    "Jacques Becker"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 1,
+   "film": "Lola",
+   "original": "",
+   "directors": [
+    "Jacques Demy"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 2,
+   "film": "A Woman Is a Woman",
+   "original": "Une femme est une femme",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 3,
+   "film": "Paris Belongs to Us",
+   "original": "Paris nous appartient",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 4,
+   "film": "Rocco and His Brothers",
+   "original": "Rocco e i suoi fratelli",
+   "directors": [
+    "Luchino Visconti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 5,
+   "film": "Shin Heike Monogatari",
+   "original": "新・平家物語",
+   "directors": [
+    "Kenji Mizoguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 6,
+   "film": "The Horse That Cried",
+   "original": "Dorogoy tsenoy",
+   "directors": [
+    "Mark Donskoy"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 7,
+   "film": "La Notte",
+   "original": "",
+   "directors": [
+    "Michelangelo Antonioni"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 8,
+   "film": "Last Year at Marienbad",
+   "original": "L'Année dernière à Marienbad",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 9,
+   "film": "Elmer Gantry",
+   "original": "",
+   "directors": [
+    "Richard Brooks"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1961,
+   "rank": 10,
+   "film": "Two Rode Together",
+   "original": "",
+   "directors": [
+    "John Ford"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 1,
+   "film": "My Life to Live",
+   "original": "Vivre sa vie",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 2,
+   "film": "Jules and Jim",
+   "original": "Jules et Jim",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 3,
+   "film": "Hatari!",
+   "original": "",
+   "directors": [
+    "Howard Hawks"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 4,
+   "film": "Viridiana",
+   "original": "",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 5,
+   "film": "The Sign of Leo",
+   "original": "Le Signe du Lion",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 6,
+   "film": "Wild River",
+   "original": "",
+   "directors": [
+    "Elia Kazan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 7,
+   "film": "The Trial",
+   "original": "",
+   "directors": [
+    "Orson Welles"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 8,
+   "film": "Through a Glass Darkly",
+   "original": "Såsom i en spegel",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 9,
+   "film": "The Elusive Corporal",
+   "original": "Le Caporal épinglé",
+   "directors": [
+    "Jean Renoir"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1962,
+   "rank": 10,
+   "film": "Vanina Vanini",
+   "original": "",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 1,
+   "film": "Contempt",
+   "original": "Le Mépris",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 2,
+   "film": "The Birds",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 3,
+   "film": "The Exterminating Angel",
+   "original": "El ángel exterminador",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "Mexico"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 4,
+   "film": "Adieu Philippine",
+   "original": "",
+   "directors": [
+    "Jacques Rozier"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 5,
+   "film": "The Trial of Joan of Arc",
+   "original": "Procès de Jeanne d'Arc",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 6,
+   "film": "Muriel",
+   "original": "Muriel ou le Temps d'un retour",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 7,
+   "film": "The Nutty Professor",
+   "original": "",
+   "directors": [
+    "Jerry Lewis"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 8,
+   "film": "The Carabineers",
+   "original": "Les Carabiniers",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 9,
+   "film": "Salvatore Giuliano",
+   "original": "",
+   "directors": [
+    "Francesco Rosi"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1963,
+   "rank": 10,
+   "film": "8½",
+   "original": "Otto e mezzo",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 1,
+   "film": "Band of Outsiders",
+   "original": "Bande à part",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 2,
+   "film": "Gertrud",
+   "original": "",
+   "directors": [
+    "Carl Theodor Dreyer"
+   ],
+   "country": "Denmark"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 3,
+   "film": "Marnie",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 4,
+   "film": "A Married Woman",
+   "original": "Une femme mariée",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 5,
+   "film": "Man's Favorite Sport?",
+   "original": "",
+   "directors": [
+    "Howard Hawks"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 6,
+   "film": "Red Desert",
+   "original": "Il deserto rosso",
+   "directors": [
+    "Michelangelo Antonioni"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 7,
+   "film": "America America",
+   "original": "",
+   "directors": [
+    "Elia Kazan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 8,
+   "film": "The Silence",
+   "original": "Tystnaden",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 9,
+   "film": "All These Women",
+   "original": "För att inte tala om alla dessa kvinnor",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1964,
+   "rank": 10,
+   "film": "The Servant",
+   "original": "",
+   "directors": [
+    "Joseph Losey"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 1,
+   "film": "Pierrot le Fou",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 2,
+   "film": "Sandra",
+   "original": "",
+   "directors": [
+    "Luchino Visconti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 3,
+   "film": "Winter Light",
+   "original": "Nattvardsgästerna",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 4,
+   "film": "Six in Paris (\"Gare du Nord\" segment)",
+   "original": "Paris vu par...",
+   "directors": [
+    "Jean Rouch"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 5,
+   "film": "Alphaville",
+   "original": "Alphaville: une étrange aventure de Lemmy Caution",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 6,
+   "film": "Lilith",
+   "original": "",
+   "directors": [
+    "Robert Rossen"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 7,
+   "film": "Shock Corridor",
+   "original": "",
+   "directors": [
+    "Sam Fuller"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 8,
+   "film": "The Family Jewels",
+   "original": "",
+   "directors": [
+    "Jerry Lewis"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 9,
+   "film": "The Gospel According to St. Matthew",
+   "original": "Il vangelo secondo Matteo",
+   "directors": [
+    "Pier Paolo Pasolini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1965,
+   "rank": 10,
+   "film": "Le Bonheur",
+   "original": "",
+   "directors": [
+    "Agnès Varda"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 1,
+   "film": "Au hasard Balthazar",
+   "original": "",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 2,
+   "film": "Walkover",
+   "original": "Walkower",
+   "directors": [
+    "Jerzy Skolimowski"
+   ],
+   "country": "Poland"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 3,
+   "film": "Not Reconciled",
+   "original": "Nicht versöhnt",
+   "directors": [
+    "Jean-Marie Straub"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 4,
+   "film": "Masculin Féminin",
+   "original": "Masculin féminin: 15 faits précis",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 5,
+   "film": "The Man Who Had His Hair Cut Short",
+   "original": "De man die zijn haar kort liet knippen",
+   "directors": [
+    "André Delvaux"
+   ],
+   "country": "Belgium"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 6,
+   "film": "7 Women",
+   "original": "",
+   "directors": [
+    "John Ford"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 7,
+   "film": "The Taking of Power by Louis XIV",
+   "original": "La prise de pouvoir par Louis XIV",
+   "directors": [
+    "Roberto Rossellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 8,
+   "film": "Torn Curtain",
+   "original": "",
+   "directors": [
+    "Alfred Hitchcock"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 9,
+   "film": "Red Line 7000",
+   "original": "",
+   "directors": [
+    "Howard Hawks"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1966,
+   "rank": 10,
+   "film": "Fists in the Pocket",
+   "original": "I pugni in tasca",
+   "directors": [
+    "Marco Bellocchio"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 1,
+   "film": "Persona",
+   "original": "",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 2,
+   "film": "Belle de Jour",
+   "original": "",
+   "directors": [
+    "Luis Buñuel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 3,
+   "film": "Weekend",
+   "original": "Week-end",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 4,
+   "film": "Lion Hunting with Bow and Arrow",
+   "original": "La chasse au lion à l'arc",
+   "directors": [
+    "Jean Rouch"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 5,
+   "film": "Playtime",
+   "original": "",
+   "directors": [
+    "Jacques Tati"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 6,
+   "film": "The Big Mouth",
+   "original": "",
+   "directors": [
+    "Jerry Lewis"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 7,
+   "film": "Daisies",
+   "original": "Sedmikrásky",
+   "directors": [
+    "Vera Chytilova"
+   ],
+   "country": "Czechoslovakia"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 7,
+   "film": "The Nun",
+   "original": "La Religieuse",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 9,
+   "film": "Two or Three Things I Know About Her",
+   "original": "Deux ou trois choses que je sais d'elle",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1967,
+   "rank": 10,
+   "film": "La Chinoise",
+   "original": "La Chinoise, ou plutôt à la Chinoise: un film en train de se faire",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 1,
+   "film": "The Chronicle of Anna Magdalena Bach",
+   "original": "Chronik der Anna Magdalena Bach",
+   "directors": [
+    "Jean-Marie Straub",
+    "Danièle Huillet"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 2,
+   "film": "Before the Revolution",
+   "original": "Prima della rivoluzione",
+   "directors": [
+    "Bernardo Bertolucci"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 3,
+   "film": "The Edge",
+   "original": "",
+   "directors": [
+    "Robert Kramer"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 4,
+   "film": "Spirits of the Dead (\"Toby Dammit\" segment)",
+   "original": "Tre passi nel delirio",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 5,
+   "film": "Don't Let It Kill You",
+   "original": "Il ne faut pas mourir pour ça",
+   "directors": [
+    "Jean Pierre Lefebvre"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 6,
+   "film": "The Times That Are",
+   "original": "Le règne du jour",
+   "directors": [
+    "Pierre Perrault"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 7,
+   "film": "Barrier",
+   "original": "Bariera",
+   "directors": [
+    "Jerzy Skolimowski"
+   ],
+   "country": "Poland"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 8,
+   "film": "Stolen Kisses",
+   "original": "Baisers volés",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 9,
+   "film": "Ride in the Whirlwind",
+   "original": "",
+   "directors": [
+    "Monte Hellman"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 10,
+   "film": "The Bride Wore Black",
+   "original": "La Mariée était en noir",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1968,
+   "rank": 10,
+   "film": "The Smugglers",
+   "original": "Les Contrebandières",
+   "directors": [
+    "Luc Moullet"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 1,
+   "film": "The Aviator's Wife",
+   "original": "La Femme de l'aviateur",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 1,
+   "film": "Francisca",
+   "original": "",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 3,
+   "film": "Hotel America",
+   "original": "Hôtel des Amériques",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 3,
+   "film": "Tragedy of a Ridiculous Man",
+   "original": "La tragedia di un uomo ridicolo",
+   "directors": [
+    "Bernardo Bertolucci"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 5,
+   "film": "Germany, Pale Mother",
+   "original": "Deutschland bleiche Mutter",
+   "directors": [
+    "Helma Sanders-Brahms"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 5,
+   "film": "The Woman Next Door",
+   "original": "La Femme d'à côté",
+   "directors": [
+    "François Truffaut"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 7,
+   "film": "Stalker",
+   "original": "Сталкер",
+   "directors": [
+    "Andrei Tarkovsky"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 8,
+   "film": "Jalsaghar",
+   "original": "জলসাঘর",
+   "directors": [
+    "Satyajit Ray"
+   ],
+   "country": "India"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 8,
+   "film": "Raging Bull",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 10,
+   "film": "Gloria",
+   "original": "",
+   "directors": [
+    "John Cassavetes"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 10,
+   "film": "In girum imus nocte et consumimur igni",
+   "original": "",
+   "directors": [
+    "Guy Debord"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 10,
+   "film": "Palermo or Wolfsburg",
+   "original": "Palermo oder Wolfsburg",
+   "directors": [
+    "Werner Schroeter"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1981,
+   "rank": 10,
+   "film": "The Wings of the Dove",
+   "original": "Les Ailes de la colombe",
+   "directors": [
+    "Benoît Jacquot"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 1,
+   "film": "A Room in Town",
+   "original": "Une chambre en ville",
+   "directors": [
+    "Jacques Demy"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 2,
+   "film": "Moonlighting",
+   "original": "",
+   "directors": [
+    "Jerzy Skolimowski"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 2,
+   "film": "Passion",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 4,
+   "film": "White Dog",
+   "original": "",
+   "directors": [
+    "Sam Fuller"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 5,
+   "film": "The Color of Pomegranates",
+   "original": "Նռան գույնը",
+   "directors": [
+    "Sergei Parajanov"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 5,
+   "film": "Identification of a Woman",
+   "original": "Identificazione di una donna",
+   "directors": [
+    "Michaelangelo Antonioni"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 5,
+   "film": "Le Pont du Nord",
+   "original": "",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 8,
+   "film": "Parsifal",
+   "original": "",
+   "directors": [
+    "Hans-Jürgen Syberberg"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 9,
+   "film": "Three Crowns of the Sailor",
+   "original": "Les trois couronnes du matelot",
+   "directors": [
+    "Raúl Ruiz"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1982,
+   "rank": 10,
+   "film": "Le Beau Mariage",
+   "original": "",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 1,
+   "film": "À Nos Amours",
+   "original": "",
+   "directors": [
+    "Maurice Pialat"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 1,
+   "film": "L'Argent",
+   "original": "",
+   "directors": [
+    "Robert Bresson"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 3,
+   "film": "Merry Christmas, Mr. Lawrence",
+   "original": "戦場のメリークリスマス",
+   "directors": [
+    "Nagisa Oshima"
+   ],
+   "country": "United Kingdom, Japan"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 3,
+   "film": "A Brutal Game",
+   "original": "Un Jeu Brutal",
+   "directors": [
+    "Jean-Claude Brisseau"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 5,
+   "film": "The King of Comedy",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 5,
+   "film": "Pauline at the Beach",
+   "original": "Pauline à la plage",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 7,
+   "film": "L'Enfant Secret",
+   "original": "",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 7,
+   "film": "Faux-Fuyants",
+   "original": "",
+   "directors": [
+    "Alain Bergala",
+    "Jean-Pierre Limosin"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 7,
+   "film": "Three Crowns of the Sailor",
+   "original": "Les trois couronnes du matelot",
+   "directors": [
+    "Raúl Ruiz"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 10,
+   "film": "Cracking Up",
+   "original": "",
+   "directors": [
+    "Jerry Lewis"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1983,
+   "rank": 10,
+   "film": "Fanny and Alexander",
+   "original": "Fanny och Alexander",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 1,
+   "film": "Full Moon in Paris",
+   "original": "Les nuits de la pleine lune",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 2,
+   "film": "Class Relations",
+   "original": "Klassenverhältnisse",
+   "directors": [
+    "Jean-Marie Straub",
+    "Danièle Huillet"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 3,
+   "film": "Biquefarre",
+   "original": "",
+   "directors": [
+    "Georges Rouquier"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 3,
+   "film": "First Name: Carmen",
+   "original": "Prénom Carmen",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 3,
+   "film": "Liberté, la nuit",
+   "original": "",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 6,
+   "film": "Rumble Fish",
+   "original": "",
+   "directors": [
+    "Francis Ford Coppola"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 7,
+   "film": "And the Ship Sails On",
+   "original": "E la nave va",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 7,
+   "film": "Paris, Texas",
+   "original": "",
+   "directors": [
+    "Wim Wenders"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 7,
+   "film": "The Right Stuff",
+   "original": "",
+   "directors": [
+    "Philip Kaufman"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1984,
+   "rank": 10,
+   "film": "Once Upon a Time in America",
+   "original": "C'era una volta in America",
+   "directors": [
+    "Sergio Leone"
+   ],
+   "country": "Italy, United States"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 1,
+   "film": "Hail Mary",
+   "original": "Je vous salue, Marie",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 2,
+   "film": "Détective",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 3,
+   "film": "Year of the Dragon",
+   "original": "",
+   "directors": [
+    "Michael Cimino"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 4,
+   "film": "After the Rehearsal",
+   "original": "Efter repetitionen",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 5,
+   "film": "Love Streams",
+   "original": "",
+   "directors": [
+    "John Cassavetes"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 6,
+   "film": "The Home and the World",
+   "original": "Ghare Baire",
+   "directors": [
+    "Satyajit Ray"
+   ],
+   "country": "India"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 7,
+   "film": "Les Amants terribles",
+   "original": "",
+   "directors": [
+    "Danièle Dubroux"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 8,
+   "film": "The Children",
+   "original": "Les Enfants",
+   "directors": [
+    "Marguerite Duras"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 9,
+   "film": "Ran",
+   "original": "乱",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 10,
+   "film": "Favorites of the Moon",
+   "original": "Les Favoris de la lune",
+   "directors": [
+    "Otar Iosseliani"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1985,
+   "rank": 10,
+   "film": "Rendez-vous",
+   "original": "",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 1,
+   "film": "The Green Ray",
+   "original": "Le Rayon vert",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 2,
+   "film": "The Legend of Suram Fortress",
+   "original": "ამბავი სურამის ციხისა",
+   "directors": [
+    "Sergei Parajanov"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 2,
+   "film": "The Sacrifice",
+   "original": "Offret",
+   "directors": [
+    "Andrei Tarkovsky"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 4,
+   "film": "Double Messieurs",
+   "original": "",
+   "directors": [
+    "Jean-François Stévenin"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 5,
+   "film": "Mauvais Sang",
+   "original": "",
+   "directors": [
+    "Leos Carax"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 5,
+   "film": "Maine-Ocean Express",
+   "original": "Maine Océan",
+   "directors": [
+    "Jacques Rozier"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 7,
+   "film": "Thérèse",
+   "original": "",
+   "directors": [
+    "Alain Cavalier"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 8,
+   "film": "Scene of the Crime",
+   "original": "Le Lieu du crime",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 9,
+   "film": "After Hours",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 9,
+   "film": "Alpine Fire",
+   "original": "Höhenfeuer",
+   "directors": [
+    "Fredi M. Murer"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 9,
+   "film": "Disorder",
+   "original": "",
+   "directors": [
+    "Olivier Assayas"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 9,
+   "film": "Gardien de la nuit",
+   "original": "",
+   "directors": [
+    "Jean-Pierre Limosin"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1986,
+   "rank": 9,
+   "film": "Rise and Fall of a Small Cinema Company",
+   "original": "Grandeur et décadence d'un petit commerce de cinéma",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 1,
+   "film": "Under the Sun of Satan",
+   "original": "Sous le soleil de Satan",
+   "directors": [
+    "Maurice Pialat"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 2,
+   "film": "The Death of Empedocles",
+   "original": "Der Tod des Empedokles",
+   "directors": [
+    "Jean-Marie Straub",
+    "Danièle Huillet"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 2,
+   "film": "Intervista",
+   "original": "",
+   "directors": [
+    "Federico Fellini"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 2,
+   "film": "Wings of Desire",
+   "original": "Der Himmel über Berlin",
+   "directors": [
+    "Wim Wenders"
+   ],
+   "country": "West Germany"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 5,
+   "film": "The Last Emperor",
+   "original": "L'ultimo imperatore",
+   "directors": [
+    "Bernardo Bertolucci"
+   ],
+   "country": "China, United Kingdom, Italy"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 6,
+   "film": "Four Adventures of Reinette and Mirabelle",
+   "original": "Quatre aventures de Reinette et Mirabelle",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 6,
+   "film": "Full Metal Jacket",
+   "original": "",
+   "directors": [
+    "Stanley Kubrick"
+   ],
+   "country": "United Kingdom, United States"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 6,
+   "film": "Yeelen",
+   "original": "",
+   "directors": [
+    "Souleymane Cissé"
+   ],
+   "country": "Mali"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 9,
+   "film": "The Mass Is Ended",
+   "original": "La messa è finita",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 10,
+   "film": "Blue Velvet",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 10,
+   "film": "The Color of Money",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 10,
+   "film": "King Lear",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 10,
+   "film": "A Portuguese Goodbye",
+   "original": "Um Adeus Português",
+   "directors": [
+    "João Botelho"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1987,
+   "rank": 10,
+   "film": "Wedding in Galilee",
+   "original": "عرس الجليل",
+   "directors": [
+    "Michel Khleifi"
+   ],
+   "country": "Palestine"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 1,
+   "film": "A Short Film About Killing",
+   "original": "Krótki film o zabijaniu",
+   "directors": [
+    "Krzysztof Kieślowski"
+   ],
+   "country": "Poland"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 2,
+   "film": "The Unbearable Lightness of Being",
+   "original": "",
+   "directors": [
+    "Philip Kaufman"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 3,
+   "film": "The Dead",
+   "original": "",
+   "directors": [
+    "John Huston"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 4,
+   "film": "Urgences",
+   "original": "",
+   "directors": [
+    "Raymond Depardon"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 5,
+   "film": "Bird",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 6,
+   "film": "Landscape in the Mist",
+   "original": "Τοπίο στην ομίχλη",
+   "directors": [
+    "Theo Angelopoulos"
+   ],
+   "country": "Greece"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 7,
+   "film": "Sound and Fury",
+   "original": "De bruit et de fureur",
+   "directors": [
+    "Jean-Claude Brisseau"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 8,
+   "film": "The Last Temptation of Christ",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 9,
+   "film": "Les Innocents",
+   "original": "",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1988,
+   "rank": 10,
+   "film": "Story of Women",
+   "original": "Une affaire de femmes",
+   "directors": [
+    "Claude Chabrol"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 1,
+   "film": "Do the Right Thing",
+   "original": "",
+   "directors": [
+    "Spike Lee"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 1,
+   "film": "Red Wood Pigeon",
+   "original": "Palombella rossa",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 3,
+   "film": "Gang of Four",
+   "original": "La bande des quatre",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 3,
+   "film": "Dead Ringers",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 5,
+   "film": "The Cannibals",
+   "original": "Os Canibais",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 5,
+   "film": "Yaaba",
+   "original": "",
+   "directors": [
+    "Idrissa Ouedraogo"
+   ],
+   "country": "Burkina Faso"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 7,
+   "film": "Black Rain",
+   "original": "黒い雨",
+   "directors": [
+    "Shohei Imamura"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 7,
+   "film": "Thick Skinned",
+   "original": "Peaux de vaches",
+   "directors": [
+    "Patricia Mazuy"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 7,
+   "film": "Little Vera",
+   "original": "Маленькая Вера",
+   "directors": [
+    "Vasili Pichul"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 10,
+   "film": "The Accidental Tourist",
+   "original": "",
+   "directors": [
+    "Lawrence Kasdan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 10,
+   "film": "I Want to Go Home",
+   "original": "",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1989,
+   "rank": 10,
+   "film": "Time of the Gypsies",
+   "original": "Дом за вешање",
+   "directors": [
+    "Emir Kusturica"
+   ],
+   "country": "Yugoslavia"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 1,
+   "film": "Freeze Die Come to Life",
+   "original": "Замри, умри, воскресни!",
+   "directors": [
+    "Vitali Kanevsky"
+   ],
+   "country": "Soviet Union"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 1,
+   "film": "The Little Gangster",
+   "original": "Le Petit Criminel",
+   "directors": [
+    "Jacques Doillon"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 3,
+   "film": "Goodfellas",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 3,
+   "film": "Nouvelle Vague",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 5,
+   "film": "Alexandria Again and Forever",
+   "original": "إسكندريه كمان وكمان",
+   "directors": [
+    "Youssef Chahine"
+   ],
+   "country": "Egypt"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 5,
+   "film": "Meghe Dhaka Tara",
+   "original": "মেঘে ঢাকা তারা",
+   "directors": [
+    "Ritwik Ghatak"
+   ],
+   "country": "India"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 5,
+   "film": "No, or the Vain Glory of Command",
+   "original": "Non, ou a Vã Glória de Mandar",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 8,
+   "film": "Crimes and Misdemeanors",
+   "original": "",
+   "directors": [
+    "Woody Allen"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 8,
+   "film": "La Désenchantée",
+   "original": "",
+   "directors": [
+    "Benoît Jacquot"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1990,
+   "rank": 8,
+   "film": "Dreams",
+   "original": "夢",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 1,
+   "film": "Van Gogh",
+   "original": "",
+   "directors": [
+    "Maurice Pialat"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 2,
+   "film": "Miller's Crossing",
+   "original": "",
+   "directors": [
+    "Coen Brothers"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 3,
+   "film": "Barton Fink",
+   "original": "",
+   "directors": [
+    "Coen Brothers"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 4,
+   "film": "The Godfather Part III",
+   "original": "",
+   "directors": [
+    "Francis Ford Coppola"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 5,
+   "film": "Close-Up",
+   "original": "کلوزآپ ، نمای نزدیک",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 6,
+   "film": "I Don't Hear the Guitar Anymore",
+   "original": "J'entends plus la guitare",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 7,
+   "film": "Edward Scissorhands",
+   "original": "",
+   "directors": [
+    "Tim Burton"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 8,
+   "film": "Rhapsody in August",
+   "original": "八月の狂詩曲",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 9,
+   "film": "Les Amants du Pont-Neuf",
+   "original": "",
+   "directors": [
+    "Leos Carax"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1991,
+   "rank": 10,
+   "film": "Paris Awakens",
+   "original": "Paris s'éveille",
+   "directors": [
+    "Olivier Assayas"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 1,
+   "film": "Unforgiven",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 2,
+   "film": "Agantuk",
+   "original": "",
+   "directors": [
+    "Satyajit Ray"
+   ],
+   "country": "India"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 3,
+   "film": "And Life Goes On",
+   "original": "زندگی و دیگر هیچ",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 4,
+   "film": "Husbands and Wives",
+   "original": "",
+   "directors": [
+    "Woody Allen"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 5,
+   "film": "Border Line",
+   "original": "",
+   "directors": [
+    "Danièle Dubroux"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 5,
+   "film": "Savage Nights",
+   "original": "Les Nuits Fauves",
+   "directors": [
+    "Cyril Collard"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 5,
+   "film": "The Sentinel",
+   "original": "La sentinelle",
+   "directors": [
+    "Arnaud Desplechin"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 8,
+   "film": "La Chasse aux papillons",
+   "original": "",
+   "directors": [
+    "Otar Iosseliani"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 8,
+   "film": "A Tale of Winter",
+   "original": "Conte d'hiver",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 10,
+   "film": "A Brighter Summer Day",
+   "original": "牯嶺街少年殺人事件",
+   "directors": [
+    "Edward Yang"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 10,
+   "film": "The House of Smiles",
+   "original": "La casa del sorriso",
+   "directors": [
+    "Marco Ferreri"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 10,
+   "film": "Le mirage",
+   "original": "",
+   "directors": [
+    "Jean-Claude Guiguet"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1992,
+   "rank": 10,
+   "film": "The Oak",
+   "original": "Balanța",
+   "directors": [
+    "Lucian Pintilie"
+   ],
+   "country": "Romania"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 1,
+   "film": "A Perfect World",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 2,
+   "film": "Abraham's Valley",
+   "original": "Vale Abraão",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 3,
+   "film": "The Tree, the Mayor and the Mediatheque",
+   "original": "L'Arbre, le maire et la médiathèque",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 4,
+   "film": "Smoking/No Smoking",
+   "original": "",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 5,
+   "film": "In the Land of the Deaf",
+   "original": "Le Pays Des Sourds",
+   "directors": [
+    "Nicolas Philibert"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 6,
+   "film": "Aranyer Din Ratri",
+   "original": "অরণ্যের দিনরাত্রি",
+   "directors": [
+    "Satyajit Ray"
+   ],
+   "country": "India"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 7,
+   "film": "Mad Dog and Glory",
+   "original": "",
+   "directors": [
+    "John McNaughton"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 8,
+   "film": "Innocent Blood",
+   "original": "",
+   "directors": [
+    "John Landis"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 9,
+   "film": "Bad Lieutenant",
+   "original": "",
+   "directors": [
+    "Abel Ferrara"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1993,
+   "rank": 10,
+   "film": "Hélas pour moi",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 1,
+   "film": "Caro diario",
+   "original": "",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 2,
+   "film": "I Can't Sleep",
+   "original": "J'ai pas sommeil",
+   "directors": [
+    "Claire Denis"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 3,
+   "film": "Carlito's Way",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 4,
+   "film": "Wild Reeds",
+   "original": "Les Roseaux sauvages",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 5,
+   "film": "The Nightmare Before Christmas",
+   "original": "",
+   "directors": [
+    "Henry Selick"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 6,
+   "film": "Travolta and Me",
+   "original": "",
+   "directors": [
+    "Patricia Mazuy"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 7,
+   "film": "Hell",
+   "original": "L'Enfer",
+   "directors": [
+    "Claude Chabrol"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 8,
+   "film": "Joan the Maid",
+   "original": "Jeanne la pucelle",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 9,
+   "film": "US Go Home",
+   "original": "",
+   "directors": [
+    "Claire Denis"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 10,
+   "film": "Coming to Terms with the Dead",
+   "original": "Petits arrangements avec les morts",
+   "directors": [
+    "Pascale Ferran"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1994,
+   "rank": 10,
+   "film": "M. Butterfly",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 1,
+   "film": "La Cérémonie",
+   "original": "",
+   "directors": [
+    "Claude Chabrol"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 2,
+   "film": "Le Garçu",
+   "original": "",
+   "directors": [
+    "Maurice Pialat"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 3,
+   "film": "Waati",
+   "original": "",
+   "directors": [
+    "Souleymane Cissé"
+   ],
+   "country": "Mali"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 4,
+   "film": "The Bridges of Madison County",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 5,
+   "film": "Oublie-moi",
+   "original": "",
+   "directors": [
+    "Noémie Lvovsky"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 6,
+   "film": "The Flower of My Secret",
+   "original": "La flor de mi secreto",
+   "directors": [
+    "Pedro Almodóvar"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 7,
+   "film": "Sonatine",
+   "original": "ソナチネ",
+   "directors": [
+    "Takeshi Kitano"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 8,
+   "film": "Ed Wood",
+   "original": "",
+   "directors": [
+    "Tim Burton"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 9,
+   "film": "Through the Olive Trees",
+   "original": "زیر درختان زیتون",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 1995,
+   "rank": 10,
+   "film": "In the Mouth of Madness",
+   "original": "",
+   "directors": [
+    "John Carpenter"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 1,
+   "film": "Crash",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 2,
+   "film": "For Ever Mozart",
+   "original": "",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 3,
+   "film": "Casino",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 4,
+   "film": "My Sex Life... or How I Got into an Argument",
+   "original": "Comment je me suis disputé... (ma vie sexuelle)",
+   "directors": [
+    "Arnaud Desplechin"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 5,
+   "film": "God's Comedy",
+   "original": "A Comédia de Deus",
+   "directors": [
+    "João César Monteiro"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 6,
+   "film": "Dead Man",
+   "original": "",
+   "directors": [
+    "Jim Jarmusch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 7,
+   "film": "Thieves",
+   "original": "Les Voleurs",
+   "directors": [
+    "André Téchiné"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 8,
+   "film": "Mission: Impossible",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 9,
+   "film": "Encore",
+   "original": "",
+   "directors": [
+    "Pascal Bonitzer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 9,
+   "film": "Perfect Love",
+   "original": "Parfait amour!",
+   "directors": [
+    "Catherine Breillat"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1996,
+   "rank": 10,
+   "film": "Don't Forget You're Going to Die",
+   "original": "N'oublie pas que tu vas mourir",
+   "directors": [
+    "Xavier Beauvois"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 1,
+   "film": "Hana-bi",
+   "original": "",
+   "directors": [
+    "Takeshi Kitano"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 2,
+   "film": "Goodbye South, Goodbye",
+   "original": "南國再見,南國",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 3,
+   "film": "Lost Highway",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 4,
+   "film": "The Eel",
+   "original": "うなぎ",
+   "directors": [
+    "Shohei Imamura"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 4,
+   "film": "The River",
+   "original": "河流",
+   "directors": [
+    "Tsai Ming-liang"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 6,
+   "film": "Same Old Song",
+   "original": "On connaît la chanson",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 6,
+   "film": "Seventh Heaven",
+   "original": "Le Septième Ciel",
+   "directors": [
+    "Benoît Jacquot"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 6,
+   "film": "Taste of Cherry",
+   "original": "طعم گیلاس...",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 9,
+   "film": "Face/Off",
+   "original": "",
+   "directors": [
+    "John Woo"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 9,
+   "film": "Happy Together",
+   "original": "春光乍洩",
+   "directors": [
+    "Wong Kar-wai"
+   ],
+   "country": "Hong Kong"
+  },
+  {
+   "list": "year",
+   "year": 1997,
+   "rank": 9,
+   "film": "Scream",
+   "original": "",
+   "directors": [
+    "Wes Craven"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 1,
+   "film": "Flowers of Shanghai",
+   "original": "海上花",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 2,
+   "film": "Dr. Akagi",
+   "original": "カンゾー先生",
+   "directors": [
+    "Shohei Imamura"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 3,
+   "film": "Autumn Tale",
+   "original": "Conte d'automne",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 3,
+   "film": "Midnight in the Garden of Good and Evil",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 5,
+   "film": "Anxiety",
+   "original": "Inquietude",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 5,
+   "film": "Sue Lost in Manhattan",
+   "original": "",
+   "directors": [
+    "Amos Kollek"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 7,
+   "film": "L'Ennui",
+   "original": "",
+   "directors": [
+    "Cédric Kahn"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 7,
+   "film": "Velvet Goldmine",
+   "original": "",
+   "directors": [
+    "Todd Haynes"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 9,
+   "film": "Snake Eyes",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 10,
+   "film": "Hinterland",
+   "original": "L'arrière-pays",
+   "directors": [
+    "Jacques Nolot"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 10,
+   "film": "Jackie Brown",
+   "original": "",
+   "directors": [
+    "Quentin Tarantino"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 10,
+   "film": "Ossos",
+   "original": "",
+   "directors": [
+    "Pedro Costa"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1998,
+   "rank": 10,
+   "film": "Titanic",
+   "original": "",
+   "directors": [
+    "James Cameron"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 1,
+   "film": "Eyes Wide Shut",
+   "original": "",
+   "directors": [
+    "Stanley Kubrick"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 2,
+   "film": "The Wind Will Carry Us",
+   "original": "باد ما را خواهد برد",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 3,
+   "film": "Sicilia!",
+   "original": "",
+   "directors": [
+    "Jean-Marie Straub",
+    "Danièle Huillet"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 4,
+   "film": "eXistenZ",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 5,
+   "film": "Night Wind",
+   "original": "Le vent de la nuit",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 6,
+   "film": "True Crime",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 7,
+   "film": "The Letter",
+   "original": "A Carta",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 8,
+   "film": "The Straight Story",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 9,
+   "film": "Ghost Dog: The Way of the Samurai",
+   "original": "",
+   "directors": [
+    "Jim Jarmusch"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 1999,
+   "rank": 10,
+   "film": "As Bodas de Deus",
+   "original": "",
+   "directors": [
+    "João César Monteiro"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 1,
+   "film": "Esther Kahn",
+   "original": "",
+   "directors": [
+    "Arnaud Desplechin"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 2,
+   "film": "The Captive",
+   "original": "La Captive",
+   "directors": [
+    "Chantal Akerman"
+   ],
+   "country": "Belgium"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 3,
+   "film": "Man on the Moon",
+   "original": "",
+   "directors": [
+    "Miloš Forman"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 4,
+   "film": "Mission to Mars",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 5,
+   "film": "In the Mood for Love",
+   "original": "花樣年華",
+   "directors": [
+    "Wong Kar-wai"
+   ],
+   "country": "Hong Kong"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 6,
+   "film": "M/Other",
+   "original": "",
+   "directors": [
+    "Nobuhiro Suwa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 7,
+   "film": "The Virgin Suicides",
+   "original": "",
+   "directors": [
+    "Sofia Coppola"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 7,
+   "film": "Yi Yi",
+   "original": "一一",
+   "directors": [
+    "Edward Yang"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 9,
+   "film": "Space Cowboys",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2000,
+   "rank": 10,
+   "film": "Workers for the Good Lord",
+   "original": "Les Savates du bon Dieu",
+   "directors": [
+    "Jean-Claude Brisseau"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 1,
+   "film": "Mulholland Drive",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 2,
+   "film": "The Lady and the Duke",
+   "original": "L'Anglaise et le Duc",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 3,
+   "film": "Millennium Mambo",
+   "original": "千禧曼波",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 4,
+   "film": "Time and Tide",
+   "original": "順流逆流",
+   "directors": [
+    "Tsui Hark"
+   ],
+   "country": "Hong Kong"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 5,
+   "film": "I'm Going Home",
+   "original": "Vou Para Casa",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 6,
+   "film": "Platform",
+   "original": "站台",
+   "directors": [
+    "Jia Zhangke"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 6,
+   "film": "Wild Innocence",
+   "original": "Sauvage Innocence",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 8,
+   "film": "Sobibor, October 14, 1943, 4 p.m.",
+   "original": "Sobibor, 14 octobre 1943, 16 heures",
+   "directors": [
+    "Claude Lanzmann"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 9,
+   "film": "The Son's Room",
+   "original": "La stanza del figlio",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 2001,
+   "rank": 10,
+   "film": "'R Xmas",
+   "original": "",
+   "directors": [
+    "Abel Ferrara"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 1,
+   "film": "Secret Things",
+   "original": "Choses secrètes",
+   "directors": [
+    "Jean-Claude Brisseau"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 1,
+   "film": "Ten",
+   "original": "ده",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 3,
+   "film": "Blissfully Yours",
+   "original": "สุดเสน่หา",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 4,
+   "film": "From the Other Side",
+   "original": "De l'autre côté",
+   "directors": [
+    "Chantal Akerman"
+   ],
+   "country": "Belgium"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 5,
+   "film": "The Uncertainty Principle",
+   "original": "O Princípio da Incerteza",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 6,
+   "film": "My Mother's Smile",
+   "original": "L'ora di religione (Il sorriso di mia madre)",
+   "directors": [
+    "Marco Bellocchio"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 7,
+   "film": "Talk to Her",
+   "original": "Hable Con Ella",
+   "directors": [
+    "Pedro Almodóvar"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 8,
+   "film": "Spider",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 8,
+   "film": "Spirited Away",
+   "original": "千と千尋の神隠し",
+   "directors": [
+    "Hayao Miyazaki"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2002,
+   "rank": 10,
+   "film": "24 (season 1)",
+   "original": "N/A",
+   "directors": [
+    "Hayao Miyazaki"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 1,
+   "film": "Tropical Malady",
+   "original": "สัตว์ประหลาด",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 2,
+   "film": "S-21: The Khmer Rouge Killing Machine",
+   "original": "S-21, la machine de mort Khmère rouge",
+   "directors": [
+    "Rithy Panh"
+   ],
+   "country": "Cambodia"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 2,
+   "film": "Tie Xi Qu: West of the Tracks",
+   "original": "铁西区",
+   "directors": [
+    "Wang Bing"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 2,
+   "film": "The Village",
+   "original": "",
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 5,
+   "film": "Shara",
+   "original": "沙羅双樹",
+   "directors": [
+    "Naomi Kawase"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 6,
+   "film": "The Brown Bunny",
+   "original": "",
+   "directors": [
+    "Vincent Gallo"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 6,
+   "film": "Gerry",
+   "original": "",
+   "directors": [
+    "Gus Van Sant"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 6,
+   "film": "Kings and Queen",
+   "original": "Rois et reine",
+   "directors": [
+    "Arnaud Desplechin"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 9,
+   "film": "Café Lumière",
+   "original": "珈琲時光",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 9,
+   "film": "Kill Bill: Volume 2",
+   "original": "",
+   "directors": [
+    "Quentin Tarantino"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2004,
+   "rank": 9,
+   "film": "Saraband",
+   "original": "",
+   "directors": [
+    "Ingmar Bergman"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 1,
+   "film": "Last Days",
+   "original": "",
+   "directors": [
+    "Gus Van Sant"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 2,
+   "film": "A History of Violence",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 2,
+   "film": "Regular Lovers",
+   "original": "Les Amants réguliers",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 4,
+   "film": "1/3 of the Eyes",
+   "original": "",
+   "directors": [
+    "Olivier Zabat"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 4,
+   "film": "Three Times",
+   "original": "最好的時光",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 4,
+   "film": "The World",
+   "original": "世界",
+   "directors": [
+    "Jia Zhangke"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 4,
+   "film": "The Young Lieutenant",
+   "original": "Le Petit Lieutenant",
+   "directors": [
+    "Xavier Beauvois"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 8,
+   "film": "Be with Me",
+   "original": "",
+   "directors": [
+    "Eric Khoo"
+   ],
+   "country": "Singapore"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 8,
+   "film": "Grizzly Man",
+   "original": "",
+   "directors": [
+    "Werner Herzog"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 8,
+   "film": "Sin City",
+   "original": "",
+   "directors": [
+    "Frank Miller",
+    "Robert Rodriguez"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2005,
+   "rank": 8,
+   "film": "Tale of Cinema",
+   "original": "극장전",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 1,
+   "film": "Private Fears in Public Places",
+   "original": "Cœurs",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 1,
+   "film": "The Sun",
+   "original": "Сóлнце",
+   "directors": [
+    "Alexander Sokurov"
+   ],
+   "country": "Russia"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 3,
+   "film": "The Host",
+   "original": "괴물",
+   "directors": [
+    "Bong Joon-ho"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 4,
+   "film": "Lady Chatterley",
+   "original": "",
+   "directors": [
+    "Pascale Ferran"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 5,
+   "film": "A Perfect Couple",
+   "original": "Un couple parfait",
+   "directors": [
+    "Nobuhiro Suwa"
+   ],
+   "country": "Japan, France"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 6,
+   "film": "Capote",
+   "original": "",
+   "directors": [
+    "Bennett Miller"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 6,
+   "film": "These Encounters of Theirs",
+   "original": "Quei loro incontri",
+   "directors": [
+    "Straub–Huillet"
+   ],
+   "country": "France, Italy"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 6,
+   "film": "Lady in the Water",
+   "original": "",
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 9,
+   "film": "The Departed",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 10,
+   "film": "Flags of Our Fathers",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2006,
+   "rank": 10,
+   "film": "The New World",
+   "original": "",
+   "directors": [
+    "Terrence Malick"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 1,
+   "film": "Paranoid Park",
+   "original": "",
+   "directors": [
+    "Gus Van Sant"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 2,
+   "film": "Death Proof",
+   "original": "",
+   "directors": [
+    "Quentin Tarantino"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 2,
+   "film": "Inland Empire",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 2,
+   "film": "Still Life",
+   "original": "三峡好人",
+   "directors": [
+    "Jia Zhangke"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 5,
+   "film": "La France",
+   "original": "",
+   "directors": [
+    "Serge Bozon"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 5,
+   "film": "Zodiac",
+   "original": "",
+   "directors": [
+    "David Fincher"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 7,
+   "film": "Before I Forget",
+   "original": "Avant que j'oublie",
+   "directors": [
+    "Jacques Nolot"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 7,
+   "film": "Honor of the Knights",
+   "original": "Honor de cavalleria",
+   "directors": [
+    "Albert Serra"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 7,
+   "film": "The Romance of Astrea and Celadon",
+   "original": "Les Amours d'Astrée et de Céladon",
+   "directors": [
+    "Éric Rohmer"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 10,
+   "film": "The Duchess of Langeais",
+   "original": "Ne touchez pas la hache",
+   "directors": [
+    "Jacques Rivette"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 10,
+   "film": "I Don't Want to Sleep Alone",
+   "original": "黑眼圈",
+   "directors": [
+    "Tsai Ming-liang"
+   ],
+   "country": "Malaysia, Taiwan"
+  },
+  {
+   "list": "year",
+   "year": 2007,
+   "rank": 10,
+   "film": "Syndromes and a Century",
+   "original": "แสงศตวรรษ",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 1,
+   "film": "Redacted",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 2,
+   "film": "Colossal Youth",
+   "original": "Juventude em Marcha",
+   "directors": [
+    "Pedro Costa"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 3,
+   "film": "Cloverfield",
+   "original": "",
+   "directors": [
+    "Matt Reeves"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 4,
+   "film": "No Country for Old Men",
+   "original": "",
+   "directors": [
+    "Coen Brothers"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 5,
+   "film": "Two Lovers",
+   "original": "",
+   "directors": [
+    "James Gray"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 6,
+   "film": "Waltz with Bashir",
+   "original": "ואלס עם באשיר",
+   "directors": [
+    "Ari Folman"
+   ],
+   "country": "Israel"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 7,
+   "film": "Dernier maquis",
+   "original": "",
+   "directors": [
+    "Rabah Ameur-Zaïmeche"
+   ],
+   "country": "Algeria"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 8,
+   "film": "Hunger",
+   "original": "",
+   "directors": [
+    "Steve McQueen"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 9,
+   "film": "A Short Film About the Indio Nacional",
+   "original": "",
+   "directors": [
+    "Raya Martin"
+   ],
+   "country": "Philippines"
+  },
+  {
+   "list": "year",
+   "year": 2008,
+   "rank": 10,
+   "film": "On War",
+   "original": "De la guerre",
+   "directors": [
+    "Bertrand Bonello"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 1,
+   "film": "Wild Grass",
+   "original": "Les Herbes folles",
+   "directors": [
+    "Alain Resnais"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 2,
+   "film": "Vincere",
+   "original": "",
+   "directors": [
+    "Marco Bellocchio"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 3,
+   "film": "Inglourious Basterds",
+   "original": "",
+   "directors": [
+    "Quentin Tarantino"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 4,
+   "film": "Gran Torino",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 5,
+   "film": "Eccentricities of a Blonde-Haired Girl",
+   "original": "Singularidades de uma Rapariga Loura",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 6,
+   "film": "Tetro",
+   "original": "",
+   "directors": [
+    "Francis Ford Coppola"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 7,
+   "film": "The Hurt Locker",
+   "original": "",
+   "directors": [
+    "Kathryn Bigelow"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 8,
+   "film": "King of Escape",
+   "original": "Le roi de l'évasion",
+   "directors": [
+    "Alain Guiraudie"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 9,
+   "film": "Tokyo Sonata",
+   "original": "トウキョウソナタ",
+   "directors": [
+    "Kiyoshi Kurosawa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2009,
+   "rank": 10,
+   "film": "Hadewijch",
+   "original": "",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 1,
+   "film": "Uncle Boonmee Who Can Recall His Past Lives",
+   "original": "ลุงบุญมีระลึกชาติ",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 2,
+   "film": "Bad Lieutenant: Port of Call New Orleans",
+   "original": "",
+   "directors": [
+    "Werner Herzog"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 3,
+   "film": "Film Socialisme",
+   "original": "Socialisme",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 4,
+   "film": "Toy Story 3",
+   "original": "",
+   "directors": [
+    "Lee Unkrich"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 5,
+   "film": "Fantastic Mr. Fox",
+   "original": "",
+   "directors": [
+    "Wes Anderson"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 6,
+   "film": "A Serious Man",
+   "original": "",
+   "directors": [
+    "Coen Brothers"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 7,
+   "film": "To Die like a Man",
+   "original": "Morrer Como Um Homem",
+   "directors": [
+    "João Pedro Rodrigues"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 8,
+   "film": "The Social Network",
+   "original": "",
+   "directors": [
+    "David Fincher"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 9,
+   "film": "Chouga",
+   "original": "Shuga",
+   "directors": [
+    "Darezhan Omirbaev"
+   ],
+   "country": "Kazakhstan"
+  },
+  {
+   "list": "year",
+   "year": 2010,
+   "rank": 10,
+   "film": "Mother",
+   "original": "마더",
+   "directors": [
+    "Bong Joon-ho"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 1,
+   "film": "We Have a Pope",
+   "original": "Habemus Papam",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 2,
+   "film": "The Strange Case of Angelica",
+   "original": "O Estranho Caso de Angélica",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 2,
+   "film": "The Tree of Life",
+   "original": "",
+   "directors": [
+    "Terrence Malick"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 4,
+   "film": "Essential Killing",
+   "original": "",
+   "directors": [
+    "Jerzy Skolimowski"
+   ],
+   "country": "Poland"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 4,
+   "film": "Outside Satan",
+   "original": "Hors Satan",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 6,
+   "film": "A Burning Hot Summer",
+   "original": "Un été brûlant",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 6,
+   "film": "Melancholia",
+   "original": "",
+   "directors": [
+    "Lars von Trier"
+   ],
+   "country": "Denmark"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 8,
+   "film": "House of Tolerance",
+   "original": "L'Apollonide: Souvenirs de la maison close",
+   "directors": [
+    "Bertrand Bonello"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 8,
+   "film": "Meek's Cutoff",
+   "original": "",
+   "directors": [
+    "Kelly Reichardt"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2011,
+   "rank": 8,
+   "film": "Super 8",
+   "original": "",
+   "directors": [
+    "J. J. Abrams"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 1,
+   "film": "Holy Motors",
+   "original": "",
+   "directors": [
+    "Leos Carax"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 2,
+   "film": "Cosmopolis",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 3,
+   "film": "Twixt",
+   "original": "",
+   "directors": [
+    "Francis Ford Coppola"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 4,
+   "film": "4:44 Last Day on Earth",
+   "original": "",
+   "directors": [
+    "Abel Ferrara"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 5,
+   "film": "In Another Country",
+   "original": "다른 나라에서",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 6,
+   "film": "Take Shelter",
+   "original": "",
+   "directors": [
+    "Jeff Nichols"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 7,
+   "film": "Go Go Tales",
+   "original": "",
+   "directors": [
+    "Abel Ferrara"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 8,
+   "film": "Tabu",
+   "original": "",
+   "directors": [
+    "Miguel Gomes"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 9,
+   "film": "Faust",
+   "original": "Фауст",
+   "directors": [
+    "Alexander Sokurov"
+   ],
+   "country": "Russia"
+  },
+  {
+   "list": "year",
+   "year": 2012,
+   "rank": 10,
+   "film": "Keep the Lights On",
+   "original": "",
+   "directors": [
+    "Ira Sachs"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 1,
+   "film": "Stranger by the Lake",
+   "original": "L'Inconnu du lac",
+   "directors": [
+    "Alain Guiraudie"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 2,
+   "film": "Spring Breakers",
+   "original": "",
+   "directors": [
+    "Harmony Korine"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 3,
+   "film": "Blue Is the Warmest Colour",
+   "original": "La Vie d'Adèle – Chapitres 1 & 2",
+   "directors": [
+    "Abdellatif Kechiche"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 4,
+   "film": "Gravity",
+   "original": "",
+   "directors": [
+    "Alfonso Cuarón"
+   ],
+   "country": "United Kingdom, United States"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 5,
+   "film": "A Touch of Sin",
+   "original": "天注定",
+   "directors": [
+    "Jia Zhangke"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 6,
+   "film": "Lincoln",
+   "original": "",
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 7,
+   "film": "Jealousy",
+   "original": "La Jalousie",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 8,
+   "film": "Nobody's Daughter Haewon",
+   "original": "누구의 딸도 아닌 해원",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 9,
+   "film": "You and the Night",
+   "original": "Les Rencontres d'après minuit",
+   "directors": [
+    "Yann Gonzalez"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2013,
+   "rank": 10,
+   "film": "Age of Panic",
+   "original": "La Bataille de Solférino",
+   "directors": [
+    "Justine Triet"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 1,
+   "film": "Li'l Quinquin",
+   "original": "P'tit Quinquin",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 2,
+   "film": "Goodbye to Language",
+   "original": "Adieu au Langage",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France, Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 3,
+   "film": "Under the Skin",
+   "original": "",
+   "directors": [
+    "Jonathan Glazer"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 4,
+   "film": "Maps to the Stars",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 5,
+   "film": "The Wind Rises",
+   "original": "風立ちぬ",
+   "directors": [
+    "Hayao Miyazaki"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 6,
+   "film": "Nymphomaniac",
+   "original": "",
+   "directors": [
+    "Lars von Trier"
+   ],
+   "country": "Denmark, United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 7,
+   "film": "Mommy",
+   "original": "",
+   "directors": [
+    "Xavier Dolan"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 8,
+   "film": "Love Is Strange",
+   "original": "",
+   "directors": [
+    "Ira Sachs"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 9,
+   "film": "Paradise",
+   "original": "Le Paradis",
+   "directors": [
+    "Alain Cavalier"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2014,
+   "rank": 10,
+   "film": "Our Sunhi",
+   "original": "우리 선희",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 1,
+   "film": "Mia Madre",
+   "original": "",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "France, Italy"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 2,
+   "film": "Cemetery of Splendour",
+   "original": "รักที่ขอนแก่น",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 3,
+   "film": "In the Shadow of Women",
+   "original": "L'Ombre des femmes",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France, Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 4,
+   "film": "The Smell of Us",
+   "original": "",
+   "directors": [
+    "Larry Clark"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 5,
+   "film": "Mad Max: Fury Road",
+   "original": "",
+   "directors": [
+    "George Miller"
+   ],
+   "country": "Australia, United States"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 6,
+   "film": "Jauja",
+   "original": "",
+   "directors": [
+    "Lisandro Alonso"
+   ],
+   "country": "Argentina, Denmark"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 7,
+   "film": "Inherent Vice",
+   "original": "",
+   "directors": [
+    "Paul Thomas Anderson"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 8,
+   "film": "Arabian Nights",
+   "original": "As Mil e uma Noites",
+   "directors": [
+    "Miguel Gomes"
+   ],
+   "country": "Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 9,
+   "film": "The Summer of Sangailė",
+   "original": "Sangailės vasara",
+   "directors": [
+    "Alantė Kavaitė"
+   ],
+   "country": "Lithuania"
+  },
+  {
+   "list": "year",
+   "year": 2015,
+   "rank": 10,
+   "film": "Journey to the Shore",
+   "original": "岸辺の旅",
+   "directors": [
+    "Kiyoshi Kurosawa"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 1,
+   "film": "Toni Erdmann",
+   "original": "",
+   "directors": [
+    "Maren Ade"
+   ],
+   "country": "Germany, Austria"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 2,
+   "film": "Elle",
+   "original": "",
+   "directors": [
+    "Paul Verhoeven"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 3,
+   "film": "The Neon Demon",
+   "original": "",
+   "directors": [
+    "Nicolas Winding Refn"
+   ],
+   "country": "Denmark, France, United States"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 4,
+   "film": "Aquarius",
+   "original": "",
+   "directors": [
+    "Kleber Mendonça Filho"
+   ],
+   "country": "Brazil"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 5,
+   "film": "Slack Bay",
+   "original": "Ma Loute",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 6,
+   "film": "Julieta",
+   "original": "",
+   "directors": [
+    "Pedro Almodóvar"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 7,
+   "film": "Staying Vertical",
+   "original": "Rester vertical",
+   "directors": [
+    "Alain Guiraudie"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 8,
+   "film": "La Loi de la jungle",
+   "original": "",
+   "directors": [
+    "Antonin Peretjatko"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 9,
+   "film": "Carol",
+   "original": "",
+   "directors": [
+    "Todd Haynes"
+   ],
+   "country": "United States, United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 2016,
+   "rank": 10,
+   "film": "The Woods Dreams Are Made of",
+   "original": "Le Bois Dont Les Rêves Sont Faits",
+   "directors": [
+    "Claire Simon"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 1,
+   "film": "Twin Peaks: The Return",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 2,
+   "film": "Jeannette: The Childhood of Joan of Arc",
+   "original": "Jeannette, l'enfance de Jeanne d'Arc",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 3,
+   "film": "Certain Women",
+   "original": "",
+   "directors": [
+    "Kelly Reichardt"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 4,
+   "film": "Get Out",
+   "original": "",
+   "directors": [
+    "Jordan Peele"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 5,
+   "film": "The Day After",
+   "original": "그 후",
+   "directors": [
+    "Hong Sang-Soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 6,
+   "film": "Lover for a Day",
+   "original": "L'Amant d'un jour",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 7,
+   "film": "Good Time",
+   "original": "",
+   "directors": [
+    "Ben",
+    "Josh Safdie"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 8,
+   "film": "Split",
+   "original": "",
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 9,
+   "film": "Jackie",
+   "original": "",
+   "directors": [
+    "Pablo Larraín"
+   ],
+   "country": "United States, Chile, France"
+  },
+  {
+   "list": "year",
+   "year": 2017,
+   "rank": 10,
+   "film": "Billy Lynn's Long Halftime Walk",
+   "original": "",
+   "directors": [
+    "Ang Lee"
+   ],
+   "country": "Taiwan, United Kingdom, United States"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 1,
+   "film": "The Wild Boys",
+   "original": "les garçons sauvages",
+   "directors": [
+    "Bertrand Mandico"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 2,
+   "film": "Coincoin and the Extra-Humans",
+   "original": "Coincoin et les z'inhumains",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 3,
+   "film": "Phantom Thread",
+   "original": "",
+   "directors": [
+    "Paul Thomas Anderson"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 4,
+   "film": "Burning",
+   "original": "버닝",
+   "directors": [
+    "Lee Chang-dong"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 5,
+   "film": "Paul Sanchez est revenu!",
+   "original": "",
+   "directors": [
+    "Patricia Mazuy"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 6,
+   "film": "The Post",
+   "original": "",
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 7,
+   "film": "On the Beach at Night Alone",
+   "original": "밤의 해변에서 혼자",
+   "directors": [
+    "Hong Sang-Soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 8,
+   "film": "The House That Jack Built",
+   "original": "",
+   "directors": [
+    "Lars von Trier"
+   ],
+   "country": "Denmark"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 9,
+   "film": "Leto",
+   "original": "Лето",
+   "directors": [
+    "Kirill Serebrennikov"
+   ],
+   "country": "Russia"
+  },
+  {
+   "list": "year",
+   "year": 2018,
+   "rank": 10,
+   "film": "Treasure Island",
+   "original": "L'île au trésor",
+   "directors": [
+    "Guillaume Brac"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 1,
+   "film": "The Image Book",
+   "original": "Le Livre d'image",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France, Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 2,
+   "film": "Parasite",
+   "original": "기생충",
+   "directors": [
+    "Bong Joon-Ho"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 3,
+   "film": "Synonyms",
+   "original": "Synonymes",
+   "directors": [
+    "Nadav Lapid"
+   ],
+   "country": "France, Israel"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 4,
+   "film": "Bacurau",
+   "original": "",
+   "directors": [
+    "Kleber Mendonça Filho",
+    "Juliano Dornelles"
+   ],
+   "country": "Brazil"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 5,
+   "film": "Joan of Arc",
+   "original": "Jeanne",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 6,
+   "film": "Pain and Glory",
+   "original": "Dolor y gloria",
+   "directors": [
+    "Pedro Almodóvar"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 7,
+   "film": "Les Misérables",
+   "original": "",
+   "directors": [
+    "Ladj Ly"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 8,
+   "film": "The Mule",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 9,
+   "film": "Joker",
+   "original": "",
+   "directors": [
+    "Todd Phillips"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2019,
+   "rank": 10,
+   "film": "The Irishman",
+   "original": "",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 1,
+   "film": "City Hall",
+   "original": "",
+   "directors": [
+    "Frederick Wiseman"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 2,
+   "film": "The Woman Who Ran",
+   "original": "도망친 여자",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 3,
+   "film": "Uncut Gems",
+   "original": "",
+   "directors": [
+    "Benny Safdie",
+    "Joshua Safdie"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 4,
+   "film": "Malmkrog",
+   "original": "",
+   "directors": [
+    "Cristi Puiu"
+   ],
+   "country": "Romania"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 5,
+   "film": "Love Affair(s)",
+   "original": "Les Choses qu'on dit, les choses qu'on fait",
+   "directors": [
+    "Emmanuel Mouret"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 6,
+   "film": "Hotel by the River",
+   "original": "강변 호텔",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 7,
+   "film": "Dwelling in the Fuchun Mountains",
+   "original": "春江水暖",
+   "directors": [
+    "Gu Xiaogang"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 8,
+   "film": "The Salt of Tears",
+   "original": "Le Sel des larmes",
+   "directors": [
+    "Philippe Garrel"
+   ],
+   "country": "France, Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 9,
+   "film": "Enormous",
+   "original": "",
+   "directors": [
+    "Sophie Letourneur"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2020,
+   "rank": 10,
+   "film": "The August Virgin",
+   "original": "La virgen de agosto",
+   "directors": [
+    "Jonás Trueba"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 1,
+   "film": "First Cow",
+   "original": "",
+   "directors": [
+    "Kelly Reichardt"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 2,
+   "film": "Annette",
+   "original": "",
+   "directors": [
+    "Leos Carax"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 3,
+   "film": "Memoria",
+   "original": "",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Colombia"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 4,
+   "film": "Drive My Car",
+   "original": "ドライブ・マイ・カー",
+   "directors": [
+    "Ryusuke Hamaguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 5,
+   "film": "France",
+   "original": "",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 6,
+   "film": "The French Dispatch",
+   "original": "",
+   "directors": [
+    "Wes Anderson"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 7,
+   "film": "All Hands on Deck",
+   "original": "À L'abordage",
+   "directors": [
+    "Guillaume Brac"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 8,
+   "film": "The Girl and the Spider",
+   "original": "Das Mädchen und die Spinne",
+   "directors": [
+    "Ramon Zürcher",
+    "Silvan Zürcher"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 9,
+   "film": "The Card Counter",
+   "original": "",
+   "directors": [
+    "Paul Schrader"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2021,
+   "rank": 10,
+   "film": "Benedetta",
+   "original": "",
+   "directors": [
+    "Paul Verhoeven"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 1,
+   "film": "Pacifiction",
+   "original": "Pacifiction – Tourment sur les îles",
+   "directors": [
+    "Albert Serra"
+   ],
+   "country": "France, Spain, Germany, Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 2,
+   "film": "Licorice Pizza",
+   "original": "",
+   "directors": [
+    "Paul Thomas Anderson"
+   ],
+   "country": "United States, Canada"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 3,
+   "film": "Nope",
+   "original": "",
+   "directors": [
+    "Jordan Peele"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 4,
+   "film": "EO",
+   "original": "IO",
+   "directors": [
+    "Jerzy Skolimowski"
+   ],
+   "country": "Poland, Italy"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 5,
+   "film": "Wheel of Fortune and Fantasy",
+   "original": "偶然と想像",
+   "directors": [
+    "Ryusuke Hamaguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 6,
+   "film": "Saturn Bowling",
+   "original": "",
+   "directors": [
+    "Patricia Mazuy"
+   ],
+   "country": "France, Belgium"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 7,
+   "film": "Apollo 10 1⁄2: A Space Age Childhood",
+   "original": "",
+   "directors": [
+    "Richard Linklater"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 8,
+   "film": "Introduction",
+   "original": "인트로덕션",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 9,
+   "film": "Nobody's Hero",
+   "original": "Viens je t'emmène",
+   "directors": [
+    "Alain Guiraudie"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2022,
+   "rank": 10,
+   "film": "Who's Stopping Us",
+   "original": "Quién lo impide",
+   "directors": [
+    "Jonás Trueba"
+   ],
+   "country": "Spain"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 1,
+   "film": "Trenque Lauquen",
+   "original": "",
+   "directors": [
+    "Laura Citarella"
+   ],
+   "country": "Argentina, Germany"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 2,
+   "film": "Close Your Eyes",
+   "original": "Cerrar los ojos",
+   "directors": [
+    "Víctor Erice"
+   ],
+   "country": "Spain, Argentina"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 3,
+   "film": "Anatomy of a Fall",
+   "original": "Anatomie d'une chute",
+   "directors": [
+    "Justine Triet"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 4,
+   "film": "The Fabelmans",
+   "original": "",
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 5,
+   "film": "Fallen Leaves",
+   "original": "Kuolleet lehdet",
+   "directors": [
+    "Aki Kaurismäki"
+   ],
+   "country": "Finland, Germany"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 6,
+   "film": "Unrest",
+   "original": "",
+   "directors": [
+    "Cyril Schäublin"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 7,
+   "film": "Do Not Expect Too Much from the End of the World",
+   "original": "Nu aștepta prea mult de la sfârșitul lumii",
+   "directors": [
+    "Radu Jude"
+   ],
+   "country": "Romania, Croatia, France, Luxembourg"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 8,
+   "film": "The Temple Woods Gang",
+   "original": "Le Gang des bois du temple",
+   "directors": [
+    "Rabah Ameur-Zaïmeche"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 9,
+   "film": "Last Summer",
+   "original": "L'Été dernier",
+   "directors": [
+    "Catherine Breillat"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 10,
+   "film": "A Prince",
+   "original": "Un prince",
+   "directors": [
+    "Pierre Creton"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2023,
+   "rank": 10,
+   "film": "Showing Up",
+   "original": "",
+   "directors": [
+    "Kelly Reichardt"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 1,
+   "film": "Misericordia",
+   "original": "Miséricorde",
+   "directors": [
+    "Alain Guiraudie"
+   ],
+   "country": "France, Spain, Portugal"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 2,
+   "film": "May December",
+   "original": "",
+   "directors": [
+    "Todd Haynes"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 3,
+   "film": "In Water",
+   "original": "물안에서",
+   "directors": [
+    "Hong Sang-soo"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 4,
+   "film": "The Zone of Interest",
+   "original": "",
+   "directors": [
+    "Jonathan Glazer"
+   ],
+   "country": "United Kingdom, Poland, United States"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 5,
+   "film": "All We Imagine as Light",
+   "original": "പ്രഭയായ് നിനച്ചതെല്ലം",
+   "directors": [
+    "Payal Kapadia"
+   ],
+   "country": "France, India, Netherlands, Luxembourg, Italy"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 6,
+   "film": "The Delinquents",
+   "original": "Los delincuentes",
+   "directors": [
+    "Rodrigo Moreno"
+   ],
+   "country": "Argentina, Brazil, Chile, Luxembourg"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 7,
+   "film": "Evil Does Not Exist",
+   "original": "悪は存在しない",
+   "directors": [
+    "Ryusuke Hamaguchi"
+   ],
+   "country": "Japan"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 8,
+   "film": "This Life of Mine",
+   "original": "Ma vie ma gueule",
+   "directors": [
+    "Sophie Fillières"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 9,
+   "film": "Trap",
+   "original": "",
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2024,
+   "rank": 10,
+   "film": "The Other Way Around",
+   "original": "Volveréis",
+   "directors": [
+    "Jonás Trueba"
+   ],
+   "country": "Spain, France"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 1,
+   "film": "Afternoons of Solitude",
+   "original": "Tardes de soledad",
+   "directors": [
+    "Albert Serra"
+   ],
+   "country": "Spain, Portugal, France"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 2,
+   "film": "One Battle After Another",
+   "original": "",
+   "directors": [
+    "Paul Thomas Anderson"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 3,
+   "film": "Yes!",
+   "original": "כן!",
+   "directors": [
+    "Nadav Lapid"
+   ],
+   "country": "Israel, France, Germany, Cyprus, United Kingdom"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 4,
+   "film": "The Secret Agent",
+   "original": "O Agente Secreto",
+   "directors": [
+    "Kleber Mendonça Filho"
+   ],
+   "country": "Brazil, France, Germany, Netherlands"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 5,
+   "film": "I Only Rest in the Storm",
+   "original": "O Riso e a Faca",
+   "directors": [
+    "Pedro Pinho"
+   ],
+   "country": "Portugal, Brazil, France, Romania"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 6,
+   "film": "L'aventura",
+   "original": "",
+   "directors": [
+    "Sophie Letourneur"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 7,
+   "film": "7 Walks with Mark Brown",
+   "original": "7 promenades avec Mark Brown",
+   "directors": [
+    "Pierre Creton",
+    "Vincent Barré"
+   ],
+   "country": ""
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 8,
+   "film": "Nouvelle Vague",
+   "original": "",
+   "directors": [
+    "Richard Linklater"
+   ],
+   "country": "France, United States"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 9,
+   "film": "Drifting Laurent",
+   "original": "Laurent dans le vent",
+   "directors": [
+    "Anton Balekdjian, Léo Couture",
+    "Mattéo Eustachon"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "year",
+   "year": 2025,
+   "rank": 10,
+   "film": "Miroirs No. 3",
+   "original": "",
+   "directors": [
+    "Christian Petzold"
+   ],
+   "country": "Germany"
+  }
+ ],
+ "decades": [
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 1,
+   "film": "The Bridges of Madison County",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 1,
+   "film": "Carlito's Way",
+   "original": "",
+   "directors": [
+    "Brian De Palma"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 1,
+   "film": "Goodbye South, Goodbye",
+   "original": "南國再見,南國",
+   "directors": [
+    "Hou Hsiao-hsien"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 4,
+   "film": "Close-Up",
+   "original": "کلوزآپ ، نمای نزدیک",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 4,
+   "film": "Eyes Wide Shut",
+   "original": "",
+   "directors": [
+    "Stanley Kubrick"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 4,
+   "film": "Twin Peaks: Fire Walk With Me",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 4,
+   "film": "Unforgiven",
+   "original": "",
+   "directors": [
+    "Clint Eastwood"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 8,
+   "film": "Crash",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 8,
+   "film": "Edward Scissorhands",
+   "original": "",
+   "directors": [
+    "Tim Burton"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 1990,
+   "rank": 8,
+   "film": "The River",
+   "original": "河流",
+   "directors": [
+    "Tsai Ming-liang"
+   ],
+   "country": "Taiwan"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 1,
+   "film": "Mulholland Drive",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 2,
+   "film": "Elephant",
+   "original": "",
+   "directors": [
+    "Gus Van Sant"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 3,
+   "film": "Tropical Malady",
+   "original": "สัตว์ประหลาด",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 4,
+   "film": "The Host",
+   "original": "괴물",
+   "directors": [
+    "Bong Joon-ho"
+   ],
+   "country": "South Korea"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 5,
+   "film": "A History of Violence",
+   "original": "",
+   "directors": [
+    "David Cronenberg"
+   ],
+   "country": "Canada"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 6,
+   "film": "The Secret of the Grain",
+   "original": "La graine et le mulet",
+   "directors": [
+    "Abdellatif Kechiche"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 7,
+   "film": "Tie Xi Qu: West of the Tracks",
+   "original": "铁西区",
+   "directors": [
+    "Wang Bing"
+   ],
+   "country": "China"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 8,
+   "film": "War of the Worlds",
+   "original": "",
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 9,
+   "film": "The New World",
+   "original": "",
+   "directors": [
+    "Terrence Malick"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 2000,
+   "rank": 10,
+   "film": "Ten",
+   "original": "ده",
+   "directors": [
+    "Abbas Kiarostami"
+   ],
+   "country": "Iran"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 1,
+   "film": "Twin Peaks: The Return",
+   "original": "",
+   "directors": [
+    "David Lynch"
+   ],
+   "country": "United States"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 2,
+   "film": "Holy Motors",
+   "original": "",
+   "directors": [
+    "Leos Carax"
+   ],
+   "country": "France"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 3,
+   "film": "Li'l Quinquin",
+   "original": "P'tit Quinquin",
+   "directors": [
+    "Bruno Dumont"
+   ],
+   "country": ""
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 4,
+   "film": "Uncle Boonmee Who Can Recall His Past Lives",
+   "original": "ลุงบุญมีระลึกชาติ",
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 5,
+   "film": "The Image Book",
+   "original": "Le Livre d'image",
+   "directors": [
+    "Jean-Luc Godard"
+   ],
+   "country": "France, Switzerland"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 6,
+   "film": "Toni Erdmann",
+   "original": "",
+   "directors": [
+    "Maren Ade"
+   ],
+   "country": "Germany, Austria"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 7,
+   "film": "Mia Madre",
+   "original": "",
+   "directors": [
+    "Nanni Moretti"
+   ],
+   "country": "Italy"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 8,
+   "film": "Melancholia",
+   "original": "",
+   "directors": [
+    "Lars von Trier"
+   ],
+   "country": "Denmark"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 9,
+   "film": "Under the Skin",
+   "original": "",
+   "directors": [
+    "Jonathan Glazer"
+   ],
+   "country": "United Kingdom"
+  },
+  {
+   "list": "decade",
+   "year": 2010,
+   "rank": 10,
+   "film": "The Strange Case of Angelica",
+   "original": "O Estranho Caso de Angélica",
+   "directors": [
+    "Manoel de Oliveira"
+   ],
+   "country": "Portugal"
+  }
+ ]
+}

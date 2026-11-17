@@ -71,6 +71,7 @@ CREATE TABLE influences (from_id TEXT REFERENCES directors(id), to_id TEXT REFER
   PRIMARY KEY (from_id, to_id));
 CREATE TABLE facts (id INTEGER PRIMARY KEY, director_id TEXT REFERENCES directors(id), text TEXT, status TEXT, source_id TEXT);
 CREATE TABLE book_mentions (director_id TEXT REFERENCES directors(id), scan_page INTEGER);
+CREATE TABLE list_entries (list TEXT, label TEXT, year INTEGER, rank INTEGER, tied INTEGER, votes INTEGER, film TEXT, original_title TEXT, directors TEXT, country TEXT, ceremony INTEGER, note TEXT);
 CREATE VIEW to_verify AS
   SELECT 'fact' AS kind, d.name AS subject, f.text AS claim FROM facts f JOIN directors d ON d.id = f.director_id WHERE f.status = 'draft'
   UNION ALL SELECT 'influence', a.name || ' -> ' || b.name, i.note FROM influences i JOIN directors a ON a.id = i.from_id JOIN directors b ON b.id = i.to_id WHERE i.status = 'draft';
@@ -83,6 +84,18 @@ CREATE VIEW director_overview AS
   FROM directors d WHERE d.profiled = 1;
 """)
 db.executemany("INSERT INTO sources VALUES (?,?,?,?,?)", [(k, v["name"], v["detail"], v["url"], v["used_for"]) for k, v in SRC.items()])
+OSC, CAH = load("oscars", optional=True), load("cahiers", optional=True)
+rows = []
+for cat in ("picture", "director", "international"):
+    for e in (OSC or {}).get(cat, []):
+        rows.append(("oscar-" + cat, e["label"], e["year"], None, None, None, e["film"], e.get("original") or None, " & ".join(e["directors"]), e.get("country"), e["ceremony"],
+                     "honorary award" if e.get("honorary") else e.get("note")))
+for e in (CAH or {}).get("top100", {}).get("films", []):
+    rows.append(("cahiers-100", "%d%s" % (e["rank"], "=" if e["tied"] else ""), 2008, e["rank"], int(e["tied"]), e["votes"], e["film"], e.get("original") or None, " & ".join(e["directors"]), None, None, None))
+for key, part in (("cahiers-annual", "annual"), ("cahiers-decades", "decades")):
+    for e in (CAH or {}).get(part, []):
+        rows.append((key, str(e["year"]) + ("s" if part == "decades" else ""), e["year"], e["rank"], None, None, e["film"], e.get("original") or None, " & ".join(e["directors"]), e.get("country") or None, None, None))
+db.executemany("INSERT INTO list_entries VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", rows)
 for d in D:
     fx = F.get(d["id"], {})
     db.execute("INSERT INTO directors VALUES (" + ",".join("?" * (11 + len(keys))) + ")",

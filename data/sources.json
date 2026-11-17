@@ -52,5 +52,23 @@
   "detail": "birth and death, birthplace, awards, influences, teachers, students and family, public domain (CC0)",
   "url": "https://www.wikidata.org",
   "used_for": "life dates, awards, sourced influence links, family ties, Wikipedia links"
+ },
+ "oscars": {
+  "name": "Academy Awards",
+  "detail": "Winners of Best Picture, Best Director and Best International Feature Film, 1927/28 to 2025",
+  "url": "https://awardsdatabase.oscars.org",
+  "used_for": "Oscar badges and lists. Compiled by hand; the 2025 winners were checked against press reports and the international list against a partial Wikipedia copy"
+ },
+ "cahiers_100": {
+  "name": "Cahiers du cinéma",
+  "detail": "100 films pour une cinémathèque idéale (2008), voted by 78 critics and historians",
+  "url": "https://blog.matthewhunt.com/2008/11/100-films-pour-une-cinematheque-ideale.html",
+  "used_for": "Cahiers 100 ranks, with ties from the vote counts"
+ },
+ "cahiers_annual": {
+  "name": "Cahiers du cinéma",
+  "detail": "Top 10 of the year, 1951 to 2025, and the best of the 1990s, 2000s and 2010s, as collected on Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists",
+  "used_for": "Cahiers top 10 badges and lists"
  }
 }
