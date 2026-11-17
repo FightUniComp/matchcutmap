@@ -16,6 +16,11 @@ import csv, json, os, sqlite3, sys
 # ratings, birth dates and filmographies from TMDB go only into the local build:
 #     python scripts/build_db.py --with-tmdb   ->  database/auteur-atlas-full.sqlite (not committed)
 FULL = "--with-tmdb" in sys.argv
+# IMDb ratings from your own download of title.ratings.tsv (https://datasets.imdbws.com). IMDb allows these files
+# for personal, non-commercial use only and forbids republishing them, so they go only into the local full build:
+#     python scripts/build_db.py --with-tmdb --imdb=path/to/title.ratings.tsv
+IMDB = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--imdb=")), None)
+if IMDB and not FULL: sys.exit("--imdb needs --with-tmdb: IMDb ratings are for personal use and never go into the public build.")
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def load(name, optional=False):
@@ -100,6 +105,12 @@ for f in FILMS:
     for i in f["directors"]:
         assert i in known, (f["id"], i)
         db.execute("INSERT OR IGNORE INTO film_directors VALUES (?,?)", (f["id"], i))
+if IMDB:
+    want = {r[0] for r in db.execute("SELECT imdb_id FROM films WHERE imdb_id IS NOT NULL")}
+    db.execute("CREATE TABLE imdb_ratings (imdb_id TEXT PRIMARY KEY, rating REAL, votes INTEGER)")
+    with open(IMDB, encoding="utf-8") as fh:
+        next(fh)
+        db.executemany("INSERT INTO imdb_ratings VALUES (?,?,?)", [(a, float(b), int(c)) for a, b, c in (l.rstrip("\n").split("\t") for l in fh) if a in want])
 for did, v in PEOPLE.items():
     if did not in known: continue
     for p in v.get("persons", []):

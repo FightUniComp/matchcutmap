@@ -4367,6 +4367,7 @@
   "country": "Canada",
   "born": null,
   "movements": [
+   "structural-film",
    "experimental"
   ],
   "techniques": [
@@ -4773,6 +4774,7 @@
   "country": "France",
   "born": null,
   "movements": [
+   "french-impressionism",
    "silent-pioneers"
   ],
   "techniques": [
@@ -5769,7 +5771,9 @@
   "name": "Fei Mu",
   "country": "China",
   "born": null,
-  "movements": [],
+  "movements": [
+   "shanghai-cinema"
+  ],
   "techniques": [
    "long-take",
    "voiceover",
@@ -6269,7 +6273,9 @@
   "name": "King Hu",
   "country": "Taiwan",
   "born": null,
-  "movements": [],
+  "movements": [
+   "hong-kong-martial-arts"
+  ],
   "techniques": [
    "action-choreography",
    "landscape",
@@ -8471,6 +8477,7 @@
   "country": "Italy",
   "born": null,
   "movements": [
+   "commedia-all-italiana",
    "italian-neorealism"
   ],
   "techniques": [
@@ -10306,7 +10313,8 @@
   "country": "Hong Kong",
   "born": null,
   "movements": [
-   "hong-kong-second-wave"
+   "hong-kong-second-wave",
+   "hong-kong-martial-arts"
   ],
   "techniques": [
    "action-choreography",
@@ -10493,7 +10501,9 @@
   "name": "Ettore Scola",
   "country": "Italy",
   "born": null,
-  "movements": [],
+  "movements": [
+   "commedia-all-italiana"
+  ],
   "techniques": [
    "ensemble",
    "black-comedy",
@@ -11745,7 +11755,9 @@
   "name": "Dino Risi",
   "country": "Italy",
   "born": null,
-  "movements": [],
+  "movements": [
+   "commedia-all-italiana"
+  ],
   "techniques": [
    "black-comedy",
    "location",
@@ -12287,6 +12299,7 @@
   "country": "USA",
   "born": null,
   "movements": [
+   "structural-film",
    "experimental"
   ],
   "techniques": [
@@ -12522,6 +12535,7 @@
   "country": "France",
   "born": null,
   "movements": [
+   "french-impressionism",
    "experimental"
   ],
   "techniques": [
@@ -13541,7 +13555,9 @@
   "name": "Liu Chia-Liang",
   "country": "Hong Kong",
   "born": null,
-  "movements": [],
+  "movements": [
+   "hong-kong-martial-arts"
+  ],
   "techniques": [
    "action-choreography",
    "long-take",
@@ -13862,7 +13878,9 @@
   "name": "Mario Monicelli",
   "country": "Italy",
   "born": null,
-  "movements": [],
+  "movements": [
+   "commedia-all-italiana"
+  ],
   "techniques": [
    "black-comedy",
    "ensemble",
@@ -18848,6 +18866,1969 @@
    "tone": 1,
    "dialogue": 2,
    "scale": 4
+  }
+ },
+ {
+  "id": "aliceguyblache",
+  "name": "Alice Guy-Blaché",
+  "country": "France/USA",
+  "born": null,
+  "movements": [
+   "silent-pioneers"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "special-effects",
+   "absurd-humour",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 2,
+   "narrative": 2,
+   "performance": 6,
+   "tone": 6,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "edwinsporter",
+  "name": "Edwin S. Porter",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "silent-pioneers"
+  ],
+  "techniques": [
+   "cross-cutting",
+   "location",
+   "special-effects",
+   "action-choreography"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 6,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 5,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "maxlinder",
+  "name": "Max Linder",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "silent-comedy"
+  ],
+  "techniques": [
+   "absurd-humour",
+   "deadpan",
+   "studio-artifice",
+   "mirrors-reflections"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 2,
+   "narrative": 2,
+   "performance": 6,
+   "tone": 8,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "macksennett",
+  "name": "Mack Sennett",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "silent-comedy"
+  ],
+  "techniques": [
+   "absurd-humour",
+   "action-choreography",
+   "fast-cutting",
+   "location",
+   "crowd-choreography"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 8,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 8,
+   "tone": 9,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "thomashince",
+  "name": "Thomas H. Ince",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "silent-pioneers",
+   "classical-hollywood"
+  ],
+  "techniques": [
+   "action-choreography",
+   "location",
+   "landscape",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 3,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 6
+  }
+ },
+ {
+  "id": "allandwan",
+  "name": "Allan Dwan",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "silent-pioneers",
+   "classical-hollywood"
+  ],
+  "techniques": [
+   "tracking-shot",
+   "action-choreography",
+   "location",
+   "ensemble"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 6,
+   "camera": 6,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 5,
+   "dialogue": 4,
+   "scale": 5
+  }
+ },
+ {
+  "id": "rexingram",
+  "name": "Rex Ingram",
+  "country": "USA/Ireland",
+  "born": null,
+  "movements": [
+   "silent-pioneers"
+  ],
+  "techniques": [
+   "chiaroscuro",
+   "crowd-choreography",
+   "period-detail",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 2,
+   "performance": 6,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 8
+  }
+ },
+ {
+  "id": "germainedulac",
+  "name": "Germaine Dulac",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "french-impressionism",
+   "surrealism",
+   "experimental"
+  ],
+  "techniques": [
+   "dream-logic",
+   "abstraction",
+   "montage",
+   "closeup",
+   "classical-music"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 4,
+   "camera": 4,
+   "narrative": 6,
+   "performance": 7,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "marcellherbier",
+  "name": "Marcel L'Herbier",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "french-impressionism"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "abstraction",
+   "architecture-framing",
+   "tracking-shot"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 4,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 8,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 5
+  }
+ },
+ {
+  "id": "jacquesfeyder",
+  "name": "Jacques Feyder",
+  "country": "Belgium/France",
+  "born": null,
+  "movements": [
+   "poetic-realism"
+  ],
+  "techniques": [
+   "period-detail",
+   "studio-artifice",
+   "ensemble",
+   "absurd-humour"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 4,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 6,
+   "dialogue": 4,
+   "scale": 5
+  }
+ },
+ {
+  "id": "paulleni",
+  "name": "Paul Leni",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "german-expressionism",
+   "horror"
+  ],
+  "techniques": [
+   "chiaroscuro",
+   "studio-artifice",
+   "architecture-framing",
+   "closeup"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 4,
+   "performance": 8,
+   "tone": 3,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "paulwegener",
+  "name": "Paul Wegener",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "german-expressionism"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "special-effects",
+   "chiaroscuro",
+   "theatrical"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 2,
+   "performance": 8,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 5
+  }
+ },
+ {
+  "id": "eadupont",
+  "name": "E. A. Dupont",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "german-expressionism"
+  ],
+  "techniques": [
+   "tracking-shot",
+   "closeup",
+   "chiaroscuro",
+   "melodrama",
+   "pov"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 5,
+   "camera": 8,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "arnoldfanck",
+  "name": "Arnold Fanck",
+  "country": "Germany",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "landscape",
+   "location",
+   "action-choreography",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 6,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 8
+  }
+ },
+ {
+  "id": "hansrichter",
+  "name": "Hans Richter",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "experimental"
+  ],
+  "techniques": [
+   "abstraction",
+   "animation",
+   "montage",
+   "dream-logic",
+   "collage"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 6,
+   "camera": 3,
+   "narrative": 8,
+   "performance": 7,
+   "tone": 5,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "mauritzstiller",
+  "name": "Mauritz Stiller",
+  "country": "Sweden",
+  "born": null,
+  "movements": [
+   "silent-pioneers"
+  ],
+  "techniques": [
+   "landscape",
+   "period-detail",
+   "absurd-humour",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 4,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 5,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 6
+  }
+ },
+ {
+  "id": "benjaminchristensen",
+  "name": "Benjamin Christensen",
+  "country": "Denmark",
+  "born": null,
+  "movements": [
+   "silent-pioneers",
+   "horror"
+  ],
+  "techniques": [
+   "chiaroscuro",
+   "essay-form",
+   "documentary-hybrid",
+   "special-effects",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 7,
+   "performance": 7,
+   "tone": 3,
+   "dialogue": 2,
+   "scale": 4
+  }
+ },
+ {
+  "id": "yakovprotazanov",
+  "name": "Yakov Protazanov",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "silent-pioneers"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "special-effects",
+   "melodrama",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 4,
+   "dialogue": 2,
+   "scale": 6
+  }
+ },
+ {
+  "id": "levkuleshov",
+  "name": "Lev Kuleshov",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "soviet-montage"
+  ],
+  "techniques": [
+   "montage",
+   "closeup",
+   "action-choreography",
+   "absurd-humour"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 7,
+   "camera": 3,
+   "narrative": 4,
+   "performance": 7,
+   "tone": 6,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "vsevolodpudovkin",
+  "name": "Vsevolod Pudovkin",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "soviet-montage"
+  ],
+  "techniques": [
+   "montage",
+   "closeup",
+   "crowd-choreography",
+   "landscape",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 6,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 5,
+   "tone": 1,
+   "dialogue": 1,
+   "scale": 7
+  }
+ },
+ {
+  "id": "grigorikozintsev",
+  "name": "Grigori Kozintsev",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "soviet-montage"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "absurd-humour",
+   "chiaroscuro",
+   "period-detail",
+   "landscape"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 7,
+   "tone": 3,
+   "dialogue": 3,
+   "scale": 7
+  }
+ },
+ {
+  "id": "abramroom",
+  "name": "Abram Room",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "soviet-montage"
+  ],
+  "techniques": [
+   "chamber-drama",
+   "everyday",
+   "closeup",
+   "location"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 4,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 4,
+   "dialogue": 2,
+   "scale": 2
+  }
+ },
+ {
+  "id": "esfirshub",
+  "name": "Esfir Shub",
+  "country": "Soviet Union",
+  "born": null,
+  "movements": [
+   "documentary",
+   "soviet-montage"
+  ],
+  "techniques": [
+   "collage",
+   "montage",
+   "essay-form",
+   "documentary-hybrid"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 6,
+   "camera": 3,
+   "narrative": 5,
+   "performance": 1,
+   "tone": 1,
+   "dialogue": 1,
+   "scale": 6
+  }
+ },
+ {
+  "id": "johngrierson",
+  "name": "John Grierson",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "documentary"
+  ],
+  "techniques": [
+   "montage",
+   "voiceover",
+   "location",
+   "non-actors",
+   "landscape"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 2,
+   "tone": 2,
+   "dialogue": 2,
+   "scale": 5
+  }
+ },
+ {
+  "id": "winsormccay",
+  "name": "Winsor McCay",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "dream-logic",
+   "special-effects",
+   "studio-artifice"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 7,
+   "tone": 6,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "ladislasstarevich",
+  "name": "Ladislas Starevich",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "absurd-humour",
+   "studio-artifice",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 5,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 8,
+   "tone": 6,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "fleischerbrothers",
+  "name": "Fleischer Brothers",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "absurd-humour",
+   "special-effects",
+   "pop-music",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 8,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 8,
+   "tone": 9,
+   "dialogue": 3,
+   "scale": 4
+  },
+  "members": [
+   "Max Fleischer",
+   "Dave Fleischer"
+  ]
+ },
+ {
+  "id": "texavery",
+  "name": "Tex Avery",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "absurd-humour",
+   "self-reflexive",
+   "fast-cutting",
+   "direct-address"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 9,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 9,
+   "tone": 9,
+   "dialogue": 3,
+   "scale": 3
+  }
+ },
+ {
+  "id": "oskarfischinger",
+  "name": "Oskar Fischinger",
+  "country": "Germany/USA",
+  "born": null,
+  "movements": [
+   "experimental",
+   "animation"
+  ],
+  "techniques": [
+   "abstraction",
+   "animation",
+   "classical-music",
+   "sound-design"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 6,
+   "camera": 4,
+   "narrative": 5,
+   "performance": 8,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "jiritrnka",
+  "name": "Jiří Trnka",
+  "country": "Czechoslovakia",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "period-detail",
+   "classical-music",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 7,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 5
+  }
+ },
+ {
+  "id": "karelzeman",
+  "name": "Karel Zeman",
+  "country": "Czechoslovakia",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "special-effects",
+   "studio-artifice",
+   "animation",
+   "period-detail",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 7,
+   "tone": 5,
+   "dialogue": 2,
+   "scale": 6
+  }
+ },
+ {
+  "id": "jansvankmajer",
+  "name": "Jan Švankmajer",
+  "country": "Czechoslovakia",
+  "born": null,
+  "movements": [
+   "surrealism",
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "collage",
+   "dream-logic",
+   "closeup",
+   "sound-design",
+   "provocation"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 6,
+   "camera": 4,
+   "narrative": 6,
+   "performance": 8,
+   "tone": 6,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "bradbird",
+  "name": "Brad Bird",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "animation",
+   "contemporary-hollywood"
+  ],
+  "techniques": [
+   "animation",
+   "action-choreography",
+   "special-effects",
+   "ensemble"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 7,
+   "camera": 8,
+   "narrative": 2,
+   "performance": 7,
+   "tone": 7,
+   "dialogue": 5,
+   "scale": 7
+  }
+ },
+ {
+  "id": "harrysmith",
+  "name": "Harry Smith",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "experimental",
+   "animation"
+  ],
+  "techniques": [
+   "abstraction",
+   "animation",
+   "collage",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 6,
+   "camera": 3,
+   "narrative": 7,
+   "performance": 8,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "peterkubelka",
+  "name": "Peter Kubelka",
+  "country": "Austria",
+  "born": null,
+  "movements": [
+   "experimental",
+   "structural-film"
+  ],
+  "techniques": [
+   "montage",
+   "abstraction",
+   "sound-design",
+   "fast-cutting"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 8,
+   "camera": 2,
+   "narrative": 7,
+   "performance": 5,
+   "tone": 3,
+   "dialogue": 1,
+   "scale": 1
+  }
+ },
+ {
+  "id": "kenjacobs",
+  "name": "Ken Jacobs",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "experimental",
+   "structural-film"
+  ],
+  "techniques": [
+   "collage",
+   "montage",
+   "abstraction",
+   "self-reflexive"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 3,
+   "camera": 3,
+   "narrative": 6,
+   "performance": 4,
+   "tone": 4,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "jamesbenning",
+  "name": "James Benning",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "experimental",
+   "structural-film",
+   "slow-cinema"
+  ],
+  "techniques": [
+   "static-camera",
+   "long-take",
+   "landscape",
+   "slow-pace",
+   "sparse-sound",
+   "distant-framing"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 1,
+   "camera": 1,
+   "narrative": 4,
+   "performance": 1,
+   "tone": 3,
+   "dialogue": 1,
+   "scale": 4
+  }
+ },
+ {
+  "id": "sufriedrich",
+  "name": "Su Friedrich",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "experimental",
+   "documentary"
+  ],
+  "techniques": [
+   "essay-form",
+   "voiceover",
+   "collage",
+   "memory-time",
+   "self-reflexive"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 6,
+   "performance": 2,
+   "tone": 3,
+   "dialogue": 4,
+   "scale": 1
+  }
+ },
+ {
+  "id": "marcobellocchio",
+  "name": "Marco Bellocchio",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "italian-political-cinema"
+  ],
+  "techniques": [
+   "provocation",
+   "black-comedy",
+   "closeup",
+   "chamber-drama",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 6,
+   "tone": 3,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "lilianacavani",
+  "name": "Liliana Cavani",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "italian-political-cinema"
+  ],
+  "techniques": [
+   "provocation",
+   "period-detail",
+   "melodrama",
+   "chamber-drama"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 4,
+   "camera": 4,
+   "narrative": 4,
+   "performance": 6,
+   "tone": 1,
+   "dialogue": 4,
+   "scale": 5
+  }
+ },
+ {
+  "id": "valeriozurlini",
+  "name": "Valerio Zurlini",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "art-cinema"
+  ],
+  "techniques": [
+   "melodrama",
+   "landscape",
+   "slow-pace",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 3,
+   "tone": 1,
+   "dialogue": 3,
+   "scale": 4
+  }
+ },
+ {
+  "id": "luigicomencini",
+  "name": "Luigi Comencini",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "commedia-all-italiana",
+   "italian-neorealism"
+  ],
+  "techniques": [
+   "child-perspective",
+   "ensemble",
+   "everyday",
+   "black-comedy"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 6,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "vittoriodeseta",
+  "name": "Vittorio De Seta",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "documentary",
+   "italian-neorealism"
+  ],
+  "techniques": [
+   "location",
+   "non-actors",
+   "landscape",
+   "sparse-sound",
+   "documentary-hybrid"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 1,
+   "tone": 1,
+   "dialogue": 2,
+   "scale": 4
+  }
+ },
+ {
+  "id": "albertolattuada",
+  "name": "Alberto Lattuada",
+  "country": "Italy",
+  "born": null,
+  "movements": [
+   "italian-neorealism",
+   "commedia-all-italiana"
+  ],
+  "techniques": [
+   "period-detail",
+   "location",
+   "melodrama",
+   "ensemble"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 4,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "julienduvivier",
+  "name": "Julien Duvivier",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "poetic-realism"
+  ],
+  "techniques": [
+   "melodrama",
+   "location",
+   "studio-artifice",
+   "ensemble"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 6,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 2,
+   "dialogue": 4,
+   "scale": 5
+  }
+ },
+ {
+  "id": "sachaguitry",
+  "name": "Sacha Guitry",
+  "country": "France",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "voiceover",
+   "stylized-dialogue",
+   "theatrical",
+   "self-reflexive",
+   "nonlinear"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 6,
+   "camera": 3,
+   "narrative": 5,
+   "performance": 7,
+   "tone": 8,
+   "dialogue": 9,
+   "scale": 3
+  }
+ },
+ {
+  "id": "claudesautet",
+  "name": "Claude Sautet",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "post-new-wave"
+  ],
+  "techniques": [
+   "ensemble",
+   "everyday",
+   "chamber-drama",
+   "conversation-driven",
+   "classical-music"
+  ],
+  "scores": {
+   "formalism": 3,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 2,
+   "performance": 3,
+   "tone": 3,
+   "dialogue": 7,
+   "scale": 3
+  }
+ },
+ {
+  "id": "bertrandtavernier",
+  "name": "Bertrand Tavernier",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "post-new-wave"
+  ],
+  "techniques": [
+   "period-detail",
+   "ensemble",
+   "cinephile-quotation",
+   "landscape"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 6,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 3,
+   "dialogue": 6,
+   "scale": 5
+  }
+ },
+ {
+  "id": "andretechine",
+  "name": "André Téchiné",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "post-new-wave"
+  ],
+  "techniques": [
+   "ensemble",
+   "landscape",
+   "melodrama",
+   "handheld"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 6,
+   "camera": 7,
+   "narrative": 3,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 5,
+   "scale": 3
+  }
+ },
+ {
+  "id": "pierreetaix",
+  "name": "Pierre Étaix",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "silent-comedy"
+  ],
+  "techniques": [
+   "absurd-humour",
+   "deadpan",
+   "sparse-sound",
+   "sound-design",
+   "static-camera"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 7,
+   "tone": 9,
+   "dialogue": 2,
+   "scale": 3
+  }
+ },
+ {
+  "id": "jacquesrozier",
+  "name": "Jacques Rozier",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "french-new-wave"
+  ],
+  "techniques": [
+   "improvisation",
+   "location",
+   "natural-light",
+   "everyday",
+   "handheld"
+  ],
+  "scores": {
+   "formalism": 2,
+   "pace": 4,
+   "camera": 6,
+   "narrative": 3,
+   "performance": 2,
+   "tone": 6,
+   "dialogue": 6,
+   "scale": 3
+  }
+ },
+ {
+  "id": "bertrandblier",
+  "name": "Bertrand Blier",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "post-new-wave"
+  ],
+  "techniques": [
+   "black-comedy",
+   "provocation",
+   "absurd-humour",
+   "stylized-dialogue",
+   "direct-address"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 6,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 6,
+   "tone": 7,
+   "dialogue": 7,
+   "scale": 3
+  }
+ },
+ {
+  "id": "jeanjacquesbeineix",
+  "name": "Jean-Jacques Beineix",
+  "country": "France",
+  "born": null,
+  "movements": [
+   "postmodern"
+  ],
+  "techniques": [
+   "color-stylized",
+   "pop-music",
+   "studio-artifice",
+   "widescreen"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 6,
+   "camera": 6,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 4,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "konradwolf",
+  "name": "Konrad Wolf",
+  "country": "East Germany",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "period-detail",
+   "location",
+   "chamber-drama",
+   "nonlinear"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 4,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "frankbeyer",
+  "name": "Frank Beyer",
+  "country": "East Germany",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "ensemble",
+   "period-detail",
+   "black-comedy",
+   "location"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 4,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "wolfgangstaudte",
+  "name": "Wolfgang Staudte",
+  "country": "Germany",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "chiaroscuro",
+   "period-detail",
+   "black-comedy",
+   "location"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 5,
+   "tone": 3,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "helmutkautner",
+  "name": "Helmut Käutner",
+  "country": "Germany",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "melodrama",
+   "period-detail",
+   "chamber-drama",
+   "location"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 4,
+   "camera": 5,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 3,
+   "dialogue": 5,
+   "scale": 3
+  }
+ },
+ {
+  "id": "wernerschroeter",
+  "name": "Werner Schroeter",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "new-german-cinema"
+  ],
+  "techniques": [
+   "studio-artifice",
+   "classical-music",
+   "theatrical",
+   "melodrama",
+   "color-stylized"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 6,
+   "performance": 9,
+   "tone": 2,
+   "dialogue": 3,
+   "scale": 4
+  }
+ },
+ {
+  "id": "rosavonpraunheim",
+  "name": "Rosa von Praunheim",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "new-german-cinema"
+  ],
+  "techniques": [
+   "provocation",
+   "documentary-hybrid",
+   "theatrical",
+   "direct-address"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 7,
+   "tone": 5,
+   "dialogue": 6,
+   "scale": 2
+  }
+ },
+ {
+  "id": "helmasandersbrahms",
+  "name": "Helma Sanders-Brahms",
+  "country": "Germany",
+  "born": null,
+  "movements": [
+   "new-german-cinema"
+  ],
+  "techniques": [
+   "voiceover",
+   "period-detail",
+   "memory-time",
+   "location",
+   "documentary-hybrid"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 4,
+   "performance": 3,
+   "tone": 1,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "tonyrichardson",
+  "name": "Tony Richardson",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "british-new-wave"
+  ],
+  "techniques": [
+   "location",
+   "handheld",
+   "jump-cut",
+   "period-detail",
+   "direct-address"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 6,
+   "camera": 6,
+   "narrative": 3,
+   "performance": 4,
+   "tone": 4,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "anthonyasquith",
+  "name": "Anthony Asquith",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "british-studio-era"
+  ],
+  "techniques": [
+   "stylized-dialogue",
+   "theatrical",
+   "period-detail",
+   "montage"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 6,
+   "dialogue": 7,
+   "scale": 4
+  }
+ },
+ {
+  "id": "thorolddickinson",
+  "name": "Thorold Dickinson",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "british-studio-era"
+  ],
+  "techniques": [
+   "chiaroscuro",
+   "suspense",
+   "period-detail",
+   "studio-artifice"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 4,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 2,
+   "dialogue": 4,
+   "scale": 4
+  }
+ },
+ {
+  "id": "basildearden",
+  "name": "Basil Dearden",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "british-studio-era"
+  ],
+  "techniques": [
+   "suspense",
+   "location",
+   "ensemble",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 4,
+   "tone": 3,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "charlescrichton",
+  "name": "Charles Crichton",
+  "country": "UK",
+  "born": null,
+  "movements": [
+   "british-studio-era"
+  ],
+  "techniques": [
+   "absurd-humour",
+   "ensemble",
+   "location",
+   "deadpan"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 6,
+   "camera": 4,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 8,
+   "dialogue": 6,
+   "scale": 3
+  }
+ },
+ {
+  "id": "juanantoniobardem",
+  "name": "Juan Antonio Bardem",
+  "country": "Spain",
+  "born": null,
+  "movements": [
+   "spanish-cinema"
+  ],
+  "techniques": [
+   "melodrama",
+   "ensemble",
+   "location",
+   "period-detail"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 4,
+   "tone": 2,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "joseluisguerin",
+  "name": "José Luis Guerín",
+  "country": "Spain",
+  "born": null,
+  "movements": [
+   "art-cinema",
+   "documentary"
+  ],
+  "techniques": [
+   "documentary-hybrid",
+   "location",
+   "wandering",
+   "long-take",
+   "sparse-sound",
+   "natural-light"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 2,
+   "camera": 4,
+   "narrative": 4,
+   "performance": 2,
+   "tone": 3,
+   "dialogue": 2,
+   "scale": 2
+  }
+ },
+ {
+  "id": "joaocesarmonteiro",
+  "name": "João César Monteiro",
+  "country": "Portugal",
+  "born": null,
+  "movements": [
+   "art-cinema"
+  ],
+  "techniques": [
+   "theatrical",
+   "provocation",
+   "static-camera",
+   "black-comedy",
+   "long-take",
+   "stylized-dialogue"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 2,
+   "camera": 2,
+   "narrative": 4,
+   "performance": 7,
+   "tone": 7,
+   "dialogue": 7,
+   "scale": 2
+  }
+ },
+ {
+  "id": "paulorocha",
+  "name": "Paulo Rocha",
+  "country": "Portugal",
+  "born": null,
+  "movements": [
+   "art-cinema"
+  ],
+  "techniques": [
+   "location",
+   "landscape",
+   "natural-light",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 3,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 3,
+   "scale": 3
+  }
+ },
+ {
+  "id": "michaelcacoyannis",
+  "name": "Michael Cacoyannis",
+  "country": "Greece",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "landscape",
+   "theatrical",
+   "location",
+   "melodrama"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 5,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 4,
+   "dialogue": 5,
+   "scale": 5
+  }
+ },
+ {
+  "id": "metinerksan",
+  "name": "Metin Erksan",
+  "country": "Turkey",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "landscape",
+   "melodrama",
+   "location",
+   "stylized-violence"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 4,
+   "camera": 5,
+   "narrative": 2,
+   "performance": 5,
+   "tone": 1,
+   "dialogue": 3,
+   "scale": 4
+  }
+ },
+ {
+  "id": "omerkavur",
+  "name": "Ömer Kavur",
+  "country": "Turkey",
+  "born": null,
+  "movements": [
+   "art-cinema"
+  ],
+  "techniques": [
+   "slow-pace",
+   "landscape",
+   "ambiguity",
+   "memory-time",
+   "dream-logic"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 3,
+   "camera": 4,
+   "narrative": 6,
+   "performance": 3,
+   "tone": 1,
+   "dialogue": 3,
+   "scale": 3
+  }
+ },
+ {
+  "id": "susannebier",
+  "name": "Susanne Bier",
+  "country": "Denmark",
+  "born": null,
+  "movements": [
+   "dogme-95"
+  ],
+  "techniques": [
+   "handheld",
+   "closeup",
+   "melodrama",
+   "ensemble"
+  ],
+  "scores": {
+   "formalism": 3,
+   "pace": 5,
+   "camera": 7,
+   "narrative": 3,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "caichusheng",
+  "name": "Cai Chusheng",
+  "country": "China",
+  "born": null,
+  "movements": [
+   "shanghai-cinema"
+  ],
+  "techniques": [
+   "melodrama",
+   "cross-cutting",
+   "two-part-structure",
+   "location"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 5,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 2,
+   "dialogue": 3,
+   "scale": 7
+  }
+ },
+ {
+  "id": "sunyu",
+  "name": "Sun Yu",
+  "country": "China",
+  "born": null,
+  "movements": [
+   "shanghai-cinema"
+  ],
+  "techniques": [
+   "melodrama",
+   "musical-numbers",
+   "ensemble",
+   "location"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 5,
+   "camera": 4,
+   "narrative": 3,
+   "performance": 6,
+   "tone": 4,
+   "dialogue": 2,
+   "scale": 5
+  }
+ },
+ {
+  "id": "wuyonggang",
+  "name": "Wu Yonggang",
+  "country": "China",
+  "born": null,
+  "movements": [
+   "shanghai-cinema"
+  ],
+  "techniques": [
+   "melodrama",
+   "closeup",
+   "chamber-drama"
+  ],
+  "scores": {
+   "formalism": 5,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 3,
+   "performance": 4,
+   "tone": 1,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "yuanmuzhi",
+  "name": "Yuan Muzhi",
+  "country": "China",
+  "born": null,
+  "movements": [
+   "shanghai-cinema"
+  ],
+  "techniques": [
+   "musical-numbers",
+   "melodrama",
+   "montage",
+   "absurd-humour"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 6,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 6,
+   "tone": 5,
+   "dialogue": 5,
+   "scale": 3
   }
  }
 ]

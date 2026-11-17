@@ -26,15 +26,15 @@ a{color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
 header{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:10px 16px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:14px;margin-right:auto;min-width:0}
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:3px;margin-right:auto;min-width:0}
 .brand h1{margin:0;line-height:0}
-.brand img{height:36px;width:auto;display:block}
-.brand p{margin:0;color:var(--muted);font-size:13.5px}
+.brand img{height:30px;width:auto;display:block}
+.brand p{margin:0;color:var(--muted);font-size:11.5px;white-space:nowrap}
 .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .controls input[type=search],.controls select{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 10px;min-width:0}
-.controls input[type=search]{width:180px}
-.controls select{max-width:185px}
-.toggle{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer;user-select:none}
+.controls input[type=search]{width:160px}
+.controls select{width:132px}
+.toggle{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 9px;cursor:pointer;user-select:none}
 .toggle input{accent-color:var(--accent);margin:0}
 .btn{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
 .btn:hover,.toggle:hover{border-color:var(--muted)}
@@ -113,7 +113,22 @@ aside ul.films{gap:8px}
 .film .b.ts{color:var(--accent);border-color:var(--accent)}
 .fg{margin:10px 0 4px}.fg summary{cursor:pointer;color:var(--muted);font-size:13px}.fg summary small{opacity:.8}
 .fg ol{list-style:none;padding:0;margin:8px 0 0;columns:2;column-gap:18px;font-size:13px;line-height:1.5}
-.fg li{break-inside:avoid}.fg .fy{display:inline-block;width:38px;color:var(--muted)}.fg a{color:var(--ink);text-decoration:none}.fg a:hover{color:var(--accent);text-decoration:underline}
+.fg li{break-inside:avoid;display:flex;align-items:baseline}.fg .fn{flex:1;min-width:0;overflow-wrap:anywhere}
+.fg ol.one{columns:1}.fg ol.one .fr{min-width:30px;text-align:right}.fg ol.one .fr.im{min-width:62px}
+.fg .fr{margin-left:8px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.fgsort{display:flex;gap:6px;align-items:center;margin:8px 0 0;font-size:12px;color:var(--muted)}
+.fgsort button,.lnk{font:inherit;cursor:pointer}
+.fgsort button{padding:1px 9px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted)}
+.fgsort button[aria-pressed="true"]{color:var(--ink);border-color:var(--muted)}
+.lnk{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.b.rt small,.b.im small{opacity:.75;font-size:inherit}
+.film .b.im{color:var(--ink);border-color:var(--muted)}
+.film .b.me{color:var(--ok);border-color:var(--ok)}
+.fg .fr.im{color:var(--ink)}
+.mine-box .note,.note{font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.45}
+.importmsg{font-size:13px;color:var(--ok);margin:8px 0 0}
+@media (max-width:1430px){.brand p{display:none}}
+@media (max-width:1400px){.controls{gap:6px}.controls select{width:116px}.controls input[type=search]{width:140px}.toggle,.btn{padding-left:8px;padding-right:8px}}.fg .fy{display:inline-block;width:38px;color:var(--muted)}.fg a{color:var(--ink);text-decoration:none}.fg a:hover{color:var(--accent);text-decoration:underline}
 .film .b.ca{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:600}
 .film .b.ss{color:var(--in);border-color:var(--in)}
 .film .ov{margin:7px 0 0;font-size:13px;color:var(--ink);opacity:.85}
@@ -165,6 +180,30 @@ aside ul.films{gap:8px}
 .crole a{color:var(--ink)}
 small.wd{color:var(--ok)}
 a.chip{text-decoration:none;color:var(--ink)}
+[hidden]{display:none!important}
+svg:not(.tl) #gAxis{display:none}
+svg.tl #gHull,svg.tl #gStyle,svg.tl #gCrew{display:none}
+svg.morphing #gStyle,svg.morphing #gInf,svg.morphing #gTrace,svg.morphing #gHull,svg.morphing #gCrew{display:none}
+.axis line{stroke:var(--line);stroke-width:2}
+.axis text{fill:var(--muted);font-size:var(--hfs,13px);text-anchor:middle}
+.lane rect{fill:var(--ink);fill-opacity:.03}
+.lane text{fill:var(--accent);font-size:var(--hfs,13px);font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-anchor:end;dominant-baseline:middle;opacity:.85}
+.crew{fill:none;stroke:var(--in);stroke-width:1.6;stroke-opacity:.32;stroke-dasharray:4 5}
+.crew.hot{stroke-opacity:.9;stroke-width:2.6}
+.crew.dim{stroke-opacity:.04}
+.node.seen circle{stroke:var(--ok);stroke-width:3.2}
+.film{position:relative}
+.seenbtn{position:absolute;top:8px;right:8px;font:inherit;font-size:11.5px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.seenbtn[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:var(--bg);font-weight:600}
+.film .ft{padding-right:96px}
+.fg .sm{width:13px;height:13px;border-radius:50%;border:1.5px solid var(--muted);background:transparent;padding:0;margin:0 7px -2px 0;cursor:pointer;vertical-align:baseline}
+.fg .sm[aria-pressed="true"]{background:var(--ok);border-color:var(--ok)}
+.track .pin.b{background:var(--in)}
+.vs{color:var(--muted);font-weight:400}
+.keyrow{display:flex;gap:14px;margin:4px 0 10px;font-size:12.5px;color:var(--muted)}
+.keyrow i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.btnrow{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.mine-box{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:14px 0 6px}
 @keyframes panelIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
 #panel.enter>*{animation:panelIn .22s ease-out both}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
@@ -179,25 +218,27 @@ a.chip{text-decoration:none;color:var(--ink)}
   <div class="controls">
     <input type="search" id="search" list="names" placeholder="Find a director" aria-label="Find a director">
     <datalist id="names"></datalist>
-    <select id="mov" aria-label="Highlight a movement"><option value="">Highlight a movement</option></select>
-    <select id="tech" aria-label="Highlight a technique"><option value="">Highlight a technique</option></select>
-    <select id="geo" aria-label="Highlight a region or country"><option value="">Highlight a region</option></select>
+    <select id="mov" aria-label="Highlight a movement"><option value="">Movements</option></select>
+    <select id="tech" aria-label="Highlight a technique"><option value="">Techniques</option></select>
+    <select id="geo" aria-label="Highlight a region or country"><option value="">Regions</option></select>
     <label class="toggle"><input type="checkbox" id="showStyle" checked> Style links</label>
     <label class="toggle"><input type="checkbox" id="showInf" checked> Influence</label>
+    <label class="toggle" id="crewToggle" hidden><input type="checkbox" id="showCrew"> Crew</label>
     <button class="btn" id="reset" type="button">Whole map</button>
     <button class="btn" id="surprise" type="button" title="Jump to a random director">Surprise me</button>
+    <button class="btn" id="viewbtn" type="button" title="Switch between the style map and a timeline">Timeline</button>
   </div>
 </header>
 <main>
   <div class="stage">
     <svg id="map" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of film directors positioned by stylistic similarity">
-      <g id="world"><g id="gHull"></g><g id="gStyle"></g><g id="gInf"></g><g id="gTrace"></g><g id="gNodes"></g></g>
+      <g id="world"><g id="gAxis"></g><g id="gHull"></g><g id="gStyle"></g><g id="gCrew"></g><g id="gInf"></g><g id="gTrace"></g><g id="gNodes"></g></g>
     </svg>
     <div class="techbar" id="techbar" hidden><p id="techtext"></p><button class="btn" id="techclear" type="button">Clear</button></div>
     <div class="legend">
       <b>Closer together: more similar style.</b>
       <ul id="eras"></ul>
-      <span>Colour: the median year of their films. Shaded areas: movements. Bigger circle: influenced more directors here. Arrows run from influence to influenced.</span>
+      <span id="legendText">Colour: the median year of their films. Shaded areas: movements. Bigger circle: influenced more directors here. Arrows run from influence to influenced.</span>
     </div>
     <div class="zoom">
       <button class="btn" id="zin" type="button" aria-label="Zoom in">+</button>
@@ -209,12 +250,46 @@ a.chip{text-decoration:none;color:var(--ink)}
 <script>
 const DATA = __DATA__;
 const NS = "http://www.w3.org/2000/svg";
-const byId = {}; DATA.directors.forEach(d => byId[d.id] = d);
+const byId = {}; DATA.directors.forEach(d => { byId[d.id] = d; d.cx = d.x; d.cy = d.y; d.cr = d.r; });
 const dirById = {}; DATA.directory.forEach(d => dirById[d.id] = d);
 const T = DATA.techniques, MV = DATA.movements;
 const ERA = ["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
-const state = {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, k: 1, x: 0, y: 0};
-const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: "", geo: "", path: null});
+const state = {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false, view: "map", k: 1, x: 0, y: 0};
+const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: "", geo: "", path: null, cmp: null, mine: false});
+/* films marked as seen: kept in this browser only */
+const stored = k => { try { return JSON.parse(localStorage.getItem("auteurAtlas." + k) || "{}") || {}; } catch (e) { return {}; } };
+const SEEN = stored("seen"), MYR = stored("mine"), IMR = stored("imdb");   /* films seen, your own ratings, IMDb ratings from your own files */
+let seenVer = 0, seenCache = {v: -1};
+function saveSeen(){ seenVer++; try { localStorage.setItem("auteurAtlas.seen", JSON.stringify(SEEN)); return true; } catch (e) { return false; } }
+function saveImports(){ try { localStorage.setItem("auteurAtlas.mine", JSON.stringify(MYR)); localStorage.setItem("auteurAtlas.imdb", JSON.stringify(IMR)); return true; } catch (e) { return false; } }
+const myText = m => m[1] === 5 ? "★".repeat(Math.floor(m[0])) + (m[0] % 1 ? "½" : "") : m[0] + "/10";
+const fkey = f => f.tid ? "m" + f.tid : "t" + norm(f.t) + "|" + (f.y || "");
+const gkey = x => x[2] ? "m" + x[2] : "t" + norm(x[1]) + "|" + x[0];
+function seenStats(d){ const ks = new Set(d.films.map(fkey).concat((d.fg || []).map(gkey))); let n = 0; ks.forEach(k => { if (SEEN[k]) n++; }); return [n, ks.size]; }
+function seenInfo(){ if (seenCache.v === seenVer) return seenCache;
+  const counts = {}; DATA.directors.forEach(d => { const n = seenStats(d)[0]; if (n) counts[d.id] = n; });
+  return seenCache = {v: seenVer, counts, ids: new Set(Object.keys(counts)), recs: null}; }
+const seenDirs = () => seenInfo().ids;
+/* what to watch next: unseen directors close in style to the ones you have seen, or linked to them by influence */
+function suggestions(){
+  const S = seenInfo(); if (S.recs) return S.recs;
+  const seen = Object.keys(S.counts).map(id => [byId[id], S.counts[id]]), nb = {};
+  DATA.influence.forEach(l => { (nb[l.s] = nb[l.s] || new Set()).add(l.t); (nb[l.t] = nb[l.t] || new Set()).add(l.s); });
+  const out = [];
+  if (seen.length) DATA.directors.forEach(d => { if (S.ids.has(d.id) || !d.films.length) return;
+    const v = seen.map(([s, n]) => { const link = nb[s.id] && nb[s.id].has(d.id);
+      return [similarity(s, d) / 100 * (0.85 + 0.15 * Math.min(n, 4) / 4) + (link ? 0.2 : 0), s, link]; }).sort((a, b) => b[0] - a[0]);
+    const score = v[0][0] + 0.5 * (v[1] ? v[1][0] : 0) + 0.25 * (v[2] ? v[2][0] : 0);
+    const near = v.slice(0, 2).filter((x, j) => j === 0 || x[0] > 0.3).map(x => x[1].name), f = d.films[0];
+    const link = v.find(x => x[2] && x[0] >= v[0][0] - 0.1);
+    out.push({d, score, anchor: (link || v[0])[1].id, why: (link ? "Linked by influence to " + link[1].name : "Close in style to " + near.join(" and ")) + ". Start with " + f.t + (f.y ? " (" + f.y + ")" : "") + "." }); });
+  out.sort((a, b) => b.score - a.score || b.d.r - a.d.r);
+  const picked = [], per = {}, pool = out.slice(0, 200);   // spread the picks over the directors you have seen
+  while (picked.length < 10 && pool.length) { let bi = 0, bv = -1;
+    pool.forEach((r, j) => { const v = r.score * Math.pow(0.8, per[r.anchor] || 0); if (v > bv) { bv = v; bi = j; } });
+    const r = pool.splice(bi, 1)[0]; picked.push(r); per[r.anchor] = (per[r.anchor] || 0) + 1; }
+  return S.recs = picked;
+}
 const firstCountry = d => d.country.split("/")[0].trim();
 const geoOk = d => !state.geo || (state.geo.startsWith("c:") ? firstCountry(d) === state.geo.slice(2) : d.region === state.geo.slice(2));
 const $ = id => document.getElementById(id);
@@ -261,20 +336,27 @@ function setMov(k){ const m = state.mov === k ? "" : k; clearAll(); state.mov = 
 /* ---------- draw once ---------- */
 /* links are drawn as a handful of combined paths, one per look, instead of one element per link: far cheaper to redraw while moving */
 const f1 = v => Math.round(v * 10) / 10;
-const sGeo = DATA.style.map(l => { const a = byId[l.a], b = byId[l.b]; return "M" + f1(a.x) + "," + f1(a.y) + "L" + f1(b.x) + "," + f1(b.y); });
+let sGeo = [], iGeo = [], cGeo = [];
 function arrowHead(x, y, ux, uy, L){ const bx = x - ux*0.9*L, by = y - uy*0.9*L, h = 0.4*L;
   return "M" + f1(x + ux*0.1*L) + "," + f1(y + uy*0.1*L) + "L" + f1(bx - uy*h) + "," + f1(by + ux*h) + "L" + f1(bx + uy*h) + "," + f1(by - ux*h) + "Z"; }
-const iGeo = DATA.influence.map(l => { const s = byId[l.s], t = byId[l.t];
-  const dx = t.x - s.x, dy = t.y - s.y, d = Math.hypot(dx, dy) || 1, ux = dx/d, uy = dy/d;
-  const x1 = s.x + ux*s.r, y1 = s.y + uy*s.r, x2 = t.x - ux*(t.r+4), y2 = t.y - uy*(t.r+4);
-  const mx = (x1+x2)/2 - uy*d*0.08, my = (y1+y2)/2 + ux*d*0.08, ex = x2 - mx, ey = y2 - my, e = Math.hypot(ex, ey) || 1;
-  return {c: "M" + f1(x1) + "," + f1(y1) + "Q" + f1(mx) + "," + f1(my) + " " + f1(x2) + "," + f1(y2), h9: arrowHead(x2, y2, ex/e, ey/e, 9), h13: arrowHead(x2, y2, ex/e, ey/e, 13)}; });
+function buildGeo(){
+  const line = (a, b) => "M" + f1(a.cx) + "," + f1(a.cy) + "L" + f1(b.cx) + "," + f1(b.cy);
+  sGeo = DATA.style.map(l => line(byId[l.a], byId[l.b]));
+  cGeo = DATA.crew.map(c => line(byId[c[0]], byId[c[1]]));
+  iGeo = DATA.influence.map(l => { const s = byId[l.s], t = byId[l.t];
+    const dx = t.cx - s.cx, dy = t.cy - s.cy, d = Math.hypot(dx, dy) || 1, ux = dx/d, uy = dy/d;
+    const x1 = s.cx + ux*s.cr, y1 = s.cy + uy*s.cr, x2 = t.cx - ux*(t.cr+4), y2 = t.cy - uy*(t.cr+4);
+    const mx = (x1+x2)/2 - uy*d*0.08, my = (y1+y2)/2 + ux*d*0.08, ex = x2 - mx, ey = y2 - my, e = Math.hypot(ex, ey) || 1;
+    return {c: "M" + f1(x1) + "," + f1(y1) + "Q" + f1(mx) + "," + f1(my) + " " + f1(x2) + "," + f1(y2), h9: arrowHead(x2, y2, ex/e, ey/e, 9), h13: arrowHead(x2, y2, ex/e, ey/e, 13)}; });
+}
+buildGeo();
+const CP = {}; [" dim", "", " hot"].forEach(c => CP[c] = el("path", {class: "crew" + c}, $("gCrew")));
 const SP = {}; [" dim", "", " hot"].forEach(c => SP[c] = el("path", {class: "slink" + c}, $("gStyle")));
 const TR = {line: el("path", {class: "trace"}, $("gTrace")), dash: el("path", {class: "trace sty"}, $("gTrace")), head: el("path", {class: "trace-h"}, $("gTrace"))};
 const IP = {}; [" dim", "", " in", " out"].forEach(c => IP[c] = [el("path", {class: "ilink" + c}, $("gInf")), el("path", {class: "iarr" + c}, $("gInf"))]);
 const nodeEls = DATA.directors.map(d => {
   const g = el("g", {class:"node", tabindex:"0", role:"button", "aria-label":d.name}, $("gNodes"));
-  el("circle", {cx:d.x, cy:d.y, r:d.r, fill:ERA[d.era]}, g);
+  d.g = g; d.circle = el("circle", {cx:d.x, cy:d.y, r:d.r, fill:ERA[d.era]}, g);
   const t = el("text", {x:d.x, y:d.y + d.r, dy:"1.15em"}, g); t.textContent = d.name; d.label = t;
   g.addEventListener("click", () => { if (!moved) select(d.id); });
   g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.id); } });
@@ -291,14 +373,16 @@ function related(id){
 }
 function paint(){
   const showS = $("showStyle").checked, showI = $("showInf").checked;
-  const onPath = state.path && !state.path.none ? new Set([state.path.a].concat(state.path.steps.map(s => s.to))) : null;
+  const onPath = state.path ? new Set([state.path.a, state.path.b].concat(state.path.steps.map(s => s.to))) : null;
+  const mine = state.mine ? seenDirs() : null;
   const rel = state.sel && !onPath ? related(state.sel) : null;
-  const active = state.tech || state.mov || state.geo || onPath || rel;
+  const active = state.tech || state.mov || state.geo || mine || onPath || rel;
   nodeEls.forEach(({d, e}) => {
     let dim = false;
     if (state.tech) dim = !d.tags.includes(state.tech);
     else if (state.mov) dim = !d.movements.includes(state.mov);
     else if (state.geo) dim = !geoOk(d);
+    else if (mine) dim = !mine.has(d.id);
     else if (onPath) dim = !onPath.has(d.id);
     else if (rel) dim = !rel.has(d.id);
     e.setAttribute("class", "node t" + d.tier + (d.id === state.sel ? " sel" : "") + (state.path && d.id === state.path.b ? " end" : "") + (dim ? " dim" : active ? " rel" : ""));
@@ -323,9 +407,16 @@ function paint(){
   for (const c in IP) { const big = c === " in" || c === " out";
     IP[c][0].setAttribute("d", ib[c].map(i => iGeo[i].c).join(""));
     IP[c][1].setAttribute("d", ib[c].map(i => big ? iGeo[i].h13 : iGeo[i].h9).join("")); }
+  const cb = {" dim": [], "": [], " hot": []};
+  if ($("showCrew").checked && state.view === "map") DATA.crew.forEach((c, i) => { let k = "";
+    if (state.tech || state.mov || state.geo || mine || onPath) k = " dim";
+    else if (state.sel) k = (c[0] === state.sel || c[1] === state.sel) ? " hot" : " dim";
+    cb[k].push(cGeo[i]); });
+  for (const c in CP) CP[c].setAttribute("d", cb[c].join(""));
+  markSeenNodes();
   const tl = [], ts = [], th = [];
   if (onPath) state.path.steps.forEach(s => { if (s.e.k === "i") { tl.push(iGeo[s.e.i].c); th.push(iGeo[s.e.i].h13); }
-    else { const a = byId[s.from], b = byId[s.to]; ts.push("M" + f1(a.x) + "," + f1(a.y) + "L" + f1(b.x) + "," + f1(b.y)); } });
+    else { const a = byId[s.from], b = byId[s.to]; ts.push("M" + f1(a.cx) + "," + f1(a.cy) + "L" + f1(b.cx) + "," + f1(b.cy)); } });
   TR.line.setAttribute("d", tl.join("")); TR.dash.setAttribute("d", ts.join("")); TR.head.setAttribute("d", th.join(""));
   if (state.sel) { const n = nodeEls.find(n => n.d.id === state.sel); n.e.parentNode.appendChild(n.e); }
   const tb = $("techbar");
@@ -333,7 +424,7 @@ function paint(){
     $("techtext").innerHTML = "<strong>" + esc(t.name) + "</strong> (" + esc(t.cat) + ", " + c + " directors). " + esc(t.def); tb.hidden = false; }
   else tb.hidden = true;
   $("tech").value = state.tech; $("mov").value = state.mov; $("geo").value = state.geo;
-  hullEls.forEach(({k, e, small}) => e.setAttribute("class", "hull" + (small ? " small" : "") + (MV[k].kind === "category" ? " cat" : "") + (state.mov === k ? " on" : (state.mov || state.tech || state.geo || onPath) ? " dim" : "")));
+  hullEls.forEach(({k, e, small}) => e.setAttribute("class", "hull" + (small ? " small" : "") + (MV[k].kind === "category" ? " cat" : "") + (state.mov === k ? " on" : (state.mov || state.tech || state.geo || mine || onPath) ? " dim" : "")));
   panel();
   syncRoute();
 }
@@ -360,15 +451,19 @@ function traceBox(d){
 }
 function tracer(id, label){ return '<h3>' + label + '</h3><div class="tracer">' + (id ? '' : '<input type="search" list="names" id="traceFrom" placeholder="From a director" aria-label="From a director">') +
   '<input type="search" list="names" id="traceTo" placeholder="' + (id ? 'To another director' : 'To another director') + '" aria-label="To another director"><button class="btn" type="button" id="traceGo">Trace</button></div>'; }
+const fmtK = n => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, "") + "k" : String(n);
 function filmItem(f){
   const q = encodeURIComponent(f.t + (f.y ? " " + f.y : ""));
   const lb = f.tid ? "https://letterboxd.com/tmdb/" + f.tid : "https://letterboxd.com/search/films/" + q + "/";
   const im = f.im ? "https://www.imdb.com/title/" + f.im + "/" : "https://www.imdb.com/find/?s=tt&q=" + q;
-  return '<li class="film"><div><span class="ft">' + esc(f.t) + '</span>' + (f.y ? '<span class="fy">' + f.y + '</span>' : '') + '</div>' +
-    ((f.ts || f.ss || f.ht || f.r || f.ca) ? '<div class="bd">' + (f.ca ? '<span class="b ca" title="Top prize at the Cannes Film Festival">' + esc(f.ca[1] === "Palme d'Or" ? "Palme d'Or" : "Cannes Grand Prix") + ' ' + f.ca[0] + '</span>' : '') + (f.ts ? '<span class="b ts" title="Rank in the TSPDT 1,000 Greatest Films, 2026">TSPDT #' + f.ts + '</span>' : '') +
+  const k = fkey(f), ir = IMR[k], my = MYR[k];
+  return '<li class="film"><button class="seenbtn" type="button" data-seen="' + esc(k) + '" aria-pressed="' + (SEEN[k] ? "true" : "false") + '">' + (SEEN[k] ? "Seen &#10003;" : "Mark as seen") + '</button><div><span class="ft">' + esc(f.t) + '</span>' + (f.y ? '<span class="fy">' + f.y + '</span>' : '') + '</div>' +
+    ((f.ts || f.ss || f.ht || f.r || f.ca || ir || my) ? '<div class="bd">' + (f.ca ? '<span class="b ca" title="Top prize at the Cannes Film Festival">' + esc(f.ca[1] === "Palme d'Or" ? "Palme d'Or" : "Cannes Grand Prix") + ' ' + f.ca[0] + '</span>' : '') + (f.ts ? '<span class="b ts" title="Rank in the TSPDT 1,000 Greatest Films, 2026">TSPDT #' + f.ts + '</span>' : '') +
       (f.ss ? '<span class="b ss" title="Rank in the Sight and Sound critics\' poll, 2022">Sight and Sound #' + f.ss + '</span>' : '') +
       (f.ht ? '<span class="b" title="On The House of Tabula\'s Ultimate Film Studies Watchlist">House of Tabula watchlist</span>' : '') +
-      (f.r ? '<span class="b" title="Average user rating on TMDB">TMDB ' + Number(f.r).toFixed(1) + '</span>' : '') + '</div>' : '') +
+      (f.r ? '<span class="b rt" title="Average of ' + (f.rv || 0).toLocaleString("en") + ' user ratings on TMDB, out of 10">TMDB ' + Number(f.r).toFixed(1) + (f.rv ? ' <small>(' + fmtK(f.rv) + ' votes)</small>' : '') + '</span>' : '') +
+      (ir ? '<span class="b im" title="IMDb rating from a file you imported. Only you see it.">IMDb ' + Number(ir[0]).toFixed(1) + (ir[1] ? ' <small>(' + fmtK(ir[1]) + ' votes)</small>' : '') + '</span>' : '') +
+      (my ? '<span class="b me" title="Your rating, from your import">You: ' + myText(my) + '</span>' : '') + '</div>' : '') +
     (f.ov ? '<p class="ov">' + esc(f.ov) + '</p>' : '') +
     '<div class="fl"><a href="' + lb + '">Reviews on Letterboxd</a><a href="' + im + '">IMDb</a></div></li>';
 }
@@ -380,11 +475,125 @@ function lookups(name, wiki){
 let panelKey = "";
 function panel(){
   panelBody();
-  const key = state.path ? "p" + state.path.a + state.path.b : state.mov || state.geo || state.dir || state.sel || "start", p = $("panel");
+  const key = state.cmp ? "c" + state.sel + state.cmp : state.path ? "p" + state.path.a + state.path.b : state.mine ? "mine" : state.mov || state.geo || state.dir || state.sel || "start", p = $("panel");
   if (key !== panelKey) { panelKey = key; p.classList.remove("enter"); void p.offsetWidth; p.classList.add("enter"); }
+}
+function similarity(a, b){
+  const sh = a.tags.filter(t => b.tags.includes(t)).length, un = new Set(a.tags.concat(b.tags)).size || 1;
+  const dim = 1 - a.dims.reduce((s, v, i) => s + Math.abs(v - b.dims[i]), 0) / (9 * a.dims.length);
+  const ms = a.movements.filter(m => b.movements.includes(m)), mov = ms.some(m => MV[m].kind === "movement") ? 1 : ms.length ? 0.6 : 0;
+  return Math.round(100 * (0.42 * sh / un + 0.23 * dim + 0.35 * mov));
+}
+function compareBody(p){
+  const a = byId[state.sel], b = byId[state.cmp], P = state.path, pos = v => ((v - 1) / 9 * 100).toFixed(0);
+  const chip = t => '<button class="chip" type="button" data-tech="' + t + '">' + esc(T[t].name) + '</button>';
+  const both = a.tags.filter(t => b.tags.includes(t)), onlyA = a.tags.filter(t => !b.tags.includes(t)), onlyB = b.tags.filter(t => !a.tags.includes(t));
+  const movs = a.movements.filter(m => b.movements.includes(m));
+  const direct = DATA.influence.filter(l => (l.s === a.id && l.t === b.id) || (l.s === b.id && l.t === a.id));
+  const crew = (a.shared || []).filter(x => x[0] === b.id).map(x => x[1].map(y => y[0].toLowerCase() + ": " + y[1]).join(", "));
+  p.innerHTML = '<h2>' + esc(a.name) + ' <span class="vs">and</span> ' + esc(b.name) + '</h2>' +
+    '<p class="meta">Style overlap about ' + similarity(a, b) + '%, a rough measure from shared techniques, style scales and movements.</p>' +
+    '<div class="keyrow"><span><i style="background:var(--accent)"></i>' + esc(a.name) + '</span><span><i style="background:var(--in)"></i>' + esc(b.name) + '</span></div>' +
+    '<h3>Style profiles <small>draft</small></h3>' + DATA.dims.map((m, i) => '<div class="bar"><div class="ends"><span>' + esc(m.lo) + '</span><span>' + esc(m.hi) + '</span></div><div class="track"><span class="pin" style="left:' + pos(a.dims[i]) + '%"></span><span class="pin b" style="left:' + pos(b.dims[i]) + '%"></span></div></div>').join("") +
+    (both.length ? '<h3>Techniques they share</h3><div class="chips">' + both.map(chip).join("") + '</div>' : '') +
+    (onlyA.length ? '<h3>Only ' + esc(a.name) + '</h3><div class="chips">' + onlyA.map(chip).join("") + '</div>' : '') +
+    (onlyB.length ? '<h3>Only ' + esc(b.name) + '</h3><div class="chips">' + onlyB.map(chip).join("") + '</div>' : '') +
+    '<h3>Movements</h3><p class="desc">' + (movs.length ? 'Both: ' + movs.map(m => esc(MV[m].name)).join(", ") + '.' : 'No movement in common.') + '</p>' +
+    '<h3>How they connect</h3><ul class="facts">' + (direct.length ? direct.map(l => '<li>' + esc(byId[l.s].name) + ' influenced ' + esc(byId[l.t].name) + (l.note ? ': ' + esc(l.note) : '.') + '</li>').join("") :
+      '<li>' + (P && !P.none ? P.steps.length + ' steps apart through ' + (P.style ? 'influence and style links' : 'influence links') + ', shown on the map.' : 'No chain of links connects them on this map.') + '</li>') +
+      crew.map(c => '<li>Shared crew: ' + esc(c) + '</li>').join("") + '</ul>' +
+    '<div class="btnrow"><button class="btn" type="button" data-go="' + a.id + '">Open ' + esc(a.name) + '</button><button class="btn" type="button" data-go="' + b.id + '">Open ' + esc(b.name) + '</button><button class="btn" type="button" id="cmpSwap">Swap</button></div>';
+  bind(p); p.scrollTop = 0;
+}
+function mineBox(full){
+  const n = Object.keys(SEEN).length, ds = seenDirs().size, ni = Object.keys(IMR).length;
+  return (full ? '' : '<div class="mine-box"><h3>Your films</h3>') + '<p class="desc">' + (n ? n + (n === 1 ? ' film' : ' films') + ' marked as seen, by ' + ds + (ds === 1 ? ' director' : ' directors') + ' on this map.' : 'Mark films as seen in any director\'s panel, or import what you have watched.') +
+    (ni ? ' IMDb ratings for ' + ni + ' films, from your own files.' : '') + '</p>' + (importNote ? '<p class="importmsg" role="status">' + esc(importNote) + '</p>' : '') +
+    '<div class="btnrow">' + (n && !full ? '<button class="btn" type="button" id="mineGo">Show on the map</button>' : '') + (n ? '<button class="btn" type="button" id="seenExport">Export</button>' : '') +
+    '<button class="btn" type="button" id="seenImport">Import</button><input type="file" id="seenFile" accept=".zip,.csv,.json" multiple hidden>' + (n || ni ? '<button class="btn" type="button" id="seenClear">Clear</button>' : '') + '</div>' +
+    (n && !full ? '<p class="desc">Next for you: ' + suggestions().slice(0, 3).map(r => '<button class="lnk" type="button" data-go="' + r.d.id + '">' + esc(r.d.name) + '</button>').join(", ") + '.</p>' : '') +
+    '<p class="note">Import your Letterboxd export (the .zip), your IMDb ratings export (.csv) or a file exported here. Everything stays in this browser; nothing is uploaded. ' +
+    '<a href="https://github.com/FightUniComp/matchcutmap#imdb-ratings-privately">IMDb ratings for every film</a></p>' + (full ? '' : '</div>');
+}
+/* importing: Letterboxd and IMDb exports, an export from this site, or a private IMDb ratings file */
+let importNote = "", FIX = null;
+const tnorm = s => { const n = norm(String(s || "")).replace(/&/g, "and"), a = n.replace(/[^a-z0-9]+/g, ""); return a || n.replace(/\s+/g, ""); };
+const bare = s => tnorm(String(s || "").replace(/^(the|an?|les?|la|l'|il|lo|der|die|das|el|los|las)\s*/i, ""));
+function filmIndex(){
+  if (FIX) return FIX;
+  const tt = {}, ty = {}, put = (t, y, k) => { if (!t || !y) return; [tnorm(t), "b:" + bare(t)].forEach(n => (ty[n + "|" + y] = ty[n + "|" + y] || new Set()).add(k)); };
+  DATA.directors.forEach(d => { d.films.forEach(f => { const k = fkey(f); if (f.im) tt[f.im] = k; put(f.t, f.y, k); put(f.tt, f.y, k); }); (d.fg || []).forEach(x => put(x[1], x[0], gkey(x))); });
+  return FIX = {tt, ty};
+}
+function findFilm(titles, year, id){
+  const ix = filmIndex(); if (id && ix.tt[id]) return [ix.tt[id]];
+  const y = parseInt(year, 10); if (!y) return [];
+  for (const b of [false, true]) for (const dy of [0, -1, 1]) for (const t of titles) { const hit = t && ix.ty[(b ? "b:" + bare(t) : tnorm(t)) + "|" + (y + dy)]; if (hit) return [...hit]; }
+  return [];
+}
+function parseCSV(text){
+  const rows = []; let row = [], f = "", q = false;
+  for (let i = 0; i < text.length; i++) { const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true; else if (c === ",") { row.push(f); f = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; row.push(f); rows.push(row); row = []; f = ""; }
+    else f += c; }
+  if (f || row.length) { row.push(f); rows.push(row); }
+  const head = (rows.shift() || []).map(h => h.replace(/^\uFEFF/, "").trim());
+  return rows.filter(r => r.length > 1).map(r => Object.fromEntries(head.map((h, i) => [h, r[i] || ""])));
+}
+async function unzip(buf, want){
+  const v = new DataView(buf), out = {}; let e = buf.byteLength - 22;
+  while (e >= 0 && v.getUint32(e, true) !== 0x06054b50) e--;
+  if (e < 0) throw new Error("not a zip file");
+  let p = v.getUint32(e + 16, true);
+  for (let n = v.getUint16(e + 10, true); n > 0 && v.getUint32(p, true) === 0x02014b50; n--) {
+    const method = v.getUint16(p + 10, true), size = v.getUint32(p + 20, true), nl = v.getUint16(p + 28, true), off = v.getUint32(p + 42, true);
+    const name = new TextDecoder().decode(new Uint8Array(buf, p + 46, nl));
+    p += 46 + nl + v.getUint16(p + 30, true) + v.getUint16(p + 32, true);
+    if (!want(name) || (method !== 0 && method !== 8)) continue;
+    let data = new Uint8Array(buf, off + 30 + v.getUint16(off + 26, true) + v.getUint16(off + 28, true), size);
+    if (method === 8) data = new Uint8Array(await new Response(new Blob([data]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).arrayBuffer());
+    out[name] = new TextDecoder().decode(data);
+  }
+  return out;
+}
+async function importFiles(files){
+  const n = {seen: 0, mine: new Set(), imdb: new Set(), miss: new Set(), bad: []}, films = c => c + (c === 1 ? " film" : " films");
+  const take = (keys, my, ir, watched, label) => { if (!keys.length) { if (watched) n.miss.add(label); return; }
+    keys.forEach(k => { if (watched && !SEEN[k]) { SEEN[k] = 1; n.seen++; } if (my) { MYR[k] = my; n.mine.add(k); } if (ir) { IMR[k] = ir; n.imdb.add(k); } }); };
+  const csv = (rows, name) => { const h = rows[0] || {};
+    if ("Const" in h) rows.forEach(r => { const my = parseFloat(r["Your Rating"]), ir = parseFloat(r["IMDb Rating"]);
+      take(findFilm([r.Title, r["Original Title"]], r.Year, r.Const), my ? [my, 10] : null, ir ? [ir, parseInt(r["Num Votes"], 10) || 0] : null, !!my, r.Title + r.Year); });
+    else if ("Letterboxd URI" in h && !/watchlist/i.test(name)) rows.forEach(r => { const my = parseFloat(r.Rating); take(findFilm([r.Name], r.Year), my ? [my, 5] : null, null, true, r.Name + r.Year); });
+    else n.bad.push(name); };
+  for (const f of files) {
+    try {
+      if (/\.zip$/i.test(f.name)) { const z = await unzip(await f.arrayBuffer(), x => /^(watched|ratings)\.csv$/.test(x)); if (!Object.keys(z).length) n.bad.push(f.name); for (const x in z) csv(parseCSV(z[x]), x); }
+      else if (/\.csv$/i.test(f.name)) csv(parseCSV(await f.text()), f.name);
+      else { const j = JSON.parse(await f.text());
+        if (j.kind === "auteur-atlas/imdb-personal" && j.ratings) { Object.assign(IMR, j.ratings); Object.keys(j.ratings).forEach(k => n.imdb.add(k)); }
+        else if (Array.isArray(j.seen)) { j.seen.forEach(k => { if (!SEEN[k]) { SEEN[k] = 1; n.seen++; } }); Object.assign(MYR, j.mine || {}); Object.keys(j.mine || {}).forEach(k => n.mine.add(k)); }
+        else n.bad.push(f.name); }
+    } catch (e) { n.bad.push(f.name); }
+  }
+  const ok1 = saveSeen(), ok2 = saveImports(), ok = ok1 && ok2, parts = [n.seen && films(n.seen) + " marked as seen", n.mine.size && "your ratings of " + films(n.mine.size), n.imdb.size && "IMDb ratings for " + films(n.imdb.size)].filter(Boolean);
+  importNote = (parts.length ? "Imported " + parts.join(", ") + "." : "Nothing new to import.") + (n.miss.size ? " " + films(n.miss.size) + " in your file " + (n.miss.size === 1 ? "is" : "are") + " not on this map." : "") +
+    (n.bad.length ? " Could not read " + n.bad.join(", ") + "." : "") + (ok ? "" : " This browser would not store them, so they last until you close the page.");
+  paint();
+}
+function mineBody(p){
+  const rows = DATA.directors.map(d => [d, seenStats(d)]).filter(x => x[1][0] > 0).sort((x, y) => y[1][0] - x[1][0] || x[0].name.localeCompare(y[0].name));
+  const recs = suggestions();
+  p.innerHTML = '<h2>Your films</h2>' + mineBox(true) +
+    (recs.length ? '<h3>Next for you</h3><p class="meta">Directors you have not watched yet, close in style or linked by influence to the ones you have.</p><ul>' + recs.map(r => person(r.d.id, r.why)).join("") + '</ul>' : '') +
+    '<h3>Directors you have watched (' + rows.length + ')</h3><ul>' + rows.map(([d, s]) => person(d.id, s[0] + ' of ' + s[1] + ' films seen')).join("") + '</ul>';
+  bind(p); p.scrollTop = 0;
 }
 function panelBody(){
   const p = $("panel");
+  if (state.cmp) { compareBody(p); return; }
+  if (state.mine) { mineBody(p); return; }
   if (state.mov) {
     const m = MV[state.mov];
     p.innerHTML = '<h2>' + esc(m.name) + '</h2><p class="meta">' + (m.kind === "category" ? "Critical category" : "Movement") + ' &middot; ' + esc(m.period) + '</p><p class="desc">' + esc(m.desc) + '</p>' +
@@ -412,7 +621,7 @@ function panelBody(){
     const acclaimed = DATA.directors.filter(d => d.rank).sort((a, b) => a.rank - b.rank).slice(0, 10);
     const c = DATA.counts, S = DATA.sources;
     p.innerHTML = '<h2>How to read this map</h2><p class="desc">' + DATA.directors.length + ' directors are placed so that similar styles sit close together. Pick one to see their films, techniques, nearest neighbours and lines of influence.' + (DATA.directory.length ? ' Another ' + DATA.directory.length + ' directors from the film lists can be found through search.' : '') + '</p>' +
-      tracer(null, 'Trace the influences between two directors') +
+      tracer(null, 'Trace the influences between two directors') + mineBox(false) +
       '<h3>What the data rests on</h3><ul class="src">' +
       '<li><b><a href="' + S.tspdt.url + '">' + esc(S.tspdt.name) + '</a></b> <span>' + esc(S.tspdt.detail) + '. ' + c.tspdt + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.sight_and_sound.url + '">' + esc(S.sight_and_sound.name) + '</a></b> <span>' + esc(S.sight_and_sound.detail) + '. ' + c.ss + ' films ranked.</span></li>' +
@@ -445,15 +654,22 @@ function panelBody(){
     (d.sig ? '<p class="sig">' + esc(d.sig) + '</p>' : '') + (d.desc ? '<p class="desc">' + esc(d.desc) + '</p>' : '') +
     (d.movements.length ? '<h3>Movements</h3><div class="chips">' + d.movements.map(m => '<button class="chip" type="button" data-mov="' + m + '" title="' + esc(MV[m].desc) + '">' + esc(MV[m].name) + '</button>').join("") + '</div>' : '') +
     (d.lists.length ? '<h3>On the lists <small class="ok">from the sources</small></h3><ul class="facts ok">' + d.lists.map(f => '<li>' + esc(f) + '</li>').join("") + '</ul>' : '') +
-    (d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + '</h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
-    (d.fg ? '<details class="fg"><summary>Filmography <small>' + d.fg.length + ' films directed, from TMDB</small></summary><ol>' + d.fg.map(x => '<li><span class="fy">' + x[0] + '</span>' + (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</li>').join("") + '</ol></details>' : '') +
+    (d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + ' <small id="seenSum" class="ok"' + (seenStats(d)[0] ? '' : ' hidden') + '>seen ' + seenStats(d).join(" of ") + '</small></h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
+    (d.fg ? '<details class="fg"><summary>Filmography <small>' + d.fg.length + ' films directed, from TMDB</small></summary>' +
+      (d.fg.some(x => x[3] || IMR[gkey(x)]) ? '<div class="fgsort">Sort by <button type="button" data-fgsort="y" aria-pressed="true">Year</button>' +
+        (d.fg.some(x => x[3]) ? '<button type="button" data-fgsort="r" aria-pressed="false">TMDB rating</button>' : '') + (d.fg.some(x => IMR[gkey(x)]) ? '<button type="button" data-fgsort="i" aria-pressed="false">IMDb rating</button>' : '') + '</div>' : '') +
+      '<ol' + (d.fg.some(x => IMR[gkey(x)]) ? ' class="one"' : '') + '>' + d.fg.map((x, n) => { const k = gkey(x);
+      return '<li data-n="' + n + '" data-r="' + (x[3] || 0) + '" data-i="' + (IMR[k] ? IMR[k][0] : 0) + '"><button class="sm" type="button" data-seen="' + esc(k) + '" aria-pressed="' + (SEEN[k] ? "true" : "false") + '" aria-label="Mark ' + esc(x[1]) + ' as seen"></button><span class="fy">' + x[0] + '</span><span class="fn">' +
+        (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</span>' + (x[3] ? '<span class="fr" title="TMDB user rating, out of 10">' + x[3].toFixed(1) + '</span>' : '') +
+        (IMR[k] ? '<span class="fr im" title="IMDb rating, from your own file">IMDb ' + Number(IMR[k][0]).toFixed(1) + '</span>' : '') + '</li>'; }).join("") + '</ol></details>' : '') +
     awardsHtml + (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
     '<h3>Techniques <small>draft</small></h3><div class="chips">' + chips + '</div>' +
     '<h3>Style profile <small>draft</small></h3>' + bars +
     '<h3>Closest in style</h3><ul>' + near + '</ul>' +
     (inn.length ? '<h3>Influenced by (' + inn.length + ')</h3><ul>' + inn.map(l => person(l.s, l.note, "tagin", l.ev, l.wd)).join("") + '</ul>' : '') +
     (out.length ? '<h3>Influenced (' + out.length + ')</h3><ul>' + out.map(l => person(l.t, l.note, "tagout", l.ev, l.wd)).join("") + '</ul>' : '') +
-    beyondHtml + familyHtml + collabHtml + tracer(d.id, 'Trace a connection from ' + esc(d.name)) +
+    beyondHtml + familyHtml + collabHtml +
+    '<h3>Trace or compare</h3><div class="tracer"><input type="search" list="names" id="traceTo" placeholder="Another director" aria-label="Another director"><button class="btn" type="button" id="traceGo">Trace</button><button class="btn" type="button" id="cmpGo">Compare</button></div>' +
     lookups(d.name, d.wiki) + draft();
   bind(p); p.scrollTop = 0;
 }
@@ -464,6 +680,26 @@ function bind(p){
     if (a && b && a.id !== b.id) setPath(a.id, b.id); };
   if ($("traceGo")) { $("traceGo").addEventListener("click", go); $("traceTo").addEventListener("keydown", ev => { if (ev.key === "Enter") go(); }); }
   if ($("clearpath")) $("clearpath").addEventListener("click", () => { state.path = null; paint(); });
+  if ($("cmpGo")) $("cmpGo").addEventListener("click", () => { const b = byName($("traceTo").value); if (b && b.id !== state.sel) setCompare(state.sel, b.id); });
+  if ($("cmpSwap")) $("cmpSwap").addEventListener("click", () => setCompare(state.cmp, state.sel));
+  if ($("mineGo")) $("mineGo").addEventListener("click", () => { clearAll(); state.mine = true; paint(); });
+  if ($("seenExport")) $("seenExport").addEventListener("click", () => { const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify({app: "Auteur Atlas", exported: new Date().toISOString().slice(0, 10), seen: Object.keys(SEEN), mine: MYR}, null, 1)], {type: "application/json"}));
+    a.download = "auteur-atlas-seen.json"; document.body.appendChild(a); a.click(); a.remove(); });
+  if ($("seenImport")) { $("seenImport").addEventListener("click", () => $("seenFile").click());
+    $("seenFile").addEventListener("change", ev => { if (ev.target.files.length) importFiles([...ev.target.files]); }); }
+  if ($("seenClear")) $("seenClear").addEventListener("click", ev => { const b = ev.currentTarget;
+    if (!b.dataset.armed) { b.dataset.armed = 1; b.textContent = "Clear all, sure?"; return; }
+    [SEEN, MYR, IMR].forEach(o => Object.keys(o).forEach(k => delete o[k])); saveSeen(); saveImports(); importNote = ""; paint(); });
+  p.querySelectorAll("[data-fgsort]").forEach(b => b.addEventListener("click", () => {
+    const ol = b.closest("details").querySelector("ol"), by = b.dataset.fgsort;
+    [...ol.children].sort((x, y) => (by === "y" ? 0 : +y.dataset[by] - +x.dataset[by]) || (+x.dataset.n - +y.dataset.n)).forEach(li => ol.appendChild(li));
+    b.parentNode.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false")); }));
+  p.querySelectorAll("[data-seen]").forEach(b => b.addEventListener("click", ev => { ev.stopPropagation(); const k = b.dataset.seen;
+    if (SEEN[k]) delete SEEN[k]; else SEEN[k] = 1; saveSeen();
+    p.querySelectorAll('[data-seen="' + CSS.escape(k) + '"]').forEach(x => { x.setAttribute("aria-pressed", SEEN[k] ? "true" : "false"); if (x.classList.contains("seenbtn")) x.innerHTML = SEEN[k] ? "Seen &#10003;" : "Mark as seen"; });
+    const d = byId[state.sel], s = $("seenSum"); if (d && s) { const st = seenStats(d); s.textContent = "seen " + st.join(" of "); s.hidden = !st[0]; }
+    markSeenNodes(); }));
   p.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => select(b.dataset.go, true)));
   p.querySelectorAll("[data-mov]").forEach(b => b.addEventListener("click", () => setMov(b.dataset.mov)));
   p.querySelectorAll("[data-tech]").forEach(b => b.addEventListener("click", () => { state.tech = state.tech === b.dataset.tech ? "" : b.dataset.tech; state.mov = ""; state.geo = ""; state.path = null; paint(); }));
@@ -489,24 +725,69 @@ function setPath(a, b, fly){
   state.path = t ? {a, b, steps: t.steps, style: !!t.style} : {a, b, steps: [], none: true};
   if (fly !== false) { paint(); fitPath(); }
 }
+function setCompare(a, b, fly){
+  const t = trace(a, b); clearAll(); state.sel = a; state.cmp = b;
+  state.path = t ? {a, b, steps: t.steps, style: !!t.style, cmp: true} : {a, b, steps: [], none: true, cmp: true};
+  if (fly !== false) { paint(); fitPath(); }
+}
+function markSeenNodes(){ const s = seenDirs(); nodeEls.forEach(({d, e}) => e.classList.toggle("seen", s.has(d.id))); }
+
+/* ---------- map or timeline: the dots glide between the two layouts ---------- */
+const LANE_SHORT = {"Latin America and the Caribbean": "Latin America", "Central and Eastern Europe": "Eastern Europe", "Middle East and Africa": "Middle East & Africa", "South and Southeast Asia": "South & SE Asia"};
+(function drawAxis(){
+  const A = $("gAxis"), TL = DATA.timeline, top = TL.lanes[0][1], bot = TL.lanes[TL.lanes.length - 1][2];
+  TL.lanes.forEach(([name, y0, y1], i) => { const g = el("g", {class: "lane"}, A);
+    if (i % 2 === 0) el("rect", {x: TL.x0 - 40, y: y0, width: TL.x1 - TL.x0 + 80, height: y1 - y0}, g);
+    const t = el("text", {x: TL.x0 - 60, y: (y0 + y1) / 2}, g); t.textContent = LANE_SHORT[name] || name; });
+  TL.years.forEach(([yr, x]) => { const g = el("g", {class: "axis"}, A);
+    el("line", {x1: x, x2: x, y1: top - 10, y2: bot + 10}, g);
+    el("text", {x, y: top - 34}, g).textContent = yr; el("text", {x, y: bot + 64}, g).textContent = yr; });
+})();
+let morph = null;
+function place(d, x, y, r){ d.cx = x; d.cy = y; d.cr = r;
+  d.g.setAttribute("transform", "translate(" + f1(x - d.x) + "," + f1(y - d.y) + ")"); d.circle.setAttribute("r", f1(r)); d.label.setAttribute("y", f1(d.y + r)); }
+function setView(v, animate){
+  if (v === state.view && !morph) return;
+  state.view = v;
+  $("viewbtn").textContent = v === "time" ? "Map" : "Timeline";
+  $("legendText").textContent = v === "time" ? "Left to right: the median year of each director's films. Rows: regions. Arrows run from influence to influenced."
+    : "Colour: the median year of their films. Shaded areas: movements. Bigger circle: influenced more directors here. Arrows run from influence to influenced.";
+  const to = DATA.directors.map(d => v === "time" ? [d.tx, d.ty, d.tr] : [d.x, d.y, d.r]), from = DATA.directors.map(d => [d.cx, d.cy, d.cr]);
+  const done = () => { morph = null; svg.classList.remove("morphing"); buildGeo(); paint(); };
+  svg.classList.toggle("tl", v === "time");
+  if (REDUCE || animate === false) { DATA.directors.forEach((d, i) => place(d, ...to[i])); done(); return; }
+  svg.classList.add("morphing"); flyTo(CX, CY, 1, 760);
+  morph = {t0: performance.now(), from, to};
+  const step = now => { if (!morph) return; const t = Math.min(1, (now - morph.t0) / 760), e = t < .5 ? 4*t*t*t : 1 - Math.pow(2 - 2*t, 3) / 2;
+    DATA.directors.forEach((d, i) => { const a = from[i], b = to[i]; place(d, a[0] + (b[0] - a[0])*e, a[1] + (b[1] - a[1])*e, a[2] + (b[2] - a[2])*e); });
+    if (t < 1) requestAnimationFrame(step); else done(); };
+  requestAnimationFrame(step);
+}
 function fitPath(){
   const ids = [state.path.a].concat(state.path.steps.map(s => s.to)).concat([state.path.b]);
-  const xs = ids.map(i => byId[i].x), ys = ids.map(i => byId[i].y), pad = 300;
+  const xs = ids.map(i => byId[i].cx), ys = ids.map(i => byId[i].cy), pad = 300;
   const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
   flyTo((x0 + x1) / 2, (y0 + y1) / 2, Math.min(3.2, DATA.w / (x1 - x0 + 2*pad), DATA.h / (y1 - y0 + 2*pad)));
 }
 
 /* ---------- links that can be shared: #ozu, #m/french-new-wave, #t/long-take, #g/..., #path/a/b ---------- */
 let routing = false;
-function route(){ const P = state.path; return P ? "path/" + P.a + "/" + P.b : state.sel ? state.sel : state.mov ? "m/" + state.mov : state.tech ? "t/" + state.tech : state.geo ? "g/" + state.geo : state.dir ? "x/" + state.dir : ""; }
+function route(){ const P = state.path;
+  const r = state.cmp ? "cmp/" + state.sel + "/" + state.cmp : P ? "path/" + P.a + "/" + P.b : state.sel ? state.sel : state.mov ? "m/" + state.mov : state.tech ? "t/" + state.tech
+    : state.geo ? "g/" + state.geo : state.mine ? "mine" : state.dir ? "x/" + state.dir : "";
+  return state.view === "time" ? "timeline" + (r ? "/" + r : "") : r; }
 function syncRoute(){
   if (routing) return;
   const h = route(); if (h === decodeURIComponent(location.hash.replace(/^#/, ""))) return;
   try { history.pushState(null, "", h ? "#" + encodeURI(h) : location.pathname + location.search); } catch (e) {}
 }
 function applyRoute(){
-  const r = decodeURIComponent(location.hash.replace(/^#/, "")); let m;
+  let r = decodeURIComponent(location.hash.replace(/^#/, "")), m;
+  const view = /^timeline(\/|$)/.test(r) ? "time" : "map"; r = r.replace(/^timeline\/?/, "");
+  if (view !== state.view) setView(view, false);
   clearAll();
+  if ((m = r.match(/^cmp\/([^/]+)\/([^/]+)$/)) && byId[m[1]] && byId[m[2]]) { setCompare(m[1], m[2], false); return "path"; }
+  if (r === "mine") { state.mine = true; return null; }
   if ((m = r.match(/^path\/([^/]+)\/([^/]+)$/)) && byId[m[1]] && byId[m[2]]) { setPath(m[1], m[2], false); return "path"; }
   if ((m = r.match(/^m\/(.+)$/)) && MV[m[1]]) state.mov = m[1];
   else if ((m = r.match(/^t\/(.+)$/)) && T[m[1]]) state.tech = m[1];
@@ -589,7 +870,7 @@ function flyTo(cx, cy, k, ms){
   fly = {path, t0: performance.now(), dur: ms || Math.max(420, Math.min(1200, path.duration * 0.9))};
   last = 0; kick();
 }
-function centreOn(d, k){ flyTo(d.x, d.y, k == null ? state.k : k); }
+function centreOn(d, k){ flyTo(d.cx, d.cy, k == null ? state.k : k); }
 function zoomAt(px, py, f){ const k = clampK(state.k*f), r = k/state.k; state.x = px - (px - state.x)*r; state.y = py - (py - state.y)*r; state.k = k; render(); relabel(true); }
 function svgPoint(ev){ const pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY; return pt.matrixTransform(svg.getScreenCTM().inverse()); }
 
@@ -657,6 +938,9 @@ Object.keys(DATA.regions).forEach(r => { const g = document.createElement("optgr
   DATA.regions[r].forEach(c => { const o = document.createElement("option"); o.value = "c:" + c; o.textContent = c + " (" + DATA.directors.filter(d => firstCountry(d) === c).length + ")"; g.appendChild(o); });
   $("geo").appendChild(g); });
 $("geo").addEventListener("change", ev => { const g = ev.target.value; clearAll(); state.geo = g; paint(); });
+$("viewbtn").addEventListener("click", () => { setView(state.view === "time" ? "map" : "time"); syncRoute(); });
+if (DATA.crew.length) $("crewToggle").hidden = false;
+$("showCrew").addEventListener("change", paint);
 $("surprise").addEventListener("click", () => { const pool = DATA.directors.filter(d => d.id !== state.sel), d = pool[Math.floor(Math.random() * pool.length)]; select(d.id); centreOn(d, Math.max(state.k, 2.4)); });
 document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) { clearAll(); paint(); } });
 [["movement", "Movements"], ["category", "Critical categories"]].forEach(([kind, label]) => { const g = document.createElement("optgroup"); g.label = label;

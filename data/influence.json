@@ -4193,5 +4193,445 @@
   "from": "murnau",
   "to": "guymaddin",
   "note": ""
+ },
+ {
+  "from": "aliceguyblache",
+  "to": "loisweber",
+  "note": ""
+ },
+ {
+  "from": "georgesmelies",
+  "to": "edwinsporter",
+  "note": "Porter studied Méliès's films."
+ },
+ {
+  "from": "edwinsporter",
+  "to": "dwgriffith",
+  "note": ""
+ },
+ {
+  "from": "maxlinder",
+  "to": "chaplin",
+  "note": "Chaplin acknowledged Linder as an influence."
+ },
+ {
+  "from": "macksennett",
+  "to": "chaplin",
+  "note": "Chaplin made his first films at Sennett's Keystone studio."
+ },
+ {
+  "from": "macksennett",
+  "to": "frankcapra",
+  "note": "Capra wrote gags for Sennett."
+ },
+ {
+  "from": "thomashince",
+  "to": "frankborzage",
+  "note": "Borzage began as an actor and director for Ince."
+ },
+ {
+  "from": "rexingram",
+  "to": "powell",
+  "note": "Michael Powell started in films at Ingram's studio in Nice."
+ },
+ {
+  "from": "germainedulac",
+  "to": "mayaderen",
+  "note": ""
+ },
+ {
+  "from": "marcellherbier",
+  "to": "resnais",
+  "note": "Resnais was in the first class of IDHEC, the school L'Herbier founded."
+ },
+ {
+  "from": "jacquesfeyder",
+  "to": "marcelcarne",
+  "note": "Carné was Feyder's assistant."
+ },
+ {
+  "from": "paulleni",
+  "to": "jameswhale",
+  "note": ""
+ },
+ {
+  "from": "paulwegener",
+  "to": "jameswhale",
+  "note": "The Golem is often cited as a model for Frankenstein."
+ },
+ {
+  "from": "arnoldfanck",
+  "to": "leniriefenstahl",
+  "note": "Riefenstahl acted in Fanck's mountain films before directing."
+ },
+ {
+  "from": "mauritzstiller",
+  "to": "ernstlubitsch",
+  "note": ""
+ },
+ {
+  "from": "benjaminchristensen",
+  "to": "dreyer",
+  "note": ""
+ },
+ {
+  "from": "dwgriffith",
+  "to": "levkuleshov",
+  "note": "Kuleshov's workshop studied Intolerance shot by shot."
+ },
+ {
+  "from": "levkuleshov",
+  "to": "vsevolodpudovkin",
+  "note": "Pudovkin trained in Kuleshov's workshop."
+ },
+ {
+  "from": "levkuleshov",
+  "to": "borisbarnet",
+  "note": "Barnet trained in Kuleshov's workshop."
+ },
+ {
+  "from": "levkuleshov",
+  "to": "eisenstein",
+  "note": "Eisenstein spent a few months in Kuleshov's workshop."
+ },
+ {
+  "from": "dwgriffith",
+  "to": "vsevolodpudovkin",
+  "note": "Pudovkin said Intolerance made him turn to film."
+ },
+ {
+  "from": "grigorikozintsev",
+  "to": "alekseigerman",
+  "note": "German was Kozintsev's assistant on King Lear."
+ },
+ {
+  "from": "esfirshub",
+  "to": "eisenstein",
+  "note": "Eisenstein learned editing with Shub, recutting Lang's Dr. Mabuse."
+ },
+ {
+  "from": "robertjflaherty",
+  "to": "johngrierson",
+  "note": "Grierson coined 'documentary' reviewing Flaherty's Moana."
+ },
+ {
+  "from": "johngrierson",
+  "to": "basilwright",
+  "note": "Wright joined Grierson's Empire Marketing Board film unit."
+ },
+ {
+  "from": "johngrierson",
+  "to": "harrywatt",
+  "note": ""
+ },
+ {
+  "from": "johngrierson",
+  "to": "humphreyjennings",
+  "note": ""
+ },
+ {
+  "from": "johngrierson",
+  "to": "normanmclaren",
+  "note": "Grierson hired McLaren at the GPO and the National Film Board of Canada."
+ },
+ {
+  "from": "winsormccay",
+  "to": "fleischerbrothers",
+  "note": ""
+ },
+ {
+  "from": "ladislasstarevich",
+  "to": "wanderson",
+  "note": "Fantastic Mr. Fox nods to Starevich's The Tale of the Fox."
+ },
+ {
+  "from": "texavery",
+  "to": "chuckjones",
+  "note": "Jones worked in Avery's unit at Warner Bros."
+ },
+ {
+  "from": "oskarfischinger",
+  "to": "normanmclaren",
+  "note": ""
+ },
+ {
+  "from": "oskarfischinger",
+  "to": "harrysmith",
+  "note": ""
+ },
+ {
+  "from": "jiritrnka",
+  "to": "jansvankmajer",
+  "note": ""
+ },
+ {
+  "from": "karelzeman",
+  "to": "terrygilliam",
+  "note": "Gilliam has named Zeman's Baron Munchausen as an influence."
+ },
+ {
+  "from": "jansvankmajer",
+  "to": "quaybrothers",
+  "note": "The Quays made The Cabinet of Jan Švankmajer in his honour."
+ },
+ {
+  "from": "spielberg",
+  "to": "bradbird",
+  "note": "Bird's first directing job was Family Dog for Spielberg's Amazing Stories."
+ },
+ {
+  "from": "jacksmith",
+  "to": "kenjacobs",
+  "note": "Smith starred in Jacobs's early films, such as Blonde Cobra."
+ },
+ {
+  "from": "michaelsnow",
+  "to": "jamesbenning",
+  "note": ""
+ },
+ {
+  "from": "hollisframpton",
+  "to": "sufriedrich",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "marcobellocchio",
+  "note": ""
+ },
+ {
+  "from": "antonioni",
+  "to": "valeriozurlini",
+  "note": ""
+ },
+ {
+  "from": "desica",
+  "to": "luigicomencini",
+  "note": ""
+ },
+ {
+  "from": "rossellini",
+  "to": "vittoriodeseta",
+  "note": ""
+ },
+ {
+  "from": "albertolattuada",
+  "to": "fellini",
+  "note": "Lattuada co-directed Fellini's first film, Variety Lights."
+ },
+ {
+  "from": "jacquesfeyder",
+  "to": "julienduvivier",
+  "note": ""
+ },
+ {
+  "from": "julienduvivier",
+  "to": "melville",
+  "note": ""
+ },
+ {
+  "from": "sachaguitry",
+  "to": "resnais",
+  "note": ""
+ },
+ {
+  "from": "sachaguitry",
+  "to": "wanderson",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "claudesautet",
+  "note": ""
+ },
+ {
+  "from": "melville",
+  "to": "bertrandtavernier",
+  "note": "Tavernier worked as press agent on Melville's films."
+ },
+ {
+  "from": "melville",
+  "to": "claudesautet",
+  "note": ""
+ },
+ {
+  "from": "truffaut",
+  "to": "andretechine",
+  "note": ""
+ },
+ {
+  "from": "tati",
+  "to": "pierreetaix",
+  "note": "Étaix worked as Tati's assistant on Mon Oncle."
+ },
+ {
+  "from": "keaton",
+  "to": "pierreetaix",
+  "note": ""
+ },
+ {
+  "from": "jeanrouch",
+  "to": "jacquesrozier",
+  "note": ""
+ },
+ {
+  "from": "bunuel",
+  "to": "bertrandblier",
+  "note": ""
+ },
+ {
+  "from": "jeanjacquesbeineix",
+  "to": "lucbesson",
+  "note": ""
+ },
+ {
+  "from": "konradwolf",
+  "to": "frankbeyer",
+  "note": ""
+ },
+ {
+  "from": "lang",
+  "to": "wolfgangstaudte",
+  "note": ""
+ },
+ {
+  "from": "wernerschroeter",
+  "to": "fassbinder",
+  "note": "Fassbinder named Schroeter as a model."
+ },
+ {
+  "from": "sirk",
+  "to": "wernerschroeter",
+  "note": ""
+ },
+ {
+  "from": "wernerschroeter",
+  "to": "ulrikeottinger",
+  "note": ""
+ },
+ {
+  "from": "kennethanger",
+  "to": "rosavonpraunheim",
+  "note": ""
+ },
+ {
+  "from": "rosavonpraunheim",
+  "to": "fassbinder",
+  "note": ""
+ },
+ {
+  "from": "alexanderkluge",
+  "to": "helmasandersbrahms",
+  "note": ""
+ },
+ {
+  "from": "lindsayanderson",
+  "to": "tonyrichardson",
+  "note": "They co-founded Free Cinema with Karel Reisz."
+ },
+ {
+  "from": "truffaut",
+  "to": "tonyrichardson",
+  "note": ""
+ },
+ {
+  "from": "tonyrichardson",
+  "to": "loach",
+  "note": ""
+ },
+ {
+  "from": "hitchcock",
+  "to": "anthonyasquith",
+  "note": ""
+ },
+ {
+  "from": "thorolddickinson",
+  "to": "georgecukor",
+  "note": "Cukor remade Dickinson's Gaslight."
+ },
+ {
+  "from": "basildearden",
+  "to": "loach",
+  "note": ""
+ },
+ {
+  "from": "luisgarciaberlanga",
+  "to": "juanantoniobardem",
+  "note": "They co-directed That Happy Couple."
+ },
+ {
+  "from": "juanantoniobardem",
+  "to": "carlossaura",
+  "note": ""
+ },
+ {
+  "from": "victorerice",
+  "to": "joseluisguerin",
+  "note": ""
+ },
+ {
+  "from": "ford",
+  "to": "joseluisguerin",
+  "note": "Innisfree revisits the Irish village where Ford shot The Quiet Man."
+ },
+ {
+  "from": "manoeldeoliveira",
+  "to": "joaocesarmonteiro",
+  "note": ""
+ },
+ {
+  "from": "renoir",
+  "to": "paulorocha",
+  "note": "Rocha was an assistant on Renoir's The Elusive Corporal."
+ },
+ {
+  "from": "manoeldeoliveira",
+  "to": "paulorocha",
+  "note": "Rocha was an assistant on Oliveira's Rite of Spring."
+ },
+ {
+  "from": "paulorocha",
+  "to": "pedrocosta",
+  "note": ""
+ },
+ {
+  "from": "michaelcacoyannis",
+  "to": "angelopoulos",
+  "note": ""
+ },
+ {
+  "from": "metinerksan",
+  "to": "yilmazguney",
+  "note": ""
+ },
+ {
+  "from": "omerkavur",
+  "to": "ceylan",
+  "note": ""
+ },
+ {
+  "from": "vinterberg",
+  "to": "susannebier",
+  "note": ""
+ },
+ {
+  "from": "vontrier",
+  "to": "susannebier",
+  "note": ""
+ },
+ {
+  "from": "wuyonggang",
+  "to": "stanleykwan",
+  "note": "Center Stage restages scenes from The Goddess."
+ },
+ {
+  "from": "caichusheng",
+  "to": "stanleykwan",
+  "note": "Center Stage shows Cai directing Ruan Lingyu in New Women."
+ },
+ {
+  "from": "frankborzage",
+  "to": "yuanmuzhi",
+  "note": "Street Angel takes its English title from Borzage's 1928 film."
  }
 ]

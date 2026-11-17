@@ -411,5 +411,40 @@
   "period": "late 1990s onward",
   "description": "Low-budget Argentine films that broke with the national industry through location shooting, non-actors and elliptical storytelling.",
   "cluster": true
+ },
+ "french-impressionism": {
+  "name": "French Impressionism",
+  "kind": "movement",
+  "period": "1918 to 1929",
+  "description": "French silent film-makers who used close-ups, superimposition, rhythmic editing and soft focus to convey what characters feel and perceive, and wrote about 'photogénie'.",
+  "cluster": true
+ },
+ "structural-film": {
+  "name": "Structural film",
+  "kind": "movement",
+  "period": "1960s to 1970s",
+  "description": "P. Adams Sitney's term for experimental films whose shape is fixed in advance, such as a single zoom, a static frame or a pattern of frames, so that perception itself becomes the subject.",
+  "cluster": true
+ },
+ "commedia-all-italiana": {
+  "name": "Commedia all'italiana",
+  "kind": "movement",
+  "period": "late 1950s to 1970s",
+  "description": "Italian comedies that satirised the economic boom, sexual mores and the Catholic family, mixing farce with bitterness and often ending badly.",
+  "cluster": true
+ },
+ "shanghai-cinema": {
+  "name": "Shanghai cinema of the 1930s",
+  "kind": "movement",
+  "period": "1930s to 1940s",
+  "description": "Left-wing films from Shanghai studios such as Lianhua and Mingxing: melodramas and musicals about the urban poor, women and resistance to Japan.",
+  "cluster": true
+ },
+ "hong-kong-martial-arts": {
+  "name": "Hong Kong martial arts cinema",
+  "kind": "category",
+  "period": "1960s to 1990s",
+  "description": "Swordplay (wuxia) and kung fu films from Hong Kong studios such as Shaw Brothers and Golden Harvest, built around choreographed combat.",
+  "cluster": false
  }
 }

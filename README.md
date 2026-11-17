@@ -39,6 +39,7 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `scripts/fetch_wikidata.py` | Fetches Wikidata facts (no key needed) |
 | `scripts/merge_wikidata.py` | Turns Wikidata influence and teacher links into influence links and checks award facts |
 | `scripts/check_imdb.py` | Checks our films against your own copy of the IMDb datasets and writes a local report. IMDb data itself is never stored in this repo |
+| `scripts/imdb_personal.py` | Makes a private file of IMDb ratings from your own copy of the IMDb datasets, to import in your browser. Writes `personal/`, which is not committed |
 | `template.html` | The page: markup, styles and script |
 | `build.py` | Reads `data/`, computes similarity and layout, writes `site/index.html` |
 | `site/index.html`, `docs/index.html` | The built page, written twice. GitHub Pages serves `docs/`; `docs/CNAME` holds the domain |
@@ -91,6 +92,36 @@ key films by list rank and then by TMDB audience, and links straight to Letterbo
 - Trace a connection: the shortest chain of influence between two directors, falling back
   to style similarity where no influence chain exists.
 - Highlight a region or country, "Surprise me", Escape to clear.
+- Timeline: the same dots glide into a timeline, left to right by the median year of each
+  director's films, one row per region. Links work there too (`#timeline/ozu`).
+- Compare two directors side by side (`#cmp/bergman/tarkovsky`): style scales, shared and
+  separate techniques, movements, how they connect, shared crew.
+- Your films: mark films as seen, or import what you have watched from a Letterboxd export
+  (the .zip) or an IMDb ratings export (.csv). Your own ratings show on the film cards, the
+  directors you have watched light up on the map (`#mine`), and "Next for you" suggests
+  directors close in style or linked by influence to the ones you have seen. All of this is
+  kept in your browser only; Export and Import move it to another browser.
+- Ratings: every film card shows the TMDB audience rating with its number of votes, and a
+  filmography can be sorted by rating.
+- Shared crew: once `fetch_tmdb.py` has stored collaborators, a toggle draws links between
+  directors who worked with the same cinematographer, editor, composer, writer or designer.
+
+## IMDb ratings, privately
+
+IMDb's licence lets you use its datasets for personal, non-commercial use, but forbids
+republishing them, so IMDb ratings are not on the public site. You can still see them
+yourself, in your own browser:
+
+- Films you have rated on IMDb: export your ratings on IMDb (Your ratings, Export) and import
+  the .csv under "Your films". The export includes the IMDb rating of every film in it.
+- Every film: download `title.ratings.tsv`, `title.basics.tsv` and `title.crew.tsv` from
+  https://datasets.imdbws.com, then run
+
+      python scripts/imdb_personal.py PATH/title.ratings.tsv PATH/title.basics.tsv PATH/title.crew.tsv
+
+  and import `personal/imdb-ratings.json` under "Your films". With only the ratings file it
+  covers the films matched on TMDB; with all three it also covers each director's full
+  filmography. Keep that file to yourself: it is IMDb data.
 
 ## Check against IMDb (optional, local only)
 

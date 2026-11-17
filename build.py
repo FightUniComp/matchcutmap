@@ -95,9 +95,14 @@ def film_out(f):
     if f.get("cannes"): o["ca"] = [f["cannes"]["year"], f["cannes"]["award"]]
     tm = TMDB["films"].get(f["id"])
     if tm:
-        for a, b in (("overview", "ov"), ("vote_average", "r"), ("tmdb_id", "tid"), ("imdb_id", "im")):
+        for a, b in (("overview", "ov"), ("tmdb_id", "tid"), ("imdb_id", "im")):
             if tm.get(a): o[b] = tm[a]
+        if tm.get("matched_title") and tkey(tm["matched_title"]) != tkey(f["title"]): o["tt"] = tm["matched_title"]
+        if rate(tm): o["r"], o["rv"] = rate(tm), tm["vote_count"]
     return o
+def rate(t):
+    """TMDB audience rating, shown only when at least 20 people rated the film."""
+    return round(t["vote_average"], 1) if (t.get("vote_count") or 0) >= 20 and t.get("vote_average") else None
 by_dir = {}
 for f in sorted(FILMS, key=film_order):
     for i in f["directors"]:
@@ -258,7 +263,7 @@ def tier(i):
 def pfilm_out(p):
     o = {"t": p["title"], "tid": p["tmdb_id"]}
     if pyear(p.get("release_date")): o["y"] = pyear(p["release_date"])
-    if (p.get("vote_count") or 0) >= 20 and p.get("vote_average"): o["r"] = p["vote_average"]
+    if rate(p): o["r"], o["rv"] = rate(p), p["vote_count"]
     if p.get("overview"): o["ov"] = p["overview"]
     return o
 def key_films(i):
@@ -271,9 +276,9 @@ def key_films(i):
     return ([film_out(f) for f in ranked] + [o for _, o in pool])[:KEY_FILMS]
 def filmography(i):
     if not PEOPLE["directors"].get(i, {}).get("films"): return None
-    out = [[pyear(p.get("release_date")), p["title"], p["tmdb_id"]] for p in pfilms(i) if pyear(p.get("release_date"))]
-    out += [[f["year"], f["title"], TID.get(f["id"])] for f in by_dir.get(i, []) if f["year"]]
-    return sorted(out, key=lambda x: (x[0], x[1]))
+    out = [[pyear(p.get("release_date")), p["title"], p["tmdb_id"], rate(p)] for p in pfilms(i) if pyear(p.get("release_date"))]
+    out += [[f["year"], f["title"], TID.get(f["id"]), rate(TMDB["films"].get(f["id"]) or {})] for f in by_dir.get(i, []) if f["year"]]
+    return [x if x[3] else x[:3] for x in sorted(out, key=lambda x: (x[0], x[1]))]
 def life(i):
     ps = PEOPLE["directors"].get(i, {}).get("persons", [])
     out = [[p["name"], pyear(p.get("birthday")), pyear(p.get("deathday")), (p.get("place_of_birth") or "").split(",")[0].strip()] for p in ps]
@@ -330,7 +335,7 @@ def director_out(i, d):
          "films": key_films(d["id"]), "nfilms": len(filmography(d["id"]) or fl), "span": span(d["id"]), "rank": ranks.get(d["id"]),
          "sig": fx.get("signature", ""), "desc": fx.get("description", ""), "facts": [[f["text"], 1 if f["status"] == "verified" else 0] for f in fx.get("facts", [])], "lists": list_facts(d["id"]),
          "tags": d["techniques"], "dims": [d["scores"][k] for k in keys],
-         "x": round(float(X[i, 0]), 1), "y": round(float(X[i, 1]), 1), "r": round(float(R[i]), 1),
+         "x": round(float(X[i, 0]), 1), "y": round(float(X[i, 1]), 1), "r": round(float(R[i]), 1), "tx": TL[i][0], "ty": TL[i][1], "tr": TL[i][2],
          "out": out_deg[d["id"]], "era": era_of(d), "tier": tier(d["id"]), "near": near[d["id"]]}
     if d.get("born"): o["born"] = d["born"]
     fg, lf = filmography(d["id"]), life(d["id"])
@@ -344,11 +349,49 @@ def director_out(i, d):
         if v: o[k] = v
     return o
 
+# ---------- timeline: x = middle of the career, one lane per region, packed as a beeswarm ----------
+LANES = [r for r in ["North America", "Latin America and the Caribbean", "Western Europe", "Central and Eastern Europe", "Middle East and Africa",
+                     "South and Southeast Asia", "East Asia", "Oceania", "Other"] if any(REGION_OF.get(first_country(d), "Other") == r for d in D)]
+TY0, TY1, TX0, TX1, TM = 1890, 2030, 780, W - 140, 150
+def tl_x(year): return TX0 + (year - TY0) / (TY1 - TY0) * (TX1 - TX0)
+lane_n = {r: sum(1 for d in D if REGION_OF.get(first_country(d), "Other") == r) for r in LANES}
+lane_w = {r: (lane_n[r] + 25) ** 0.85 for r in LANES}
+TL_LANES, _y = [], TM
+for r in LANES:
+    h = (H - 2 * TM) * lane_w[r] / sum(lane_w.values()); TL_LANES.append([r, round(_y, 1), round(_y + h, 1)]); _y += h
+TL = {}
+for r, y0, y1 in TL_LANES:
+    members = sorted([i for i, d in enumerate(D) if REGION_OF.get(first_country(d), "Other") == r], key=lambda i: -R[i])
+    placed = []                                              # (x, y, radius)
+    for i in members:
+        ys = main_years(D[i]["id"]); yr = statistics.median(ys) if ys else 1960
+        x, rad, cy = tl_x(min(TY1, max(TY0, yr))), 0.62 * R[i] + 2, (y0 + y1) / 2
+        best_y, best_pen = cy, None
+        for k in range(0, 400):
+            y = cy + (k + 1) // 2 * 6 * (1 if k % 2 else -1)
+            if y - rad < y0 + 6 or y + rad > y1 - 6:
+                if k > 40 and best_pen is not None: break
+                continue
+            pen = sum(max(0, rad + pr + 3 - math.hypot(x - px, y - py)) for px, py, pr in placed if abs(px - x) < rad + pr + 3)
+            if best_pen is None or pen < best_pen: best_y, best_pen = y, pen
+            if pen == 0: break
+        placed.append((x, best_y, rad)); TL[i] = (round(x, 1), round(best_y, 1), round(rad, 1))
+
+# ---------- pairs of directors who share a collaborator (crew layer; not actors) ----------
+CREW = {}
+for (_role, _pid), _ds in SHARED.items():
+    if _role == "Acting": continue
+    _ds = sorted(x for x in _ds if x in IDSET)
+    for _a in range(len(_ds)):
+        for _b in range(_a + 1, len(_ds)): CREW[(_ds[_a], _ds[_b])] = CREW.get((_ds[_a], _ds[_b]), 0) + 1
+
 def evidence(e):
     return BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
 
 data = {
- "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]), "hasWikidata": bool(WD["people"]),
+ "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "timeline": {"lanes": TL_LANES, "years": [[y, round(tl_x(y), 1)] for y in range(1900, 2030, 10)], "x0": TX0, "x1": TX1},
+ "crew": [[a, b, n] for (a, b), n in sorted(CREW.items())],
+ "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]), "hasWikidata": bool(WD["people"]),
  "regions": {r: sorted({first_country(d) for d in D if REGION_OF.get(first_country(d)) == r}) for r in list(REGIONS) + ["Other"] if any(REGION_OF.get(first_country(d), "Other") == r for d in D)},
  "counts": {"films": len(FILMS), "tspdt": sum(1 for f in FILMS if f["tspdt"]), "ss": sum(1 for f in FILMS if f["sight_and_sound"]), "hot": sum(1 for f in FILMS if f["house_of_tabula"]), "cannes": len(CANNES), "factsChecked": sum(1 for v in F.values() for f in v.get("facts", []) if f["status"] == "verified"), "facts": sum(len(v.get("facts", [])) for v in F.values()),
             "notes": sum(1 for e in I if e["note"]), "evidence": sum(1 for e in I if evidence(e))},

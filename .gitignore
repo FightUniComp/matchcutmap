@@ -8,3 +8,4 @@ data/tmdb.json
 data/people.json
 database/auteur-atlas-full.sqlite
 database/csv-full/
+personal/
