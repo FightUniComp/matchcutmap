@@ -7,7 +7,7 @@ a single self-contained page to site/index.html.
 Usage:  python build.py            (add --report to print a sanity check)
 Needs:  numpy, scikit-learn
 """
-import json, math, sys, os, statistics
+import json, math, sys, os, statistics, unicodedata
 import numpy as np
 from sklearn.manifold import smacof
 
@@ -30,6 +30,19 @@ TSPDT, F, FILMS, DIRECTORY, SOURCES = load("tspdt"), load("facts"), load("films"
 CANNES = load("cannes")   # winners of the top prize at Cannes, 1939 to 2026
 BOOK = load("book", optional=True) or {"pages": {}, "pairs": {}}      # page references from the Oxford History of World Cinema
 TMDB = load("tmdb", optional=True) or {"films": {}}    # written by scripts/fetch_tmdb.py
+PEOPLE = load("people", optional=True) or {"directors": {}}   # filmographies and birth dates, also from scripts/fetch_tmdb.py
+TID = {fid: m["tmdb_id"] for fid, m in TMDB["films"].items()}
+def pyear(s): return int(s[:4]) if s and s[:4].isdigit() else None
+def tkey(t): return "".join(c for c in unicodedata.normalize("NFD", (t or "").lower()) if c.isalnum() and ord(c) < 128)
+def pfilms(i):
+    """TMDB filmography minus the films we already hold (same TMDB id, or same title within a year)."""
+    ours = by_dir.get(i, [])
+    have = {TID.get(f["id"]) for f in ours} - {None}
+    seen = {(tkey(f["title"]), f["year"]) for f in ours}
+    def dup(p):
+        y = pyear(p.get("release_date"))
+        return p["tmdb_id"] in have or any(t in (tkey(p.get("title")), tkey(p.get("original_title"))) and y and fy and abs(y - fy) <= 1 for t, fy in seen)
+    return [p for p in PEOPLE["directors"].get(i, {}).get("films", []) if not dup(p)]
 
 # ---------- validate ----------
 ids = [d["id"] for d in D]
@@ -101,12 +114,17 @@ def list_facts(i):
     if pg:
         out.append(f"Named on {plural(len(pg), 'page')} of The Oxford History of World Cinema.")
     return out
+def main_years(i):
+    """Years of the films that define a career: TMDB films with some audience, else our own film list."""
+    ys = [pyear(p.get("release_date")) for p in PEOPLE["directors"].get(i, {}).get("films", []) if (p.get("vote_count") or 0) >= 10]
+    ys = [y for y in ys if y]
+    return ys if len(ys) >= 3 else [f["year"] for f in by_dir.get(i, []) if f["year"]]
 def era_of(d):
-    ys = [f["year"] for f in by_dir.get(d["id"], []) if f["year"]]
+    ys = main_years(d["id"])
     y = statistics.median(ys) if ys else (d["born"] + 40 if d.get("born") else 1960)
     return next(k for k, (lim, _) in enumerate(ERAS) if y <= lim)
 def span(i):
-    ys = [f["year"] for f in by_dir.get(i, []) if f["year"]]
+    ys = main_years(i)
     return [min(ys), max(ys)] if ys else None
 
 # ---------- similarity ----------
@@ -220,23 +238,48 @@ def tier(i):
     r, o = ranks.get(i, 999), out_deg[i]
     return 1 if (r <= 30 or o >= 9) else 2 if (r <= 110 or o >= 3) else 3
 
+def pfilm_out(p):
+    o = {"t": p["title"], "tid": p["tmdb_id"]}
+    if pyear(p.get("release_date")): o["y"] = pyear(p["release_date"])
+    if (p.get("vote_count") or 0) >= 20 and p.get("vote_average"): o["r"] = p["vote_average"]
+    if p.get("overview"): o["ov"] = p["overview"]
+    return o
+def key_films(i):
+    """Films on the lists first, by rank; then the rest of the career by TMDB audience size."""
+    fl = by_dir.get(i, [])
+    ranked = [f for f in fl if film_order(f) < 5000]
+    pool = [((TMDB["films"].get(f["id"]) or {}).get("vote_count") or 0, film_out(f)) for f in fl if film_order(f) >= 5000]
+    pool += [(p.get("vote_count") or 0, pfilm_out(p)) for p in pfilms(i) if pyear(p.get("release_date"))]
+    pool.sort(key=lambda x: -x[0])
+    return ([film_out(f) for f in ranked] + [o for _, o in pool])[:KEY_FILMS]
+def filmography(i):
+    if not PEOPLE["directors"].get(i, {}).get("films"): return None
+    out = [[pyear(p.get("release_date")), p["title"], p["tmdb_id"]] for p in pfilms(i) if pyear(p.get("release_date"))]
+    out += [[f["year"], f["title"], TID.get(f["id"])] for f in by_dir.get(i, []) if f["year"]]
+    return sorted(out, key=lambda x: (x[0], x[1]))
+def life(i):
+    ps = PEOPLE["directors"].get(i, {}).get("persons", [])
+    return [[p["name"], pyear(p.get("birthday")), pyear(p.get("deathday")), (p.get("place_of_birth") or "").split(",")[0].strip()] for p in ps] or None
 def director_out(i, d):
     fl = by_dir.get(d["id"], [])
     fx = F.get(d["id"], {})
     o = {"id": d["id"], "name": d["name"], "country": d["country"], "movements": d["movements"],
-         "films": [film_out(f) for f in fl[:KEY_FILMS]], "nfilms": len(fl), "span": span(d["id"]), "rank": ranks.get(d["id"]),
+         "films": key_films(d["id"]), "nfilms": len(filmography(d["id"]) or fl), "span": span(d["id"]), "rank": ranks.get(d["id"]),
          "sig": fx.get("signature", ""), "desc": fx.get("description", ""), "facts": [[f["text"], 1 if f["status"] == "verified" else 0] for f in fx.get("facts", [])], "lists": list_facts(d["id"]),
          "tags": d["techniques"], "dims": [d["scores"][k] for k in keys],
          "x": round(float(X[i, 0]), 1), "y": round(float(X[i, 1]), 1), "r": round(float(R[i]), 1),
          "out": out_deg[d["id"]], "era": era_of(d), "tier": tier(d["id"]), "near": near[d["id"]]}
     if d.get("born"): o["born"] = d["born"]
+    fg, lf = filmography(d["id"]), life(d["id"])
+    if fg: o["fg"] = fg
+    if lf: o["life"] = lf
     return o
 
 def evidence(e):
     return BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
 
 data = {
- "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "hasTmdb": bool(TMDB["films"]),
+ "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]),
  "counts": {"films": len(FILMS), "tspdt": sum(1 for f in FILMS if f["tspdt"]), "ss": sum(1 for f in FILMS if f["sight_and_sound"]), "hot": sum(1 for f in FILMS if f["house_of_tabula"]), "cannes": len(CANNES), "factsChecked": sum(1 for v in F.values() for f in v.get("facts", []) if f["status"] == "verified"), "facts": sum(len(v.get("facts", [])) for v in F.values()),
             "notes": sum(1 for e in I if e["note"]), "evidence": sum(1 for e in I if evidence(e))},
  "rankSource": {"name": TSPDT["source"], "edition": TSPDT["edition"], "url": TSPDT["url"]},

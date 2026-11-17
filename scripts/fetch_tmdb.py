@@ -1,13 +1,20 @@
-"""Fetch film descriptions, ratings and ids from TMDB into data/tmdb.json.
+"""Fetch film data and director filmographies from TMDB.
 
 Run this on your own machine (TMDB is not reachable from the build sandbox):
 
     Windows PowerShell:   $env:TMDB_API_KEY="your v3 key";  python scripts/fetch_tmdb.py
     macOS / Linux:        TMDB_API_KEY="your v3 key" python scripts/fetch_tmdb.py
 
-Then run `python build.py`. The key is read from the environment and never written to disk.
-The script can be stopped and restarted; it skips films it already has.
-Posters and portraits are deliberately not fetched.
+Step 1, films: finds every film in data/films.json on TMDB and keeps a match only when
+TMDB credits one of our directors for it. Writes data/tmdb.json.
+Step 2, people: finds each director's TMDB person record through the credits of their
+films, then stores birth and death dates and everything they directed. Writes
+data/people.json. A film match whose TMDB credits do not name our director is thrown
+out and searched again.
+
+Options: --films (step 1 only), --people (step 2 only), --refresh (redo every director).
+The key is read from the environment and never written to disk. The script can be
+stopped and restarted; it skips what it already has. No posters or portraits are fetched.
 """
 import json, os, sys, time, difflib, unicodedata, urllib.parse, urllib.request, urllib.error, http.cookiejar
 
@@ -16,8 +23,7 @@ HOSTS = ["https://api.themoviedb.org/3", "https://api.tmdb.org/3"]   # the secon
 API = HOSTS[0]
 OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 KEY, TOKEN = os.environ.get("TMDB_API_KEY"), os.environ.get("TMDB_TOKEN")
-if not (KEY or TOKEN):
-    sys.exit("Set TMDB_API_KEY (v3 key) or TMDB_TOKEN (v4 read access token) first.")
+ARGS = set(sys.argv[1:])
 
 class Failed(Exception): pass
 LAST = {"error": ""}
@@ -39,59 +45,151 @@ def get(path, tries=6, **params):
             time.sleep(1 + attempt)
     raise Failed(LAST["error"])
 
-def fold(s): return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if c.isalnum())
-def best(results, title, year):
+def fold(s): return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower()) if c.isalnum() and ord(c) < 128)
+def tokens(s):
+    t = "".join(c for c in unicodedata.normalize("NFD", (s or "").lower()) if ord(c) < 128)    # drops accents
+    return "".join(c if c.isalnum() else " " for c in t).split()
+def same_person(tmdb_name, names):
+    """True if a TMDB name is one of our names. Lenient on transliteration, strict enough to catch a wrong film."""
+    a = tokens(tmdb_name)
+    for n in names:
+        b = tokens(n)
+        if not a or not b: continue
+        if fold(tmdb_name) == fold(n) or difflib.SequenceMatcher(None, " ".join(a), " ".join(b)).ratio() >= 0.85: return True
+        if len(a[-1]) >= 3 and a[-1] == b[-1]: return True          # same family name: Oleksandr / Alexander Dovzhenko
+        if len(a) >= 2 and len(b) >= 2 and (set(a) <= set(b) or set(b) <= set(a)): return True
+    return False
+
+def save(path, obj): json.dump(obj, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+def load(name, default=None):
+    p = os.path.join(HERE, "data", name + ".json")
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
+
+films = load("films"); directors = load("directors")
+names = {d["id"]: d.get("members") or [d["name"]] for d in directors}
+tm_path, pp_path = os.path.join(HERE, "data", "tmdb.json"), os.path.join(HERE, "data", "people.json")
+TM = load("tmdb", {}) ; TM.setdefault("films", {}); TM.setdefault("rejected", {}); TM["not_found"] = []
+PP = load("people", {}) ; PP.setdefault("directors", {}); PP.setdefault("suspicious", {})
+
+def connect():
+    global API
+    errors = []
+    for host in HOSTS:
+        API = host
+        try:
+            test = get("/search/movie", tries=2, query="Citizen Kane", year=1941)
+            if test and test.get("results"):
+                print("Using", API, "- connection test passed"); return
+            errors.append(host + ": empty answer")
+        except Exception as e:
+            errors.append(host + ": " + str(e))
+    sys.exit("Cannot get a normal answer from TMDB, so nothing was changed.\n" + "\n".join(errors) + "\nSend these lines to Claude.")
+
+def candidates(results, title, year, skip):
     scored = []
     for r in results or []:
+        if r["id"] in skip: continue
         y = int(r["release_date"][:4]) if r.get("release_date") else None
-        sim = max(difflib.SequenceMatcher(None, fold(title), fold(r.get(k) or "")).ratio() for k in ("title", "original_title"))
         if year and y and abs(y - year) > 2: continue
+        sim = max(difflib.SequenceMatcher(None, fold(title), fold(r.get(k) or "")).ratio() for k in ("title", "original_title"))
         scored.append((sim + (0.15 if year and y == year else 0) + min(r.get("vote_count", 0), 500) / 5000, r))
-    return max(scored, key=lambda x: x[0])[1] if scored else None
+    return [r for s, r in sorted(scored, key=lambda x: -x[0]) if s >= 0.55]
 
-films = json.load(open(os.path.join(HERE, "data", "films.json"), encoding="utf-8"))
-out_path = os.path.join(HERE, "data", "tmdb.json")
-out = json.load(open(out_path, encoding="utf-8")) if os.path.exists(out_path) else {"films": {}, "not_found": []}
-out.setdefault("films", {}); out.setdefault("not_found", [])
-out["not_found"] = []
-todo = [f for f in films if f["id"] not in out["films"]]
-print(len(films), "films,", len(todo), "to fetch")
-test, errors = None, []
-for host in HOSTS:
-    API = host
-    try:
-        test = get("/search/movie", tries=2, query="Citizen Kane", year=1941)
-        if test and test.get("results"): break
-        errors.append(host + ": empty answer"); test = None
-    except Exception as e:
-        errors.append(host + ": " + str(e)); test = None
-if not test:
-    sys.exit("Cannot get a normal answer from TMDB, so nothing was changed.\n" + "\n".join(errors) + "\nSend these lines to Claude.")
-print("Using", API)
-print("Connection test passed: found", test["results"][0]["title"])
-failed = []
-for n, f in enumerate(todo, 1):
-    try:
-        hit = None
-        for params in ({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},):
-            res = get("/search/movie", query=f["title"], include_adult="false", **params)
-            hit = best(res.get("results") if res else None, f["title"], f["year"])
-            if hit: break
-        if not hit:
-            out["not_found"].append(f["id"])
-        else:
-            det = get("/movie/%d" % hit["id"]) or {}
-            out["films"][f["id"]] = {"tmdb_id": hit["id"], "imdb_id": det.get("imdb_id"), "matched_title": hit.get("title"), "release_date": hit.get("release_date"),
-                                     "overview": hit.get("overview") or "", "vote_average": hit.get("vote_average"), "vote_count": hit.get("vote_count")}
-    except Failed as e:
-        failed.append(f["id"])
-        if len(failed) == 1 or len(failed) % 25 == 0: print("  request failed for", f["title"], "-", e)
-        if len(failed) >= 60 and len(failed) > n * 0.5:
-            json.dump(out, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-            sys.exit("Too many failed requests, stopped. Last error: %s\nWhat was fetched is saved; run the script again later." % e)
-    if n % 40 == 0 or n == len(todo):
-        json.dump(out, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        print(f"{n}/{len(todo)} done, {len(out['films'])} matched, {len(out['not_found'])} not on TMDB, {len(failed)} failed (will retry next run)")
-    time.sleep(0.05)
-print("Saved", out_path, "- now run: python build.py")
-print("Check data/tmdb.json for wrong matches: compare matched_title and release_date with data/films.json.")
+def fetch_films():
+    todo = [f for f in films if f["id"] not in TM["films"]]
+    print("Films:", len(films), "in the data,", len(todo), "to look up")
+    failed = []
+    for n, f in enumerate(todo, 1):
+        ours = [x for d in f["directors"] for x in names.get(d, [])]
+        skip = set(TM["rejected"].get(f["id"], []))
+        try:
+            hit, seen = None, set()
+            for params in ({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},):
+                res = get("/search/movie", query=f["title"], include_adult="false", **params) or {}
+                for r in candidates(res.get("results"), f["title"], f["year"], skip | seen)[:3]:
+                    seen.add(r["id"])
+                    det = get("/movie/%d" % r["id"], append_to_response="credits") or {}
+                    crew = [c["name"] for c in (det.get("credits") or {}).get("crew", []) if c.get("job") == "Director"]
+                    if not ours or any(same_person(c, ours) for c in crew):
+                        hit = (r, det, crew); break
+                if hit: break
+            if not hit:
+                TM["not_found"].append(f["id"])
+            else:
+                r, det, crew = hit
+                TM["films"][f["id"]] = {"tmdb_id": r["id"], "imdb_id": det.get("imdb_id"), "matched_title": r.get("title"), "release_date": r.get("release_date"),
+                                        "overview": r.get("overview") or "", "vote_average": r.get("vote_average"), "vote_count": r.get("vote_count"),
+                                        "tmdb_directors": crew, "checked": True}
+        except Failed as e:
+            failed.append(f["id"])
+            if len(failed) == 1 or len(failed) % 25 == 0: print("  request failed for", f["title"], "-", e)
+            if len(failed) >= 60 and len(failed) > n * 0.5:
+                save(tm_path, TM); sys.exit("Too many failed requests, stopped. Last error: %s\nWhat was fetched is saved; run the script again later." % e)
+        if n % 40 == 0 or n == len(todo):
+            save(tm_path, TM)
+            print(f"  {n}/{len(todo)}: {len(TM['films'])} matched, {len(TM['not_found'])} not found, {len(failed)} failed (retried next run)")
+        time.sleep(0.03)
+    save(tm_path, TM)
+
+def trim(s, n=300):
+    s = (s or "").strip()
+    return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "..."
+
+def fetch_people():
+    by_dir = {}
+    for f in films:
+        for d in f["directors"]: by_dir.setdefault(d, []).append(f)
+    todo = [d for d in directors if "--refresh" in ARGS or d["id"] not in PP["directors"]]
+    print("People:", len(directors), "directors,", len(todo), "to look up")
+    rejected = 0
+    for n, d in enumerate(todo, 1):
+        ours = names[d["id"]]
+        lst = sorted(by_dir.get(d["id"], []), key=lambda f: (f.get("added") == "hand", not f.get("tspdt"), -(TM["films"].get(f["id"], {}).get("vote_count") or 0)))
+        found = {}
+        try:
+            for f in [f for f in lst if f["id"] in TM["films"]][:5]:
+                m = TM["films"][f["id"]]
+                cr = get("/movie/%d/credits" % m["tmdb_id"]) or {}
+                crew = [(c["id"], c["name"]) for c in cr.get("crew", []) if c.get("job") == "Director"]
+                hits = [(i, nm) for i, nm in crew if same_person(nm, ours)]
+                for i, nm in hits: found[i] = found.get(i, (nm, 0))[0], found.get(i, (nm, 0))[1] + 1
+                if crew and not hits:                        # TMDB says someone else made this film: the match is wrong
+                    PP["suspicious"][f["id"]] = {"title": f["title"], "year": f["year"], "matched": m.get("matched_title"), "tmdb_directors": [nm for _, nm in crew]}
+                    TM["rejected"].setdefault(f["id"], []).append(m["tmdb_id"]); TM["films"].pop(f["id"]); rejected += 1
+            how = "credits"
+            if not found:                                    # no usable film: search the name, directors only
+                how = "search"
+                for nm in ours:
+                    res = get("/search/person", query=nm) or {}
+                    ok = [p for p in res.get("results", []) if p.get("known_for_department") == "Directing" and same_person(p["name"], [nm])]
+                    if ok: p = max(ok, key=lambda p: p.get("popularity") or 0); found[p["id"]] = (p["name"], 0)
+            persons, filmo = [], {}
+            ranked = sorted(found.items(), key=lambda kv: -kv[1][1])
+            keep = ranked if len(ours) > 1 else ranked[:1]
+            for pid, (nm, k) in keep:
+                p = get("/person/%d" % pid, append_to_response="movie_credits") or {}
+                persons.append({"tmdb_id": pid, "name": p.get("name") or nm, "imdb_id": p.get("imdb_id"), "birthday": p.get("birthday"), "deathday": p.get("deathday"),
+                                "place_of_birth": p.get("place_of_birth"), "films_matched": k})
+                for c in (p.get("movie_credits") or {}).get("crew", []):
+                    if c.get("job") != "Director" or c["id"] in filmo: continue
+                    vc = c.get("vote_count") or 0
+                    filmo[c["id"]] = {"tmdb_id": c["id"], "title": c.get("title"), "original_title": c.get("original_title"), "release_date": c.get("release_date") or None,
+                                      "vote_average": c.get("vote_average"), "vote_count": vc, "overview": trim(c.get("overview")) if vc >= 20 else ""}
+            PP["directors"][d["id"]] = {"how": how if persons else "not found", "persons": persons,
+                                        "films": sorted(filmo.values(), key=lambda x: x["release_date"] or "9999")}
+        except Failed as e:
+            print("  request failed for", d["name"], "-", e)
+        if n % 20 == 0 or n == len(todo):
+            save(pp_path, PP); save(tm_path, TM)
+            nf = sum(1 for v in PP["directors"].values() if v["how"] == "not found")
+            print(f"  {n}/{len(todo)} directors done, {nf} not found, {rejected} wrong film matches thrown out")
+        time.sleep(0.03)
+    save(pp_path, PP); save(tm_path, TM)
+    return rejected
+
+if not (KEY or TOKEN): sys.exit("Set TMDB_API_KEY (v3 key) or TMDB_TOKEN (v4 read access token) first.")
+connect()
+if "--people" not in ARGS: fetch_films()
+if "--films" not in ARGS:
+    if fetch_people(): print("Searching again for the films whose match was wrong:"); fetch_films()
+print("Done. Saved data/tmdb.json and data/people.json. Now run: python build.py")

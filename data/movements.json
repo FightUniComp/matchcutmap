@@ -383,5 +383,33 @@
   "period": "1970s to 1980s",
   "description": "A state-supported revival that produced both atmospheric art films and genre hits.",
   "cluster": true
+ },
+ "mumblecore": {
+  "name": "Mumblecore",
+  "kind": "movement",
+  "period": "2002 to early 2010s",
+  "description": "Micro-budget American films about young adults' relationships, improvised with friends as actors and shot on cheap digital or 16mm.",
+  "cluster": true
+ },
+ "new-french-extremity": {
+  "name": "New French Extremity",
+  "kind": "movement",
+  "period": "late 1990s to 2010s",
+  "description": "The critic James Quandt's term for French films that confront audiences with explicit sex and violence.",
+  "cluster": true
+ },
+ "berlin-school": {
+  "name": "Berlin School",
+  "kind": "movement",
+  "period": "1990s onward",
+  "description": "German directors, several trained at the Berlin film academy, who make cool, observational films about everyday life and drift.",
+  "cluster": true
+ },
+ "new-argentine-cinema": {
+  "name": "New Argentine Cinema",
+  "kind": "movement",
+  "period": "late 1990s onward",
+  "description": "Low-budget Argentine films that broke with the national industry through location shooting, non-actors and elliptical storytelling.",
+  "cluster": true
  }
 }

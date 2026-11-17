@@ -105,6 +105,9 @@ aside ul.films{gap:8px}
 .film .bd{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
 .film .b{font-size:11.5px;border-radius:4px;padding:1px 6px;border:1px solid var(--line);color:var(--muted);font-variant-numeric:tabular-nums}
 .film .b.ts{color:var(--accent);border-color:var(--accent)}
+.fg{margin:10px 0 4px}.fg summary{cursor:pointer;color:var(--muted);font-size:13px}.fg summary small{opacity:.8}
+.fg ol{list-style:none;padding:0;margin:8px 0 0;columns:2;column-gap:18px;font-size:13px;line-height:1.5}
+.fg li{break-inside:avoid}.fg .fy{display:inline-block;width:38px;color:var(--muted)}.fg a{color:var(--ink);text-decoration:none}.fg a:hover{color:var(--accent);text-decoration:underline}
 .film .b.ca{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:600}
 .film .b.ss{color:var(--in);border-color:var(--in)}
 .film .ov{margin:7px 0 0;font-size:13px;color:var(--ink);opacity:.85}
@@ -169,7 +172,7 @@ aside ul.films{gap:8px}
     <div class="legend">
       <b>Closer together: more similar style.</b>
       <ul id="eras"></ul>
-      <span>Colour: when their listed films were made. Shaded areas: movements. Bigger circle: influenced more directors here. Arrows run from influence to influenced.</span>
+      <span>Colour: the median year of their films. Shaded areas: movements. Bigger circle: influenced more directors here. Arrows run from influence to influenced.</span>
     </div>
     <div class="zoom">
       <button class="btn" id="zin" type="button" aria-label="Zoom in">+</button>
@@ -319,7 +322,7 @@ function panel(){
     const top = DATA.directors.slice().sort((a, b) => b.out - a.out).slice(0, 8);
     const acclaimed = DATA.directors.filter(d => d.rank).sort((a, b) => a.rank - b.rank).slice(0, 10);
     const c = DATA.counts, S = DATA.sources;
-    p.innerHTML = '<h2>How to read this map</h2><p class="desc">' + DATA.directors.length + ' directors are placed so that similar styles sit close together. Pick one to see their films, techniques, nearest neighbours and lines of influence. Another ' + DATA.directory.length + ' directors from the film lists can be found through search.</p>' +
+    p.innerHTML = '<h2>How to read this map</h2><p class="desc">' + DATA.directors.length + ' directors are placed so that similar styles sit close together. Pick one to see their films, techniques, nearest neighbours and lines of influence.' + (DATA.directory.length ? ' Another ' + DATA.directory.length + ' directors from the film lists can be found through search.' : '') + '</p>' +
       '<h3>What the data rests on</h3><ul class="src">' +
       '<li><b><a href="' + S.tspdt.url + '">' + esc(S.tspdt.name) + '</a></b> <span>' + esc(S.tspdt.detail) + '. ' + c.tspdt + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.sight_and_sound.url + '">' + esc(S.sight_and_sound.name) + '</a></b> <span>' + esc(S.sight_and_sound.detail) + '. ' + c.ss + ' films ranked.</span></li>' +
@@ -327,7 +330,7 @@ function panel(){
       '<li><b>' + esc(S.house_of_tabula.name) + '</b> <span>' + esc(S.house_of_tabula.detail) + '. ' + c.hot + ' of its films are matched here.</span></li>' +
       '<li><b>' + esc(S.ohwc.name) + '</b> <span>' + esc(S.ohwc.detail) + '. ' + c.evidence + ' of the ' + DATA.influence.length + ' influence links point to a page where it names both directors together.</span></li>' +
       '<li><b><a href="' + S.senses_of_cinema.url + '">' + esc(S.senses_of_cinema.name) + '</a></b> <span>' + esc(S.senses_of_cinema.detail) + ', linked from each director for further reading.</span></li>' +
-      (DATA.hasTmdb ? '<li><b><a href="' + S.tmdb.url + '">TMDB</a></b> <span>Film descriptions and ratings. This product uses the TMDB API but is not endorsed or certified by TMDB.</span></li>' : '') + '</ul>' +
+      (DATA.hasTmdb ? '<li><b><a href="' + S.tmdb.url + '">TMDB</a></b> <span>Film descriptions, ratings' + (DATA.hasPeople ? ', filmographies and birth dates' : '') + '. This product uses the TMDB API but is not endorsed or certified by TMDB.</span></li>' : '') + '</ul>' +
       '<h3>Most influential on this map</h3><ul>' + top.map(d => person(d.id, "Influenced " + d.out + " directors here")).join("") + '</ul>' +
       '<h3>Most acclaimed (TSPDT ' + esc(DATA.rankSource.edition) + ')</h3><ul>' + acclaimed.map(d => person(d.id, "#" + d.rank + " of 250")).join("") + '</ul>' + draft();
     bind(p); return;
@@ -337,13 +340,17 @@ function panel(){
   const chips = d.tags.map(t => '<button class="chip' + (t === state.tech ? " on" : "") + '" type="button" data-tech="' + t + '" title="' + esc(T[t].def) + '">' + esc(T[t].name) + '</button>').join("");
   const near = d.near.map(n => person(n.id, (n.mov.length ? "Same movement: " + n.mov.map(m => MV[m].name).join(", ") + ". " : "") + (n.shared.length ? "Shares: " + n.shared.map(t => T[t].name.toLowerCase()).join(", ") : (n.mov.length ? "" : "Similar overall profile, no shared technique tags")))).join("");
   const inn = DATA.influence.filter(l => l.t === d.id), out = DATA.influence.filter(l => l.s === d.id);
-  const meta = [d.country, d.born ? "born " + d.born : "", d.span ? (d.span[0] === d.span[1] ? "listed film " + d.span[0] : "listed films " + d.span[0] + " to " + d.span[1]) : ""].filter(Boolean).map(esc).join(" &middot; ");
+  const lifeTxt = !d.life ? (d.born ? "born " + d.born : "") : d.life.length === 1
+    ? (d.life[0][1] ? (d.life[0][2] ? d.life[0][1] + " to " + d.life[0][2] : "born " + d.life[0][1]) + (d.life[0][3] ? ", " + d.life[0][3] : "") : "")
+    : d.life.filter(p => p[1]).map(p => p[0] + " (" + p[1] + (p[2] ? " to " + p[2] : "") + ")").join(", ");
+  const meta = [d.country, lifeTxt, d.span ? (d.span[0] === d.span[1] ? "films " + d.span[0] : "films " + d.span[0] + " to " + d.span[1]) : ""].filter(Boolean).map(esc).join(" &middot; ");
   p.innerHTML = '<h2>' + esc(d.name) + '</h2><p class="meta">' + meta + '</p>' +
     '<p class="rank">' + (d.rank ? '<b>#' + d.rank + '</b> of 250 most acclaimed directors' : 'Outside the top 250 most acclaimed directors') + ' <a href="' + esc(DATA.rankSource.url) + '">TSPDT ' + esc(DATA.rankSource.edition) + '</a></p>' +
     (d.sig ? '<p class="sig">' + esc(d.sig) + '</p>' : '') + (d.desc ? '<p class="desc">' + esc(d.desc) + '</p>' : '') +
     (d.movements.length ? '<h3>Movements</h3><div class="chips">' + d.movements.map(m => '<button class="chip" type="button" data-mov="' + m + '" title="' + esc(MV[m].desc) + '">' + esc(MV[m].name) + '</button>').join("") + '</div>' : '') +
     (d.lists.length ? '<h3>On the lists <small class="ok">from the sources</small></h3><ul class="facts ok">' + d.lists.map(f => '<li>' + esc(f) + '</li>').join("") + '</ul>' : '') +
     (d.films.length ? '<h3>Key films' + (d.nfilms > d.films.length ? ' <small>' + d.films.length + ' of ' + d.nfilms + '</small>' : '') + '</h3><ul class="films">' + d.films.map(filmItem).join("") + '</ul>' : '') +
+    (d.fg ? '<details class="fg"><summary>Filmography <small>' + d.fg.length + ' films directed, from TMDB</small></summary><ol>' + d.fg.map(x => '<li><span class="fy">' + x[0] + '</span>' + (x[2] ? '<a href="https://letterboxd.com/tmdb/' + x[2] + '/">' + esc(x[1]) + '</a>' : esc(x[1])) + '</li>').join("") + '</ol></details>' : '') +
     (d.facts.length ? '<h3>Worth knowing <small' + (d.facts.every(f => f[1]) ? ' class="ok">checked' : '>' + (d.facts.some(f => f[1]) ? d.facts.filter(f => f[1]).length + ' of ' + d.facts.length + ' checked' : 'draft')) + '</small></h3><ul class="facts">' + d.facts.map(f => '<li' + (f[1] ? ' class="ok" title="Checked against a source"' : '') + '>' + esc(f[0]) + '</li>').join("") + '</ul>' : '') +
     '<h3>Techniques <small>draft</small></h3><div class="chips">' + chips + '</div>' +
     '<h3>Style profile <small>draft</small></h3>' + bars +

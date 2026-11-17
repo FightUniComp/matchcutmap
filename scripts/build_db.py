@@ -23,6 +23,7 @@ T, MV, DIMS, I, SRC = load("techniques"), load("movements"), load("dimensions"),
 TSPDT, CANNES = load("tspdt")["ranks"], load("cannes")
 BOOK = load("book", optional=True) or {"pages": {}, "pairs": {}}
 TMDB = (load("tmdb", optional=True) or {"films": {}})["films"]
+PEOPLE = (load("people", optional=True) or {"directors": {}})["directors"]   # TMDB person records and filmographies
 keys = [m["key"] for m in DIMS]
 
 out_dir = os.path.join(HERE, "database")
@@ -36,7 +37,11 @@ CREATE TABLE directors (id TEXT PRIMARY KEY, name TEXT NOT NULL, country TEXT, b
   signature TEXT, description TEXT, text_status TEXT, {", ".join("score_" + k + " INTEGER" for k in keys)}, scores_status TEXT, book_pages INTEGER);
 CREATE TABLE films (id TEXT PRIMARY KEY, title TEXT NOT NULL, year INTEGER, country TEXT, runtime INTEGER, colour TEXT, genre TEXT,
   tspdt_rank INTEGER, sight_and_sound_rank INTEGER, sight_and_sound_votes INTEGER, house_of_tabula_position INTEGER,
-  tmdb_id INTEGER, imdb_id TEXT, tmdb_rating REAL, tmdb_votes INTEGER, overview TEXT);
+  tmdb_id INTEGER, imdb_id TEXT, tmdb_rating REAL, tmdb_votes INTEGER, overview TEXT, added_by_hand INTEGER);
+CREATE TABLE director_people (director_id TEXT REFERENCES directors(id), name TEXT, tmdb_person_id INTEGER, imdb_person_id TEXT,
+  birth_date TEXT, death_date TEXT, place_of_birth TEXT, found_by TEXT, source_id TEXT);
+CREATE TABLE filmography (director_id TEXT REFERENCES directors(id), tmdb_film_id INTEGER, title TEXT, original_title TEXT, release_date TEXT,
+  tmdb_rating REAL, tmdb_votes INTEGER, source_id TEXT);
 CREATE TABLE film_directors (film_id TEXT REFERENCES films(id), director_id TEXT REFERENCES directors(id), PRIMARY KEY (film_id, director_id));
 CREATE TABLE awards (film_id TEXT REFERENCES films(id), festival TEXT, award TEXT, year INTEGER, source_id TEXT REFERENCES sources(id), status TEXT);
 CREATE TABLE movements (id TEXT PRIMARY KEY, name TEXT, kind TEXT, period TEXT, description TEXT, has_map_area INTEGER);
@@ -75,11 +80,21 @@ db.execute("INSERT INTO directors (id, name, profiled) VALUES ('x:directorsvario
 known = {r[0] for r in db.execute("SELECT id FROM directors")}
 for f in FILMS:
     tm = TMDB.get(f["id"], {})
-    db.execute("INSERT INTO films VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (f["id"], f["title"], f["year"], f["country"], f["runtime"], f["colour"], f["genre"], f["tspdt"],
-               f["sight_and_sound"], f["sight_and_sound_votes"], f["house_of_tabula"], tm.get("tmdb_id"), tm.get("imdb_id"), tm.get("vote_average"), tm.get("vote_count"), tm.get("overview")))
+    db.execute("INSERT INTO films VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (f["id"], f["title"], f["year"], f["country"], f["runtime"], f["colour"], f["genre"], f["tspdt"],
+               f["sight_and_sound"], f["sight_and_sound_votes"], f["house_of_tabula"], tm.get("tmdb_id"), tm.get("imdb_id"), tm.get("vote_average"), tm.get("vote_count"), tm.get("overview"),
+               1 if f.get("added") == "hand" else 0))
     for i in f["directors"]:
         assert i in known, (f["id"], i)
         db.execute("INSERT OR IGNORE INTO film_directors VALUES (?,?)", (f["id"], i))
+for did, v in PEOPLE.items():
+    if did not in known: continue
+    for p in v.get("persons", []):
+        db.execute("INSERT INTO director_people VALUES (?,?,?,?,?,?,?,?,?)", (did, p["name"], p["tmdb_id"], p.get("imdb_id"), p.get("birthday"), p.get("deathday"), p.get("place_of_birth"), v.get("how"), "tmdb"))
+    for x in v.get("films", []):
+        db.execute("INSERT INTO filmography VALUES (?,?,?,?,?,?,?,?)", (did, x["tmdb_id"], x["title"], x.get("original_title"), x.get("release_date"), x.get("vote_average"), x.get("vote_count"), "tmdb"))
+    ps = v.get("persons", [])
+    if len(ps) == 1 and (ps[0].get("birthday") or "")[:4].isdigit():
+        db.execute("UPDATE directors SET born = ? WHERE id = ?", (int(ps[0]["birthday"][:4]), did))
 for c in CANNES: db.execute("INSERT INTO awards VALUES (?,?,?,?,?,?)", (c["film"], "Cannes Film Festival", c["award"], c["year"], "cannes", "verified"))
 db.executemany("INSERT INTO movements VALUES (?,?,?,?,?,?)", [(k, v["name"], v["kind"], v["period"], v["description"], int(v["cluster"])) for k, v in MV.items()])
 db.executemany("INSERT INTO techniques VALUES (?,?,?,?)", [(k, v["name"], v["category"], v["definition"]) for k, v in T.items()])

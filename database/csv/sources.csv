@@ -4,6 +4,6 @@ sight_and_sound,Sight and Sound,"Greatest Films of All Time critics' poll, 2022"
 house_of_tabula,The House of Tabula,"The Ultimate Film Studies Watchlist, an IMDb list of 148 films for the YouTube series Foundations of Film",,marks films on the watchlist
 ohwc,The Oxford History of World Cinema,"edited by Geoffrey Nowell-Smith, Oxford University Press, 1996",,page references for directors and for connections between them
 senses_of_cinema,Senses of Cinema,Great Directors profiles,https://www.sensesofcinema.com/category/great-directors/,further reading
-tmdb,TMDB,"film descriptions, ratings, posters and portraits, once scripts/fetch_tmdb.py has been run",https://www.themoviedb.org,film widget
+tmdb,TMDB,"film descriptions, ratings, filmographies and birth dates, fetched with scripts/fetch_tmdb.py",https://www.themoviedb.org,"film widget, filmographies, birth and death years"
 draft,Draft,written from general film knowledge and not yet checked against a source,,"techniques, style scores, descriptions, facts, most influence links"
 cannes,Festival de Cannes,"winners of the Grand Prix du Festival and the Palme d'Or, 1939 to 2026, from Wikipedia's Palme d'Or list and 2025 and 2026 news reports",https://www.festival-cannes.com,award records; checks every fact that mentions the Palme d'Or

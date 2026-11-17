@@ -31,9 +31,9 @@
  },
  "tmdb": {
   "name": "TMDB",
-  "detail": "film descriptions, ratings, posters and portraits, once scripts/fetch_tmdb.py has been run",
+  "detail": "film descriptions, ratings, filmographies and birth dates, fetched with scripts/fetch_tmdb.py",
   "url": "https://www.themoviedb.org",
-  "used_for": "film widget"
+  "used_for": "film widget, filmographies, birth and death years"
  },
  "draft": {
   "name": "Draft",

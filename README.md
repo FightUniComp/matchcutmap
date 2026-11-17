@@ -13,6 +13,7 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | Film ranks: TSPDT 1,000 Greatest Films (2026), Sight and Sound critics' poll (2022) | From the source |
 | House of Tabula film studies watchlist membership | From the source |
 | Cannes top prize (Grand Prix du Festival, Palme d'Or), all 103 winners 1939 to 2026 | From the source; every fact that mentions the Palme d'Or was checked against it |
+| Film descriptions, ratings, filmographies, birth and death dates (TMDB) | From the source; a film match is kept only when TMDB credits our director for it |
 | Page references to The Oxford History of World Cinema | Found by text search in an OCR of the book; page numbers are scan pages, not printed page numbers |
 | Descriptions, facts, techniques, style scores, movements, most influence links | Draft, written from general film knowledge, not yet checked |
 
@@ -23,15 +24,17 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `data/directors.json` | Profiled directors: country, movements (first clustered one decides the map area), techniques, eight style scores from 1 to 10 |
 | `data/facts.json` | Per director: one-line signature, longer description, facts. Each fact has a `status` (`verified` or `draft`) and a `source` |
 | `data/cannes.json` | Winners of the top prize at Cannes |
-| `data/films.json` | Every film from the lists, with director ids, year and ranks. Ids starting `x:` are directors without a profile |
-| `data/directory.json` | Directors who appear on the lists but have no profile yet (searchable, not on the map) |
+| `data/films.json` | Every film from the lists, with director ids, year and ranks, plus a few films per director added by hand (`"added": "hand"`) for directors who are on no list |
+| `data/directory.json` | Directors without a profile yet (searchable, not on the map); currently empty |
 | `data/influence.json` | Directed influence links with an optional note |
 | `data/techniques.json`, `data/movements.json`, `data/dimensions.json` | The closed vocabularies |
 | `data/tspdt.json` | Rank of each director in the TSPDT top 250 |
 | `data/book.json` | Scan pages of the Oxford History where each director is named, and pages where both ends of an influence link are named together |
 | `data/sources.json` | The sources and what each is used for |
-| `data/tmdb.json` | Created by `scripts/fetch_tmdb.py`: film descriptions, ratings, TMDB and IMDb ids |
+| `data/tmdb.json` | Created by `scripts/fetch_tmdb.py`: per film the TMDB match, description, rating, ids. `rejected` lists TMDB ids that proved to be the wrong film |
+| `data/people.json` | Created by `scripts/fetch_tmdb.py`: per director the TMDB person record (birth, death, place of birth) and everything they directed |
 | `scripts/fetch_tmdb.py` | Fetches TMDB data. Needs your API key in the environment |
+| `scripts/check_imdb.py` | Checks our films against your own copy of the IMDb datasets and writes a local report. IMDb data itself is never stored in this repo |
 | `template.html` | The page: markup, styles and script |
 | `build.py` | Reads `data/`, computes similarity and layout, writes `site/index.html` |
 | `site/index.html`, `docs/index.html` | The built page, written twice. GitHub Pages serves `docs/`; `docs/CNAME` holds the domain |
@@ -49,7 +52,8 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 
 Writes `database/auteur-atlas.sqlite`. Open it with DB Browser for SQLite (https://sqlitebrowser.org).
 Tables: directors, films, film_directors, awards, movements, director_movements, techniques,
-director_techniques, style_scales, influences, facts, book_mentions, sources.
+director_techniques, style_scales, influences, facts, book_mentions, sources, and once TMDB has
+been fetched, director_people and filmography.
 The view `to_verify` lists every claim still marked draft. The JSON files stay the source of
 truth: edit those and rebuild.
 
@@ -57,8 +61,19 @@ truth: edit those and rebuild.
 
     PowerShell:  $env:TMDB_API_KEY="your key"; python scripts/fetch_tmdb.py; python build.py
 
-The film cards then show a description and rating and link straight to the film's
-Letterboxd and IMDb pages. Without it they link to a search on those sites.
+Step 1 matches every film and keeps a match only if TMDB credits one of our directors.
+Step 2 finds each director's TMDB person record through those films and stores their
+birth and death dates and filmography. The page then shows full filmographies, ranks the
+key films by list rank and then by TMDB audience, and links straight to Letterboxd and IMDb.
+
+## Check against IMDb (optional, local only)
+
+    python scripts/check_imdb.py PATH/title.basics.tsv PATH/title.crew.tsv
+
+Uses your own download of https://datasets.imdbws.com to flag wrong TMDB matches, years that
+are far off and director credits that do not fit. IMDb's licence allows personal,
+non-commercial use only and forbids republishing its data, so the report stays on your
+machine and nothing from these files goes into the site or the repo.
 TMDB requires the notice "This product uses the TMDB API but is not endorsed or
 certified by TMDB", which the page shows once the data is present.
 
