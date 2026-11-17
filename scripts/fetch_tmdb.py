@@ -12,7 +12,8 @@ films, then stores birth and death dates and everything they directed. Writes
 data/people.json. A film match whose TMDB credits do not name our director is thrown
 out and searched again.
 
-Options: --films (step 1 only), --people (step 2 only), --refresh (redo every director).
+Options: --films (step 1 only), --people (step 2 only), --refresh (redo every director),
+--only=id1,id2 (redo just these directors).
 The key is read from the environment and never written to disk. The script can be
 stopped and restarted; it skips what it already has. No posters or portraits are fetched.
 """
@@ -66,7 +67,7 @@ def load(name, default=None):
     return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
 
 films = load("films"); directors = load("directors")
-names = {d["id"]: d.get("members") or [d["name"]] for d in directors}
+names = {d["id"]: (d.get("members") or [d["name"]]) + d.get("aka", []) for d in directors}   # aka: other names TMDB may use
 tm_path, pp_path = os.path.join(HERE, "data", "tmdb.json"), os.path.join(HERE, "data", "people.json")
 TM = load("tmdb", {}) ; TM.setdefault("films", {}); TM.setdefault("rejected", {}); TM["not_found"] = []
 PP = load("people", {}) ; PP.setdefault("directors", {}); PP.setdefault("suspicious", {})
@@ -139,7 +140,8 @@ def fetch_people():
     by_dir = {}
     for f in films:
         for d in f["directors"]: by_dir.setdefault(d, []).append(f)
-    todo = [d for d in directors if "--refresh" in ARGS or d["id"] not in PP["directors"]]
+    only = next((a.split("=", 1)[1].split(",") for a in ARGS if a.startswith("--only=")), None)
+    todo = [d for d in directors if ((d["id"] in only) if only else ("--refresh" in ARGS or d["id"] not in PP["directors"]))]
     print("People:", len(directors), "directors,", len(todo), "to look up")
     rejected = 0
     for n, d in enumerate(todo, 1):
@@ -153,7 +155,8 @@ def fetch_people():
                 crew = [(c["id"], c["name"]) for c in cr.get("crew", []) if c.get("job") == "Director"]
                 hits = [(i, nm) for i, nm in crew if same_person(nm, ours)]
                 for i, nm in hits: found[i] = found.get(i, (nm, 0))[0], found.get(i, (nm, 0))[1] + 1
-                if crew and not hits:                        # TMDB says someone else made this film: the match is wrong
+                credited = [x for c in f["directors"] for x in names.get(c, [])]    # all our directors of this film, co-directors included
+                if crew and not hits and not any(same_person(nm, credited) for _, nm in crew):   # TMDB says someone else made it: wrong match
                     PP["suspicious"][f["id"]] = {"title": f["title"], "year": f["year"], "matched": m.get("matched_title"), "tmdb_directors": [nm for _, nm in crew]}
                     TM["rejected"].setdefault(f["id"], []).append(m["tmdb_id"]); TM["films"].pop(f["id"]); rejected += 1
             how = "credits"
@@ -161,8 +164,9 @@ def fetch_people():
                 how = "search"
                 for nm in ours:
                     res = get("/search/person", query=nm) or {}
-                    ok = [p for p in res.get("results", []) if p.get("known_for_department") == "Directing" and same_person(p["name"], [nm])]
-                    if ok: p = max(ok, key=lambda p: p.get("popularity") or 0); found[p["id"]] = (p["name"], 0)
+                    ok = [p for p in res.get("results", []) if same_person(p["name"], [nm])]
+                    ok.sort(key=lambda p: (p.get("known_for_department") != "Directing", fold(p["name"]) != fold(nm), -(p.get("popularity") or 0)))
+                    if ok: found[ok[0]["id"]] = (ok[0]["name"], 0)
             persons, filmo = [], {}
             ranked = sorted(found.items(), key=lambda kv: -kv[1][1])
             keep = ranked if len(ours) > 1 else ranked[:1]

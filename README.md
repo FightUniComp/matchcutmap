@@ -31,8 +31,8 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `data/tspdt.json` | Rank of each director in the TSPDT top 250 |
 | `data/book.json` | Scan pages of the Oxford History where each director is named, and pages where both ends of an influence link are named together |
 | `data/sources.json` | The sources and what each is used for |
-| `data/tmdb.json` | Created by `scripts/fetch_tmdb.py`: per film the TMDB match, description, rating, ids. `rejected` lists TMDB ids that proved to be the wrong film |
-| `data/people.json` | Created by `scripts/fetch_tmdb.py`: per director the TMDB person record (birth, death, place of birth) and everything they directed |
+| `data/tmdb.json` | Created by `scripts/fetch_tmdb.py`: per film the TMDB match, description, rating, ids. `rejected` lists TMDB ids that proved to be the wrong film. Not committed |
+| `data/people.json` | Created by `scripts/fetch_tmdb.py`: per director the TMDB person record (birth, death, place of birth) and everything they directed. Not committed |
 | `scripts/fetch_tmdb.py` | Fetches TMDB data. Needs your API key in the environment |
 | `scripts/check_imdb.py` | Checks our films against your own copy of the IMDb datasets and writes a local report. IMDb data itself is never stored in this repo |
 | `template.html` | The page: markup, styles and script |
@@ -51,6 +51,11 @@ areas are movements, circle size is influence, arrows show who influenced whom.
     python scripts/build_db.py
 
 Writes `database/auteur-atlas.sqlite`. Open it with DB Browser for SQLite (https://sqlitebrowser.org).
+This public build holds our own data plus TMDB and IMDb ids for linking. TMDB's terms allow
+showing its data with attribution but not redistributing it, so `python scripts/build_db.py
+--with-tmdb` writes a fuller local copy, `database/auteur-atlas-full.sqlite`, with TMDB
+descriptions, ratings, birth dates and filmographies. That file and the TMDB JSON files are
+not committed; the built page shows the TMDB data with the required attribution.
 Tables: directors, films, film_directors, awards, movements, director_movements, techniques,
 director_techniques, style_scales, influences, facts, book_mentions, sources, and once TMDB has
 been fetched, director_people and filmography.

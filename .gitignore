@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 imdb_report.json
 imdb_check/
+data/tmdb.json
+data/people.json
+database/auteur-atlas-full.sqlite
+database/csv-full/

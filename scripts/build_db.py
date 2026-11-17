@@ -10,7 +10,12 @@ Every claim that could be wrong carries a status:
   verified  checked against the source named in source_id
   draft     written from general film knowledge, not yet checked
 """
-import csv, json, os, sqlite3
+import csv, json, os, sqlite3, sys
+# Public build (the default, committed to the repo): our own data plus TMDB and IMDb ids for linking.
+# TMDB's terms allow showing its data with attribution but not redistributing it, so descriptions,
+# ratings, birth dates and filmographies from TMDB go only into the local build:
+#     python scripts/build_db.py --with-tmdb   ->  database/auteur-atlas-full.sqlite (not committed)
+FULL = "--with-tmdb" in sys.argv
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def load(name, optional=False):
@@ -23,12 +28,13 @@ T, MV, DIMS, I, SRC = load("techniques"), load("movements"), load("dimensions"),
 TSPDT, CANNES = load("tspdt")["ranks"], load("cannes")
 BOOK = load("book", optional=True) or {"pages": {}, "pairs": {}}
 TMDB = (load("tmdb", optional=True) or {"films": {}})["films"]
-PEOPLE = (load("people", optional=True) or {"directors": {}})["directors"]   # TMDB person records and filmographies
+PEOPLE = (load("people", optional=True) or {"directors": {}})["directors"] if FULL else {}   # TMDB person records and filmographies
 keys = [m["key"] for m in DIMS]
 
 out_dir = os.path.join(HERE, "database")
-os.makedirs(os.path.join(out_dir, "csv"), exist_ok=True)
-db_path = os.path.join(out_dir, "auteur-atlas.sqlite")
+csv_dir = os.path.join(out_dir, "csv-full" if FULL else "csv")
+os.makedirs(csv_dir, exist_ok=True)
+db_path = os.path.join(out_dir, "auteur-atlas-full.sqlite" if FULL else "auteur-atlas.sqlite")
 if os.path.exists(db_path): os.remove(db_path)
 db = sqlite3.connect(db_path)
 db.executescript(f"""
@@ -80,6 +86,7 @@ db.execute("INSERT INTO directors (id, name, profiled) VALUES ('x:directorsvario
 known = {r[0] for r in db.execute("SELECT id FROM directors")}
 for f in FILMS:
     tm = TMDB.get(f["id"], {})
+    if not FULL: tm = {"tmdb_id": tm.get("tmdb_id"), "imdb_id": tm.get("imdb_id")}   # ids only in the public build
     db.execute("INSERT INTO films VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (f["id"], f["title"], f["year"], f["country"], f["runtime"], f["colour"], f["genre"], f["tspdt"],
                f["sight_and_sound"], f["sight_and_sound_votes"], f["house_of_tabula"], tm.get("tmdb_id"), tm.get("imdb_id"), tm.get("vote_average"), tm.get("vote_count"), tm.get("overview"),
                1 if f.get("added") == "hand" else 0))
@@ -109,7 +116,7 @@ counts = {}
 for (name,) in db.execute("SELECT name FROM sqlite_master WHERE type IN ('table','view') ORDER BY name").fetchall():
     cur = db.execute(f"SELECT * FROM {name}")
     rows = cur.fetchall(); counts[name] = len(rows)
-    with open(os.path.join(out_dir, "csv", name + ".csv"), "w", newline="", encoding="utf-8-sig") as fh:
+    with open(os.path.join(csv_dir, name + ".csv"), "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh); w.writerow([c[0] for c in cur.description]); w.writerows(rows)
 db.close()
 print("wrote", db_path, os.path.getsize(db_path) // 1024, "KB")
