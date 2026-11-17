@@ -70,5 +70,11 @@
   "detail": "Top 10 of the year, 1951 to 2025, and the best of the 1990s, 2000s and 2010s, as collected on Wikipedia",
   "url": "https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists",
   "used_for": "Cahiers top 10 badges and lists"
+ },
+ "tabula_iceberg": {
+  "name": "The House of Tabula",
+  "detail": "Cinematic complexity iceberg: 68 films in eight tiers",
+  "url": "https://www.youtube.com/@TheHouseofTabula",
+  "used_for": "Iceberg list and badges, as copied into an IMDb user list from the channel's video"
  }
 }

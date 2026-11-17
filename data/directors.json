@@ -22297,5 +22297,304 @@
    "dialogue": 5,
    "scale": 5
   }
+ },
+ {
+  "id": "wojciechhas",
+  "name": "Wojciech Has",
+  "country": "Poland",
+  "born": null,
+  "movements": [
+   "polish-film-school"
+  ],
+  "techniques": [
+   "dream-logic",
+   "nonlinear",
+   "period-detail",
+   "studio-artifice"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 3,
+   "camera": 6,
+   "narrative": 8,
+   "performance": 5,
+   "tone": 3,
+   "dialogue": 5,
+   "scale": 6
+  }
+ },
+ {
+  "id": "shanecarruth",
+  "name": "Shane Carruth",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "american-independent"
+  ],
+  "techniques": [
+   "nonlinear",
+   "elliptical",
+   "sound-design",
+   "ambiguity"
+  ],
+  "scores": {
+   "formalism": 6,
+   "pace": 6,
+   "camera": 4,
+   "narrative": 9,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 6,
+   "scale": 2
+  }
+ },
+ {
+  "id": "martinrosen",
+  "name": "Martin Rosen",
+  "country": "USA/UK",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "landscape"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 4,
+   "camera": 3,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 2,
+   "dialogue": 5,
+   "scale": 4
+  }
+ },
+ {
+  "id": "geraldkargl",
+  "name": "Gerald Kargl",
+  "country": "Austria",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "voiceover",
+   "tracking-shot",
+   "provocation",
+   "handheld"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 5,
+   "camera": 8,
+   "narrative": 2,
+   "performance": 6,
+   "tone": 1,
+   "dialogue": 4,
+   "scale": 2
+  }
+ },
+ {
+  "id": "shujiterayama",
+  "name": "Shūji Terayama",
+  "country": "Japan",
+  "born": null,
+  "movements": [
+   "japanese-new-wave"
+  ],
+  "techniques": [
+   "collage",
+   "color-stylized",
+   "provocation",
+   "theatrical",
+   "direct-address"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 6,
+   "camera": 7,
+   "narrative": 6,
+   "performance": 6,
+   "tone": 4,
+   "dialogue": 5,
+   "scale": 3
+  }
+ },
+ {
+  "id": "dusanhanak",
+  "name": "Dušan Hanák",
+  "country": "Czechoslovakia",
+  "born": null,
+  "movements": [
+   "czechoslovak-new-wave"
+  ],
+  "techniques": [
+   "documentary-hybrid",
+   "non-actors",
+   "landscape",
+   "closeup"
+  ],
+  "scores": {
+   "formalism": 4,
+   "pace": 3,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 3,
+   "tone": 3,
+   "dialogue": 4,
+   "scale": 3
+  }
+ },
+ {
+  "id": "konstantinlopushansky",
+  "name": "Konstantin Lopushansky",
+  "country": "Soviet Union/Russia",
+  "born": null,
+  "movements": [],
+  "techniques": [
+   "color-stylized",
+   "slow-pace",
+   "landscape",
+   "sound-design"
+  ],
+  "scores": {
+   "formalism": 7,
+   "pace": 2,
+   "camera": 5,
+   "narrative": 3,
+   "performance": 4,
+   "tone": 1,
+   "dialogue": 4,
+   "scale": 5
+  }
+ },
+ {
+  "id": "jonathancaouette",
+  "name": "Jonathan Caouette",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "american-independent"
+  ],
+  "techniques": [
+   "collage",
+   "essay-form",
+   "fast-cutting",
+   "pop-music"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 7,
+   "camera": 4,
+   "narrative": 5,
+   "performance": 3,
+   "tone": 3,
+   "dialogue": 3,
+   "scale": 2
+  }
+ },
+ {
+  "id": "joaquincocinacristoballeon",
+  "name": "Joaquín Cociña & Cristóbal León",
+  "country": "Chile",
+  "born": null,
+  "movements": [
+   "animation"
+  ],
+  "techniques": [
+   "animation",
+   "long-take",
+   "dream-logic",
+   "studio-artifice"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 4,
+   "camera": 6,
+   "narrative": 6,
+   "performance": 3,
+   "tone": 2,
+   "dialogue": 3,
+   "scale": 2
+  },
+  "members": [
+   "Joaquín Cociña",
+   "Cristóbal León"
+  ]
+ },
+ {
+  "id": "jackchambers",
+  "name": "Jack Chambers",
+  "country": "Canada",
+  "born": null,
+  "movements": [
+   "experimental"
+  ],
+  "techniques": [
+   "collage",
+   "essay-form",
+   "landscape",
+   "memory-time"
+  ],
+  "scores": {
+   "formalism": 8,
+   "pace": 3,
+   "camera": 5,
+   "narrative": 4,
+   "performance": 1,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 3
+  }
+ },
+ {
+  "id": "petertscherkassky",
+  "name": "Peter Tscherkassky",
+  "country": "Austria",
+  "born": null,
+  "movements": [
+   "experimental"
+  ],
+  "techniques": [
+   "collage",
+   "montage",
+   "abstraction",
+   "sound-design"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 8,
+   "camera": 7,
+   "narrative": 3,
+   "performance": 1,
+   "tone": 2,
+   "dialogue": 1,
+   "scale": 2
+  }
+ },
+ {
+  "id": "eeliasmerhige",
+  "name": "E. Elias Merhige",
+  "country": "USA",
+  "born": null,
+  "movements": [
+   "experimental"
+  ],
+  "techniques": [
+   "chiaroscuro",
+   "abstraction",
+   "slow-pace",
+   "provocation"
+  ],
+  "scores": {
+   "formalism": 9,
+   "pace": 2,
+   "camera": 6,
+   "narrative": 2,
+   "performance": 4,
+   "tone": 1,
+   "dialogue": 1,
+   "scale": 2
+  }
  }
 ]

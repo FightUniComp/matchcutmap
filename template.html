@@ -311,7 +311,7 @@ const clearAll = () => Object.assign(state, {sel: null, dir: "", tech: "", mov: 
 /* lists and awards: which directors are on a list */
 const honCache = {};
 const honDirs = k => honCache[k] || (honCache[k] = new Set(DATA.lists[k].e.flatMap(x => x[3])));
-const LIST_ORDER = ["cannes", "oscar-picture", "oscar-director", "oscar-international", "tspdt-films", "tspdt-directors", "sight-and-sound", "cahiers-100", "cahiers-annual", "cahiers-decades", "house-of-tabula"].filter(k => DATA.lists[k]);
+const LIST_ORDER = ["cannes", "oscar-picture", "oscar-director", "oscar-international", "tspdt-films", "tspdt-directors", "sight-and-sound", "cahiers-100", "cahiers-annual", "cahiers-decades", "house-of-tabula", "tabula-iceberg"].filter(k => DATA.lists[k]);
 /* films marked as seen: kept in this browser only */
 const stored = k => { try { return JSON.parse(localStorage.getItem("auteurAtlas." + k) || "{}") || {}; } catch (e) { return {}; } };
 const SEEN = stored("seen"), MYR = stored("mine"), IMR = stored("imdb"), WANT = stored("want");
@@ -754,7 +754,7 @@ function honBody(p){
   const row = (x, lab) => '<li>' + (kind === "people" ? '' : marks(x)) + '<span class="fy">' + esc(lab) + '</span><span class="fn">' +
     (kind === "people" ? who(x) : esc(x[1]) + (x[2] && kind === "ranked" ? ' <span class="yr">' + x[2] + '</span>' : '') + ' ' + who(x)) + '</span></li>';
   let body = '';
-  if (kind === "yearly") { const by = {}; L.e.forEach(x => (by[x[0]] = by[x[0]] || []).push(x));
+  if (kind === "yearly" || kind === "grouped") { const by = {}; L.e.forEach(x => (by[x[0]] = by[x[0]] || []).push(x));
     body = Object.keys(by).map(y => '<h3>' + esc(y) + '</h3><ol class="hl">' + by[y].map(x => row(x, x[6] ? "#" + x[6] : "")).join("") + '</ol>').join(""); }
   else body = '<ol class="hl">' + L.e.map(x => row(x, kind === "ranked" || kind === "people" ? "#" + x[0] : x[0])).join("") + '</ol>';
   const off = L.n - L.onmap;
@@ -854,6 +854,7 @@ function panelBody(){
       '<li><b><a href="' + S.sight_and_sound.url + '">' + esc(S.sight_and_sound.name) + '</a></b> <span>' + esc(S.sight_and_sound.detail) + '. ' + c.ss + ' films ranked.</span></li>' +
       '<li><b><a href="' + S.cannes.url + '">' + esc(S.cannes.name) + '</a></b> <span>All ' + c.cannes + ' winners of the top prize, 1939 to 2026.</span></li>' +
       (S.oscars ? '<li><b><a href="' + S.oscars.url + '">' + esc(S.oscars.name) + '</a></b> <span>' + esc(S.oscars.detail) + '. Compiled by hand; the latest ceremony was checked against press reports.</span></li>' : '') +
+      (S.tabula_iceberg ? '<li><b><a href="' + S.tabula_iceberg.url + '">' + esc(S.tabula_iceberg.name) + '</a></b> <span>' + esc(S.tabula_iceberg.detail) + '.</span></li>' : '') +
       (S.cahiers_100 ? '<li><b><a href="' + S.cahiers_100.url + '">' + esc(S.cahiers_100.name) + '</a></b> <span>' + esc(S.cahiers_100.detail) + '; and the ' + '<a href="' + S.cahiers_annual.url + '">top 10 of the year</a>, 1951 to 2025.</span></li>' : '') +
       '<li><b>' + esc(S.house_of_tabula.name) + '</b> <span>' + esc(S.house_of_tabula.detail) + '. ' + c.hot + ' of its films are matched here.</span></li>' +
       '<li><b>' + esc(S.ohwc.name) + '</b> <span>' + esc(S.ohwc.detail) + '. ' + c.evidence + ' of the ' + DATA.influence.length + ' influence links point to a page where it names both directors together.</span></li>' +

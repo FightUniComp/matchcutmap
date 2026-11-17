@@ -12286,8 +12286,8 @@
    },
    {
     "text": "Burnt by the Sun also won the Grand Prix at Cannes.",
-    "status": "draft",
-    "source": null
+    "status": "verified",
+    "source": "wikidata"
    }
   ]
  },
@@ -12526,6 +12526,198 @@
    },
    {
     "text": "Central Station won the Golden Bear in Berlin.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "wojciechhas": {
+  "signature": "Made The Saragossa Manuscript, a film of stories nested inside stories.",
+  "description": "A Polish director who turned literary adaptations into dreamlike labyrinths, above all The Saragossa Manuscript, after Jan Potocki, and The Hourglass Sanatorium, after Bruno Schulz.",
+  "facts": [
+   {
+    "text": "The Hourglass Sanatorium won the Jury Prize at Cannes in 1973.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Jerry Garcia helped fund the restoration of The Saragossa Manuscript, completed after his death with Martin Scorsese and Francis Ford Coppola.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "shanecarruth": {
+  "signature": "Made Primer, a time-travel film shot for about $7,000.",
+  "description": "An engineer turned film-maker who writes, directs, shoots, scores and acts in his own films; Primer and Upstream Color are known for puzzles they leave unexplained.",
+  "facts": [
+   {
+    "text": "Primer won the Grand Jury Prize at Sundance in 2004.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Composed the scores of Primer and Upstream Color.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "martinrosen": {
+  "signature": "Directed the animated Watership Down and The Plague Dogs.",
+  "description": "An American producer who directed two bleak animated films from Richard Adams's novels, Watership Down and The Plague Dogs, both made in Britain.",
+  "facts": [
+   {
+    "text": "Took over Watership Down after its first director, John Hubley, left the production.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Art Garfunkel's 'Bright Eyes', from Watership Down, was a British number one.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "geraldkargl": {
+  "signature": "Made Angst, a portrait of a killer with a camera that never stops moving.",
+  "description": "An Austrian director whose only feature, Angst, follows a released prisoner through one day, with Zbigniew Rybczyński's restless camera and the killer's voice-over.",
+  "facts": [
+   {
+    "text": "Angst was based on the case of the Austrian murderer Werner Kniesek.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Gaspar Noé has named Angst among his favourite films.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "shujiterayama": {
+  "signature": "A poet and theatre director whose films are psychedelic collages of memory and provocation.",
+  "description": "A Japanese poet, playwright and founder of the theatre troupe Tenjō Sajiki, whose films, from Throw Away Your Books, Rally in the Streets to Pastoral: To Die in the Country, mix autobiography, street theatre and dream.",
+  "facts": [
+   {
+    "text": "Founded the experimental theatre company Tenjō Sajiki in 1967.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Pastoral: To Die in the Country competed at Cannes in 1975.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "dusanhanak": {
+  "signature": "Made Pictures of the Old World, portraits of old people in Slovak villages.",
+  "description": "A Slovak director whose documentary Pictures of the Old World portrays elderly villagers of the Carpathians, and whose fiction includes Rosy Dreams and I Love, You Love.",
+  "facts": [
+   {
+    "text": "I Love, You Love won him the Silver Bear for best director at Berlin in 1989.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Rosy Dreams (1976) is a love story between a Slovak postman and a Roma girl.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "konstantinlopushansky": {
+  "signature": "A Tarkovsky assistant who made post-apocalyptic visions: Dead Man's Letters and Visitor of a Museum.",
+  "description": "Worked as an assistant on Tarkovsky's Stalker, then made bleak science-fiction parables about the end of the world, from Dead Man's Letters to Visitor of a Museum.",
+  "facts": [
+   {
+    "text": "Was an assistant director on Tarkovsky's Stalker.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Dead Man's Letters (1986) is set among survivors of a nuclear war.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "jonathancaouette": {
+  "signature": "Made Tarnation from twenty years of home movies, edited in iMovie.",
+  "description": "An American film-maker and actor whose Tarnation assembles photographs, Super 8 film, answering-machine messages and video diaries into a portrait of his life with his mother.",
+  "facts": [
+   {
+    "text": "Tarnation was edited in Apple's iMovie for a reported budget of about $218.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Gus Van Sant and John Cameron Mitchell were executive producers of Tarnation.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "joaquincocinacristoballeon": {
+  "signature": "Made The Wolf House, a stop-motion film that seems to be one continuous shot.",
+  "description": "Two Chilean visual artists who animate paint, papier-mâché and tape in real rooms; The Wolf House draws on Colonia Dignidad, a German sect in Chile.",
+  "facts": [
+   {
+    "text": "The Wolf House was made over several years in galleries, partly in public view.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Their second feature, The Hyperboreans, premiered at Cannes in 2024.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "jackchambers": {
+  "signature": "A painter whose film The Hart of London collages life and death in his Ontario home town.",
+  "description": "A Canadian painter of luminous realist landscapes who also made experimental films; The Hart of London assembles archive and home footage of London, Ontario.",
+  "facts": [
+   {
+    "text": "The Hart of London opens with archive footage of a deer that wandered into London, Ontario, in 1954.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Co-founded the artists' rights organisation CARFAC in 1968.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "petertscherkassky": {
+  "signature": "Re-exposes Hollywood frames by hand into found-footage nightmares.",
+  "description": "An Austrian avant-garde film-maker who copies frames of old films by hand onto new stock in the darkroom; Outer Space and Dream Work rework the horror film The Entity.",
+  "facts": [
+   {
+    "text": "Outer Space (1999) is made entirely from footage of The Entity (1982).",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Instructions for a Light and Sound Machine (2005) reworks Sergio Leone's The Good, the Bad and the Ugly.",
+    "status": "draft",
+    "source": null
+   }
+  ]
+ },
+ "eeliasmerhige": {
+  "signature": "Made Begotten, a wordless, grainy creation myth, and Shadow of the Vampire.",
+  "description": "An American director whose first feature, Begotten, retells a creation myth in harsh black and white without dialogue; he then made Shadow of the Vampire, about the shooting of Nosferatu.",
+  "facts": [
+   {
+    "text": "Begotten was rephotographed frame by frame to give it its worn texture.",
+    "status": "draft",
+    "source": null
+   },
+   {
+    "text": "Shadow of the Vampire imagines Max Schreck as a real vampire on the set of Murnau's Nosferatu.",
     "status": "draft",
     "source": null
    }

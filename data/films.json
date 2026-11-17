@@ -2161,14 +2161,17 @@
    "renoir"
   ],
   "tspdt": 126,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 153,
+  "sight_and_sound_votes": 24,
   "house_of_tabula": null,
   "country": "France",
   "runtime": 40,
   "colour": "BW",
   "genre": "Romance-Drama-Short",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Partie de campagne"
+  ]
  },
  {
   "id": "notorious-1946",
@@ -4229,7 +4232,10 @@
   "runtime": 88,
   "colour": "Col-BW",
   "genre": "History-Drama-Biography",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Ivan the Terrible, Part II: The Boyars' Plot"
+  ]
  },
  {
   "id": "in-a-lonely-place-1950",
@@ -12066,7 +12072,10 @@
   "runtime": 261,
   "colour": "BW",
   "genre": "Documentary-War-History",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Le Chagrin et la Pitié"
+  ]
  },
  {
   "id": "thelma-louise-1991",
@@ -12948,14 +12957,18 @@
    "medhondo"
   ],
   "tspdt": 755,
-  "sight_and_sound": null,
-  "sight_and_sound_votes": null,
+  "sight_and_sound": 241,
+  "sight_and_sound_votes": 16,
   "house_of_tabula": null,
   "country": "France-Mauritania",
   "runtime": 98,
   "colour": "BW",
   "genre": "Drama",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Soleil O",
+   "Soleil Ô"
+  ]
  },
  {
   "id": "the-bad-and-the-beautiful-1952",
@@ -17143,40 +17156,6 @@
   "cannes": null
  },
  {
-  "id": "partie-de-campagne-a-day-in-the-country-1936",
-  "title": "Partie de campagne (A Day in the Country)",
-  "year": 1936,
-  "directors": [
-   "renoir"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 153,
-  "sight_and_sound_votes": 24,
-  "house_of_tabula": null,
-  "country": "France",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
-  "id": "soleil-o-1970",
-  "title": "Soleil Ô",
-  "year": 1970,
-  "directors": [
-   "medhondo"
-  ],
-  "tspdt": null,
-  "sight_and_sound": 241,
-  "sight_and_sound_votes": 16,
-  "house_of_tabula": null,
-  "country": "France",
-  "runtime": null,
-  "colour": "",
-  "genre": "",
-  "cannes": null
- },
- {
   "id": "handsworth-songs-1986",
   "title": "Handsworth Songs",
   "year": 1986,
@@ -18747,7 +18726,10 @@
   "runtime": null,
   "colour": "",
   "genre": "",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Bilder der Welt und Inschrift des Krieges"
+  ]
  },
  {
   "id": "in-the-cut-2003",
@@ -18917,7 +18899,10 @@
   "runtime": null,
   "colour": "",
   "genre": "",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Méditerranée"
+  ]
  },
  {
   "id": "miss-oyu-1951",
@@ -18968,7 +18953,10 @@
   "runtime": null,
   "colour": "",
   "genre": "",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Appunti per un'Orestiade africana"
+  ]
  },
  {
   "id": "old-joy-2005",
@@ -20907,7 +20895,10 @@
   "runtime": null,
   "colour": "",
   "genre": "",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Mughal-e-Azam"
+  ]
  },
  {
   "id": "the-fall-of-the-house-of-usher-1928",
@@ -23853,7 +23844,10 @@
   "runtime": null,
   "colour": "",
   "genre": "",
-  "cannes": null
+  "cannes": null,
+  "alt": [
+   "Pickpocket"
+  ]
  },
  {
   "id": "zatoichi-kitano",
@@ -29567,7 +29561,10 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "Monanieba"
+  ]
  },
  {
   "id": "attenberg-2010",
@@ -31007,7 +31004,11 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "I Are You, You Am Me",
+   "Tenkosei"
+  ]
  },
  {
   "id": "labyrinth-of-cinema-2019",
@@ -31547,7 +31548,10 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "Face to Face"
+  ]
  },
  {
   "id": "a-night-of-knowing-nothing-2021",
@@ -33149,7 +33153,11 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "A Severe Young Man",
+   "Strogiy yunosha"
+  ]
  },
  {
   "id": "the-fall-of-the-romanov-dynasty-1927",
@@ -33491,7 +33499,11 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "The Fabulous World of Jules Verne",
+   "Vynález zkázy"
+  ]
  },
  {
   "id": "the-fabulous-baron-munchausen-1961",
@@ -35165,7 +35177,10 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "En construcción"
+  ]
  },
  {
   "id": "in-the-city-of-sylvia-2007",
@@ -37523,7 +37538,11 @@
   "colour": "",
   "genre": "",
   "cannes": null,
-  "added": "hand"
+  "added": "hand",
+  "alt": [
+   "Begin the Beguine",
+   "Volver a empezar"
+  ]
  },
  {
   "id": "the-grandfather-1998",
@@ -38539,6 +38558,510 @@
   "year": 2024,
   "directors": [
    "waltersalles"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "how-to-be-loved-1963",
+  "title": "How to Be Loved",
+  "year": 1963,
+  "directors": [
+   "wojciechhas"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-saragossa-manuscript-1965",
+  "title": "The Saragossa Manuscript",
+  "year": 1965,
+  "directors": [
+   "wojciechhas"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-hourglass-sanatorium-1973",
+  "title": "The Hourglass Sanatorium",
+  "year": 1973,
+  "directors": [
+   "wojciechhas"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "primer-2004",
+  "title": "Primer",
+  "year": 2004,
+  "directors": [
+   "shanecarruth"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "upstream-color-2013",
+  "title": "Upstream Color",
+  "year": 2013,
+  "directors": [
+   "shanecarruth"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "watership-down-1978",
+  "title": "Watership Down",
+  "year": 1978,
+  "directors": [
+   "martinrosen"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-plague-dogs-1982",
+  "title": "The Plague Dogs",
+  "year": 1982,
+  "directors": [
+   "martinrosen"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "angst-1983",
+  "title": "Angst",
+  "year": 1983,
+  "directors": [
+   "geraldkargl"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "throw-away-your-books-rally-in-the-streets-1971",
+  "title": "Throw Away Your Books, Rally in the Streets",
+  "year": 1971,
+  "directors": [
+   "shujiterayama"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "pastoral-to-die-in-the-country-1974",
+  "title": "Pastoral: To Die in the Country",
+  "year": 1974,
+  "directors": [
+   "shujiterayama"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "farewell-to-the-ark-1984",
+  "title": "Farewell to the Ark",
+  "year": 1984,
+  "directors": [
+   "shujiterayama"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "322-1969",
+  "title": "322",
+  "year": 1969,
+  "directors": [
+   "dusanhanak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "pictures-of-the-old-world-1972",
+  "title": "Pictures of the Old World",
+  "year": 1972,
+  "directors": [
+   "dusanhanak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "rosy-dreams-1976",
+  "title": "Rosy Dreams",
+  "year": 1976,
+  "directors": [
+   "dusanhanak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "i-love-you-love-1980",
+  "title": "I Love, You Love",
+  "year": 1980,
+  "directors": [
+   "dusanhanak"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dead-man-s-letters-1986",
+  "title": "Dead Man's Letters",
+  "year": 1986,
+  "directors": [
+   "konstantinlopushansky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "visitor-of-a-museum-1989",
+  "title": "Visitor of a Museum",
+  "year": 1989,
+  "directors": [
+   "konstantinlopushansky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "tarnation-2003",
+  "title": "Tarnation",
+  "year": 2003,
+  "directors": [
+   "jonathancaouette"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "walk-away-renee-2011",
+  "title": "Walk Away Renee",
+  "year": 2011,
+  "directors": [
+   "jonathancaouette"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-wolf-house-2018",
+  "title": "The Wolf House",
+  "year": 2018,
+  "directors": [
+   "joaquincocinacristoballeon"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-hyperboreans-2024",
+  "title": "The Hyperboreans",
+  "year": 2024,
+  "directors": [
+   "joaquincocinacristoballeon"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "the-hart-of-london-1970",
+  "title": "The Hart of London",
+  "year": 1970,
+  "directors": [
+   "jackchambers"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "outer-space-1999",
+  "title": "Outer Space",
+  "year": 1999,
+  "directors": [
+   "petertscherkassky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "dream-work-2001",
+  "title": "Dream Work",
+  "year": 2001,
+  "directors": [
+   "petertscherkassky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "instructions-for-a-light-and-sound-machine-2005",
+  "title": "Instructions for a Light and Sound Machine",
+  "year": 2005,
+  "directors": [
+   "petertscherkassky"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "begotten-1990",
+  "title": "Begotten",
+  "year": 1990,
+  "directors": [
+   "eeliasmerhige"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "shadow-of-the-vampire-2000",
+  "title": "Shadow of the Vampire",
+  "year": 2000,
+  "directors": [
+   "eeliasmerhige"
+  ],
+  "tspdt": null,
+  "sight_and_sound": null,
+  "sight_and_sound_votes": null,
+  "house_of_tabula": null,
+  "country": "",
+  "runtime": null,
+  "colour": "",
+  "genre": "",
+  "cannes": null,
+  "added": "hand"
+ },
+ {
+  "id": "din-of-celestial-birds-2006",
+  "title": "Din of Celestial Birds",
+  "year": 2006,
+  "directors": [
+   "eeliasmerhige"
   ],
   "tspdt": null,
   "sight_and_sound": null,

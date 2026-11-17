@@ -1,0 +1,705 @@
+{
+ "name": "Cinematic complexity iceberg",
+ "by": "The House of Tabula",
+ "tiers": [
+  "accessible and universally enjoyable",
+  "the auteur",
+  "narrative complexity",
+  "the weight of the world",
+  "slow cinema",
+  "cinema collapsing in on itself",
+  "experimental storytelling and abstract narratives",
+  "the abyss"
+ ],
+ "films": [
+  {
+   "n": 1,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "It's a Wonderful Life",
+   "year": 1946,
+   "directors": [
+    "Frank Capra"
+   ]
+  },
+  {
+   "n": 2,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Notorious",
+   "year": 1946,
+   "directors": [
+    "Alfred Hitchcock"
+   ]
+  },
+  {
+   "n": 3,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "12 Angry Men",
+   "year": 1957,
+   "directors": [
+    "Sidney Lumet"
+   ]
+  },
+  {
+   "n": 4,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "The Apartment",
+   "year": 1960,
+   "directors": [
+    "Billy Wilder"
+   ]
+  },
+  {
+   "n": 5,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Le Trou",
+   "year": 1960,
+   "directors": [
+    "Jacques Becker"
+   ]
+  },
+  {
+   "n": 6,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "The Graduate",
+   "year": 1967,
+   "directors": [
+    "Mike Nichols"
+   ]
+  },
+  {
+   "n": 7,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "One Flew Over the Cuckoo's Nest",
+   "year": 1975,
+   "directors": [
+    "Miloš Forman"
+   ]
+  },
+  {
+   "n": 8,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Thelma & Louise",
+   "year": 1991,
+   "directors": [
+    "Ridley Scott"
+   ]
+  },
+  {
+   "n": 9,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Forrest Gump",
+   "year": 1994,
+   "directors": [
+    "Robert Zemeckis"
+   ]
+  },
+  {
+   "n": 10,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Fargo",
+   "year": 1996,
+   "directors": [
+    "Joel Coen",
+    "Ethan Coen"
+   ]
+  },
+  {
+   "n": 11,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "Before the Devil Knows You're Dead",
+   "year": 2007,
+   "directors": [
+    "Sidney Lumet"
+   ]
+  },
+  {
+   "n": 12,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "There Will Be Blood",
+   "year": 2007,
+   "directors": [
+    "Paul Thomas Anderson"
+   ]
+  },
+  {
+   "n": 13,
+   "tier": 1,
+   "tier_name": "accessible and universally enjoyable",
+   "film": "A Separation",
+   "year": 2011,
+   "directors": [
+    "Asghar Farhadi"
+   ]
+  },
+  {
+   "n": 14,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Breathless",
+   "year": 1960,
+   "directors": [
+    "Jean-Luc Godard"
+   ]
+  },
+  {
+   "n": 15,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "The Face of Another",
+   "year": 1966,
+   "directors": [
+    "Hiroshi Teshigahara"
+   ]
+  },
+  {
+   "n": 16,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Cries & Whispers",
+   "year": 1972,
+   "directors": [
+    "Ingmar Bergman"
+   ]
+  },
+  {
+   "n": 17,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Amarcord",
+   "year": 1973,
+   "directors": [
+    "Federico Fellini"
+   ]
+  },
+  {
+   "n": 18,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "The Mirror",
+   "year": 1975,
+   "directors": [
+    "Andrei Tarkovsky"
+   ]
+  },
+  {
+   "n": 19,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "L'Argent",
+   "year": 1983,
+   "directors": [
+    "Robert Bresson"
+   ]
+  },
+  {
+   "n": 20,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Full Metal Jacket",
+   "year": 1987,
+   "directors": [
+    "Stanley Kubrick"
+   ]
+  },
+  {
+   "n": 21,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Three Colors: Blue",
+   "year": 1993,
+   "directors": [
+    "Krzysztof Kieślowski"
+   ],
+   "note": "with the sequels, White and Red"
+  },
+  {
+   "n": 22,
+   "tier": 2,
+   "tier_name": "the auteur",
+   "film": "Inland Empire",
+   "year": 2006,
+   "directors": [
+    "David Lynch"
+   ]
+  },
+  {
+   "n": 23,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Last Year at Marienbad",
+   "year": 1961,
+   "directors": [
+    "Alain Resnais"
+   ]
+  },
+  {
+   "n": 24,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "The Saragossa Manuscript",
+   "year": 1965,
+   "directors": [
+    "Wojciech Has"
+   ]
+  },
+  {
+   "n": 25,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Symbiopsychotaxiplasm: Take One",
+   "year": 1968,
+   "directors": [
+    "William Greaves"
+   ]
+  },
+  {
+   "n": 26,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Funeral Parade of Roses",
+   "year": 1969,
+   "directors": [
+    "Toshio Matsumoto"
+   ]
+  },
+  {
+   "n": 27,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Memento",
+   "year": 2000,
+   "directors": [
+    "Christopher Nolan"
+   ]
+  },
+  {
+   "n": 28,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Primer",
+   "year": 2004,
+   "directors": [
+    "Shane Carruth"
+   ]
+  },
+  {
+   "n": 29,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Synecdoche, New York",
+   "year": 2008,
+   "directors": [
+    "Charlie Kaufman"
+   ]
+  },
+  {
+   "n": 30,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Under the Skin",
+   "year": 2013,
+   "directors": [
+    "Jonathan Glazer"
+   ]
+  },
+  {
+   "n": 31,
+   "tier": 3,
+   "tier_name": "narrative complexity",
+   "film": "Vitalina Varela",
+   "year": 2019,
+   "directors": [
+    "Pedro Costa"
+   ]
+  },
+  {
+   "n": 32,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "The Plague Dogs",
+   "year": 1982,
+   "directors": [
+    "Martin Rosen"
+   ]
+  },
+  {
+   "n": 33,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Angst",
+   "year": 1983,
+   "directors": [
+    "Gerald Kargl"
+   ]
+  },
+  {
+   "n": 34,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Bad Lieutenant",
+   "year": 1992,
+   "directors": [
+    "Abel Ferrara"
+   ]
+  },
+  {
+   "n": 35,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Midori",
+   "year": 1992,
+   "directors": [
+    "Hiroshi Harada"
+   ]
+  },
+  {
+   "n": 36,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Funny Games",
+   "year": 1997,
+   "directors": [
+    "Michael Haneke"
+   ]
+  },
+  {
+   "n": 37,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Visitor Q",
+   "year": 2001,
+   "directors": [
+    "Takashi Miike"
+   ]
+  },
+  {
+   "n": 38,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Irreversible",
+   "year": 2002,
+   "directors": [
+    "Gaspar Noé"
+   ]
+  },
+  {
+   "n": 39,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Lilya 4-Ever",
+   "year": 2002,
+   "directors": [
+    "Lukas Moodysson"
+   ]
+  },
+  {
+   "n": 40,
+   "tier": 4,
+   "tier_name": "the weight of the world",
+   "film": "Hard to Be a God",
+   "year": 2013,
+   "directors": [
+    "Aleksei German"
+   ]
+  },
+  {
+   "n": 41,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "The Lonely Voice of Man",
+   "year": 1987,
+   "directors": [
+    "Aleksandr Sokurov"
+   ]
+  },
+  {
+   "n": 42,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "Elephant",
+   "year": 2003,
+   "directors": [
+    "Gus Van Sant"
+   ]
+  },
+  {
+   "n": 43,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "Evolution of a Filipino Family",
+   "year": 2004,
+   "directors": [
+    "Lav Diaz"
+   ]
+  },
+  {
+   "n": 44,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "The Turin Horse",
+   "year": 2011,
+   "directors": [
+    "Béla Tarr",
+    "Ágnes Hranitzky"
+   ]
+  },
+  {
+   "n": 45,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "Winter Sleep",
+   "year": 2014,
+   "directors": [
+    "Nuri Bilge Ceylan"
+   ]
+  },
+  {
+   "n": 46,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "Dead Souls",
+   "year": 2018,
+   "directors": [
+    "Wang Bing"
+   ]
+  },
+  {
+   "n": 47,
+   "tier": 5,
+   "tier_name": "slow cinema",
+   "film": "An Elephant Sitting Still",
+   "year": 2018,
+   "directors": [
+    "Bo Hu"
+   ]
+  },
+  {
+   "n": 48,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Throw Away Your Books, Rally in the Streets",
+   "year": 1971,
+   "directors": [
+    "Shūji Terayama"
+   ]
+  },
+  {
+   "n": 49,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Pictures of the Old World",
+   "year": 1972,
+   "directors": [
+    "Dusan Hanák"
+   ]
+  },
+  {
+   "n": 50,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Reminiscences of a Journey to Lithuania",
+   "year": 1972,
+   "directors": [
+    "Jonas Mekas"
+   ]
+  },
+  {
+   "n": 51,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "F for Fake",
+   "year": 1973,
+   "directors": [
+    "Orson Welles",
+    "Gary Graver",
+    "Oja Kodar"
+   ]
+  },
+  {
+   "n": 52,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Visitor of a Museum",
+   "year": 1989,
+   "directors": [
+    "Konstantin Lopushanskiy"
+   ]
+  },
+  {
+   "n": 53,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Dogville",
+   "year": 2003,
+   "directors": [
+    "Lars von Trier"
+   ]
+  },
+  {
+   "n": 54,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Tarnation",
+   "year": 2003,
+   "directors": [
+    "Jonathan Caouette"
+   ]
+  },
+  {
+   "n": 55,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Yeah Right!",
+   "year": 2003,
+   "directors": [
+    "Ty Evans",
+    "Spike Jonze"
+   ]
+  },
+  {
+   "n": 56,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "Syndromes and a Century",
+   "year": 2006,
+   "directors": [
+    "Apichatpong Weerasethakul"
+   ]
+  },
+  {
+   "n": 57,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "24 Frames",
+   "year": 2017,
+   "directors": [
+    "Abbas Kiarostami"
+   ]
+  },
+  {
+   "n": 58,
+   "tier": 6,
+   "tier_name": "cinema collapsing in on itself",
+   "film": "The Wolf House",
+   "year": 2018,
+   "directors": [
+    "Joaquín Cociña",
+    "Cristóbal León"
+   ]
+  },
+  {
+   "n": 59,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Entr'acte",
+   "year": 1924,
+   "directors": [
+    "René Clair"
+   ]
+  },
+  {
+   "n": 60,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Inauguration of the Pleasure Dome",
+   "year": 1954,
+   "directors": [
+    "Kenneth Anger"
+   ]
+  },
+  {
+   "n": 61,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Dog Star Man",
+   "year": 1964,
+   "directors": [
+    "Stan Brakhage"
+   ]
+  },
+  {
+   "n": 62,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "The Hart of London",
+   "year": 1970,
+   "directors": [
+    "Jack Chambers"
+   ]
+  },
+  {
+   "n": 63,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Blue",
+   "year": 1993,
+   "directors": [
+    "Derek Jarman"
+   ]
+  },
+  {
+   "n": 64,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Outer Space",
+   "year": 1999,
+   "directors": [
+    "Peter Tscherkassky"
+   ]
+  },
+  {
+   "n": 65,
+   "tier": 7,
+   "tier_name": "experimental storytelling and abstract narratives",
+   "film": "Din of Celestial Birds",
+   "year": 2006,
+   "directors": [
+    "E. Elias Merhige"
+   ]
+  },
+  {
+   "n": 66,
+   "tier": 8,
+   "tier_name": "the abyss",
+   "film": "Empire",
+   "year": 1964,
+   "directors": [
+    "John Palmer",
+    "Andy Warhol"
+   ]
+  },
+  {
+   "n": 67,
+   "tier": 8,
+   "tier_name": "the abyss",
+   "film": "Wavelength",
+   "year": 1967,
+   "directors": [
+    "Michael Snow"
+   ]
+  },
+  {
+   "n": 68,
+   "tier": 8,
+   "tier_name": "the abyss",
+   "film": "Logistics",
+   "year": 2012,
+   "directors": [
+    "Daniel Andersson",
+    "Erika Magnusson"
+   ]
+  }
+ ]
+}

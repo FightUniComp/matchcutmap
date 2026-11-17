@@ -10,13 +10,13 @@ mizoguchi,Kenji Mizoguchi,Japan,26,7,0,6,0
 bergman,Ingmar Bergman,Sweden,7,13,0,17,4
 dreyer,Carl Theodor Dreyer,Denmark,18,5,0,9,3
 bresson,Robert Bresson,France,16,10,0,30,1
-tarkovsky,Andrei Tarkovsky,Soviet Union,13,7,0,13,8
+tarkovsky,Andrei Tarkovsky,Soviet Union,13,7,0,14,8
 eisenstein,Sergei Eisenstein,Soviet Union,29,7,0,11,3
 vertov,Dziga Vertov,Soviet Union,56,5,0,6,0
 lang,Fritz Lang,Germany / USA,24,9,0,11,1
-murnau,F. W. Murnau,Germany / USA,19,6,0,10,0
-renoir,Jean Renoir,France,9,12,0,14,1
-rossellini,Roberto Rossellini,Italy,27,8,1,17,0
+murnau,F. W. Murnau,Germany / USA,19,6,0,11,0
+renoir,Jean Renoir,France,9,11,0,14,1
+rossellini,Roberto Rossellini,Italy,27,8,1,18,0
 fellini,Federico Fellini,Italy,4,9,1,13,3
 antonioni,Michelangelo Antonioni,Italy,21,8,1,15,0
 godard,Jean-Luc Godard,France,6,15,0,27,20
@@ -264,7 +264,7 @@ fernandomeirelles,Fernando Meirelles,Brazil,,1,0,0,0
 asgharfarhadi,Asghar Farhadi,Iran,,1,0,0,2
 saramaldoror,Sara Maldoror,Angola,,1,0,0,1
 wangbing,Wang Bing,China,,1,0,0,2
-medhondo,Med Hondo,France,,3,0,0,1
+medhondo,Med Hondo,France,,2,0,0,1
 cheryldunye,Cheryl Dunye,USA,,1,0,0,0
 jennielivingston,Jennie Livingston,USA,,1,0,0,0
 montehellman,Monte Hellman,USA,,1,0,1,1
@@ -349,7 +349,7 @@ dannyboyle,Danny Boyle,UK,,1,0,0,0
 darrenaronofsky,Darren Aronofsky,USA,,1,0,0,0
 denisvilleneuve,Denis Villeneuve,Canada,,1,0,0,2
 dusanmakavejev,Dušan Makavejev,Yugoslavia,,1,0,1,1
-gasparnoe,Gaspar Noé,France,,2,0,0,1
+gasparnoe,Gaspar Noé,France,,2,0,0,2
 gretagerwig,Greta Gerwig,USA,,1,0,0,3
 harmonykorine,Harmony Korine,USA,,1,0,0,1
 jerzyskolimowski,Jerzy Skolimowski,Poland,,1,0,0,2
@@ -840,4 +840,16 @@ yojirotakita,Yōjirō Takita,Japan,,2,0,0,0
 juanjosecampanella,Juan José Campanella,Argentina,,2,0,0,0
 sebastianlelio,Sebastián Lelio,Chile,,3,0,0,0
 edwardberger,Edward Berger,Germany,,2,0,0,0
-waltersalles,Walter Salles,Brazil,,3,0,0,0
+waltersalles,Walter Salles,Brazil,,3,0,0,1
+wojciechhas,Wojciech Has,Poland,,3,0,0,0
+shanecarruth,Shane Carruth,USA,,2,0,0,0
+martinrosen,Martin Rosen,USA/UK,,2,0,0,0
+geraldkargl,Gerald Kargl,Austria,,1,0,1,0
+shujiterayama,Shūji Terayama,Japan,,3,0,0,0
+dusanhanak,Dušan Hanák,Czechoslovakia,,4,0,0,0
+konstantinlopushansky,Konstantin Lopushansky,Soviet Union/Russia,,2,0,0,1
+jonathancaouette,Jonathan Caouette,USA,,2,0,0,0
+joaquincocinacristoballeon,Joaquín Cociña & Cristóbal León,Chile,,2,0,0,0
+jackchambers,Jack Chambers,Canada,,1,0,0,0
+petertscherkassky,Peter Tscherkassky,Austria,,3,0,0,0
+eeliasmerhige,E. Elias Merhige,USA,,3,0,0,1

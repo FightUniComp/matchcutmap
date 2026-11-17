@@ -343,6 +343,12 @@ def split_names(names):
     if len(ps) > 1 and len(ps[-1].split()) >= 2: ps = [x if len(x.split()) > 1 else x + " " + ps[-1].split()[-1] for x in ps]
     return ps
 def dirs_of(names): return list(dict.fromkeys(i for i in (find_director(n) for n in split_names(names)) if i))
+ARTICLE = re.compile(r"^(the|a|an|le|la|les|l'|il|lo|el|der|die|das)\s+", re.I)
+def tvars(t):
+    """'The Mirror' -> mirror, themirror; 'Cries & Whispers' -> criesandwhispers, crieswhispers"""
+    if not t: return set()
+    vs = {t, t.replace("&", "and"), ARTICLE.sub("", t), ARTICLE.sub("", t.replace("&", "and"))}
+    return {k for k in (nfold(v) for v in vs) if k}
 def title_keys(*titles):
     out = []
     for t in titles:
@@ -350,16 +356,16 @@ def title_keys(*titles):
         out.append(t)
         m = re.match(r"^(.*?)\s*\((.+)\)$", t)
         if m: out += [m.group(1), m.group(2)]
-    return [k for k in (nfold(t) for t in out) if k]
+    return list(dict.fromkeys(k for x in out for k in tvars(x)))
 CANDS = {}
 def film_cands(i):
     if i not in CANDS:
         out = []
         for f in by_dir.get(i, []):
             tm = TMDB["films"].get(f["id"]) or {}
-            out.append((("m", tm["tmdb_id"]) if tm.get("tmdb_id") else ("f", f["id"]), {nfold(f["title"]), nfold(tm.get("matched_title"))} - {""}, f["year"], tm.get("vote_count") or 0))
+            out.append((("m", tm["tmdb_id"]) if tm.get("tmdb_id") else ("f", f["id"]), tvars(f["title"]) | tvars(tm.get("matched_title")), f["year"], tm.get("vote_count") or 0))
         for p in PEOPLE["directors"].get(i, {}).get("films", []):
-            out.append((("m", p["tmdb_id"]), {nfold(p.get("title")), nfold(p.get("original_title"))} - {""}, pyear(p.get("release_date")), p.get("vote_count") or 0))
+            out.append((("m", p["tmdb_id"]), tvars(p.get("title")) | tvars(p.get("original_title")), pyear(p.get("release_date")), p.get("vote_count") or 0))
         CANDS[i] = out
     return CANDS[i]
 def match_film(dids, titles, year=None):
@@ -371,7 +377,7 @@ def match_film(dids, titles, year=None):
             elif any(len(w) >= 5 and any(len(t) >= 5 and (t.startswith(w) or w.startswith(t)) for t in ts) for w in want): sc = 1
             else: continue
             dy = abs(y - year) if year and y else 0
-            if sc == 1 and year and dy > 3: continue
+            if sc == 1 and year and dy > (15 if min(len(w) for w in want) >= 12 else 3): continue
             c = (sc, -dy, votes)
             if best is None or c > best[0]: best = (c, key)
     return best[1] if best else None
@@ -435,6 +441,14 @@ for f in sorted([f for f in FILMS if f["sight_and_sound"] and f["sight_and_sound
 new_list("house-of-tabula", "Critics' lists", "The House of Tabula: film studies watchlist", "House of Tabula", "ranked", "The House of Tabula", "")
 for f in sorted([f for f in FILMS if f["house_of_tabula"]], key=lambda f: f["house_of_tabula"]):
     entry("house-of-tabula", str(f["house_of_tabula"]), f["title"], f["year"], [i for i in f["directors"] if i in IDSET0], names_of(f), fk_of(f))
+ICE = load("iceberg")
+new_list("tabula-iceberg", "Critics' lists", "The House of Tabula: cinematic complexity iceberg", "Tabula iceberg", "grouped", "The House of Tabula", SOURCES.get("tabula_iceberg", {}).get("url", ""),
+         "68 films in eight tiers, from the accessible to the abyss, as listed by an IMDb user from the channel's video.")
+for e in ICE["films"]:
+    dids = dirs_of(e["directors"]); fk = match_film(dids, [e["film"]], e["year"])
+    entry("tabula-iceberg", "Tier %d: %s" % (e["tier"], e["tier_name"]), e["film"] + (" (%s)" % e["note"] if e.get("note") else ""), e["year"], dids,
+          " and ".join(split_names(e["directors"])), fk, "Tabula iceberg: tier %d" % e["tier"], [e["film"], e["tier"]])
+    LISTS["tabula-iceberg"]["e"][-1].append(e["n"])
 for L in LISTS.values():
     L["n"] = len(L["e"]); L["onmap"] = sum(1 for x in L["e"] if x[3])
 def honour_lines(i):
@@ -453,10 +467,12 @@ def honour_lines(i):
     if xs:
         ones = [x for x in xs if x[2] == 1]
         out.append(f"{plural(len(xs), 'film')} in Cahiers du cinéma's top 10 of the year, {min(x[1] for x in xs)} to {max(x[1] for x in xs)}" + (f"; {len(ones)} of them the year's #1" if len(ones) > 1 else f"; {ones[0][0]} was #1 in {ones[0][1]}" if ones else "") + ".")
+    xs = H.get("tabula-iceberg")
+    if xs: out.append("On The House of Tabula's cinematic complexity iceberg: " + ", ".join(f"{t} (tier {r})" for t, r in xs) + ".")
     xs = H.get("cahiers-decades")
     if xs: out.append("In Cahiers du cinéma's best of the decade: " + ", ".join(f"{t} (#{r} of the {y}s)" for t, y, r in xs) + ".")
     return out
-TOP_HON = {"oscar-picture", "oscar-director", "oscar-international", "cahiers-100", "cahiers-decades"}
+TOP_HON = {"oscar-picture", "oscar-director", "oscar-international", "cahiers-100", "cahiers-decades", "tabula-iceberg"}
 def honoured(fk): return any(k in TOP_HON or (k == "cahiers-annual" and b.endswith(": #1")) for k, b in HON_FILM.get(fk, []))
 def life(i):
     ps = PEOPLE["directors"].get(i, {}).get("persons", [])

@@ -1402,7 +1402,6 @@ fact,Régis Wargnier,"Directed East/West (1999), about Russian émigrés returni
 fact,Fernando Trueba,"Accepting the Oscar for Belle Époque, he said he believed not in God but in Billy Wilder, and thanked him."
 fact,Fernando Trueba,Founded the music label Calle 54 Records.
 fact,Nikita Mikhalkov,"Played the lead in Burnt by the Sun, opposite his daughter Nadya."
-fact,Nikita Mikhalkov,Burnt by the Sun also won the Grand Prix at Cannes.
 fact,Marleen Gorris,Antonia's Line was the first film directed by a woman to win the Oscar for foreign-language film.
 fact,Marleen Gorris,Directed Mrs Dalloway (1997) with Vanessa Redgrave.
 fact,Jan Svěrák,Kolya was written by and stars his father.
@@ -1433,6 +1432,30 @@ fact,Edward Berger,"All Quiet on the Western Front won four Oscars, including be
 fact,Edward Berger,Directed the television series Deutschland 83.
 fact,Walter Salles,I'm Still Here was the first Brazilian film to win the Oscar for international feature.
 fact,Walter Salles,Central Station won the Golden Bear in Berlin.
+fact,Wojciech Has,The Hourglass Sanatorium won the Jury Prize at Cannes in 1973.
+fact,Wojciech Has,"Jerry Garcia helped fund the restoration of The Saragossa Manuscript, completed after his death with Martin Scorsese and Francis Ford Coppola."
+fact,Shane Carruth,Primer won the Grand Jury Prize at Sundance in 2004.
+fact,Shane Carruth,Composed the scores of Primer and Upstream Color.
+fact,Martin Rosen,"Took over Watership Down after its first director, John Hubley, left the production."
+fact,Martin Rosen,"Art Garfunkel's 'Bright Eyes', from Watership Down, was a British number one."
+fact,Gerald Kargl,Angst was based on the case of the Austrian murderer Werner Kniesek.
+fact,Gerald Kargl,Gaspar Noé has named Angst among his favourite films.
+fact,Shūji Terayama,Founded the experimental theatre company Tenjō Sajiki in 1967.
+fact,Shūji Terayama,Pastoral: To Die in the Country competed at Cannes in 1975.
+fact,Dušan Hanák,"I Love, You Love won him the Silver Bear for best director at Berlin in 1989."
+fact,Dušan Hanák,Rosy Dreams (1976) is a love story between a Slovak postman and a Roma girl.
+fact,Konstantin Lopushansky,Was an assistant director on Tarkovsky's Stalker.
+fact,Konstantin Lopushansky,Dead Man's Letters (1986) is set among survivors of a nuclear war.
+fact,Jonathan Caouette,Tarnation was edited in Apple's iMovie for a reported budget of about $218.
+fact,Jonathan Caouette,Gus Van Sant and John Cameron Mitchell were executive producers of Tarnation.
+fact,Joaquín Cociña & Cristóbal León,"The Wolf House was made over several years in galleries, partly in public view."
+fact,Joaquín Cociña & Cristóbal León,"Their second feature, The Hyperboreans, premiered at Cannes in 2024."
+fact,Jack Chambers,"The Hart of London opens with archive footage of a deer that wandered into London, Ontario, in 1954."
+fact,Jack Chambers,Co-founded the artists' rights organisation CARFAC in 1968.
+fact,Peter Tscherkassky,Outer Space (1999) is made entirely from footage of The Entity (1982).
+fact,Peter Tscherkassky,"Instructions for a Light and Sound Machine (2005) reworks Sergio Leone's The Good, the Bad and the Ugly."
+fact,E. Elias Merhige,Begotten was rephotographed frame by frame to give it its worn texture.
+fact,E. Elias Merhige,Shadow of the Vampire imagines Max Schreck as a real vampire on the set of Murnau's Nosferatu.
 influence,Fritz Lang -> Alfred Hitchcock,
 influence,F. W. Murnau -> John Ford,Ford absorbed Murnau's style when both worked at Fox.
 influence,F. W. Murnau -> Werner Herzog,Herzog remade Nosferatu.
@@ -2334,3 +2357,6 @@ influence,Mack Sennett -> Wesley Ruggles,Ruggles was one of Sennett's Keystone C
 influence,Billy Wilder -> Michel Hazanavicius,Hazanavicius thanked Billy Wilder three times in his Oscar speech.
 influence,Billy Wilder -> Fernando Trueba,"Accepting his Oscar, Trueba thanked Billy Wilder in place of God."
 influence,Krzysztof Kieślowski -> Danis Tanović,Tanović's Hell was made from a script by Kieślowski and Krzysztof Piesiewicz.
+influence,Gerald Kargl -> Gaspar Noé,Noé has named Angst among his favourite films.
+influence,Andrei Tarkovsky -> Konstantin Lopushansky,Lopushansky was an assistant on Stalker.
+influence,F. W. Murnau -> E. Elias Merhige,Shadow of the Vampire restages the making of Murnau's Nosferatu.

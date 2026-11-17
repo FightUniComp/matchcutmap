@@ -90,12 +90,15 @@ def connect():
             errors.append(host + ": " + str(e))
     sys.exit("Cannot get a normal answer from TMDB, so nothing was changed.\n" + "\n".join(errors) + "\nSend these lines to Claude.")
 
-def candidates(results, title, year, skip):
+def candidates(results, title, year, skip, late=False):
+    """late=True: also accept a release up to 15 years after the year we have (films banned or released late),
+    if the title is a close match; the director credit is still checked afterwards."""
     scored = []
     for r in results or []:
         if r["id"] in skip: continue
         y = int(r["release_date"][:4]) if r.get("release_date") else None
-        if year and y and abs(y - year) > 2: continue
+        if year and y and (y - year > 15 or y - year < -2 if late else abs(y - year) > 2): continue
+        if late and max(difflib.SequenceMatcher(None, fold(title), fold(r.get(k) or "")).ratio() for k in ("title", "original_title")) < 0.85: continue
         sim = max(difflib.SequenceMatcher(None, fold(title), fold(r.get(k) or "")).ratio() for k in ("title", "original_title"))
         if len(fold(title)) >= 2 and any(fold(r.get(k) or "").startswith(fold(title)) for k in ("title", "original_title")): sim = max(sim, 0.6)   # "Salò" -> "Salò, or the 120 Days of Sodom"
         scored.append((sim + (0.15 if year and y == year else 0) + min(r.get("vote_count", 0), 500) / 5000, r))
@@ -120,9 +123,11 @@ def fetch_films():
         skip = set(TM["rejected"].get(f["id"], []))
         try:
             hit, seen = None, set()
-            for q, params in [(q, p) for q in variants(f["title"]) for p in (({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},))]:
+            tries = [(q, p, False) for q in variants(f["title"]) + f.get("alt", []) for p in (({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},))]
+            tries += [(q, {}, True) for q in variants(f["title"]) + f.get("alt", [])] if f["year"] else []
+            for q, params, late in tries:
                 res = get("/search/movie", query=q, include_adult="false", **params) or {}
-                for r in candidates(res.get("results"), q, f["year"], skip | seen)[:3]:
+                for r in candidates(res.get("results"), q, f["year"], skip | seen, late)[:3]:
                     seen.add(r["id"])
                     det = get("/movie/%d" % r["id"], append_to_response="credits") or {}
                     crew = [c["name"] for c in (det.get("credits") or {}).get("crew", []) if c.get("job") == "Director"]
