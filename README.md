@@ -48,8 +48,9 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 | `scripts/check_imdb.py` | Checks our films against your own copy of the IMDb datasets and writes a local report. IMDb data itself is never stored in this repo |
 | `scripts/imdb_personal.py` | Makes a private file of IMDb ratings from your own copy of the IMDb datasets, to import in your browser. Writes `personal/`, which is not committed |
 | `template.html` | The page: markup, styles and script |
-| `build.py` | Reads `data/`, computes similarity and layout, writes `site/index.html` |
-| `site/index.html`, `docs/index.html` | The built page, written twice. GitHub Pages serves `docs/`; `docs/CNAME` holds the domain |
+| `build.py` | Reads `data/`, computes similarity and layout, writes the page to `site/` and `docs/` |
+| `docs/index.html`, `docs/d/` | What GitHub Pages serves (`docs/CNAME` holds the domain). `index.html` holds the map and everything the views across directors need; what only a director's panel shows (films with their descriptions, filmography, collaborators, texts, facts, awards, nearest neighbours) is split over 64 small files in `docs/d/`, fetched when that panel opens or the pointer rests on the director |
+| `site/index.html` | The same page as one self-contained file with everything inside, for opening straight from disk |
 | `scripts/build_db.py` | Builds `database/auteur-atlas.sqlite` and one CSV per table in `database/csv/` from `data/` |
 | `assets/` | `logo.png` (original), `logo-light.png` (recoloured for the dark page), `favicon.png` |
 
@@ -57,6 +58,10 @@ areas are movements, circle size is influence, arrows show who influenced whom.
 
     pip install numpy scikit-learn
     python build.py --report
+
+The split page needs a web server, because browsers do not let a page opened from
+disk fetch other files. To try it locally: `python -m http.server --directory docs`,
+then open http://localhost:8000. Or open `site/index.html`, which needs nothing.
 
 ## The database
 

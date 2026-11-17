@@ -605,6 +605,13 @@ kiarostami,Q55210,honorary doctorate from ENS,Q126416244,2003,,
 kiarostami,Q55210,Konrad Wolf Prize,Q1529156,2003,,
 kiarostami,Q55210,Grand Jury Prize of the Venice Film Festival,Q944480,,,
 kiarostami,Q55210,Annual award ACFK,Q136442039,2012,,
+almodovar,Q55171,Princess of Asturias Awards,Q329157,,,
+almodovar,Q55171,Goya Awards,Q212828,1989,,
+almodovar,Q55171,European Film Awards,Q223740,1988,,
+almodovar,Q55171,César Award,Q174389,1993,,
+almodovar,Q55171,Academy Awards,Q19020,2000,,
+almodovar,Q55171,Golden Osella,Q1444982,1988,,
+almodovar,Q55171,Golden Lion,Q209459,2024,,
 almodovar,Q55171,European Film Award for Best Film,Q777921,2006,Volver,Q209667
 almodovar,Q55171,Adopted Son of Madrid,Q34477422,2018,,
 almodovar,Q55171,Goya Award for Best Original Screenplay,Q2634446,1989,Women on the Verge of a Nervous Breakdown,Q643283
@@ -629,13 +636,6 @@ almodovar,Q55171,BAFTA Award for Best Direction,Q787131,2000,All About My Mother
 almodovar,Q55171,European Film Award for Best Film,Q777921,1999,All About My Mother,Q329805
 almodovar,Q55171,European Film Award for Best Director,Q1377755,1999,All About My Mother,Q329805
 almodovar,Q55171,Legion of Honour,Q163700,,,
-almodovar,Q55171,Princess of Asturias Awards,Q329157,,,
-almodovar,Q55171,Golden Osella,Q1444982,1988,,
-almodovar,Q55171,Goya Awards,Q212828,1989,,
-almodovar,Q55171,European Film Awards,Q223740,1988,,
-almodovar,Q55171,César Award,Q174389,1993,,
-almodovar,Q55171,Academy Awards,Q19020,2000,,
-almodovar,Q55171,Golden Lion,Q209459,2024,,
 almodovar,Q55171,Golden Lion for Lifetime Achievement,Q3241784,2019,,
 haneke,Q84199,Princess of Asturias Award for the Arts,Q3319305,2013,,
 haneke,Q84199,European Film Award for Best Film,Q777921,2005,Caché,Q383173
@@ -811,9 +811,9 @@ wong,Q55431,Asian Film Award for Best Director,Q4806631,2014,The Grandmaster,Q11
 wong,Q55431,Cannes Best Director Award,Q510175,1997,Happy Together,Q1204213
 wong,Q55431,Commandeur des Arts et des Lettres,Q13452531,2013,,
 wong,Q55431,César Award,Q174389,2001,,
+wong,Q55431,Ordre des Arts et des Lettres,Q716909,,,
 wong,Q55431,Lumière Awards,Q693797,,,
 wong,Q55431,Legion of Honour,Q163700,,,
-wong,Q55431,Ordre des Arts et des Lettres,Q716909,,,
 tsai,Q698710,Golden Horse Award for Best Director,Q17500987,1994,Vive L'Amour,Q711684
 tsai,Q698710,Officer of Arts and Letters,Q13452524,2014,,
 tsai,Q698710,Asia's Most Influential Taiwan,Q115088776,2021,,
@@ -929,11 +929,11 @@ desica,Q53004,Grolla d'oro for Best Leading Actor,Q21236942,1954,"Bread, Love an
 desica,Q53004,Grolla d'oro for Best Direction,Q97279443,1955,The Gold of Naples,Q1168571
 visconti,Q13888,Nastro d'Argento for the director of the best film,Q1061238,,,
 visconti,Q13888,David di Donatello for Best Director,Q3703463,,,
-visconti,Q13888,Civil Order of Savoy,Q206967,,,
 visconti,Q13888,Silver Lion,Q1337827,1957,,
 visconti,Q13888,Grand Jury Prize of the Venice Film Festival,Q944480,1960,,
-visconti,Q13888,Palme d'Or,Q179808,1963,,
+visconti,Q13888,Civil Order of Savoy,Q206967,,,
 visconti,Q13888,Golden Lion,Q209459,1965,,
+visconti,Q13888,Palme d'Or,Q179808,1963,,
 rohmer,Q50764,David di Donatello Luchino Visconti,Q3703245,1990,,
 rohmer,Q50764,National Society of Film Critics Award for Best Screenplay,Q6978541,1970,My Night at Maud's,Q542527
 rohmer,Q50764,Golden Lion,Q209459,1986,The Green Ray,Q1171334
@@ -1315,6 +1315,14 @@ nolan,Q25191,Academy Award for Best Picture,Q102427,2024,Q108839994,Q108839994
 nolan,Q25191,Commander of the Order of the British Empire,Q12201477,2019,,
 nolan,Q25191,Bradbury Award,Q3405197,,,
 nolan,Q25191,Knight Bachelor,Q833163,2024,,
+cronenberg,Q55422,Officer of the Order of Canada,Q15278116,,,
+cronenberg,Q55422,Order of Ontario,Q742162,,,
+cronenberg,Q55422,Queen Elizabeth II Diamond Jubilee Medal,Q194540,,,
+cronenberg,Q55422,Academy of Canadian Cinema and Television Award for Best Motion Picture,Q2620100,1989,,
+cronenberg,Q55422,Academy of Canadian Cinema and Television Award for Best Motion Picture,Q2620100,1992,,
+cronenberg,Q55422,Time Machine Award,Q25405526,2002,,
+cronenberg,Q55422,Carrosse d'or,Q775028,2006,,
+cronenberg,Q55422,Knight of the Legion of Honour,Q10855271,,,
 cronenberg,Q55422,The George Pal Memorial Award,Q3101822,,,
 cronenberg,Q55422,Fellow of the Royal Society of Canada,Q3305342,,,
 cronenberg,Q55422,Companion of the Order of Canada,Q15278107,,,
@@ -1327,14 +1335,6 @@ cronenberg,Q55422,Jury Prize,Q164200,1996,Crash,Q839133
 cronenberg,Q55422,Bram Stoker Award for Lifetime Achievement,Q3910469,2024,,
 cronenberg,Q55422,Sitges Film Festival Best Director award,Q24051550,2002,Spider,Q930777
 cronenberg,Q55422,Sitges Film Festival Best Screenplay award,Q24051554,1977,Rage,Q2061958
-cronenberg,Q55422,Officer of the Order of Canada,Q15278116,,,
-cronenberg,Q55422,Order of Ontario,Q742162,,,
-cronenberg,Q55422,Queen Elizabeth II Diamond Jubilee Medal,Q194540,,,
-cronenberg,Q55422,Academy of Canadian Cinema and Television Award for Best Motion Picture,Q2620100,1989,,
-cronenberg,Q55422,Academy of Canadian Cinema and Television Award for Best Motion Picture,Q2620100,1992,,
-cronenberg,Q55422,Time Machine Award,Q25405526,2002,,
-cronenberg,Q55422,Carrosse d'or,Q775028,2006,,
-cronenberg,Q55422,Knight of the Legion of Honour,Q10855271,,,
 zhang,Q55430,Golden Lion,Q209459,1999,Not One Less,Q1190863
 zhang,Q55430,Golden Rooster Award for Best Director,Q5579756,2003,Hero,Q260379
 zhang,Q55430,Golden Lion,Q209459,1992,The Story of Qiu Ju,Q644174
@@ -1433,6 +1433,20 @@ kitano,Q26372,Nikkan Sports Film Award for Best Director,Q20649162,2003,Zatōich
 kitano,Q26372,Nikkan Sports Film Award for Best Newcomer,Q20649173,1989,Violent Cop,Q1156893
 ernstlubitsch,Q51562,star on Hollywood Walk of Fame,Q17985761,,,
 ernstlubitsch,Q51562,Academy Honorary Award,Q727328,1947,,
+woodyallen,Q25089,"Academy Award for Best Writing, Original Screenplay",Q41417,1978,Der Stadtneurotiker,Q233464
+woodyallen,Q25089,Butaca Awards,Q3822438,1996,Mighty Aphrodite,Q1354109
+woodyallen,Q25089,National Board of Review Award for Best Film,Q1789102,,,
+woodyallen,Q25089,Goya Award for Best European Film,Q2418096,2006,Match Point,Q733677
+woodyallen,Q25089,Sant Jordi Prize,Q2372386,2006,Match Point,Q733677
+woodyallen,Q25089,Golden Lion for Lifetime Achievement,Q3241784,1995,,
+woodyallen,Q25089,Academy Award for Best Director,Q103360,1978,Der Stadtneurotiker,Q233464
+woodyallen,Q25089,Bodil Awards,Q889842,1987,Hannah et ses sœurs,Q845057
+woodyallen,Q25089,Golden Globe Award for Best Screenplay,Q849124,2012,Midnight in Paris,Q206124
+woodyallen,Q25089,FIPRESCI Prize of the Festival de Cannes,Q3404587,1985,The Purple Rose of Cairo,Q912729
+woodyallen,Q25089,David di Donatello for Best Foreign Actor,Q3404523,1984,Zelig,Q187423
+woodyallen,Q25089,honorary doctorate of Pompeu Fabra University,Q50616934,2007,,
+woodyallen,Q25089,Directors Guild of America Award,Q1111310,,,
+woodyallen,Q25089,The President's Memorial Award,Q7758074,1986,The Purple Rose of Cairo,Q912729
 woodyallen,Q25089,BAFTA Fellowship,Q787148,1997,,
 woodyallen,Q25089,Donostia Award,Q908858,2004,,
 woodyallen,Q25089,David di Donatello for Best European Film,Q3703456,2006,Match Point,Q733677
@@ -1471,20 +1485,6 @@ woodyallen,Q25089,"Academy Award for Best Writing, Original Screenplay",Q41417,2
 woodyallen,Q25089,BAFTA Award for Best Original Screenplay,Q41375,1978,Der Stadtneurotiker,Q233464
 woodyallen,Q25089,Writers Guild of America Award,Q1415017,,,
 woodyallen,Q25089,David di Donatello for best foreign screenplay,Q3703473,1985,Broadway Danny Rose,Q729026
-woodyallen,Q25089,"Academy Award for Best Writing, Original Screenplay",Q41417,1978,Der Stadtneurotiker,Q233464
-woodyallen,Q25089,Butaca Awards,Q3822438,1996,Mighty Aphrodite,Q1354109
-woodyallen,Q25089,National Board of Review Award for Best Film,Q1789102,,,
-woodyallen,Q25089,Goya Award for Best European Film,Q2418096,2006,Match Point,Q733677
-woodyallen,Q25089,Sant Jordi Prize,Q2372386,2006,Match Point,Q733677
-woodyallen,Q25089,Golden Lion for Lifetime Achievement,Q3241784,1995,,
-woodyallen,Q25089,Academy Award for Best Director,Q103360,1978,Der Stadtneurotiker,Q233464
-woodyallen,Q25089,Bodil Awards,Q889842,1987,Hannah et ses sœurs,Q845057
-woodyallen,Q25089,Golden Globe Award for Best Screenplay,Q849124,2012,Midnight in Paris,Q206124
-woodyallen,Q25089,FIPRESCI Prize of the Festival de Cannes,Q3404587,1985,The Purple Rose of Cairo,Q912729
-woodyallen,Q25089,David di Donatello for Best Foreign Actor,Q3404523,1984,Zelig,Q187423
-woodyallen,Q25089,honorary doctorate of Pompeu Fabra University,Q50616934,2007,,
-woodyallen,Q25089,Directors Guild of America Award,Q1111310,,,
-woodyallen,Q25089,The President's Memorial Award,Q7758074,1986,The Purple Rose of Cairo,Q912729
 davidlean,Q55260,Golden Globe Award for Best Director,Q586356,1957,The Bridge on the River Kwai,Q188718
 davidlean,Q55260,Academy Award for Best Director,Q103360,1963,Lawrence of Arabia,Q228186
 davidlean,Q55260,Commander of the Order of the British Empire,Q12201477,1953,,
@@ -1714,7 +1714,6 @@ georgecukor,Q56014,"Primetime Emmy Award for Outstanding Directing for a Limited
 georgecukor,Q56014,Academy Award for Best Director,Q103360,1965,My Fair Lady,Q201215
 georgecukor,Q56014,Golden Plate Award,Q28663097,1970,,
 georgecukor,Q56014,star on Hollywood Walk of Fame,Q17985761,,,
-williamwyler,Q51495,Academy Award for Best Director,Q103360,1960,Ben Hur,Q180098
 williamwyler,Q51495,Irving G. Thalberg Memorial Award,Q844273,1965,,
 williamwyler,Q51495,Golden Plate Award,Q28663097,1961,,
 williamwyler,Q51495,star on Hollywood Walk of Fame,Q17985761,,,
@@ -1726,6 +1725,7 @@ williamwyler,Q51495,Academy Award for Best Director,Q103360,1943,Mrs. Miniver,Q4
 williamwyler,Q51495,BAFTA Award for Best Direction,Q787131,1960,Ben Hur,Q180098
 williamwyler,Q51495,Golden Globe Award for Best Director,Q586356,1960,Ben Hur,Q180098
 williamwyler,Q51495,Golden Globes,Q1011547,1960,,
+williamwyler,Q51495,Academy Award for Best Director,Q103360,1960,Ben Hur,Q180098
 kingvidor,Q51133,National Board of Review Award for Best Film,Q1789102,,,
 kingvidor,Q51133,Academy Honorary Award,Q727328,1979,,
 kingvidor,Q51133,star on Hollywood Walk of Fame,Q17985761,,,
@@ -1761,6 +1761,10 @@ robertzemeckis,Q187364,Hugo Award for Best Dramatic Presentation,Q3414212,1998,Q
 robertzemeckis,Q187364,Academy Awards,Q19020,,,
 robertzemeckis,Q187364,Ordre des Arts et des Lettres,Q716909,,,
 robertzemeckis,Q187364,Golden Globes,Q1011547,,,
+williamfriedkin,Q51582,The George Pal Memorial Award,Q3101822,,,
+williamfriedkin,Q51582,Officer of Arts and Letters,Q13452524,,,
+williamfriedkin,Q51582,Leopard of Honour,Q674146,,,
+williamfriedkin,Q51582,Academy Award for Best Director,Q103360,1972,The French Connection,Q220735
 williamfriedkin,Q51582,Time Machine Award,Q25405526,2007,,
 williamfriedkin,Q51582,Golden Globe Award for Best Director,Q586356,1973,L'Exorciste,Q274167
 williamfriedkin,Q51582,Golden Globe Award for Best Director,Q586356,1971,The French Connection,Q220735
@@ -1768,10 +1772,6 @@ williamfriedkin,Q51582,star on Hollywood Walk of Fame,Q17985761,,,
 williamfriedkin,Q51582,Directors Guild of America Award for Outstanding Directing – Feature Film,Q5280675,1971,The French Connection,Q220735
 williamfriedkin,Q51582,Robert Honorary Award,Q2580912,2014,,
 williamfriedkin,Q51582,Sitges Grand Honorary Award,Q48781665,2017,,
-williamfriedkin,Q51582,The George Pal Memorial Award,Q3101822,,,
-williamfriedkin,Q51582,Officer of Arts and Letters,Q13452524,,,
-williamfriedkin,Q51582,Leopard of Honour,Q674146,,,
-williamfriedkin,Q51582,Academy Award for Best Director,Q103360,1972,The French Connection,Q220735
 georgelucas,Q38222,Hugo Award for Best Dramatic Presentation,Q3414212,1981,"Star Wars, épisode V : L'Empire contre-attaque",Q181795
 georgelucas,Q38222,Hugo Award for Best Dramatic Presentation,Q3414212,1984,"Star Wars, épisode VI : Le Retour du Jedi",Q181803
 georgelucas,Q38222,Jane Fonda Humanitarian Award,Q133176391,2013,,
@@ -2099,10 +2099,10 @@ aleksandrsokurov,Q55172,Officer of Arts and Letters,Q13452524,,,
 aleksandrsokurov,Q55172,Golden Lion,Q209459,2011,,
 aleksandrsokurov,Q55172,Nika Lifetime Achievement Award,Q4377005,,,
 ritwikghatak,Q55404,Padma Shri in Art,Q30132541,1970,,
-samuelfuller,Q262479,Lucien Barrière Literary Award,Q20020742,1991,,
 samuelfuller,Q262479,Bronze Star Medal,Q928314,,,
 samuelfuller,Q262479,Purple Heart,Q145752,,,
 samuelfuller,Q262479,Silver Star,Q852071,,,
+samuelfuller,Q262479,Lucien Barrière Literary Award,Q20020742,1991,,
 paulverhoeven,Q129079,Sitges Film Festival Best Director award,Q24051550,1987,RoboCop,Q372514
 paulverhoeven,Q129079,Saturn Award for Best Director,Q1265702,1987,RoboCop,Q372514
 paulverhoeven,Q129079,Knight of the Order of the Netherlands Lion,Q1818405,,,
@@ -2142,10 +2142,10 @@ emirkusturica,Q94882,Golden Lion,Q209459,1998,,
 emirkusturica,Q94882,Cannes Best Director Award,Q510175,1989,,
 emirkusturica,Q94882,Annual award ACFK,Q136442039,2011,,
 emirkusturica,Q94882,Legion of Honour,Q163700,,,
-emirkusturica,Q94882,Order of St. Seraphim of Sarov,Q4336016,,,
 emirkusturica,Q94882,Order of the Star of Italy,Q3885347,,,
 emirkusturica,Q94882,Czech Medal of Merit,Q1141859,,,
 emirkusturica,Q94882,Ordre des Arts et des Lettres,Q716909,,,
+emirkusturica,Q94882,Order of St. Seraphim of Sarov,Q4336016,,,
 louismalle,Q55392,César Award,Q174389,,,
 louismalle,Q55392,BAFTA Award for Best Direction,Q787131,1989,Au revoir les enfants,Q187276
 louismalle,Q55392,BAFTA Award for Best Film,Q139184,1975,"Lacombe, Lucien",Q836115
@@ -2287,19 +2287,12 @@ peterjackson,Q4465,Golden Globes,Q1011547,,,
 peterjackson,Q4465,Australian Film Institute Award for Best Foreign Film,Q4824149,2004,Le Seigneur des anneaux : Le Retour du roi,Q131074
 peterjackson,Q4465,Golden Globe Award for Best Director,Q586356,,Le Seigneur des anneaux : Le Retour du roi,Q131074
 peterjackson,Q4465,Honorary Palme d'Or,Q1321674,2026,,
+peterjackson,Q4465,Saturn Awards,Q105447,2004,,
 peterjackson,Q4465,Silver Lion,Q1337827,1994,,
 peterjackson,Q4465,Saturn Awards,Q105447,2006,,
-peterjackson,Q4465,Saturn Awards,Q105447,2004,,
 peterjackson,Q4465,Producers Guild of America Awards,Q3406648,2012,,
-peterjackson,Q4465,Producers Guild of America Awards,Q3406648,2022,,
 peterjackson,Q4465,Producers Guild of America Awards,Q3406648,2014,,
-timburton,Q56008,Golden Lion for Lifetime Achievement,Q3241784,2007,,
-timburton,Q56008,Hugo Award,Q188914,1991,,
-timburton,Q56008,Daytime Emmy Award for Outstanding Children's Animated Program,Q3019369,1990,Beetlejuice,Q320384
-timburton,Q56008,Officer of Arts and Letters,Q13452524,2016,,
-timburton,Q56008,Inkpot Award,Q2687578,2009,,
-timburton,Q56008,Hugo Award for Best Dramatic Presentation,Q3414212,1991,Edward Scissorhands,Q217182
-timburton,Q56008,"Lumière Award, Lyon Festival of cinema",Q3404975,2022,,
+peterjackson,Q4465,Producers Guild of America Awards,Q3406648,2022,,
 timburton,Q56008,34th Moscow International Film Festival,Q4030940,,,
 timburton,Q56008,Winsor McCay Award,Q8025998,2009,,
 timburton,Q56008,David di Donatello Award for Lifetime Achievement,Q13634272,2019,,
@@ -2309,6 +2302,13 @@ timburton,Q56008,Chevalier des Arts et des Lettres,Q13452528,2010,,
 timburton,Q56008,Ordre des Arts et des Lettres,Q716909,,,
 timburton,Q56008,Empire Awards,Q24616,,,
 timburton,Q56008,Golden Globe Award for Best Motion Picture – Musical or Comedy,Q670282,2008,Sweeney Todd: The Demon Barber of Fleet Street,Q212041
+timburton,Q56008,Golden Lion for Lifetime Achievement,Q3241784,2007,,
+timburton,Q56008,Hugo Award,Q188914,1991,,
+timburton,Q56008,Daytime Emmy Award for Outstanding Children's Animated Program,Q3019369,1990,Beetlejuice,Q320384
+timburton,Q56008,Officer of Arts and Letters,Q13452524,2016,,
+timburton,Q56008,Inkpot Award,Q2687578,2009,,
+timburton,Q56008,Hugo Award for Best Dramatic Presentation,Q3414212,1991,Edward Scissorhands,Q217182
+timburton,Q56008,"Lumière Award, Lyon Festival of cinema",Q3404975,2022,,
 jonasmekas,Q699702,Lithuanian National Prize,Q1194509,1996,,
 jonasmekas,Q699702,Commandeur des Arts et des Lettres,Q13452531,2013,,
 jonasmekas,Q699702,honorary citizen of Biržai District Municipality,Q12651084,2011,,
@@ -2414,6 +2414,8 @@ reneclair,Q55388,Commandeur des Arts et des Lettres,Q13452531,,,
 reneclair,Q55388,Ordre de la Grande Gidouille,Q3355658,,,
 reneclair,Q55388,Grand Officer of the Legion of Honour,Q10855216,,,
 reneclair,Q55388,satrape du Collège de 'Pataphysique,Q3473988,,,
+raulruiz,Q459299,Golden Leopard,Q1700510,1969,Three Sad Tigers,Q5262922
+raulruiz,Q459299,César Award for Best Fiction Short Film,Q580337,1980,Colloque de chiens,Q2983534
 raulruiz,Q459299,Silver Bear for Outstanding Artistic Contribution,Q1266608,1997,Genealogies of a Crime,Q1379366
 raulruiz,Q459299,National Award for Arts and Audiovisual Representation of Chile,Q6084645,1997,,
 raulruiz,Q459299,Orden al Mérito Docente y Cultural Gabriela Mistral,Q9052807,2001,,
@@ -2421,14 +2423,12 @@ raulruiz,Q459299,honorary doctorate at École Normale Supérieure de Lyon,Q11114
 raulruiz,Q459299,Silver Shell for Best Director,Q608967,2010,Mysteries of Lisbon,Q2346467
 raulruiz,Q459299,Louis Delluc Prize,Q734335,2010,Mysteries of Lisbon,Q2346467
 raulruiz,Q459299,Satellite Award for Best Foreign Language Film,Q2354778,2011,Mysteries of Lisbon,Q2346467
-raulruiz,Q459299,Golden Leopard,Q1700510,1969,Three Sad Tigers,Q5262922
-raulruiz,Q459299,César Award for Best Fiction Short Film,Q580337,1980,Colloque de chiens,Q2983534
 giuseppetornatore,Q53045,David di Donatello for Best Director,Q3703463,,,
 giuseppetornatore,Q53045,David Giovani Award,Q16591983,,,
+giuseppetornatore,Q53045,Ciak d'oro - best director,Q97183932,,,
 giuseppetornatore,Q53045,BAFTA Award for Best Original Screenplay,Q41375,1990,Cinema Paradiso,Q464032
 giuseppetornatore,Q53045,Nastro d'Argento for Best Screenplay,Q1966051,,,
 giuseppetornatore,Q53045,Nastro d'Argento for the director of the best film,Q1061238,,,
-giuseppetornatore,Q53045,BAFTA Award for Best Film Not in the English Language,Q2925687,1990,Cinema Paradiso,Q464032
 giuseppetornatore,Q53045,European Film Academy Special Jury Award,Q77533361,1989,Cinema Paradiso,Q464032
 giuseppetornatore,Q53045,Cannes Film Festival Grand Prix,Q844804,1989,Cinema Paradiso,Q464032
 giuseppetornatore,Q53045,Nastro d'Argento for Best New Director,Q3870546,,,
@@ -2439,7 +2439,7 @@ giuseppetornatore,Q53045,European Film Award – People's Choice Award for Best 
 giuseppetornatore,Q53045,Nastro d'Argento for Best Producer,Q6967724,,,
 giuseppetornatore,Q53045,Nastro d'argento al miglior documentario sul cinema,Q16581272,,,
 giuseppetornatore,Q53045,David di Donatello School Award,Q21235054,,,
-giuseppetornatore,Q53045,Ciak d'oro - best director,Q97183932,,,
+giuseppetornatore,Q53045,BAFTA Award for Best Film Not in the English Language,Q2925687,1990,Cinema Paradiso,Q464032
 jeanrouch,Q166405,Liotard Award,Q67881293,1948,,
 jeanrouch,Q166405,Honorary doctor of Leiden University,Q97556388,1980,,
 sydneypollack,Q51522,National Board of Review Award for Best Film,Q1789102,,,
@@ -2592,11 +2592,11 @@ jonathanglazer,Q1703182,BAFTA Award for Best British Film,Q2663714,2024,The Zone
 fernandoesolanas,Q508497,Sutherland Trophy,Q7650000,1972,The Hour of the Furnaces,Q3950846
 fernandoesolanas,Q508497,Guggenheim Fellowship,Q1316544,,,
 fernandoesolanas,Q508497,Cannes Best Director Award,Q510175,1988,Sur,Q2276282
+hiroshiteshigahara,Q741623,Blue Ribbon Awards for Best Director,Q19833431,1965,,
+hiroshiteshigahara,Q741623,Commandeur des Arts et des Lettres,Q13452531,1996,,
 hiroshiteshigahara,Q741623,Mainichi Film Award for Best Director,Q20002163,,,
 hiroshiteshigahara,Q741623,Medal with Purple Ribbon,Q11605748,1992,,
 hiroshiteshigahara,Q741623,Jury Prize,Q164200,1964,The Woman in the Dunes,Q1207936
-hiroshiteshigahara,Q741623,Blue Ribbon Awards for Best Director,Q19833431,1965,,
-hiroshiteshigahara,Q741623,Commandeur des Arts et des Lettres,Q13452531,1996,,
 williamgreaves,Q8010139,Black Filmmakers Hall of Fame,Q880233,1980,,
 williamgreaves,Q8010139,Paul Robeson Award,Q7153268,2012,,
 sallypotter,Q268840,Officer of the Order of the British Empire,Q10762848,2012,,
@@ -2611,11 +2611,11 @@ isaotakahata,Q178713,Art Encouragement Prizes,Q11615995,1992,Only Yesterday,Q104
 joshuaoppenheimer,Q6290103,MacArthur Fellows Program,Q1543268,,,
 joshuaoppenheimer,Q6290103,Marshall Scholarship,Q4442635,,,
 joshuaoppenheimer,Q6290103,European Film Award for Best Documentary,Q1377752,2013,The Act of Killing,Q7712287
+andrzejzulawski,Q515904,Time Machine Award,Q25405526,2015,,
+andrzejzulawski,Q515904,Annual award ACFK,Q136442039,2005,,
 andrzejzulawski,Q515904,Commandeur des Arts et des Lettres,Q13452531,1996,,
 andrzejzulawski,Q515904,Leopard for Best Direction,Q3895781,2015,Cosmos,Q19879566
 andrzejzulawski,Q515904,Commander with Star of the Order of Polonia Restituta,Q15715254,2001,,
-andrzejzulawski,Q515904,Time Machine Award,Q25405526,2015,,
-andrzejzulawski,Q515904,Annual award ACFK,Q136442039,2005,,
 patricioguzman,Q2057315,Prix du meilleur court métrage du syndicat français de la critique de cinéma,Q19521329,1975,The Battle of Chile: Part 1,Q5552089
 patricioguzman,Q2057315,Hot Docs Award for Best Political Documentary,Q140287343,1998,"Chile, the Obstinate Memory",Q22719245
 patricioguzman,Q2057315,Hot Docs Award for Best Canadian Feature Documentary,Q112109266,1998,"Chile, the Obstinate Memory",Q22719245
@@ -2766,6 +2766,7 @@ pietrogermi,Q53006,David di Donatello for Best Producer,Q3703461,,,
 pietrogermi,Q53006,Nastro d'Argento for the director of the best film,Q1061238,1957,,
 pietrogermi,Q53006,David di Donatello for Best Director,Q3703463,,,
 pietrogermi,Q53006,Nastro d'Argento Special,Q3870558,,,
+claudelelouch,Q295093,Commander of the Order of the Crown,Q17200714,2016,,
 claudelelouch,Q295093,Knight of the Legion of Honour,Q10855271,2008,,
 claudelelouch,Q295093,Jean-Le-Duc award,Q16509832,,,
 claudelelouch,Q295093,David di Donatello for Best Foreign Director,Q3703465,,,
@@ -2776,7 +2777,6 @@ claudelelouch,Q295093,Palme d'Or,Q179808,1967,A Man and a Woman,Q261403
 claudelelouch,Q295093,Commandeur des Arts et des Lettres,Q13452531,1997,,
 claudelelouch,Q295093,Paulée de Meursault Prize,Q30738305,2008,,
 claudelelouch,Q295093,Honorary Lumière Award,Q105687604,2019,A Man and a Woman,Q261403
-claudelelouch,Q295093,Commander of the Order of the Crown,Q17200714,2016,,
 eliopetri,Q53044,Nastro d'Argento for Best Subject,Q16156319,,,
 eliopetri,Q53044,Nastro d'Argento for the director of the best film,Q1061238,1968,,
 eliopetri,Q53044,Best Screenplay Award,Q978420,1967,We Still Kill the Old Way,Q232116
@@ -2786,6 +2786,8 @@ eliopetri,Q53044,Grand Jury Prize of the Venice Film Festival,Q944480,1970,Inves
 eliopetri,Q53044,Cannes Film Festival Grand Prix,Q844804,1970,Investigation of a Citizen Above Suspicion,Q1299410
 eliopetri,Q53044,Palme d'Or,Q179808,1972,The Working Class Goes to Heaven,Q1197936
 eliopetri,Q53044,FIPRESCI Prize of the Festival de Cannes,Q3404587,1970,Investigation of a Citizen Above Suspicion,Q1299410
+taviani,Q10392130,David di Donatello for Best Script,Q3703472,,,
+taviani,Q10392130,Nastro d'Argento for the director of the best film,Q1061238,,,
 taviani,Q10392130,David di Donatello for Best Film,Q768476,,,
 taviani,Q10392130,David di Donatello for Best Director,Q3703463,,,
 taviani,Q10392130,Nastro d'Argento for Best Screenplay,Q1966051,,,
@@ -2793,8 +2795,6 @@ taviani,Q10392130,David di Donatello Award for Lifetime Achievement,Q13634272,,,
 taviani,Q10392130,Grand Officer of the Order of Merit of the Italian Republic,Q14539884,,,
 taviani,Q10392130,Globo d'oro for Livetime Achievement,Q3772362,,,
 taviani,Q10392130,Globo d'oro for best film,Q3772360,,,
-taviani,Q10392130,David di Donatello for Best Script,Q3703472,,,
-taviani,Q10392130,Nastro d'Argento for the director of the best film,Q1061238,,,
 taviani,Q7008165,David di Donatello for Best Film,Q768476,,,
 taviani,Q7008165,Globo d'oro for best film,Q3772360,,,
 taviani,Q7008165,Grand Officer of the Order of Merit of the Italian Republic,Q14539884,,,
@@ -2847,6 +2847,9 @@ yilmazguney,Q126693,Golden Orange Award Best actor,Q21541486,1967,,
 yilmazguney,Q126693,Golden Orange Award Best actor,Q21541486,1970,,
 yilmazguney,Q126693,Golden Orange for Best Screenplay,Q12808470,1975,,
 yilmazguney,Q126693,International Adana Film Festival Awards,Q6104527,1971,,
+billeaugust,Q315062,Den Spillende Faun,Q100908250,2015,,
+billeaugust,Q315062,Palme d'Or,Q179808,1992,The Best Intentions,Q1217937
+billeaugust,Q315062,Honorary craftsman,Q23899619,1993,,
 billeaugust,Q315062,LO's kulturpris,Q12323516,1984,,
 billeaugust,Q315062,Statens Kunstfonds hædersydelse,Q18123892,,,
 billeaugust,Q315062,Knight of the Order of the Dannebrog,Q18601721,1992,,
@@ -2854,9 +2857,6 @@ billeaugust,Q315062,The Amanda Committee's Honorary Award,Q18912995,1993,,
 billeaugust,Q315062,Palme d'Or,Q179808,1988,Pelle the Conqueror,Q370707
 billeaugust,Q315062,Chevalier des Arts et des Lettres,Q13452528,,,
 billeaugust,Q315062,Commander of the Order of the Polar Star,Q20899923,,,
-billeaugust,Q315062,Den Spillende Faun,Q100908250,2015,,
-billeaugust,Q315062,Palme d'Or,Q179808,1992,The Best Intentions,Q1217937
-billeaugust,Q315062,Honorary craftsman,Q23899619,1993,,
 stevensoderbergh,Q103917,New York Film Critics Circle Award for Best Director,Q696972,2000,Traffic – Macht des Kartells,Q142292
 stevensoderbergh,Q103917,National Society of Film Critics Award for Best Director,Q1315008,2000,"Erin Brockovich, seule contre tous",Q220955
 stevensoderbergh,Q103917,Dallas-Fort Worth Film Critics Association Award for Best Director,Q5211225,2000,Traffic – Macht des Kartells,Q142292
@@ -2917,17 +2917,6 @@ abdellatifkechiche,Q307996,César Award for Best Original Screenplay or Adaptati
 abdellatifkechiche,Q307996,César Award for Best Film,Q645595,2008,The Secret of the Grain,Q521484
 abdellatifkechiche,Q307996,European Film Academy Critics Award,Q1377683,2008,The Secret of the Grain,Q521484
 abdellatifkechiche,Q307996,César Award for Best Director,Q24137,2008,The Secret of the Grain,Q521484
-jacquesaudiard,Q382389,Silver Lion,Q1337827,2018,The Sisters Brothers,Q29558633
-jacquesaudiard,Q382389,Academy Award for Best Original Song,Q112243,2025,El Mal,Q131340862
-jacquesaudiard,Q382389,César Award for Best Director,Q24137,2010,A Prophet,Q1061541
-jacquesaudiard,Q382389,César Award for Best Film,Q645595,2010,A Prophet,Q1061541
-jacquesaudiard,Q382389,César Award for Best Director,Q24137,2006,The Beat That My Heart Skipped,Q931671
-jacquesaudiard,Q382389,European Film Award for Best Screenwriter,Q1377777,2024,Emilia Pérez,Q123928072
-jacquesaudiard,Q382389,César Award for Best Director,Q24137,2025,Emilia Pérez,Q123928072
-jacquesaudiard,Q382389,BAFTA Award for Best Film Not in the English Language,Q2925687,2006,The Beat That My Heart Skipped,Q931671
-jacquesaudiard,Q382389,Lumière Award for Best Film,Q951810,2025,Emilia Pérez,Q123928072
-jacquesaudiard,Q382389,Lumière Award for Best Director,Q2111269,2025,Emilia Pérez,Q123928072
-jacquesaudiard,Q382389,Lumière Award for Best Screenplay,Q3404984,2025,Emilia Pérez,Q123928072
 jacquesaudiard,Q382389,Cannes Film Festival Grand Prix,Q844804,2009,A Prophet,Q1061541
 jacquesaudiard,Q382389,International Cinephile Society Award for Best Director,Q117384092,2011,A Prophet,Q1061541
 jacquesaudiard,Q382389,European Film Award for Best Director,Q1377755,2024,Emilia Pérez,Q123928072
@@ -2943,6 +2932,23 @@ jacquesaudiard,Q382389,National Board of Review Award for Best Foreign Language 
 jacquesaudiard,Q382389,César Award for Best Film,Q645595,2006,The Beat That My Heart Skipped,Q931671
 jacquesaudiard,Q382389,Louis Delluc Prize,Q734335,2009,A Prophet,Q1061541
 jacquesaudiard,Q382389,César Award for Best Adaptation,Q832120,2013,Rust and Bone,Q73803
+jacquesaudiard,Q382389,Silver Lion,Q1337827,2018,The Sisters Brothers,Q29558633
+jacquesaudiard,Q382389,Academy Award for Best Original Song,Q112243,2025,El Mal,Q131340862
+jacquesaudiard,Q382389,César Award for Best Director,Q24137,2010,A Prophet,Q1061541
+jacquesaudiard,Q382389,César Award for Best Film,Q645595,2010,A Prophet,Q1061541
+jacquesaudiard,Q382389,César Award for Best Director,Q24137,2006,The Beat That My Heart Skipped,Q931671
+jacquesaudiard,Q382389,European Film Award for Best Screenwriter,Q1377777,2024,Emilia Pérez,Q123928072
+jacquesaudiard,Q382389,César Award for Best Director,Q24137,2025,Emilia Pérez,Q123928072
+jacquesaudiard,Q382389,BAFTA Award for Best Film Not in the English Language,Q2925687,2006,The Beat That My Heart Skipped,Q931671
+jacquesaudiard,Q382389,Lumière Award for Best Film,Q951810,2025,Emilia Pérez,Q123928072
+jacquesaudiard,Q382389,Lumière Award for Best Director,Q2111269,2025,Emilia Pérez,Q123928072
+jacquesaudiard,Q382389,Lumière Award for Best Screenplay,Q3404984,2025,Emilia Pérez,Q123928072
+rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2014,Force Majeure,Q10706553
+rubenostlund,Q211228,European Film Award for Best Film,Q777921,2022,Sans filtre,Q97304180
+rubenostlund,Q211228,Guldbagge Award for Best Screenplay,Q1554232,2014,Force Majeure,Q10706553
+rubenostlund,Q211228,Q70337230,Q70337230,2015,,
+rubenostlund,Q211228,Palme d'Or,Q179808,2017,The Square,Q27237522
+rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2018,The Square,Q27237522
 rubenostlund,Q211228,European Film Award for Best Comedy,Q18535068,2017,The Square,Q27237522
 rubenostlund,Q211228,European Film Award for Best Screenwriter,Q1377777,2017,The Square,Q27237522
 rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2017,The Square,Q27237522
@@ -2957,12 +2963,6 @@ rubenostlund,Q211228,H. M. The King's Medal,Q2075591,2020,,
 rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2023,Sans filtre,Q97304180
 rubenostlund,Q211228,Greta,Q10685004,2015,Force Majeure,Q10706553
 rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2011,Play,Q2614695
-rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2014,Force Majeure,Q10706553
-rubenostlund,Q211228,European Film Award for Best Film,Q777921,2022,Sans filtre,Q97304180
-rubenostlund,Q211228,Guldbagge Award for Best Screenplay,Q1554232,2014,Force Majeure,Q10706553
-rubenostlund,Q211228,Q70337230,Q70337230,2015,,
-rubenostlund,Q211228,Palme d'Or,Q179808,2017,The Square,Q27237522
-rubenostlund,Q211228,Guldbagge Award for Best Director,Q1554228,2018,The Square,Q27237522
 juliaducournau,Q24061147,Chevalier des Arts et des Lettres,Q13452528,2022,,
 juliaducournau,Q24061147,Palme d'Or,Q179808,2021,Titane,Q105393862
 justinetriet,Q15069938,"Academy Award for Best Writing, Original Screenplay",Q41417,2024,Anatomy of a Fall,Q117037697
@@ -2988,6 +2988,11 @@ andreyzvyagintsev,Q122425,Golden Lion,Q209459,2003,The Return,Q385494
 andreyzvyagintsev,Q122425,Golden Globe Award for Best Non-English Language Film,Q387380,2015,Leviathan,Q15972383
 andreyzvyagintsev,Q122425,Best Screenplay Award,Q978420,2014,Leviathan,Q15972383
 andreyzvyagintsev,Q122425,Cannes Film Festival Grand Prix,Q844804,2026,Minotaur,Q137612975
+joachimtrier,Q653571,Norwegian Film Critics’ Award,Q3858187,2012,"Oslo, August 31st",Q401566
+joachimtrier,Q653571,Amanda Award for Best Direction,Q18907804,2007,Reprise,Q499512
+joachimtrier,Q653571,Amanda Award for Best Direction,Q18907804,2012,"Oslo, August 31st",Q401566
+joachimtrier,Q653571,Cannes Film Festival Grand Prix,Q844804,2025,Sentimental Value,Q130284179
+joachimtrier,Q653571,Kanon Award for Best Direction,Q19458556,2011,"Oslo, August 31st",Q401566
 joachimtrier,Q653571,Sitges Film Festival Best Screenplay award,Q24051554,2017,Thelma,Q28233735
 joachimtrier,Q653571,Kanon Award for Best Direction,Q19458556,2015,Louder Than Bombs,Q18151930
 joachimtrier,Q653571,Amanda Award for Best Screenplay,Q18912868,2007,Reprise,Q499512
@@ -3002,11 +3007,6 @@ joachimtrier,Q653571,European Film Award for Best Director,Q1377755,2026,Sentime
 joachimtrier,Q653571,European Film Award for Best Screenwriter,Q1377777,2026,Sentimental Value,Q130284179
 joachimtrier,Q653571,Amanda Award for Best Direction,Q18907804,2026,Sentimental Value,Q130284179
 joachimtrier,Q653571,Amanda Award for Best Screenplay,Q18912868,2026,Sentimental Value,Q130284179
-joachimtrier,Q653571,Norwegian Film Critics’ Award,Q3858187,2012,"Oslo, August 31st",Q401566
-joachimtrier,Q653571,Amanda Award for Best Direction,Q18907804,2007,Reprise,Q499512
-joachimtrier,Q653571,Amanda Award for Best Direction,Q18907804,2012,"Oslo, August 31st",Q401566
-joachimtrier,Q653571,Cannes Film Festival Grand Prix,Q844804,2025,Sentimental Value,Q130284179
-joachimtrier,Q653571,Kanon Award for Best Direction,Q19458556,2011,"Oslo, August 31st",Q401566
 alejandrogonzalezinarritu,Q55215,Academy Award for Best Director,Q103360,2015,Birdman oder (Die unverhoffte Macht der Ahnungslosigkeit),Q13255497
 alejandrogonzalezinarritu,Q55215,Ordre des Arts et des Lettres,Q716909,,,
 alejandrogonzalezinarritu,Q55215,Dallas-Fort Worth Film Critics Association Award for Best Director,Q5211225,2014,Birdman oder (Die unverhoffte Macht der Ahnungslosigkeit),Q13255497
@@ -3022,7 +3022,6 @@ alejandrogonzalezinarritu,Q55215,Directors Guild of America Award for Outstandin
 alejandrogonzalezinarritu,Q55215,Dallas-Fort Worth Film Critics Association Award for Best Director,Q5211225,2015,The Revenant – Der Rückkehrer,Q18002795
 alejandrogonzalezinarritu,Q55215,AACTA International Award for Best Direction,Q4649837,2015,Birdman oder (Die unverhoffte Macht der Ahnungslosigkeit),Q13255497
 alejandrogonzalezinarritu,Q55215,"Academy Award for Best Writing, Original Screenplay",Q41417,2015,Birdman oder (Die unverhoffte Macht der Ahnungslosigkeit),Q13255497
-alejandrojodorowsky,Q263730,Adamson Awards,Q1781888,2013,,
 alejandrojodorowsky,Q263730,Yellow Kid Award,Q2600026,1998,,
 alejandrojodorowsky,Q263730,Pablo Neruda Order of Artistic and Cultural Merit,Q6052090,2006,,
 alejandrojodorowsky,Q263730,Time Machine Award,Q25405526,2006,,
@@ -3030,6 +3029,7 @@ alejandrojodorowsky,Q263730,Leopard of Honour,Q674146,2016,,
 alejandrojodorowsky,Q263730,Officer of Arts and Letters,Q13452524,2015,,
 alejandrojodorowsky,Q263730,Éléphant d'or du public décerné par les lecteurs de la médiathèque de Chambéry,Q136512327,2003,,
 alejandrojodorowsky,Q263730,Éléphant d'or du meilleur album de l’année,Q136512322,2003,,
+alejandrojodorowsky,Q263730,Adamson Awards,Q1781888,2013,,
 alexanderpayne,Q313566,"Academy Award for Best Writing, Adapted Screenplay",Q107258,2005,Entre copas,Q675937
 alexanderpayne,Q313566,Writers Guild of America Award,Q1415017,,,
 alexanderpayne,Q313566,Dallas-Fort Worth Film Critics Association Award for Best Director,Q5211225,2011,The Descendants,Q273686
@@ -3470,18 +3470,18 @@ edgarmorin,Q317880,Grand Officer of the National Order of Merit,Q13422142,2012,,
 edgarmorin,Q317880,Prix Européen de l'Essai Charles Veillon,Q621552,1987,,
 edgarmorin,Q317880,honorary doctor of the University of Valencia,Q50618211,2004,,
 edgarmorin,Q317880,Commandeur des Arts et des Lettres,Q13452531,,,
-edgarreitz,Q64392,German Film Award for Best Direction,Q1204812,2014,Home from Home,Q14759456
-edgarreitz,Q64392,Officer of Arts and Letters,Q13452524,,,
-edgarreitz,Q64392,Carl Zuckmayer Medal,Q858528,2004,,
-edgarreitz,Q64392,German Film Award for Best Feature Film,Q1204831,1977,Zero Hour,Q19841114
-edgarreitz,Q64392,Konrad Wolf Prize,Q1529156,2007,,
-edgarreitz,Q64392,German Film Honorary Award,Q1204836,1982,,
 edgarreitz,Q64392,David di Donatello Luchino Visconti,Q3703245,1993,,
 edgarreitz,Q64392,Kulturgroschen,Q29051046,2009,,
 edgarreitz,Q64392,Commander's Cross of the Order of Merit of the Federal Republic of Germany,Q10905276,2006,,
 edgarreitz,Q64392,Officer's Cross of the Order of Merit of the Federal Republic of Germany,Q10905334,1992,,
 edgarreitz,Q64392,Bavarian Maximilian Order for Science and Art,Q565030,2016,,
 edgarreitz,Q64392,Order of Merit of Rhineland-Palatinate,Q470078,,,
+edgarreitz,Q64392,German Film Award for Best Direction,Q1204812,2014,Home from Home,Q14759456
+edgarreitz,Q64392,Officer of Arts and Letters,Q13452524,,,
+edgarreitz,Q64392,Carl Zuckmayer Medal,Q858528,2004,,
+edgarreitz,Q64392,German Film Award for Best Feature Film,Q1204831,1977,Zero Hour,Q19841114
+edgarreitz,Q64392,Konrad Wolf Prize,Q1529156,2007,,
+edgarreitz,Q64392,German Film Honorary Award,Q1204836,1982,,
 eduardocoutinho,Q1290892,Order of Cultural Merit (Brazil),Q10341322,2005,,
 eduardocoutinho,Q1290892,Guggenheim Fellowship,Q1316544,,,
 euzhanpalcy,Q440423,Women in Film Honors,Q8031439,2018,,
@@ -3535,15 +3535,15 @@ grigorialeksandrov,Q561459,Order of the Red Banner of Labour,Q478850,1967,,
 grigorialeksandrov,Q561459,"State Stalin Prize, 1st degree",Q56669004,1941,,
 grigorialeksandrov,Q561459,"State Stalin Prize, 1st degree",Q56669004,1950,,
 hcpotter,Q937589,star on Hollywood Walk of Fame,Q17985761,,,
+hansjurgensyberberg,Q64358,German Film Award,Q708731,1973,,
+hansjurgensyberberg,Q64358,Commandeur des Arts et des Lettres,Q13452531,2011,,
+hansjurgensyberberg,Q64358,German Critics' Prize,Q1205040,1968,,
+hansjurgensyberberg,Q64358,German Critics' Prize,Q1205040,1982,,
 hansjurgensyberberg,Q64358,Grimme-Preis,Q472379,1973,Theodor Hierneis oder Wie man ehem. Hofkoch wird,Q14321390
 hansjurgensyberberg,Q64358,German Film Award for Best Screenplay,Q1204825,1972,Ludwig: Requiem for a Virgin King,Q6699165
 hansjurgensyberberg,Q64358,Cross of the Order of Merit of the Federal Republic of Germany,Q10905380,,,
 hansjurgensyberberg,Q64358,Sutherland Trophy,Q7650000,1977,Hitler: A Film from Germany,Q828806
 hansjurgensyberberg,Q64358,German Film Award for Best Direction,Q1204812,1986,Die Nacht,Q3823366
-hansjurgensyberberg,Q64358,German Critics' Prize,Q1205040,1968,,
-hansjurgensyberberg,Q64358,German Film Award,Q708731,1973,,
-hansjurgensyberberg,Q64358,Commandeur des Arts et des Lettres,Q13452531,2011,,
-hansjurgensyberberg,Q64358,German Critics' Prize,Q1205040,1982,,
 harunfarocki,Q67547,Wilhelm Loth Award,Q2571516,2009,,
 harunfarocki,Q67547,Peter-Weiss Prize,Q2073497,2002,,
 hideakianno,Q23261,Nihon SF Taisho Award,Q10311458,1997,Neon Genesis Evangelion,Q662
@@ -3645,9 +3645,9 @@ katsuhirootomo,Q378710,Seiun Award for Best Comic,Q85196003,1982,,
 katsuhirootomo,Q378710,Nihon SF Taisho Award,Q10311458,1983,Domu: A Child's Dream,Q1170375
 katsuhirootomo,Q378710,Seiun Award for Best Comic,Q85196003,1984,,
 katsuhirootomo,Q378710,Kodansha Manga Award,Q39174,1984,Akira,Q91486
-kazuohara,Q4495668,Blue Ribbon Awards for Best Director,Q19833431,1988,,
 kazuohara,Q4495668,Mainichi Film Award for Best Director,Q20002163,,,
 kazuohara,Q4495668,Directors Guild of Japan New Directors Award,Q5280710,1987,The Emperor's Naked Army Marches On,Q3282582
+kazuohara,Q4495668,Blue Ribbon Awards for Best Director,Q19833431,1988,,
 kennethlonergan,Q968840,Sundance Film Festival U.S. Dramatic Grand Jury Prize Award,Q3774974,2000,You Can Count on Me,Q2300341
 kennethlonergan,Q968840,New York Film Critics Circle Award for Best Screenplay,Q1355247,,,
 kennethlonergan,Q968840,Sutherland Trophy,Q7650000,2000,You Can Count on Me,Q2300341
@@ -3746,9 +3746,9 @@ satrapiparonnaud,Q126633,Max und Moritz Award for Best German-language Comic,Q13
 satrapiparonnaud,Q126633,Prix France Info,Q3404600,2002,,
 satrapiparonnaud,Q126633,Adamson Awards,Q1781888,2015,,
 satrapiparonnaud,Q126633,Angoulême International Comics Festival Prize for First Comic Book,Q3406061,2001,,
-satrapiparonnaud,Q126633,Chevalier des Arts et des Lettres,Q13452528,2005,,
 satrapiparonnaud,Q126633,César Award,Q174389,,,
 satrapiparonnaud,Q126633,Princess of Asturias Awards,Q329157,,,
+satrapiparonnaud,Q126633,Chevalier des Arts et des Lettres,Q13452528,2005,,
 satrapiparonnaud,Q126633,Officer of Arts and Letters,Q13452524,2015,,
 markrobson,Q31225,star on Hollywood Walk of Fame,Q17985761,,,
 marksandrich,Q382529,star on Hollywood Walk of Fame,Q17985761,,,
@@ -3796,14 +3796,14 @@ miranair,Q466320,Caméra d'Or,Q775091,1988,,
 nelsonpereiradossantos,Q737762,Commander of the Order of Rio Branco,Q59636935,,,
 nelsonpereiradossantos,Q737762,Order of Cultural Merit (Brazil),Q10341322,2003,,
 nelsonpereiradossantos,Q737762,honorary doctorate of Paris Nanterre University,Q112115429,1992,,
-nickpark,Q336206,Academy Award for Best Animated Short Film,Q917808,1994,The Wrong Trousers,Q1969617
-nickpark,Q336206,Winsor McCay Award,Q8025998,2008,,
-nickpark,Q336206,Commander of the Order of the British Empire,Q12201477,,,
-nickpark,Q336206,Annie Award,Q566905,,,
 nickpark,Q336206,Academy Award for Best Animated Short Film,Q917808,1996,A Close Shave,Q400097
 nickpark,Q336206,Royal Designer for Industry,Q3445914,2006,,
 nickpark,Q336206,Academy Award for Best Animated Short Film,Q917808,1991,Creature Comforts,Q2671873
 nickpark,Q336206,Academy Award for Best Animated Feature,Q106800,2006,Wallace et Gromit : Le Mystère du lapin-garou,Q318428
+nickpark,Q336206,Academy Award for Best Animated Short Film,Q917808,1994,The Wrong Trousers,Q1969617
+nickpark,Q336206,Winsor McCay Award,Q8025998,2008,,
+nickpark,Q336206,Commander of the Order of the British Empire,Q12201477,,,
+nickpark,Q336206,Annie Award,Q566905,,,
 normanmclaren,Q716552,Molson Prize,Q992455,1972,,
 normanmclaren,Q716552,Academy Award for Best Documentary (Short Subject),Q1425151,1953,Neighbours,Q3562390
 normanmclaren,Q716552,Royal Designers for Industry honoraire,Q59783532,1986,,
@@ -3880,11 +3880,11 @@ tomtykwer,Q57231,Herbert Strate Award,Q15815187,2005,,
 tomasalfredson,Q457656,Guldbagge Award for Best Director,Q1554228,2004,Four Shades of Brown,Q1764329
 tomasalfredson,Q457656,Guldbagge Award for Best Director,Q1554228,2008,Let the Right One In,Q144756
 ulrikeottinger,Q77756,Cross of the Order of Merit of the Federal Republic of Germany,Q10905380,,,
+valieexport,Q459681,prix Gabriele-Münter,Q1490521,1997,,
 valieexport,Q459681,Austrian Decoration for Science and Art,Q306590,2005,,
 valieexport,Q459681,Decoration of Honour in Gold for Services to the State of Vienna,Q18507211,,,
 valieexport,Q459681,City of Vienna Prize for Fine Arts,Q1644841,1990,,
 valieexport,Q459681,Great Golden Medal of Honour for Services to the Republic of Austria,Q17505835,,,
-valieexport,Q459681,prix Gabriele-Münter,Q1490521,1997,,
 warrenbeatty,Q95030,Ordre des Arts et des Lettres,Q716909,,,
 warrenbeatty,Q95030,Golden Globes,Q1011547,1962,,
 warrenbeatty,Q95030,California Hall of Fame,Q5020532,2012,,
@@ -3963,8 +3963,8 @@ avaduvernay,Q4827381,Dorothy Arzner Directors Award,Q133176287,2015,,
 avaduvernay,Q4827381,Time 100,Q604370,2017,,
 avaduvernay,Q4827381,VH1 Trailblazer Honors,Q55316905,2019,,
 avaduvernay,Q4827381,Sundance U.S. Directing Award: Dramatic,Q2366084,2012,Middle of Nowhere,Q3736162
-abelferrara,Q262608,prix transfuge du livre de cinéma,Q137870547,2026,,
 abelferrara,Q262608,Time Machine Award,Q25405526,2008,,
+abelferrara,Q262608,prix transfuge du livre de cinéma,Q137870547,2026,,
 walterhill,Q350422,Primetime Emmy Award for Outstanding Directing for a Drama Series,Q583972,2004,Deadwood,Q1050603
 walterhill,Q350422,Hugo Award for Best Dramatic Presentation,Q3414212,1987,"Aliens, le retour",Q104814
 walterhill,Q350422,Primetime Emmy Award for Outstanding Limited Miniseries,Q20714679,2007,Broken Trail,Q925865
@@ -4018,7 +4018,6 @@ alainguiraudie,Q2829890,Sade Prize,Q3405266,2014,Ici commence la nuit,Q98899712
 alainguiraudie,Q2829890,Queer Palm,Q2159561,2013,,
 alainguiraudie,Q2829890,Un Certain Regard,Q1071326,2013,,
 alainguiraudie,Q2829890,prix littéraire Jesus Paradis,Q125256606,2022,,
-francoisozon,Q266535,René Clair Award,Q3405213,2026,,
 francoisozon,Q266535,European Film Award for Best Screenwriter,Q1377777,2013,In the House,Q119526
 francoisozon,Q266535,Golden Shell,Q775086,2012,In the House,Q119526
 francoisozon,Q266535,Sitges Film Festival Best Screenplay award,Q24051554,1999,Criminal Lovers,Q1305585
@@ -4026,6 +4025,7 @@ francoisozon,Q266535,Officer of Arts and Letters,Q13452524,2011,,
 francoisozon,Q266535,Sebastiane Award,Q955361,2014,The New Girlfriend,Q16681852
 francoisozon,Q266535,Officer's Cross of the Order of Merit of the Federal Republic of Germany,Q10905334,2018,,
 francoisozon,Q266535,Silver Bear Grand Jury Prize,Q664212,2019,By the Grace of God,Q60169300
+francoisozon,Q266535,René Clair Award,Q3405213,2026,,
 philippegarrel,Q433979,European Film Academy Critics Award,Q1377683,2006,Regular Lovers,Q777519
 philippegarrel,Q433979,Silver Bear for Best Director,Q706031,2023,The Plough,Q108770289
 philippegarrel,Q433979,Louis Delluc Prize,Q734335,2005,Regular Lovers,Q777519
@@ -4056,7 +4056,6 @@ xavierdolan,Q551861,Companion of the Ordre des arts et des lettres du Québec,Q5
 xavierdolan,Q551861,Cannes Film Festival Grand Prix,Q844804,2016,It's Only the End of the World,Q19885882
 guymaddin,Q598995,Genie Awards,Q1502249,,,
 guymaddin,Q598995,Member of the Order of Canada,Q15278101,,,
-christianpetzold,Q67268,Silver Bear Grand Jury Prize,Q664212,2023,Afire,Q116621601
 christianpetzold,Q67268,Romy,Q873842,,,
 christianpetzold,Q67268,Officer's Cross of the Order of Merit of the Federal Republic of Germany,Q10905334,2021,,
 christianpetzold,Q67268,Helmut Käutner Prize,Q1603318,2013,,
@@ -4082,6 +4081,7 @@ christianpetzold,Q67268,Bavarian Film Awards,Q448468,2018,Transit,Q47408473
 christianpetzold,Q67268,Julius Campe award,Q1712429,2018,,
 christianpetzold,Q67268,Schiller Prize of the City of Mannheim,Q1379827,2020,,
 christianpetzold,Q67268,Berliner Bär,Q821456,2020,,
+christianpetzold,Q67268,Silver Bear Grand Jury Prize,Q664212,2023,Afire,Q116621601
 valeskagrisebach,Q101712,German Film Award,Q708731,,,
 valeskagrisebach,Q101712,Jury Prize,Q164200,2026,The Dreamed Adventure,Q138996634
 ulrichseidl,Q112182,Austrian Film Award for Best Feature Film,Q1793238,2024,The Devil's Bath,Q123992189
@@ -4277,12 +4277,12 @@ mrinalsen,Q982809,Commandeur des Arts et des Lettres,Q13452531,1985,,
 mrinalsen,Q982809,honorary doctor of the University of Calcutta,Q96233293,,,
 mrinalsen,Q982809,Order of Friendship,Q791135,2000,,
 mrinalsen,Q982809,Dadasaheb Phalke Award,Q2167384,2005,,
-shyambenegal,Q55406,Dadasaheb Phalke Award,Q2167384,2005,,
 shyambenegal,Q55406,Padma Bhushan,Q932650,1991,,
 shyambenegal,Q55406,honorary doctor of the University of Calcutta,Q96233293,,,
 shyambenegal,Q55406,IIFA Lifetime Achievement Award,Q1312897,,,
 shyambenegal,Q55406,Padma Shri in Art,Q30132541,1976,,
 shyambenegal,Q55406,Filmfare Award for Best Director,Q1113428,1980,Junoon,Q6314288
+shyambenegal,Q55406,Dadasaheb Phalke Award,Q2167384,2005,,
 adoorgopalakrishnan,Q366242,Kerala State Film Award for Best Film,Q13641241,1981,Elippathayam,Q2614341
 adoorgopalakrishnan,Q366242,National Film Award for Best Feature Film in Malayalam,Q251371,1981,Elippathayam,Q2614341
 adoorgopalakrishnan,Q366242,Kerala State Film Award for Best Documentary,Q17008212,1982,,
@@ -4344,24 +4344,24 @@ rithypanh,Q1683688,European Film Award for Best Documentary,Q1377752,2003,S-21: 
 rithypanh,Q1683688,European Film Award for Best Documentary,Q1377752,2007,Paper Cannot Wrap Up Embers,Q3228497
 rithypanh,Q1683688,Grand prix SGDL de l'essai,Q133813058,2012,,
 rithypanh,Q1683688,honorary doctor of Paris 8 University,Q105672762,2011,,
+rithypanh,Q1683688,Livre et droits humains award,Q100773817,2012,,
 rithypanh,Q1683688,Grand prix des lectrices de Elle for non-fiction,Q137162545,2013,,
 rithypanh,Q1683688,Prix Marguerite Duras,Q63381160,2020,,
 rithypanh,Q1683688,Joseph-Kessel Prize,Q17076897,2012,,
 rithypanh,Q1683688,“Today” Prize,Q2330764,2012,,
-rithypanh,Q1683688,Livre et droits humains award,Q100773817,2012,,
 brillantemendoza,Q917051,Honorary Cyclo d'or,Q113085076,2014,,
 brillantemendoza,Q917051,Sitges Film Festival Best Director award,Q24051550,2009,Kinatay,Q1627903
 brillantemendoza,Q917051,Cannes Best Director Award,Q510175,2009,Kinatay,Q1627903
 brillantemendoza,Q917051,Asia's Most Influential Philippines,Q115088774,2021,,
 brillantemendoza,Q917051,Chevalier des Arts et des Lettres,Q13452528,,,
+taikawaititi,Q2388576,Officer of the New Zealand Order of Merit,Q19694514,2020,,
+taikawaititi,Q2388576,"Academy Award for Best Writing, Adapted Screenplay",Q107258,2020,Jojo Rabbit,Q54862508
 taikawaititi,Q2388576,New Zealander of the Year,Q117337587,,,
 taikawaititi,Q2388576,Arts Foundation Te Tumu Toi Laureate Award,Q124421758,2016,,
 taikawaititi,Q2388576,Writers Guild of America Award for Best Adapted Screenplay,Q8038458,2020,Jojo Rabbit,Q54862508
 taikawaititi,Q2388576,Wellingtonian of the Year (category award),Q130355334,2010,,
 taikawaititi,Q2388576,Arts Foundation of New Zealand New Generation Award,Q106879181,2007,,
 taikawaititi,Q2388576,Time 100,Q604370,2022,,
-taikawaititi,Q2388576,Officer of the New Zealand Order of Merit,Q19694514,2020,,
-taikawaititi,Q2388576,"Academy Award for Best Writing, Adapted Screenplay",Q107258,2020,Jojo Rabbit,Q54862508
 warwickthornton,Q4461183,American Society of Cinematographers Spotlight Award,Q108131567,2024,The New Boy,Q117745345
 aliceguyblache,Q263367,Knight of the Legion of Honour,Q10855271,,,
 aliceguyblache,Q263367,New Jersey Hall of Fame,Q14705795,2013,,
@@ -4447,10 +4447,6 @@ kenjacobs,Q325399,Maya Deren Award,Q17154000,1994,,
 kenjacobs,Q325399,Guggenheim Fellowship,Q1316544,,,
 jamesbenning,Q1680032,Guggenheim Fellowship,Q1316544,1986,,
 sufriedrich,Q4492765,Guggenheim Fellowship,Q1316544,,,
-marcobellocchio,Q53010,Nastro d'Argento for Best Subject,Q16156319,,,
-marcobellocchio,Q53010,Nastro d'Argento for Best Screenplay,Q1966051,,,
-marcobellocchio,Q53010,Marrakech International Film Festival Awards,Q21029702,,,
-marcobellocchio,Q53010,Golden Lion for Lifetime Achievement,Q3241784,,,
 marcobellocchio,Q53010,ruban d'argent du meilleur film,Q30889744,,,
 marcobellocchio,Q53010,European Film Academy Critics Award,Q1377683,2003,"Good Morning, Night",Q2260663
 marcobellocchio,Q53010,European Film Award for Innovative Storytelling,Q101089326,2022,Exterior Night,Q112065180
@@ -4476,6 +4472,10 @@ marcobellocchio,Q53010,Nastro d'Argento for best director,Q30880948,,,
 marcobellocchio,Q53010,Grand Jury Prize of the Venice Film Festival,Q944480,1967,,
 marcobellocchio,Q53010,Moscow International Film Festival,Q749235,,,
 marcobellocchio,Q53010,Nastro d'Argento for the director of the best film,Q1061238,,My Mother's Smile,Q2307306
+marcobellocchio,Q53010,Nastro d'Argento for Best Subject,Q16156319,,,
+marcobellocchio,Q53010,Nastro d'Argento for Best Screenplay,Q1966051,,,
+marcobellocchio,Q53010,Marrakech International Film Festival Awards,Q21029702,,,
+marcobellocchio,Q53010,Golden Lion for Lifetime Achievement,Q3241784,,,
 lilianacavani,Q55442,David di Donatello Award for Lifetime Achievement,Q13634272,,,
 lilianacavani,Q55442,Commander of the Order of Merit of the Italian Republic,Q14539729,,,
 valeriozurlini,Q53041,Golden Lion,Q209459,1962,Family Diary,Q1754854
@@ -4505,12 +4505,12 @@ sachaguitry,Q337276,Officer of the Legion of Honour,Q10855195,1931,,
 sachaguitry,Q337276,Commander of the Legion of Honour,Q10855212,1936,,
 sachaguitry,Q337276,Commander of the Order of Saint-Charles,Q14073741,1940,,
 sachaguitry,Q337276,Commander of the Order of Polonia Restituta,Q15715252,,,
+claudesautet,Q106669,Louis Delluc Prize,Q734335,1995,Nelly and Mr. Arnaud,Q1930843
 claudesautet,Q106669,Jean-Le-Duc award,Q16509832,,,
 claudesautet,Q106669,Louis Delluc Prize,Q734335,1969,The Things of Life,Q1211971
 claudesautet,Q106669,Silver Lion,Q1337827,1992,A Heart in Winter,Q594151
 claudesautet,Q106669,César Award for Best Director,Q24137,1996,Nelly and Mr. Arnaud,Q1930843
 claudesautet,Q106669,César Award for Best Director,Q24137,1993,A Heart in Winter,Q594151
-claudesautet,Q106669,Louis Delluc Prize,Q734335,1995,Nelly and Mr. Arnaud,Q1930843
 bertrandtavernier,Q337226,Jean-Le-Duc award,Q16509832,,,
 bertrandtavernier,Q337226,Cannes Best Director Award,Q510175,1984,A Sunday in the Country,Q1305215
 bertrandtavernier,Q337226,César Award for Best Director,Q24137,1997,Captain Conan,Q919635
@@ -4910,10 +4910,6 @@ fernandotrueba,Q381934,Chevalier des Arts et des Lettres,Q13452528,,,
 fernandotrueba,Q381934,Silver Shell for Best Director,Q608967,2012,,
 fernandotrueba,Q381934,European Film Award for Best Animated Feature Film,Q1377745,2011,Chico and Rita,Q1072224
 fernandotrueba,Q381934,Gaudí Award for Best Animated Feature Film,Q11923871,,,
-nikitamikhalkov,Q55207,Academy Awards,Q19020,1995,,
-nikitamikhalkov,Q55207,Order of St. Seraphim of Sarov,Q4336016,,,
-nikitamikhalkov,Q55207,"Order ""For Merit to the Fatherland"", 4th class",Q18080423,2010,,
-nikitamikhalkov,Q55207,Honored Artist of the RSFSR,Q46919,1976,,
 nikitamikhalkov,Q55207,Medal for Merit to Culture,Q1702885,,,
 nikitamikhalkov,Q55207,Prize of the Ministry of Defense of the Russian Federation in the field of culture and art,Q30889228,,,
 nikitamikhalkov,Q55207,Order of Merit of the Italian Republic,Q1059569,,,
@@ -4960,6 +4956,10 @@ nikitamikhalkov,Q55207,European Film Award for Best Film,Q777921,1993,Close to E
 nikitamikhalkov,Q55207,Silver Play Button,Q55293496,,,
 nikitamikhalkov,Q55207,Friendship Order,Q2030538,2015,,
 nikitamikhalkov,Q55207,Golden Shell,Q775086,1977,,
+nikitamikhalkov,Q55207,Academy Awards,Q19020,1995,,
+nikitamikhalkov,Q55207,Order of St. Seraphim of Sarov,Q4336016,,,
+nikitamikhalkov,Q55207,"Order ""For Merit to the Fatherland"", 4th class",Q18080423,2010,,
+nikitamikhalkov,Q55207,Honored Artist of the RSFSR,Q46919,1976,,
 jansverak,Q504463,Annual award ACFK,Q136442039,2017,,
 jansverak,Q504463,Czech Lion for Best Director,Q2607179,1996,Kolya,Q1141186
 jansverak,Q504463,Czech Lion for Best Director,Q2607179,2001,Dark Blue World,Q538516
@@ -5046,3 +5046,20 @@ edwardberger,Q1291686,Grimme-Preis,Q472379,2011,Ein guter Sommer,Q1305516
 edwardberger,Q1291686,Deutscher Regiepreis Metropolis,Q1205229,2014,Jack,Q17092796
 edwardberger,Q1291686,BAFTA Award for Best Direction,Q787131,2023,All Quiet on the Western Front,Q108837349
 waltersalles,Q458696,Order of Cultural Merit (Brazil),Q10341322,,,
+wojciechhas,Q1095790,Gold Cross of Merit,Q21954284,,,
+wojciechhas,Q1095790,Commander with Star of the Order of Polonia Restituta,Q15715254,,,
+wojciechhas,Q1095790,Jury Prize,Q164200,1973,The Hour-Glass Sanatorium,Q2297889
+wojciechhas,Q1095790,Polish Academy Life Achievement Award,Q7209856,1999,,
+shanecarruth,Q3481357,Sundance Film Festival U.S. Dramatic Grand Jury Prize Award,Q3774974,2004,Primer,Q1434995
+shanecarruth,Q3481357,Alfred P. Sloan Prize,Q1763328,2004,Primer,Q1434995
+shujiterayama,Q739129,Sitges Film Festival Best Director award,Q24051550,1985,Farewell to the Ark,Q5435060
+dusanhanak,Q3507944,Cross of Pribina class I,Q95987274,2004,,
+dusanhanak,Q3507944,European Film Award Special Mention,Q77708227,1989,Pictures of the Old World,Q12772849
+dusanhanak,Q3507944,Annual award ACFK,Q136442039,2007,,
+konstantinlopushansky,Q1364690,Order For Merit in Culture and Art,Q108435249,,,
+konstantinlopushansky,Q1364690,Honored art worker of the Russian Federation,Q4187990,,,
+konstantinlopushansky,Q1364690,Nika Award,Q431668,,,
+konstantinlopushansky,Q1364690,Vasilyev Brothers State Prize of the RSFSR,Q4146630,,,
+konstantinlopushansky,Q1364690,People's Artist of the Russian Federation,Q1857712,,,
+jonathancaouette,Q1382876,National Society of Film Critics Award for Best Non-Fiction Film,Q1707516,2004,Tarnation,Q1373080
+jonathancaouette,Q1382876,Sutherland Trophy,Q7650000,2004,Tarnation,Q1373080

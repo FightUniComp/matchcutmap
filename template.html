@@ -301,8 +301,31 @@ ol.hl .lnk{font-size:12.5px}
 </main>
 <script>
 const DATA = __DATA__;
+const EMBED = __EMBED__;   /* the films, filmographies and crew of every director when the page is one file; otherwise null and they load from d/ */
 const NS = "http://www.w3.org/2000/svg";
 const byId = {}; DATA.directors.forEach(d => { byId[d.id] = d; d.cx = d.x; d.cy = d.y; d.cr = d.r; });
+/* loading each director's films, filmography and crew when a panel needs them */
+const chunkReq = {}, mergeChunk = obj => { for (const id in obj) if (byId[id]) Object.assign(byId[id], obj[id]); return obj; };
+if (EMBED) for (const c in EMBED) chunkReq[c] = Promise.resolve(mergeChunk(EMBED[c]));   /* one-file page: everything is there from the start */
+function loadChunk(c){
+  if (!chunkReq[c]) chunkReq[c] = (EMBED ? Promise.resolve({}) : fetch("d/" + c + ".json?v=" + DATA.ver).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }))
+    .then(obj => { mergeChunk(obj); FINFO = null; FIX = null; return obj; })
+    .catch(e => { delete chunkReq[c]; throw e; });
+  return chunkReq[c];
+}
+const loaded = d => Array.isArray(d.films);
+const need = ids => Promise.all([...new Set(ids.map(i => byId[i].ck))].map(loadChunk));
+const dkeys = d => d._k || (d._k = [...new Set(d.tk.map(t => "m" + t).concat((d.tn || []).map(([t, y]) => "t" + norm(t) + "|" + y)))]);
+let K2D = null;
+const keyDirs = () => K2D || (K2D = (() => { const m = {}; DATA.directors.forEach(d => dkeys(d).forEach(k => (m[k] = m[k] || []).push(d.id))); return m; })());
+const topFilm = d => d.ft ? d.ft[0] : "";
+/* a panel whose directors are not loaded yet: say so, then draw it when they arrive (if it is still the one open) */
+function pending(p, title, ids, still){
+  p.innerHTML = (title ? '<h2>' + esc(title) + '</h2>' : '') + '<p class="meta" role="status">Loading&hellip;</p>';
+  need(ids).then(() => { if (still()) panelBody(); }, () => { const m = p.querySelector(".meta"); if (!still() || !m) return;
+    m.innerHTML = 'Could not load this part of the atlas. Check the connection and <button class="lnk" type="button">try again</button>.';
+    m.querySelector("button").addEventListener("click", panelBody); });
+}
 const dirById = {}; DATA.directory.forEach(d => dirById[d.id] = d);
 const T = DATA.techniques, MV = DATA.movements;
 const ERA = ["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
@@ -318,11 +341,11 @@ const SEEN = stored("seen"), MYR = stored("mine"), IMR = stored("imdb"), WANT = 
 let wantVer = 0, wantCache = {v: -1};
 function saveWant(){ wantVer++; try { localStorage.setItem("auteurAtlas.want", JSON.stringify(WANT)); return true; } catch (e) { return false; } }
 function wantDirs(){ if (wantCache.v === wantVer) return wantCache.ids;
-  const ids = new Set(); DATA.directors.forEach(d => { if (d.films.some(f => WANT[fkey(f)]) || (d.fg || []).some(x => WANT[gkey(x)])) ids.add(d.id); });
+  const ids = new Set(); DATA.directors.forEach(d => { if (dkeys(d).some(k => WANT[k])) ids.add(d.id); });
   wantCache = {v: wantVer, ids}; return ids; }
 let FINFO = null;
 function filmInfo(){ if (FINFO) return FINFO; FINFO = {};
-  DATA.directors.forEach(d => { d.films.forEach(f => { const k = fkey(f); if (!FINFO[k]) FINFO[k] = {t: f.t, y: f.y, d: d.id, r: f.r}; });
+  DATA.directors.forEach(d => { (d.films || []).forEach(f => { const k = fkey(f); if (!FINFO[k]) FINFO[k] = {t: f.t, y: f.y, d: d.id, r: f.r}; });
     (d.fg || []).forEach(x => { const k = gkey(x); if (!FINFO[k]) FINFO[k] = {t: x[1], y: x[0], d: d.id, r: x[3]}; }); });
   return FINFO; }
 const BOOKMARK = '<svg viewBox="0 0 10 12" aria-hidden="true"><path d="M1.5 1h7v10L5 8.2 1.5 11z"/></svg>';
@@ -339,7 +362,7 @@ function lineage(id, gens){
   return {up: walk(false), down: walk(true)};
 }
 /* the years a director made films in, and who was at work in a decade */
-function filmYears(d){ if (!d._ys) d._ys = [...new Set((d.fg || []).map(x => x[0]).concat(d.films.map(f => f.y)).filter(Boolean))].sort((a, b) => a - b); return d._ys; }
+function filmYears(d){ return d.ys || []; }
 const activeIn = (d, dec) => filmYears(d).some(y => y >= dec && y < dec + 10);
 let decCache = {};
 const decActive = dec => decCache[dec] || (decCache[dec] = new Set(DATA.directors.filter(d => activeIn(d, dec)).map(d => d.id)));
@@ -350,7 +373,7 @@ function saveImports(){ try { localStorage.setItem("auteurAtlas.mine", JSON.stri
 const myText = m => m[1] === 5 ? "★".repeat(Math.floor(m[0])) + (m[0] % 1 ? "½" : "") : m[0] + "/10";
 const fkey = f => f.tid ? "m" + f.tid : "t" + norm(f.t) + "|" + (f.y || "");
 const gkey = x => x[2] ? "m" + x[2] : "t" + norm(x[1]) + "|" + x[0];
-function seenStats(d){ const ks = new Set(d.films.map(fkey).concat((d.fg || []).map(gkey))); let n = 0; ks.forEach(k => { if (SEEN[k]) n++; }); return [n, ks.size]; }
+function seenStats(d){ const ks = dkeys(d); let n = 0; ks.forEach(k => { if (SEEN[k]) n++; }); return [n, ks.length]; }
 function seenInfo(){ if (seenCache.v === seenVer) return seenCache;
   const counts = {}; DATA.directors.forEach(d => { const n = seenStats(d)[0]; if (n) counts[d.id] = n; });
   return seenCache = {v: seenVer, counts, ids: new Set(Object.keys(counts)), recs: null}; }
@@ -361,11 +384,11 @@ function suggestions(){
   const seen = Object.keys(S.counts).map(id => [byId[id], S.counts[id]]), nb = {};
   DATA.influence.forEach(l => { (nb[l.s] = nb[l.s] || new Set()).add(l.t); (nb[l.t] = nb[l.t] || new Set()).add(l.s); });
   const out = [];
-  if (seen.length) DATA.directors.forEach(d => { if (S.ids.has(d.id) || !d.films.length) return;
+  if (seen.length) DATA.directors.forEach(d => { if (S.ids.has(d.id) || !d.ft) return;
     const v = seen.map(([s, n]) => { const link = nb[s.id] && nb[s.id].has(d.id);
       return [similarity(s, d) / 100 * (0.85 + 0.15 * Math.min(n, 4) / 4) + (link ? 0.2 : 0), s, link]; }).sort((a, b) => b[0] - a[0]);
     const score = v[0][0] + 0.5 * (v[1] ? v[1][0] : 0) + 0.25 * (v[2] ? v[2][0] : 0);
-    const near = v.slice(0, 2).filter((x, j) => j === 0 || x[0] > 0.3).map(x => x[1].name), f = d.films[0];
+    const near = v.slice(0, 2).filter((x, j) => j === 0 || x[0] > 0.3).map(x => x[1].name), f = {t: d.ft[0], y: d.ft[1]};
     const link = v.find(x => x[2] && x[0] >= v[0][0] - 0.1);
     out.push({d, score, anchor: (link || v[0])[1].id, why: (link ? "Linked by influence to " + link[1].name : "Close in style to " + near.join(" and ")) + ". Start with " + f.t + (f.y ? " (" + f.y + ")" : "") + "." }); });
   out.sort((a, b) => b.score - a.score || b.d.r - a.d.r);
@@ -442,6 +465,7 @@ const IP = {}; [" dim", "", " in", " out"].forEach(c => IP[c] = [el("path", {cla
 const nodeEls = DATA.directors.map(d => {
   const g = el("g", {class:"node", tabindex:"0", role:"button", "aria-label":d.name}, $("gNodes"));
   d.g = g; d.circle = el("circle", {cx:d.x, cy:d.y, r:d.r, fill:ERA[d.era]}, g);
+  if (!EMBED) ["pointerenter", "focus"].forEach(t => g.addEventListener(t, () => { loadChunk(d.ck).catch(() => {}); }));   /* fetch before the click lands */
   const t = el("text", {x:d.x, y:d.y + d.r, dy:"1.15em"}, g); t.textContent = d.name; d.label = t;
   g.addEventListener("click", () => { if (!moved) select(d.id); });
   g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.id); } });
@@ -453,7 +477,7 @@ function related(id){
   const s = new Set([id]);
   DATA.style.forEach(l => { if (l.a === id) s.add(l.b); if (l.b === id) s.add(l.a); });
   DATA.influence.forEach(l => { if (l.s === id) s.add(l.t); if (l.t === id) s.add(l.s); });
-  byId[id].near.forEach(n => s.add(n.id));
+  byId[id].nr.forEach(n => s.add(n));
   return s;
 }
 function paint(){
@@ -585,6 +609,8 @@ function similarity(a, b){
   return Math.round(100 * (0.42 * sh / un + 0.23 * dim + 0.35 * mov));
 }
 function compareBody(p){
+  const a0 = state.sel, b0 = state.cmp;
+  if (!loaded(byId[a0]) || !loaded(byId[b0])) { pending(p, "", [a0, b0], () => state.sel === a0 && state.cmp === b0); return; }
   const a = byId[state.sel], b = byId[state.cmp], P = state.path, pos = v => ((v - 1) / 9 * 100).toFixed(0);
   const chip = t => '<button class="chip" type="button" data-tech="' + t + '">' + esc(T[t].name) + '</button>';
   const both = a.tags.filter(t => b.tags.includes(t)), onlyA = a.tags.filter(t => !b.tags.includes(t)), onlyB = b.tags.filter(t => !a.tags.includes(t));
@@ -623,7 +649,7 @@ const bare = s => tnorm(String(s || "").replace(/^(the|an?|les?|la|l'|il|lo|der|
 function filmIndex(){
   if (FIX) return FIX;
   const tt = {}, ty = {}, put = (t, y, k) => { if (!t || !y) return; [tnorm(t), "b:" + bare(t)].forEach(n => (ty[n + "|" + y] = ty[n + "|" + y] || new Set()).add(k)); };
-  DATA.directors.forEach(d => { d.films.forEach(f => { const k = fkey(f); if (f.im) tt[f.im] = k; put(f.t, f.y, k); put(f.tt, f.y, k); }); (d.fg || []).forEach(x => put(x[1], x[0], gkey(x))); });
+  DATA.directors.forEach(d => { (d.films || []).forEach(f => { const k = fkey(f); if (f.im) tt[f.im] = k; put(f.t, f.y, k); put(f.tt, f.y, k); }); (d.fg || []).forEach(x => put(x[1], x[0], gkey(x))); });
   return FIX = {tt, ty};
 }
 function findFilm(titles, year, id){
@@ -660,6 +686,8 @@ async function unzip(buf, want){
   return out;
 }
 async function importFiles(files){
+  if (!DATA.directors.every(loaded)) { importNote = "Reading your files…"; paint(); }
+  try { await need(DATA.directors.map(d => d.id)); } catch (e) { importNote = "Could not load the film lists to match against. Check the connection and try again."; paint(); return; }
   const n = {seen: 0, want: 0, mine: new Set(), imdb: new Set(), miss: new Set(), bad: []}, films = c => c + (c === 1 ? " film" : " films");
   const wish = keys => keys.forEach(k => { if (!SEEN[k] && !WANT[k]) { WANT[k] = 1; n.want++; } });
   const take = (keys, my, ir, watched, label) => { if (!keys.length) { if (watched) n.miss.add(label); return; }
@@ -689,6 +717,8 @@ function mineBody(p){
   const want = state.mine === "want", rows = DATA.directors.map(d => [d, seenStats(d)]).filter(x => x[1][0] > 0).sort((x, y) => y[1][0] - x[1][0] || x[0].name.localeCompare(y[0].name));
   const nw = Object.keys(WANT).length, tabs = '<div class="tabs"><button type="button" data-mine="seen" aria-pressed="' + !want + '">Seen (' + Object.keys(SEEN).length + ')</button><button type="button" data-mine="want" aria-pressed="' + want + '">Want to see (' + nw + ')</button></div>';
   if (want) {
+    const wids = Object.keys(WANT).flatMap(k => keyDirs()[k] || []);
+    if (!wids.every(i => loaded(byId[i]))) { pending(p, "Want to see", wids, () => state.mine === "want"); return; }
     const F = filmInfo(), ks = Object.keys(WANT).filter(k => F[k]).sort((a, b) => (F[a].y || 0) - (F[b].y || 0));
     p.innerHTML = '<h2>Want to see</h2>' + tabs + '<p class="meta">' + (ks.length ? ks.length + (ks.length === 1 ? ' film' : ' films') + ', oldest first. The map shows their directors.' : 'Nothing yet. Press "Want to see" on any film, or import your Letterboxd watchlist.') + '</p>' +
       (ks.length ? '<div class="fgsort">Sort by <button type="button" data-wsort="y" aria-pressed="true">Year</button><button type="button" data-wsort="r" aria-pressed="false">TMDB rating</button></div>' : '') +
@@ -731,7 +761,8 @@ function decBody(p){
   const dec = state.dec, act = DATA.directors.filter(d => activeIn(d, dec));
   const first = act.filter(d => filmYears(d)[0] >= dec).sort((a, b) => filmYears(a)[0] - filmYears(b)[0] || a.name.localeCompare(b.name));
   const films = [], fk = new Set();
-  DATA.directors.forEach(d => d.films.forEach(f => { if (f.y >= dec && f.y < dec + 10 && (f.ts || f.ss) && !fk.has(fkey(f))) { fk.add(fkey(f)); films.push([f, d]); } }));
+  [["tspdt-films", "ts"], ["sight-and-sound", "ss"]].forEach(([k, f]) => (DATA.lists[k] || {e: []}).e.forEach(x => {
+    if (x[2] >= dec && x[2] < dec + 10 && x[3].length) { const id = x[5] || x[1] + x[2]; if (!fk.has(id)) { fk.add(id); films.push([{t: x[1], y: x[2], [f]: +x[0]}, byId[x[3][0]]]); } } }));
   films.sort((a, b) => (a[0].ts || 9999) - (b[0].ts || 9999) || (a[0].ss || 9999) - (b[0].ss || 9999));
   const movs = Object.keys(MV).filter(m => MV[m].span && MV[m].kind === "movement" && MV[m].span[0] < dec + 10 && MV[m].span[1] >= dec).sort((a, b) => MV[a].span[0] - MV[b].span[0]);
   const reg = {}; act.forEach(d => { reg[d.region] = (reg[d.region] || 0) + 1; });
@@ -806,7 +837,7 @@ function drawBands(){
   if (state.mov && MV[state.mov].span) band(MV[state.mov].span[0], MV[state.mov].span[1] + 1, MV[state.mov].name);
   const id = state.sel || state.lin; if (!id) return;
   const d = byId[id], ys = filmYears(d); if (!ys.length) return;
-  const keyY = new Set(d.films.map(f => f.y)), h = d.cr * 1.5 + 5, y = d.cy;
+  const keyY = new Set(d.ky || []), h = d.cr * 1.5 + 5, y = d.cy;
   el("line", {class: "career", x1: tlx(ys[0] + 0.5), x2: tlx(ys[ys.length - 1] + 0.5), y1: y, y2: y}, B);
   ys.forEach(v => { const k = keyY.has(v); el("line", {class: "ctick" + (k ? " key" : ""), x1: tlx(v + 0.5), x2: tlx(v + 0.5), y1: y - (k ? h * 1.4 : h), y2: y + (k ? h * 1.4 : h)}, B); });
   el("text", {class: "cyear", x: tlx(ys[0] + 0.5) - 10, y, "text-anchor": "end"}, B).textContent = ys[0];
@@ -822,7 +853,7 @@ function panelBody(){
   if (state.mov) {
     const m = MV[state.mov];
     p.innerHTML = '<h2>' + esc(m.name) + '</h2><p class="meta">' + (m.kind === "category" ? "Critical category" : "Movement") + ' &middot; ' + esc(m.period) + '</p><p class="desc">' + esc(m.desc) + '</p>' +
-      '<h3>Directors on this map (' + m.members.length + ')</h3><ul>' + m.members.map(id => person(id, (byId[id].films[0] ? byId[id].films[0].t : "") + (byId[id].movements[0] === state.mov ? "" : " · also linked to " + MV[byId[id].movements[0]].name))).join("") + '</ul>' + draft();
+      '<h3>Directors on this map (' + m.members.length + ')</h3><ul>' + m.members.map(id => person(id, topFilm(byId[id]) + (byId[id].movements[0] === state.mov ? "" : " · also linked to " + MV[byId[id].movements[0]].name))).join("") + '</ul>' + draft();
     bind(p); p.scrollTop = 0; return;
   }
   if (state.geo) {
@@ -832,7 +863,7 @@ function panelBody(){
     p.innerHTML = '<h2>' + esc(lab) + '</h2><p class="meta">' + (isC ? 'Country' : 'Region') + ' &middot; ' + ms.length + ' directors on this map</p>' +
       (!isC && DATA.regions[lab] ? '<div class="chips">' + DATA.regions[lab].map(c => '<button class="chip" type="button" data-geo="c:' + esc(c) + '">' + esc(c) + ' (' + per(c) + ')</button>').join("") + '</div>' : '') +
       (isC ? '<div class="chips"><button class="chip" type="button" data-geo="r:' + esc(ms[0] ? ms[0].region : "") + '">All of ' + esc(ms[0] ? ms[0].region : "") + '</button></div>' : '') +
-      '<h3>Directors, most acclaimed first</h3><ul>' + ms.map(m => person(m.id, (m.rank ? '#' + m.rank + ' TSPDT. ' : '') + (m.films[0] ? m.films[0].t : ''))).join("") + '</ul>';
+      '<h3>Directors, most acclaimed first</h3><ul>' + ms.map(m => person(m.id, (m.rank ? '#' + m.rank + ' TSPDT. ' : '') + topFilm(m))).join("") + '</ul>';
     bind(p); p.scrollTop = 0; return;
   }
   if (state.dir) {
@@ -866,6 +897,7 @@ function panelBody(){
     bind(p); return;
   }
   const d = byId[state.sel];
+  if (!loaded(d)) { pending(p, d.name, [d.id], () => state.sel === d.id); return; }
   const bars = DATA.dims.map((m, i) => '<div class="bar"><div class="ends"><span>' + esc(m.lo) + '</span><span>' + esc(m.hi) + '</span></div><div class="track"><span class="pin" style="left:' + ((d.dims[i]-1)/9*100).toFixed(0) + '%"></span></div></div>').join("");
   const chips = d.tags.map(t => '<button class="chip' + (t === state.tech ? " on" : "") + '" type="button" data-tech="' + t + '" title="' + esc(T[t].def) + '">' + esc(T[t].name) + '</button>').join("");
   const near = d.near.map(n => person(n.id, (n.mov.length ? "Same movement: " + n.mov.map(m => MV[m].name).join(", ") + ". " : "") + (n.shared.length ? "Shares: " + n.shared.map(t => T[t].name.toLowerCase()).join(", ") : (n.mov.length ? "" : "Similar overall profile, no shared technique tags")))).join("");

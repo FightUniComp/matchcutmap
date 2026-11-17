@@ -6031,6 +6031,95 @@
     "name": "Walter Salles",
     "found_by": "id"
    }
+  ],
+  "wojciechhas": [
+   {
+    "qid": "Q1095790",
+    "name": "Wojciech Has",
+    "found_by": "id"
+   }
+  ],
+  "shanecarruth": [
+   {
+    "qid": "Q3481357",
+    "name": "Shane Carruth",
+    "found_by": "id"
+   }
+  ],
+  "martinrosen": [
+   {
+    "qid": "Q976133",
+    "name": "Martin Rosen",
+    "found_by": "id"
+   }
+  ],
+  "geraldkargl": [
+   {
+    "qid": "Q88366",
+    "name": "Gerald Kargl",
+    "found_by": "id"
+   }
+  ],
+  "shujiterayama": [
+   {
+    "qid": "Q739129",
+    "name": "Shūji Terayama",
+    "found_by": "id"
+   }
+  ],
+  "dusanhanak": [
+   {
+    "qid": "Q3507944",
+    "name": "Dušan Hanák",
+    "found_by": "id"
+   }
+  ],
+  "konstantinlopushansky": [
+   {
+    "qid": "Q1364690",
+    "name": "Konstantin Lopushansky",
+    "found_by": "id"
+   }
+  ],
+  "jonathancaouette": [
+   {
+    "qid": "Q1382876",
+    "name": "Jonathan Caouette",
+    "found_by": "id"
+   }
+  ],
+  "joaquincocinacristoballeon": [
+   {
+    "qid": "Q19011883",
+    "name": "Cristóbal León",
+    "found_by": "id"
+   },
+   {
+    "qid": "Q19011886",
+    "name": "Joaquín Cociña",
+    "found_by": "id"
+   }
+  ],
+  "jackchambers": [
+   {
+    "qid": "Q552981",
+    "name": "Jack Chambers",
+    "found_by": "id"
+   }
+  ],
+  "petertscherkassky": [
+   {
+    "qid": "Q78964",
+    "name": "Peter Tscherkassky",
+    "found_by": "id"
+   }
+  ],
+  "eeliasmerhige": [
+   {
+    "qid": "Q1273499",
+    "name": "E. Elias Merhige",
+    "found_by": "id"
+   }
   ]
  },
  "people": {
@@ -6520,6 +6609,20 @@
    ],
    "awards": [
     {
+     "award": "David di Donatello for Best Script",
+     "award_qid": "Q3703472",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Nastro d'Argento for the director of the best film",
+     "award_qid": "Q1061238",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "David di Donatello for Best Film",
      "award_qid": "Q768476",
      "year": null,
@@ -6564,20 +6667,6 @@
     {
      "award": "Globo d'oro for best film",
      "award_qid": "Q3772360",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "David di Donatello for Best Script",
-     "award_qid": "Q3703472",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Nastro d'Argento for the director of the best film",
-     "award_qid": "Q1061238",
      "year": null,
      "work": null,
      "work_qid": null
@@ -7097,6 +7186,13 @@
    ],
    "awards": [
     {
+     "award": "Louis Delluc Prize",
+     "award_qid": "Q734335",
+     "year": "1995",
+     "work": "Nelly and Mr. Arnaud",
+     "work_qid": "Q1930843"
+    },
+    {
      "award": "Jean-Le-Duc award",
      "award_qid": "Q16509832",
      "year": null,
@@ -7130,13 +7226,6 @@
      "year": "1993",
      "work": "A Heart in Winter",
      "work_qid": "Q594151"
-    },
-    {
-     "award": "Louis Delluc Prize",
-     "award_qid": "Q734335",
-     "year": "1995",
-     "work": "Nelly and Mr. Arnaud",
-     "work_qid": "Q1930843"
     }
    ],
    "rel": [
@@ -7786,6 +7875,53 @@
     }
    ]
   },
+  "Q1095790": {
+   "label": "Wojciech Jerzy Has",
+   "enwiki": "Wojciech Has",
+   "birth": "1925-04-01T00:00:00Z",
+   "death": "2000-10-03T00:00:00Z",
+   "birthplace": "Kraków",
+   "citizenship": [
+    "Poland"
+   ],
+   "awards": [
+    {
+     "award": "Gold Cross of Merit",
+     "award_qid": "Q21954284",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Commander with Star of the Order of Polonia Restituta",
+     "award_qid": "Q15715254",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Jury Prize",
+     "award_qid": "Q164200",
+     "year": "1973",
+     "work": "The Hour-Glass Sanatorium",
+     "work_qid": "Q2297889"
+    },
+    {
+     "award": "Polish Academy Life Achievement Award",
+     "award_qid": "Q7209856",
+     "year": "1999",
+     "work": null,
+     "work_qid": null
+    }
+   ],
+   "rel": [
+    {
+     "p": "P26",
+     "qid": "Q11715886",
+     "label": "Jadwiga Has"
+    }
+   ]
+  },
   "Q1117163": {
    "label": "Ernest B. Schoedsack",
    "enwiki": "Ernest B. Schoedsack",
@@ -8134,8 +8270,8 @@
    "death": null,
    "birthplace": "South Korea",
    "citizenship": [
-    "Canada",
-    "South Korea"
+    "South Korea",
+    "Canada"
    ],
    "awards": [
     {
@@ -8875,13 +9011,6 @@
      "work_qid": null
     },
     {
-     "award": "Chevalier des Arts et des Lettres",
-     "award_qid": "Q13452528",
-     "year": "2005",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "César Award",
      "award_qid": "Q174389",
      "year": null,
@@ -8892,6 +9021,13 @@
      "award": "Princess of Asturias Awards",
      "award_qid": "Q329157",
      "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Chevalier des Arts et des Lettres",
+     "award_qid": "Q13452528",
+     "year": "2005",
      "work": null,
      "work_qid": null
     },
@@ -9005,6 +9141,18 @@
      "label": "Marcelle Pradot"
     }
    ]
+  },
+  "Q1273499": {
+   "label": "E. Elias Merhige",
+   "enwiki": "E. Elias Merhige",
+   "birth": "1964-06-14T00:00:00Z",
+   "death": null,
+   "birthplace": "Brooklyn",
+   "citizenship": [
+    "United States"
+   ],
+   "awards": [],
+   "rel": []
   },
   "Q1283902": {
    "label": "Edgar G. Ulmer",
@@ -10407,6 +10555,55 @@
     }
    ]
   },
+  "Q1364690": {
+   "label": "Konstantin Lopushansky",
+   "enwiki": "Konstantin Lopushansky",
+   "birth": "1947-06-12T00:00:00Z",
+   "death": null,
+   "birthplace": "Dnipro",
+   "citizenship": [
+    "Russia",
+    "Soviet Union"
+   ],
+   "awards": [
+    {
+     "award": "Order For Merit in Culture and Art",
+     "award_qid": "Q108435249",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Honored art worker of the Russian Federation",
+     "award_qid": "Q4187990",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Nika Award",
+     "award_qid": "Q431668",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Vasilyev Brothers State Prize of the RSFSR",
+     "award_qid": "Q4146630",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "People's Artist of the Russian Federation",
+     "award_qid": "Q1857712",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    }
+   ],
+   "rel": []
+  },
   "Q1367078": {
    "label": "José Luis Garci",
    "enwiki": "José Luis Garci",
@@ -10669,6 +10866,33 @@
     }
    ]
   },
+  "Q1382876": {
+   "label": "Jonathan Caouette",
+   "enwiki": "Jonathan Caouette",
+   "birth": "1973-11-26T00:00:00Z",
+   "death": null,
+   "birthplace": "Houston",
+   "citizenship": [
+    "United States"
+   ],
+   "awards": [
+    {
+     "award": "National Society of Film Critics Award for Best Non-Fiction Film",
+     "award_qid": "Q1707516",
+     "year": "2004",
+     "work": "Tarnation",
+     "work_qid": "Q1373080"
+    },
+    {
+     "award": "Sutherland Trophy",
+     "award_qid": "Q7650000",
+     "year": "2004",
+     "work": "Tarnation",
+     "work_qid": "Q1373080"
+    }
+   ],
+   "rel": []
+  },
   "Q1384343": {
    "label": "Serge Bourguignon",
    "enwiki": "Serge Bourguignon",
@@ -10810,13 +11034,6 @@
      "work_qid": null
     },
     {
-     "award": "Civil Order of Savoy",
-     "award_qid": "Q206967",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Silver Lion",
      "award_qid": "Q1337827",
      "year": "1957",
@@ -10831,9 +11048,9 @@
      "work_qid": null
     },
     {
-     "award": "Palme d'Or",
-     "award_qid": "Q179808",
-     "year": "1963",
+     "award": "Civil Order of Savoy",
+     "award_qid": "Q206967",
+     "year": null,
      "work": null,
      "work_qid": null
     },
@@ -10841,6 +11058,13 @@
      "award": "Golden Lion",
      "award_qid": "Q209459",
      "year": "1965",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Palme d'Or",
+     "award_qid": "Q179808",
+     "year": "1963",
      "work": null,
      "work_qid": null
     }
@@ -12186,6 +12410,13 @@
      "work_qid": null
     },
     {
+     "award": "Livre et droits humains award",
+     "award_qid": "Q100773817",
+     "year": "2012",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Grand prix des lectrices de Elle for non-fiction",
      "award_qid": "Q137162545",
      "year": "2013",
@@ -12209,13 +12440,6 @@
     {
      "award": "“Today” Prize",
      "award_qid": "Q2330764",
-     "year": "2012",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Livre et droits humains award",
-     "award_qid": "Q100773817",
      "year": "2012",
      "work": null,
      "work_qid": null
@@ -13894,6 +14118,34 @@
     }
    ]
   },
+  "Q19011883": {
+   "label": "Cristobal León",
+   "enwiki": null,
+   "birth": "1980-11-22T00:00:00Z",
+   "death": null,
+   "birthplace": "Santiago",
+   "citizenship": [
+    "Chile"
+   ],
+   "awards": [],
+   "rel": []
+  },
+  "Q19011886": {
+   "label": "Joaquín Cociña",
+   "enwiki": null,
+   "birth": "1980-03-18T00:00:00Z",
+   "death": null,
+   "birthplace": null,
+   "citizenship": [],
+   "awards": [],
+   "rel": [
+    {
+     "p": "P22",
+     "qid": "Q5750053",
+     "label": "Carlos Cociña"
+    }
+   ]
+  },
   "Q191755": {
    "label": "Jim Jarmusch",
    "enwiki": "Jim Jarmusch",
@@ -15291,6 +15543,48 @@
    ],
    "awards": [
     {
+     "award": "Guldbagge Award for Best Director",
+     "award_qid": "Q1554228",
+     "year": "2014",
+     "work": "Force Majeure",
+     "work_qid": "Q10706553"
+    },
+    {
+     "award": "European Film Award for Best Film",
+     "award_qid": "Q777921",
+     "year": "2022",
+     "work": "Sans filtre",
+     "work_qid": "Q97304180"
+    },
+    {
+     "award": "Guldbagge Award for Best Screenplay",
+     "award_qid": "Q1554232",
+     "year": "2014",
+     "work": "Force Majeure",
+     "work_qid": "Q10706553"
+    },
+    {
+     "award": "Q70337230",
+     "award_qid": "Q70337230",
+     "year": "2015",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Palme d'Or",
+     "award_qid": "Q179808",
+     "year": "2017",
+     "work": "The Square",
+     "work_qid": "Q27237522"
+    },
+    {
+     "award": "Guldbagge Award for Best Director",
+     "award_qid": "Q1554228",
+     "year": "2018",
+     "work": "The Square",
+     "work_qid": "Q27237522"
+    },
+    {
      "award": "European Film Award for Best Comedy",
      "award_qid": "Q18535068",
      "year": "2017",
@@ -15387,48 +15681,6 @@
      "year": "2011",
      "work": "Play",
      "work_qid": "Q2614695"
-    },
-    {
-     "award": "Guldbagge Award for Best Director",
-     "award_qid": "Q1554228",
-     "year": "2014",
-     "work": "Force Majeure",
-     "work_qid": "Q10706553"
-    },
-    {
-     "award": "European Film Award for Best Film",
-     "award_qid": "Q777921",
-     "year": "2022",
-     "work": "Sans filtre",
-     "work_qid": "Q97304180"
-    },
-    {
-     "award": "Guldbagge Award for Best Screenplay",
-     "award_qid": "Q1554232",
-     "year": "2014",
-     "work": "Force Majeure",
-     "work_qid": "Q10706553"
-    },
-    {
-     "award": "Q70337230",
-     "award_qid": "Q70337230",
-     "year": "2015",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Palme d'Or",
-     "award_qid": "Q179808",
-     "year": "2017",
-     "work": "The Square",
-     "work_qid": "Q27237522"
-    },
-    {
-     "award": "Guldbagge Award for Best Director",
-     "award_qid": "Q1554228",
-     "year": "2018",
-     "work": "The Square",
-     "work_qid": "Q27237522"
     }
    ],
    "rel": [
@@ -17640,6 +17892,20 @@
    ],
    "awards": [
     {
+     "award": "Officer of the New Zealand Order of Merit",
+     "award_qid": "Q19694514",
+     "year": "2020",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy Award for Best Writing, Adapted Screenplay",
+     "award_qid": "Q107258",
+     "year": "2020",
+     "work": "Jojo Rabbit",
+     "work_qid": "Q54862508"
+    },
+    {
      "award": "New Zealander of the Year",
      "award_qid": "Q117337587",
      "year": null,
@@ -17680,20 +17946,6 @@
      "year": "2022",
      "work": null,
      "work_qid": null
-    },
-    {
-     "award": "Officer of the New Zealand Order of Merit",
-     "award_qid": "Q19694514",
-     "year": "2020",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy Award for Best Writing, Adapted Screenplay",
-     "award_qid": "Q107258",
-     "year": "2020",
-     "work": "Jojo Rabbit",
-     "work_qid": "Q54862508"
     }
    ],
    "rel": [
@@ -18252,6 +18504,104 @@
    ],
    "awards": [
     {
+     "award": "Academy Award for Best Writing, Original Screenplay",
+     "award_qid": "Q41417",
+     "year": "1978",
+     "work": "Der Stadtneurotiker",
+     "work_qid": "Q233464"
+    },
+    {
+     "award": "Butaca Awards",
+     "award_qid": "Q3822438",
+     "year": "1996",
+     "work": "Mighty Aphrodite",
+     "work_qid": "Q1354109"
+    },
+    {
+     "award": "National Board of Review Award for Best Film",
+     "award_qid": "Q1789102",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Goya Award for Best European Film",
+     "award_qid": "Q2418096",
+     "year": "2006",
+     "work": "Match Point",
+     "work_qid": "Q733677"
+    },
+    {
+     "award": "Sant Jordi Prize",
+     "award_qid": "Q2372386",
+     "year": "2006",
+     "work": "Match Point",
+     "work_qid": "Q733677"
+    },
+    {
+     "award": "Golden Lion for Lifetime Achievement",
+     "award_qid": "Q3241784",
+     "year": "1995",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy Award for Best Director",
+     "award_qid": "Q103360",
+     "year": "1978",
+     "work": "Der Stadtneurotiker",
+     "work_qid": "Q233464"
+    },
+    {
+     "award": "Bodil Awards",
+     "award_qid": "Q889842",
+     "year": "1987",
+     "work": "Hannah et ses sœurs",
+     "work_qid": "Q845057"
+    },
+    {
+     "award": "Golden Globe Award for Best Screenplay",
+     "award_qid": "Q849124",
+     "year": "2012",
+     "work": "Midnight in Paris",
+     "work_qid": "Q206124"
+    },
+    {
+     "award": "FIPRESCI Prize of the Festival de Cannes",
+     "award_qid": "Q3404587",
+     "year": "1985",
+     "work": "The Purple Rose of Cairo",
+     "work_qid": "Q912729"
+    },
+    {
+     "award": "David di Donatello for Best Foreign Actor",
+     "award_qid": "Q3404523",
+     "year": "1984",
+     "work": "Zelig",
+     "work_qid": "Q187423"
+    },
+    {
+     "award": "honorary doctorate of Pompeu Fabra University",
+     "award_qid": "Q50616934",
+     "year": "2007",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Directors Guild of America Award",
+     "award_qid": "Q1111310",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "The President's Memorial Award",
+     "award_qid": "Q7758074",
+     "year": "1986",
+     "work": "The Purple Rose of Cairo",
+     "work_qid": "Q912729"
+    },
+    {
      "award": "BAFTA Fellowship",
      "award_qid": "Q787148",
      "year": "1997",
@@ -18516,104 +18866,6 @@
      "year": "1985",
      "work": "Broadway Danny Rose",
      "work_qid": "Q729026"
-    },
-    {
-     "award": "Academy Award for Best Writing, Original Screenplay",
-     "award_qid": "Q41417",
-     "year": "1978",
-     "work": "Der Stadtneurotiker",
-     "work_qid": "Q233464"
-    },
-    {
-     "award": "Butaca Awards",
-     "award_qid": "Q3822438",
-     "year": "1996",
-     "work": "Mighty Aphrodite",
-     "work_qid": "Q1354109"
-    },
-    {
-     "award": "National Board of Review Award for Best Film",
-     "award_qid": "Q1789102",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Goya Award for Best European Film",
-     "award_qid": "Q2418096",
-     "year": "2006",
-     "work": "Match Point",
-     "work_qid": "Q733677"
-    },
-    {
-     "award": "Sant Jordi Prize",
-     "award_qid": "Q2372386",
-     "year": "2006",
-     "work": "Match Point",
-     "work_qid": "Q733677"
-    },
-    {
-     "award": "Golden Lion for Lifetime Achievement",
-     "award_qid": "Q3241784",
-     "year": "1995",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy Award for Best Director",
-     "award_qid": "Q103360",
-     "year": "1978",
-     "work": "Der Stadtneurotiker",
-     "work_qid": "Q233464"
-    },
-    {
-     "award": "Bodil Awards",
-     "award_qid": "Q889842",
-     "year": "1987",
-     "work": "Hannah et ses sœurs",
-     "work_qid": "Q845057"
-    },
-    {
-     "award": "Golden Globe Award for Best Screenplay",
-     "award_qid": "Q849124",
-     "year": "2012",
-     "work": "Midnight in Paris",
-     "work_qid": "Q206124"
-    },
-    {
-     "award": "FIPRESCI Prize of the Festival de Cannes",
-     "award_qid": "Q3404587",
-     "year": "1985",
-     "work": "The Purple Rose of Cairo",
-     "work_qid": "Q912729"
-    },
-    {
-     "award": "David di Donatello for Best Foreign Actor",
-     "award_qid": "Q3404523",
-     "year": "1984",
-     "work": "Zelig",
-     "work_qid": "Q187423"
-    },
-    {
-     "award": "honorary doctorate of Pompeu Fabra University",
-     "award_qid": "Q50616934",
-     "year": "2007",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Directors Guild of America Award",
-     "award_qid": "Q1111310",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "The President's Memorial Award",
-     "award_qid": "Q7758074",
-     "year": "1986",
-     "work": "The Purple Rose of Cairo",
-     "work_qid": "Q912729"
     }
    ],
    "rel": [
@@ -19863,13 +20115,6 @@
    ],
    "awards": [
     {
-     "award": "Lucien Barrière Literary Award",
-     "award_qid": "Q20020742",
-     "year": "1991",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Bronze Star Medal",
      "award_qid": "Q928314",
      "year": null,
@@ -19887,6 +20132,13 @@
      "award": "Silver Star",
      "award_qid": "Q852071",
      "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Lucien Barrière Literary Award",
+     "award_qid": "Q20020742",
+     "year": "1991",
      "work": null,
      "work_qid": null
     }
@@ -19910,16 +20162,16 @@
    ],
    "awards": [
     {
-     "award": "prix transfuge du livre de cinéma",
-     "award_qid": "Q137870547",
-     "year": "2026",
+     "award": "Time Machine Award",
+     "award_qid": "Q25405526",
+     "year": "2008",
      "work": null,
      "work_qid": null
     },
     {
-     "award": "Time Machine Award",
-     "award_qid": "Q25405526",
-     "year": "2008",
+     "award": "prix transfuge du livre de cinéma",
+     "award_qid": "Q137870547",
+     "year": "2026",
      "work": null,
      "work_qid": null
     }
@@ -20353,13 +20605,6 @@
    ],
    "awards": [
     {
-     "award": "Adamson Awards",
-     "award_qid": "Q1781888",
-     "year": "2013",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Yellow Kid Award",
      "award_qid": "Q2600026",
      "year": "1998",
@@ -20405,6 +20650,13 @@
      "award": "Éléphant d'or du meilleur album de l’année",
      "award_qid": "Q136512322",
      "year": "2003",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Adamson Awards",
+     "award_qid": "Q1781888",
+     "year": "2013",
      "work": null,
      "work_qid": null
     }
@@ -20488,13 +20740,6 @@
    ],
    "awards": [
     {
-     "award": "René Clair Award",
-     "award_qid": "Q3405213",
-     "year": "2026",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "European Film Award for Best Screenwriter",
      "award_qid": "Q1377777",
      "year": "2013",
@@ -20542,6 +20787,13 @@
      "year": "2019",
      "work": "By the Grace of God",
      "work_qid": "Q60169300"
+    },
+    {
+     "award": "René Clair Award",
+     "award_qid": "Q3405213",
+     "year": "2026",
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": []
@@ -22783,6 +23035,13 @@
    ],
    "awards": [
     {
+     "award": "Commander of the Order of the Crown",
+     "award_qid": "Q17200714",
+     "year": "2016",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Knight of the Legion of Honour",
      "award_qid": "Q10855271",
      "year": "2008",
@@ -22851,13 +23110,6 @@
      "year": "2019",
      "work": "A Man and a Woman",
      "work_qid": "Q261403"
-    },
-    {
-     "award": "Commander of the Order of the Crown",
-     "award_qid": "Q17200714",
-     "year": "2016",
-     "work": null,
-     "work_qid": null
     }
    ],
    "rel": [
@@ -25003,6 +25255,27 @@
    ],
    "awards": [
     {
+     "award": "Den Spillende Faun",
+     "award_qid": "Q100908250",
+     "year": "2015",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Palme d'Or",
+     "award_qid": "Q179808",
+     "year": "1992",
+     "work": "The Best Intentions",
+     "work_qid": "Q1217937"
+    },
+    {
+     "award": "Honorary craftsman",
+     "award_qid": "Q23899619",
+     "year": "1993",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "LO's kulturpris",
      "award_qid": "Q12323516",
      "year": "1984",
@@ -25048,27 +25321,6 @@
      "award": "Commander of the Order of the Polar Star",
      "award_qid": "Q20899923",
      "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Den Spillende Faun",
-     "award_qid": "Q100908250",
-     "year": "2015",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Palme d'Or",
-     "award_qid": "Q179808",
-     "year": "1992",
-     "work": "The Best Intentions",
-     "work_qid": "Q1217937"
-    },
-    {
-     "award": "Honorary craftsman",
-     "award_qid": "Q23899619",
-     "year": "1993",
      "work": null,
      "work_qid": null
     }
@@ -27032,34 +27284,6 @@
     {
      "award": "Academy Award for Best Animated Short Film",
      "award_qid": "Q917808",
-     "year": "1994",
-     "work": "The Wrong Trousers",
-     "work_qid": "Q1969617"
-    },
-    {
-     "award": "Winsor McCay Award",
-     "award_qid": "Q8025998",
-     "year": "2008",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Commander of the Order of the British Empire",
-     "award_qid": "Q12201477",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Annie Award",
-     "award_qid": "Q566905",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy Award for Best Animated Short Film",
-     "award_qid": "Q917808",
      "year": "1996",
      "work": "A Close Shave",
      "work_qid": "Q400097"
@@ -27084,6 +27308,34 @@
      "year": "2006",
      "work": "Wallace et Gromit : Le Mystère du lapin-garou",
      "work_qid": "Q318428"
+    },
+    {
+     "award": "Academy Award for Best Animated Short Film",
+     "award_qid": "Q917808",
+     "year": "1994",
+     "work": "The Wrong Trousers",
+     "work_qid": "Q1969617"
+    },
+    {
+     "award": "Winsor McCay Award",
+     "award_qid": "Q8025998",
+     "year": "2008",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Commander of the Order of the British Empire",
+     "award_qid": "Q12201477",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Annie Award",
+     "award_qid": "Q566905",
+     "year": null,
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": []
@@ -27718,6 +27970,33 @@
    "awards": [],
    "rel": []
   },
+  "Q3481357": {
+   "label": "Shane Carruth",
+   "enwiki": "Shane Carruth",
+   "birth": "1972-01-01T00:00:00Z",
+   "death": null,
+   "birthplace": "Myrtle Beach",
+   "citizenship": [
+    "United States"
+   ],
+   "awards": [
+    {
+     "award": "Sundance Film Festival U.S. Dramatic Grand Jury Prize Award",
+     "award_qid": "Q3774974",
+     "year": "2004",
+     "work": "Primer",
+     "work_qid": "Q1434995"
+    },
+    {
+     "award": "Alfred P. Sloan Prize",
+     "award_qid": "Q1763328",
+     "year": "2004",
+     "work": "Primer",
+     "work_qid": "Q1434995"
+    }
+   ],
+   "rel": []
+  },
   "Q34816": {
    "label": "Kathryn Bigelow",
    "enwiki": "Kathryn Bigelow",
@@ -27861,6 +28140,41 @@
      "award": "Guggenheim Fellowship",
      "award_qid": "Q1316544",
      "year": "2000",
+     "work": null,
+     "work_qid": null
+    }
+   ],
+   "rel": []
+  },
+  "Q3507944": {
+   "label": "Dušan Hanák",
+   "enwiki": "Dušan Hanák",
+   "birth": "1938-04-27T00:00:00Z",
+   "death": null,
+   "birthplace": "Bratislava",
+   "citizenship": [
+    "Slovakia",
+    "Czechoslovakia"
+   ],
+   "awards": [
+    {
+     "award": "Cross of Pribina class I",
+     "award_qid": "Q95987274",
+     "year": "2004",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "European Film Award Special Mention",
+     "award_qid": "Q77708227",
+     "year": "1989",
+     "work": "Pictures of the Old World",
+     "work_qid": "Q12772849"
+    },
+    {
+     "award": "Annual award ACFK",
+     "award_qid": "Q136442039",
+     "year": "2007",
      "work": null,
      "work_qid": null
     }
@@ -30150,83 +30464,6 @@
    ],
    "awards": [
     {
-     "award": "Silver Lion",
-     "award_qid": "Q1337827",
-     "year": "2018",
-     "work": "The Sisters Brothers",
-     "work_qid": "Q29558633"
-    },
-    {
-     "award": "Academy Award for Best Original Song",
-     "award_qid": "Q112243",
-     "year": "2025",
-     "work": "El Mal",
-     "work_qid": "Q131340862"
-    },
-    {
-     "award": "César Award for Best Director",
-     "award_qid": "Q24137",
-     "year": "2010",
-     "work": "A Prophet",
-     "work_qid": "Q1061541"
-    },
-    {
-     "award": "César Award for Best Film",
-     "award_qid": "Q645595",
-     "year": "2010",
-     "work": "A Prophet",
-     "work_qid": "Q1061541"
-    },
-    {
-     "award": "César Award for Best Director",
-     "award_qid": "Q24137",
-     "year": "2006",
-     "work": "The Beat That My Heart Skipped",
-     "work_qid": "Q931671"
-    },
-    {
-     "award": "European Film Award for Best Screenwriter",
-     "award_qid": "Q1377777",
-     "year": "2024",
-     "work": "Emilia Pérez",
-     "work_qid": "Q123928072"
-    },
-    {
-     "award": "César Award for Best Director",
-     "award_qid": "Q24137",
-     "year": "2025",
-     "work": "Emilia Pérez",
-     "work_qid": "Q123928072"
-    },
-    {
-     "award": "BAFTA Award for Best Film Not in the English Language",
-     "award_qid": "Q2925687",
-     "year": "2006",
-     "work": "The Beat That My Heart Skipped",
-     "work_qid": "Q931671"
-    },
-    {
-     "award": "Lumière Award for Best Film",
-     "award_qid": "Q951810",
-     "year": "2025",
-     "work": "Emilia Pérez",
-     "work_qid": "Q123928072"
-    },
-    {
-     "award": "Lumière Award for Best Director",
-     "award_qid": "Q2111269",
-     "year": "2025",
-     "work": "Emilia Pérez",
-     "work_qid": "Q123928072"
-    },
-    {
-     "award": "Lumière Award for Best Screenplay",
-     "award_qid": "Q3404984",
-     "year": "2025",
-     "work": "Emilia Pérez",
-     "work_qid": "Q123928072"
-    },
-    {
      "award": "Cannes Film Festival Grand Prix",
      "award_qid": "Q844804",
      "year": "2009",
@@ -30330,6 +30567,83 @@
      "year": "2013",
      "work": "Rust and Bone",
      "work_qid": "Q73803"
+    },
+    {
+     "award": "Silver Lion",
+     "award_qid": "Q1337827",
+     "year": "2018",
+     "work": "The Sisters Brothers",
+     "work_qid": "Q29558633"
+    },
+    {
+     "award": "Academy Award for Best Original Song",
+     "award_qid": "Q112243",
+     "year": "2025",
+     "work": "El Mal",
+     "work_qid": "Q131340862"
+    },
+    {
+     "award": "César Award for Best Director",
+     "award_qid": "Q24137",
+     "year": "2010",
+     "work": "A Prophet",
+     "work_qid": "Q1061541"
+    },
+    {
+     "award": "César Award for Best Film",
+     "award_qid": "Q645595",
+     "year": "2010",
+     "work": "A Prophet",
+     "work_qid": "Q1061541"
+    },
+    {
+     "award": "César Award for Best Director",
+     "award_qid": "Q24137",
+     "year": "2006",
+     "work": "The Beat That My Heart Skipped",
+     "work_qid": "Q931671"
+    },
+    {
+     "award": "European Film Award for Best Screenwriter",
+     "award_qid": "Q1377777",
+     "year": "2024",
+     "work": "Emilia Pérez",
+     "work_qid": "Q123928072"
+    },
+    {
+     "award": "César Award for Best Director",
+     "award_qid": "Q24137",
+     "year": "2025",
+     "work": "Emilia Pérez",
+     "work_qid": "Q123928072"
+    },
+    {
+     "award": "BAFTA Award for Best Film Not in the English Language",
+     "award_qid": "Q2925687",
+     "year": "2006",
+     "work": "The Beat That My Heart Skipped",
+     "work_qid": "Q931671"
+    },
+    {
+     "award": "Lumière Award for Best Film",
+     "award_qid": "Q951810",
+     "year": "2025",
+     "work": "Emilia Pérez",
+     "work_qid": "Q123928072"
+    },
+    {
+     "award": "Lumière Award for Best Director",
+     "award_qid": "Q2111269",
+     "year": "2025",
+     "work": "Emilia Pérez",
+     "work_qid": "Q123928072"
+    },
+    {
+     "award": "Lumière Award for Best Screenplay",
+     "award_qid": "Q3404984",
+     "year": "2025",
+     "work": "Emilia Pérez",
+     "work_qid": "Q123928072"
     }
    ],
    "rel": [
@@ -33181,6 +33495,13 @@
      "work_qid": null
     },
     {
+     "award": "Saturn Awards",
+     "award_qid": "Q105447",
+     "year": "2004",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Silver Lion",
      "award_qid": "Q1337827",
      "year": "1994",
@@ -33195,13 +33516,6 @@
      "work_qid": null
     },
     {
-     "award": "Saturn Awards",
-     "award_qid": "Q105447",
-     "year": "2004",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Producers Guild of America Awards",
      "award_qid": "Q3406648",
      "year": "2012",
@@ -33211,14 +33525,14 @@
     {
      "award": "Producers Guild of America Awards",
      "award_qid": "Q3406648",
-     "year": "2022",
+     "year": "2014",
      "work": null,
      "work_qid": null
     },
     {
      "award": "Producers Guild of America Awards",
      "award_qid": "Q3406648",
-     "year": "2014",
+     "year": "2022",
      "work": null,
      "work_qid": null
     }
@@ -33556,13 +33870,6 @@
    ],
    "awards": [
     {
-     "award": "Blue Ribbon Awards for Best Director",
-     "award_qid": "Q19833431",
-     "year": "1988",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Mainichi Film Award for Best Director",
      "award_qid": "Q20002163",
      "year": null,
@@ -33575,6 +33882,13 @@
      "year": "1987",
      "work": "The Emperor's Naked Army Marches On",
      "work_qid": "Q3282582"
+    },
+    {
+     "award": "Blue Ribbon Awards for Best Director",
+     "award_qid": "Q19833431",
+     "year": "1988",
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": []
@@ -34048,6 +34362,20 @@
    ],
    "awards": [
     {
+     "award": "Golden Leopard",
+     "award_qid": "Q1700510",
+     "year": "1969",
+     "work": "Three Sad Tigers",
+     "work_qid": "Q5262922"
+    },
+    {
+     "award": "César Award for Best Fiction Short Film",
+     "award_qid": "Q580337",
+     "year": "1980",
+     "work": "Colloque de chiens",
+     "work_qid": "Q2983534"
+    },
+    {
      "award": "Silver Bear for Outstanding Artistic Contribution",
      "award_qid": "Q1266608",
      "year": "1997",
@@ -34095,20 +34423,6 @@
      "year": "2011",
      "work": "Mysteries of Lisbon",
      "work_qid": "Q2346467"
-    },
-    {
-     "award": "Golden Leopard",
-     "award_qid": "Q1700510",
-     "year": "1969",
-     "work": "Three Sad Tigers",
-     "work_qid": "Q5262922"
-    },
-    {
-     "award": "César Award for Best Fiction Short Film",
-     "award_qid": "Q580337",
-     "year": "1980",
-     "work": "Colloque de chiens",
-     "work_qid": "Q2983534"
     }
    ],
    "rel": [
@@ -34163,6 +34477,13 @@
    ],
    "awards": [
     {
+     "award": "prix Gabriele-Münter",
+     "award_qid": "Q1490521",
+     "year": "1997",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Austrian Decoration for Science and Art",
      "award_qid": "Q306590",
      "year": "2005",
@@ -34187,13 +34508,6 @@
      "award": "Great Golden Medal of Honour for Services to the Republic of Austria",
      "award_qid": "Q17505835",
      "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "prix Gabriele-Münter",
-     "award_qid": "Q1490521",
-     "year": "1997",
      "work": null,
      "work_qid": null
     }
@@ -36722,13 +37036,6 @@
    ],
    "awards": [
     {
-     "award": "Academy Award for Best Director",
-     "award_qid": "Q103360",
-     "year": "1960",
-     "work": "Ben Hur",
-     "work_qid": "Q180098"
-    },
-    {
      "award": "Irving G. Thalberg Memorial Award",
      "award_qid": "Q844273",
      "year": "1965",
@@ -36804,6 +37111,13 @@
      "year": "1960",
      "work": null,
      "work_qid": null
+    },
+    {
+     "award": "Academy Award for Best Director",
+     "award_qid": "Q103360",
+     "year": "1960",
+     "work": "Ben Hur",
+     "work_qid": "Q180098"
     }
    ],
    "rel": [
@@ -39088,6 +39402,34 @@
    ],
    "awards": [
     {
+     "award": "The George Pal Memorial Award",
+     "award_qid": "Q3101822",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Officer of Arts and Letters",
+     "award_qid": "Q13452524",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Leopard of Honour",
+     "award_qid": "Q674146",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy Award for Best Director",
+     "award_qid": "Q103360",
+     "year": "1972",
+     "work": "The French Connection",
+     "work_qid": "Q220735"
+    },
+    {
      "award": "Time Machine Award",
      "award_qid": "Q25405526",
      "year": "2007",
@@ -39135,34 +39477,6 @@
      "year": "2017",
      "work": null,
      "work_qid": null
-    },
-    {
-     "award": "The George Pal Memorial Award",
-     "award_qid": "Q3101822",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Officer of Arts and Letters",
-     "award_qid": "Q13452524",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Leopard of Honour",
-     "award_qid": "Q674146",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy Award for Best Director",
-     "award_qid": "Q103360",
-     "year": "1972",
-     "work": "The French Connection",
-     "work_qid": "Q220735"
     }
    ],
    "rel": [
@@ -39290,6 +39604,20 @@
    ],
    "awards": [
     {
+     "award": "Time Machine Award",
+     "award_qid": "Q25405526",
+     "year": "2015",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Annual award ACFK",
+     "award_qid": "Q136442039",
+     "year": "2005",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Commandeur des Arts et des Lettres",
      "award_qid": "Q13452531",
      "year": "1996",
@@ -39307,20 +39635,6 @@
      "award": "Commander with Star of the Order of Polonia Restituta",
      "award_qid": "Q15715254",
      "year": "2001",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Time Machine Award",
-     "award_qid": "Q25405526",
-     "year": "2015",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Annual award ACFK",
-     "award_qid": "Q136442039",
-     "year": "2005",
      "work": null,
      "work_qid": null
     }
@@ -40697,34 +41011,6 @@
    ],
    "awards": [
     {
-     "award": "Nastro d'Argento for Best Subject",
-     "award_qid": "Q16156319",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Nastro d'Argento for Best Screenplay",
-     "award_qid": "Q1966051",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Marrakech International Film Festival Awards",
-     "award_qid": "Q21029702",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Golden Lion for Lifetime Achievement",
-     "award_qid": "Q3241784",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "ruban d'argent du meilleur film",
      "award_qid": "Q30889744",
      "year": null,
@@ -40898,6 +41184,34 @@
      "year": null,
      "work": "My Mother's Smile",
      "work_qid": "Q2307306"
+    },
+    {
+     "award": "Nastro d'Argento for Best Subject",
+     "award_qid": "Q16156319",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Nastro d'Argento for Best Screenplay",
+     "award_qid": "Q1966051",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Marrakech International Film Festival Awards",
+     "award_qid": "Q21029702",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Golden Lion for Lifetime Achievement",
+     "award_qid": "Q3241784",
+     "year": null,
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": [
@@ -41674,6 +41988,13 @@
      "work_qid": null
     },
     {
+     "award": "Ciak d'oro - best director",
+     "award_qid": "Q97183932",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "BAFTA Award for Best Original Screenplay",
      "award_qid": "Q41375",
      "year": "1990",
@@ -41693,13 +42014,6 @@
      "year": null,
      "work": null,
      "work_qid": null
-    },
-    {
-     "award": "BAFTA Award for Best Film Not in the English Language",
-     "award_qid": "Q2925687",
-     "year": "1990",
-     "work": "Cinema Paradiso",
-     "work_qid": "Q464032"
     },
     {
      "award": "European Film Academy Special Jury Award",
@@ -41772,11 +42086,11 @@
      "work_qid": null
     },
     {
-     "award": "Ciak d'oro - best director",
-     "award_qid": "Q97183932",
-     "year": null,
-     "work": null,
-     "work_qid": null
+     "award": "BAFTA Award for Best Film Not in the English Language",
+     "award_qid": "Q2925687",
+     "year": "1990",
+     "work": "Cinema Paradiso",
+     "work_qid": "Q464032"
     }
    ],
    "rel": []
@@ -43184,6 +43498,55 @@
    ],
    "awards": [
     {
+     "award": "Princess of Asturias Awards",
+     "award_qid": "Q329157",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Goya Awards",
+     "award_qid": "Q212828",
+     "year": "1989",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "European Film Awards",
+     "award_qid": "Q223740",
+     "year": "1988",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "César Award",
+     "award_qid": "Q174389",
+     "year": "1993",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy Awards",
+     "award_qid": "Q19020",
+     "year": "2000",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Golden Osella",
+     "award_qid": "Q1444982",
+     "year": "1988",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Golden Lion",
+     "award_qid": "Q209459",
+     "year": "2024",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "European Film Award for Best Film",
      "award_qid": "Q777921",
      "year": "2006",
@@ -43348,55 +43711,6 @@
      "award": "Legion of Honour",
      "award_qid": "Q163700",
      "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Princess of Asturias Awards",
-     "award_qid": "Q329157",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Golden Osella",
-     "award_qid": "Q1444982",
-     "year": "1988",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Goya Awards",
-     "award_qid": "Q212828",
-     "year": "1989",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "European Film Awards",
-     "award_qid": "Q223740",
-     "year": "1988",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "César Award",
-     "award_qid": "Q174389",
-     "year": "1993",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy Awards",
-     "award_qid": "Q19020",
-     "year": "2000",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Golden Lion",
-     "award_qid": "Q209459",
-     "year": "2024",
      "work": null,
      "work_qid": null
     },
@@ -44281,34 +44595,6 @@
    ],
    "awards": [
     {
-     "award": "Academy Awards",
-     "award_qid": "Q19020",
-     "year": "1995",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Order of St. Seraphim of Sarov",
-     "award_qid": "Q4336016",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Order \"For Merit to the Fatherland\", 4th class",
-     "award_qid": "Q18080423",
-     "year": "2010",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Honored Artist of the RSFSR",
-     "award_qid": "Q46919",
-     "year": "1976",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Medal for Merit to Culture",
      "award_qid": "Q1702885",
      "year": null,
@@ -44627,6 +44913,34 @@
      "award": "Golden Shell",
      "award_qid": "Q775086",
      "year": "1977",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy Awards",
+     "award_qid": "Q19020",
+     "year": "1995",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Order of St. Seraphim of Sarov",
+     "award_qid": "Q4336016",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Order \"For Merit to the Fatherland\", 4th class",
+     "award_qid": "Q18080423",
+     "year": "2010",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Honored Artist of the RSFSR",
+     "award_qid": "Q46919",
+     "year": "1976",
      "work": null,
      "work_qid": null
     }
@@ -46036,6 +46350,24 @@
     }
    ]
   },
+  "Q552981": {
+   "label": "Jack Chambers",
+   "enwiki": "Jack Chambers (artist)",
+   "birth": "1931-03-25T00:00:00Z",
+   "death": "1978-04-13T00:00:00Z",
+   "birthplace": "London",
+   "citizenship": [
+    "Canada"
+   ],
+   "awards": [],
+   "rel": [
+    {
+     "p": "P1066",
+     "qid": "Q63413146",
+     "label": "Herbert Ariss"
+    }
+   ]
+  },
   "Q55303": {
    "label": "John Schlesinger",
    "enwiki": "John Schlesinger",
@@ -47380,13 +47712,6 @@
    ],
    "awards": [
     {
-     "award": "Dadasaheb Phalke Award",
-     "award_qid": "Q2167384",
-     "year": "2005",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Padma Bhushan",
      "award_qid": "Q932650",
      "year": "1991",
@@ -47420,6 +47745,13 @@
      "year": "1980",
      "work": "Junoon",
      "work_qid": "Q6314288"
+    },
+    {
+     "award": "Dadasaheb Phalke Award",
+     "award_qid": "Q2167384",
+     "year": "2005",
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": [
@@ -48290,6 +48622,62 @@
    ],
    "awards": [
     {
+     "award": "Officer of the Order of Canada",
+     "award_qid": "Q15278116",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Order of Ontario",
+     "award_qid": "Q742162",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Queen Elizabeth II Diamond Jubilee Medal",
+     "award_qid": "Q194540",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy of Canadian Cinema and Television Award for Best Motion Picture",
+     "award_qid": "Q2620100",
+     "year": "1989",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Academy of Canadian Cinema and Television Award for Best Motion Picture",
+     "award_qid": "Q2620100",
+     "year": "1992",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Time Machine Award",
+     "award_qid": "Q25405526",
+     "year": "2002",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Carrosse d'or",
+     "award_qid": "Q775028",
+     "year": "2006",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Knight of the Legion of Honour",
+     "award_qid": "Q10855271",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "The George Pal Memorial Award",
      "award_qid": "Q3101822",
      "year": null,
@@ -48372,62 +48760,6 @@
      "year": "1977",
      "work": "Rage",
      "work_qid": "Q2061958"
-    },
-    {
-     "award": "Officer of the Order of Canada",
-     "award_qid": "Q15278116",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Order of Ontario",
-     "award_qid": "Q742162",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Queen Elizabeth II Diamond Jubilee Medal",
-     "award_qid": "Q194540",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy of Canadian Cinema and Television Award for Best Motion Picture",
-     "award_qid": "Q2620100",
-     "year": "1989",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Academy of Canadian Cinema and Television Award for Best Motion Picture",
-     "award_qid": "Q2620100",
-     "year": "1992",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Time Machine Award",
-     "award_qid": "Q25405526",
-     "year": "2002",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Carrosse d'or",
-     "award_qid": "Q775028",
-     "year": "2006",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Knight of the Legion of Honour",
-     "award_qid": "Q10855271",
-     "year": null,
-     "work": null,
-     "work_qid": null
     }
    ],
    "rel": [
@@ -48852,6 +49184,13 @@
      "work_qid": null
     },
     {
+     "award": "Ordre des Arts et des Lettres",
+     "award_qid": "Q716909",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Lumière Awards",
      "award_qid": "Q693797",
      "year": null,
@@ -48861,13 +49200,6 @@
     {
      "award": "Legion of Honour",
      "award_qid": "Q163700",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Ordre des Arts et des Lettres",
-     "award_qid": "Q716909",
      "year": null,
      "work": null,
      "work_qid": null
@@ -49598,55 +49930,6 @@
    ],
    "awards": [
     {
-     "award": "Golden Lion for Lifetime Achievement",
-     "award_qid": "Q3241784",
-     "year": "2007",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Hugo Award",
-     "award_qid": "Q188914",
-     "year": "1991",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Daytime Emmy Award for Outstanding Children's Animated Program",
-     "award_qid": "Q3019369",
-     "year": "1990",
-     "work": "Beetlejuice",
-     "work_qid": "Q320384"
-    },
-    {
-     "award": "Officer of Arts and Letters",
-     "award_qid": "Q13452524",
-     "year": "2016",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Inkpot Award",
-     "award_qid": "Q2687578",
-     "year": "2009",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Hugo Award for Best Dramatic Presentation",
-     "award_qid": "Q3414212",
-     "year": "1991",
-     "work": "Edward Scissorhands",
-     "work_qid": "Q217182"
-    },
-    {
-     "award": "Lumière Award, Lyon Festival of cinema",
-     "award_qid": "Q3404975",
-     "year": "2022",
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "34th Moscow International Film Festival",
      "award_qid": "Q4030940",
      "year": null,
@@ -49708,6 +49991,55 @@
      "year": "2008",
      "work": "Sweeney Todd: The Demon Barber of Fleet Street",
      "work_qid": "Q212041"
+    },
+    {
+     "award": "Golden Lion for Lifetime Achievement",
+     "award_qid": "Q3241784",
+     "year": "2007",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Hugo Award",
+     "award_qid": "Q188914",
+     "year": "1991",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Daytime Emmy Award for Outstanding Children's Animated Program",
+     "award_qid": "Q3019369",
+     "year": "1990",
+     "work": "Beetlejuice",
+     "work_qid": "Q320384"
+    },
+    {
+     "award": "Officer of Arts and Letters",
+     "award_qid": "Q13452524",
+     "year": "2016",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Inkpot Award",
+     "award_qid": "Q2687578",
+     "year": "2009",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Hugo Award for Best Dramatic Presentation",
+     "award_qid": "Q3414212",
+     "year": "1991",
+     "work": "Edward Scissorhands",
+     "work_qid": "Q217182"
+    },
+    {
+     "award": "Lumière Award, Lyon Festival of cinema",
+     "award_qid": "Q3404975",
+     "year": "2022",
+     "work": null,
+     "work_qid": null
     }
    ],
    "rel": [
@@ -52458,6 +52790,34 @@
    ],
    "awards": [
     {
+     "award": "German Film Award",
+     "award_qid": "Q708731",
+     "year": "1973",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Commandeur des Arts et des Lettres",
+     "award_qid": "Q13452531",
+     "year": "2011",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "German Critics' Prize",
+     "award_qid": "Q1205040",
+     "year": "1968",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "German Critics' Prize",
+     "award_qid": "Q1205040",
+     "year": "1982",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Grimme-Preis",
      "award_qid": "Q472379",
      "year": "1973",
@@ -52491,34 +52851,6 @@
      "year": "1986",
      "work": "Die Nacht",
      "work_qid": "Q3823366"
-    },
-    {
-     "award": "German Critics' Prize",
-     "award_qid": "Q1205040",
-     "year": "1968",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "German Film Award",
-     "award_qid": "Q708731",
-     "year": "1973",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Commandeur des Arts et des Lettres",
-     "award_qid": "Q13452531",
-     "year": "2011",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "German Critics' Prize",
-     "award_qid": "Q1205040",
-     "year": "1982",
-     "work": null,
-     "work_qid": null
     }
    ],
    "rel": [
@@ -52539,48 +52871,6 @@
     "Germany"
    ],
    "awards": [
-    {
-     "award": "German Film Award for Best Direction",
-     "award_qid": "Q1204812",
-     "year": "2014",
-     "work": "Home from Home",
-     "work_qid": "Q14759456"
-    },
-    {
-     "award": "Officer of Arts and Letters",
-     "award_qid": "Q13452524",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Carl Zuckmayer Medal",
-     "award_qid": "Q858528",
-     "year": "2004",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "German Film Award for Best Feature Film",
-     "award_qid": "Q1204831",
-     "year": "1977",
-     "work": "Zero Hour",
-     "work_qid": "Q19841114"
-    },
-    {
-     "award": "Konrad Wolf Prize",
-     "award_qid": "Q1529156",
-     "year": "2007",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "German Film Honorary Award",
-     "award_qid": "Q1204836",
-     "year": "1982",
-     "work": null,
-     "work_qid": null
-    },
     {
      "award": "David di Donatello Luchino Visconti",
      "award_qid": "Q3703245",
@@ -52620,6 +52910,48 @@
      "award": "Order of Merit of Rhineland-Palatinate",
      "award_qid": "Q470078",
      "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "German Film Award for Best Direction",
+     "award_qid": "Q1204812",
+     "year": "2014",
+     "work": "Home from Home",
+     "work_qid": "Q14759456"
+    },
+    {
+     "award": "Officer of Arts and Letters",
+     "award_qid": "Q13452524",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Carl Zuckmayer Medal",
+     "award_qid": "Q858528",
+     "year": "2004",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "German Film Award for Best Feature Film",
+     "award_qid": "Q1204831",
+     "year": "1977",
+     "work": "Zero Hour",
+     "work_qid": "Q19841114"
+    },
+    {
+     "award": "Konrad Wolf Prize",
+     "award_qid": "Q1529156",
+     "year": "2007",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "German Film Honorary Award",
+     "award_qid": "Q1204836",
+     "year": "1982",
      "work": null,
      "work_qid": null
     }
@@ -52685,6 +53017,41 @@
     "Norway"
    ],
    "awards": [
+    {
+     "award": "Norwegian Film Critics’ Award",
+     "award_qid": "Q3858187",
+     "year": "2012",
+     "work": "Oslo, August 31st",
+     "work_qid": "Q401566"
+    },
+    {
+     "award": "Amanda Award for Best Direction",
+     "award_qid": "Q18907804",
+     "year": "2007",
+     "work": "Reprise",
+     "work_qid": "Q499512"
+    },
+    {
+     "award": "Amanda Award for Best Direction",
+     "award_qid": "Q18907804",
+     "year": "2012",
+     "work": "Oslo, August 31st",
+     "work_qid": "Q401566"
+    },
+    {
+     "award": "Cannes Film Festival Grand Prix",
+     "award_qid": "Q844804",
+     "year": "2025",
+     "work": "Sentimental Value",
+     "work_qid": "Q130284179"
+    },
+    {
+     "award": "Kanon Award for Best Direction",
+     "award_qid": "Q19458556",
+     "year": "2011",
+     "work": "Oslo, August 31st",
+     "work_qid": "Q401566"
+    },
     {
      "award": "Sitges Film Festival Best Screenplay award",
      "award_qid": "Q24051554",
@@ -52782,41 +53149,6 @@
      "year": "2026",
      "work": "Sentimental Value",
      "work_qid": "Q130284179"
-    },
-    {
-     "award": "Norwegian Film Critics’ Award",
-     "award_qid": "Q3858187",
-     "year": "2012",
-     "work": "Oslo, August 31st",
-     "work_qid": "Q401566"
-    },
-    {
-     "award": "Amanda Award for Best Direction",
-     "award_qid": "Q18907804",
-     "year": "2007",
-     "work": "Reprise",
-     "work_qid": "Q499512"
-    },
-    {
-     "award": "Amanda Award for Best Direction",
-     "award_qid": "Q18907804",
-     "year": "2012",
-     "work": "Oslo, August 31st",
-     "work_qid": "Q401566"
-    },
-    {
-     "award": "Cannes Film Festival Grand Prix",
-     "award_qid": "Q844804",
-     "year": "2025",
-     "work": "Sentimental Value",
-     "work_qid": "Q130284179"
-    },
-    {
-     "award": "Kanon Award for Best Direction",
-     "award_qid": "Q19458556",
-     "year": "2011",
-     "work": "Oslo, August 31st",
-     "work_qid": "Q401566"
     }
    ],
    "rel": []
@@ -53103,13 +53435,6 @@
    ],
    "awards": [
     {
-     "award": "Silver Bear Grand Jury Prize",
-     "award_qid": "Q664212",
-     "year": "2023",
-     "work": "Afire",
-     "work_qid": "Q116621601"
-    },
-    {
      "award": "Romy",
      "award_qid": "Q873842",
      "year": null,
@@ -53283,6 +53608,13 @@
      "year": "2020",
      "work": null,
      "work_qid": null
+    },
+    {
+     "award": "Silver Bear Grand Jury Prize",
+     "award_qid": "Q664212",
+     "year": "2023",
+     "work": "Afire",
+     "work_qid": "Q116621601"
     }
    ],
    "rel": []
@@ -56443,6 +56775,33 @@
    ],
    "rel": []
   },
+  "Q739129": {
+   "label": "Shūji Terayama",
+   "enwiki": "Shūji Terayama",
+   "birth": "1935-12-10T00:00:00Z",
+   "death": "1983-05-04T00:00:00Z",
+   "birthplace": "Hirosaki",
+   "citizenship": [
+    "Japan",
+    "Empire of Japan"
+   ],
+   "awards": [
+    {
+     "award": "Sitges Film Festival Best Director award",
+     "award_qid": "Q24051550",
+     "year": "1985",
+     "work": "Farewell to the Ark",
+     "work_qid": "Q5435060"
+    }
+   ],
+   "rel": [
+    {
+     "p": "P26",
+     "qid": "Q11370412",
+     "label": "Kyōko Kujō"
+    }
+   ]
+  },
   "Q739606": {
    "label": "Georges Franju",
    "enwiki": "Georges Franju",
@@ -56550,6 +56909,20 @@
    ],
    "awards": [
     {
+     "award": "Blue Ribbon Awards for Best Director",
+     "award_qid": "Q19833431",
+     "year": "1965",
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Commandeur des Arts et des Lettres",
+     "award_qid": "Q13452531",
+     "year": "1996",
+     "work": null,
+     "work_qid": null
+    },
+    {
      "award": "Mainichi Film Award for Best Director",
      "award_qid": "Q20002163",
      "year": null,
@@ -56569,20 +56942,6 @@
      "year": "1964",
      "work": "The Woman in the Dunes",
      "work_qid": "Q1207936"
-    },
-    {
-     "award": "Blue Ribbon Awards for Best Director",
-     "award_qid": "Q19833431",
-     "year": "1965",
-     "work": null,
-     "work_qid": null
-    },
-    {
-     "award": "Commandeur des Arts et des Lettres",
-     "award_qid": "Q13452531",
-     "year": "1996",
-     "work": null,
-     "work_qid": null
     }
    ],
    "rel": [
@@ -57416,6 +57775,18 @@
      "label": "Bettina Lindtberg"
     }
    ]
+  },
+  "Q78964": {
+   "label": "Peter Tscherkassky",
+   "enwiki": "Peter Tscherkassky",
+   "birth": "1958-10-03T00:00:00Z",
+   "death": null,
+   "birthplace": "Vienna",
+   "citizenship": [
+    "Austria"
+   ],
+   "awards": [],
+   "rel": []
   },
   "Q79003": {
    "label": "Jessica Hausner",
@@ -59196,6 +59567,18 @@
      "label": "Wheeler Dryden"
     }
    ]
+  },
+  "Q88366": {
+   "label": "Gerald Kargl",
+   "enwiki": "Gerald Kargl",
+   "birth": "1953-01-01T00:00:00Z",
+   "death": null,
+   "birthplace": "Villach",
+   "citizenship": [
+    "Austria"
+   ],
+   "awards": [],
+   "rel": []
   },
   "Q8873": {
    "label": "Satyajit Ray",
@@ -61065,13 +61448,6 @@
      "work_qid": null
     },
     {
-     "award": "Order of St. Seraphim of Sarov",
-     "award_qid": "Q4336016",
-     "year": null,
-     "work": null,
-     "work_qid": null
-    },
-    {
      "award": "Order of the Star of Italy",
      "award_qid": "Q3885347",
      "year": null,
@@ -61088,6 +61464,13 @@
     {
      "award": "Ordre des Arts et des Lettres",
      "award_qid": "Q716909",
+     "year": null,
+     "work": null,
+     "work_qid": null
+    },
+    {
+     "award": "Order of St. Seraphim of Sarov",
+     "award_qid": "Q4336016",
      "year": null,
      "work": null,
      "work_qid": null
@@ -61967,6 +62350,18 @@
      "label": "Charles Richard Cammell"
     }
    ]
+  },
+  "Q976133": {
+   "label": "Martin Rosen",
+   "enwiki": "Martin Rosen (director)",
+   "birth": "1936-08-31T00:00:00Z",
+   "death": null,
+   "birthplace": "New York City",
+   "citizenship": [
+    "United States"
+   ],
+   "awards": [],
+   "rel": []
   },
   "Q977546": {
    "label": "Errol Morris",

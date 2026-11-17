@@ -12537,8 +12537,8 @@
   "facts": [
    {
     "text": "The Hourglass Sanatorium won the Jury Prize at Cannes in 1973.",
-    "status": "draft",
-    "source": null
+    "status": "verified",
+    "source": "wikidata"
    },
    {
     "text": "Jerry Garcia helped fund the restoration of The Saragossa Manuscript, completed after his death with Martin Scorsese and Francis Ford Coppola.",
