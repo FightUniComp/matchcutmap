@@ -2,7 +2,10 @@
  {
   "from": "murnau",
   "to": "hitchcock",
-  "note": "Hitchcock worked in German studios in the 1920s and watched Murnau shoot."
+  "note": "Hitchcock worked in German studios in the 1920s and watched Murnau shoot.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "lang",
@@ -92,7 +95,10 @@
  {
   "from": "renoir",
   "to": "ray",
-  "note": "Ray assisted on Renoir's The River."
+  "note": "Ray assisted on Renoir's The River.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "rossellini",
@@ -282,7 +288,10 @@
  {
   "from": "tarkovsky",
   "to": "vontrier",
-  "note": "Antichrist is dedicated to Tarkovsky."
+  "note": "Antichrist is dedicated to Tarkovsky.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "fellini",
@@ -327,7 +336,10 @@
  {
   "from": "godard",
   "to": "fassbinder",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "godard",
@@ -377,7 +389,10 @@
  {
   "from": "melville",
   "to": "kaurismaki",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "melville",
@@ -412,7 +427,10 @@
  {
   "from": "altman",
   "to": "pta",
-  "note": "Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him."
+  "note": "Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "kubrick",
@@ -427,7 +445,10 @@
  {
   "from": "kubrick",
   "to": "pta",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "scorsese",
@@ -437,7 +458,10 @@
  {
   "from": "scorsese",
   "to": "pta",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "scorsese",
@@ -467,12 +491,18 @@
  {
   "from": "ray",
   "to": "wanderson",
-  "note": "The Darjeeling Limited is dedicated to Ray."
+  "note": "The Darjeeling Limited is dedicated to Ray.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "desica",
   "to": "ray",
-  "note": "Ray said seeing Bicycle Thieves decided him to make Pather Panchali."
+  "note": "Ray said seeing Bicycle Thieves decided him to make Pather Panchali.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "desica",
@@ -592,7 +622,10 @@
  {
   "from": "chaplin",
   "to": "fellini",
-  "note": "Gelsomina in La Strada is modelled on the Tramp."
+  "note": "Gelsomina in La Strada is modelled on the Tramp.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "chaplin",
@@ -622,7 +655,10 @@
  {
   "from": "hawks",
   "to": "tarantino",
-  "note": "Tarantino has called Rio Bravo one of his favourite films."
+  "note": "Tarantino has called Rio Bravo one of his favourite films.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "hawks",
@@ -707,7 +743,10 @@
  {
   "from": "renoir",
   "to": "rivette",
-  "note": "Rivette made a three-part television portrait of Renoir."
+  "note": "Rivette made a three-part television portrait of Renoir.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "rossellini",
@@ -862,7 +901,10 @@
  {
   "from": "rohmer",
   "to": "linklater",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "bunuel",
@@ -1292,7 +1334,10 @@
  {
   "from": "maxophuls",
   "to": "kubrick",
-  "note": "Kubrick named Ophüls as a favourite and adopted his tracking shots."
+  "note": "Kubrick named Ophüls as a favourite and adopted his tracking shots.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "maxophuls",
@@ -1417,7 +1462,10 @@
  {
   "from": "godard",
   "to": "leoscarax",
-  "note": "Carax appears in Godard's King Lear."
+  "note": "Carax appears in Godard's King Lear.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "jeanrouch",
@@ -1442,7 +1490,10 @@
  {
   "from": "bresson",
   "to": "louismalle",
-  "note": "Malle was Bresson's assistant on A Man Escaped."
+  "note": "Malle was Bresson's assistant on A Man Escaped.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "louismalle",
@@ -1807,7 +1858,10 @@
  {
   "from": "hawks",
   "to": "johncarpenter",
-  "note": "Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing."
+  "note": "Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "hitchcock",
@@ -1997,7 +2051,10 @@
  {
   "from": "ford",
   "to": "peterbogdanovich",
-  "note": "Bogdanovich made the documentary Directed by John Ford."
+  "note": "Bogdanovich made the documentary Directed by John Ford.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "welles",
@@ -2122,7 +2179,10 @@
  {
   "from": "johnhuston",
   "to": "pta",
-  "note": "Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood."
+  "note": "Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "josephlmankiewicz",
@@ -2537,7 +2597,10 @@
  {
   "from": "jonathandemme",
   "to": "pta",
-  "note": "Anderson has named Demme as the filmmaker he most tried to imitate."
+  "note": "Anderson has named Demme as the filmmaker he most tried to imitate.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "keaton",
@@ -3382,12 +3445,18 @@
  {
   "from": "hayaomiyazaki",
   "to": "hideakianno",
-  "note": "Anno animated for Miyazaki on Nausicaä."
+  "note": "Anno animated for Miyazaki on Nausicaä.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "yurinorstein",
   "to": "hayaomiyazaki",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "lenlye",
@@ -3587,7 +3656,10 @@
  {
   "from": "chuckjones",
   "to": "johnlasseter",
-  "note": ""
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "hitchcock",
@@ -4282,7 +4354,10 @@
  {
   "from": "levkuleshov",
   "to": "vsevolodpudovkin",
-  "note": "Pudovkin trained in Kuleshov's workshop."
+  "note": "Pudovkin trained in Kuleshov's workshop.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "levkuleshov",
@@ -4292,7 +4367,10 @@
  {
   "from": "levkuleshov",
   "to": "eisenstein",
-  "note": "Eisenstein spent a few months in Kuleshov's workshop."
+  "note": "Eisenstein spent a few months in Kuleshov's workshop.",
+  "sources": [
+   "wikidata"
+  ]
  },
  {
   "from": "dwgriffith",
@@ -4633,5 +4711,173 @@
   "from": "frankborzage",
   "to": "yuanmuzhi",
   "note": "Street Angel takes its English title from Borzage's 1928 film."
+ },
+ {
+  "from": "eisenstein",
+  "to": "josephlosey",
+  "note": "Joseph Losey studied with Sergei Eisenstein.",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "demy",
+  "to": "varda",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "ford",
+  "to": "ray",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "hawks",
+  "to": "altman",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "hawks",
+  "to": "scorsese",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "almodovar",
+  "to": "wanderson",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "hitchcock",
+  "to": "pta",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "kurosawa",
+  "to": "pta",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "spielberg",
+  "to": "pta",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "renoir",
+  "to": "rohmer",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "hitchcock",
+  "to": "rivette",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "lang",
+  "to": "rivette",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "jacquesbecker",
+  "to": "rivette",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "jeancocteau",
+  "to": "rivette",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "varda",
+  "to": "demy",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "georgelucas",
+  "to": "nolan",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "frankcapra",
+  "to": "johnlasseter",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "hayaomiyazaki",
+  "to": "johnlasseter",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "prestonsturges",
+  "to": "johnlasseter",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "ritwikghatak",
+  "to": "adoorgopalakrishnan",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
+ },
+ {
+  "from": "ray",
+  "to": "bertrandtavernier",
+  "note": "",
+  "sources": [
+   "wikidata"
+  ]
  }
 ]

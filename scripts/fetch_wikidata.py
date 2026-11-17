@@ -117,7 +117,7 @@ batch("""SELECT ?item ?cLabel WHERE {
 }""", cit)
 print("fetching awards")
 def award(b):
-    a = {"award": val(b, "awardLabel"), "award_qid": qid(val(b, "award")), "year": (val(b, "time") or "")[:4] or None,
+    a = {"award": val(b, "awardLabel"), "award_qid": qid(val(b, "award")), "year": (val(b, "time") or "")[:4] if (val(b, "time") or "")[:4].isdigit() else None,   # unknown dates come back as a URL
          "work": val(b, "workLabel"), "work_qid": qid(val(b, "work")) if val(b, "work") else None}
     lst = info[qid(val(b, "item"))]["awards"]
     if a not in lst: lst.append(a)

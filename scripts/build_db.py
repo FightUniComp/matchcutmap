@@ -130,7 +130,7 @@ for did, ps in WDATA["directors"].items():
         db.execute("INSERT INTO wikidata_people VALUES (?,?,?,?,?,?,?,?,?)", (did, p["qid"], w.get("label"), w.get("enwiki"), (w.get("birth") or "")[:10] or None,
                    (w.get("death") or "")[:10] or None, w.get("birthplace"), ", ".join(w.get("citizenship", [])), p.get("found_by")))
         for a in w.get("awards", []):
-            db.execute("INSERT INTO wikidata_awards VALUES (?,?,?,?,?,?,?)", (did, p["qid"], a.get("award"), a.get("award_qid"), int(a["year"]) if a.get("year") else None, a.get("work"), a.get("work_qid")))
+            db.execute("INSERT INTO wikidata_awards VALUES (?,?,?,?,?,?,?)", (did, p["qid"], a.get("award"), a.get("award_qid"), int(a["year"]) if str(a.get("year") or "").lstrip("-").isdigit() else None, a.get("work"), a.get("work_qid")))
         for r in w.get("rel", []):
             db.execute("INSERT INTO wikidata_relations VALUES (?,?,?,?,?,?,?)", (did, p["qid"], r["p"], props.get(r["p"]), r["qid"], r.get("label"), q2d.get(r["qid"])))
 for did, v in PEOPLE.items():

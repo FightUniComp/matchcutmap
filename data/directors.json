@@ -19529,7 +19529,13 @@
    "tone": 6,
    "dialogue": 1,
    "scale": 4
-  }
+  },
+  "aka": [
+   "Władysław Starewicz",
+   "Wladyslaw Starewicz",
+   "Ladislas Starewitch",
+   "Ladislaw Starewicz"
+  ]
  },
  {
   "id": "fleischerbrothers",
@@ -20656,7 +20662,12 @@
    "tone": 4,
    "dialogue": 5,
    "scale": 5
-  }
+  },
+  "aka": [
+   "Mihalis Kakogiannis",
+   "Michael Kakogiannis",
+   "Mihalis Cacoyannis"
+  ]
  },
  {
   "id": "metinerksan",

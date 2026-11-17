@@ -84,6 +84,11 @@ key films by list rank and then by TMDB audience, and links straight to Letterbo
     python scripts/merge_wikidata.py
     python build.py
 
+`merge_wikidata.py` turns 'influenced by' and teacher links between directors on the map
+into influence links and marks award facts as checked. A director with ten or more 'influenced
+by' entries in Wikidata (those lists tend to be favourite directors) only confirms links we
+already have.
+
 ## Features of the page
 
 - Shareable links: `#ozu` (a director), `#m/french-new-wave` (a movement), `#t/long-take`
@@ -93,11 +98,21 @@ key films by list rank and then by TMDB audience, and links straight to Letterbo
   to style similarity where no influence chain exists.
 - Highlight a region or country, "Surprise me", Escape to clear.
 - Timeline: the same dots glide into a timeline, left to right by the median year of each
-  director's films, one row per region. Links work there too (`#timeline/ozu`).
+  director's films, one row per region. Links work there too (`#timeline/ozu`). A selected
+  director's career is drawn as a line from first to last film, with a tick per film (key
+  films in gold); a highlighted movement shades its period.
+- Decades: click a decade on the timeline, or pick one on the start panel (`#d/1960`): who
+  was at work, the decade's most acclaimed films, the movements active then, and whose first
+  films fall in it.
+- Lineage: who came before and after a director, one to three generations of influence
+  (`#lin/ozu`, `#lin/ozu/3`). On the timeline it runs from left to right.
+- Ratings across the career: a chart in each director's panel with the TMDB rating of every
+  film that has 20 or more votes, key films in gold.
 - Compare two directors side by side (`#cmp/bergman/tarkovsky`): style scales, shared and
   separate techniques, movements, how they connect, shared crew.
-- Your films: mark films as seen, or import what you have watched from a Letterboxd export
-  (the .zip) or an IMDb ratings export (.csv). Your own ratings show on the film cards, the
+- Your films: mark films as seen or as want to see, or import what you have watched and your
+  watchlist from a Letterboxd export (the .zip) or an IMDb export (.csv). `#want` lists the
+  films you want to see. Your own ratings show on the film cards, the
   directors you have watched light up on the map (`#mine`), and "Next for you" suggests
   directors close in style or linked by influence to the ones you have seen. All of this is
   kept in your browser only; Export and Import move it to another browser.

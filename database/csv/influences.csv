@@ -1,5 +1,5 @@
 ﻿from_id,to_id,note,status,source_id,book_scan_pages
-murnau,hitchcock,Hitchcock worked in German studios in the 1920s and watched Murnau shoot.,draft,ohwc,"13,164,330,808"
+murnau,hitchcock,Hitchcock worked in German studios in the 1920s and watched Murnau shoot.,verified,wikidata,"13,164,330,808"
 lang,hitchcock,,draft,ohwc,"13,797"
 murnau,ford,Ford absorbed Murnau's style when both worked at Fox.,draft,,
 murnau,herzog,Herzog remade Nosferatu.,draft,ohwc,13
@@ -17,7 +17,7 @@ dreyer,vontrier,Von Trier filmed Dreyer's unproduced Medea script and hired his 
 dreyer,godard,Vivre sa vie quotes The Passion of Joan of Arc.,draft,ohwc,13
 renoir,truffaut,Truffaut named his production company after Renoir's The Golden Coach.,draft,ohwc,"370,796"
 renoir,altman,,draft,,
-renoir,ray,Ray assisted on Renoir's The River.,draft,ohwc,"13,710,711"
+renoir,ray,Ray assisted on Renoir's The River.,verified,wikidata,"13,710,711"
 rossellini,godard,,draft,ohwc,"466,808"
 rossellini,truffaut,Truffaut worked as Rossellini's assistant.,draft,ohwc,469
 rossellini,fellini,"Fellini co-wrote Rome, Open City and Paisan.",draft,ohwc,"381,466"
@@ -55,7 +55,7 @@ bergman,altman,,draft,ohwc,13
 bunuel,tarkovsky,,draft,,
 bunuel,lynch,,draft,,
 bunuel,almodovar,Almodóvar has called Buñuel the Spanish director he feels closest to.,draft,,
-tarkovsky,vontrier,Antichrist is dedicated to Tarkovsky.,draft,,
+tarkovsky,vontrier,Antichrist is dedicated to Tarkovsky.,verified,wikidata,
 fellini,scorsese,Scorsese has cited I Vitelloni as a model for Mean Streets.,draft,ohwc,466
 fellini,lynch,,draft,,
 fellini,almodovar,,draft,,
@@ -64,7 +64,7 @@ antonioni,jarmusch,,draft,,
 godard,tarantino,Tarantino named his company A Band Apart after Bande a part.,draft,ohwc,793
 godard,wong,,draft,,
 godard,scorsese,,draft,ohwc,"322,466"
-godard,fassbinder,,draft,ohwc,"13,223"
+godard,fassbinder,,verified,wikidata,"13,223"
 godard,jarmusch,,draft,,
 godard,akerman,Akerman said Pierrot le Fou made her want to make films.,draft,ohwc,798
 truffaut,wanderson,,draft,,
@@ -74,26 +74,26 @@ sirk,fassbinder,Ali: Fear Eats the Soul reworks All That Heaven Allows.,draft,oh
 sirk,almodovar,Almodóvar's melodramas openly borrow Sirk's colour and plotting.,draft,,
 melville,tarantino,Tarantino has pointed to Melville's gangster films as a model for Reservoir Dogs.,draft,,
 melville,jarmusch,Ghost Dog reworks Le Samouraï.,draft,,
-melville,kaurismaki,,draft,,
+melville,kaurismaki,,verified,wikidata,
 melville,godard,Melville appears in Breathless.,draft,,
 tati,wanderson,,draft,,
 tati,lynch,,draft,,
 leone,tarantino,"Tarantino has repeatedly named The Good, the Bad and the Ugly his favourite film.",draft,,
 cassavetes,scorsese,,draft,ohwc,792
 cassavetes,almodovar,All About My Mother draws on Opening Night.,draft,,
-altman,pta,Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him.,draft,,
+altman,pta,Anderson was standby director on Altman's last film and dedicated There Will Be Blood to him.,verified,wikidata,
 kubrick,lynch,,draft,,
 kubrick,spielberg,,draft,,
-kubrick,pta,,draft,,
+kubrick,pta,,verified,wikidata,
 scorsese,tarantino,,draft,ohwc,"491,543"
-scorsese,pta,,draft,,
+scorsese,pta,,verified,wikidata,
 scorsese,wanderson,,draft,,
 scorsese,bong,Bong quoted Scorsese in his Oscar speech for Parasite.,draft,,
 fassbinder,almodovar,,draft,ohwc,786
 kiarostami,apichatpong,,draft,,
 ray,scorsese,,draft,ohwc,13
-ray,wanderson,The Darjeeling Limited is dedicated to Ray.,draft,,
-desica,ray,Ray said seeing Bicycle Thieves decided him to make Pather Panchali.,draft,,
+ray,wanderson,The Darjeeling Limited is dedicated to Ray.,verified,wikidata,
+desica,ray,Ray said seeing Bicycle Thieves decided him to make Pather Panchali.,verified,wikidata,
 desica,loach,,draft,,
 desica,panahi,,draft,,
 renoir,visconti,Visconti began as Renoir's assistant.,draft,ohwc,"13,465,468"
@@ -117,13 +117,13 @@ ozu,leigh,,draft,,
 cassavetes,leigh,,draft,,
 keaton,tati,Tati's long-shot gags descend from Keaton's.,draft,ohwc,"371,608"
 chaplin,desica,,draft,ohwc,13
-chaplin,fellini,Gelsomina in La Strada is modelled on the Tramp.,draft,ohwc,13
+chaplin,fellini,Gelsomina in La Strada is modelled on the Tramp.,verified,wikidata,13
 chaplin,kaurismaki,,draft,,
 chaplin,tarkovsky,City Lights was on Tarkovsky's list of ten favourite films.,draft,,
 chaplin,bresson,Bresson put City Lights and The Gold Rush on his Sight and Sound ballot.,draft,ohwc,372
 hawks,godard,The Cahiers critics championed Hawks as an auteur.,draft,ohwc,"13,469,796,805"
 hawks,truffaut,,draft,ohwc,"469,796"
-hawks,tarantino,Tarantino has called Rio Bravo one of his favourite films.,draft,,
+hawks,tarantino,Tarantino has called Rio Bravo one of his favourite films.,verified,wikidata,
 hawks,rivette,Rivette wrote the essay The Genius of Howard Hawks.,draft,ohwc,469
 hawks,depalma,De Palma remade Hawks's Scarface.,draft,,
 wilder,almodovar,,draft,,
@@ -140,7 +140,7 @@ godard,bertolucci,In The Conformist the professor marked for assassination has G
 rossellini,bertolucci,A character in Before the Revolution declares that one cannot live without Rossellini.,draft,,
 hitchcock,chabrol,Chabrol co-wrote the first book on Hitchcock with Rohmer.,draft,ohwc,331
 lang,chabrol,,draft,,
-renoir,rivette,Rivette made a three-part television portrait of Renoir.,draft,,
+renoir,rivette,Rivette made a three-part television portrait of Renoir.,verified,wikidata,
 rossellini,rivette,Rivette's Letter on Rossellini is a founding text of New Wave criticism.,draft,,
 mizoguchi,rivette,,draft,,
 rivette,denis,Denis was Rivette's assistant and later made a documentary about him.,draft,,
@@ -171,7 +171,7 @@ ford,peckinpah,,draft,ohwc,"305,312,487,541"
 peckinpah,tarantino,,draft,,
 scorsese,spikelee,,draft,,
 kurosawa,spikelee,She's Gotta Have It borrows the competing accounts of Rashomon.,draft,ohwc,13
-rohmer,linklater,,draft,,
+rohmer,linklater,,verified,wikidata,
 bunuel,linklater,Slacker's chain of handed-on scenes follows The Phantom of Liberty.,draft,,
 altman,linklater,,draft,,
 truffaut,linklater,,draft,,
@@ -257,7 +257,7 @@ jeanvigo,lindsayanderson,If.... reworks Zero for Conduct.,draft,,
 jeanvigo,leoscarax,,draft,,
 jeanvigo,emirkusturica,Underground quotes the underwater scene of L'Atalante.,draft,,
 reneclair,chaplin,The producers of À nous la liberté claimed Modern Times copied it; Clair said he was flattered.,draft,ohwc,102
-maxophuls,kubrick,Kubrick named Ophüls as a favourite and adopted his tracking shots.,draft,ohwc,13
+maxophuls,kubrick,Kubrick named Ophüls as a favourite and adopted his tracking shots.,verified,wikidata,13
 maxophuls,demy,Demy dedicated Lola to Ophüls.,draft,ohwc,608
 maxophuls,pta,,draft,,
 maxophuls,scorsese,,draft,ohwc,13
@@ -282,12 +282,12 @@ godard,jeaneustache,,draft,,
 jeaneustache,jarmusch,Jarmusch dedicated Broken Flowers to Eustache.,draft,,
 renoir,mauricepialat,,draft,,
 mauricepialat,dardenne,,draft,,
-godard,leoscarax,Carax appears in Godard's King Lear.,draft,ohwc,"610,611"
+godard,leoscarax,Carax appears in Godard's King Lear.,verified,wikidata,"610,611"
 jeanrouch,godard,"Godard hailed Moi, un Noir; its improvised methods fed into Breathless.",draft,ohwc,"352,515"
 jeanrouch,rivette,,draft,,
 robertjflaherty,jeanrouch,,draft,ohwc,557
 vertov,jeanrouch,The term cinéma vérité translates Vertov's Kino-Pravda.,draft,ohwc,"13,557"
-bresson,louismalle,Malle was Bresson's assistant on A Man Escaped.,draft,ohwc,372
+bresson,louismalle,Malle was Bresson's assistant on A Man Escaped.,verified,wikidata,372
 louismalle,wanderson,,draft,,
 bresson,straubhuillet,,draft,,
 dreyer,straubhuillet,,draft,,
@@ -360,7 +360,7 @@ eisenstein,ritwikghatak,,draft,ohwc,13
 rohmer,hongsangsoo,,draft,,
 bresson,hongsangsoo,,draft,,
 ozu,hongsangsoo,,draft,,
-hawks,johncarpenter,Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing.,draft,,
+hawks,johncarpenter,Assault on Precinct 13 reworks Rio Bravo; Carpenter remade The Thing.,verified,wikidata,
 hitchcock,johncarpenter,,draft,,
 johncarpenter,tarantino,,draft,,
 georgearomero,jordanpeele,,draft,,
@@ -398,7 +398,7 @@ frankcapra,coens,,draft,,
 frankcapra,kurosawa,,draft,,
 prestonsturges,coens,"O Brother, Where Art Thou? takes its title from Sullivan's Travels.",draft,,
 hawks,peterbogdanovich,"What's Up, Doc? is modelled on Bringing Up Baby.",draft,,
-ford,peterbogdanovich,Bogdanovich made the documentary Directed by John Ford.,draft,ohwc,309
+ford,peterbogdanovich,Bogdanovich made the documentary Directed by John Ford.,verified,wikidata,309
 welles,peterbogdanovich,"Welles lived in Bogdanovich's house for a time, and Bogdanovich acted in The Other Side of the Wind.",draft,ohwc,483
 leomccarey,ozu,Tokyo Story was inspired by Make Way for Tomorrow.,draft,,
 leomccarey,blakeedwards,,draft,,
@@ -423,7 +423,7 @@ robertaldrich,godard,,draft,,
 renoir,robertaldrich,Aldrich was an assistant director on Renoir's The Southerner.,draft,,
 anthonymann,godard,,draft,ohwc,469
 donsiegel,peckinpah,Peckinpah was Siegel's assistant on Invasion of the Body Snatchers.,draft,ohwc,"487,541,542"
-johnhuston,pta,Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood.,draft,,
+johnhuston,pta,Anderson watched The Treasure of the Sierra Madre repeatedly while making There Will Be Blood.,verified,wikidata,
 josephlmankiewicz,almodovar,All About My Mother takes its title from All About Eve.,draft,,
 josephlmankiewicz,godard,,draft,,
 vincenteminnelli,demy,,draft,,
@@ -506,7 +506,7 @@ melville,michaelmann,,draft,,
 michaelmann,nolan,Nolan has cited Heat as a model for The Dark Knight.,draft,,
 peckinpah,kathrynbigelow,Bigelow has said The Wild Bunch changed her idea of what film could do.,draft,,
 truffaut,jonathandemme,,draft,,
-jonathandemme,pta,Anderson has named Demme as the filmmaker he most tried to imitate.,draft,,
+jonathandemme,pta,Anderson has named Demme as the filmmaker he most tried to imitate.,verified,wikidata,
 keaton,georgemiller,Miller has pointed to silent comedy and The General as models for Mad Max: Fury Road.,draft,,
 kubrick,jonathanglazer,,draft,,
 bresson,lynneramsay,,draft,,
@@ -675,8 +675,8 @@ liuchialiang,tarantino,,draft,,
 russmeyer,johnwaters,,draft,,
 russmeyer,tarantino,,draft,,
 katsuhirootomo,wachowskis,,draft,,
-hayaomiyazaki,hideakianno,Anno animated for Miyazaki on Nausicaä.,draft,,
-yurinorstein,hayaomiyazaki,,draft,,
+hayaomiyazaki,hideakianno,Anno animated for Miyazaki on Nausicaä.,verified,wikidata,
+yurinorstein,hayaomiyazaki,,verified,wikidata,
 lenlye,normanmclaren,,draft,,
 dennishopper,wenders,,draft,,
 mizoguchi,kanetoshindo,Shindo wrote scripts for Mizoguchi and made a documentary about him.,draft,,
@@ -716,7 +716,7 @@ kenrussell,bazluhrmann,,draft,,
 davidlean,anthonyminghella,,draft,,
 spielberg,andrewstanton,,draft,,
 chaplin,andrewstanton,WALL-E draws on silent comedy.,draft,,
-chuckjones,johnlasseter,,draft,,
+chuckjones,johnlasseter,,verified,wikidata,
 hitchcock,nickpark,,draft,,
 toshiomatsumoto,kubrick,Often cited as a source for A Clockwork Orange.,draft,,
 jacksmith,ulrikeottinger,,draft,,
@@ -855,9 +855,9 @@ arnoldfanck,leniriefenstahl,Riefenstahl acted in Fanck's mountain films before d
 mauritzstiller,ernstlubitsch,,draft,,
 benjaminchristensen,dreyer,,draft,,
 dwgriffith,levkuleshov,Kuleshov's workshop studied Intolerance shot by shot.,draft,,
-levkuleshov,vsevolodpudovkin,Pudovkin trained in Kuleshov's workshop.,draft,,
+levkuleshov,vsevolodpudovkin,Pudovkin trained in Kuleshov's workshop.,verified,wikidata,
 levkuleshov,borisbarnet,Barnet trained in Kuleshov's workshop.,draft,,
-levkuleshov,eisenstein,Eisenstein spent a few months in Kuleshov's workshop.,draft,,
+levkuleshov,eisenstein,Eisenstein spent a few months in Kuleshov's workshop.,verified,wikidata,
 dwgriffith,vsevolodpudovkin,Pudovkin said Intolerance made him turn to film.,draft,,
 grigorikozintsev,alekseigerman,German was Kozintsev's assistant on King Lear.,draft,,
 esfirshub,eisenstein,"Eisenstein learned editing with Shub, recutting Lang's Dr. Mabuse.",draft,,
@@ -926,3 +926,24 @@ vontrier,susannebier,,draft,,
 wuyonggang,stanleykwan,Center Stage restages scenes from The Goddess.,draft,,
 caichusheng,stanleykwan,Center Stage shows Cai directing Ruan Lingyu in New Women.,draft,,
 frankborzage,yuanmuzhi,Street Angel takes its English title from Borzage's 1928 film.,draft,,
+eisenstein,josephlosey,Joseph Losey studied with Sergei Eisenstein.,verified,wikidata,
+demy,varda,,verified,wikidata,
+ford,ray,,verified,wikidata,
+hawks,altman,,verified,wikidata,
+hawks,scorsese,,verified,wikidata,
+almodovar,wanderson,,verified,wikidata,
+hitchcock,pta,,verified,wikidata,
+kurosawa,pta,,verified,wikidata,
+spielberg,pta,,verified,wikidata,
+renoir,rohmer,,verified,wikidata,
+hitchcock,rivette,,verified,wikidata,
+lang,rivette,,verified,wikidata,
+jacquesbecker,rivette,,verified,wikidata,
+jeancocteau,rivette,,verified,wikidata,
+varda,demy,,verified,wikidata,
+georgelucas,nolan,,verified,wikidata,
+frankcapra,johnlasseter,,verified,wikidata,
+hayaomiyazaki,johnlasseter,,verified,wikidata,
+prestonsturges,johnlasseter,,verified,wikidata,
+ritwikghatak,adoorgopalakrishnan,,verified,wikidata,
+ray,bertrandtavernier,,verified,wikidata,

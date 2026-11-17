@@ -21,7 +21,7 @@ Options: --films, --people or --collab (run one step only), --refresh (redo ever
 The key is read from the environment and never written to disk. The script can be
 stopped and restarted; it skips what it already has. No posters or portraits are fetched.
 """
-import json, os, sys, time, difflib, unicodedata, urllib.parse, urllib.request, urllib.error, http.cookiejar
+import json, os, re, sys, time, difflib, unicodedata, urllib.parse, urllib.request, urllib.error, http.cookiejar
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOSTS = ["https://api.themoviedb.org/3", "https://api.tmdb.org/3"]   # the second is TMDB's own alternative address
@@ -97,11 +97,22 @@ def candidates(results, title, year, skip):
         y = int(r["release_date"][:4]) if r.get("release_date") else None
         if year and y and abs(y - year) > 2: continue
         sim = max(difflib.SequenceMatcher(None, fold(title), fold(r.get(k) or "")).ratio() for k in ("title", "original_title"))
+        if len(fold(title)) >= 2 and any(fold(r.get(k) or "").startswith(fold(title)) for k in ("title", "original_title")): sim = max(sim, 0.6)   # "Salò" -> "Salò, or the 120 Days of Sodom"
         scored.append((sim + (0.15 if year and y == year else 0) + min(r.get("vote_count", 0), 500) / 5000, r))
     return [r for s, r in sorted(scored, key=lambda x: -x[0]) if s >= 0.55]
 
+def variants(t):
+    """Titles to search for: 'Partie de campagne (A Day in the Country)', 'Red Wood Pigeon (aka Palombella rossa)', 'X aka Y'."""
+    vs = [t]
+    m = re.match(r"^(.*?)\s*\((?:aka\s+|a\.k\.a\.\s+|episode of\s+)?(.+?)\)\s*$", t, re.I)
+    if m: vs += [m.group(1)] + ([] if m.group(0).lower().find("episode of") >= 0 else [m.group(2)])
+    for sep in (" aka ", " a.k.a. "):
+        if sep in t.lower(): i = t.lower().index(sep); vs += [t[:i], t[i + len(sep):]]
+    return list(dict.fromkeys(v.strip() for v in vs if v.strip()))
+
 def fetch_films():
     todo = [f for f in films if f["id"] not in TM["films"]]
+    TM["not_found"] = [i for i in TM.get("not_found", []) if i not in {f["id"] for f in todo}]
     print("Films:", len(films), "in the data,", len(todo), "to look up")
     failed = []
     for n, f in enumerate(todo, 1):
@@ -109,9 +120,9 @@ def fetch_films():
         skip = set(TM["rejected"].get(f["id"], []))
         try:
             hit, seen = None, set()
-            for params in ({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},):
-                res = get("/search/movie", query=f["title"], include_adult="false", **params) or {}
-                for r in candidates(res.get("results"), f["title"], f["year"], skip | seen)[:3]:
+            for q, params in [(q, p) for q in variants(f["title"]) for p in (({"primary_release_year": f["year"]}, {"year": f["year"]}, {}) if f["year"] else ({},))]:
+                res = get("/search/movie", query=q, include_adult="false", **params) or {}
+                for r in candidates(res.get("results"), q, f["year"], skip | seen)[:3]:
                     seen.add(r["id"])
                     det = get("/movie/%d" % r["id"], append_to_response="credits") or {}
                     crew = [c["name"] for c in (det.get("credits") or {}).get("crew", []) if c.get("job") == "Director"]

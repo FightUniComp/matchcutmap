@@ -44,11 +44,12 @@ REGIONS = {"North America": ["USA", "Canada"], "Latin America and the Caribbean"
            "Oceania": ["Australia", "New Zealand"]}
 REGION_OF = {c: r for r, cs in REGIONS.items() for c in cs}
 def first_country(d): return d["country"].split("/")[0].strip()
-MAJOR = re.compile(r"palme d.or|golden lion|silver lion|golden bear|silver bear|cam[ée]ra d.or|grand prix|jury prize|golden leopard|golden shell|praemium imperiale"
-                   r"|academy award for best (director|picture|original screenplay|adapted screenplay|animated feature|documentary feature|international feature|foreign language)"
-                   r"|academy honorary award|honorary academy award|honorary award", re.I)
+MAJOR = re.compile(r"palme d.or|golden lion|silver lion|golden bear|silver bear|cam[ée]ra d.or|cannes film festival grand prix|grand jury prize|(?<!special )jury prize"
+                   r"|golden leopard|golden shell|praemium imperiale|grand prix des am[ée]riques"
+                   r"|^academy award for best (director|picture|original screenplay|adapted screenplay|writing|animated feature|documentary feature|international feature|foreign language)"
+                   r"|academy honorary award|honorary academy award|european film academy honorary award|european film academy lifetime achievement", re.I)
 MAJOR_DIRECTING = re.compile(r"best direct", re.I)
-MAJOR_BODY = re.compile(r"academy|cannes|berlin|venice|bafta|c[ée]sar|european film", re.I)
+MAJOR_BODY = re.compile(r"^academy award|cannes|berlin|venice|bafta|c[ée]sar|european film", re.I)
 def tkey(t): return "".join(c for c in unicodedata.normalize("NFD", (t or "").lower()) if c.isalnum() and ord(c) < 128)
 def pfilms(i):
     """TMDB filmography minus the films we already hold (same TMDB id, or same title within a year)."""
@@ -136,6 +137,18 @@ def list_facts(i):
     if pg:
         out.append(f"Named on {plural(len(pg), 'page')} of The Oxford History of World Cinema.")
     return out
+def period_span(text):
+    """'1958 to late 1960s' -> [1958, 1969]; '1990s onward' -> [1990, this year]; None for a coined term."""
+    if "term" in text: return None
+    toks = re.findall(r"(early|mid|late)?\s*(\d{4})(s?)", text)
+    if not toks: return None
+    def rng(q, y, dec):
+        y = int(y)
+        if not dec: return y, y
+        return {"early": (y, y + 3), "mid": (y + 3, y + 6), "late": (y + 6, y + 9)}.get(q, (y, y + 9))
+    a, b = rng(*toks[0])[0], rng(*toks[-1])[1]
+    return [a, NOW_YEAR if "onward" in text else b]
+NOW_YEAR = 2026
 def main_years(i):
     """Years of the films that define a career: TMDB films with some audience, else our own film list."""
     ys = [pyear(p.get("release_date")) for p in PEOPLE["directors"].get(i, {}).get("films", []) if (p.get("vote_count") or 0) >= 10]
@@ -389,7 +402,7 @@ def evidence(e):
     return BOOK["pairs"].get(e["from"] + "|" + e["to"]) or BOOK["pairs"].get(e["to"] + "|" + e["from"]) or []
 
 data = {
- "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "timeline": {"lanes": TL_LANES, "years": [[y, round(tl_x(y), 1)] for y in range(1900, 2030, 10)], "x0": TX0, "x1": TX1},
+ "w": W, "h": H, "eras": [lab for _, lab in ERAS], "sources": SOURCES, "timeline": {"lanes": TL_LANES, "years": [[y, round(tl_x(y), 1)] for y in range(1900, 2030, 10)], "x0": TX0, "x1": TX1, "y0": TY0, "y1": TY1},
  "crew": [[a, b, n] for (a, b), n in sorted(CREW.items())],
  "hasTmdb": bool(TMDB["films"]), "hasPeople": bool(PEOPLE["directors"]), "hasWikidata": bool(WD["people"]),
  "regions": {r: sorted({first_country(d) for d in D if REGION_OF.get(first_country(d)) == r}) for r in list(REGIONS) + ["Other"] if any(REGION_OF.get(first_country(d), "Other") == r for d in D)},
@@ -397,7 +410,7 @@ data = {
             "notes": sum(1 for e in I if e["note"]), "evidence": sum(1 for e in I if evidence(e))},
  "rankSource": {"name": TSPDT["source"], "edition": TSPDT["edition"], "url": TSPDT["url"]},
  "techniques": {k: {"name": v["name"], "cat": v["category"], "def": v["definition"]} for k, v in T.items()},
- "movements": {k: {"name": v["name"], "kind": v["kind"], "period": v["period"], "desc": v["description"],
+ "movements": {k: {"name": v["name"], "kind": v["kind"], "period": v["period"], "span": period_span(v["period"]), "desc": v["description"],
                    "members": [d["id"] for d in D if k in d["movements"]],
                    "primary": [ids[i] for i in groups.get(k, [])]} for k, v in MV.items()},
  "dims": [{"key": m["key"], "lo": m["low"], "hi": m["high"]} for m in DIMS],

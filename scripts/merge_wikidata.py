@@ -8,6 +8,8 @@
 - A draft fact about a major award is marked checked when Wikidata lists that award for the
   director with the same film or year.
 Links that Wikidata records in the opposite direction to ours are reported, not changed.
+A director with LONG or more 'influenced by' entries in Wikidata (such lists tend to be
+favourite directors rather than influences) only confirms links we already have.
 """
 import json, os, re, sys, unicodedata
 
@@ -20,12 +22,15 @@ WD, D, I, F = load("wikidata"), load("directors"), load("influence"), load("fact
 name = {d["id"]: d["name"] for d in D}
 q2d = {p["qid"]: did for did, ps in WD["directors"].items() for p in ps if did in name}
 edges = {(e["from"], e["to"]): e for e in I}
-added, confirmed, reverse = [], [], []
+added, confirmed, reverse, held = [], [], [], set()
+LONG = 10
+n737 = {did: sum(1 for p in ps for r in WD["people"].get(p["qid"], {}).get("rel", []) if r["p"] == "P737") for did, ps in WD["directors"].items()}
 
-def link(a, b, note):
+def link(a, b, note, confirm_only=False):
     """a influenced b, according to Wikidata"""
     if a == b: return
     e = edges.get((a, b))
+    if not e and confirm_only: held.add(b); return
     if e:
         src = set(e.get("sources", [])) | {"wikidata"}
         if "wikidata" not in e.get("sources", []): confirmed.append((a, b))
@@ -42,7 +47,7 @@ for did, ps in WD["directors"].items():
         for r in WD["people"].get(p["qid"], {}).get("rel", []):
             other = q2d.get(r["qid"])
             if not other or other == did: continue
-            if r["p"] == "P737": link(other, did, "")
+            if r["p"] == "P737": link(other, did, "", confirm_only=n737.get(did, 0) >= LONG)
             elif r["p"] == "P1066": link(other, did, f"{name[did]} studied with {name[other]}.")
             elif r["p"] == "P802": link(did, other, f"{name[other]} studied with {name[did]}.")
 
@@ -72,5 +77,6 @@ for did, ps in WD["directors"].items():
 
 print(f"{len(added)} new influence links from Wikidata, {len(confirmed)} existing links confirmed, {len(checked)} award facts checked")
 for a, b in reverse: print(f"  opposite direction: Wikidata says {name[a]} influenced {name[b]}; we had the reverse")
+for d in sorted(held): print(f"  {name[d]}: {n737[d]} 'influenced by' entries in Wikidata, so only existing links were confirmed")
 if "--dry-run" not in sys.argv:
     dump("influence", I); dump("facts", F); print("Saved data/influence.json and data/facts.json. Now run: python build.py")

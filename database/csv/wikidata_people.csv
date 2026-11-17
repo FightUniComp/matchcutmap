@@ -1,1 +1,804 @@
 ﻿director_id,qid,label,enwiki,birth_date,death_date,birthplace,citizenship,found_by
+hitchcock,Q7374,Alfred Hitchcock,Alfred Hitchcock,1899-08-13,1980-04-29,Leytonstone,"United States, United Kingdom, United Kingdom of Great Britain and Ireland",id
+welles,Q24829,Orson Welles,Orson Welles,1915-05-06,1985-10-10,Kenosha,United States,id
+ford,Q51114,John Ford,John Ford,1894-02-01,1973-08-31,Cape Elizabeth,United States,id
+sirk,Q60858,Douglas Sirk,Douglas Sirk,1897-04-26,1987-01-14,Hamburg,"Weimar Republic, West Germany, Kingdom of Denmark",id
+kubrick,Q2001,Stanley Kubrick,Stanley Kubrick,1928-07-26,1999-03-07,The Bronx,"United States, United Kingdom",id
+kurosawa,Q8006,Akira Kurosawa,Akira Kurosawa,1910-03-23,1998-09-06,Ōi,"Japan, Empire of Japan",id
+ozu,Q55402,Yasujirō Ozu,Yasujirō Ozu,1903-12-12,1963-12-12,Fukagawa-ku,Japan,id
+mizoguchi,Q55401,Kenji Mizoguchi,Kenji Mizoguchi,1898-05-16,1956-08-24,Tokyo,Japan,id
+bergman,Q7546,Ingmar Bergman,Ingmar Bergman,1918-07-14,2007-07-30,Uppsala,Sweden,id
+dreyer,Q51127,Carl Theodor Dreyer,Carl Theodor Dreyer,1889-02-03,1968-03-20,Copenhagen,Kingdom of Denmark,id
+bresson,Q55391,Robert Bresson,Robert Bresson,1901-09-25,1999-12-18,Bromont-Lamothe,France,id
+tarkovsky,Q853,Andrei Tarkovsky,Andrei Tarkovsky,1932-04-04,1986-12-29,Zavrazhye,"Italy, France, Soviet Union",id
+eisenstein,Q8003,Sergei Eisenstein,Sergei Eisenstein,1898-01-22,1948-02-11,Riga,"Soviet Union, Russian Empire",id
+vertov,Q55193,Dziga Vertov,Dziga Vertov,1896-01-02,1954-02-12,Białystok,"Russian Soviet Federative Socialist Republic, Soviet Union, Russian Empire, Russian Socialist Federative Soviet Republic",id
+lang,Q19504,Fritz Lang,Fritz Lang,1890-12-05,1976-08-02,Vienna,"United States, Austria, Germany",id
+murnau,Q55412,F. W. Murnau,F. W. Murnau,1888-12-28,1931-03-11,Bielefeld,Germany,id
+renoir,Q50713,Jean Renoir,Jean Renoir,1894-09-15,1979-02-12,Montmartre,France,id
+rossellini,Q53003,Roberto Rossellini,Roberto Rossellini,1906-05-08,1977-06-03,Rome,"Italy, Kingdom of Italy",id
+fellini,Q7371,Federico Fellini,Federico Fellini,1920-01-20,1993-10-31,Rimini,Italy,id
+antonioni,Q55433,Michelangelo Antonioni,Michelangelo Antonioni,1912-09-29,2007-07-30,Ferrara,"Italy, Kingdom of Italy",id
+godard,Q53001,Jean-Luc Godard,Jean-Luc Godard,1930-12-03,2022-09-13,7th arrondissement of Paris,"Switzerland, France",id
+truffaut,Q53002,François Truffaut,François Truffaut,1932-02-06,1984-10-21,17th arrondissement of Paris,France,id
+varda,Q229990,Agnès Varda,Agnès Varda,1928-05-30,2019-03-29,Ixelles,"Belgium, France",id
+resnais,Q218022,Alain Resnais,Alain Resnais,1922-06-03,2014-03-01,Vannes,France,id
+bunuel,Q51545,Luis Buñuel,Luis Buñuel,1900-02-22,1983-07-29,Calanda,"Spain, Mexico",id
+melville,Q168693,Jean-Pierre Melville,Jean-Pierre Melville,1917-10-20,1973-08-02,9th arrondissement of Paris,France,id
+tati,Q51549,Jacques Tati,Jacques Tati,1907-10-09,1982-11-04,Le Pecq,France,id
+ray,Q8873,Satyajit Ray,Satyajit Ray,1921-05-02,1992-04-23,Kolkata,India,id
+leone,Q164562,Sergio Leone,Sergio Leone,1929-01-03,1989-04-30,Rome,Italy,id
+cassavetes,Q51488,John Cassavetes,John Cassavetes,1929-12-09,1989-02-03,New York City,United States,id
+altman,Q55163,Robert Altman,Robert Altman,1925-02-20,2006-11-20,Kansas City,United States,id
+scorsese,Q41148,Martin Scorsese,Martin Scorsese,1942-11-17,,Queens,"United States, Italy",id
+malick,Q215478,Terrence Malick,Terrence Malick,1943-11-30,,Ottawa,United States,id
+spielberg,Q8877,Steven Spielberg,Steven Spielberg,1946-12-18,,Cincinnati,United States,id
+lynch,Q2071,David Lynch,David Lynch,1946-01-20,2025-01-16,Missoula,United States,id
+herzog,Q44131,Werner Herzog,Werner Herzog,1942-09-05,,Munich,Germany,id
+fassbinder,Q44426,Rainer Werner Fassbinder,Rainer Werner Fassbinder,1945-05-31,1982-06-10,Bad Wörishofen,West Germany,id
+akerman,Q239823,Chantal Akerman,Chantal Akerman,1950-06-06,2015-10-05,Etterbeek,"Belgium, France",id
+kiarostami,Q55210,Abbas Kiarostami,Abbas Kiarostami,1940-06-22,2016-07-04,Tehran,Iran,id
+almodovar,Q55171,Pedro Almodóvar,Pedro Almodóvar,1949-09-25,,Calzada de Calatrava,Spain,id
+haneke,Q84199,Michael Haneke,Michael Haneke,1942-03-23,,Munich,Austria,id
+tarr,Q312944,Béla Tarr,Béla Tarr,1955-07-21,2026-01-06,Pécs,Hungary,id
+kaurismaki,Q276186,Aki Kaurismäki,Aki Kaurismäki,1957-04-04,,Orimattila,Finland,id
+jarmusch,Q191755,Jim Jarmusch,Jim Jarmusch,1953-01-22,,Cuyahoga Falls,United States,id
+coens,Q13595311,Joel Coen,Joel Coen,1954-11-29,,St. Louis Park,United States,id
+coens,Q13595531,Ethan Coen,Ethan Coen,1957-09-21,,St. Louis Park,United States,id
+vontrier,Q133730,Lars von Trier,Lars von Trier,1956-04-30,,Kongens Lyngby,Kingdom of Denmark,id
+dardenne,Q13455488,Jean-Pierre Dardenne,,1951-04-21,,Engis,Belgium,id
+dardenne,Q3361624,Luc Dardenne,,1954-03-10,,Awirs,Belgium,id
+denis,Q238315,Claire Denis,Claire Denis,1946-04-21,,Paris,France,id
+wong,Q55431,Wong Kar-wai,Wong Kar-wai,1958-07-17,,Shanghai,Hong Kong,id
+tsai,Q698710,Tsai Ming-liang,Tsai Ming-liang,1957-10-27,,Kuching,"Malaysia, Taiwan",id
+koreeda,Q740758,Hirokazu Kore-eda,Hirokazu Kore-eda,1962-06-06,,Kiyose,Japan,id
+apichatpong,Q445198,Apichatpong Weerasethakul,Apichatpong Weerasethakul,1970-07-16,,Bangkok,Thailand,id
+reichardt,Q436861,Kelly Reichardt,Kelly Reichardt,1964-03-03,,Miami,United States,id
+tarantino,Q3772,Quentin Tarantino,Quentin Tarantino,1963-03-27,,Knoxville,United States,id
+wanderson,Q223687,Wes Anderson,Wes Anderson,1969-05-01,,Houston,United States,id
+pta,Q25132,Paul Thomas Anderson,Paul Thomas Anderson,1970-06-26,,Studio City,United States,id
+bong,Q495980,Bong Joon-ho,Bong Joon Ho,1969-09-14,,Daegu,South Korea,id
+park,Q315484,Park Chan-wook,Park Chan-wook,1963-08-23,,Seoul,South Korea,id
+desica,Q53004,Vittorio De Sica,Vittorio De Sica,1901-07-07,1974-11-13,Sora,"Italy, France, Kingdom of Italy",id
+visconti,Q13888,Luchino Visconti,Luchino Visconti,1906-11-02,1976-03-17,Milan,"Italy, Kingdom of Italy",id
+rohmer,Q50764,Éric Rohmer,Éric Rohmer,1920-03-21,2010-01-11,Tulle,France,id
+wenders,Q55411,Wim Wenders,Wim Wenders,1945-08-14,,Düsseldorf,Germany,id
+coppola,Q56094,Francis Ford Coppola,Francis Ford Coppola,1939-04-07,,Detroit,United States,id
+hou,Q435626,Hou Hsiao-Hsien,Hou Hsiao-hsien,1947-04-08,,Meixian District,Taiwan,id
+yang,Q716700,Edward Yang,Edward Yang,1947-11-06,2007-06-29,Shanghai,Taiwan,id
+vinterberg,Q314287,Thomas Vinterberg,Thomas Vinterberg,1969-05-19,,Copenhagen,Kingdom of Denmark,id
+panahi,Q31637,Jafar Panahi,Jafar Panahi,1960-07-11,,Mianeh,Iran,id
+chytilova,Q235032,Věra Chytilová,Věra Chytilová,1929-02-02,2014-03-12,Kunčice,"Czech Republic, Czechoslovakia",id
+forman,Q51525,Miloš Forman,Miloš Forman,1932-02-18,2018-04-13,Čáslav,"United States, Czech Republic, Czechoslovakia",id
+oshima,Q55403,Nagisa Ōshima,Nagisa Ōshima,1932-03-31,2013-01-15,Tamano,Japan,id
+imamura,Q309950,Shohei Imamura,Shōhei Imamura,1926-09-15,2006-05-30,Tokyo,"Japan, Empire of Japan",id
+leechangdong,Q239656,Lee Chang-dong,Lee Chang-dong,1954-07-04,,Daegu,South Korea,id
+loach,Q55238,Ken Loach,Ken Loach,1936-06-17,,Nuneaton,United Kingdom,id
+leigh,Q315756,Mike Leigh,Mike Leigh,1943-02-20,,Brocket Hall,United Kingdom,id
+chaplin,Q882,Charlie Chaplin,Charlie Chaplin,1889-04-16,1977-12-25,Walworth,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+keaton,Q103949,Buster Keaton,Buster Keaton,1895-10-04,1966-02-01,Piqua,United States,id
+hawks,Q51581,Howard Hawks,Howard Hawks,1896-05-30,1977-12-26,Goshen,United States,id
+wilder,Q51547,Billy Wilder,Billy Wilder,1906-06-22,2002-03-27,Sucha Beskidzka,"United States, Austria, Cisleithania",id
+powell,Q55234,Michael Powell,Michael Powell,1905-09-30,1990-02-19,Kent,United Kingdom,id
+powell,Q55230,Emeric Pressburger,Emeric Pressburger,1902-12-05,1988-02-05,Miskolc,"Hungary, United Kingdom",id
+pasolini,Q25120,Pier Paolo Pasolini,Pier Paolo Pasolini,1922-03-05,1975-11-02,Bologna,"Italy, Kingdom of Italy",id
+bertolucci,Q53009,Bernardo Bertolucci,Bernardo Bertolucci,1941-03-16,2018-11-22,Parma,"Italy, Kingdom of Italy",id
+chabrol,Q55375,Claude Chabrol,Claude Chabrol,1930-06-24,2010-09-12,10ᵗʰ arrondissement of Paris,France,id
+rivette,Q167475,Jacques Rivette,Jacques Rivette,1928-03-01,2016-01-29,Rouen,France,id
+marker,Q170256,Chris Marker,Chris Marker,1921-07-29,2012-07-29,Neuilly-sur-Seine,France,id
+demy,Q312258,Jacques Demy,Jacques Demy,1931-06-05,1990-10-27,Pontchâteau,France,id
+polanski,Q51552,Roman Polanski,Roman Polanski,1933-08-18,,Paris,"Poland, France",id
+kieslowski,Q55165,Krzysztof Kieślowski,Krzysztof Kieślowski,1941-06-27,1996-03-13,Warsaw,Poland,id
+angelopoulos,Q55168,Thodoros Angelopoulos,Theo Angelopoulos,1935-04-27,2012-01-24,Athens,Greece,id
+mungiu,Q314353,Cristian Mungiu,Cristian Mungiu,1968-04-27,,Iași,Romania,id
+puiu,Q1140264,Cristi Puiu,Cristi Puiu,1967-04-03,,Bucharest,Romania,id
+depalma,Q189526,Brian De Palma,Brian De Palma,1940-09-11,,Newark,United States,id
+peckinpah,Q51461,Sam Peckinpah,Sam Peckinpah,1925-02-21,1984-12-28,Fresno,United States,id
+spikelee,Q51566,Spike Lee,Spike Lee,1957-03-20,,Atlanta,United States,id
+linklater,Q40035,Richard Linklater,Richard Linklater,1960-07-30,,Houston,United States,id
+fincher,Q184903,David Fincher,David Fincher,1962-08-28,,Denver,United States,id
+nolan,Q25191,クリストファー・ノーラン,Christopher Nolan,1970-07-30,,City of Westminster,"United States, United Kingdom",id
+cronenberg,Q55422,David Cronenberg,David Cronenberg,1943-03-15,,Toronto,Canada,id
+zhang,Q55430,Zhang Yimou,Zhang Yimou,1951-11-14,,Xi'an,People's Republic of China,id
+chen,Q202597,Chen Kaige,Chen Kaige,1952-08-12,,Beijing,People's Republic of China,id
+jia,Q461079,Jia Zhangke,Jia Zhangke,1970-05-24,,Fenyang,People's Republic of China,id
+sembene,Q314966,Ousmane Sembène,Ousmane Sembène,1923-01-01,2007-06-09,Ziguinchor,Senegal,id
+rocha,Q55426,Glauber Rocha,Glauber Rocha,1939-03-14,1981-08-22,Vitória da Conquista,Brazil,id
+campion,Q230448,Jane Campion,Jane Campion,1954-04-30,,Wellington,New Zealand,id
+sciamma,Q461350,Céline Sciamma,Céline Sciamma,1978-11-12,,Pontoise,France,id
+martel,Q254152,Lucrecia Martel,Lucrecia Martel,1966-12-14,,Salta,Argentina,id
+lanthimos,Q975410,Yorgos Lanthimos,Yorgos Lanthimos,1973-09-23,,Athens,Greece,id
+ceylan,Q724172,Nuri Bilge Ceylan,Nuri Bilge Ceylan,1959-01-26,,Istanbul,Turkey,id
+kitano,Q26372,Takeshi Kitano,Takeshi Kitano,1947-01-18,,Adachi,Japan,id
+ernstlubitsch,Q51562,Ernst Lubitsch,Ernst Lubitsch,1892-01-29,1947-11-30,Berlin,"United States, Germany",id
+woodyallen,Q25089,Woody Allen,Woody Allen,1935-11-30,,The Bronx,United States,id
+davidlean,Q55260,David Lean,David Lean,1908-03-25,1991-04-16,Croydon,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+donenkelly,Q48765,Stanley Donen,Stanley Donen,1924-04-13,2019-02-21,Columbia,United States,id
+donenkelly,Q73089,Gene Kelly,Gene Kelly,1912-08-23,1996-02-02,Pittsburgh,United States,id
+ridleyscott,Q56005,Ridley Scott,Ridley Scott,1937-11-30,,South Shields,United Kingdom,id
+jeanvigo,Q55395,Jean Vigo,Jean Vigo,1905-04-26,1934-10-05,18th arrondissement of Paris,France,id
+maxophuls,Q55410,Max Ophüls,Max Ophüls,1902-05-06,1957-03-26,Sankt Johann,"France, Germany",id
+michaelcurtiz,Q51491,Michael Curtiz,Michael Curtiz,1886-12-25,1962-04-10,Budapest,"Hungary, United States",id
+johnhuston,Q51575,John Huston,John Huston,1906-08-05,1987-08-28,Nevada,United States,id
+dwgriffith,Q51123,D. W. Griffith,D. W. Griffith,1875-01-22,1948-07-23,Crestwood,United States,id
+frankcapra,Q51492,Frank Capra,Frank Capra,1897-05-18,1991-09-03,Bisacquino,"United States, Italy, Kingdom of Italy",id
+hayaomiyazaki,Q55400,Hayao Miyazaki,Hayao Miyazaki,1941-01-05,,Bunkyō-ku,Japan,id
+nicholasray,Q240677,Nicholas Ray,Nicholas Ray,1911-08-07,1979-06-16,La Crosse,United States,id
+vincenteminnelli,Q51535,Vincente Minnelli,Vincente Minnelli,1903-02-28,1986-07-25,Chicago,United States,id
+carolreed,Q95143,Carol Reed,Carol Reed,1906-12-30,1976-04-25,Putney,United Kingdom,id
+leomccarey,Q332530,Leo McCarey,Leo McCarey,1898-10-03,1969-07-05,Los Angeles,United States,id
+victorfleming,Q62503,Victor Fleming,Victor Fleming,1889-02-23,1949-01-06,Pasadena,United States,id
+prestonsturges,Q546204,Preston Sturges,Preston Sturges,1898-08-29,1959-08-06,Chicago,United States,id
+eliakazan,Q72717,Elia Kazan,Elia Kazan,1909-09-07,2003-09-28,Constantinople,"United States, Greece",id
+marcelcarne,Q52409,Marcel Carné,Marcel Carné,1906-08-18,1996-10-31,Paris,France,id
+nicolasroeg,Q51541,Nicolas Roeg,Nicolas Roeg,1928-08-15,2018-11-23,St John's Wood,United Kingdom,id
+gillopontecorvo,Q53031,Gillo Pontecorvo,Gillo Pontecorvo,1919-11-19,2006-10-12,Pisa,"Italy, Kingdom of Italy",id
+erichvonstroheim,Q78508,Erich von Stroheim,Erich von Stroheim,1885-09-22,1957-05-12,Vienna,"United States, Austria–Hungary",id
+victorerice,Q719434,Víctor Erice,Víctor Erice,1940-06-30,,Karrantza Harana / Valle de Carranza,Spain,id
+claudelanzmann,Q551512,Claude Lanzmann,Claude Lanzmann,1925-11-27,2018-07-05,Bois-Colombes,France,id
+josefvonsternberg,Q78719,Josef von Sternberg,Josef von Sternberg,1894-05-29,1969-12-22,Vienna,"United States, Austria",id
+jacquestourneur,Q55393,Jacques Tourneur,Jacques Tourneur,1904-11-12,1977-12-19,12th arrondissement of Paris,France,id
+josephlmankiewicz,Q51583,Joseph L. Mankiewicz,Joseph L. Mankiewicz,1909-02-11,1993-02-05,Wilkes-Barre,United States,id
+sidneylumet,Q51559,Sidney Lumet,Sidney Lumet,1924-06-25,2011-04-09,Philadelphia,United States,id
+jeaneustache,Q966198,Jean Eustache,Jean Eustache,1938-11-30,1981-11-05,Pessac,France,id
+johncarpenter,Q95008,John Carpenter,John Carpenter,1948-01-16,,Carthage,United States,id
+jamescameron,Q42574,James Cameron,James Cameron,1954-08-16,,Kapuskasing,"Canada, New Zealand",id
+clinteastwood,Q43203,Clint Eastwood,Clint Eastwood,1930-05-31,,UCSF Health Saint Francis Hospital,United States,id
+georgecukor,Q56014,George Cukor,George Cukor,1899-07-07,1983-01-24,New York City,United States,id
+williamwyler,Q51495,William Wyler,William Wyler,1902-07-01,1981-07-27,Mulhouse,"United States, Switzerland",id
+kingvidor,Q51133,King Vidor,King Vidor,1894-02-08,1982-11-01,Galveston,United States,id
+michaelcimino,Q59129,Michael Cimino,Michael Cimino,1939-02-03,2016-07-02,New York City,United States,id
+straubhuillet,Q20747247,Danièle Huillet,,1936-05-01,2006-10-09,16th arrondissement of Paris,France,id
+straubhuillet,Q20747245,Jean-Marie Straub,,1933-01-08,2022-11-20,Metz,France,id
+elemklimov,Q516987,Elem Klimov,Elem Klimov,1933-07-09,2003-10-26,Volgograd,"Russia, Soviet Union",id
+robertzemeckis,Q187364,Robert Zemeckis,Robert Zemeckis,1952-05-14,,Chicago,United States,id
+williamfriedkin,Q51582,William Friedkin,William Friedkin,1935-08-29,2023-08-07,Chicago,United States,id
+georgelucas,Q38222,George Lucas,George Lucas,1944-05-14,,Modesto,United States,id
+stanbrakhage,Q698676,Stan Brakhage,Stan Brakhage,1933-01-14,2003-03-09,Kansas City,United States,id
+mikionaruse,Q1371306,Mikio Naruse,Mikio Naruse,1905-08-20,1969-07-02,Tokyo,"Japan, Empire of Japan",id
+sergeiparajanov,Q311311,Sergei Parajanov,Sergei Parajanov,1924-01-09,1990-07-21,Tbilisi,Soviet Union,id
+michaelmann,Q270097,マイケル・マン,Michael Mann,1943-02-05,,Chicago,United States,id
+mauricepialat,Q503898,Maurice Pialat,Maurice Pialat,1925-08-31,2003-01-11,Cunlhat,France,id
+michaelsnow,Q558332,Michael Snow,Michael Snow,1928-12-10,2023-01-05,Toronto,Canada,id
+bobfosse,Q313256,Bob Fosse,Bob Fosse,1927-06-23,1987-09-23,Chicago,United States,id
+charlesburnett,Q1063846,Charles Burnett,Charles Burnett (director),1944-04-13,,Vicksburg,United States,id
+halashby,Q358370,Hal Ashby,Hal Ashby,1929-09-02,1988-12-27,Ogden,United States,id
+peterweir,Q55424,Peter Weir,Peter Weir,1944-08-21,,Sydney,Australia,id
+robreiner,Q287607,Rob Reiner,Rob Reiner,1947-03-06,2025-12-14,The Bronx,United States,id
+djibrildiopmambety,Q1232197,Djibril Diop Mambéty,Djibril Diop Mambéty,1945-01-01,1998-07-23,Dakar Department,Senegal,id
+terrygilliam,Q25078,Terry Gilliam,Terry Gilliam,1940-11-22,,Minneapolis,"United States, United Kingdom",id
+andrzejwajda,Q106685,Andrzej Wajda,Andrzej Wajda,1926-03-06,2016-10-09,Suwałki,Poland,id
+toddhaynes,Q446580,Todd Haynes,Todd Haynes,1961-01-02,,Encino,United States,id
+raoulwalsh,Q72756,Raoul Walsh,Raoul Walsh,1887-03-11,1980-12-31,Manhattan,United States,id
+jeancocteau,Q83158,Jean Cocteau,Jean Cocteau,1889-07-05,1963-10-11,Maisons-Laffitte,France,id
+alexanderdovzhenko,Q55198,Oleksandr Dovzhenko,Alexander Dovzhenko,1894-09-10,1956-11-25,Sosnytsia,"Soviet Union, Russian Empire, Ukrainian Soviet Socialist Republic, Ukrainian People's Republic, Ukrainian State",id
+mikenichols,Q51537,Mike Nichols,Mike Nichols,1931-11-06,2014-11-19,Berlin,United States,id
+georgearomero,Q51511,George A. Romero,George A. Romero,1940-02-04,2017-07-16,The Bronx,"Canada, United States",id
+abelgance,Q313572,Abel Gance,Abel Gance,1889-10-25,1981-11-10,rue de la Charbonnière,France,id
+anglee,Q160726,Ang Lee,Ang Lee,1954-10-23,,Chaojhou Township,Taiwan,id
+ottopreminger,Q52997,Otto Preminger,Otto Preminger,1905-12-05,1986-04-23,Vyzhnytsia,"United States, Austria",id
+robertaldrich,Q95133,Robert Aldrich,Robert Aldrich,1918-08-09,1983-12-05,Cranston,United States,id
+tobehooper,Q450728,Tobe Hooper,Tobe Hooper,1943-01-25,2017-08-26,Austin,United States,id
+robertjflaherty,Q263148,Robert J. Flaherty,Robert J. Flaherty,1884-02-16,1951-07-23,Iron Mountain,United States,id
+alfonsocuaron,Q28028,Alfonso Cuarón,Alfonso Cuarón,1961-11-28,,Mexico City,Mexico,id
+luisgarciaberlanga,Q381234,Luis García Berlanga,Luis García Berlanga,1921-06-12,2010-11-13,Valencia,Spain,id
+mikhailkalatozov,Q324937,Mikhail Kalatozov,Mikhail Kalatozov,1903-12-28,1973-03-27,Tbilisi,"Soviet Union, Russian Empire",id
+gusvansant,Q25186,Gus Van Sant,Gus Van Sant,1952-07-24,,Louisville,"United States, Kingdom of the Netherlands",id
+frederickwiseman,Q1361201,Frederick Wiseman,Frederick Wiseman,1930-01-01,2026-02-16,Boston,United States,id
+andywarhol,Q5603,Andy Warhol,Andy Warhol,1928-08-06,1987-02-22,Pittsburgh,United States,id
+manoeldeoliveira,Q43264,Manoel de Oliveira,Manoel de Oliveira,1908-12-11,2015-04-02,Porto,Portugal,id
+terencedavies,Q773523,Terence Davies,Terence Davies,1945-11-10,2023-10-07,Liverpool,United Kingdom,id
+peterbogdanovich,Q158250,Peter Bogdanovich,Peter Bogdanovich,1939-07-30,2022-01-06,Kingston,United States,id
+mayaderen,Q450382,Maya Deren,Maya Deren,1917-05-12,1961-10-13,Kyiv,"United States, Russian Empire, Russian Republic, Ukrainian People's Republic",id
+georgemiller,Q446960,George Miller,George Miller (filmmaker),1945-03-03,,Chinchilla,Australia,id
+pedrocosta,Q1354061,Pedro Costa,Pedro Costa,1959-03-03,,Lisbon,Portugal,id
+henrigeorgesclouzot,Q55384,Henri-Georges Clouzot,Henri-Georges Clouzot,1907-11-20,1977-01-12,Niort,France,id
+aleksandrsokurov,Q55172,Alexander Sokurov,Alexander Sokurov,1951-06-14,,Podorvikha,"Russia, Soviet Union",id
+ritwikghatak,Q55404,Ritwik Ghatak,Ritwik Ghatak,1925-11-04,1976-02-06,Dhaka,India,id
+samuelfuller,Q262479,Samuel Fuller,Samuel Fuller,1912-08-12,1997-10-30,Worcester,United States,id
+paulverhoeven,Q129079,Paul Verhoeven,Paul Verhoeven,1938-07-18,,Amsterdam,Kingdom of the Netherlands,id
+emirkusturica,Q94882,Emir Kusturica,Emir Kusturica,1954-11-24,,Sarajevo,"France, Serbia, Socialist Federal Republic of Yugoslavia",id
+louismalle,Q55392,Louis Malle,Louis Malle,1932-10-30,1995-11-23,Thumeries,France,id
+johnboorman,Q55277,John Boorman,John Boorman,1933-01-18,,Shepperton,United Kingdom,id
+robertwise,Q59821,Robert Wise,Robert Wise,1914-09-10,2005-09-14,Winchester,United States,id
+arthurpenn,Q41136,Arthur Penn,Arthur Penn,1922-09-27,2010-09-28,Philadelphia,United States,id
+alexandermackendrick,Q716310,Alexander Mackendrick,Alexander Mackendrick,1912-09-08,1993-12-22,Boston,United States,id
+victorsjostrom,Q55170,Victor Sjöström,Victor Sjöström,1879-09-20,1960-01-03,Silbodal parish,Sweden,id
+leoscarax,Q737693,Leos Carax,Leos Carax,1960-11-22,,Suresnes,France,id
+georgestevens,Q51490,George Stevens,George Stevens,1904-12-18,1975-03-08,Oakland,United States,id
+margueriteduras,Q153248,Marguerite Duras,Marguerite Duras,1914-04-04,1996-03-03,Gia Định,France,id
+cooperschoedsack,Q446427,Merian C. Cooper,Merian C. Cooper,1893-10-24,1973-04-21,Jacksonville,United States,id
+cooperschoedsack,Q1117163,Ernest B. Schoedsack,Ernest B. Schoedsack,1893-06-08,1979-12-23,Council Bluffs,United States,id
+ermannoolmi,Q114063,Ermanno Olmi,Ermanno Olmi,1931-07-24,2018-05-07,Bergamo,"Italy, Kingdom of Italy",id
+wachowskis,Q9545711,Lana Wachowski,Lana Wachowski,1965-06-21,,Chicago,United States,id
+wachowskis,Q9544977,Lilly Wachowski,Lilly Wachowski,1967-12-29,,Chicago,United States,id
+gwpabst,Q55421,Georg Wilhelm Pabst,G. W. Pabst,1885-08-27,1967-05-29,Roudnice nad Labem,"Austria, Cisleithania",id
+feimu,Q705561,Fei Mu,Fei Mu,1906-10-10,1951-01-31,Shanghai,China,id
+josephlosey,Q269357,Joseph Losey,Joseph Losey,1909-01-14,1984-06-22,La Crosse,United States,id
+lynneramsay,Q3269591,Lynne Ramsay,Lynne Ramsay,1969-12-05,,Glasgow,United Kingdom,id
+jonathandemme,Q48987,Jonathan Demme,Jonathan Demme,1944-02-22,2017-04-26,Baldwin,United States,id
+jameswhale,Q381831,James Whale,James Whale,1889-07-22,1957-05-29,Dudley,United Kingdom,id
+barryjenkins,Q26821227,Barry Jenkins,Barry Jenkins,1979-11-19,,Miami,United States,id
+todbrowning,Q51476,Tod Browning,Tod Browning,1880-07-12,1962-10-06,Louisville,United States,id
+peterjackson,Q4465,Peter Jackson,Peter Jackson,1961-10-31,,Wellington,New Zealand,id
+timburton,Q56008,Tim Burton,Tim Burton,1958-08-25,,Burbank,United States,id
+jonasmekas,Q699702,Jonas Mekas,Jonas Mekas,1922-12-24,2019-01-23,Biržai,"United States, Lithuania",id
+larisashepitko,Q138477,Larisa Shepitko,Larisa Shepitko,1938-01-06,1979-07-02,Bakhmut,Soviet Union,id
+darioargento,Q53011,Dario Argento,Dario Argento,1940-09-07,,Rome,Italy,id
+sofiacoppola,Q193628,Sofia Coppola,Sofia Coppola,1971-05-14,,New York City,United States,id
+johnschlesinger,Q55303,John Schlesinger,John Schlesinger,1926-02-16,2003-07-25,London,United Kingdom,id
+gurudutt,Q149136,Guru Dutt,Guru Dutt,1925-07-09,1964-10-10,Bengaluru,"India, British Raj, Dominion of India",id
+michelgondry,Q126098,Michel Gondry,Michel Gondry,1963-05-08,,Versailles,France,id
+frankborzage,Q369190,Frank Borzage,Frank Borzage,1894-04-23,1962-06-19,Salt Lake City,United States,id
+alanjpakula,Q51519,Alan J. Pakula,Alan J. Pakula,1928-04-07,1998-11-19,The Bronx,United States,id
+tomasgutierrezalea,Q722461,Tomás Gutiérrez Alea,Tomás Gutiérrez Alea,1928-12-11,1996-04-16,Havana,Cuba,id
+kinghu,Q667128,King Hu,King Hu,1932-04-29,1997-01-14,Beijing,Taiwan,id
+anthonymann,Q269975,Anthony Mann,Anthony Mann,1906-06-30,1967-04-29,San Diego,United States,id
+royandersson,Q703513,Roy Andersson,Roy Andersson,1943-03-31,,Gothenburg,Sweden,id
+kathrynbigelow,Q34816,Kathryn Bigelow,Kathryn Bigelow,1951-11-27,,San Carlos,United States,id
+georgesfranju,Q739606,Georges Franju,Georges Franju,1912-04-12,1987-11-05,Fougères,France,id
+jacquesbecker,Q55381,Jacques Becker,Jacques Becker,1906-09-15,1960-02-21,1st arrondissement of Paris,France,id
+louisfeuillade,Q951835,Louis Feuillade,Louis Feuillade,1873-02-19,1925-02-26,Lunel,France,id
+hongsangsoo,Q484572,Hong Sang-soo,Hong Sang-soo,1960-10-25,,Seoul,South Korea,id
+lindsayanderson,Q298352,Lindsay Anderson,Lindsay Anderson,1923-04-17,1994-08-30,Bengaluru,United Kingdom,id
+errolmorris,Q977546,Errol Morris,Errol Morris,1948-02-05,,Hewlett,United States,id
+juliedash,Q3189195,Julie Dash,Julie Dash,1952-10-22,,Long Island City,United States,id
+francescorosi,Q53050,Francesco Rosi,Francesco Rosi,1922-11-15,2015-01-10,Naples,"Italy, Kingdom of Italy",id
+fredzinnemann,Q55420,Fred Zinnemann,Fred Zinnemann,1907-04-29,1997-03-14,Rzeszów,"United States, Austria",id
+reneclair,Q55388,René Clair,René Clair,1898-11-11,1981-03-15,Paris,France,id
+raulruiz,Q459299,Raúl Ruiz,Raúl Ruiz (director),1941-07-25,2011-08-19,Puerto Montt,"France, Chile",id
+giuseppetornatore,Q53045,Giuseppe Tornatore,Giuseppe Tornatore,1956-05-27,,Bagheria,Italy,id
+jeanrouch,Q166405,Jean Rouch,Jean Rouch,1917-05-31,2004-02-18,14th arrondissement of Paris,France,id
+sydneypollack,Q51522,Sydney Pollack,Sydney Pollack,1934-07-01,2008-05-26,Lafayette,United States,id
+borisbarnet,Q203519,Boris Barnet,Boris Barnet,1902-06-18,1965-01-08,Moscow,Soviet Union,id
+johnwaters,Q314926,John Waters,John Waters,1946-04-22,,Baltimore,United States,id
+roberthamer,Q518366,Robert Hamer,Robert Hamer,1911-03-31,1963-12-04,Kidderminster,United Kingdom,id
+donsiegel,Q358322,Don Siegel,Don Siegel,1912-10-26,1991-04-20,Chicago,United States,id
+robertwiene,Q76552,Robert Wiene,Robert Wiene,1873-04-27,1938-07-15,Wrocław,"Hungary, Czechoslovakia",id
+alekseigerman,Q2622675,Aleksei Yuryevich German,Aleksei Yuryevich German,1938-07-20,2013-02-21,Saint Petersburg,Russia,id
+davidhand,Q928976,David Hand,David Hand (animator),1900-01-23,1986-10-11,Plainfield,United States,id
+haroldramis,Q286890,Harold Ramis,Harold Ramis,1944-11-21,2014-02-24,Chicago,United States,id
+melbrooks,Q104266,Mel Brooks,Mel Brooks,1926-06-28,,Brownsville,United States,id
+derekjarman,Q282787,Derek Jarman,Derek Jarman,1942-01-31,1994-02-19,Northwood,United Kingdom,id
+guillermodeltoro,Q219124,Guillermo del Toro,Guillermo del Toro,1964-10-09,,Guadalajara,Mexico,id
+jordanpeele,Q3371986,Jordan Peele,Jordan Peele,1979-02-21,,New York City,United States,id
+peterwatkins,Q1339491,Peter Watkins,Peter Watkins,1935-10-29,2025-10-31,Norbiton,United Kingdom,id
+oliverstone,Q179497,Oliver Stone,Oliver Stone,1946-09-15,,New York City,"United States, France",id
+charleslaughton,Q55264,Charles Laughton,Charles Laughton,1899-07-01,1962-12-15,Scarborough,"United States, United Kingdom",id
+barbaraloden,Q442111,Barbara Loden,Barbara Loden,1932-07-08,1980-09-05,Marion,United States,id
+forughfarrokhzad,Q464394,Forugh Farrokhzad,Forugh Farrokhzad,1935-01-05,1967-02-13,Tehran,Pahlavi Iran,id
+fernandomeirelles,Q343293,Fernando Meirelles,Fernando Meirelles,1955-11-09,,São Paulo,Brazil,id
+asgharfarhadi,Q334242,Asghar Farhadi,Asghar Farhadi,1972-05-07,,Isfahan Province,Iran,id
+saramaldoror,Q3473390,Sarah Maldoror,Sarah Maldoror,1929-07-19,2020-04-13,Condom,France,id
+wangbing,Q3566046,Wang Bing,Wang Bing (director),1967-11-17,,Xi'an,People's Republic of China,id
+medhondo,Q180886,Med Hondo,Med Hondo,1935-05-04,2019-03-02,Atar,"France, Mauritania",id
+cheryldunye,Q1070518,Cheryl Dunye,Cheryl Dunye,1966-05-13,,Liberia,United States,id
+jennielivingston,Q6178010,Jennie Livingston,Jennie Livingston,1962-02-24,,Dallas,United States,id
+montehellman,Q945188,Monte Hellman,Monte Hellman,1932-07-12,2021-04-20,Greenpoint,United States,id
+jonathanglazer,Q1703182,Jonathan Glazer,Jonathan Glazer,1965-03-26,,London,United Kingdom,id
+fernandoesolanas,Q508497,Fernando Solanas,Fernando Solanas,1936-02-16,2020-11-06,Olivos,Argentina,id
+hiroshiteshigahara,Q741623,Hiroshi Teshigahara,Hiroshi Teshigahara,1927-01-28,2001-04-14,Tokyo,"Japan, Empire of Japan",id
+williamgreaves,Q8010139,William Greaves,William Greaves,1926-10-08,2014-08-25,ハーレム,United States,id
+sallypotter,Q268840,Sally Potter,Sally Potter,1949-09-19,,London,United Kingdom,id
+isaotakahata,Q178713,Isao Takahata,Isao Takahata,1935-10-29,2018-04-05,Ise,"Japan, Empire of Japan",id
+joshuaoppenheimer,Q6290103,Joshua Oppenheimer,Joshua Oppenheimer,1974-09-23,,Austin,"United States, United Kingdom, Kingdom of Denmark",id
+andrzejzulawski,Q515904,Andrzej Żuławski,Andrzej Żuławski,1940-11-22,2016-02-17,Lviv,"Poland, France",id
+saragomez,Q2224173,Sara Gómez,Sara Gómez,1942-11-08,1974-06-02,Havana,Cuba,name search
+patricioguzman,Q2057315,Patricio Guzmán,Patricio Guzmán,1941-08-11,2026-09-15,Santiago,Chile,id
+elainemay,Q454156,Elaine May,Elaine May,1932-04-21,,Philadelphia,United States,id
+miklosjancso,Q259240,Miklós Jancsó,Miklós Jancsó,1921-09-27,2014-01-31,Vác,Hungary,id
+masakikobayashi,Q445807,Masaki Kobayashi,Masaki Kobayashi,1916-02-14,1996-10-04,Otaru,"Japan, Empire of Japan",id
+johnhughes,Q311263,John Hughes,John Hughes,1950-02-18,2009-08-06,Lansing,United States,id
+johnlandis,Q51564,John Landis,John Landis,1950-08-03,,Chicago,United States,id
+maysles,Q15734533,David Maysles,David Maysles,1931-01-10,1987-01-03,Boston,United States,id
+maysles,Q15782045,Albert Maysles,Albert Maysles,1926-11-26,2015-03-05,Boston,United States,id
+blakeedwards,Q56093,Blake Edwards,Blake Edwards,1922-07-26,2010-12-15,Tulsa,United States,id
+leniriefenstahl,Q55415,Leni Riefenstahl,Leni Riefenstahl,1902-08-22,2003-09-08,Berlin,"Germany, Sudan, Nazi Germany, Weimar Republic, German Empire",id
+edgargulmer,Q1283902,Edgar G. Ulmer,Edgar G. Ulmer,1904-09-17,1972-09-30,Olomouc,"United States, Austria",id
+kiramuratova,Q435805,Kira Muratova,Kira Muratova,1934-11-05,2018-06-06,Soroca,"Ukraine, Soviet Union, Kingdom of Romania",id
+irvinkershner,Q119348,Irvin Kershner,Irvin Kershner,1923-04-29,2010-11-27,Philadelphia,United States,id
+cecilbdemille,Q72267,Cecil B. DeMille,Cecil B. DeMille,1881-08-12,1959-01-21,Ashfield,United States,id
+leopoldlindtberg,Q78899,Leopold Lindtberg,Leopold Lindtberg,1902-06-01,1984-04-18,Vienna,"Switzerland, Austria",id
+emiliofernandez,Q458612,Emilio Fernández,Emilio Fernández,1904-03-26,1986-08-06,Sabinas,Mexico,id
+frantisekcap,Q576589,František Čáp,František Čáp,1913-12-07,1972-01-13,Nedrahovice,"Czechoslovakia, Socialist Federal Republic of Yugoslavia, Cisleithania",id
+chetananand,Q720315,Chetan Anand,Chetan Anand (director),1915-01-03,1997-07-06,Lahore,India,id
+jeandelannoy,Q449087,Jean Delannoy,Jean Delannoy,1908-01-12,2008-06-18,Noisy-le-Sec,France,id
+ipsenlauritzen,Q292795,Bodil Ipsen,Bodil Ipsen,1889-08-30,1964-11-26,Copenhagen,Kingdom of Denmark,id
+ipsenlauritzen,Q1389642,Lau Laritzen Jr.,Lau Lauritzen Jr.,1910-06-26,1977-05-12,Vejle,Kingdom of Denmark,id
+alfsjoberg,Q374792,Alf Sjöberg,Alf Sjöberg,1903-06-21,1980-04-17,Hedvig Eleonora parish,Sweden,id
+fridrikhermler,Q1342183,Fridrikh Ermler,Fridrikh Ermler,1898-05-13,1967-07-12,Rēzekne,"Soviet Union, Russian Empire",id
+edwarddmytryk,Q72229,Edward Dmytryk,Edward Dmytryk,1908-09-04,1999-07-01,Grand Forks,United States,id
+reneclement,Q313190,René Clément,René Clément,1913-03-18,1996-03-17,Bordeaux,France,id
+bensharpsteen,Q2549739,Ben Sharpsteen,Ben Sharpsteen,1895-11-04,1980-12-20,Tacoma,United States,id
+renatocastellani,Q978075,Renato Castellani,Renato Castellani,1913-09-04,1985-12-28,Finale Ligure,"Italy, Kingdom of Italy",id
+teinosukekinugasa,Q723042,Teinosuke Kinugasa,Teinosuke Kinugasa,1896-01-01,1982-02-26,Mie Prefecture,"Japan, Empire of Japan",id
+delbertmann,Q270038,Delbert Mann,Delbert Mann,1920-01-30,2007-11-11,Lawrence,United States,id
+jacquescousteau,Q83233,Jacques Cousteau,Jacques Cousteau,1910-06-11,1997-06-25,Saint-André-de-Cubzac,France,id
+marcelcamus,Q597230,Marcel Camus,Marcel Camus,1912-04-21,1982-01-13,Chappes,France,id
+henricolpi,Q116253,Henri Colpi,Henri Colpi,1921-07-15,2006-01-14,Brig,"Switzerland, France",id
+anselmoduarte,Q569649,Anselmo Duarte,Anselmo Duarte,1920-04-21,2009-11-07,São Paulo,Brazil,id
+richardlester,Q346508,Richard Lester,Richard Lester,1932-01-19,,Philadelphia,United States,id
+pietrogermi,Q53006,Pietro Germi,Pietro Germi,1914-09-14,1974-12-05,Genoa,"Italy, Kingdom of Italy",id
+claudelelouch,Q295093,Claude Lelouch,Claude Lelouch,1937-10-30,,9th arrondissement of Paris,France,id
+eliopetri,Q53044,Elio Petri,Elio Petri,1929-01-29,1982-11-10,Rome,"Italy, Kingdom of Italy",id
+alanbridges,Q920584,Alan Bridges,Alan Bridges,1927-09-28,2013-12-07,Liverpool,United Kingdom,id
+jerryschatzberg,Q935852,Jerry Schatzberg,Jerry Schatzberg,1927-06-26,,New York City,United States,id
+lakhdarhamina,Q921687,Mohammed Lakhdar-Hamina,Mohammed Lakhdar-Hamina,1934-02-26,2025-05-23,M'Sila,Algeria,id
+taviani,Q10392130,Vittorio Taviani,Vittorio Taviani,1929-09-20,2018-04-15,San Miniato,"Italy, Kingdom of Italy",id
+taviani,Q7008165,Paolo Taviani,Paolo Taviani,1931-11-08,2024-02-29,San Miniato,Italy,id
+volkerschlondorff,Q57316,Volker Schlöndorff,Volker Schlöndorff,1939-03-31,,Wiesbaden,Germany,id
+costagavras,Q296698,Costa-Gavras,Costa-Gavras,1933-02-12,,Loutra,"Greece, France",id
+yilmazguney,Q126693,Yılmaz Güney,Yılmaz Güney,1937-04-01,1984-09-09,Adana,"Turkey, statelessness",id
+rolandjoffe,Q309715,Roland Joffé,Roland Joffé,1945-11-17,,London,"France, United Kingdom",id
+billeaugust,Q315062,Bille August,Bille August,1948-11-09,,Brede,Kingdom of Denmark,id
+stevensoderbergh,Q103917,Steven Soderbergh,Steven Soderbergh,1963-01-14,,Atlanta,United States,id
+nannimoretti,Q25100,ナンニ・モレッティ,Nanni Moretti,1953-08-19,,Bruneck,Italy,id
+michaelmoore,Q174908,Michael Moore,Michael Moore,1954-04-23,,Flint,United States,id
+laurentcantet,Q117071,Laurent Cantet,Laurent Cantet,1961-04-11,2024-04-25,Melle,France,id
+abdellatifkechiche,Q307996,Abdellatif Kechiche,Abdellatif Kechiche,1960-12-07,,Tunis,"France, Tunisia",id
+jacquesaudiard,Q382389,Jacques Audiard,Jacques Audiard,1952-04-30,,14th arrondissement of Paris,France,id
+rubenostlund,Q211228,Ruben Östlund,Ruben Östlund,1974-04-13,,Styrsö,Sweden,id
+juliaducournau,Q24061147,Julia Ducournau,Julia Ducournau,1983-11-18,,12th arrondissement of Paris,France,id
+justinetriet,Q15069938,Justine Triet,Justine Triet,1978-07-17,,Fécamp,France,id
+seanbaker,Q7441419,Sean Baker,Sean Baker,1971-02-26,,Summit,United States,id
+andreyzvyagintsev,Q122425,Andrey Zvyagintsev,Andrey Zvyagintsev,1964-02-06,,Novosibirsk,"Russia, Soviet Union",id
+joachimtrier,Q653571,Joachim Trier,Joachim Trier,1974-03-01,,Copenhagen,Norway,id
+alejandrogonzalezinarritu,Q55215,Alejandro González Iñárritu,Alejandro González Iñárritu,1963-08-15,,Mexico City,"Spain, Mexico",id
+alejandrojodorowsky,Q263730,Alejandro Jodorowsky,Alejandro Jodorowsky,1929-02-17,,Tocopilla,"France, Chile",id
+alexanderpayne,Q313566,Alexander Payne,Alexander Payne,1961-02-10,,Omaha,"United States, Greece",id
+alicerohrwacher,Q510194,Alice Rohrwacher,Alice Rohrwacher,1981-12-29,,Fiesole,Italy,id
+andreaarnold,Q457493,Andrea Arnold,Andrea Arnold,1961-04-05,,Dartford,United Kingdom,id
+atomegoyan,Q212167,Atom Egoyan,Atom Egoyan,1960-07-19,,Cairo,Canada,id
+bigan,Q24833063,Bi Gan,Bi Gan (filmmaker),1989-06-04,,Kaili City,People's Republic of China,id
+carlosreygadas,Q388328,Carlos Reygadas,Carlos Reygadas,1971-10-10,,Mexico City,Mexico,id
+carlossaura,Q295855,Carlos Saura,Carlos Saura,1932-01-04,2023-02-10,Huesca,Spain,id
+charliekaufman,Q312751,Charlie Kaufman,Charlie Kaufman,1958-11-19,,New York City,United States,id
+chloezhao,Q21078321,Chloé Zhao,Chloé Zhao,1982-03-31,,Beijing,People's Republic of China,id
+damienchazelle,Q18350026,Damien Chazelle,Damien Chazelle,1985-01-19,,Providence,"United States, France",id
+dannyboyle,Q134867,Danny Boyle,Danny Boyle,1956-10-20,,Radcliffe,United Kingdom,id
+darrenaronofsky,Q192762,Darren Aronofsky,Darren Aronofsky,1969-02-12,,Brooklyn,"United States, Poland",id
+denisvilleneuve,Q548823,Denis Villeneuve,Denis Villeneuve,1967-10-03,,Bécancour,Canada,id
+dusanmakavejev,Q357316,Dušan Makavejev,Dušan Makavejev,1932-10-13,2019-01-25,Belgrade,"Serbia, Serbia and Montenegro, Socialist Federal Republic of Yugoslavia, Kingdom of Yugoslavia",id
+gasparnoe,Q347950,Gaspar Noé,Gaspar Noé,1963-12-27,,Buenos Aires,"Italy, France, Argentina",id
+gretagerwig,Q271967,Greta Gerwig,Greta Gerwig,1983-08-04,,Sacramento,United States,id
+harmonykorine,Q528949,Harmony Korine,Harmony Korine,1973-01-04,,Bolinas,United States,id
+jerzyskolimowski,Q51530,Jerzy Skolimowski,Jerzy Skolimowski,1938-05-05,,Łódź,Poland,id
+joannahogg,Q6205847,Joanna Hogg,Joanna Hogg,1960-03-20,,London,United Kingdom,id
+johnwoo,Q55432,John Woo,John Woo,1946-09-22,,Guangzhou,British Hong Kong,id
+kennethanger,Q505580,Kenneth Anger,Kenneth Anger,1927-02-03,2023-05-11,Santa Monica,United States,id
+kimkiduk,Q212990,Kim Ki-duk,Kim Ki-duk,1960-12-20,2020-12-11,Bonghwa County,South Korea,id
+kiyoshikurosawa,Q53834,Kiyoshi Kurosawa,Kiyoshi Kurosawa,1955-07-19,,Kobe,Japan,id
+laszlonemes,Q6495014,László Nemes,László Nemes,1977-02-18,,Budapest,Hungary,id
+lavdiaz,Q129619,Lav Diaz,Lav Diaz,1958-12-30,,Mindanao,Philippines,id
+lucaguadagnino,Q1335528,Luca Guadagnino,Luca Guadagnino,1971-08-10,,Palermo,Italy,id
+marenade,Q91508,Maren Ade,Maren Ade,1976-12-12,,Karlsruhe,Germany,id
+miguelgomes,Q1890376,Miguel Gomes,Miguel Gomes (director),1972-01-01,,Lisbon,Portugal,id
+mohsenmakhmalbaf,Q55211,Mohsen Makhmalbaf,Mohsen Makhmalbaf,1957-05-29,,Tehran,"France, Iran",id
+paolosorrentino,Q374678,Paolo Sorrentino,Paolo Sorrentino,1970-05-31,,Naples,Italy,id
+pawelpawlikowski,Q1377022,Paweł Pawlikowski,Paweł Pawlikowski,1957-09-15,,Warsaw,Poland,id
+petergreenaway,Q55282,Peter Greenaway,Peter Greenaway,1942-04-05,,Newport,United Kingdom,id
+ryusukehamaguchi,Q17220313,Ryusuke Hamaguchi,Ryusuke Hamaguchi,1978-12-16,,Kawasaki,Japan,id
+satoshikon,Q333643,Satoshi Kon,Satoshi Kon,1963-10-12,2010-08-24,Kushiro,Japan,id
+stevemcqueen,Q706475,Steve McQueen,Steve McQueen (director),1969-10-09,,London,United Kingdom,id
+georgesmelies,Q152272,Georges Méliès,Georges Méliès,1861-12-08,1938-01-21,Paris,France,id
+youssefchahine,Q312611,Youssef Chahine,Youssef Chahine,1926-01-25,2008-07-27,Alexandria,Egypt,id
+souleymanecisse,Q1248110,Souleymane Cissé,Souleymane Cissé (film director),1940-04-21,2025-02-19,Bamako,Mali,id
+abderrahmanesissako,Q308097,Abderrahmane Sissako,Abderrahmane Sissako,1961-10-13,,Kiffa,"France, Mali, Mauritania",id
+kenrussell,Q55249,Ken Russell,Ken Russell,1927-07-03,2011-11-27,Southampton,United Kingdom,id
+jeanpierrejeunet,Q217324,Jean-Pierre Jeunet,Jean-Pierre Jeunet,1953-09-03,,Le Coteau,France,id
+tsuihark,Q317814,Tsui Hark,Tsui Hark,1951-02-01,,Ho Chi Minh City,"People's Republic of China, Vietnam",id
+eliasuleiman,Q577569,Elia Suleiman,Elia Suleiman,1960-07-28,,Nazareth,Israel,id
+fatihakin,Q77061,Fatih Akin,Fatih Akin,1973-08-25,,Hamburg,Germany,id
+matidiop,Q3299073,Mati Diop,Mati Diop,1982-06-22,,12th arrondissement of Paris,France,id
+jirimenzel,Q352030,Jiří Menzel,Jiří Menzel,1938-02-23,2020-09-05,Prague,"Czech Republic, Czechoslovakia",id
+jannemec,Q82022,Jan Němec,Jan Němec,1936-07-12,2016-03-18,Prague,"Czech Republic, Czechoslovakia",id
+linawertmuller,Q53039,Lina Wertmüller,Lina Wertmüller,1928-08-14,2021-12-09,Rome,Italy,id
+ettorescola,Q53037,Ettore Scola,Ettore Scola,1931-05-10,2016-01-19,Trevico,"Italy, Kingdom of Italy",id
+idalupino,Q148669,Ida Lupino,Ida Lupino,1918-02-04,1995-08-03,London,"United States, United Kingdom",id
+dorothyarzner,Q447847,Dorothy Arzner,Dorothy Arzner,1900-01-03,1979-10-01,San Francisco,United States,id
+johnfrankenheimer,Q262820,John Frankenheimer,John Frankenheimer,1930-02-19,2002-07-06,Queens,United States,id
+robertsiodmak,Q51498,Robert Siodmak,Robert Siodmak,1900-08-08,1973-03-10,Dresden,"United States, Germany",id
+roubenmamoulian,Q51472,Rouben Mamoulian,Rouben Mamoulian,1897-10-08,1987-12-04,Tbilisi,"United States, Russian Empire",id
+alanclarke,Q2636665,Alan John Clarke,Alan Clarke,1935-10-28,1990-07-24,Wallasey,United Kingdom,id
+alanisobomsawin,Q637195,Alanis Obomsawin,Alanis Obomsawin,1932-08-31,,Lebanon,Canada,id
+albertocavalcanti,Q728396,Alberto Cavalcanti,Alberto Cavalcanti,1897-02-06,1982-08-23,Rio de Janeiro,"France, Brazil",id
+amyheckerling,Q442273,Amy Heckerling,Amy Heckerling,1954-05-07,,The Bronx,United States,id
+andrewstanton,Q328723,Andrew Stanton,Andrew Stanton,1965-12-03,,Rockport,United States,id
+angelaschanelec,Q84409,Angela Schanelec,Angela Schanelec,1962-02-14,,アーレン,Germany,id
+anthonymccall,Q324807,Anthony McCall,Anthony McCall,1946-04-14,,London,"United States, United Kingdom",name search
+anthonyminghella,Q188726,Anthony Minghella,Anthony Minghella,1954-01-06,2008-03-18,Ryde,United Kingdom,id
+reiscordeiro,Q10325598,Margarida Cordeiro,Margarida Cordeiro,1938-07-05,,Freguesia de Brunhozinho,Portugal,id
+reiscordeiro,Q2857760,António Reis,António Reis,1925-08-27,1991-09-10,Freguesia de Valadares,Portugal,id
+anuragkashyap,Q2839609,Anurag Kashyap,Anurag Kashyap,1972-09-10,,Gorakhpur,India,id
+arifolman,Q653645,Ari Folman,Ari Folman,1962-12-17,,Haifa,Israel,id
+artavazdpeleshian,Q706217,Artavazd Peleshyan,Artavazd Peleshyan,1938-02-22,,Gyumri,"Russia, Armenia, Soviet Union",id
+arthurjafa,Q28858518,Arthur Jafa,Arthur Jafa,1960-11-30,,Tupelo,United States,id
+barbarahammer,Q456923,Barbara Hammer,Barbara Hammer,1939-05-15,2019-03-16,Hollywood,United States,id
+barbarakopple,Q449349,Barbara Kopple,Barbara Kopple,1946-07-30,,New York City,United States,id
+bazluhrmann,Q250545,Baz Luhrmann,Baz Luhrmann,1962-09-17,,Sydney,Australia,id
+bettegordon,Q22959279,Bette Gordon,Bette Gordon,1950-06-22,,,United States,id
+billdouglas,Q4908809,Bill Douglas,Bill Douglas,1934-04-17,1991-06-18,Newcraighall,United Kingdom,id
+billforsyth,Q738037,Bill Forsyth,Bill Forsyth,1946-07-29,,Glasgow,United Kingdom,id
+billgunn,Q862154,Bill Gunn,Bill Gunn (writer),1934-07-15,1989-04-05,Philadelphia,United States,id
+billmorrison,Q2903310,Bill Morrison,Bill Morrison (director),1965-11-17,,Chicago,United States,id
+billywoodberry,Q4913490,Billy Woodberry,Billy Woodberry,1950-01-01,,Dallas,United States,id
+bohu,Q57265516,Hu Bo,Hu Bo,1988-07-20,2017-10-12,Jinan,People's Republic of China,id
+bobrafelson,Q95039,Bob Rafelson,Bob Rafelson,1933-02-21,2022-07-23,New York City,United States,id
+brucebaillie,Q2926392,Bruce Baillie,Bruce Baillie,1931-09-24,2020-04-10,Aberdeen,United States,id
+bruceconner,Q991589,Bruce Conner,Bruce Conner,1933-11-18,2008-07-07,McPherson,United States,id
+brucerobinson,Q991798,Bruce Robinson,Bruce Robinson,1946-05-02,,Broadstairs,United Kingdom,id
+mayoloospina,Q5984102,Luis Ospina,Luis Ospina,1949-06-14,2019-09-27,Cali,Colombia,id
+mayoloospina,Q2939397,Carlos Mayolo,Carlos Mayolo,1945-09-10,2007-02-03,Cali,Colombia,id
+caroleeschneemann,Q299662,Carolee Schneemann,Carolee Schneemann,1939-10-12,2019-03-06,Fox Chase,United States,id
+chickstrand,Q5096155,Chick Strand,Chick Strand,1931-12-03,2009-07-11,San Francisco,United States,id
+christianmarclay,Q923306,Christian Marclay,Christian Marclay,1955-01-11,,San Rafael,"United States, Switzerland",id
+chuckjones,Q312657,Chuck Jones,Chuck Jones,1912-09-21,2002-02-22,Spokane,United States,id
+claudiaweill,Q5129279,Claudia Weill,Claudia Weill,1947-01-01,,New York City,United States,id
+cliobarnard,Q15631781,Clio Barnard,Clio Barnard,1965-01-01,,,United Kingdom,id
+curtishanson,Q263486,Curtis Hanson,Curtis Hanson,1945-03-24,2016-09-20,Reno,United States,id
+dapennebaker,Q225852,D. A. Pennebaker,D. A. Pennebaker,1925-07-15,2019-08-01,Evanston,United States,id
+daniels,Q28746848,Daniel Scheinert,Daniel Scheinert,1987-06-07,,Birmingham,United States,id
+daniels,Q28746830,Dan Kwan,Daniel Kwan,1988-02-10,,Westborough,United States,id
+davidlowery,Q16935094,David Lowery,David Lowery (director),1980-12-26,,Milwaukee,United States,id
+davidperlov,Q1408673,David Perlov,David Perlov,1930-06-09,2003-12-13,Rio de Janeiro,Israel,id
+zuckerabrahamszucker,Q363666,Jerry Zucker,Jerry Zucker,1950-03-11,,Milwaukee,United States,id
+zuckerabrahamszucker,Q452794,David Zucker,David Zucker,1947-10-16,,Milwaukee,United States,id
+zuckerabrahamszucker,Q448604,Jim Abrahams,Jim Abrahams,1944-05-10,2024-11-26,Shorewood,United States,id
+dennishopper,Q102711,Dennis Hopper,Dennis Hopper,1936-05-17,2010-05-29,Dodge City,United States,id
+dinorisi,Q53034,Dino Risi,Dino Risi,1916-12-23,2008-06-07,Milan,"Italy, Kingdom of Italy",id
+donhertzfeldt,Q594400,Don Hertzfeldt,Don Hertzfeldt,1976-08-01,,Fremont,United States,id
+donaldcammell,Q975488,Donald Cammell,Donald Cammell,1934-01-17,1996-04-24,Edinburgh,United Kingdom,id
+edgarmorin,Q317880,Edgar Morin,Edgar Morin,1921-07-08,2026-05-29,9th arrondissement of Paris,France,id
+edgarreitz,Q64392,Edgar Reitz,Edgar Reitz,1932-11-01,,Morbach,Germany,id
+edgarwright,Q522057,Edgar Wright,Edgar Wright,1974-04-18,,Poole,United Kingdom,id
+eduardocoutinho,Q1290892,Eduardo Coutinho,Eduardo Coutinho,1933-05-11,2014-02-02,São Paulo,Brazil,id
+euzhanpalcy,Q440423,Euzhan Palcy,Euzhan Palcy,1958-01-13,,Gros-Morne,France,id
+farahkhan,Q167636,Farah Khan,Farah Khan,1965-01-09,,Mumbai,India,id
+florianhenckelvondonnersmarck,Q57932,Florian Henckel von Donnersmarck,Florian Henckel von Donnersmarck,1973-05-02,,Cologne,"Austria, Germany",id
+frankdarabont,Q295445,Frank Darabont,Frank Darabont,1959-01-28,,Montbéliard,United States,id
+frantisekvlacil,Q706451,František Vláčil,František Vláčil,1924-02-19,1999-01-27,Český Těšín,"Czech Republic, Czechoslovakia",id
+garrettbradley,Q24708111,Garrett Bradley,Garrett Bradley (filmmaker),1986-01-01,,New York City,United States,id
+georgeroyhill,Q51570,George Roy Hill,George Roy Hill,1921-12-20,2002-12-27,Minneapolis,United States,id
+godfreyreggio,Q1348531,Godfrey Reggio,Godfrey Reggio,1940-03-29,,New Orleans,United States,id
+gonzalogarciapelayo,Q5882950,Gonzalo García-Pelayo,,1947-06-25,,Seville,Spain,id
+grigorialeksandrov,Q561459,Grigori Aleksandrov,Grigori Aleksandrov,1903-01-23,1983-12-16,Yekaterinburg,"Soviet Union, Russian Empire, Russian Socialist Federative Soviet Republic",id
+hcpotter,Q937589,H. C. Potter,H. C. Potter,1904-11-13,1977-08-31,New York City,United States,id
+hansjurgensyberberg,Q64358,Hans-Jürgen Syberberg,Hans-Jürgen Syberberg,1935-12-08,,Nossendorf,Germany,id
+harunfarocki,Q67547,Harun Farocki,Harun Farocki,1944-01-09,2014-07-30,Nový Jičín,Germany,id
+hideakianno,Q23261,Hideaki Anno,Hideaki Anno,1960-05-22,,Ube,Japan,id
+hollisframpton,Q477638,Hollis Frampton,Hollis Frampton,1936-03-11,1984-03-30,Wooster,United States,id
+hugosantiago,Q2073110,Hugo Santiago,Hugo Santiago,1939-12-12,2018-02-27,Buenos Aires,"France, Argentina",id
+humphreyjennings,Q352565,Humphrey Jennings,Humphrey Jennings,1907-08-19,1950-09-24,Walberswick,United Kingdom,id
+ildikoenyedi,Q273962,Ildikó Enyedi,Ildikó Enyedi,1955-11-15,,Budapest,Hungary,id
+ivanreitman,Q380272,Ivan Reitman,Ivan Reitman,1946-10-27,2022-02-12,Komárno,"Canada, Czechoslovakia",id
+ivanzulueta,Q1496567,Ivan Zulueta,Iván Zulueta,1943-09-29,2009-12-30,San Sebastián,Spain,id
+jackclayton,Q17887,Jack Clayton,Jack Clayton,1921-03-01,1995-02-26,Brighton,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+jacksmith,Q706886,Jack Smith,Jack Smith (film director),1932-11-14,1989-09-18,Columbus,United States,id
+jameslbrooks,Q95125,James L. Brooks,James L. Brooks,1940-05-09,,Brooklyn,United States,id
+jeanepstein,Q456968,Jean Epstein,Jean Epstein,1897-03-25,1953-04-02,Warsaw,France,id
+jeangenet,Q184622,Jean Genet,Jean Genet,1910-12-19,1986-04-15,6th arrondissement of Paris,France,id
+jeangremillon,Q1685560,Jean Grémillon,Jean Grémillon,1902-10-03,1959-11-25,Bayeux,France,id
+jeandanielpollet,Q1532445,Jean-Daniel Pollet,Jean-Daniel Pollet,1936-06-20,2004-09-09,La Madeleine,France,id
+jerrylewis,Q294927,Jerry Lewis,Jerry Lewis,1926-03-16,2017-08-20,Newark,United States,id
+jiayinliu,Q16221412,Liu Jiayin,Liu Jiayin,1981-08-20,,Beijing,People's Republic of China,id
+joaopedrorodrigues,Q782982,João Pedro Rodrigues,João Pedro Rodrigues,1966-09-20,,Lisbon,Portugal,id
+johnakomfrah,Q3809030,John Akomfrah,John Akomfrah,1957-05-04,,Accra,United Kingdom,id
+johngavildsen,Q260125,John G. Avildsen,John G. Avildsen,1935-12-21,2017-06-16,Oak Park,United States,id
+johnlasseter,Q269214,John Lasseter,John Lasseter,1957-01-12,,Hollywood,United States,id
+johnmctiernan,Q270639,ジョン・マクティアナン,John McTiernan,1951-01-08,,Albany,United States,id
+johnpaizs,Q6251789,John Paizs,John Paizs,1957-01-01,,Canada,Canada,id
+johnsayles,Q2141212,John Sayles,John Sayles,1950-09-28,,Schenectady,United States,id
+johnsmith,Q6258332,John Smith,John Smith (English filmmaker),1952-01-01,,Walthamstow,United Kingdom,id
+johnsturges,Q361670,John Sturges,John Sturges,1910-01-03,1992-08-18,Oak Park,United States,id
+jorisivens,Q238616,Joris Ivens,Joris Ivens,1898-11-18,1989-06-28,Nijmegen,"France, Kingdom of the Netherlands",id
+josephcornell,Q694774,Joseph Cornell,Joseph Cornell,1903-12-24,1972-12-29,Nyack,United States,id
+josephhlewis,Q1707160,Joseph H. Lewis,Joseph H. Lewis,1907-04-06,2000-08-30,Brooklyn,United States,id
+jurajherz,Q1066361,Juraj Herz,Juraj Herz,1934-09-04,2018-04-08,Kežmarok,"Czech Republic, Czechoslovakia",id
+kasif,Q1729384,K. Asif,K. Asif,1922-06-14,1971-03-09,Etawah,"India, British Raj, Dominion of India",id
+kamalamrohi,Q6355387,Kamal Amrohi,Kamal Amrohi,1918-01-17,1993-02-11,Amroha,"India, British Raj, Dominion of India",id
+kanetoshindo,Q380846,Kaneto Shindō,Kaneto Shindo,1912-04-22,2012-05-29,Hiroshima,"Japan, Empire of Japan",id
+karelreisz,Q167023,Karel Reisz,Karel Reisz,1926-07-21,2002-11-25,Moravská Ostrava,"United Kingdom, Czechoslovakia",id
+kasilemmons,Q459933,Kasi Lemmons,Kasi Lemmons,1961-02-24,,St. Louis,United States,id
+kathleencollins,Q6376685,Kathleen Collins,Kathleen Collins,1942-03-18,1988-09-18,Jersey City,United States,id
+katsuhirootomo,Q378710,Katsuhiro Otomo,Katsuhiro Otomo,1954-04-14,,Tome,Japan,id
+kazuohara,Q4495668,Kazuo Hara,Kazuo Hara,1945-06-08,,Ube,Japan,id
+kennethlonergan,Q968840,Kenneth Lonergan,Kenneth Lonergan,1962-10-16,,New York City,United States,id
+kidlattahimik,Q6404765,Kidlat Tahimik,Kidlat Tahimik,1942-10-03,,Baguió,Philippines,id
+kinuyotanaka,Q263104,Kinuyo Tanaka,Kinuyo Tanaka,1909-11-29,1977-03-21,Shimonoseki,"Japan, Empire of Japan",id
+kirstenjohnson,Q6416089,Kirsten Johnson,Kirsten Johnson,1965-03-17,,Seattle,United States,id
+lassehallstrom,Q316051,Lasse Hallström,Lasse Hallström,1946-06-02,,Johannes parish,Sweden,id
+mulveywollen,Q440887,Laura Mulvey,Laura Mulvey,1941-08-15,,England,United Kingdom,id
+mulveywollen,Q997312,Peter Wollen,Peter Wollen,1938-06-29,2019-12-17,London,United Kingdom,id
+lenlye,Q1288566,Len Lye,Len Lye,1901-07-05,1980-05-15,Christchurch,New Zealand,id
+leonardofavio,Q44529,Leonardo Favio,Leonardo Favio,1938-05-28,2012-11-05,Las Catitas,Argentina,id
+leontinesagan,Q79016,Leontine Sagan,Leontine Sagan,1889-02-13,1974-05-20,Budapest,"Austria, South Africa, Austria–Hungary",id
+lesliethornton,Q1820823,Leslie Thornton,Leslie Thornton (filmmaker),1951-01-01,,Knoxville,United States,name search
+lewismilestone,Q285928,Lewis Milestone,Lewis Milestone,1895-09-30,1980-09-25,Chișinău,"United States, Russian Empire",id
+linobrocka,Q983322,Lino Brocka,Lino Brocka,1939-04-07,1991-05-22,Pilar,Philippines,id
+liuchialiang,Q706293,Lau Kar-leung,Lau Kar-leung,1936-08-01,2013-06-25,Guangzhou,People's Republic of China,id
+lizzieborden,Q6660678,Lizzie Borden,Lizzie Borden (director),1958-02-03,,Detroit,United States,id
+loisweber,Q462440,Lois Weber,Lois Weber,1879-06-13,1939-11-13,Allegheny,United States,id
+lottereiniger,Q444011,Lotte Reiniger,Lotte Reiniger,1899-06-02,1981-06-19,Charlottenburg,Germany,id
+lucbesson,Q484779,Luc Besson,Luc Besson,1959-03-18,,15th arrondissement of Paris,France,id
+castaingtaylorparavel,Q6697043,Lucien Castaing-Taylor,Lucien Castaing-Taylor,1966-01-10,,Liverpool,United Kingdom,id
+castaingtaylorparavel,Q17013502,Véréna Paravel,Véréna Paravel,1971-04-21,,Neuchâtel,France,id
+madelineanderson,Q19866758,Madeline Anderson,Madeline Anderson,1901-01-01,,,United States,id
+manikaul,Q1887901,Mani Kaul,Mani Kaul,1944-12-25,2011-07-06,Jodhpur,"India, British Raj, Dominion of India",id
+marcelophuls,Q711420,Marcel Ophuls,Marcel Ophuls,1927-11-01,2025-05-25,Frankfurt,"United States, France",id
+margarettait,Q6759945,Margaret Tait,Margaret Tait,1918-11-11,1999-04-16,Kirkwall,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+marianollinas,Q5997811,Mariano Llinás,Mariano Llinás,1975-02-10,,Buenos Aires,Argentina,id
+marieclaudetreilhou,Q3291733,Marie-Claude Treilhou,,1948-11-10,,Toulouse,France,id
+mariomonicelli,Q53026,Mario Monicelli,Mario Monicelli,1915-05-16,2010-11-29,Rome,"Italy, Kingdom of Italy",id
+mariopeixoto,Q2748268,Mário Peixoto,Mário Peixoto,1908-03-25,1992-02-03,Brussels metropolitan area,Brazil,id
+satrapiparonnaud,Q1890346,Vincent Paronnaud,Vincent Paronnaud,1970-02-20,,La Rochelle,France,id
+satrapiparonnaud,Q126633,Marjane Satrapi,Marjane Satrapi,1969-09-21,2026-06-03,Rasht,"France, Iran",id
+markrobson,Q31225,Mark Robson,Mark Robson (film director),1913-12-04,1978-06-20,Montreal,Canada,id
+marksandrich,Q382529,Mark Sandrich,Mark Sandrich,1900-10-26,1945-03-04,New York City,United States,id
+marlenkhutsiev,Q537631,Marlen Khutsiev,Marlen Khutsiev,1925-10-04,2019-03-19,Tbilisi,"Russia, Soviet Union",id
+marlonriggs,Q955077,Marlon Riggs,Marlon Riggs,1957-02-03,1994-04-05,Fort Worth,United States,id
+martameszaros,Q257427,Márta Mészáros,Márta Mészáros,1931-09-19,,Budapest District XIX,Hungary,id
+mathieukassovitz,Q491766,Mathieu Kassovitz,Mathieu Kassovitz,1967-08-03,,8th arrondissement of Paris,France,id
+michaelroemer,Q16090897,Michael Roemer,Michael Roemer,1928-01-01,2025-05-20,Berlin,United States,id
+miranair,Q466320,Mira Nair,Mira Nair,1957-10-15,,Rourkela,India,id
+mohammadrezaaslani,Q5964329,Mohammad Reza Aslani,Mohammad Reza Aslani,1943-12-18,,Rasht,Iran,id
+nelsonpereiradossantos,Q737762,Nelson Pereira dos Santos,Nelson Pereira dos Santos,1928-10-22,2018-04-21,São Paulo,Brazil,id
+nickpark,Q336206,Nick Park,Nick Park,1958-12-06,,5 and 7 Weavers Yard,United Kingdom,id
+normanmclaren,Q716552,Norman McLaren,Norman McLaren,1914-04-11,1987-01-27,Stirling,Canada,id
+normanzmcleod,Q1971705,Norman Z. McLeod,Norman Z. McLeod,1895-09-20,1964-01-27,Grayling,United States,id
+oscarmicheaux,Q1354247,Oscar Micheaux,Oscar Micheaux,1884-01-02,1951-03-25,Metropolis,United States,id
+paulking,Q7151786,Paul King,Paul King (director),1978-07-29,,Chicago,United Kingdom,id
+paulvecchiali,Q3372362,Paul Vecchiali,Paul Vecchiali,1930-04-28,2023-01-18,Ajaccio,France,id
+philipkaufman,Q176126,Philip Kaufman,Philip Kaufman,1936-10-23,,Chicago,United States,id
+quaybrothers,Q18045614,Stephen Quay,Stephen Quay,1947-06-17,,Norristown,United States,id
+quaybrothers,Q18045619,Timothy Quay,Timothy Quay,1947-06-17,,Norristown,United States,id
+rameshsippy,Q1386330,Ramesh Sippy,Ramesh Sippy,1947-01-23,,Karachi,India,id
+raoulpeck,Q1357018,Raoul Peck,Raoul Peck,1953-09-09,,Port-au-Prince,"France, Haiti",id
+robertclouse,Q1888426,Robert Clouse,Robert Clouse,1928-03-06,1997-02-04,Wisconsin,United States,id
+robertkramer,Q2005371,Robert Kramer,Robert Kramer,1939-06-22,1999-11-10,New York City,United States,id
+robertmulligan,Q467785,Robert Mulligan,Robert Mulligan,1925-08-23,2008-12-20,New York City,United States,id
+robertrossen,Q433113,Robert Rossen,Robert Rossen,1908-03-16,1966-02-18,New York City,United States,id
+robinhardy,Q3437083,Robin Hardy,Robin Hardy (film director),1929-10-02,2016-07-01,Wimbledon,United Kingdom,id
+russmeyer,Q315325,Russ Meyer,Russ Meyer,1922-03-21,2004-09-18,Oakland,United States,id
+ryancoogler,Q7383978,Ryan Coogler,Ryan Coogler,1986-05-23,,Oakland,United States,id
+sammendes,Q223233,Sam Mendes,Sam Mendes,1965-08-01,,Reading,United Kingdom,id
+samraimi,Q275402,Sam Raimi,Sam Raimi,1959-10-23,,Royal Oak,United States,id
+samwood,Q457269,Sam Wood,Sam Wood,1883-07-10,1949-09-22,Philadelphia,United States,id
+samiramakhmalbaf,Q432709,Samira Makhmalbaf,Samira Makhmalbaf,1980-02-15,,Tehran,Iran,id
+sergiocorbucci,Q55443,Sergio Corbucci,Sergio Corbucci,1927-12-06,1990-12-01,Rome,"Italy, Kingdom of Italy",id
+shadiabdelsalam,Q3481156,Shadi Abdel Salam,Shadi Abdel Salam,1930-03-15,1986-10-09,Alexandria,Egypt,id
+shirleyclarke,Q774517,Shirley Clarke,Shirley Clarke,1919-10-02,1997-09-23,New York City,United States,id
+stevejames,Q2347045,Steve James,Steve James (film producer),1954-03-08,,Hampton,United States,id
+stuartrosenberg,Q966078,Stuart Rosenberg,Stuart Rosenberg,1927-08-11,2007-03-15,Brooklyn,United States,id
+susanseidelman,Q270372,Susan Seidelman,Susan Seidelman,1952-12-11,,Philadelphia,United States,id
+suzanpitt,Q3505862,Suzan Pitt,Suzan Pitt,1943-07-11,2019-06-16,Kansas City,United States,id
+tminhhatrinh,Q542508,Trinh T. Minh-ha,Trinh T. Minh-ha,1952-01-01,,Hanoi,"United States, Vietnam",id
+tedkotcheff,Q725520,Ted Kotcheff,Ted Kotcheff,1931-04-07,2025-04-10,Toronto,Canada,id
+terryjones,Q166159,Terry Jones,Terry Jones,1942-02-01,2020-01-21,Colwyn Bay,United Kingdom,id
+tomtykwer,Q57231,Tom Tykwer,Tom Tykwer,1965-05-23,,Wuppertal,Germany,id
+tomasalfredson,Q457656,Tomas Alfredson,Tomas Alfredson,1965-04-01,,Lidingö,Sweden,id
+toshiomatsumoto,Q7827769,Toshio Matsumoto,Toshio Matsumoto,1932-03-25,2017-04-12,Nagoya,"Japan, Empire of Japan",id
+ulrikeottinger,Q77756,Ulrike Ottinger,Ulrike Ottinger,1942-06-06,,Constance,Germany,id
+valieexport,Q459681,Valie Export,Valie Export,1940-05-17,2026-05-14,Linz,Austria,id
+walterruttmann,Q77365,Walter Ruttmann,Walter Ruttmann,1887-12-28,1941-07-15,Frankfurt,German Reich,id
+warrenbeatty,Q95030,Warren Beatty,Warren Beatty,1937-03-30,,Richmond,United States,id
+williamdieterle,Q55413,William Dieterle,William Dieterle,1893-07-15,1972-12-09,Ludwigshafen,"United States, Germany",id
+yurinorstein,Q371337,Yuri Norstein,Yuri Norstein,1941-09-15,,Andreyevka,"Russia, Soviet Union",id
+zeinabuirenedavis,Q8068582,Zeinabu irene Davis,Zeinabu irene Davis,1961-04-13,,Philadelphia,United States,id
+zelimirzilnik,Q1264297,Želimir Žilnik,Želimir Žilnik,1942-09-08,,Crveni Krst concentration camp,"Serbia, Serbia and Montenegro, Socialist Federal Republic of Yugoslavia, Federal Republic of Yugoslavia",id
+alexanderhammid,Q357624,Alexandr Hackenschmied,Alexandr Hackenschmied,1907-12-17,2004-07-26,Linz,United States,id
+basilwright,Q810048,Basil Wright,Basil Wright,1907-06-12,1987-10-14,London Borough of Sutton,United Kingdom,id
+harrywatt,Q1637771,Harry Watt,Harry Watt,1906-10-18,1987-04-02,Edinburgh,United Kingdom,id
+hovdemeyer,Q75718299,Ellen Horde,Ellen Hovde,1925-03-09,2023-02-16,Meadville,,id
+hovdemeyer,Q16732531,Muffie Meyer,Muffie Meyer,,,New York City,United States,id
+charlottezwerin,Q536537,Charlotte Zwerin,Charlotte Zwerin,1931-08-15,2004-01-22,Detroit,United States,id
+clydebruckman,Q726107,Clyde Bruckman,Clyde Bruckman,1894-09-20,1955-01-04,San Bernardino,United States,id
+edwardsedgwick,Q555691,Edward Sedgwick,Edward Sedgwick,1892-11-07,1953-05-07,Galveston,United States,id
+donaldcrisp,Q367073,Donald Crisp,Donald Crisp,1882-07-27,1974-05-25,Bow,United Kingdom,id
+charlesreisner,Q2960106,Charles Reisner,Charles Reisner,1887-03-14,1962-09-24,Minneapolis,United States,id
+johngblystone,Q3181549,John G. Blystone,John G. Blystone,1892-12-02,1938-08-06,Rice Lake,United States,id
+hamiltonluske,Q926614,Hamilton Luske,Hamilton Luske,1903-10-16,1968-02-19,Chicago,United States,id
+jeromerobbins,Q353019,Jerome Robbins,Jerome Robbins,1918-10-11,1998-07-29,New York City,United States,id
+ludwigberger,Q40645,Ludwig Berger,Ludwig Berger (director),1892-01-06,1969-05-18,Mainz,Germany,id
+timwhelan,Q3528710,Tim Whelan,Tim Whelan,1893-11-02,1957-08-12,Cannelton,United States,id
+persichettiramseyrothman,Q60784779,Bob Persichetti,Bob Persichetti,1973-01-17,,San Diego,United States,id
+persichettiramseyrothman,Q7176523,Peter Ramsey,Peter Ramsey,1962-12-23,,Crenshaw,United States,id
+persichettiramseyrothman,Q7357051,Rodney Rothman,Rodney Rothman,,,United States,United States,id
+serifgoren,Q388991,Şerif Gören,Şerif Gören,1944-10-14,2024-12-08,Xanthi,Turkey,id
+stewartmcallister,Q7615872,Stewart McAllister,Stewart McAllister,1914-12-27,1962-11-27,Lanarkshire,United Kingdom,id
+williamkeighley,Q2092903,William Keighley,William Keighley,1889-08-04,1984-06-24,Philadelphia,United States,id
+joshbennysafdie,Q56604143,Josh Safdie,Josh Safdie,1984-04-03,,New York City,United States,id
+joshbennysafdie,Q43676009,Benny Safdie,Benny Safdie,1986-02-24,,New York City,United States,id
+ariaster,Q54864392,Ari Aster,Ari Aster,1986-07-15,,New York City,United States,id
+roberteggers,Q20826736,Robert Eggers,Robert Eggers,1983-07-07,,New York City,United States,id
+noahbaumbach,Q459349,Noah Baumbach,Noah Baumbach,1969-09-03,,Brooklyn,United States,id
+spikejonze,Q259913,Spike Jonze,Spike Jonze,1969-10-22,,Rockville,United States,id
+toddsolondz,Q504656,Todd Solondz,Todd Solondz,1959-10-15,,Newark,United States,id
+halhartley,Q446294,Hal Hartley,Hal Hartley,1959-11-03,,Lindenhurst,United States,id
+whitstillman,Q972884,Whit Stillman,Whit Stillman,1952-01-25,,"Washington, D.C.",United States,id
+greggaraki,Q708899,Gregg Araki,Gregg Araki,1959-12-17,,Los Angeles,United States,id
+larryclark,Q714496,Larry Clark,Larry Clark,1943-01-19,,Tulsa,United States,id
+debragranik,Q288815,Debra Granik,Debra Granik,1963-02-06,,Cambridge,United States,id
+jeffnichols,Q1324417,Jeff Nichols,Jeff Nichols,1978-12-07,,Little Rock,United States,id
+treyedwardshults,Q22212893,Trey Edward Shults,Trey Edward Shults,1988-10-06,,Houston,United States,id
+davidrobertmitchell,Q19815594,David Robert Mitchell,David Robert Mitchell,1974-10-19,,Clawson,United States,id
+alexrossperry,Q4717719,Alex Ross Perry,Alex Ross Perry,1984-07-14,,Bryn Mawr,United States,id
+andrewbujalski,Q503951,Andrew Bujalski,Andrew Bujalski,1977-04-29,,Boston,United States,id
+joeswanberg,Q6212564,Joe Swanberg,Joe Swanberg,1981-08-31,,Detroit,United States,id
+jaymarkduplass,Q6166571,Jay Duplass,Jay Duplass,1973-03-07,,New Orleans,United States,id
+jaymarkduplass,Q3273787,Mark Duplass,Mark Duplass,1976-12-07,,New Orleans,United States,id
+elizahittman,Q18764127,Eliza Hittman,Eliza Hittman,1979-12-09,,Brooklyn,United States,id
+josephinedecker,Q18022491,Josephine Decker,Josephine Decker,1981-04-02,,London,United States,id
+kogonada,Q40039676,Kogonada,Kogonada,1950-01-01,,Seoul,South Korea,id
+celinesong,Q116286260,Celine Song,Celine Song,1988-09-19,,South Korea,"Canada, South Korea",id
+boburnham,Q887347,Bo Burnham,Bo Burnham,1990-08-21,,Hamilton,United States,id
+deerees,Q5249943,Dee Rees,Dee Rees,1977-02-07,,Nashville,United States,id
+avaduvernay,Q4827381,Ava DuVernay,Ava DuVernay,1972-08-24,,Long Beach,United States,id
+bootsriley,Q4944043,Boots Riley,Boots Riley,1971-04-01,,Chicago,United States,id
+ramellross,Q51808923,RaMell Ross,RaMell Ross,1982-05-15,,Frankfurt,United States,id
+abelferrara,Q262608,Abel Ferrara,Abel Ferrara,1951-07-19,,The Bronx,United States,id
+paulschrader,Q363989,Paul Schrader,Paul Schrader,1946-07-22,,Grand Rapids,United States,id
+walterhill,Q350422,Walter Hill,Walter Hill,1942-01-10,,Long Beach,United States,id
+joedante,Q455279,Joe Dante,Joe Dante,1946-11-28,,Morristown,United States,id
+wescraven,Q223992,Wes Craven,Wes Craven,1939-08-02,2015-08-30,Cleveland,United States,id
+mnightshyamalan,Q51489,M. Night Shyamalan,M. Night Shyamalan,1970-08-06,,Mahé,"United States, India",id
+mikemills,Q724098,Mike Mills,Mike Mills (director),1966-03-20,,Berkeley,United States,id
+panoscosmatos,Q30155445,Panos Cosmatos,Panos Cosmatos,1974-02-01,,Rome,Canada,id
+alexgarland,Q542634,Alex Garland,Alex Garland,1970-05-26,,London,United Kingdom,id
+benwheatley,Q2895597,Ben Wheatley,Ben Wheatley,1972-05-07,,Billericay,United Kingdom,id
+peterstrickland,Q3376901,Peter Strickland,Peter Strickland (director),1973-05-21,,Reading,United Kingdom,id
+markjenkin,Q6768242,Mark Jenkin,Mark Jenkin,1970-01-01,,Newlyn,United Kingdom,id
+shanemeadows,Q1372134,Shane Meadows,Shane Meadows,1972-12-26,,Uttoxeter,United Kingdom,id
+charlottewells,Q115803783,Charlotte Wells,Charlotte Wells,1987-06-13,,Edinburgh,United Kingdom,id
+lukasmoodysson,Q319849,Lukas Moodysson,Lukas Moodysson,1969-01-17,,Lund,Sweden,id
+nicolaswindingrefn,Q359397,Nicolas Winding Refn,Nicolas Winding Refn,1970-09-29,,Copenhagen,Kingdom of Denmark,id
+hlynurpalmason,Q31509858,Hlynur Pálmason,Hlynur Pálmason,1984-09-30,,Sveitarfélagið Hornafjörður,Iceland,id
+olivierassayas,Q550717,Olivier Assayas,Olivier Assayas,1955-01-25,,15th arrondissement of Paris,France,id
+miahansenlve,Q3307854,Mia Hansen-Løve,Mia Hansen-Løve,1981-02-05,,5th arrondissement of Paris,France,id
+arnauddesplechin,Q691335,Arnaud Desplechin,Arnaud Desplechin,1960-10-31,,Roubaix,France,id
+brunodumont,Q1291452,Bruno Dumont,Bruno Dumont,1958-03-14,,Bailleul,France,id
+alainguiraudie,Q2829890,Alain Guiraudie,Alain Guiraudie,1964-07-15,,Villefranche-de-Rouergue,France,id
+francoisozon,Q266535,François Ozon,François Ozon,1967-11-15,,14th arrondissement of Paris,France,id
+philippegarrel,Q433979,Philippe Garrel,Philippe Garrel,1948-04-06,,Boulogne-Billancourt,France,id
+catherinebreillat,Q289054,Catherine Breillat,Catherine Breillat,1948-07-13,,Bressuire,France,id
+robincampillo,Q3437047,Robin Campillo,Robin Campillo,1962-08-16,,Mohammedia,France,id
+alicediop,Q24719455,Alice Diop,Alice Diop,1979-01-01,,Aulnay-sous-Bois,France,id
+xavierdolan,Q551861,Xavier Dolan,Xavier Dolan,1989-03-20,,Montreal,Canada,id
+guymaddin,Q598995,Guy Maddin,Guy Maddin,1956-02-28,,Winnipeg,Canada,id
+christianpetzold,Q67268,Christian Petzold,Christian Petzold (director),1960-09-14,,Hilden,Germany,id
+valeskagrisebach,Q101712,Valeska Grisebach,Valeska Grisebach,1968-01-04,,Bremen,Germany,id
+ulrichseidl,Q112182,Ulrich Seidl,Ulrich Seidl,1952-11-24,,Vienna,Austria,id
+jessicahausner,Q79003,Jessica Hausner,Jessica Hausner,1972-10-06,,Vienna,Austria,id
+lukasdhont,Q53815755,Lukas Dhont,Lukas Dhont,1991-06-11,,Ghent,Belgium,id
+alexanderkluge,Q60637,Alexander Kluge,Alexander Kluge,1932-02-14,2026-03-25,Halberstadt,Germany,id
+margarethevontrotta,Q55418,Margarethe von Trotta,Margarethe von Trotta,1942-02-21,,Berlin,Germany,id
+alekseibalabanov,Q557323,Aleksei Balabanov,Aleksei Balabanov,1959-02-25,2013-05-18,Yekaterinburg,"Russia, Soviet Union",id
+kantemirbalagov,Q30346628,Kantemir Balagov,Kantemir Balagov,1991-07-28,,Nalchik,Russia,id
+sergeiloznitsa,Q2096927,Sergei Loznitsa,Sergei Loznitsa,1964-09-05,,Baranavichy,Ukraine,id
+kirillserebrennikov,Q1974774,Kirill Serebrennikov,Kirill Serebrennikov,1969-09-07,,Rostov-on-Don,Russia,id
+radujude,Q1248032,Radu Jude,Radu Jude,1977-03-28,,Bucharest,Romania,id
+corneliuporumboiu,Q2734356,Corneliu Porumboiu,Corneliu Porumboiu,1975-09-14,,Vaslui,Romania,id
+agnieszkaholland,Q231019,Agnieszka Holland,Agnieszka Holland,1948-11-28,,Warsaw,"Poland, France",id
+krzysztofzanussi,Q55169,Krzysztof Zanussi,Krzysztof Zanussi,1939-06-17,,Warsaw,Poland,id
+otariosseliani,Q321365,Otar Iosseliani,Otar Iosseliani,1934-02-02,2023-12-17,Tbilisi,"France, Georgia, Soviet Union",id
+tengizabuladze,Q319486,Tengiz Abuladze,Tengiz Abuladze,1924-01-31,1994-03-06,Kutaisi,"Georgia, Soviet Union",id
+athinaracheltsangari,Q755543,Athina Rachel Tsangari,Athina Rachel Tsangari,1966-04-02,,Athens,Greece,id
+albertserra,Q2422285,Albert Serra,Albert Serra,1975-10-09,,Banyoles,Spain,id
+mariobava,Q55438,Mario Bava,Mario Bava,1914-07-31,1980-04-25,Sanremo,"Italy, Kingdom of Italy",id
+matteogarrone,Q940107,Matteo Garrone,Matteo Garrone,1968-10-15,,Rome,Italy,id
+lisandroalonso,Q2568123,Lisandro Alonso,Lisandro Alonso,1975-06-02,,Buenos Aires,Argentina,id
+matiaspineiro,Q17350849,Matías Piñeiro,Matías Piñeiro,1982-05-01,,Buenos Aires,Argentina,id
+klebermendoncafilho,Q14940022,Kleber Mendonça Filho,Kleber Mendonça Filho,1968-11-03,,Recife,Brazil,id
+pablolarrain,Q1985090,Pablo Larraín,Pablo Larraín,1976-08-19,,Santiago,Chile,id
+ciroguerra,Q2974216,Ciro Guerra,Ciro Guerra,1981-02-06,,Río de Oro,Colombia,id
+amatescalante,Q4532710,Amat Escalante,Amat Escalante,1979-02-28,,Barcelona,"Spain, Mexico",id
+diaoyinan,Q3026306,Diao Yinan,Diao Yinan,1969-11-30,,Xi'an,People's Republic of China,id
+louye,Q423313,Lou Ye,Lou Ye,1965-01-01,,Shanghai,People's Republic of China,id
+johnnieto,Q470104,Johnnie To,Johnnie To,1955-04-22,,Kowloon,British Hong Kong,id
+annhui,Q256958,Ann Hui,Ann Hui,1947-05-23,,Anshan,"People's Republic of China, British Hong Kong",id
+stanleykwan,Q705995,Stanley Kwan,Stanley Kwan,1957-10-09,,British Hong Kong,People's Republic of China,id
+nahongjin,Q490406,Na Hong-jin,Na Hong-jin,1974-07-20,,Seoul,South Korea,id
+kimjeewoon,Q484522,Kim Ji-woon,Kim Jee-woon,1964-07-06,,Seoul,South Korea,id
+naomikawase,Q271247,Naomi Kawase,Naomi Kawase,1969-05-30,,Nara,Japan,id
+takashimiike,Q185421,Takashi Miike,Takashi Miike,1960-08-24,,Yao,Japan,id
+sionsono,Q179463,Sion Sono,Sion Sono,1961-12-18,,Toyokawa,Japan,id
+shunjiiwai,Q1323347,Shunji Iwai,Shunji Iwai,1963-01-24,,Sendai,Japan,id
+shinjisomai,Q45253,Shinji Sōmai,Shinji Sōmai,1948-01-13,2001-09-09,Morioka,Japan,id
+nobuhikoobayashi,Q3342565,Nobuhiko Obayashi,Nobuhiko Obayashi,1938-01-09,2020-04-10,Onomichi,"Japan, Empire of Japan",id
+mamoruoshii,Q285084,Mamoru Oshii,Mamoru Oshii,1951-08-08,,Ota,Japan,id
+masaakiyuasa,Q1385540,Masaaki Yuasa,Masaaki Yuasa,1965-03-16,,Fukuoka,Japan,id
+makotoshinkai,Q335080,Makoto Shinkai,Makoto Shinkai,1973-02-09,,Koumi,Japan,id
+mamoruhosoda,Q720771,Mamoru Hosoda,Mamoru Hosoda,1967-09-19,,Kamiichi,Japan,id
+maniratnam,Q174648,Mani Ratnam,Mani Ratnam,1955-06-02,,Madurai,India,id
+mrinalsen,Q982809,Mrinal Sen,Mrinal Sen,1923-05-14,2018-12-30,Faridpur,India,id
+shyambenegal,Q55406,Shyam Benegal,Shyam Benegal,1934-12-14,2024-12-23,Trimulgherry,"India, British Raj",id
+adoorgopalakrishnan,Q366242,Adoor Gopalakrishnan,Adoor Gopalakrishnan,1941-07-03,,Adoor,India,id
+payalkapadia,Q107803283,Payal Kapadia,Payal Kapadia (filmmaker),1986-01-04,,Mumbai,India,id
+chaitanyatamhane,Q21043259,Chaitanya Tamhane,Chaitanya Tamhane,1987-03-01,,Mumbai,India,id
+majidmajidi,Q81770,Majid Majidi,Majid Majidi,1959-04-17,,Tehran,Iran,id
+mohammadrasoulof,Q981853,Mohammad Rasoulof,Mohammad Rasoulof,1972-11-16,,Shiraz,Iran,id
+nadinelabaki,Q266539,Nadine Labaki,Nadine Labaki,1974-02-18,,Baabdat,Lebanon,id
+kaoutherbenhania,Q30005402,Kaouther Ben Hania,Kaouther Ben Hania,1977-08-27,,Sidi Bouzid,Tunisia,id
+mahamatsalehharoun,Q725722,Mahamat Saleh Haroun,Mahamat-Saleh Haroun,1961-01-01,,Abéché,"France, Chad",id
+alaingomis,Q2829867,Alain Gomis,Alain Gomis,1972-03-06,,Paris,"France, Senegal",id
+hailegerima,Q2274006,Haile Gerima,Haile Gerima,1946-03-04,,Gondar,"United States, Ethiopia",id
+rithypanh,Q1683688,Rithy Panh,Rithy Panh,1964-04-18,,Phnom Penh,"France, Cambodia",id
+brillantemendoza,Q917051,Brillante Mendoza,Brillante Mendoza,1960-07-30,,San Fernando,Philippines,id
+taikawaititi,Q2388576,Taika Waititi,Taika Waititi,1975-08-16,,Wellington,New Zealand,id
+warwickthornton,Q4461183,Warwick Thornton,Warwick Thornton,1970-07-23,,Alice Springs,Australia,id
+aliceguyblache,Q263367,Alice Guy-Blaché,Alice Guy-Blaché,1873-07-01,1968-03-24,Saint-Mandé,France,id
+edwinsporter,Q347864,Edwin Stanton Porter,Edwin S. Porter,1870-04-21,1941-04-30,Connellsville,United States,id
+maxlinder,Q152764,Max Linder,Max Linder,1883-12-16,1925-11-01,Saint-Loubès,France,id
+macksennett,Q317574,Mack Sennett,Mack Sennett,1880-01-17,1960-11-05,Melbourne,"Canada, United States",id
+thomashince,Q942822,Thomas H. Ince,Thomas H. Ince,1882-11-06,1924-11-19,Newport,United States,id
+allandwan,Q959677,Allan Dwan,Allan Dwan,1885-04-03,1981-12-28,Toronto,"Canada, United States",id
+rexingram,Q1750696,Rex Ingram,Rex Ingram (director),1892-01-15,1950-07-21,Dublin,"Ireland, United States",id
+germainedulac,Q275597,Germaine Dulac,Germaine Dulac,1882-11-17,1942-07-20,Amiens,France,id
+marcellherbier,Q127109,Marcel L'Herbier,Marcel L'Herbier,1888-04-23,1979-11-26,10ᵗʰ arrondissement of Paris,France,id
+jacquesfeyder,Q122187,Jacques Feyder,Jacques Feyder,1885-07-21,1948-05-25,Ixelles,"Belgium, France",id
+paulleni,Q77465,Paul Leni,Paul Leni,1885-07-08,1929-09-02,Stuttgart,German Reich,id
+paulwegener,Q66410,Paul Wegener,Paul Wegener,1874-12-11,1948-09-13,Jarantowice,Germany,id
+eadupont,Q70678,Ewald André Dupont,E. A. Dupont,1891-12-25,1956-12-12,Zeitz,Germany,id
+arnoldfanck,Q71253,Arnold Fanck,Arnold Fanck,1889-03-06,1974-09-28,Frankenthal,"Germany, German Empire",id
+hansrichter,Q213597,Hans Richter,Hans Richter (artist),1888-04-06,1976-02-01,Berlin,"United States, Switzerland, Germany",id
+mauritzstiller,Q445917,Mauritz Stiller,Mauritz Stiller,1883-07-17,1928-11-08,Helsinki,"Sweden, Russian Empire",id
+benjaminchristensen,Q817442,Benjamin Christensen,Benjamin Christensen,1879-09-28,1959-04-02,Viborg,Kingdom of Denmark,id
+yakovprotazanov,Q503219,Yakov Protazanov,Yakov Protazanov,1881-02-04,1945-08-08,Moscow,"Soviet Union, Russian Empire",id
+levkuleshov,Q55199,Lev Kuleshov,Lev Kuleshov,1899-01-13,1970-03-30,Tambov,"Soviet Union, Russian Empire",id
+vsevolodpudovkin,Q55195,Vsevolod Pudovkin,Vsevolod Pudovkin,1893-02-28,1953-06-30,Penza,"Soviet Union, Russian Empire, Russian Socialist Federative Soviet Republic",id
+grigorikozintsev,Q553072,Grigori Kozintsev,Grigori Kozintsev,1905-03-23,1973-05-11,Kyiv,"Soviet Union, Russian Empire",id
+abramroom,Q2271997,Abram Room,Abram Room,1894-06-28,1976-07-26,Vilnius,"Soviet Union, Russian Empire",id
+esfirshub,Q463767,Esfir Shub,Esfir Shub,1894-03-16,1959-09-21,Surazh,Soviet Union,id
+johngrierson,Q1700285,John Grierson,John Grierson,1898-04-26,1972-02-19,Deanston,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+winsormccay,Q207960,Winsor McCay,Winsor McCay,1869-09-26,1934-07-26,Spring Lake,United States,id
+ladislasstarevich,Q710013,Ladislas Starevich,Ladislas Starevich,1882-08-08,1965-02-28,Moscow,"France, Russian Empire",name search
+fleischerbrothers,Q1173200,Dave Fleischer,Dave Fleischer,1894-07-14,1979-06-25,New York City,United States,id
+texavery,Q319723,Tex Avery,Tex Avery,1908-02-26,1980-08-26,Taylor,United States,id
+oskarfischinger,Q66245,Oskar Fischinger,Oskar Fischinger,1900-06-22,1967-01-31,Gelnhausen,Germany,id
+jiritrnka,Q362319,Jiří Trnka,Jiří Trnka,1912-02-24,1969-12-30,Plzeň,"Austria–Hungary, Czechoslovakia",id
+karelzeman,Q282000,Karel Zeman,Karel Zeman,1910-11-03,1989-04-05,Ostroměř,"Czechoslovakia, Kingdom of Bohemia",id
+jansvankmajer,Q316165,Jan Švankmajer,Jan Švankmajer,1934-09-04,,Prague,"Czech Republic, Czechoslovakia",id
+bradbird,Q310960,Brad Bird,Brad Bird,1957-09-24,,Kalispell,United States,id
+harrysmith,Q567152,Harry Everett Smith,Harry Everett Smith,1923-05-29,1991-11-27,Portland,United States,id
+peterkubelka,Q86966,Peter Kubelka,Peter Kubelka,1934-03-23,,Vienna,Austria,id
+kenjacobs,Q325399,Ken Jacobs,Ken Jacobs,1933-05-25,2025-10-05,Brooklyn,United States,id
+jamesbenning,Q1680032,James Benning,James Benning (film director),1942-12-28,,Milwaukee,United States,id
+sufriedrich,Q4492765,Su Friedrich,Su Friedrich,1954-12-12,,New Haven,United States,id
+marcobellocchio,Q53010,Marco Bellocchio,Marco Bellocchio,1939-11-09,,Bobbio,Italy,id
+lilianacavani,Q55442,Liliana Cavani,Liliana Cavani,1933-01-12,,カルピ,Italy,id
+valeriozurlini,Q53041,Valerio Zurlini,Valerio Zurlini,1926-03-19,1982-10-27,Bologna,"Italy, Kingdom of Italy",id
+luigicomencini,Q53015,Luigi Comencini,Luigi Comencini,1916-06-08,2007-04-06,Salò,"Italy, Kingdom of Italy",id
+vittoriodeseta,Q55447,Vittorio De Seta,Vittorio De Seta,1923-10-15,2011-11-28,Palermo,"Italy, Kingdom of Italy",id
+albertolattuada,Q59204,Alberto Lattuada,Alberto Lattuada,1914-11-13,2005-07-03,Vaprio d'Adda,"Italy, Kingdom of Italy",id
+julienduvivier,Q453683,Julien Duvivier,Julien Duvivier,1896-10-08,1967-10-29,Lille,France,id
+sachaguitry,Q337276,Sacha Guitry,Sacha Guitry,1885-02-21,1957-07-24,Saint Petersburg,France,id
+claudesautet,Q106669,Claude Sautet,Claude Sautet,1924-02-23,2000-07-22,Montrouge,France,id
+bertrandtavernier,Q337226,Bertrand Tavernier,Bertrand Tavernier,1941-04-25,2021-03-25,6th arrondissement of Lyon,France,id
+andretechine,Q523144,André Téchiné,André Téchiné,1943-03-13,,Valence,France,id
+pierreetaix,Q1860448,Pierre Étaix,Pierre Étaix,1928-11-23,2016-10-14,Roanne,France,id
+jacquesrozier,Q713409,Jacques Rozier,Jacques Rozier,1926-11-10,2023-06-02,15th arrondissement of Paris,France,id
+bertrandblier,Q432246,Bertrand Blier,Bertrand Blier,1939-03-14,2025-01-20,Boulogne-Billancourt,France,id
+jeanjacquesbeineix,Q505626,Jean-Jacques Beineix,Jean-Jacques Beineix,1946-10-08,2022-01-13,17th arrondissement of Paris,France,id
+konradwolf,Q67637,Konrad Wolf,Konrad Wolf,1925-10-20,1982-03-07,Hechingen,"Nazi Germany, Soviet Union, East Germany, Weimar Republic",id
+frankbeyer,Q63972,Frank Beyer,Frank Beyer,1932-05-26,2006-10-01,Nobitz,"Germany, East Germany, German Reich",id
+wolfgangstaudte,Q69159,Wolfgang Staudte,Wolfgang Staudte,1906-10-09,1984-01-19,Saarbrücken,"Germany, West Germany",id
+helmutkautner,Q69171,Helmut Käutner,Helmut Käutner,1908-03-25,1980-04-20,Düsseldorf,Germany,id
+wernerschroeter,Q62323,Werner Schroeter,Werner Schroeter,1945-04-07,2010-04-12,Georgenthal,Germany,id
+rosavonpraunheim,Q62942,Rosa von Praunheim,Rosa von Praunheim,1942-11-25,2025-12-17,Riga,Germany,id
+helmasandersbrahms,Q67903,Helma Sanders-Brahms,Helma Sanders-Brahms,1940-11-20,2014-05-27,Emden,Germany,id
+tonyrichardson,Q52411,Tony Richardson,Tony Richardson,1928-06-05,1991-11-14,Shipley,United Kingdom,id
+anthonyasquith,Q360844,Anthony Asquith,Anthony Asquith,1902-11-09,1968-02-21,London,United Kingdom,id
+thorolddickinson,Q2429028,Thorold Dickinson,Thorold Dickinson,1903-11-16,1984-04-14,Bristol,United Kingdom,id
+basildearden,Q810020,Basil Dearden,Basil Dearden,1911-01-01,1971-03-23,Westcliff-on-Sea,"United Kingdom, United Kingdom of Great Britain and Ireland",id
+charlescrichton,Q727753,Charles Crichton,Charles Crichton,1910-08-06,1999-09-14,Wallasey,United Kingdom,id
+juanantoniobardem,Q542529,Juan Antonio Bardem,Juan Antonio Bardem,1922-06-12,2002-10-30,Madrid,Spain,id
+joseluisguerin,Q2086767,José Luis Guerin,José Luis Guerín,1960-01-01,,Barcelona,Spain,id
+joaocesarmonteiro,Q55427,João César Monteiro,João César Monteiro,1939-02-02,2003-02-03,Figueira da Foz,Portugal,id
+paulorocha,Q540926,Paulo Rocha,Paulo Rocha (film director),1935-12-22,2012-12-29,Porto,Portugal,id
+michaelcacoyannis,Q315374,Michael Cacoyannis,Michael Cacoyannis,1922-06-11,2011-07-25,Limassol,"Greece, United Kingdom, British Cyprus",name search
+metinerksan,Q936089,Metin Erksan,Metin Erksan,1929-01-01,2012-08-04,Çanakkale,Turkey,id
+omerkavur,Q3040561,Ömer Kavur,Ömer Kavur,1944-06-18,2005-05-12,Ankara,Turkey,id
+susannebier,Q236148,Susanne Bier,Susanne Bier,1960-04-15,,Copenhagen,Kingdom of Denmark,id
+caichusheng,Q384708,Cai Chusheng,Cai Chusheng,1906-01-12,1968-07-15,Chaoyang District,"People's Republic of China, Qing dynasty, Republic of China",id
+sunyu,Q1375817,Sun Yu,Sun Yu (director),1900-03-21,1990-07-11,Chongqing,China,id
+wuyonggang,Q351230,Wu Yonggang,Wu Yonggang,1907-11-01,1982-12-18,Jiangsu,"People's Republic of China, China",id
+yuanmuzhi,Q1376173,Yuan Muzhi,Yuan Muzhi,1909-03-03,1978-01-30,Ningbo,China,id
