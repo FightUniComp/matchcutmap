@@ -25,13 +25,12 @@ def fold(s):
 def year(s):
     try: return int(str(s)[:4])
     except (TypeError, ValueError): return None
-def tsv(path, keep):
-    """The rows of an IMDb .tsv file that pass keep()."""
+def tsv(path, ids):
+    """The rows of an IMDb .tsv file whose first column is in ids (checked before splitting, for speed)."""
     with open(path, encoding="utf-8", newline="") as fh:
         next(fh)
         for line in fh:
-            p = line.rstrip("\r\n").split("\t")
-            if keep(p): yield p
+            if line[:line.find("\t")] in ids: yield line.rstrip("\r\n").split("\t")
 
 if len(sys.argv) not in (2, 4): sys.exit(__doc__)
 films = {f["id"]: f for f in load("films", [])}
@@ -51,11 +50,15 @@ if len(sys.argv) == 4:
         for p in rec.get("persons", []):
             if p.get("imdb_id"): nm.setdefault(p["imdb_id"], set()).add(i)
     made = {}                                   # director id -> IMDb title ids they directed
-    for p in tsv(sys.argv[3], lambda p: any(d in nm for d in p[1].split(","))):
-        for d in p[1].split(","):
-            for i in nm.get(d, ()): made.setdefault(i, []).append(p[0])
+    with open(sys.argv[3], encoding="utf-8", newline="") as fh:   # title.crew: tconst, directors, writers
+        next(fh)
+        for line in fh:
+            t, ds, _ = line.split("\t", 2)
+            if ds != "\\N":
+                for d in ds.split(","):
+                    for i in nm.get(d, ()): made.setdefault(i, []).append(t)
     every = {t for ts in made.values() for t in ts}
-    info = {p[0]: p for p in tsv(sys.argv[2], lambda p: p[0] in every)}   # tconst type primary original adult start ...
+    info = {p[0]: p for p in tsv(sys.argv[2], every)}   # tconst type primary original adult start ...
     rank = {"movie": 0, "tvMovie": 1, "video": 2, "short": 3}
     found = 0
     for i, ts in made.items():
@@ -73,7 +76,7 @@ if len(sys.argv) == 4:
     print(f"{found} filmography entries matched through the director's IMDb credits")
 
 out = {}
-for p in tsv(sys.argv[1], lambda p: p[0] in want):
+for p in tsv(sys.argv[1], want):
     for k in want[p[0]]: out[k] = [float(p[1]), int(p[2])]
 os.makedirs(os.path.join(HERE, "personal"), exist_ok=True)
 path = os.path.join(HERE, "personal", "imdb-ratings.json")
